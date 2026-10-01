@@ -1,0 +1,196 @@
+import * as Cesium from 'cesium';
+import 'cesium/Build/Cesium/Widgets/widgets.css';
+import { BASEMAPS, OVERLAYS, DEM, byId, CONTROL_COLORS, loadGeoJSON } from '../catalog.js';
+
+const ION_TOKEN_KEY = 'cesiumIonToken';
+const FOV = Cesium.Math.toRadians(60);
+
+function imageryProvider(l) {
+  const credit = new Cesium.Credit(l.attribution || '', true);
+  if (l.kind === 'wms') {
+    return new Cesium.WebMapServiceImageryProvider({
+      url: l.url, layers: l.layers, credit,
+      tilingScheme: new Cesium.WebMercatorTilingScheme(),
+      parameters: { format: l.format || 'image/png', transparent: true },
+      maximumLevel: l.maxzoom,
+    });
+  }
+  return new Cesium.UrlTemplateImageryProvider({ url: l.url, maximumLevel: l.maxzoom ?? 19, credit });
+}
+
+// Key-free terrain: decode Terrarium PNG tiles (same DEM MapLibre uses) into heightmaps.
+function terrariumTerrain() {
+  const N = 65;
+  const tiles = new Map();
+  const canvas = document.createElement('canvas');
+  canvas.width = canvas.height = 256;
+  const ctx = canvas.getContext('2d', { willReadFrequently: true });
+  const loadTile = (z, x, y) => {
+    const key = `${z}/${x}/${y}`;
+    if (!tiles.has(key)) {
+      const url = DEM.url.replace('{z}', z).replace('{x}', x).replace('{y}', y);
+      tiles.set(key, Cesium.Resource.fetchImage({ url, preferImageBitmap: true }).then((img) => {
+        ctx.drawImage(img, 0, 0);
+        return ctx.getImageData(0, 0, 256, 256).data;
+      }));
+      if (tiles.size > 300) tiles.delete(tiles.keys().next().value);
+    }
+    return tiles.get(key);
+  };
+  return new Cesium.CustomHeightmapTerrainProvider({
+    width: N, height: N,
+    tilingScheme: new Cesium.WebMercatorTilingScheme(),
+    credit: new Cesium.Credit(DEM.attribution, true),
+    callback: async (x, y, level) => {
+      // Above the DEM's max zoom, sample a sub-window of the ancestor tile.
+      const z = Math.min(level, DEM.maxzoom - 1);
+      const d = 2 ** (level - z);
+      const px = Math.floor(x / d), py = Math.floor(y / d);
+      const ox = ((x % d) / d) * 256, oy = ((y % d) / d) * 256, span = 256 / d;
+      const data = await loadTile(z, px, py);
+      const out = new Float32Array(N * N);
+      for (let j = 0; j < N; j++) {
+        const sy = Math.min(255, Math.floor(oy + (j / (N - 1)) * span));
+        for (let i = 0; i < N; i++) {
+          const sx = Math.min(255, Math.floor(ox + (i / (N - 1)) * span));
+          const k = (sy * 256 + sx) * 4;
+          out[j * N + i] = Math.max(0, data[k] * 256 + data[k + 1] + data[k + 2] / 256 - 32768);
+        }
+      }
+      return out;
+    },
+  });
+}
+
+async function terrainProvider(state, onMessage) {
+  if (!state.terrain) return new Cesium.EllipsoidTerrainProvider();
+  let token = null;
+  try { token = localStorage.getItem(ION_TOKEN_KEY); } catch {}
+  if (token) {
+    Cesium.Ion.defaultAccessToken = token;
+    try {
+      return await Cesium.createWorldTerrainAsync({ requestVertexNormals: true });
+    } catch (e) {
+      onMessage?.(`Cesium World Terrain failed (${e.message}); using Terrarium DEM.`);
+    }
+  }
+  return terrariumTerrain();
+}
+
+function zoomToHeight(zoom, lat, px) {
+  const mpp = (156543.034 * Math.cos(Cesium.Math.toRadians(lat))) / 2 ** zoom;
+  return (mpp * px) / (2 * Math.tan(FOV / 2));
+}
+function heightToZoom(h, lat, px) {
+  const mpp = (h * 2 * Math.tan(FOV / 2)) / px;
+  return Math.log2((156543.034 * Math.cos(Cesium.Math.toRadians(lat))) / mpp);
+}
+
+async function geojsonSource(o) {
+  const ds = new Cesium.CustomDataSource(o.id);
+  const files = await Promise.all(o.files.map(loadGeoJSON));
+  for (const [i, gj] of files.entries()) {
+    const isRiverLines = o.id === 'rivers' && i === 1;
+    const loaded = await Cesium.GeoJsonDataSource.load(gj, {
+      stroke: isRiverLines ? Cesium.Color.fromCssColorString('#2b6cb0') : Cesium.Color.fromCssColorString('#222'),
+      strokeWidth: isRiverLines ? 2 : 1,
+      fill: Cesium.Color.fromCssColorString('#5b9bd5').withAlpha(0.7),
+      clampToGround: isRiverLines, // drape river lines over 3D terrain
+    });
+    for (const e of loaded.entities.values) {
+      if (o.id === 'countries' && e.polygon) {
+        const c = CONTROL_COLORS[e.properties.mapcolor7?.getValue() ?? 0] || CONTROL_COLORS[0];
+        e.polygon.material = Cesium.Color.fromCssColorString(c).withAlpha(0.35);
+        e.polygon.outline = true;
+        e.polygon.outlineColor = Cesium.Color.fromCssColorString('#222');
+        e.polygon.height = 0;
+      }
+      ds.entities.add(e);
+    }
+  }
+  return ds;
+}
+
+export async function createMap(container, state, { onMessage }) {
+  window.CESIUM_BASE_URL ??= import.meta.env.BASE_URL + 'cesium';
+  const viewer = new Cesium.Viewer(container, {
+    baseLayer: false,
+    baseLayerPicker: false,
+    geocoder: false,
+    homeButton: true,
+    sceneModePicker: true,
+    navigationHelpButton: false,
+    animation: false,
+    timeline: false,
+    fullscreenButton: false,
+    infoBox: false,
+    selectionIndicator: false,
+    terrainProvider: new Cesium.EllipsoidTerrainProvider(),
+  });
+  if (import.meta.env.DEV) window.__cesiumViewer = viewer;
+  viewer.scene.globe.enableLighting = false;
+  viewer.scene.globe.depthTestAgainstTerrain = false;
+  viewer.camera.setView({
+    destination: Cesium.Cartesian3.fromDegrees(state.view.lon, state.view.lat,
+      zoomToHeight(state.view.zoom, state.view.lat, container.clientHeight || 800)),
+  });
+
+  const imageryCache = new Map(); // id -> ImageryLayer
+  const dataSources = new Map(); // id -> Promise<DataSource>
+  let terrainKey = null;
+  let seq = 0;
+
+  async function apply(next) {
+    const mine = ++seq;
+    const layers = viewer.imageryLayers;
+    const wanted = [next.base, ...next.overlays.filter((id) => byId(OVERLAYS, id)?.kind !== 'geojson')];
+
+    // Imagery: rebuild order to match `wanted`.
+    for (const [id, layer] of imageryCache) {
+      if (!wanted.includes(id)) { layers.remove(layer, true); imageryCache.delete(id); }
+    }
+    for (const id of wanted) {
+      let def = byId(BASEMAPS, id) || byId(OVERLAYS, id);
+      if (!def || def.kind === 'colorrelief') continue;
+      if (def.kind === 'style') def = byId(BASEMAPS, def.fallback); // vector styles: MapLibre only
+      if (!imageryCache.has(id)) {
+        const layer = new Cesium.ImageryLayer(imageryProvider(def), { alpha: def.opacity ?? 1 });
+        layers.add(layer);
+        imageryCache.set(id, layer);
+      }
+      layers.raiseToTop(imageryCache.get(id));
+    }
+
+    // Vector overlays.
+    for (const o of OVERLAYS.filter((x) => x.kind === 'geojson')) {
+      const on = next.overlays.includes(o.id);
+      if (on && !dataSources.has(o.id)) {
+        dataSources.set(o.id, geojsonSource(o).then((ds) => viewer.dataSources.add(ds)));
+      }
+      if (dataSources.has(o.id)) dataSources.get(o.id).then((ds) => { ds.show = next.overlays.includes(o.id); });
+    }
+
+    viewer.scene.verticalExaggeration = next.exaggeration;
+    const key = `${next.terrain}`;
+    if (key !== terrainKey) {
+      terrainKey = key;
+      const tp = await terrainProvider(next, onMessage);
+      if (mine === seq || terrainKey === key) viewer.terrainProvider = tp;
+    }
+  }
+
+  await apply(state);
+
+  return {
+    apply,
+    getView() {
+      const c = viewer.camera.positionCartographic;
+      const lat = Cesium.Math.toDegrees(c.latitude);
+      return {
+        lon: Cesium.Math.toDegrees(c.longitude), lat,
+        zoom: Math.max(0, Math.min(20, heightToZoom(c.height, lat, container.clientHeight || 800))),
+      };
+    },
+    destroy() { viewer.destroy(); },
+  };
+}

@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>De facto world map – base map lab</title>
+  <link rel="stylesheet" href="/src/style.css" />
+</head>
+<body>
+  <aside id="panel">
+    <header>
+      <h1>Base map lab</h1>
+      <button id="toggle-panel" title="Hide panel" aria-label="Hide panel">⟨</button>
+    </header>
+
+    <section>
+      <h2>Library</h2>
+      <div id="libraries" class="options"></div>
+    </section>
+
+    <section>
+      <h2>Base map</h2>
+      <select id="base"></select>
+      <p id="base-note" class="note"></p>
+    </section>
+
+    <section>
+      <h2>Overlays</h2>
+      <div id="overlays" class="options"></div>
+    </section>
+
+    <section id="three-d">
+      <h2>3D</h2>
+      <label><input type="checkbox" id="globe" /> Globe projection</label>
+      <label><input type="checkbox" id="terrain" /> 3D terrain</label>
+      <label class="range">Exaggeration <input type="range" id="exaggeration" min="1" max="5" step="0.5" /> <span id="exaggeration-value"></span></label>
+      <div id="ion" hidden>
+        <label>Cesium ion token (optional)
+          <input type="password" id="ion-token" placeholder="paste token for Cesium World Terrain" />
+        </label>
+        <p class="note">Without a token, terrain is decoded from the same free Terrarium DEM MapLibre uses.</p>
+      </div>
+      <p class="note">Tip: right-drag (MapLibre) or ctrl-drag (Cesium) to tilt.</p>
+    </section>
+
+    <p id="message" role="status"></p>
+    <footer><a href="https://github.com/bluedich/de-facto-world-map/blob/main/docs/basemap-options.md" target="_blank" rel="noopener">Comparison notes</a></footer>
+  </aside>
+  <button id="show-panel" hidden aria-label="Show panel">⟩</button>
+  <main id="map"></main>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>

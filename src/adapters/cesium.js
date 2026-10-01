@@ -1,6 +1,7 @@
 import * as Cesium from 'cesium';
 import 'cesium/Build/Cesium/Widgets/widgets.css';
 import { BASEMAPS, OVERLAYS, DEM, byId, CONTROL_COLORS, loadGeoJSON } from '../catalog.js';
+import { classify, RELATION_COLOR } from '../relations.js';
 
 const ION_TOKEN_KEY = 'cesiumIonToken';
 const FOV = Cesium.Math.toRadians(60);
@@ -92,19 +93,20 @@ function heightToZoom(h, lat, px) {
   return Math.log2((156543.034 * Math.cos(Cesium.Math.toRadians(lat))) / mpp);
 }
 
-// Style every control point for the current selection ({ id, controller } or null).
+// Style every control point for the current selection context (see relations.js) or null.
 function styleSelection(ds, sel) {
   const now = Cesium.JulianDate.now();
   for (const e of ds.entities.values) {
     if (!e.point) continue;
     const p = e.properties.getValue(now);
-    const base = Cesium.Color.fromCssColorString(p.color);
-    const same = sel && p.controller_id === sel.controller;
-    e.point.color = sel && !same ? base.withAlpha(0.12) : base;
-    e.point.outlineColor = same ? Cesium.Color.WHITE : Cesium.Color.BLACK;
-    e.point.outlineWidth = !sel ? 0.5 : same ? (p.id === sel.id ? 3 : 1.5) : 0;
-    // Draw the selected controller's points in front of the others.
-    e.point.disableDepthTestDistance = same ? Number.POSITIVE_INFINITY : undefined;
+    const rel = sel ? classify(p, sel) : null;
+    const own = rel === 'controlled';
+    const color = Cesium.Color.fromCssColorString(RELATION_COLOR[rel] || p.color);
+    e.point.color = sel && !rel ? color.withAlpha(0.12) : color;
+    e.point.outlineColor = own ? Cesium.Color.WHITE : Cesium.Color.BLACK;
+    e.point.outlineWidth = !sel ? 0.5 : !rel ? 0 : p.id === sel.id ? 3 : own ? 1.5 : 0.6;
+    // Draw related points in front of the others.
+    e.point.disableDepthTestDistance = rel ? Number.POSITIVE_INFINITY : undefined;
   }
 }
 

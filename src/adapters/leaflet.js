@@ -1,6 +1,7 @@
 import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
 import { BASEMAPS, OVERLAYS, byId, CONTROL_COLORS, loadGeoJSON } from '../catalog.js';
+import { classify, RELATION_COLOR } from '../relations.js';
 
 // Tile layer whose URL takes the tile's EPSG:3857 bounding box.
 const BboxTileLayer = L.TileLayer.extend({
@@ -29,18 +30,22 @@ function rasterLayer(l) {
 
 const drcBaseStyle = (p) => ({ color: '#222', weight: 0.4, opacity: 1, fillColor: p.color, fillOpacity: p.confidence === 'low' ? 0.55 : 0.9 });
 
-// Style every control point for the current selection ({ id, controller } or null).
+// Style every control point for the current selection context (see relations.js) or null.
 function styleSelection(group, sel) {
+  const front = [];
   group.eachLayer((gj) => gj.eachLayer?.((m) => {
     const p = m.feature.properties;
     if (!sel) { m.setStyle(drcBaseStyle(p)); return; }
-    if (p.controller_id === sel.controller) {
-      m.setStyle({ color: '#fff', weight: p.id === sel.id ? 3 : 1.2, opacity: 1, fillOpacity: 1 });
-      m.bringToFront();
-    } else {
-      m.setStyle({ weight: 0, opacity: 0, fillOpacity: 0.12 });
-    }
+    const rel = classify(p, sel);
+    if (!rel) { m.setStyle({ fillColor: p.color, weight: 0, opacity: 0, fillOpacity: 0.12 }); return; }
+    const own = rel === 'controlled';
+    m.setStyle({
+      fillColor: RELATION_COLOR[rel] || p.color, fillOpacity: 1, opacity: 1,
+      color: own ? '#fff' : '#111', weight: p.id === sel.id ? 3 : own ? 1.2 : 0.6,
+    });
+    front.push([p.id === sel.id ? 2 : own ? 1 : 0, m]);
   }));
+  front.sort((a, b) => a[0] - b[0]).forEach(([, m]) => m.bringToFront());
 }
 
 function geojsonLayer(o, renderer, onSelect) {

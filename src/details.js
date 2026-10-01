@@ -25,7 +25,7 @@ function entityChip(entities, id) {
   const e = entities[id];
   if (!e) return esc(id);
   const color = e.color || entities[e.parent_id]?.color || '#888';
-  return `<span class="chip" title="${esc(e.name)}"><i style="background:${esc(color)}"></i>${esc(e.short_name || e.name)}</span>`;
+  return `<span class="chip" data-entity="${esc(id)}" title="Highlight ${esc(e.name)} on the map"><i style="background:${esc(color)}"></i>${esc(e.short_name || e.name)}</span>`;
 }
 
 function entityCard(entities, id) {
@@ -137,10 +137,20 @@ export function showHighlightSummary(html) {
   document.querySelector('#details .highlight-info').innerHTML = html;
 }
 
-export function initDetails(onClose) {
+export const loadIndex = () => load('index');
+
+// onClose: details closed; onEntity(id): an entity chip was clicked.
+export function initDetails({ onClose, onEntity } = {}) {
   const el = document.getElementById('details');
   el.querySelector('.close').addEventListener('click', () => { hideDetails(); onClose?.(); });
   document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape' && !el.hidden) { hideDetails(); onClose?.(); }
+  });
+  el.addEventListener('click', (e) => {
+    const chip = e.target.closest('.chip[data-entity]');
+    if (!chip) return;
+    el.querySelectorAll('.chip.active').forEach((c) => c.classList.remove('active'));
+    el.querySelectorAll(`.chip[data-entity="${CSS.escape(chip.dataset.entity)}"]`).forEach((c) => c.classList.add('active'));
+    onEntity?.(chip.dataset.entity);
   });
 }

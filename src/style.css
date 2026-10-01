@@ -28,7 +28,7 @@ footer { border-top: 1px solid var(--line); padding-top: 8px; font-size: 12px; }
 a { color: var(--accent); }
 button { background: none; border: 1px solid var(--line); border-radius: 6px; color: var(--fg); cursor: pointer; padding: 2px 8px; }
 #show-panel { position: absolute; top: 10px; left: 10px; z-index: 20; background: var(--bg); }
-#map { flex: 1; position: relative; min-width: 0; }
+#map { flex: 1; position: relative; min-width: 0; isolation: isolate; }
 #map > div { position: absolute; inset: 0; }
 body.collapsed #panel { display: none; }
 @media (max-width: 700px) {
@@ -67,3 +67,7 @@ body.collapsed #panel { display: none; }
 @media (max-width: 700px) {
   #details { top: auto; left: 8px; right: 8px; bottom: 8px; width: auto; max-width: none; max-height: 60%; }
 }
+#details .chip[data-entity] { cursor: pointer; border-radius: 4px; }
+#details .chip[data-entity]:hover { background: color-mix(in srgb, var(--accent) 12%, transparent); }
+#details .chip.active { outline: 1px solid var(--accent); }
+#details .highlight-info .rel { white-space: nowrap; margin-right: 8px; }

@@ -26,13 +26,23 @@ def export_points(con):
                (select short_name from entity where id = v.sovereign_id) as sovereign_short
         from v_current_control v
         where not exists (select 1 from location n where n.parent_id = v.location_id)''').fetchall()
+    # Other actors at each location in its current assessment, as '|entity:role|entity:role|' so the map
+    # can test membership with a plain substring match.
+    presence = dict(con.execute('''
+        select l.id, '|' || group_concat(p.entity_id || ':' || p.role, '|') || '|'
+        from location l
+        join assessment_presence p on p.assessment_id = (
+          select id from control_assessment where location_id = l.id order by as_of desc, id desc limit 1)
+        group by l.id''').fetchall())
     feats = [{
         'type': 'Feature',
         'geometry': {'type': 'Point', 'coordinates': [round(r['lon'], 5), round(r['lat'], 5)]},
         'properties': {
             'id': r['location_id'], 'name': r['name'], 'kind': r['kind'], 'population': r['population'],
             'controller': r['controller_short'] or r['controller'], 'controller_id': r['controller_id'],
-            'sovereign': r['sovereign_short'] or r['sovereign'], 'color': r['controller_color'] or r['sovereign_color'],
+            'sovereign': r['sovereign_short'] or r['sovereign'], 'sovereign_id': r['sovereign_id'],
+            **({'presence': presence[r['location_id']]} if r['location_id'] in presence else {}),
+            'color': r['controller_color'] or r['sovereign_color'],
             'status': r['status'], 'confidence': r['confidence'], 'adm2': r['adm2_pcode'],
         },
     } for r in rows]

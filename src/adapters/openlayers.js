@@ -11,6 +11,7 @@ import { Style, Stroke, Fill, Circle as CircleStyle } from 'ol/style.js';
 import { fromLonLat, toLonLat } from 'ol/proj.js';
 import { defaults as defaultControls, ScaleLine } from 'ol/control.js';
 import { BASEMAPS, OVERLAYS, byId, CONTROL_COLORS, loadGeoJSON } from '../catalog.js';
+import { classify, RELATION_COLOR } from '../relations.js';
 
 function bboxSource(l) {
   const source = new XYZ({ maxZoom: l.maxzoom, crossOrigin: 'anonymous', attributions: l.attribution });
@@ -40,7 +41,7 @@ const countryStyles = CONTROL_COLORS.map((c) => new Style({
   stroke: new Stroke({ color: '#222', width: 0.8 }),
 }));
 
-// Selected control point ({ id, controller }) or null; read by the point style function.
+// Selection context (see relations.js) or null; read by the point style function.
 let selection = null;
 const dimStyles = new globalThis.Map();
 
@@ -52,15 +53,16 @@ function geojsonLayer(o) {
   const pointStyles = new globalThis.Map();
   const pointStyle = (f) => {
     if (selection) {
-      const same = f.get('controller_id') === selection.controller;
-      if (same) {
+      const rel = classify(f.getProperties(), selection);
+      if (rel) {
         const r = Math.max(2, Math.log10(f.get('population') || 1000) * 2 - 4);
         const isSel = f.get('id') === selection.id;
+        const own = rel === 'controlled';
         return new Style({
-          zIndex: isSel ? 2 : 1,
+          zIndex: isSel ? 3 : own ? 2 : 1,
           image: new CircleStyle({
-            radius: r, fill: new Fill({ color: f.get('color') }),
-            stroke: new Stroke({ color: '#fff', width: isSel ? 3 : 1.2 }),
+            radius: r, fill: new Fill({ color: RELATION_COLOR[rel] || f.get('color') }),
+            stroke: new Stroke({ color: own ? '#fff' : '#111', width: isSel ? 3 : own ? 1.2 : 0.6 }),
           }),
         });
       }

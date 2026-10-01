@@ -2,6 +2,7 @@ import * as maplibregl from 'maplibre-gl';
 import 'maplibre-gl/dist/maplibre-gl.css';
 import workerUrl from 'maplibre-gl/dist/maplibre-gl-worker.mjs?worker&url';
 import { BASEMAPS, OVERLAYS, DEM, byId, wmsTemplate, CONTROL_COLORS } from '../catalog.js';
+import { RELATION_COLOR, relationExpression } from '../relations.js';
 
 maplibregl.setWorkerUrl(workerUrl);
 
@@ -28,8 +29,8 @@ function rasterSource(l) {
 
 const abs = (path) => new URL(import.meta.env.BASE_URL + path, location.href).href;
 
-// Selected control point ({ id, controller }) or null. Points of the same controller are
-// outlined and drawn on top; all others are dimmed.
+// Selection context (see relations.js) or null. Points the entity controls keep their colour with a
+// white outline; related points take the relation colour; all others are dimmed.
 let selection = null;
 const DRC_POINTS = 'ov-drc-control-points';
 
@@ -37,20 +38,24 @@ function drcStyle(sel) {
   if (!sel) {
     return {
       paint: {
+        'circle-color': ['get', 'color'],
         'circle-opacity': ['match', ['get', 'confidence'], 'low', 0.55, 0.9],
         'circle-stroke-color': '#222', 'circle-stroke-width': 0.4,
       },
       layout: { 'circle-sort-key': 0 },
     };
   }
-  const same = ['==', ['get', 'controller_id'], sel.controller];
+  const rel = relationExpression(sel);
+  const isSel = ['==', ['get', 'id'], sel.id ?? ''];
   return {
     paint: {
-      'circle-opacity': ['case', same, 1, 0.12],
-      'circle-stroke-color': ['case', same, '#ffffff', '#222'],
-      'circle-stroke-width': ['case', ['==', ['get', 'id'], sel.id], 3, same, 1.2, 0],
+      'circle-color': ['match', rel,
+        ...Object.entries(RELATION_COLOR).filter(([, c]) => c).flat(), ['get', 'color']],
+      'circle-opacity': ['match', rel, 'none', 0.12, 1],
+      'circle-stroke-color': ['match', rel, 'controlled', '#ffffff', '#111111'],
+      'circle-stroke-width': ['case', isSel, 3, ['match', rel, 'controlled', 1.2, 'none', 0, 0.6]],
     },
-    layout: { 'circle-sort-key': ['case', ['==', ['get', 'id'], sel.id], 2, same, 1, 0] },
+    layout: { 'circle-sort-key': ['case', isSel, 3, ['match', rel, 'controlled', 2, 'none', 0, 1]] },
   };
 }
 
@@ -103,7 +108,6 @@ function overlayParts(o, state) {
         layers.push({
           id: `${src}-points`, type: 'circle', source: `${src}-0`, layout,
           paint: {
-            'circle-color': ['get', 'color'],
             'circle-radius': ['interpolate', ['linear'], ['zoom'],
               4, ['interpolate', ['linear'], ['get', 'population'], 1000, 1.5, 100000, 4, 1000000, 8],
               10, ['interpolate', ['linear'], ['get', 'population'], 1000, 4, 100000, 9, 1000000, 16]],

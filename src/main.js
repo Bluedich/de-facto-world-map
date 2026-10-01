@@ -1,5 +1,6 @@
 import { BASEMAPS, OVERLAYS, LIBRARIES, POP_CUTOFFS, byId, configureWorldpop, loadGeoJSON } from './catalog.js';
-import { initDetails, showDetails, hideDetails, showHighlightSummary } from './details.js';
+import { initDetails, showDetails, hideDetails, showHighlightSummary, loadIndex } from './details.js';
+import { RELATIONS, buildContext, summarize } from './relations.js';
 
 const adapters = {
   maplibre: () => import('./adapters/maplibre.js'),
@@ -53,32 +54,50 @@ function message(text) {
   $('message').textContent = text || '';
 }
 
-// ---- selection: clicked control point + every point held by the same controller ----
-let selection = null; // { id, controller }
+// ---- selection: an entity (from a clicked point or a chip in the details) and how every point relates to it ----
+let selection = null; // context from buildContext(), see relations.js
+let selectSeq = 0;
 
 const escHtml = (v) => String(v ?? '').replace(/[&<>"']/g, (c) => `&#${c.charCodeAt(0)};`);
+const dot = (color) => `<i style="background:${escHtml(color)}"></i>`;
+const fmt = (n) => n.toLocaleString('en');
 
-async function summarize(props) {
-  const gj = await loadGeoJSON(byId(OVERLAYS, 'drc-control').files[0]);
-  const same = gj.features.filter((f) => f.properties.controller_id === props.controller_id);
-  const people = same.reduce((n, f) => n + (f.properties.population || 0), 0);
-  return `<i style="background:${escHtml(props.color)}"></i><b>${escHtml(props.controller)}</b> holds `
-    + `${same.length.toLocaleString('en')} highlighted point${same.length === 1 ? '' : 's'} · `
-    + `${people.toLocaleString('en')} people`;
+function summaryHtml(ctx, entities, stats) {
+  const e = entities[ctx.entity] || {};
+  const own = stats.controlled;
+  const color = e.color || entities[e.parent_id]?.color || '#888';
+  const head = `${dot(color)}<b>${escHtml(e.short_name || e.name || ctx.entity)}</b> `
+    + (own ? `controls ${fmt(own.count)} point${own.count === 1 ? '' : 's'} · ${fmt(own.people)} people`
+      : 'controls no mapped points');
+  const rest = RELATIONS.filter((r) => r.color && stats[r.id])
+    .map((r) => `<span class="rel">${dot(r.color)}${r.label} ${fmt(stats[r.id].count)}</span>`);
+  return head + (rest.length ? `<br>${rest.join(' ')}` : '');
+}
+
+async function selectEntity(entity, pointId = null) {
+  const mine = ++selectSeq;
+  const [gj, idx] = await Promise.all([loadGeoJSON(byId(OVERLAYS, 'drc-control').files[0]), loadIndex()]);
+  if (mine !== selectSeq) return;
+  selection = buildContext(entity, gj.features, idx.entities, pointId);
+  current?.highlight?.(selection);
+  showHighlightSummary(summaryHtml(selection, idx.entities, summarize(gj.features, selection)));
+}
+
+function clearSelection() {
+  selectSeq++;
+  selection = null;
+  current?.highlight?.(null);
+  showHighlightSummary('');
 }
 
 function select(props) {
-  selection = props?.controller_id ? { id: props.id, controller: props.controller_id } : null;
-  current?.highlight?.(selection);
-  if (!selection) {
+  if (!props?.controller_id) {
+    clearSelection();
     hideDetails();
-    showHighlightSummary('');
     return;
   }
-  showHighlightSummary('');
-  const mine = selection;
-  summarize(props).then((html) => { if (selection === mine) showHighlightSummary(html); }).catch(() => {});
   showDetails(props);
+  selectEntity(props.controller_id, props.id).catch((e) => console.error(e));
 }
 
 // ---- map lifecycle ----
@@ -203,6 +222,9 @@ function renderPanel() {
 
 configureWorldpop({ opacity: state.popOpacity, min: state.popMin });
 buildPanel();
-initDetails(() => select(null));
+initDetails({
+  onClose: clearSelection,
+  onEntity: (id) => selectEntity(id).catch((e) => console.error(e)),
+});
 renderPanel();
 mount().then(writeHash);

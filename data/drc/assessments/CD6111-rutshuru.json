@@ -1,0 +1,355 @@
+{
+ "unit_id": "CD6111-rutshuru",
+ "as_of": "2026-10-01",
+ "summary": "AFC/M23 controls practically all of Rutshuru territory as of October 2026. Bwisha chefferie (Rutshuru-Kiwanja, Rugari, Jomba, Busanza, Kisigari) has been under M23 administration since 2022 and is its most secure zone, with the M23 police in the towns. Binza (Nyamilima/Ishasha) is M23-held but sees occasional Wazalendo attacks. Bwito chefferie has been M23-held since 2024 (Nyanzale, Kibirizi, Kanyabayonga, Vitshumbi), but its western forests near Masisi/Walikale (Bukombo, Mushebere, Kasoko, Kashuga, Kalembe) remain contested by Wazalendo and FDLR, with regular clashes through mid-2026.",
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.criticalthreats.org/briefs/congo-war-security-review",
+   "title": "Congo War Security Review, September 25, 2026",
+   "publisher": "Critical Threats Project (AEI/ISW)",
+   "date": "2026-09-25"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.criticalthreats.org/briefs/congo-war-security-review/july-31-2026",
+   "title": "Congo War Security Review, July 31, 2026",
+   "publisher": "Critical Threats Project (AEI/ISW)",
+   "date": "2026-07-31"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.criticalthreats.org/briefs/congo-war-security-review/august-7-2026",
+   "title": "Congo War Security Review, August 7, 2026",
+   "publisher": "Critical Threats Project (AEI/ISW)",
+   "date": "2026-08-07"
+  },
+  {
+   "id": "s4",
+   "url": "https://fr.allafrica.com/stories/202608030730.html",
+   "title": "Au moins cinq morts et deux disparus en six jours dans des attaques armées à Rutshuru",
+   "publisher": "Radio Okapi via AllAfrica",
+   "date": "2026-08-03"
+  },
+  {
+   "id": "s5",
+   "url": "https://www.criticalthreats.org/briefs/congo-war-security-review/april-8-2026",
+   "title": "Congo War Security Review, April 8, 2026",
+   "publisher": "Critical Threats Project (AEI/ISW)",
+   "date": "2026-04-08"
+  },
+  {
+   "id": "s6",
+   "url": "https://www.criticalthreats.org/print/brf_699cffb9ef25c",
+   "title": "Congo War Security Review (data cutoff February 23, 2026)",
+   "publisher": "Critical Threats Project (AEI/ISW)",
+   "date": "2026-02-23"
+  },
+  {
+   "id": "s7",
+   "url": "https://www.criticalthreats.org/briefs/congo-war-security-review/january-14-2026",
+   "title": "Congo War Security Review, January 14, 2026",
+   "publisher": "Critical Threats Project (AEI/ISW)",
+   "date": "2026-01-14"
+  },
+  {
+   "id": "s8",
+   "url": "https://www.criticalthreats.org/briefs/congo-war-security-review/march-13-2026",
+   "title": "Congo War Security Review, March 13, 2026",
+   "publisher": "Critical Threats Project (AEI/ISW)",
+   "date": "2026-03-13"
+  },
+  {
+   "id": "s9",
+   "url": "https://ipisresearch.be/publication/shifting-frontlines-visualizing-the-evolution-of-the-m23s-territorial-influence-in-early-2024/",
+   "title": "Shifting frontlines: visualizing the evolution of the M23's territorial influence in early 2024",
+   "publisher": "IPIS",
+   "date": "2024"
+  },
+  {
+   "id": "s10",
+   "url": "https://plusnews.ug/fighting-in-north-kivu-m23-claims-capture-of-vitshumbi-town/?amp=1",
+   "title": "Fighting in North Kivu: M23 claims capture of Vitshumbi town",
+   "publisher": "PlusNews (Uganda)",
+   "date": null
+  },
+  {
+   "id": "s11",
+   "url": "https://actualite.cd/2025/05/25/rdc-retour-des-violences-rutshuru-affrontements-fardc-afcm23-autour-de-lushebere",
+   "title": "RDC : retour des violences à Rutshuru, affrontements FARDC-AFC/M23 autour de Lushebere",
+   "publisher": "Actualite.cd",
+   "date": "2025-05-25"
+  },
+  {
+   "id": "s12",
+   "url": "https://www.theeastafrican.co.ke/tea/news/east-africa/m23-rebels-seize-kalembe-town-in-east-dr-congo-4799588",
+   "title": "M23 rebels seize Kalembe town in east DR Congo",
+   "publisher": "The EastAfrican",
+   "date": "2024-10"
+  },
+  {
+   "id": "s13",
+   "url": "https://fr.allafrica.com/stories/202606170083.html",
+   "title": "Des hommes armés multiplient des attaques à Rutshuru",
+   "publisher": "Radio Okapi via AllAfrica",
+   "date": "2026-06-17"
+  }
+ ],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Rutshuru-Kiwanja urban area (Rutshuru centre and its neighbourhoods, Bwisha chefferie)",
+   "controller_id": "afc-m23-police",
+   "status": "exclusive",
+   "confidence": "high",
+   "basis": "area_report",
+   "since": "2022-10",
+   "presence": [
+    {
+     "entity_id": "afc-m23-arc",
+     "role": "allied"
+    },
+    {
+     "entity_id": "rwa-rdf",
+     "role": "present"
+    }
+   ],
+   "evidence": "Rutshuru and Kiwanja have been run by AFC/M23 since late October 2022, with M23-appointed administrators and police; no reports in 2026 of the town changing hands, and the CTP review for early August 2026 reported nothing significant in Rutshuru. Insecurity is mainly armed banditry and targeted killings.",
+   "source_ids": [
+    "s3",
+    "s9",
+    "s13"
+   ]
+  },
+  {
+   "zone_id": "z2",
+   "description": "Rural Bwisha chefferie south and east of Rutshuru town: Rugari/Kabaya/Rubare/Kalengera, Ntamugenga, Matebe, Rwanguba/Jomba, Bugogo/Busanza (Uganda border), Shinda",
+   "controller_id": "afc-m23-arc",
+   "status": "exclusive",
+   "confidence": "medium",
+   "basis": "area_report",
+   "since": "2022-10",
+   "presence": [
+    {
+     "entity_id": "rwa-rdf",
+     "role": "allied"
+    },
+    {
+     "entity_id": "afc-m23-police",
+     "role": "present"
+    }
+   ],
+   "evidence": "Bwisha's southern and eastern groupements (Jomba, Busanza, Kisigari, Rugari, Bweza) have been M23 heartland since 2022 (Bunagana June 2022, Rugari October 2022) and remain under AFC/M23 administration in 2026; no Wazalendo presence reported in this core zone in 2026.",
+   "source_ids": [
+    "s9",
+    "s3",
+    "s1"
+   ]
+  },
+  {
+   "zone_id": "z3",
+   "description": "Binza groupement (Bwisha north): Nyamilima, Kisharo, Ishasha, Nyakakoma, Burega, Kiseguru",
+   "controller_id": "afc-m23-arc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "area_report",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-wazalendo",
+     "role": "raiding"
+    },
+    {
+     "entity_id": "fdlr",
+     "role": "raiding"
+    }
+   ],
+   "evidence": "AFC/M23 holds Nyamilima, Kisharo and the Ishasha border post and administers Binza, but Wazalendo fighters remain active in the Virunga park edges; gunfire between Wazalendo and M23 was reported in Nyamilima on 15 September 2026 without a change of control.",
+   "source_ids": [
+    "s1",
+    "s9"
+   ]
+  },
+  {
+   "zone_id": "z4",
+   "description": "Central, northern and eastern Bwito chefferie: Bambo, Kishishe, Tongo, Kirumba (Bambo), Kibirizi, Nyanzale, Kikuku, Kashalira, Mutanda, Kanyabayonga, Kilambo, Vitshumbi (Lake Edward)",
+   "controller_id": "afc-m23-arc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "area_report",
+   "since": "2024-03",
+   "presence": [
+    {
+     "entity_id": "cod-wazalendo",
+     "role": "raiding"
+    },
+    {
+     "entity_id": "fdlr",
+     "role": "raiding"
+    },
+    {
+     "entity_id": "rwa-rdf",
+     "role": "allied"
+    }
+   ],
+   "evidence": "M23 took Nyanzale, Kibirizi, Kikuku and Kashalira in March 2024, Kanyabayonga in June 2024 and Vitshumbi/Rwindi in 2024, and still holds them in 2026, running cordon-and-search operations (e.g. ~270 arrests in Kishishe, February 2026). Wazalendo and unidentified armed men ambush and kill locals around Kibirizi, Kasesero, Kirima and Kilambo (late July-August 2026) but do not hold the towns.",
+   "source_ids": [
+    "s6",
+    "s4",
+    "s9",
+    "s10",
+    "s11"
+   ]
+  },
+  {
+   "zone_id": "z5",
+   "description": "Western Bwito and Masisi/Walikale border fringe: Bukombo, Birambizo, Bishusha, Mashango, Mushebere, Katsiru, Kizimba, Burungu; Kasoko, JTN, Kashuga, Kalonge/Kalembe; Luya, Rusekera, Mulimbi (west Tongo)",
+   "controller_id": "afc-m23-arc",
+   "status": "contested",
+   "confidence": "low",
+   "basis": "area_report",
+   "since": "2024-03",
+   "presence": [
+    {
+     "entity_id": "cod-wazalendo",
+     "role": "contesting"
+    },
+    {
+     "entity_id": "fdlr",
+     "role": "contesting"
+    },
+    {
+     "entity_id": "nyatura",
+     "role": "contesting"
+    }
+   ],
+   "evidence": "M23 holds the main localities (it repelled Wazalendo at Kalembe in January 2026 and kept Ibuga/Kashuga in March 2026), but Wazalendo (CMC/Nyatura and others) and FDLR remain active in the forests and clash with M23 regularly in Bukombo (April 2026), Mashango, Mushebere and Kasoko (late July 2026). Villages between positions may be under intermittent Wazalendo/FDLR control.",
+   "source_ids": [
+    "s5",
+    "s2",
+    "s7",
+    "s8",
+    "s12"
+   ]
+  }
+ ],
+ "locations": {
+  "cod-35MQU7170_1": "z1",
+  "cod-35MQU6344_1": "z2",
+  "cod-35MQU6764_1": "z2",
+  "cod-35MQU6550_1": "z2",
+  "cod-35MQU7081_1": "z2",
+  "cod-35MQU6660_1": "z2",
+  "cod-35MQU7159_1": "z2",
+  "cod-35MQU6556_1": "z2",
+  "cod-35MQU7178_1": "z2",
+  "cod-35MQU7563_1": "z2",
+  "cod-35MQU6762_1": "z2",
+  "cod-35MQU6844_1": "z2",
+  "cod-35MQU6352_1": "z2",
+  "cod-35MQU7252_1": "z2",
+  "cod-35MQU6453_2": "z2",
+  "cod-35MQU6947_1": "z2",
+  "cod-35MQU7176_1": "z2",
+  "cod-35MQU7351_1": "z2",
+  "cod-35MQU7554_1": "z2",
+  "cod-35MQU7175_1": "z2",
+  "cod-35MQU7452_1": "z2",
+  "cod-35MQU7170_1-uAAh41pWMti": "z1",
+  "cod-35MQU7170_1-E0vsj3nbqCy": "z1",
+  "cod-35MQU7170_1-e1hI6GQv1yX": "z1",
+  "cod-35MQU7170_1-QcEJDHCKOUd": "z1",
+  "cod-35MQU7170_1-fRaY5sx59Qz": "z1",
+  "cod-35MQU7170_1-xDmjUd0mH8O": "z1",
+  "cod-35MQU7170_1-JZYAtYMIQ5b": "z1",
+  "cod-35MQV4223_1": "z4",
+  "cod-35MQU4499_2": "z4",
+  "cod-35MQU2183_1": "z5",
+  "cod-35MQU3586_1": "z4",
+  "cod-35MQV6523_1": "z4",
+  "cod-35MQU2992_2": "z4",
+  "cod-35MQU3691_1": "z4",
+  "cod-35MQV3509_1": "z4",
+  "cod-35MQU1586_2": "z5",
+  "cod-35MQU3679_1": "z5",
+  "cod-35MQU3583_1": "z4",
+  "cod-35MQU3793_1": "z4",
+  "cod-35MQV3604_1": "z4",
+  "cod-35MQU2996_1": "z4",
+  "cod-35MQU4090_1": "z4",
+  "cod-35MQV3301_1": "z4",
+  "cod-35MQV4219_1": "z4",
+  "cod-35MQU3883_1": "z4",
+  "cod-35MQU2977_2": "z5",
+  "cod-35MQV3716_1": "z4",
+  "cod-35MQU4391_1": "z4",
+  "cod-35MQV5412_1": "z4",
+  "cod-35MQV4017_1": "z4",
+  "cod-35MQU3892_3": "z4",
+  "cod-35MQU4395_3": "z4",
+  "cod-35MQU8356_1": "z2",
+  "cod-35MQU8860_2": "z2",
+  "cod-35MQU8855_1": "z2",
+  "cod-35MQU7878_1": "z2",
+  "cod-35MQU8061_1": "z2",
+  "cod-35MQU7084_1": "z2",
+  "cod-35MQU7356_1": "z2",
+  "cod-35MQU7962_1": "z2",
+  "cod-35MQU8475_3": "z2",
+  "cod-35MQU8155_1": "z2",
+  "cod-35MQU7855_1": "z2",
+  "cod-35MQU8252_2": "z2",
+  "cod-35MQU8274_1": "z2",
+  "cod-35MQU7955_3": "z2",
+  "cod-35MQU7756_1": "z2",
+  "cod-35MQU7558_1": "z2",
+  "cod-35MQV8602_1": "z3",
+  "cod-35MQU7893_1": "z3",
+  "cod-35MQU7188_1": "z3",
+  "cod-35MQV9117_1": "z3",
+  "cod-35MQV8906_1": "z3",
+  "cod-35MQU8598_1": "z3",
+  "cod-35MQV8936_2": "z3",
+  "cod-35MQU7584_1": "z3",
+  "cod-35MQV9100_1": "z3",
+  "cod-35MQU8085_1": "z3",
+  "cod-35MQU8290_1": "z3",
+  "cod-35MQU4780_1": "z4",
+  "cod-35MQU4871_2": "z4",
+  "cod-35MQU5479_1": "z4",
+  "cod-35MQU5065_1": "z4",
+  "cod-35MQU5072_1": "z4",
+  "cod-35MQU4686_1": "z4",
+  "cod-35MQU5366_1": "z4",
+  "cod-35MQU4562_1": "z5",
+  "cod-35MQU4162_1": "z5",
+  "cod-35MQU4573_1": "z4",
+  "cod-35MQU5469_3": "z4",
+  "cod-35MQU5175_1": "z4",
+  "cod-35MQU4259_2": "z5",
+  "cod-35MQU5166_1": "z4",
+  "cod-35MQU4667_1": "z4",
+  "cod-35MQU4461_1": "z5",
+  "cod-35MQU4764_1": "z4",
+  "cod-35MQU4158_2": "z5",
+  "cod-35MQU5569_2": "z4",
+  "cod-35MQU3476_2": "z5",
+  "cod-35MQU3765_1": "z5",
+  "cod-35MQU3261_2": "z5",
+  "cod-35MQU3565_1": "z5",
+  "cod-35MQU2671_1": "z5",
+  "cod-35MQU2967_1": "z5",
+  "cod-35MQU3659_1": "z5",
+  "cod-35MQU3349_2": "z5",
+  "cod-35MQU3268_1": "z5",
+  "cod-35MQU3369_3": "z5",
+  "cod-35MQU4065_2": "z5",
+  "cod-35MQU3859_1": "z5",
+  "cod-35MQU3250_1": "z5",
+  "cod-35MQU2872_3": "z5",
+  "cod-35MQU3070_1": "z5",
+  "cod-35MQU3974_2": "z5",
+  "cod-35MQU3772_2": "z5"
+ }
+}

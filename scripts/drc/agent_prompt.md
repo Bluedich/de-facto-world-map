@@ -30,6 +30,15 @@ the main group that uses force to keep order, detain people, settle disputes, le
 - Entity catalogue: `scripts/drc/entities.json`. Use these ids. If a controller is missing, add it to
   `new_entities` (lowercase slug id, type, parent_id if it is a sub-force, short description).
 
+## Notes on data and tools
+
+- `adm3_name` comes from OCHA boundaries and is sometimes a groupement or health-zone name rather than the
+  secteur/chefferie; health zone/area names are reliable and are what most security reports and OCHA use.
+- Location names are GRID3 locality names; a place can share a name with a different town elsewhere – check
+  coordinates.
+- Some sites block WebFetch (e.g. Wikipedia, radiookapi.net); search-result summaries are usable evidence.
+  Double-check event dates in summaries – they are sometimes wrong.
+
 ## Method
 
 1. Research the unit's security situation as of the reference date with WebSearch/WebFetch. Good sources: Kivu

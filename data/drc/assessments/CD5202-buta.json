@@ -1,0 +1,99 @@
+{
+ "unit_id": "CD5202-buta",
+ "as_of": "2026-10-01",
+ "summary": "Buta territory (Bas-Uele) is far from the active conflict zones of eastern DRC and no armed group is reported to hold territory there as of late 2025-2026. Buta, the provincial capital, is administered and policed by the state: PNC conducts routine policing and arrests (e.g. the November 2025 police raid on Radio Liberte Buta), with a thin FARDC garrison that local actors in early 2026 described as understrength. Rural Buta secteur and the Titule area along the Buta-Titule-Isiro road/rail axis have no reported armed-group control; insecurity there is limited to banditry, poaching and occasional herder-farmer tensions. All locations are assigned to state control (PNC) by default state presence.",
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://rsf.org/en/news/police-close-radio-station-detain-radio-technician-northern-drc",
+   "title": "Police close radio station, detain radio technician in northern DRC",
+   "publisher": "Reporters Without Borders",
+   "date": "2025-12"
+  },
+  {
+   "id": "s2",
+   "url": "https://actualite.cd/2026/03/08/agression-rwandaise-obed-mutuale-appelle-renforcer-les-fardc-dans-le-bas-uele-et-equiper",
+   "title": "Agression rwandaise: Obed Mutuale appelle a renforcer les FARDC dans le Bas-Uele",
+   "publisher": "Actualite.cd",
+   "date": "2026-03-08"
+  }
+ ],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Buta town (provincial capital of Bas-Uele), all neighbourhoods",
+   "controller_id": "cod-pnc",
+   "status": "exclusive",
+   "confidence": "high",
+   "basis": "specific_report",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    },
+    {
+     "entity_id": "cod-anr",
+     "role": "present"
+    }
+   ],
+   "evidence": "Buta is the seat of Bas-Uele provincial institutions; PNC performs routine policing and arrests (police raid and arrest at Radio Liberte Buta, Nov 2025). FARDC garrison present but reportedly understrength in early 2026; no armed-group activity reported.",
+   "source_ids": [
+    "s1",
+    "s2"
+   ]
+  },
+  {
+   "zone_id": "z2",
+   "description": "Rural Buta secteur villages near Buta (Mabenge, Gwa, Bale, Sukisa)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [],
+   "evidence": "No armed-group presence reported in Buta health zone; state administration from nearby Buta town. Sparse police/administrative presence assumed by default.",
+   "source_ids": [
+    "s2"
+   ]
+  },
+  {
+   "zone_id": "z3",
+   "description": "Titule health zone (Titule/Kpondolia, Gbulusu, Mabinza, Gare 4, Mokpanga, Liguga)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [],
+   "evidence": "No reports of armed-group control in Titule area in 2025-2026; Bas-Uele security forces described as thin, so state presence is weak but uncontested. Assigned to PNC by default.",
+   "source_ids": [
+    "s2"
+   ]
+  }
+ ],
+ "locations": {
+  "cod-35NKD4810_1": "z1",
+  "cod-35NKD2716_1": "z2",
+  "cod-35NKD3815_1": "z2",
+  "cod-35NKC7456_1": "z2",
+  "cod-35NKD5815_2": "z2",
+  "cod-35NKD4810_1-Qe8dn1COiqb": "z1",
+  "cod-35NKD4810_1-lgfVbM99IkQ": "z1",
+  "cod-35NKD4810_1-MIwzL67m8mI": "z1",
+  "cod-35NKD4810_1-CEKJTeDVOKT": "z1",
+  "cod-35NKD4810_1-QngE0JHO0hm": "z1",
+  "cod-35NKD4810_1-DpKZVJFbkgh": "z1",
+  "cod-35NKD4810_1-ZuRG5IO5iwU": "z1",
+  "cod-35NKD4810_1-gEHSVwyFhWa": "z1",
+  "cod-35NKD4810_1-AijiF45XPBj": "z1",
+  "cod-35NKD4810_1-EuG9OxMvBYb": "z1",
+  "cod-35NLD3561_1": "z3",
+  "cod-35NLD3663_2": "z3",
+  "cod-35NKD9637_1": "z3",
+  "cod-35NLD3538_1": "z3",
+  "cod-35NLD2855_1": "z3",
+  "cod-35NKD8076_1": "z3"
+ }
+}

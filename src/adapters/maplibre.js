@@ -29,8 +29,8 @@ function rasterSource(l) {
 
 const abs = (path) => new URL(import.meta.env.BASE_URL + path, location.href).href;
 
-// Selection context (see relations.js) or null. Points the entity controls keep their colour with a
-// white outline; related points take the relation colour; all others are dimmed.
+// Selection context (see relations.js) or null. Points keep their own colour; points the entity controls
+// get a white outline, related points an outline in the relation colour; all others are dimmed.
 let selection = null;
 const DRC_POINTS = 'ov-drc-control-points';
 
@@ -49,11 +49,11 @@ function drcStyle(sel) {
   const isSel = ['==', ['get', 'id'], sel.id ?? ''];
   return {
     paint: {
-      'circle-color': ['match', rel,
-        ...Object.entries(RELATION_COLOR).filter(([, c]) => c).flat(), ['get', 'color']],
+      'circle-color': ['get', 'color'],
       'circle-opacity': ['match', rel, 'none', 0.12, 1],
-      'circle-stroke-color': ['match', rel, 'controlled', '#ffffff', '#111111'],
-      'circle-stroke-width': ['case', isSel, 3, ['match', rel, 'controlled', 1.2, 'none', 0, 0.6]],
+      'circle-stroke-color': ['match', rel,
+        ...Object.entries(RELATION_COLOR).filter(([, c]) => c).flat(), '#ffffff'],
+      'circle-stroke-width': ['case', isSel, 3, ['match', rel, 'controlled', 1.2, 'none', 0, 2]],
     },
     layout: { 'circle-sort-key': ['case', isSel, 3, ['match', rel, 'controlled', 2, 'none', 0, 1]] },
   };

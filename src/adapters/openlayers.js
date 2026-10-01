@@ -61,8 +61,8 @@ function geojsonLayer(o) {
         return new Style({
           zIndex: isSel ? 3 : own ? 2 : 1,
           image: new CircleStyle({
-            radius: r, fill: new Fill({ color: RELATION_COLOR[rel] || f.get('color') }),
-            stroke: new Stroke({ color: own ? '#fff' : '#111', width: isSel ? 3 : own ? 1.2 : 0.6 }),
+            radius: r, fill: new Fill({ color: f.get('color') }),
+            stroke: new Stroke({ color: RELATION_COLOR[rel] || '#fff', width: isSel ? 3 : own ? 1.2 : 2 }),
           }),
         });
       }

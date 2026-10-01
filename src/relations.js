@@ -9,6 +9,7 @@
 //   sovereign   controlled by another force of the same sovereign
 //   allied      controlled by an ally (the two appear as 'allied' at each other's locations)
 //   present     the entity is otherwise present there
+// Points keep their own fill; the relation is shown by the outline colour (white for controlled).
 
 export const RELATIONS = [
   { id: 'controlled', label: 'controlled' },

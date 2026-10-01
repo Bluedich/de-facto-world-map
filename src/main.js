@@ -70,7 +70,7 @@ function summaryHtml(ctx, entities, stats) {
     + (own ? `controls ${fmt(own.count)} point${own.count === 1 ? '' : 's'} · ${fmt(own.people)} people`
       : 'controls no mapped points');
   const rest = RELATIONS.filter((r) => r.color && stats[r.id])
-    .map((r) => `<span class="rel">${dot(r.color)}${r.label} ${fmt(stats[r.id].count)}</span>`);
+    .map((r) => `<span class="rel"><i class="ring" style="border-color:${escHtml(r.color)}"></i>${r.label} ${fmt(stats[r.id].count)}</span>`);
   return head + (rest.length ? `<br>${rest.join(' ')}` : '');
 }
 

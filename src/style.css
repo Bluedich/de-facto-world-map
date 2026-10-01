@@ -71,3 +71,4 @@ body.collapsed #panel { display: none; }
 #details .chip[data-entity]:hover { background: color-mix(in srgb, var(--accent) 12%, transparent); }
 #details .chip.active { outline: 1px solid var(--accent); }
 #details .highlight-info .rel { white-space: nowrap; margin-right: 8px; }
+#details .highlight-info i.ring { background: none; border: 2px solid; box-sizing: border-box; }

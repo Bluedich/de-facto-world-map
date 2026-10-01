@@ -101,10 +101,10 @@ function styleSelection(ds, sel) {
     const p = e.properties.getValue(now);
     const rel = sel ? classify(p, sel) : null;
     const own = rel === 'controlled';
-    const color = Cesium.Color.fromCssColorString(RELATION_COLOR[rel] || p.color);
+    const color = Cesium.Color.fromCssColorString(p.color);
     e.point.color = sel && !rel ? color.withAlpha(0.12) : color;
-    e.point.outlineColor = own ? Cesium.Color.WHITE : Cesium.Color.BLACK;
-    e.point.outlineWidth = !sel ? 0.5 : !rel ? 0 : p.id === sel.id ? 3 : own ? 1.5 : 0.6;
+    e.point.outlineColor = !rel ? Cesium.Color.BLACK : Cesium.Color.fromCssColorString(RELATION_COLOR[rel] || '#fff');
+    e.point.outlineWidth = !sel ? 0.5 : !rel ? 0 : p.id === sel.id ? 3 : own ? 1.5 : 2;
     // Draw related points in front of the others.
     e.point.disableDepthTestDistance = rel ? Number.POSITIVE_INFINITY : undefined;
   }

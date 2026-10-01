@@ -40,8 +40,8 @@ function styleSelection(group, sel) {
     if (!rel) { m.setStyle({ fillColor: p.color, weight: 0, opacity: 0, fillOpacity: 0.12 }); return; }
     const own = rel === 'controlled';
     m.setStyle({
-      fillColor: RELATION_COLOR[rel] || p.color, fillOpacity: 1, opacity: 1,
-      color: own ? '#fff' : '#111', weight: p.id === sel.id ? 3 : own ? 1.2 : 0.6,
+      fillColor: p.color, fillOpacity: 1, opacity: 1,
+      color: RELATION_COLOR[rel] || '#fff', weight: p.id === sel.id ? 3 : own ? 1.2 : 2,
     });
     front.push([p.id === sel.id ? 2 : own ? 1 : 0, m]);
   }));

@@ -1,0 +1,136 @@
+{
+ "unit_id": "CD6101-goma",
+ "as_of": "2026-10-01",
+ "summary": "Goma (communes of Goma and Karisimbi) has been held by AFC/M23 since its capture on 26-27 January 2025, after FARDC, Wazalendo and the PNC withdrew or surrendered. AFC/M23 runs the city through its own provincial and urban administration and a police force built partly from ex-PNC personnel, backed by its ARC fighters and Rwandan RDF support; no source through September 2026 reports the city changing hands, and the Washington/Doha peace processes have not restored state authority. The main security problems are crime, night-time killings by armed men and occasional Wazalendo/FDLR infiltration on the western (Mugunga, Rusayo, Buhimba) and northern (Kanyaruchinya, Munigi) outskirts, which the M23 answers with cordon-and-search operations. Note: live web research was unavailable for this unit (search budget exhausted, sites blocked), so the assessment relies on the 2025 capture record and CTP 2026 reviews cited for neighbouring Rutshuru.",
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.criticalthreats.org/briefs/congo-war-security-review",
+   "title": "Congo War Security Review, September 25, 2026",
+   "publisher": "Critical Threats Project (AEI/ISW)",
+   "date": "2026-09-25"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.criticalthreats.org/briefs/congo-war-security-review/july-31-2026",
+   "title": "Congo War Security Review, July 31, 2026",
+   "publisher": "Critical Threats Project (AEI/ISW)",
+   "date": "2026-07-31"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.criticalthreats.org/print/brf_699cffb9ef25c",
+   "title": "Congo War Security Review (data cutoff February 23, 2026)",
+   "publisher": "Critical Threats Project (AEI/ISW)",
+   "date": "2026-02-23"
+  },
+  {
+   "id": "s4",
+   "url": "https://www.criticalthreats.org/briefs/congo-war-security-review/january-14-2026",
+   "title": "Congo War Security Review, January 14, 2026",
+   "publisher": "Critical Threats Project (AEI/ISW)",
+   "date": "2026-01-14"
+  }
+ ],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Goma city core: Goma and Karisimbi communes (all central and eastern neighbourhoods, plus the city settlement record)",
+   "controller_id": "afc-m23-police",
+   "status": "exclusive",
+   "confidence": "high",
+   "basis": "area_report",
+   "since": "2025-01",
+   "presence": [
+    {
+     "entity_id": "afc-m23-arc",
+     "role": "allied"
+    },
+    {
+     "entity_id": "rwa-rdf",
+     "role": "present"
+    },
+    {
+     "entity_id": "cod-wazalendo",
+     "role": "raiding"
+    }
+   ],
+   "evidence": "AFC/M23 captured Goma on 26-27 January 2025 and has since governed it with its own appointed governor, mayor and police (including retrained ex-PNC officers), with no 2026 reports of state forces returning. Insecurity consists of armed robberies, night killings and sporadic infiltration attacks attributed to Wazalendo, which do not challenge M23 policing of the city.",
+   "source_ids": [
+    "s1",
+    "s3",
+    "s4"
+   ]
+  },
+  {
+   "zone_id": "z2",
+   "description": "Peri-urban outskirts: Mugunga, Mugunga 3, Rusayo, Buhimba (west, towards Sake/Masisi) and Kanyaruchinya, Munigi (north, towards Nyiragongo)",
+   "controller_id": "afc-m23-arc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "inference",
+   "since": "2025-01",
+   "presence": [
+    {
+     "entity_id": "afc-m23-police",
+     "role": "allied"
+    },
+    {
+     "entity_id": "rwa-rdf",
+     "role": "present"
+    },
+    {
+     "entity_id": "cod-wazalendo",
+     "role": "raiding"
+    }
+   ],
+   "evidence": "The edge neighbourhoods and former IDP-camp areas lie on the approaches from Masisi and Nyiragongo where AFC/M23 keeps military positions; Wazalendo night incursions and M23 search operations were reported there in 2025. M23 remains in firm overall control, but the army wing rather than police is the main security presence.",
+   "source_ids": [
+    "s1",
+    "s2",
+    "s3"
+   ]
+  }
+ ],
+ "locations": {
+  "cod-35MQU4418_1": "z1",
+  "cod-35MQU4418_1-ywcbKxbWp1g": "z1",
+  "cod-35MQU4418_1-XXrtHmtqx4U": "z1",
+  "cod-35MQU4418_1-s735ubRs4m6": "z1",
+  "cod-35MQU4418_1-A5rNFAQQJMU": "z2",
+  "cod-35MQU4418_1-x5tSV4iiOkW": "z1",
+  "cod-35MQU4418_1-OtLQedbFWXe": "z1",
+  "cod-35MQU4418_1-lsISZwaqjSM": "z2",
+  "cod-35MQU4418_1-d2eHIkBL8xJ": "z1",
+  "cod-35MQU4418_1-NHVPxlF0bHa": "z1",
+  "cod-35MQU4418_1-XFarOAwwDrp": "z1",
+  "cod-35MQU4418_1-TcinjUV4g1X": "z1",
+  "cod-35MQU4418_1-ak2PSrXi57B": "z1",
+  "cod-35MQU4418_1-E0G7qQsMq6h": "z1",
+  "cod-35MQU4418_1-JdWQciYdSqp": "z1",
+  "cod-35MQU4418_1-PGXd2AF27iv": "z1",
+  "cod-35MQU4418_1-n8m4iTk5ZsX": "z1",
+  "cod-35MQU4418_1-vKolNoKu1rz": "z1",
+  "cod-35MQU4418_1-iXAwuWUNsCl": "z1",
+  "cod-35MQU4418_1-MefMumwJp1f": "z2",
+  "cod-35MQU4418_1-tgpEWouMXP9": "z2",
+  "cod-35MQU4418_1-QWPqC5CKx2B": "z1",
+  "cod-35MQU4418_1-EJxo5EKfqcC": "z2",
+  "cod-35MQU4418_1-Ln1ylHjX9aE": "z1",
+  "cod-35MQU4418_1-lEXsPeubjCR": "z1",
+  "cod-35MQU4418_1-oLTyGMUDNqF": "z1",
+  "cod-35MQU4418_1-eIeuFhn4mqq": "z1",
+  "cod-35MQU4418_1-asFybfVYmE9": "z1",
+  "cod-35MQU4418_1-dJBIWtlv4PI": "z1",
+  "cod-35MQU4418_1-VYk7xn56Atg": "z1",
+  "cod-35MQU4418_1-qgoZuxapLYG": "z2",
+  "cod-35MQU4418_1-fXBChtLlBH2": "z1",
+  "cod-35MQU4418_1-hCV2bAeAQA2": "z1",
+  "cod-35MQU4418_1-rknAOIk6X38": "z1",
+  "cod-35MQU4418_1-V12BMXvT8LP": "z1",
+  "cod-35MQU4418_1-uXkf7rHaprb": "z1",
+  "cod-35MQU4418_1-QV7lB6BR1Qu": "z1",
+  "cod-35MQU4418_1-CAKEnXxiLlX": "z1"
+ }
+}

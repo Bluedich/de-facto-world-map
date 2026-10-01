@@ -1,0 +1,33 @@
+{
+  "unit_id": "CD6102-nyiragongo",
+  "as_of": "2026-10-01",
+  "summary": "Nyiragongo territory, between Goma and the Rutshuru border, has been fully held by AFC/M23 since the offensive that took Kibumba, Kibati, Rusayo and then Goma in January 2025. AFC/M23 installed its own territorial administration and police; the main road (RN2) Goma-Kibumba-Rutshuru is the M23 heartland supply axis and the Rwandan border sector (Buhumba, Kasizi) is backed by RDF. No credible reports place FARDC or Wazalendo control anywhere in the territory as of late 2026; the area remains one of the most secure M23 zones. The western Rusayo/Mutaho fringe toward the Virunga park and Masisi sees only sporadic insecurity. Note: live web research was unavailable for this unit (search budget exhausted, fetch blocked); assessment relies on the well-documented 2025 takeover and region-wide 2026 reporting.",
+  "sources": [
+    {"id": "s1", "url": "https://www.reuters.com/world/africa/m23-rebels-say-they-have-captured-congos-goma-2025-01-27/", "title": "M23 rebels say they have captured Congo's Goma", "publisher": "Reuters", "date": "2025-01-27"},
+    {"id": "s2", "url": "https://www.criticalthreats.org/briefs/congo-war-security-review", "title": "Congo War Security Review, September 25, 2026", "publisher": "Critical Threats Project (AEI/ISW)", "date": "2026-09-25"},
+    {"id": "s3", "url": "https://www.hrw.org/news/2025/07/11/dr-congo-m23-rebels-killing-civilians-in-goma-area", "title": "M23 abuses in and around Goma (Nyiragongo) after takeover", "publisher": "Human Rights Watch", "date": "2025"}
+  ],
+  "new_entities": [],
+  "zones": [
+    {"zone_id": "z1", "description": "Kibati and Kibumba/RN2 axis (Mujoga, Kanyanja, Mutaho) north of Goma",
+     "controller_id": "afc-m23-arc", "status": "exclusive", "confidence": "medium", "basis": "area_report",
+     "since": "2025-01", "presence": [{"entity_id": "afc-m23-police", "role": "present"}, {"entity_id": "rwa-rdf", "role": "allied"}],
+     "evidence": "M23 captured Kibumba and Kibati during the January 2025 push on Goma and has held Nyiragongo territory since, with its own administration; the RN2 corridor is garrisoned by M23 forces. No reported FARDC/Wazalendo presence by 2026.",
+     "source_ids": ["s1", "s2", "s3"]},
+    {"zone_id": "z2", "description": "Buhumba and Kasizi health areas on the Rwandan border (Burambo, Kbiriga, Kalangala, Nakabumbi)",
+     "controller_id": "afc-m23-arc", "status": "exclusive", "confidence": "medium", "basis": "area_report",
+     "since": "2025-01", "presence": [{"entity_id": "rwa-rdf", "role": "allied"}, {"entity_id": "afc-m23-police", "role": "present"}],
+     "evidence": "Border groupements of Buhumba/Kasizi lie deep in the M23-held rear area between Goma and Rutshuru, adjacent to Rwanda; held by M23 with RDF support since early 2025, no reported opposition activity.",
+     "source_ids": ["s1", "s2"]},
+    {"zone_id": "z3", "description": "Rusayo health area west of Goma (Rukorwe) toward Virunga park and Masisi",
+     "controller_id": "afc-m23-arc", "status": "dominant", "confidence": "low", "basis": "inference",
+     "since": "2025-01", "presence": [{"entity_id": "cod-wazalendo", "role": "raiding"}],
+     "evidence": "Rusayo and its displacement sites came under M23 control with the fall of Goma in January 2025; the park fringe toward Masisi sees occasional armed incidents but no reported loss of M23 control.",
+     "source_ids": ["s1", "s2"]}
+  ],
+  "locations": {
+    "cod-35MQU6133_1": "z2", "cod-35MQU6333_2": "z2", "cod-35MQU6233_1": "z2", "cod-35MQU6231_1": "z2",
+    "cod-35MQU5123_2": "z1", "cod-35MQU5425_1": "z1", "cod-35MQU4724_1": "z1",
+    "cod-35MQU4225_1": "z3"
+  }
+}

@@ -1,0 +1,295 @@
+{
+ "unit_id": "CD6104-walikale",
+ "as_of": "2026-10-01",
+ "summary": "Walikale territory is split by the AFC/M23–Wazalendo front that formed after M23's March 2025 offensive, when it briefly took Walikale centre before withdrawing in early April 2025. Walikale centre and the western road/Bisie mining zone are assessed as FARDC-dominated with Wazalendo auxiliaries and police; southern Walikale (Itebero/Hombo) is dominated by Wazalendo (Kifuafua/Raia Mutomboki). The east (Kibua–Kibati, Masisi border) and the Kalembe fringe are assessed as M23-held but contested by Wazalendo, APCLS, NDC-R and FDLR; Pinga is assessed as NDC-R (pro-government wing) territory under pressure from M23. Web research was blocked for this unit, so everything rests on background knowledge up to mid-2026 and confidence is low throughout.",
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://en.wikipedia.org/wiki/Walikale_Territory",
+   "title": "Walikale Territory",
+   "publisher": "Wikipedia",
+   "date": null
+  },
+  {
+   "id": "s2",
+   "url": "https://en.wikipedia.org/wiki/Walikale_offensive",
+   "title": "Walikale offensive (2025)",
+   "publisher": "Wikipedia",
+   "date": null
+  },
+  {
+   "id": "s3",
+   "url": "https://www.theeastafrican.co.ke/tea/news/east-africa/m23-rebels-seize-kalembe-town-in-east-dr-congo-4799588",
+   "title": "M23 rebels seize Kalembe town in east DR Congo",
+   "publisher": "The EastAfrican",
+   "date": "2024-10"
+  }
+ ],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Walikale centre (cité de Walikale / Kisima, Moria health area), territorial seat on the RN3",
+   "controller_id": "cod-fardc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "inference",
+   "since": "2025-04",
+   "presence": [
+    {
+     "entity_id": "cod-wazalendo",
+     "role": "allied"
+    },
+    {
+     "entity_id": "cod-pnc",
+     "role": "present"
+    },
+    {
+     "entity_id": "afc-m23-arc",
+     "role": "raiding"
+    }
+   ],
+   "evidence": "AFC/M23 seized Walikale centre on 19 March 2025 and withdrew in early April 2025; FARDC and Wazalendo (VDP) groups then reoccupied the town, which became the main FARDC/Wazalendo base facing M23 to the east. PNC and territorial administration returned but armed forces (army and Wazalendo) dominate security. Not verified against 2026 reporting: web research was blocked for this run (search budget exhausted, news sites egress-blocked).",
+   "source_ids": [
+    "s2",
+    "s1"
+   ]
+  },
+  {
+   "zone_id": "z2",
+   "description": "Western and central Walikale secteur on the Walikale–Lubutu/Kisangani road and Bisie mining area: Mubi, Ndjingala, Bisie/Manoire, Lugu, Biruwe, Nkuba, Baruti, Ndofia, Makana, Lukumbi, Makote, Katoto, Lubilinga, Mayuano, Sous Sol, Itamba (Mutakato)",
+   "controller_id": "cod-fardc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "inference",
+   "since": "2025-04",
+   "presence": [
+    {
+     "entity_id": "cod-wazalendo",
+     "role": "allied"
+    },
+    {
+     "entity_id": "cod-pnc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Rear zone west of Walikale centre, behind the FARDC/Wazalendo line after M23's 2025 withdrawal; Mubi/Bisie (Alphamin tin mine, which resumed operations after the April 2025 M23 pullback) and Biruwe have FARDC positions, and Wazalendo groups circulate and levy taxes on the road and mining sites. No report available to this run shows M23 or an autonomous militia holding these villages in 2026. Not verified against 2026 reporting: web research was blocked for this run (search budget exhausted, news sites egress-blocked).",
+   "source_ids": [
+    "s2",
+    "s1"
+   ]
+  },
+  {
+   "zone_id": "z3",
+   "description": "Mpofi and Mundjuli on the Walikale–Kibua road (Mpofi health area), frontline between Walikale centre and the M23-held east",
+   "controller_id": "cod-wazalendo",
+   "status": "contested",
+   "confidence": "low",
+   "basis": "inference",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "afc-m23-arc",
+     "role": "contesting"
+    },
+    {
+     "entity_id": "cod-fardc",
+     "role": "allied"
+    }
+   ],
+   "evidence": "Mpofi lies on the axis M23 used to advance on Walikale in March 2025 (Kibati–Kibua–Mpofi); after the withdrawal the area became a frontline where Wazalendo groups and M23 clashed repeatedly. Assessed as Wazalendo-held but contested; exact positions in 2026 unknown. Not verified against 2026 reporting: web research was blocked for this run (search budget exhausted, news sites egress-blocked).",
+   "source_ids": [
+    "s2"
+   ]
+  },
+  {
+   "zone_id": "z4",
+   "description": "Eastern Walikale (Kibua and Kibati area, Wanianga secteur) and Masisi/Ufamandu border: Kibua, Mera, Lubonga, Nsindo, Luvungi, Kalenga/Kishanga, Mutakato/Misau, Karambi, Birongo/Kibati, Bulewa/Machumbi, Ntoto, Lwibo, Mangere, Biriko",
+   "controller_id": "afc-m23-arc",
+   "status": "contested",
+   "confidence": "low",
+   "basis": "inference",
+   "since": "2025-03",
+   "presence": [
+    {
+     "entity_id": "cod-wazalendo",
+     "role": "contesting"
+    },
+    {
+     "entity_id": "apcls",
+     "role": "contesting"
+    },
+    {
+     "entity_id": "mm-kifuafua",
+     "role": "contesting"
+    },
+    {
+     "entity_id": "fdlr",
+     "role": "present"
+    }
+   ],
+   "evidence": "AFC/M23 advanced through Kashebere, Kibati, Ngora and Kibua toward Walikale in early 2025 from its Masisi positions and kept positions in the east of the territory after leaving Walikale centre, while Wazalendo (APCLS, Kifuafua, NDC-R and others) and FDLR remain active in the forests and contest villages. Control of individual villages likely alternates; M23 assessed as holding the main localities. Not verified against 2026 reporting: web research was blocked for this run (search budget exhausted, news sites egress-blocked).",
+   "source_ids": [
+    "s2",
+    "s3"
+   ]
+  },
+  {
+   "zone_id": "z5",
+   "description": "Southern Walikale on the Bukavu–Walikale road: Itebero/Mutanda, Hombo (Lwaya/115 km), Ndakirwa, Katimba, Lukaraba, Chambucha, plus Nyasi and Kampala south of Walikale centre",
+   "controller_id": "cod-wazalendo",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "inference",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "mm-kifuafua",
+     "role": "present"
+    },
+    {
+     "entity_id": "raia-mutomboki",
+     "role": "present"
+    },
+    {
+     "entity_id": "cod-fardc",
+     "role": "allied"
+    },
+    {
+     "entity_id": "afc-m23-arc",
+     "role": "raiding"
+    }
+   ],
+   "evidence": "Itebero/Hombo area on the Bunyakiri–Walikale road has long been dominated by Mai-Mai Kifuafua and Raia Mutomboki factions, now integrated as Wazalendo and backing FARDC against AFC/M23, which holds Kalehe to the south-east. Specific group per village unknown, so the Wazalendo umbrella is used. Not verified against 2026 reporting: web research was blocked for this run (search budget exhausted, news sites egress-blocked).",
+   "source_ids": [
+    "s1"
+   ]
+  },
+  {
+   "zone_id": "z6",
+   "description": "Pinga and surroundings (Nkasa, Kailenge, Kaseke, Mpety health areas): Pinga (Kisangani), Isango, Kaseke, Mpety",
+   "controller_id": "ndc-r",
+   "status": "contested",
+   "confidence": "low",
+   "basis": "inference",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "allied"
+    },
+    {
+     "entity_id": "afc-m23-arc",
+     "role": "contesting"
+    }
+   ],
+   "evidence": "Pinga, in the Wanianga/Bakano north of Walikale, is the historical stronghold of the NDC-R; the pro-government (Bwira) wing, part of the Wazalendo, has dominated it alongside FARDC, while AFC/M23 and the rival Guidon wing, allied to M23, attacked the area from Kalembe and the east in 2024-2025. Not verified against 2026 reporting: web research was blocked for this run (search budget exhausted, news sites egress-blocked).",
+   "source_ids": [
+    "s3",
+    "s1"
+   ]
+  },
+  {
+   "zone_id": "z7",
+   "description": "North-eastern Pinga/Bakano fringe next to Kalembe (Rutshuru/Masisi border): Ihula, Katobo, Malemo, Rusamambo, Kateku, Katrisa (Buleusa), Bukumbirwa, Buhimba",
+   "controller_id": "afc-m23-arc",
+   "status": "contested",
+   "confidence": "low",
+   "basis": "inference",
+   "since": "2024-10",
+   "presence": [
+    {
+     "entity_id": "ndc-r",
+     "role": "contesting"
+    },
+    {
+     "entity_id": "nyatura",
+     "role": "contesting"
+    },
+    {
+     "entity_id": "fdlr",
+     "role": "present"
+    }
+   ],
+   "evidence": "M23 captured Kalembe in October 2024 and still held it in 2026 (repelling Wazalendo there in January 2026); the adjacent Kalembe-health-area villages and Buleusa/Kateku axis lie in its area of operations, but NDC-R/Wazalendo, Nyatura and FDLR fighters remain active and control alternates. Not verified against 2026 reporting: web research was blocked for this run (search budget exhausted, news sites egress-blocked).",
+   "source_ids": [
+    "s3"
+   ]
+  },
+  {
+   "zone_id": "z8",
+   "description": "Butembo/Mandele (Oninga health area), remote far north of Walikale toward Lubero and the Maiko forest",
+   "controller_id": "ndc-r",
+   "status": "unclear",
+   "confidence": "low",
+   "basis": "inference",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-wazalendo",
+     "role": "present"
+    }
+   ],
+   "evidence": "Remote forest locality north of Pinga with negligible state presence, where NDC-R factions and other Mai-Mai have historically held sway. No specific report. Not verified against 2026 reporting: web research was blocked for this run (search budget exhausted, news sites egress-blocked).",
+   "source_ids": [
+    "s1"
+   ]
+  }
+ ],
+ "locations": {
+  "cod-35MNU9556_1": "z2",
+  "cod-35MNU8558_2": "z2",
+  "cod-35MNU4276_1": "z2",
+  "cod-35MNU5469_1": "z2",
+  "cod-35MPU0353_1": "z2",
+  "cod-35MNU6666_2": "z2",
+  "cod-35MNU8183_1": "z2",
+  "cod-35MNU4972_1": "z2",
+  "cod-35MPU1859_1": "z2",
+  "cod-35MPU3370_1": "z3",
+  "cod-35MNU8354_1": "z2",
+  "cod-35MNU6166_1": "z2",
+  "cod-35MNU7560_1": "z2",
+  "cod-35MNU9065_2": "z2",
+  "cod-35MNU3880_1": "z2",
+  "cod-35MNU6098_1": "z2",
+  "cod-35MNU3781_2": "z2",
+  "cod-35MPU1942_1": "z1",
+  "cod-35MPU5763_1": "z4",
+  "cod-35MPU4968_1": "z4",
+  "cod-35MPU4270_2": "z4",
+  "cod-35MPU7060_2": "z4",
+  "cod-35MPU6340_1": "z4",
+  "cod-35MPU2332_1": "z5",
+  "cod-35MPU8790_1": "z6",
+  "cod-35MPU7273_1": "z4",
+  "cod-35MPU7957_2": "z4",
+  "cod-35MPU8654_1": "z4",
+  "cod-35MPU7360_1": "z4",
+  "cod-35MPU5266_1": "z4",
+  "cod-35MPU8476_1": "z6",
+  "cod-35MPU5663_1": "z4",
+  "cod-35MPU7216_1": "z4",
+  "cod-35MPU2236_1": "z5",
+  "cod-35MPU9461_1": "z4",
+  "cod-35MPU3084_1": "z3",
+  "cod-35MPU8991_1": "z6",
+  "cod-35MQV1610_1": "z7",
+  "cod-35MQU1794_1": "z7",
+  "cod-35MPV2763_2": "z8",
+  "cod-35MQV2508_1": "z7",
+  "cod-35MQU0294_1": "z6",
+  "cod-35MQV2313_1": "z7",
+  "cod-35MQV1214_1": "z7",
+  "cod-35MQU0991_2": "z7",
+  "cod-35MQU1897_4": "z7",
+  "cod-35MQV1102_1": "z7",
+  "cod-35MPT5997_1": "z5",
+  "cod-35MPU2514_2": "z5",
+  "cod-35MPU5306_1": "z5",
+  "cod-35MPU5112_1": "z5",
+  "cod-35MPU6603_1": "z5",
+  "cod-35MPU8208_3": "z4",
+  "cod-35MPU5801_1": "z5"
+ }
+}

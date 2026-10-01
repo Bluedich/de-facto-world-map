@@ -1,0 +1,398 @@
+{
+ "unit_id": "CD6103-masisi",
+ "as_of": "2026-10-01",
+ "summary": "AFC/M23 controls most of Masisi territory as of October 2026: Kitshanga and Mweso (since 2023-24), Rubaya and its coltan mines (since 2024), and Sake, Kirotshe/Ngungu, Bweremana and Masisi centre (since the January 2025 offensive), with its own administration and police in the main towns. The western hills toward Walikale (Nyabiondo, Lukweti, Loashi, Osso-Banyungu), the Ufamandu highlands and the Mpati-Kivuye-Bibwe fringe remain contested by Wazalendo groups (APCLS, Nyatura/CMC) with FDLR present, and see recurrent clashes. Note: live web research was unavailable for this unit (search budget exhausted, sites blocked by the egress proxy), so zones rest on the 2023-2025 capture record and 2026 regional reviews cited by neighbouring units; western zones are low confidence.",
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.criticalthreats.org/briefs/congo-war-security-review",
+   "title": "Congo War Security Review, September 25, 2026",
+   "publisher": "Critical Threats Project (AEI/ISW)",
+   "date": "2026-09-25"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.criticalthreats.org/briefs/congo-war-security-review/july-31-2026",
+   "title": "Congo War Security Review, July 31, 2026",
+   "publisher": "Critical Threats Project (AEI/ISW)",
+   "date": "2026-07-31"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.criticalthreats.org/briefs/congo-war-security-review/april-8-2026",
+   "title": "Congo War Security Review, April 8, 2026",
+   "publisher": "Critical Threats Project (AEI/ISW)",
+   "date": "2026-04-08"
+  },
+  {
+   "id": "s4",
+   "url": "https://www.reuters.com/world/africa/m23-rebels-say-they-have-captured-congos-goma-2025-01-27/",
+   "title": "M23 rebels say they have captured Congo's Goma",
+   "publisher": "Reuters",
+   "date": "2025-01-27"
+  },
+  {
+   "id": "s5",
+   "url": "https://ipisresearch.be/publication/shifting-frontlines-visualizing-the-evolution-of-the-m23s-territorial-influence-in-early-2024/",
+   "title": "Shifting frontlines: visualizing the evolution of the M23's territorial influence in early 2024",
+   "publisher": "IPIS",
+   "date": "2024"
+  },
+  {
+   "id": "s6",
+   "url": "https://actualite.cd/2025/05/25/rdc-retour-des-violences-rutshuru-affrontements-fardc-afcm23-autour-de-lushebere",
+   "title": "RDC : retour des violences, affrontements FARDC-AFC/M23 autour de Lushebere",
+   "publisher": "Actualite.cd",
+   "date": "2025-05-25"
+  }
+ ],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Main towns: Sake (Mosquee record), Kitshanga (Mberere record), Rubaya (Nyabushongo 1 record) and Masisi centre",
+   "controller_id": "afc-m23-police",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "area_report",
+   "since": "2025-01",
+   "presence": [
+    {
+     "entity_id": "afc-m23-arc",
+     "role": "present"
+    },
+    {
+     "entity_id": "cod-wazalendo",
+     "role": "raiding"
+    }
+   ],
+   "evidence": "M23 took Kitshanga (2023), Rubaya (April-May 2024), and Sake and Masisi centre during the January 2025 offensive that took Goma, and installed its own administrators and police. Through 2025-2026 Wazalendo raids and night attacks hit the outskirts of Masisi centre and Sake, but no source available to this assessment reports the towns changing hands.",
+   "source_ids": [
+    "s1",
+    "s4",
+    "s5"
+   ]
+  },
+  {
+   "zone_id": "z2",
+   "description": "Kirotshe health zone (Bahunde chefferie south/east): Shasha, Bweremana, Kirotshe/Ngungu, Mushaki, Karuba, Kingi/Buroha, Kausa, Kashebere HA, Matanda, Nzulo, Luzirantaka, Kabingu, plus Bihambwe",
+   "controller_id": "afc-m23-arc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "area_report",
+   "since": "2025-01",
+   "presence": [
+    {
+     "entity_id": "cod-wazalendo",
+     "role": "raiding"
+    },
+    {
+     "entity_id": "rwa-rdf",
+     "role": "allied"
+    }
+   ],
+   "evidence": "The Sake-Kirotshe-Bweremana and Sake-Mushaki-Rubaya-Masisi axes have been AFC/M23 rear areas since early 2025 (Mushaki/Karuba from 2024). Wazalendo incursions occur on the Ngungu/Luzirantaka edge toward Ufamandu and Kalehe, but M23 holds the localities; M23 police operate in larger centres.",
+   "source_ids": [
+    "s1",
+    "s4",
+    "s5"
+   ]
+  },
+  {
+   "zone_id": "z3",
+   "description": "Central and eastern Masisi: rural Masisi HZ around Masisi centre (Kitsule, Kahanga, Miandja, Muheto, Mpanamo, Kalonge, Nyakariba, Kilolirwe, Buguri, Sati, Kaniro), eastern Katoyi HZ (Kibabi, Kinigi, Kasinga, Kiruli, Nyambisi, Bukumbirire) and Mweso HZ east/centre (Mweso/Kirumbu, Kashuga area, Kibarizo, Mokoto, Tambi, Burungu, Busumba, Katuna, Rugarama, Bukama/Matanda, Mwanja)",
+   "controller_id": "afc-m23-arc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "area_report",
+   "since": "2024-02",
+   "presence": [
+    {
+     "entity_id": "cod-wazalendo",
+     "role": "raiding"
+    },
+    {
+     "entity_id": "nyatura",
+     "role": "raiding"
+    },
+    {
+     "entity_id": "fdlr",
+     "role": "raiding"
+    }
+   ],
+   "evidence": "M23 has held Kitshanga-Mweso-Kirumbu and the Rubaya-Masisi corridor since 2024 and extended over Masisi centre and surrounding groupements in 2025; it repelled Wazalendo near Kashuga/Ibuga in early 2026. Wazalendo, Nyatura (CMC) and FDLR remain active in pockets and ambush M23, so villages near the western edge are less firmly held.",
+   "source_ids": [
+    "s1",
+    "s2",
+    "s3",
+    "s5",
+    "s6"
+   ]
+  },
+  {
+   "zone_id": "z4",
+   "description": "Western Masisi (Osso-Banyungu / Bashali Kaembe fringe): Nyabiondo, Lukweti, Loashi, Mbitsi, Buabo/Lushebere, Bukombo (Lulima), Kazinga, Mahanga; western Katoyi HZ: Luke, Katoyi HA (Nyalipe, Kakoka, Muhairwe), Katovu, Kikoma",
+   "controller_id": "apcls",
+   "status": "contested",
+   "confidence": "low",
+   "basis": "inference",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "afc-m23-arc",
+     "role": "contesting"
+    },
+    {
+     "entity_id": "nyatura",
+     "role": "present"
+    },
+    {
+     "entity_id": "cod-fardc",
+     "role": "allied"
+    }
+   ],
+   "evidence": "The hills west of Masisi centre toward Walikale have long been APCLS strongholds (Lukweti, Nyabiondo, Loashi) with Nyatura factions, and became the main Wazalendo-M23 front after M23 took Masisi centre; FARDC-M23 fighting was reported around Lushebere in May 2025. Current holders of individual villages could not be verified (live research unavailable); APCLS/Wazalendo are assumed to dominate the far west and M23 to push in from Masisi centre.",
+   "source_ids": [
+    "s1",
+    "s6"
+   ]
+  },
+  {
+   "zone_id": "z5",
+   "description": "Ufamandu highlands (southwest Katoyi HZ toward Kalehe/Walikale): Bukuba, Miano, Mahiga, Katuunda",
+   "controller_id": "afc-m23-arc",
+   "status": "contested",
+   "confidence": "low",
+   "basis": "inference",
+   "since": "2025-02",
+   "presence": [
+    {
+     "entity_id": "nyatura",
+     "role": "contesting"
+    },
+    {
+     "entity_id": "raia-mutomboki",
+     "role": "contesting"
+    },
+    {
+     "entity_id": "fdlr",
+     "role": "present"
+    }
+   ],
+   "evidence": "Ufamandu I/II groupements lie between M23-held Ngungu/Minova and the Wazalendo/Raia Mutomboki areas of Kalehe highlands; M23 has conducted operations there since early 2025 and Wazalendo/Nyatura groups remain active. Control of individual villages is uncertain.",
+   "source_ids": [
+    "s1",
+    "s2"
+   ]
+  },
+  {
+   "zone_id": "z6",
+   "description": "Northwest Mweso HZ (Bashali Mokoto/Kaembe toward Walikale): Bibwe, Nyange, Kivuye, Mpati, Bweru, Kinyana, Kamonyi, Lwama/Gahinga",
+   "controller_id": "nyatura",
+   "status": "contested",
+   "confidence": "low",
+   "basis": "inference",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "afc-m23-arc",
+     "role": "contesting"
+    },
+    {
+     "entity_id": "fdlr",
+     "role": "present"
+    },
+    {
+     "entity_id": "apcls",
+     "role": "present"
+    },
+    {
+     "entity_id": "ndc-r",
+     "role": "present"
+    }
+   ],
+   "evidence": "The Mpati-Kivuye-Bibwe area has long been dominated by Nyatura (CMC/FDP) factions alongside FDLR and APCLS, now operating as Wazalendo; M23 holds Kitshanga/Mweso to the east and raids or pushes into this fringe (clashes on the adjacent Bwito/Masisi border through mid-2026). Specific control could not be verified.",
+   "source_ids": [
+    "s1",
+    "s2",
+    "s3"
+   ]
+  }
+ ],
+ "locations": {
+  "cod-35MQU0827_4": "z1",
+  "cod-35MQU2926_2": "z1",
+  "cod-35MQU0816_1": "z2",
+  "cod-35MQU2124_1": "z2",
+  "cod-35MQU2420_1": "z2",
+  "cod-35MQU0933_3": "z2",
+  "cod-35MQU2314_1": "z2",
+  "cod-35MQU2018_1": "z2",
+  "cod-35MQU1529_1": "z2",
+  "cod-35MQU2041_1": "z2",
+  "cod-35MQU2030_2": "z2",
+  "cod-35MQU3341_1": "z2",
+  "cod-35MQU1810_1": "z2",
+  "cod-35MQU1013_2": "z2",
+  "cod-35MQU1215_1": "z2",
+  "cod-35MQU1636_1": "z2",
+  "cod-35MQU3321_1": "z2",
+  "cod-35MQU1521_2": "z2",
+  "cod-35MQU1641_2": "z2",
+  "cod-35MQU1825_1": "z2",
+  "cod-35MQU2012_1": "z2",
+  "cod-35MQU1633_1": "z2",
+  "cod-35MQU1324_1": "z2",
+  "cod-35MQU1041_1": "z3",
+  "cod-35MQU1808_2": "z2",
+  "cod-35MQU1319_1": "z2",
+  "cod-35MQU2121_1": "z2",
+  "cod-35MQU1128_2": "z2",
+  "cod-35MQU1625_1": "z2",
+  "cod-35MQU2517_1": "z2",
+  "cod-35MQU1737_2": "z2",
+  "cod-35MQU1223_1": "z2",
+  "cod-35MQU1331_1": "z2",
+  "cod-35MQU1239_1": "z2",
+  "cod-35MQU1027_1": "z2",
+  "cod-35MQU1821_2": "z2",
+  "cod-35MQU2331_1": "z2",
+  "cod-35MQU2736_2": "z2",
+  "cod-35MQU2935_1": "z2",
+  "cod-35MQU1817_1": "z2",
+  "cod-35MQU2122_1": "z2",
+  "cod-35MQU1144_1": "z3",
+  "cod-35MQU1631_2": "z2",
+  "cod-35MQU1942_1": "z2",
+  "cod-35MQU1327_2": "z2",
+  "cod-35MQU2734_1": "z2",
+  "cod-35MQU2117_4": "z2",
+  "cod-35MQU1836_1": "z2",
+  "cod-35MQU1216_1": "z2",
+  "cod-35MQU1321_1": "z2",
+  "cod-35MQU1333_2": "z2",
+  "cod-35MQU2026_1": "z2",
+  "cod-35MQU2537_1": "z2",
+  "cod-35MQU2637_1": "z2",
+  "cod-35MQU2114_1": "z2",
+  "cod-35MQU1025_2": "z2",
+  "cod-35MQU3032_2": "z2",
+  "cod-35MQU1126_1": "z2",
+  "cod-35MQU1619_1": "z2",
+  "cod-35MQU1027_2": "z2",
+  "cod-35MQU2961_1": "z1",
+  "cod-35MQU2674_1": "z3",
+  "cod-35MQU1651_1": "z3",
+  "cod-35MQU2654_1": "z3",
+  "cod-35MQU1969_2": "z3",
+  "cod-35MQU2147_1": "z3",
+  "cod-35MQU1566_2": "z3",
+  "cod-35MQU1272_1": "z6",
+  "cod-35MQU1957_4": "z3",
+  "cod-35MQU2061_2": "z3",
+  "cod-35MQU0374_1": "z6",
+  "cod-35MQU1276_1": "z6",
+  "cod-35MQU0864_1": "z6",
+  "cod-35MQU0673_1": "z6",
+  "cod-35MQU2445_1": "z3",
+  "cod-35MQU2451_5": "z3",
+  "cod-35MQU1468_3": "z3",
+  "cod-35MQU1577_3": "z6",
+  "cod-35MQU1447_1": "z3",
+  "cod-35MQU1653_1": "z3",
+  "cod-35MQU1165_1": "z3",
+  "cod-35MQU1259_2": "z3",
+  "cod-35MQU1946_1": "z3",
+  "cod-35MQU0958_2": "z3",
+  "cod-35MPU9367_1": "z4",
+  "cod-35MQU1059_3": "z3",
+  "cod-35MQU2268_1": "z3",
+  "cod-35MQU0265_1": "z6",
+  "cod-35MQU2443_5": "z3",
+  "cod-35MQU1668_1": "z3",
+  "cod-35MQU1068_1": "z6",
+  "cod-35MQU1645_1": "z3",
+  "cod-35MPU9468_3": "z4",
+  "cod-35MQU1460_4": "z3",
+  "cod-35MQU1952_1": "z3",
+  "cod-35MQU1657_2": "z3",
+  "cod-35MQU1772_1": "z3",
+  "cod-35MQU1548_1": "z3",
+  "cod-35MQU1747_1": "z3",
+  "cod-35MQU1564_3": "z3",
+  "cod-35MQU2175_2": "z3",
+  "cod-35MQU1545_1": "z3",
+  "cod-35MQU1268_3": "z3",
+  "cod-35MQU1873_2": "z3",
+  "cod-35MQU0967_1": "z6",
+  "cod-35MQU0765_1": "z6",
+  "cod-35MQU1261_2": "z3",
+  "cod-35MQU0245_1": "z1",
+  "cod-35MPU9154_1": "z4",
+  "cod-35MQU0644_1": "z3",
+  "cod-35MPU9752_1": "z4",
+  "cod-35MQU0752_1": "z3",
+  "cod-35MQU0452_2": "z3",
+  "cod-35MPU9841_1": "z4",
+  "cod-35MQU1053_1": "z3",
+  "cod-35MPU9530_2": "z4",
+  "cod-35MPU8924_3": "z4",
+  "cod-35MPU9233_2": "z3",
+  "cod-35MQU1351_1": "z3",
+  "cod-35MPU9948_1": "z4",
+  "cod-35MQU0142_1": "z3",
+  "cod-35MPU9949_3": "z4",
+  "cod-35MPU9446_2": "z4",
+  "cod-35MPU9249_2": "z4",
+  "cod-35MPU9433_3": "z3",
+  "cod-35MQU0845_2": "z3",
+  "cod-35MPU7928_4": "z4",
+  "cod-35MPU9524_2": "z3",
+  "cod-35MQU1253_2": "z3",
+  "cod-35MQU0449_1": "z3",
+  "cod-35MPU8840_1": "z4",
+  "cod-35MPU9051_1": "z4",
+  "cod-35MQU1149_1": "z3",
+  "cod-35MPU9425_1": "z3",
+  "cod-35MPU8549_1": "z4",
+  "cod-35MPU9641_2": "z4",
+  "cod-35MPU9227_1": "z4",
+  "cod-35MQU0556_2": "z3",
+  "cod-35MQU1148_1": "z3",
+  "cod-35MPU9749_2": "z4",
+  "cod-35MPU8828_3": "z4",
+  "cod-35MQU0158_2": "z3",
+  "cod-35MPU9432_2": "z3",
+  "cod-35MPU9449_2": "z4",
+  "cod-35MPU9648_2": "z4",
+  "cod-35MPU9843_2": "z3",
+  "cod-35MQU0651_2": "z3",
+  "cod-35MQU0749_1": "z3",
+  "cod-35MPU9441_2": "z4",
+  "cod-35MQU1155_2": "z3",
+  "cod-35MQU0029_2": "z3",
+  "cod-35MQU0540_1": "z3",
+  "cod-35MQU0134_5": "z3",
+  "cod-35MQU0327_2": "z3",
+  "cod-35MQU0625_1": "z3",
+  "cod-35MQU0528_1": "z3",
+  "cod-35MPU9313_2": "z5",
+  "cod-35MPU9722_2": "z3",
+  "cod-35MQU0723_2": "z3",
+  "cod-35MQU0322_2": "z3",
+  "cod-35MQU0623_1": "z3",
+  "cod-35MPU9614_2": "z5",
+  "cod-35MQU0129_1": "z3",
+  "cod-35MQU0823_3": "z2",
+  "cod-35MQU0510_1": "z2",
+  "cod-35MQU0032_2": "z3",
+  "cod-35MQU0031_1": "z3",
+  "cod-35MPU8911_2": "z5",
+  "cod-35MPU9811_3": "z5",
+  "cod-35MQU0225_3": "z3",
+  "cod-35MQU0923_1": "z2",
+  "cod-35MQU0424_1": "z3",
+  "cod-35MPU9925_1": "z3",
+  "cod-35MQU0128_2": "z3"
+ }
+}

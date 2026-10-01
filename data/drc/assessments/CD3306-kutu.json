@@ -1,0 +1,185 @@
+{
+ "unit_id": "CD3306-kutu",
+ "as_of": "2026-10-01",
+ "summary": "Kutu territory (Maï-Ndombe) covers the Bokoro and Nioki secteurs between the Kasai and Fimi rivers, with Nioki (river port) and Kutu (territorial seat) as main towns and Semendwa as secondary centre. No armed group is reported to control any locality as of late 2026: towns are held by the PNC with territorial administration, and rural villages fall under ordinary state presence with customary chiefs. The Mobondo (Teke-Yaka) militia, still active in mid-2026 in Kwamouth and neighbouring areas, is the nearest threat to the southern fringe bordering Mushie territory, but no source reports it holding places in Kutu. Web research was unavailable for this run (search budget exhausted, sites blocked), so assessments rest on default state presence with medium (towns) or low (rural) confidence.",
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://fr.allafrica.com/stories/202606090742.html",
+   "title": "«Les Mobondo ne sont jamais partis» - Dans l'ouest, ce groupe qui sévit toujours malgré le discours officiel",
+   "publisher": "AllAfrica / RFI",
+   "date": "2026-06-09"
+  },
+  {
+   "id": "s2",
+   "url": "https://fr.allafrica.com/stories/202608180670.html",
+   "title": "Le Gouvernement confirme des signaux de paix face au phénomène Mobondo !",
+   "publisher": "AllAfrica",
+   "date": "2026-08-18"
+  }
+ ],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Nioki town (Fimi river port, Nioki health zone seat)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Nioki, the largest town of Kutu territory, is a river port with state administration and a PNC commissariat; no armed group is reported to hold or regularly operate in the town. The Mobondo militia active since 2022 is centred on Kwamouth territory to the south.",
+   "source_ids": [
+    "s1"
+   ]
+  },
+  {
+   "zone_id": "z2",
+   "description": "Kutu town (territorial seat on the Kasai river)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [],
+   "evidence": "Kutu is the seat of the territorial administration with PNC; no armed-group control is reported. Mobondo violence affects Kwamouth and adjacent areas further south-west, not Kutu.",
+   "source_ids": [
+    "s1"
+   ]
+  },
+  {
+   "zone_id": "z3",
+   "description": "Southern Kutu toward Mushie/Kwamouth: Semendwa cité and Bokoro-HZ villages in the south-west of the territory (Semendwa, Isakambole, Boyon, Ndjampie, Mokila, Bien health areas) and Nioki-HZ villages south of lat -3.3",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "mobondo",
+     "role": "raiding"
+    }
+   ],
+   "evidence": "This southern belt borders Mushie territory, the area nearest to the Mobondo (Teke-Yaka conflict) zone that remained active in mid-2026; no source found reporting Mobondo holding localities inside Kutu territory, so ordinary state presence is assumed. Mobondo raiding listed as a possible risk only; web research was unavailable for this run.",
+   "source_ids": [
+    "s1",
+    "s2"
+   ]
+  },
+  {
+   "zone_id": "z4",
+   "description": "Rural Bokoro secteur (Bokoro and Bosobe health zones, incl. Bokoro centre/Mongali, Tolo, Bosobe mission, Dungu) and the Oshwe-HZ fringe",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [],
+   "evidence": "No reports of armed-group activity in Bokoro secteur east of the Kasai/Fimi corridor; order rests on PNC posts, territorial administration and customary chiefs. Web research was unavailable for this run.",
+   "source_ids": [
+    "s1"
+   ]
+  },
+  {
+   "zone_id": "z5",
+   "description": "Rural Nioki secteur villages (Nioki health zone outside Nioki town: Imongo, Mongobele, Konkia, Dwakombe, Kibambili, Ntsuni etc.)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [],
+   "evidence": "No reports of armed-group activity in the Nioki rural area along the Fimi/Kwa rivers; assessed as ordinary state presence with PNC posts. Web research was unavailable for this run.",
+   "source_ids": [
+    "s1"
+   ]
+  }
+ ],
+ "locations": {
+  "cod-34MBB0682_1": "z4",
+  "cod-34MBB3071_1": "z4",
+  "cod-34MBB5836_1": "z4",
+  "cod-34MBA6199_1": "z4",
+  "cod-34MBA5299_1": "z4",
+  "cod-34MBB0512_1": "z4",
+  "cod-34MBB0214_1": "z4",
+  "cod-34MBB3657_1": "z4",
+  "cod-34MBB5831_1": "z4",
+  "cod-34MBB1480_1": "z4",
+  "cod-34MBB1295_1": "z4",
+  "cod-34MBB2205_1": "z4",
+  "cod-34MBB3354_1": "z4",
+  "cod-34MBB5546_1": "z4",
+  "cod-34MBB2604_1": "z4",
+  "cod-34MAB9383_1": "z4",
+  "cod-34MBB6738_1": "z4",
+  "cod-34MBB4774_1": "z4",
+  "cod-34MBB5152_1": "z4",
+  "cod-34MBB1349_1": "z4",
+  "cod-34MBB4550_1": "z4",
+  "cod-34MBC6201_1": "z4",
+  "cod-34MAB9661_1": "z4",
+  "cod-34MBB5146_1": "z4",
+  "cod-34MBB0767_1": "z4",
+  "cod-34MBB3281_1": "z4",
+  "cod-34MAB9422_1": "z3",
+  "cod-34MBB6139_1": "z4",
+  "cod-34MBB4559_2": "z4",
+  "cod-34MBB7292_2": "z4",
+  "cod-34MAB9679_1": "z4",
+  "cod-34MBB3711_1": "z4",
+  "cod-34MBB5576_1": "z4",
+  "cod-34MBC1902_1": "z4",
+  "cod-34MBB2576_1": "z4",
+  "cod-34MBB0493_1": "z4",
+  "cod-34MBB6025_1": "z4",
+  "cod-34MBB2089_1": "z4",
+  "cod-34MBB1975_1": "z4",
+  "cod-34MBB4536_1": "z4",
+  "cod-34MBB6497_1": "z4",
+  "cod-34MBC4608_1": "z4",
+  "cod-34MBB1805_1": "z4",
+  "cod-34MBB5921_1": "z4",
+  "cod-34MBB4218_1": "z4",
+  "cod-34MBB4545_2": "z4",
+  "cod-34MBB3177_1": "z4",
+  "cod-34MAB8622_1": "z3",
+  "cod-34MBB4501_1": "z4",
+  "cod-34MBC5705_1": "z4",
+  "cod-34MBC5211_1": "z4",
+  "cod-34MBB3016_1": "z4",
+  "cod-34MBC2309_1": "z4",
+  "cod-34MBB3867_1": "z4",
+  "cod-34MBB4618_4": "z4",
+  "cod-34MBB5741_1": "z4",
+  "cod-34MBB4473_1": "z4",
+  "cod-33MYS9999_1": "z1",
+  "cod-34MAB8398_1": "z2",
+  "cod-34MAB8042_1": "z3",
+  "cod-33MZS0288_1": "z5",
+  "cod-33MYS5049_1": "z5",
+  "cod-33MZS1790_1": "z5",
+  "cod-33MZS0270_1": "z5",
+  "cod-33MYS8185_1": "z5",
+  "cod-33MZS0858_1": "z5",
+  "cod-33MZT0301_1": "z5",
+  "cod-34MAB7164_1": "z3",
+  "cod-33MZS2824_1": "z3",
+  "cod-33MZS2090_1": "z5",
+  "cod-33MZS1585_1": "z5",
+  "cod-33MYS6275_1": "z5",
+  "cod-33MZS1721_1": "z3",
+  "cod-33MYS4365_1": "z5",
+  "cod-34MAB7975_1": "z3",
+  "cod-34MAB7588_1": "z3",
+  "cod-33MYS5972_1": "z5",
+  "cod-33MZS3250_1": "z3"
+ }
+}

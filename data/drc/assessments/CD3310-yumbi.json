@@ -1,0 +1,81 @@
+{
+ "unit_id": "CD3310-yumbi",
+ "as_of": "2026-10-01",
+ "summary": "Yumbi territory (Maï-Ndombe) lies on the Congo river north of Bolobo, facing the Republic of Congo. It was the scene of the December 2018 Batende–Banunu intercommunal massacres (Yumbi, Bongende, Nkolo), after which state security forces were reinforced; no armed group is reported to hold or administer any locality as of late 2026. Yumbi town (the territorial seat) and the surrounding villages are under ordinary state authority, with the PNC as the main permanent force alongside customary chiefs. The Mobondo (Teke-Yaka) militia operates further south (Kwamouth and adjacent territories) and is not reported in Yumbi. Web search was unavailable for this run (budget exhausted, key sites blocked), so confidence is medium for Yumbi town and low for the villages.",
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://en.wikipedia.org/wiki/Yumbi_massacres",
+   "title": "Yumbi massacres",
+   "publisher": "Wikipedia",
+   "date": null
+  },
+  {
+   "id": "s2",
+   "url": "https://fr.allafrica.com/stories/202606090742.html",
+   "title": "«Les Mobondo ne sont jamais partis» - Dans l'ouest, ce groupe qui sévit toujours malgré le discours officiel",
+   "publisher": "AllAfrica / RFI",
+   "date": "2026-06-09"
+  }
+ ],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Yumbi town (territorial seat and Congo river port; GRID3 'Ntsentseke' incl. Bolu, Bombenda, Bonkongo, Likolo, Masonga, Miebi, Monkonga quarters)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Yumbi is the seat of the territorial administration with a PNC commissariat; security forces were reinforced after the December 2018 intercommunal massacres. No armed group is reported to control or regularly operate in the town; the Mobondo militia is active further south in Kwamouth, not in Yumbi.",
+   "source_ids": [
+    "s1",
+    "s2"
+   ]
+  },
+  {
+   "zone_id": "z2",
+   "description": "Villages of Yumbi health zone around the town and along the river/inland axes (Ngenia, Nkolo Yoka, Bongende, Boponga, Mansele, Ngoo, Kokolo, Nkombe, Kimbeke, Nganya etc.)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [],
+   "evidence": "No armed-group control is reported in these villages; state authority is exercised through PNC posts, the territorial administration and customary chiefs. Bongende and Nkolo were among the sites of the 2018 Batende–Banunu massacres, and intercommunal tension may persist, but no militia rule has been reported since; research could not be carried out for this run.",
+   "source_ids": [
+    "s1"
+   ]
+  }
+ ],
+ "locations": {
+  "cod-33MXT7389_1": "z1",
+  "cod-33MXT6576_1": "z2",
+  "cod-33MXT6479_1": "z2",
+  "cod-33MXT5170_2": "z2",
+  "cod-33MXT6158_1": "z2",
+  "cod-33MXT5165_1": "z2",
+  "cod-33MXT7285_1": "z2",
+  "cod-33MXT6169_2": "z2",
+  "cod-33MXT6781_1": "z2",
+  "cod-33MXT5872_1": "z2",
+  "cod-33MXT6264_1": "z2",
+  "cod-33MXT6362_1": "z2",
+  "cod-33MXT7081_1": "z2",
+  "cod-33MXT6872_1": "z2",
+  "cod-33MXT5875_1": "z2",
+  "cod-33MXT7956_1": "z2",
+  "cod-33MXT6558_1": "z2",
+  "cod-33MXT7087_1": "z2",
+  "cod-33MXT5770_2": "z2",
+  "cod-33MXT6970_2": "z2",
+  "cod-33MXT6780_1": "z2"
+ }
+}

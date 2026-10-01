@@ -1,0 +1,645 @@
+{
+ "unit_id": "CD6107-oicha",
+ "as_of": "2026-10-01",
+ "summary": "Beni territory (OCHA 'Oïcha' unit) is government-held but is the core operating area of the ADF/ISCAP. The towns (Oicha, Beni city outskirts, Mangina, Kasindi, Mutwanga, Kamango, Butembo outskirts) and the RN4/RN2 road positions are held by FARDC, police and, in the north and east, Ugandan UPDF troops of Operation Shujaa, while the ADF contests the forest belts of Beni-Mbau (Mayangose/Pasala, Mapou-Kainama, Samboko), the Mwalika valley/Beni-Kasindi road, western Mabalako toward Lubero, and the western Kalunguta hills. The southern Bashu chefferie (Kyondo, Vuhovi, Masereka area) around Butembo is state-administered with PNC, with Wazalendo/Mai-Mai groups present but not known to rule; the AFC/M23 front stayed south in Lubero/Rutshuru. NOTE: no live web research was possible for this unit (search budget exhausted, all news/tracker sites blocked), so all zones are inferences from background knowledge to mid-2026 and confidence is low to medium.",
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://kivusecurity.org/",
+   "title": "Kivu Security Tracker – incident mapping for Beni territory (background)",
+   "publisher": "Congo Research Group / Human Rights Watch",
+   "date": null
+  },
+  {
+   "id": "s2",
+   "url": "https://en.wikipedia.org/wiki/Allied_Democratic_Forces",
+   "title": "Allied Democratic Forces (background: ADF operating areas in Beni, Lubero, Ituri)",
+   "publisher": "Wikipedia",
+   "date": null
+  },
+  {
+   "id": "s3",
+   "url": "https://en.wikipedia.org/wiki/Beni_Territory",
+   "title": "Beni Territory (background: secteurs/chefferies)",
+   "publisher": "Wikipedia",
+   "date": null
+  },
+  {
+   "id": "s4",
+   "url": "https://monusco.unmissions.org/",
+   "title": "MONUSCO – North Kivu/Beni updates (background)",
+   "publisher": "MONUSCO",
+   "date": null
+  }
+ ],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Oicha town (territorial seat; Hyosha settlement record and all its neighbourhoods)",
+   "controller_id": "cod-fardc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "inference",
+   "since": "2021-05",
+   "presence": [
+    {
+     "entity_id": "cod-pnc",
+     "role": "present"
+    },
+    {
+     "entity_id": "uga-updf",
+     "role": "allied"
+    },
+    {
+     "entity_id": "adf",
+     "role": "raiding"
+    }
+   ],
+   "evidence": "Seat of Beni territory under the état de siège (military territorial administrator) and a hub of FARDC and UPDF Operation Shujaa forces; PNC operate in town. The ADF has repeatedly attacked the outskirts of Oicha (e.g. Mbimbi, Masosi, Mamove road) but has not held the town. Web research was unavailable for this unit (search budget exhausted, news sites blocked by the egress proxy); assessment relies on background knowledge of the situation up to mid-2026.",
+   "source_ids": [
+    "s1",
+    "s2",
+    "s3",
+    "s4"
+   ]
+  },
+  {
+   "zone_id": "z2",
+   "description": "Beni–Eringeti RN4 axis towns in Beni-Mbau secteur: Mbau centre, Mavivi (Untesiba Nzelewa), Liva, Kokola (Kibango), Eringeti (CBCA 1 record)",
+   "controller_id": "cod-fardc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "inference",
+   "since": "2021-12",
+   "presence": [
+    {
+     "entity_id": "uga-updf",
+     "role": "allied"
+    },
+    {
+     "entity_id": "adf",
+     "role": "raiding"
+    },
+    {
+     "entity_id": "cod-pnc",
+     "role": "present"
+    }
+   ],
+   "evidence": "The RN4 Beni–Oicha–Eringeti–Komanda road is lined with FARDC (Sokola 1) and UPDF Shujaa positions; Mbau, Mavivi, Kokola and Eringeti have suffered repeated ADF massacres and ambushes since 2014 but remain army-held, with civilian life organised around the military posts. Web research was unavailable for this unit (search budget exhausted, news sites blocked by the egress proxy); assessment relies on background knowledge of the situation up to mid-2026.",
+   "source_ids": [
+    "s1",
+    "s2",
+    "s3",
+    "s4"
+   ]
+  },
+  {
+   "zone_id": "z3",
+   "description": "Forest-edge villages of Beni-Mbau and Watalinga west of/east of RN4 in the ADF 'triangle': Kenya and Kazaroho (Pasala), Musuku, Samboko, Kithimba (Kainama), Kayiremonda (Sayo), Kavisa (Kikingi, Mbau–Kamango road)",
+   "controller_id": "cod-fardc",
+   "status": "contested",
+   "confidence": "low",
+   "basis": "inference",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "adf",
+     "role": "contesting"
+    },
+    {
+     "entity_id": "uga-updf",
+     "role": "present"
+    }
+   ],
+   "evidence": "These villages lie in the core ADF operating area (Mayangose/Pasala, Mapou–Kikingi–Kainama, Samboko/Komanda edge) where ADF camps sit in the surrounding forest and attacks, kidnappings and forced displacement have been frequent through 2025; FARDC/UPDF hold only scattered positions, so control is contested. Web research was unavailable for this unit (search budget exhausted, news sites blocked by the egress proxy); assessment relies on background knowledge of the situation up to mid-2026.",
+   "source_ids": [
+    "s1",
+    "s2",
+    "s3",
+    "s4"
+   ]
+  },
+  {
+   "zone_id": "z4",
+   "description": "Beni city neighbourhoods lying in the Kalunguta adm3 (Ngongolio, Bundji, Rwangoma, Mabolio, Mangothe, Ngilinga, Benengule, Butanuka, Paida, Mukulya, Buhumbani)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "inference",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    },
+    {
+     "entity_id": "adf",
+     "role": "raiding"
+    },
+    {
+     "entity_id": "cod-wazalendo",
+     "role": "present"
+    }
+   ],
+   "evidence": "Urban and peri-urban Beni, a state-held city with PNC commissariats, the FARDC Sokola 1 headquarters and a MONUSCO base; the ADF has carried out night raids in outer quarters such as Rwangoma, Ngadi/Paida and Bundji, but police and army maintain permanent presence and justice. Web research was unavailable for this unit (search budget exhausted, news sites blocked by the egress proxy); assessment relies on background knowledge of the situation up to mid-2026.",
+   "source_ids": [
+    "s1",
+    "s2",
+    "s3",
+    "s4"
+   ]
+  },
+  {
+   "zone_id": "z5",
+   "description": "Peri-Beni villages in Kalunguta/Beni health zone: Kikondi 1, Ngadi, Munzambaye, Mboso",
+   "controller_id": "cod-fardc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "inference",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "adf",
+     "role": "raiding"
+    },
+    {
+     "entity_id": "cod-pnc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Villages just outside Beni city along the Beni–Kasindi and Beni–Mavivi roads; ADF incursions recur on the city's eastern and northern edges, but FARDC posts around Beni are the permanent force. Web research was unavailable for this unit (search budget exhausted, news sites blocked by the egress proxy); assessment relies on background knowledge of the situation up to mid-2026.",
+   "source_ids": [
+    "s1",
+    "s2",
+    "s3",
+    "s4"
+   ]
+  },
+  {
+   "zone_id": "z6",
+   "description": "Mangina and the Beni–Mangina road (Mabalako health zone east): Mangina, Bingo 3, Kalibo, Irango, Mununze, Vusamba",
+   "controller_id": "cod-fardc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "inference",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "adf",
+     "role": "raiding"
+    },
+    {
+     "entity_id": "cod-pnc",
+     "role": "present"
+    },
+    {
+     "entity_id": "uga-updf",
+     "role": "present"
+    }
+   ],
+   "evidence": "Mangina is the main town of the Beni–Mangina–Biakato road (RN4 towards Ituri), with FARDC and police; since 2022-23 the ADF has moved west and north through this axis, attacking villages around Mangina, Bingo and Mabalako, but the town and road positions remain army-held. Web research was unavailable for this unit (search budget exhausted, news sites blocked by the egress proxy); assessment relies on background knowledge of the situation up to mid-2026.",
+   "source_ids": [
+    "s1",
+    "s2",
+    "s3",
+    "s4"
+   ]
+  },
+  {
+   "zone_id": "z7",
+   "description": "Western Mabalako (Aloya/Matonge, Mabalako, Mangalala, Pangia, Ngazi, Metale, Biena edge Mausa)",
+   "controller_id": "cod-fardc",
+   "status": "contested",
+   "confidence": "low",
+   "basis": "inference",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "adf",
+     "role": "contesting"
+    },
+    {
+     "entity_id": "cod-wazalendo",
+     "role": "present"
+    }
+   ],
+   "evidence": "Western Beni territory bordering the Lubero forest zone (Bapere/Manguredjipa, Biena) into which the ADF expanded in 2024-25, with massacres and kidnappings around Aloya, Mabalako and the Lubero border; FARDC hold centres but ADF units move through and threaten the surrounding villages. Web research was unavailable for this unit (search budget exhausted, news sites blocked by the egress proxy); assessment relies on background knowledge of the situation up to mid-2026.",
+   "source_ids": [
+    "s1",
+    "s2",
+    "s3",
+    "s4"
+   ]
+  },
+  {
+   "zone_id": "z8",
+   "description": "Kalunguta health zone along the RN2 Beni–Butembo road and adjacent hills (Kalunguta, Kabasha, Malengayi, Kasebere, Lisasa, Mabuku, Maboya, Kivetya, Amani Kisungu, Mambingi) plus Biambe",
+   "controller_id": "cod-fardc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "inference",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "adf",
+     "role": "raiding"
+    },
+    {
+     "entity_id": "cod-wazalendo",
+     "role": "present"
+    },
+    {
+     "entity_id": "cod-pnc",
+     "role": "present"
+    }
+   ],
+   "evidence": "The RN2 corridor (Kalunguta–Mabuku–Kasebere) has FARDC positions and police posts; ADF raids along the Beni–Butembo road and Mai-Mai/Wazalendo groups operating in the Bashu hills create insecurity, but the state forces remain the permanent presence on the main road. Web research was unavailable for this unit (search budget exhausted, news sites blocked by the egress proxy); assessment relies on background knowledge of the situation up to mid-2026.",
+   "source_ids": [
+    "s1",
+    "s2",
+    "s3",
+    "s4"
+   ]
+  },
+  {
+   "zone_id": "z9",
+   "description": "Western Kalunguta/Vuhovi hills toward Biena and Manguredjipa (Rwahwa, Kakuka, Vurondo, Mbilinga/Ndiba, Muhila, Mbiro, Kanyatsi, Musenge, Masoya, Kyavisogho, Mambale)",
+   "controller_id": "cod-fardc",
+   "status": "contested",
+   "confidence": "low",
+   "basis": "inference",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "adf",
+     "role": "contesting"
+    },
+    {
+     "entity_id": "cod-wazalendo",
+     "role": "present"
+    }
+   ],
+   "evidence": "These villages lie between the RN2 and the Biena/Manguredjipa forests where ADF groups have been active since 2024 and where local Mai-Mai/Wazalendo groups also move; state presence is thin and control is contested. Web research was unavailable for this unit (search budget exhausted, news sites blocked by the egress proxy); assessment relies on background knowledge of the situation up to mid-2026.",
+   "source_ids": [
+    "s1",
+    "s2",
+    "s3",
+    "s4"
+   ]
+  },
+  {
+   "zone_id": "z10",
+   "description": "Butembo city peripheral neighbourhoods lying in Kyondo and Vuhovi adm3 (Katwa health zone: Nduko, Kyambogho, Mongali, Bughumirya, Bunyuka, Butuhe, Vuhovi, Bukoroghoto, Kahondo)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "inference",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    },
+    {
+     "entity_id": "cod-wazalendo",
+     "role": "present"
+    }
+   ],
+   "evidence": "Outer quarters of Butembo, a large state-held commercial city with PNC, FARDC and the military mayoralty; Wazalendo/Mai-Mai elements and criminal gangs are active on the city's edges and clash periodically with FARDC/PNC, but the state remains the main permanent force. Web research was unavailable for this unit (search budget exhausted, news sites blocked by the egress proxy); assessment relies on background knowledge of the situation up to mid-2026.",
+   "source_ids": [
+    "s1",
+    "s2",
+    "s3",
+    "s4"
+   ]
+  },
+  {
+   "zone_id": "z11",
+   "description": "Rural Vuhovi and northern Bashu villages around Butembo (Kiseghese, Kirungu, Vusokoli, Mumole, Kyamavya, Luhanga, Kavale, Kaghumo, Vuhira)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-wazalendo",
+     "role": "present"
+    },
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Densely populated Nande farming villages in the Bashu chefferie near Butembo with police posts and chefferie administration; Mai-Mai/Wazalendo groups are present in the hills and occasionally tax or clash, but no source known places them in control. Web research was unavailable for this unit (search budget exhausted, news sites blocked by the egress proxy); assessment relies on background knowledge of the situation up to mid-2026.",
+   "source_ids": [
+    "s1",
+    "s2",
+    "s3",
+    "s4"
+   ]
+  },
+  {
+   "zone_id": "z12",
+   "description": "Southern Bashu: Kyondo, Masereka and Musienene health zones (Kyondo settlement record and its neighbourhoods, Vinyavwanga, Kaghumo 1, Muhimbira, Ilangira, Kivate, Vutero, Lusando, Masereka area neighbourhoods, etc.)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "inference",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-wazalendo",
+     "role": "present"
+    },
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "South of Butembo, the Kyondo–Masereka–Musienene plateau is administered by the Bashu chefferie with police; Wazalendo/Mai-Mai groups that fought the M23 in Lubero use the area as a rear zone and the Virunga escarpment toward Lake Edward, but the M23 front remained further south in Lubero/Rutshuru. Low confidence. Web research was unavailable for this unit (search budget exhausted, news sites blocked by the egress proxy); assessment relies on background knowledge of the situation up to mid-2026.",
+   "source_ids": [
+    "s1",
+    "s2",
+    "s3",
+    "s4"
+   ]
+  },
+  {
+   "zone_id": "z13",
+   "description": "Kasindi–Lubiriha border town and southern Ruwenzori secteur (Mutwanga adm3 settlement record at Kasindi, Lubiriha, La Frontière, Kangahuka, Kasindi, Kasanga, Muramba, Masambo)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "inference",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    },
+    {
+     "entity_id": "uga-updf",
+     "role": "present"
+    },
+    {
+     "entity_id": "adf",
+     "role": "raiding"
+    }
+   ],
+   "evidence": "Kasindi-Lubiriha is the main border crossing to Uganda (Mpondwe) with customs, DGM, PNC and FARDC posts and a UPDF presence nearby; occasional ADF attacks on the Beni–Kasindi road do not challenge state control of the town. Web research was unavailable for this unit (search budget exhausted, news sites blocked by the egress proxy); assessment relies on background knowledge of the situation up to mid-2026.",
+   "source_ids": [
+    "s1",
+    "s2",
+    "s3",
+    "s4"
+   ]
+  },
+  {
+   "zone_id": "z14",
+   "description": "Central Ruwenzori secteur: Mutwanga (Kyavitumbi), Bulongo (Kambalango), Kudi/Lume (Ruwanzori 3, Kibanda), Rugetsi",
+   "controller_id": "cod-fardc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "inference",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "adf",
+     "role": "raiding"
+    },
+    {
+     "entity_id": "cod-pnc",
+     "role": "present"
+    },
+    {
+     "entity_id": "cod-wazalendo",
+     "role": "present"
+    }
+   ],
+   "evidence": "Mutwanga, Bulongo and Lume at the foot of the Rwenzori have FARDC and ICCN/park positions and police; the ADF has attacked Bulongo, Mutwanga and Lume villages repeatedly since 2020 and Mai-Mai groups operate in the mountains, but the centres remain state-held. Web research was unavailable for this unit (search budget exhausted, news sites blocked by the egress proxy); assessment relies on background knowledge of the situation up to mid-2026.",
+   "source_ids": [
+    "s1",
+    "s2",
+    "s3",
+    "s4"
+   ]
+  },
+  {
+   "zone_id": "z15",
+   "description": "Mwalika valley and Beni–Kasindi road villages (Halungupa, Vwerere, Mayele, Kilya, Kalembo, Kitokoli/Loulo, Kibaya/Mwenda)",
+   "controller_id": "cod-fardc",
+   "status": "contested",
+   "confidence": "low",
+   "basis": "inference",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "adf",
+     "role": "contesting"
+    },
+    {
+     "entity_id": "uga-updf",
+     "role": "present"
+    }
+   ],
+   "evidence": "Villages along the Beni–Kasindi road and toward the Mwalika valley, long an ADF route between the Rwenzori and the Mbau/Kamango forests, with repeated massacres; FARDC/UPDF hold road posts but ADF movement is frequent. Web research was unavailable for this unit (search budget exhausted, news sites blocked by the egress proxy); assessment relies on background knowledge of the situation up to mid-2026.",
+   "source_ids": [
+    "s1",
+    "s2",
+    "s3",
+    "s4"
+   ]
+  },
+  {
+   "zone_id": "z16",
+   "description": "Watalinga chefferie (Kamango health zone): Nsungu, Kamango, Bugando, Mampopia, Kabolue",
+   "controller_id": "cod-fardc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "inference",
+   "since": "2021-12",
+   "presence": [
+    {
+     "entity_id": "uga-updf",
+     "role": "allied"
+    },
+    {
+     "entity_id": "adf",
+     "role": "raiding"
+    }
+   ],
+   "evidence": "Watalinga on the Ugandan border (Nobili/Kamango) has been a main UPDF–FARDC Operation Shujaa sector since December 2021, with joint positions in Kamango and Nsungu/Nobili; ADF attacks on surrounding villages continue but the centres are held by the joint forces. Web research was unavailable for this unit (search budget exhausted, news sites blocked by the egress proxy); assessment relies on background knowledge of the situation up to mid-2026.",
+   "source_ids": [
+    "s1",
+    "s2",
+    "s3",
+    "s4"
+   ]
+  }
+ ],
+ "locations": {
+  "cod-35NQA7303_1": "z12",
+  "cod-35MQV6196_3": "z12",
+  "cod-35MQV5690_1": "z12",
+  "cod-35NQA6202_2": "z12",
+  "cod-35MQV7694_1": "z12",
+  "cod-35MQV6692_1": "z12",
+  "cod-35MQV7689_1": "z12",
+  "cod-35MQV8091_1": "z12",
+  "cod-35MQV7196_1": "z12",
+  "cod-35MQV7487_2": "z12",
+  "cod-35MQV6793_1": "z12",
+  "cod-35NQA5404_1": "z12",
+  "cod-35MQV7685_1": "z12",
+  "cod-35MQV7792_2": "z12",
+  "cod-35NQA7603_1": "z12",
+  "cod-35NQA5502_2": "z12",
+  "cod-35MQV7290_2": "z12",
+  "cod-35MQV6599_1": "z12",
+  "cod-35MQV6790_3": "z12",
+  "cod-35NQA5613_1-MjnyS5zlIsJ": "z10",
+  "cod-35NQA5613_1-k3slDof4MXV": "z10",
+  "cod-35NQA5613_1-w6oDhsWUoOW": "z10",
+  "cod-35NQA7303_1-OGdnQzKhOgF": "z12",
+  "cod-35NQA7303_1-zH80W2HZqJO": "z12",
+  "cod-35NQA7303_1-BiDmzFaMwKr": "z12",
+  "cod-35NQA7303_1-pL3asU4LumX": "z12",
+  "cod-35NQA7303_1-z5wuUtR3ZQC": "z12",
+  "cod-35NQA7303_1-VBxLH8jExlU": "z12",
+  "cod-35MQV6183_2-tNK9dBmG3mu": "z12",
+  "cod-35NQA7303_1-la8DncVixEB": "z12",
+  "cod-35NQA7303_1-dKcMkBkh3KK": "z12",
+  "cod-35MQV6183_2-uIwU78FAx2B": "z12",
+  "cod-35NQA7303_1-HPrTddZAZtk": "z12",
+  "cod-35NQA7303_1-Pg7PRLElfww": "z12",
+  "cod-35NQA7303_1-FUvz4GhVdmz": "z12",
+  "cod-35NQA7303_1-nvWFfgxwjrl": "z12",
+  "cod-35NQA7303_1-X411Inxhwg2": "z12",
+  "cod-35NQA7303_1-cyydQJ2TbAp": "z12",
+  "cod-35NQA7303_1-WPWwYUsVlrP": "z12",
+  "cod-35MQV6183_2-Yxm1jKEH5IT": "z12",
+  "cod-35MQV6183_2-GetPmisO44O": "z12",
+  "cod-35NQA5613_1-DaKS8LmNVk3": "z10",
+  "cod-35NQA7977_1": "z1",
+  "cod-35NQA9095_1": "z2",
+  "cod-35NQA7771_1": "z2",
+  "cod-35NQA7664_1": "z2",
+  "cod-35NQA8585_1": "z2",
+  "cod-35NQA6380_1": "z3",
+  "cod-35NQA7191_1": "z3",
+  "cod-35NRB1500_2": "z3",
+  "cod-35NQA6974_5": "z3",
+  "cod-35NQA8986_2": "z2",
+  "cod-35NQA6266_1": "z3",
+  "cod-35NQA6477_3": "z3",
+  "cod-35NQA7977_1-km7VteocLwD": "z1",
+  "cod-35NQA7977_1-gCa9PgACANJ": "z1",
+  "cod-35NQA7977_1-L8jsHIG3Bre": "z1",
+  "cod-35NQA7977_1-bjx2D0rsMcq": "z1",
+  "cod-35NQA7977_1-lrKdJrtZOZx": "z1",
+  "cod-35NQA7977_1-Yz4KCXMiyi8": "z1",
+  "cod-35NQA7977_1-APgHE3LuPJT": "z1",
+  "cod-35NQA7977_1-u1CBxvzgVYq": "z1",
+  "cod-35NQA7977_1-xhzFHQFWqDL": "z1",
+  "cod-35NQA7977_1-Pq2t8gsbpWg": "z1",
+  "cod-35NQA7977_1-qjwwZ96xX65": "z1",
+  "cod-35NQA7977_1-ctLxhAyuS7I": "z1",
+  "cod-35NRA0011_1": "z13",
+  "cod-35NQA9836_1": "z14",
+  "cod-35NRA0437_1": "z14",
+  "cod-35NRA0327_1": "z14",
+  "cod-35NRA1460_1": "z3",
+  "cod-35NRA0224_1": "z14",
+  "cod-35NRA0744_1": "z15",
+  "cod-35NQA9338_1": "z15",
+  "cod-35NQA9147_2": "z15",
+  "cod-35NQA9141_2": "z15",
+  "cod-35NRA0146_1": "z15",
+  "cod-35NQA9145_1": "z15",
+  "cod-35NQA8943_3": "z15",
+  "cod-35NQA9829_2": "z14",
+  "cod-35NRA0011_1-xC3aCp8yjs6": "z13",
+  "cod-35NRA0011_1-sd1z2PiCGUB": "z13",
+  "cod-35NRA0011_1-axq6EIx7TyQ": "z13",
+  "cod-35NRA0011_1-SC4RwiVV39Y": "z13",
+  "cod-35NRA0011_1-fgg3plLG0GQ": "z13",
+  "cod-35NRA0011_1-QRx5tYp1jui": "z13",
+  "cod-35NRA0011_1-wvu8kSpUixB": "z13",
+  "cod-35NQA6949_1": "z5",
+  "cod-35NQA6824_1": "z8",
+  "cod-35NQA6158_1": "z6",
+  "cod-35NQA7759_1": "z5",
+  "cod-35NQA8356_1": "z5",
+  "cod-35NQA7546_3": "z5",
+  "cod-35NQA7355_1-A3gZeXx1ZZX": "z4",
+  "cod-35NQA7355_1-SnUUdqi9SD9": "z4",
+  "cod-35NQA7355_1-z2y0SSu49FG": "z4",
+  "cod-35NQA7355_1-yLYnpXVClma": "z4",
+  "cod-35NQA7355_1-DG9AjZXNCa6": "z4",
+  "cod-35NQA7355_1-XNuBW8MwmNu": "z4",
+  "cod-35NQA7355_1-ponU82H93Aj": "z4",
+  "cod-35NQA7355_1-CK3hRogAr1M": "z4",
+  "cod-35NQA7355_1-QtONdrFJUdx": "z4",
+  "cod-35NQA7355_1-Dh2LbTYnYop": "z4",
+  "cod-35NQA7355_1-bFwbsUuYPZb": "z4",
+  "cod-35NQA5567_1": "z6",
+  "cod-35NQA3856_1": "z7",
+  "cod-35NQA4550_2": "z7",
+  "cod-35NQA6442_1": "z8",
+  "cod-35NQA6745_3": "z8",
+  "cod-35NQA4965_1": "z6",
+  "cod-35NQA4743_1": "z7",
+  "cod-35NQA4961_1": "z6",
+  "cod-35NQA5561_2": "z6",
+  "cod-35NQA5445_2": "z8",
+  "cod-35NQA5352_1": "z6",
+  "cod-35NQA3947_2": "z7",
+  "cod-35NQA6838_1": "z8",
+  "cod-35NQA6729_1": "z8",
+  "cod-35NQA4052_3": "z7",
+  "cod-35NQA7035_1": "z8",
+  "cod-35NQA2537_1": "z7",
+  "cod-35NQA5938_4": "z8",
+  "cod-35NQA5148_3": "z8",
+  "cod-35NQA6931_2": "z8",
+  "cod-35NQA3861_1": "z7",
+  "cod-35NQA7216_1": "z11",
+  "cod-35NQA6814_1": "z11",
+  "cod-35NQA6031_2": "z8",
+  "cod-35NQA5635_1": "z8",
+  "cod-35NQA6136_1": "z8",
+  "cod-35NQA6510_1": "z11",
+  "cod-35NQA4726_4": "z9",
+  "cod-35NQA4925_2": "z9",
+  "cod-35NQA4719_4": "z9",
+  "cod-35NQA5028_3": "z9",
+  "cod-35NQA5340_1": "z8",
+  "cod-35NQA5626_2": "z8",
+  "cod-35NQA6522_1": "z11",
+  "cod-35NQA5231_2": "z9",
+  "cod-35NQA4635_1": "z9",
+  "cod-35NQA4328_1": "z9",
+  "cod-35NQA5828_1": "z8",
+  "cod-35NQA3628_4": "z9",
+  "cod-35NQA3432_3": "z9",
+  "cod-35NQA6220_1": "z11",
+  "cod-35NQA5135_1": "z9",
+  "cod-35NQA6616_1": "z11",
+  "cod-35NQA6718_1": "z11",
+  "cod-35NQA5126_1": "z9",
+  "cod-35NQA6409_1": "z11",
+  "cod-35NQA6329_1": "z11",
+  "cod-35NQA5613_1-eMijEC784NM": "z10",
+  "cod-35NQA5613_1-Z2a2DWvy2AG": "z10",
+  "cod-35NQA5613_1-We3Hv6Gre3U": "z10",
+  "cod-35NQA5613_1-mTOXo1vjraY": "z10",
+  "cod-35NQA5613_1-pt7k2WKY8Gt": "z10",
+  "cod-35NRA2667_1": "z16",
+  "cod-35NRA2073_1": "z16",
+  "cod-35NRA2977_1": "z16",
+  "cod-35NRA3081_2": "z16",
+  "cod-35NRA1878_3": "z16"
+ }
+}

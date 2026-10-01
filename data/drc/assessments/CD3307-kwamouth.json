@@ -1,0 +1,194 @@
+{
+ "unit_id": "CD3307-kwamouth",
+ "as_of": "2026-10-01",
+ "summary": "Kwamouth territory (Maï-Ndombe) is the cradle of the Teke-Yaka conflict that began in mid-2022 and produced the Mobondo militia, which later spread to Maluku (Kinshasa), Kwango and Kwilu. Kwamouth town (the territorial seat at the Kasai-Congo confluence) is held by the state, with PNC and a reinforced FARDC presence. The southern half of the territory (Batéké plateau villages toward Kinsele, Botulu, Bukusu, Masia-Mbio, Nkana and Maimpili health areas, bordering Maluku, Kwango and Bagata) remains a contested area where FARDC operations coexist with persistent Mobondo groups that raid, tax and kill despite official pacification claims and a 2026 peace process. Northern riverside villages and the Kikongo health zone villages are assessed as state-held with occasional militia incursions. Web search and the main news sites were unavailable for this run, so the assessment relies on sources gathered for neighbouring units and prior knowledge; confidence is low outside the territorial seat.",
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://fr.allafrica.com/stories/202606090742.html",
+   "title": "«Les Mobondo ne sont jamais partis» - Dans l'ouest, ce groupe qui sévit toujours malgré le discours officiel",
+   "publisher": "AllAfrica / RFI",
+   "date": "2026-06-09"
+  },
+  {
+   "id": "s2",
+   "url": "https://fr.allafrica.com/stories/202505070267.html",
+   "title": "Les Mobondo renforcent leur emprise à une centaine de kilomètres de Kinshasa",
+   "publisher": "AllAfrica / RFI",
+   "date": "2025-05-07"
+  },
+  {
+   "id": "s3",
+   "url": "https://fr.allafrica.com/stories/202608180670.html",
+   "title": "Le Gouvernement confirme des signaux de paix face au phénomène Mobondo !",
+   "publisher": "AllAfrica",
+   "date": "2026-08-18"
+  },
+  {
+   "id": "s4",
+   "url": "https://fr.allafrica.com/stories/202605150161.html",
+   "title": "Kinshasa - Deux morts et un blessé lors d'une attaque des Mobondo dans la commune de Maluku",
+   "publisher": "AllAfrica / Radio Okapi",
+   "date": "2026-05-15"
+  },
+  {
+   "id": "s5",
+   "url": "https://www.hrw.org/news/2023/03/23/dr-congo-scores-killed-western-intercommunal-violence",
+   "title": "DR Congo: Scores Killed in Western Intercommunal Violence",
+   "publisher": "Human Rights Watch",
+   "date": "2023-03-23"
+  }
+ ],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Kwamouth town (territorial seat, Mpoli health area) and nearby riverside localities Itubi and Likanda",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "area_report",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    },
+    {
+     "entity_id": "mobondo",
+     "role": "raiding"
+    }
+   ],
+   "evidence": "Seat of the territorial administration with PNC commissariat, courts and an FARDC deployment reinforced since the 2022 Teke-Yaka crisis; no report of the town falling to Mobondo, whose violence centres on rural villages of the south. Web research was unavailable for this run, so this rests on earlier reporting.",
+   "source_ids": [
+    "s1",
+    "s5"
+   ]
+  },
+  {
+   "zone_id": "z2",
+   "description": "Northern Kwamouth villages along the Kasai/Congo river side and Kwamouth-Mushie road: Masia Kwa, Ngambomi, Aviation, Ngele 2, Banku",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "inference",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    },
+    {
+     "entity_id": "mobondo",
+     "role": "raiding"
+    }
+   ],
+   "evidence": "Northern villages away from the main Mobondo theatre on the Batéké plateau to the south; no specific report of lasting militia control located. State authority (PNC posts, territorial administration, Teke customary chiefs) assumed, with occasional insecurity. Web research was unavailable for this run.",
+   "source_ids": [
+    "s1"
+   ]
+  },
+  {
+   "zone_id": "z3",
+   "description": "Central-western Kwamouth along the Kasai river south of the town: Ingweme, Kunzulu, Mfumunzale, Empunu, Mbali Bana (Salongo, Mfumu Nzale, Empunu health areas)",
+   "controller_id": "cod-fardc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "inference",
+   "since": "2022-09",
+   "presence": [
+    {
+     "entity_id": "mobondo",
+     "role": "raiding"
+    },
+    {
+     "entity_id": "cod-pnc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Villages between the territorial seat and the southern Mobondo theatre, affected by the 2022-2023 Teke-Yaka violence; FARDC deployments since late 2022 are assumed to be the main armed force, with militia incursions continuing. No locality-specific 2025-2026 report was found (web research unavailable).",
+   "source_ids": [
+    "s1",
+    "s5"
+   ]
+  },
+  {
+   "zone_id": "z4",
+   "description": "Southern Kwamouth / Batéké plateau toward Maluku, Kwango and Bagata: Kinsele, Tobakita, Malie, Limete, Endobo, Kimangunu, Fadiaka, Masia Mbio, Nkana, Ebali, Masse, Etumba Mangwaka, Mibe, Mutsueto (Botulu, Boku, Kimangunu, Fadiaka, Masiambio, Nkana, Maimpili, Bukusu, Mutswetu health areas)",
+   "controller_id": "cod-fardc",
+   "status": "contested",
+   "confidence": "low",
+   "basis": "area_report",
+   "since": "2022-09",
+   "presence": [
+    {
+     "entity_id": "mobondo",
+     "role": "contesting"
+    }
+   ],
+   "evidence": "The core Mobondo theatre: villages of southern Kwamouth bordering Maluku and the Kwango river saw mass killings and displacement from 2022, and RFI reported in 2025 and June 2026 that Mobondo groups still hold bush bases, raid and impose themselves despite official claims of pacification; a government-backed peace process was announced in August 2026. FARDC operations hold axes and some villages, but control is assessed as contested; individual villages may be under Mobondo sway. Web research was unavailable for this run, so village-level detail could not be verified.",
+   "source_ids": [
+    "s1",
+    "s2",
+    "s3",
+    "s4",
+    "s5"
+   ]
+  },
+  {
+   "zone_id": "z5",
+   "description": "Eastern Kwamouth villages in the Kikongo health zone toward Bagata (Kwilu): Fasila, Bolo",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "inference",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "mobondo",
+     "role": "raiding"
+    },
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Villages toward the Kwilu border, where Mobondo spill-over into Bagata/Kikongo produced raids in 2023-2025 but no reported lasting militia rule; state authority assumed. Web research was unavailable for this run.",
+   "source_ids": [
+    "s1",
+    "s3"
+   ]
+  }
+ ],
+ "locations": {
+  "cod-33MXS3347_1": "z1",
+  "cod-33MXS7059_1": "z2",
+  "cod-33MXR5842_1": "z4",
+  "cod-33MYS2854_1": "z2",
+  "cod-33MXS9759_1": "z2",
+  "cod-33MYS5120_1": "z2",
+  "cod-33MYR4781_1": "z5",
+  "cod-33MYR5896_1": "z5",
+  "cod-33MXS6217_2": "z3",
+  "cod-33MXR0268_1": "z4",
+  "cod-33MXR7056_2": "z4",
+  "cod-33MXS3538_1": "z1",
+  "cod-33MYR1161_1": "z4",
+  "cod-33MXR7949_1": "z4",
+  "cod-33MYR2883_1": "z4",
+  "cod-33MXS2105_2": "z3",
+  "cod-33MXR1493_1": "z4",
+  "cod-33MYR1291_1": "z4",
+  "cod-33MXS2206_1": "z3",
+  "cod-33MXR6053_2": "z4",
+  "cod-33MXR8385_1": "z4",
+  "cod-33MXR0984_1": "z4",
+  "cod-33MXR7059_1": "z4",
+  "cod-33MXR6658_1": "z4",
+  "cod-33MYR0690_1": "z4",
+  "cod-33MXS2514_1": "z3",
+  "cod-33MXS3124_1": "z3",
+  "cod-33MXS4657_2": "z1",
+  "cod-33MXS8361_2": "z2"
+ }
+}

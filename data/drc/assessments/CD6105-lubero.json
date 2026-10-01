@@ -1,0 +1,436 @@
+{
+ "unit_id": "CD6105-lubero",
+ "as_of": "2026-10-01",
+ "summary": "Lubero territory is split by the AFC/M23 front. AFC/M23 has held southern Lubero (Kayna health zone: Kirumba, Kayna, Kamandi, Luofu, Miriki) since its July 2024 advance from Kanyabayonga, with its own administration in Kirumba-Kayna, and pushed into the southern Alimbongo health zone in 2025, where the front with FARDC/Wazalendo runs around Alimbongo. North of the front, Lubero centre, Kipese and Kitsombiro are held by FARDC with Wazalendo auxiliaries, while the Butembo hinterland (Masereka, Musienene) is under ordinary state police control. The north-west (Bapere: Biena, Manguredjipa) is FARDC-held around the towns but heavily raided by the ADF, and the western highlands are Mai-Mai/Wazalendo country. Live web research was unavailable for this unit (search budget exhausted, sites blocked by the egress proxy), so zones rest on the 2024-2025 record and background knowledge; most zones are low confidence.",
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://ipisresearch.be/publication/shifting-frontlines-visualizing-the-evolution-of-the-m23s-territorial-influence-in-early-2024/",
+   "title": "Shifting frontlines: visualizing the evolution of the M23's territorial influence in early 2024",
+   "publisher": "IPIS",
+   "date": "2024"
+  }
+ ],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Kirumba-Kayna urban agglomeration (Kayna records, Kirumba, Kasando, Bulinda, Itsu, Katero neighbourhoods)",
+   "controller_id": "afc-m23-police",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "area_report",
+   "since": "2024-07",
+   "presence": [
+    {
+     "entity_id": "afc-m23-arc",
+     "role": "present"
+    },
+    {
+     "entity_id": "cod-wazalendo",
+     "role": "raiding"
+    }
+   ],
+   "evidence": "After taking Kanyabayonga (late June 2024) AFC/M23 advanced into southern Lubero and took Kirumba, Kayna and the surrounding Kayna health zone in July 2024, installing its own administration; it extended its hold further after the 2025 offensives. Wazalendo carry out sporadic attacks on the periphery. Not verified against 2026 reporting: web research was unavailable for this run (search budget exhausted, news/monitoring sites egress-blocked).",
+   "source_ids": [
+    "s1"
+   ]
+  },
+  {
+   "zone_id": "z2",
+   "description": "Rest of central/eastern Kayna HZ: Kyambali/Butsiri, Kahumo/Bwatsinge, Migomba/Kamandi, Kamandi Lac, Kiserera, Kitotoka, Kakwangura/Vuhoyo, Luofu HA (Kitonga, Kasiki, Kataro, Vuvatsi)",
+   "controller_id": "afc-m23-arc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "area_report",
+   "since": "2024-07",
+   "presence": [
+    {
+     "entity_id": "cod-wazalendo",
+     "role": "raiding"
+    }
+   ],
+   "evidence": "Villages around Kirumba/Kayna, the Kamandi lakeshore and Luofu fell to AFC/M23 during the June-July 2024 push into southern Lubero and have been M23 rear areas since, with Wazalendo incursions. Not verified against 2026 reporting: web research was unavailable for this run (search budget exhausted, news/monitoring sites egress-blocked).",
+   "source_ids": [
+    "s1"
+   ]
+  },
+  {
+   "zone_id": "z3",
+   "description": "Western Kayna HZ toward Walikale/Bwito: Miriki (Kasungwa, Kaghumo), Mulinde (Kimaka, Katsinga), Busekera (Luvika), Kanyatsi",
+   "controller_id": "afc-m23-arc",
+   "status": "contested",
+   "confidence": "low",
+   "basis": "inference",
+   "since": "2024-07",
+   "presence": [
+    {
+     "entity_id": "cod-wazalendo",
+     "role": "contesting"
+    },
+    {
+     "entity_id": "fdlr",
+     "role": "present"
+    }
+   ],
+   "evidence": "Miriki and Luofu were taken by M23 in July 2024, but the hills west of the Kanyabayonga-Kirumba road are a Wazalendo stronghold area (Mai-Mai/UPLC and NDC-R remnants) with recurrent clashes; control is assessed as M23 along the axes and contested in the hinterland. Not verified against 2026 reporting: web research was unavailable for this run (search budget exhausted, news/monitoring sites egress-blocked).",
+   "source_ids": [
+    "s1"
+   ]
+  },
+  {
+   "zone_id": "z4",
+   "description": "Buleusa (Pinga HZ, Walikale border)",
+   "controller_id": "cod-wazalendo",
+   "status": "contested",
+   "confidence": "low",
+   "basis": "inference",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "afc-m23-arc",
+     "role": "contesting"
+    },
+    {
+     "entity_id": "ndc-r",
+     "role": "present"
+    }
+   ],
+   "evidence": "Buleusa sits on the Lubero-Walikale border in an area historically held by NDC-R/Mai-Mai factions now operating as Wazalendo, and lies close to the M23-held Bwito/Kayna fringe; no specific 2026 report. Not verified against 2026 reporting: web research was unavailable for this run (search budget exhausted, news/monitoring sites egress-blocked).",
+   "source_ids": []
+  },
+  {
+   "zone_id": "z5",
+   "description": "Southern Alimbongo HZ (frontline belt north of Kayna): Kikyo/Bukyembimbe, Taliha, Ngekeni, Lunyasenge, Matembe, Kivako, Luseke HA (Kyaramba, Kivasighamwagha), Kasingiri, Bingi (Vulandira), Kiribata/Kalemba, Vutsorovia",
+   "controller_id": "afc-m23-arc",
+   "status": "contested",
+   "confidence": "low",
+   "basis": "inference",
+   "since": "2025-01",
+   "presence": [
+    {
+     "entity_id": "cod-wazalendo",
+     "role": "contesting"
+    },
+    {
+     "entity_id": "cod-fardc",
+     "role": "contesting"
+    }
+   ],
+   "evidence": "From late 2024 the M23-FARDC/Wazalendo front ran through southern Alimbongo HZ (Kikyo, Matembe, Bingi, Alimbongo), with M23 pushing north in early 2025; this belt is assessed as mostly M23-held but disputed by Wazalendo. Not verified against 2026 reporting: web research was unavailable for this run (search budget exhausted, news/monitoring sites egress-blocked).",
+   "source_ids": []
+  },
+  {
+   "zone_id": "z6",
+   "description": "Alimbongo town area (Mutetso, Mambasa, Kivambiro/Kalimba)",
+   "controller_id": "afc-m23-arc",
+   "status": "unclear",
+   "confidence": "low",
+   "basis": "inference",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-wazalendo",
+     "role": "contesting"
+    },
+    {
+     "entity_id": "cod-fardc",
+     "role": "contesting"
+    }
+   ],
+   "evidence": "Alimbongo has been the pivot of the Lubero front since late 2024 and changed hands/was fought over repeatedly; current holder could not be verified. Not verified against 2026 reporting: web research was unavailable for this run (search budget exhausted, news/monitoring sites egress-blocked).",
+   "source_ids": []
+  },
+  {
+   "zone_id": "z7",
+   "description": "Lubero centre and northern Alimbongo/Lubero HZ: Lubero cité (Kasalala, Kyahali, Ivingu), Kipese/Vungeya, Kasanga, Kisesa, Viringa, Kasima, Baraka, Kaviseghe, Kirikiri, Kitsombiro (Kamahula), Kilonge, Ndoluma, Kiviriri (Antrade), Vukendo, Mubana, Kisaka, Kaghuli, Katolo, Vunyakondomi, Kakonze",
+   "controller_id": "cod-fardc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "inference",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-wazalendo",
+     "role": "allied"
+    },
+    {
+     "entity_id": "cod-pnc",
+     "role": "present"
+    },
+    {
+     "entity_id": "afc-m23-arc",
+     "role": "raiding"
+    }
+   ],
+   "evidence": "The Lubero-Kipese-Kitsombiro area is the FARDC's rear defence line protecting Butembo, with Wazalendo auxiliaries and police in Lubero cité; M23 shelling/raids and Wazalendo indiscipline are reported near the front. Not verified against 2026 reporting: web research was unavailable for this run (search budget exhausted, news/monitoring sites egress-blocked).",
+   "source_ids": []
+  },
+  {
+   "zone_id": "z8",
+   "description": "Western Lubero highlands: Bunyatenge, Muhanga, Ngumba (Fatua), Vulambo, Kavatende/Kagheri, Katoyo/Kasugho",
+   "controller_id": "cod-wazalendo",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "inference",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "mm-mazembe",
+     "role": "present"
+    },
+    {
+     "entity_id": "cod-fardc",
+     "role": "allied"
+    }
+   ],
+   "evidence": "The remote western groupements of Bapakombe/Batangi toward Walikale have little state presence and are areas of Mai-Mai (Mazembe/UPLC and other) groups now aligned as Wazalendo. Not verified against 2026 reporting: web research was unavailable for this run (search budget exhausted, news/monitoring sites egress-blocked).",
+   "source_ids": []
+  },
+  {
+   "zone_id": "z9",
+   "description": "Masereka (incl. neighbourhoods), Musienene HZ and Butembo hinterland: Kibwa/Kimbulu, Mutiri, Kanyatsi (Rwese), Mukonga, Musienene villages, Kitakakisa",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    },
+    {
+     "entity_id": "mm-mazembe",
+     "role": "raiding"
+    }
+   ],
+   "evidence": "Densely populated Nande highlands around Butembo/Musienene/Masereka remain under state administration with police posts and FARDC nearby; Mai-Mai/Wazalendo elements commit occasional attacks but do not hold the towns. Not verified against 2026 reporting: web research was unavailable for this run (search budget exhausted, news/monitoring sites egress-blocked).",
+   "source_ids": []
+  },
+  {
+   "zone_id": "z10",
+   "description": "Lake Edward / Virunga north shore: Makoma (Kyavinyonge), Kasindi Port",
+   "controller_id": "cod-fardc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "inference",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "mm-mazembe",
+     "role": "raiding"
+    },
+    {
+     "entity_id": "cod-wazalendo",
+     "role": "present"
+    }
+   ],
+   "evidence": "Kyavinyonge and the northern Lake Edward shore lie inside Virunga NP with FARDC/navy and ICCN posts; Mai-Mai groups have long been active along the shore, and M23 holds the southern shore (Vitshumbi). Not verified against 2026 reporting: web research was unavailable for this run (search budget exhausted, news/monitoring sites egress-blocked).",
+   "source_ids": []
+  },
+  {
+   "zone_id": "z11",
+   "description": "Biena HZ (Bapere/Baswagha north-west): Bustoro/Anuarite, Kaheku, Buyuma, Duka/Somea, Misebere/Biambwe, Mangimo, Maeba, Mukondo",
+   "controller_id": "cod-fardc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "inference",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "adf",
+     "role": "raiding"
+    },
+    {
+     "entity_id": "uga-updf",
+     "role": "allied"
+    },
+    {
+     "entity_id": "cod-wazalendo",
+     "role": "present"
+    }
+   ],
+   "evidence": "North-western Lubero is the southern edge of the ADF operating area; ADF massacres have hit Bapere/Biena villages repeatedly since 2024, while FARDC (with UPDF in joint Shujaa operations) hold the main localities. Not verified against 2026 reporting: web research was unavailable for this run (search budget exhausted, news/monitoring sites egress-blocked).",
+   "source_ids": []
+  },
+  {
+   "zone_id": "z12",
+   "description": "Manguredjipa centre and axis: Centre Commercial, Rukumba, Masisi 2, Kisasa, Liboyo, Pawanza, Mangalala/Kambau",
+   "controller_id": "cod-fardc",
+   "status": "contested",
+   "confidence": "low",
+   "basis": "inference",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "adf",
+     "role": "contesting"
+    },
+    {
+     "entity_id": "cod-wazalendo",
+     "role": "present"
+    }
+   ],
+   "evidence": "Manguredjipa (Bapere secteur) hosts FARDC positions but the area has seen repeated ADF attacks and killings in 2024-2025 as the group shifted into western Lubero. Not verified against 2026 reporting: web research was unavailable for this run (search budget exhausted, news/monitoring sites egress-blocked).",
+   "source_ids": []
+  },
+  {
+   "zone_id": "z13",
+   "description": "Remote western forest of Manguredjipa HZ: Ombole, Midede, Kivuko, Bandulu, Isange, Mabuo",
+   "controller_id": "adf",
+   "status": "contested",
+   "confidence": "low",
+   "basis": "inference",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "contesting"
+    },
+    {
+     "entity_id": "cod-wazalendo",
+     "role": "present"
+    }
+   ],
+   "evidence": "Forest villages west of Manguredjipa toward Walikale/Bafwasende have negligible state presence and lie in the corridor ADF has used since moving west; control is unclear. Not verified against 2026 reporting: web research was unavailable for this run (search budget exhausted, news/monitoring sites egress-blocked).",
+   "source_ids": []
+  }
+ ],
+ "locations": {
+  "cod-35MQV4338_1": "z1",
+  "cod-35MQV4133_1": "z1",
+  "cod-35MQV4245_1": "z5",
+  "cod-35MQV4838_2": "z2",
+  "cod-35MQV3941_1": "z2",
+  "cod-35MQV5134_1": "z2",
+  "cod-35MQV3532_1": "z2",
+  "cod-35MQV2921_1": "z3",
+  "cod-35MQV3155_1": "z5",
+  "cod-35MQV2336_1": "z3",
+  "cod-35MQV2114_1": "z4",
+  "cod-35MQV4953_2": "z5",
+  "cod-35MQV5030_2": "z2",
+  "cod-35MQV2740_2": "z3",
+  "cod-35MQV1151_1": "z8",
+  "cod-35MQV5635_1": "z2",
+  "cod-35MQV4156_1": "z5",
+  "cod-35MQV5738_1": "z2",
+  "cod-35MQV1253_1": "z8",
+  "cod-35MQV5842_1": "z5",
+  "cod-35MQV3035_3": "z2",
+  "cod-35MQV4850_1": "z5",
+  "cod-35MQV4353_1": "z5",
+  "cod-35MQV3653_5": "z5",
+  "cod-35MQV2122_1": "z3",
+  "cod-35MQV2916_1": "z3",
+  "cod-35MQV3421_1": "z3",
+  "cod-35MQV3228_1": "z2",
+  "cod-35MQV5136_1": "z2",
+  "cod-35MQV4050_1": "z5",
+  "cod-35MQV3126_1": "z2",
+  "cod-35MQV5046_1": "z5",
+  "cod-35MPV8357_1": "z8",
+  "cod-35MQV4338_1-qVMtKZYdGfS": "z1",
+  "cod-35MQV4338_1-jhTdSeRjMH2": "z1",
+  "cod-35MQV4338_1-lOW1mVepUbe": "z1",
+  "cod-35MQV4338_1-a2ESdYhlPLP": "z1",
+  "cod-35MQV4338_1-teldpfXqm5o": "z1",
+  "cod-35MQV6183_2": "z9",
+  "cod-35MQV8483_1": "z10",
+  "cod-35MQV4893_2": "z9",
+  "cod-35MRV0090_1": "z10",
+  "cod-35MQV7279_1": "z9",
+  "cod-35NQA5301_1": "z9",
+  "cod-35MQV5495_3": "z9",
+  "cod-35MQV5699_2": "z9",
+  "cod-35MQV6183_2-TafsjjL0dr5": "z9",
+  "cod-35MQV6183_2-gxf9exfn3no": "z9",
+  "cod-35MQV6183_2-scuYEgOg7F9": "z9",
+  "cod-35MQV4470_1": "z7",
+  "cod-35MQV5473_1": "z7",
+  "cod-35MQV2271_1": "z8",
+  "cod-35MQV4766_4": "z7",
+  "cod-35MQV5677_2": "z7",
+  "cod-35MQV4973_2": "z7",
+  "cod-35MQV3273_1": "z8",
+  "cod-35MQV3959_1": "z6",
+  "cod-35MQV5758_1": "z6",
+  "cod-35MQV4168_2": "z7",
+  "cod-35MQV5755_3": "z5",
+  "cod-35MQV2470_1": "z8",
+  "cod-35MQV5568_3": "z7",
+  "cod-35MQV5367_5": "z7",
+  "cod-35MQV3679_1": "z7",
+  "cod-35MQV5275_2": "z7",
+  "cod-35MQV4062_1": "z6",
+  "cod-35MQV5962_1": "z7",
+  "cod-35MQV4356_1": "z5",
+  "cod-35MQV5171_2": "z7",
+  "cod-35MQV5953_1": "z5",
+  "cod-35MQV5084_2": "z7",
+  "cod-35MQV6158_1": "z7",
+  "cod-35MQV6867_2": "z7",
+  "cod-35MQV6350_1": "z5",
+  "cod-35MQV4674_1": "z7",
+  "cod-35MQV4785_3": "z7",
+  "cod-35MQV7268_1": "z7",
+  "cod-35MQV6662_1": "z7",
+  "cod-35MQV7277_1": "z7",
+  "cod-35MQV7072_1": "z7",
+  "cod-35MQV5480_4": "z7",
+  "cod-35MQV5871_3": "z7",
+  "cod-35MQV4078_3": "z7",
+  "cod-35MQV7169_2": "z7",
+  "cod-35MQV6872_1": "z7",
+  "cod-35MQV5078_2": "z7",
+  "cod-35MQV6183_2-rbyDgUAUMIh": "z9",
+  "cod-35MQV6183_2-VdHLrPouBLs": "z9",
+  "cod-35MQV6183_2-NCIGqRXJJEv": "z9",
+  "cod-35NQA5002_1": "z9",
+  "cod-35NQA2706_2": "z9",
+  "cod-35NQA3302_1": "z9",
+  "cod-35NQA4001_1": "z9",
+  "cod-35NQA4607_2": "z9",
+  "cod-35NQA5007_1": "z9",
+  "cod-35NQA3608_2": "z9",
+  "cod-35NQA3909_1": "z9",
+  "cod-35NQA4311_1": "z9",
+  "cod-35NQA2902_1": "z9",
+  "cod-35NQA4503_2": "z9",
+  "cod-35NQA3304_1": "z9",
+  "cod-35NQA3602_1": "z9",
+  "cod-35MQV3896_1": "z9",
+  "cod-35MQV3595_1": "z9",
+  "cod-35NQA3700_1": "z9",
+  "cod-35NQA4105_1": "z9",
+  "cod-35NQA3108_3": "z9",
+  "cod-35NQA4610_4": "z9",
+  "cod-35NQA4315_4": "z11",
+  "cod-35MQV4297_3": "z9",
+  "cod-35NQA3003_3": "z9",
+  "cod-35MQV4398_1": "z9",
+  "cod-35NQA3307_2": "z9",
+  "cod-35NQA1412_3": "z11",
+  "cod-35NPA9639_1": "z12",
+  "cod-35NQA1149_1": "z12",
+  "cod-35NQA0137_2": "z12",
+  "cod-35NPA1859_1": "z13",
+  "cod-35NQA0536_1": "z12",
+  "cod-35NPA6236_1": "z13",
+  "cod-35NPA2725_2": "z13",
+  "cod-35NPA8226_1": "z13",
+  "cod-35NQA1344_1": "z12",
+  "cod-35NQA1247_2": "z12",
+  "cod-35NPA8146_1": "z13",
+  "cod-35NPA8246_1": "z13",
+  "cod-35NQA0935_1": "z11",
+  "cod-35NQA1928_2": "z11",
+  "cod-35NQA1130_1": "z11",
+  "cod-35NQA1433_1": "z11",
+  "cod-35NQA0320_1": "z11",
+  "cod-35NQA1532_2": "z11",
+  "cod-35NQA2428_1": "z11",
+  "cod-35NQA1141_2": "z12"
+ }
+}

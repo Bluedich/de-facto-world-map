@@ -1,0 +1,106 @@
+{
+ "unit_id": "CD3308-bolobo",
+ "as_of": "2026-10-01",
+ "summary": "Bolobo territory (Maï-Ndombe) lies along the Congo river opposite the Republic of Congo, between Yumbi to the north and Kwamouth to the south. No armed group is reported to control any locality as of late 2026: Bolobo town and the riverine villages are under ordinary state authority, with the PNC as the main permanent force and customary chiefs. The Mobondo (Teke-Yaka) militia, active since 2022 in neighbouring Kwamouth and still raiding in 2026 despite official pacification claims, is the main risk for the southern villages near the Kwamouth border, which are assessed as PNC-dominant with possible Mobondo incursions. Web research was unavailable for this run (search budget exhausted, sites blocked), so confidence is medium for Bolobo town and low elsewhere.",
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://fr.allafrica.com/stories/202606090742.html",
+   "title": "«Les Mobondo ne sont jamais partis» - Dans l'ouest, ce groupe qui sévit toujours malgré le discours officiel",
+   "publisher": "AllAfrica / RFI",
+   "date": "2026-06-09"
+  },
+  {
+   "id": "s2",
+   "url": "https://fr.allafrica.com/stories/202608180670.html",
+   "title": "Le Gouvernement confirme des signaux de paix face au phénomène Mobondo !",
+   "publisher": "AllAfrica",
+   "date": "2026-08-18"
+  }
+ ],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Bolobo town (territorial seat, Congo river port) and adjacent quarters/villages (Botanankasa, Mankanza)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Bolobo is the seat of the territorial administration with a PNC commissariat; no armed group is reported to hold or regularly operate in the town. Displaced people from the Kwamouth Teke-Yaka/Mobondo conflict have sheltered in the territory, but the town remains under ordinary state authority.",
+   "source_ids": [
+    "s1"
+   ]
+  },
+  {
+   "zone_id": "z2",
+   "description": "Northern and central riverine villages along the Congo river and Bolobo-Tshumbiri axis (Moseno, Ngabenge, Bodzo, Mbomo, Tshuma, Tshumbiri, Etebe, Ndwa, Embirima, Nkoo, Ndua)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [],
+   "evidence": "No armed-group activity is reported in these localities; state authority is exercised through PNC posts and customary chiefs under the territorial administration. Web research could not be carried out for this run, so the assessment rests on default state presence.",
+   "source_ids": [
+    "s1"
+   ]
+  },
+  {
+   "zone_id": "z3",
+   "description": "Southern Bolobo toward the Kwamouth border (Mantuka, Biangala, Mabwa-Mabwa, Mbee, Endala, Lediba, Mokele, Bongie/Lebo, Bonkwi/Osamokolo)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "inference",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "mobondo",
+     "role": "raiding"
+    },
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "These villages border Kwamouth territory, epicentre of the Mobondo (Teke-Yaka) militia since 2022, whose holdout bands were still active in 2026 despite the government's pacification/DDR claims. No report found of lasting Mobondo rule inside Bolobo territory, so the state (PNC, with FARDC patrols) is assessed as dominant with possible Mobondo incursions; research was unavailable, so confidence is low.",
+   "source_ids": [
+    "s1",
+    "s2"
+   ]
+  }
+ ],
+ "locations": {
+  "cod-33MXT3760_1": "z1",
+  "cod-33MXT3915_1": "z2",
+  "cod-33MXS8666_1": "z3",
+  "cod-33MXS7162_1": "z3",
+  "cod-33MXT3738_1": "z2",
+  "cod-33MXT4029_1": "z2",
+  "cod-33MXT3808_1": "z2",
+  "cod-33MXT4741_1": "z2",
+  "cod-33MXT3737_1": "z2",
+  "cod-33MXT3847_1": "z1",
+  "cod-33MXT4560_1": "z1",
+  "cod-33MXS7182_1": "z3",
+  "cod-33MXS3385_1": "z3",
+  "cod-33MXS6192_1": "z3",
+  "cod-33MXS7464_1": "z3",
+  "cod-33MXT3702_1": "z2",
+  "cod-33MXS3176_2": "z3",
+  "cod-33MXT6306_1": "z2",
+  "cod-33MXS5461_1": "z3",
+  "cod-33MXS3494_1": "z3",
+  "cod-33MXT5160_1": "z2",
+  "cod-33MXT4812_2": "z2",
+  "cod-33MXT5215_1": "z2"
+ }
+}

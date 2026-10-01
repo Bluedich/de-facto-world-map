@@ -1,0 +1,99 @@
+{
+ "unit_id": "CD3304-oshwe",
+ "as_of": "2026-10-01",
+ "summary": "Oshwe territory (Maï-Ndombe) is a sparsely populated forest territory along the Lukenie river, comprising Oshwe, Bosobe and Mimia secteurs and bordering the southern block of Salonga National Park. No armed group is reported to control any locality as of late 2026: Oshwe town, the territorial seat, is held by the PNC with a small FARDC presence, and villages fall under ordinary state presence (PNC posts) alongside customary chiefs. The Mobondo (Teke-Yaka) militia active in Maï-Ndombe remains confined to Kwamouth and neighbouring areas far to the south-west. Insecurity in the territory is limited to poaching and banditry around the Salonga margins. Web research was unavailable for this run (search budget exhausted), so assessments rest on default state presence with medium/low confidence.",
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://fr.allafrica.com/stories/202606090742.html",
+   "title": "«Les Mobondo ne sont jamais partis» - Dans l'ouest, ce groupe qui sévit toujours malgré le discours officiel",
+   "publisher": "AllAfrica / RFI",
+   "date": "2026-06-09"
+  }
+ ],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Oshwe town, seat of Oshwe territory on the Lukenie river",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Oshwe is the territorial administrative seat with PNC territorial command and small FARDC elements; no armed group is reported to hold or regularly operate in the town. The Mobondo militia active in Maï-Ndombe is centred on Kwamouth, far to the south-west.",
+   "source_ids": [
+    "s1"
+   ]
+  },
+  {
+   "zone_id": "z2",
+   "description": "Rural Oshwe, Bosobe and Mimia secteurs (Oshwe, Bosobe, Mimia, Mikope and Dekese health-zone villages, incl. Lukenie and Kasai riverside villages)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "customary",
+     "role": "present"
+    }
+   ],
+   "evidence": "No reports of armed-group control in the rural secteurs of Oshwe territory; order rests on scattered PNC posts and customary chiefs, with occasional poaching/banditry near Salonga park margins. Research was limited for this run.",
+   "source_ids": [
+    "s1"
+   ]
+  },
+  {
+   "zone_id": "z3",
+   "description": "Basongo, river port on the Kasai river (Mikope health zone, border with Kasai province)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [],
+   "evidence": "Basongo is a Kasai river port town with PNC and state services; no armed group is reported there. The Kamuina Nsapu crisis of 2016-2018 in Kasai did not lead to lasting armed-group control of the town.",
+   "source_ids": []
+  }
+ ],
+ "locations": {
+  "cod-34MCB2521_1": "z1",
+  "cod-34MDA3021_1": "z3",
+  "cod-34MCB9927_1": "z2",
+  "cod-34MDA5942_1": "z2",
+  "cod-34MCB9826_1": "z2",
+  "cod-34MDA2925_1": "z2",
+  "cod-34MDA1917_2": "z2",
+  "cod-34MDA1798_1": "z2",
+  "cod-34MCA9627_1": "z2",
+  "cod-34MCB4572_1": "z2",
+  "cod-34MCA7743_1": "z2",
+  "cod-34MCB9723_1": "z2",
+  "cod-34MCB5922_1": "z2",
+  "cod-34MDA3732_1": "z2",
+  "cod-34MCA8445_1": "z2",
+  "cod-34MBB7020_1": "z2",
+  "cod-34MBA6896_1": "z2",
+  "cod-34MBB8529_1": "z2",
+  "cod-34MBB7357_1": "z2",
+  "cod-34MBB8038_1": "z2",
+  "cod-34MCB0621_1": "z2",
+  "cod-34MBB7031_1": "z2",
+  "cod-34MBB7731_1": "z2",
+  "cod-34MBB8451_1": "z2",
+  "cod-34MBB8035_1": "z2",
+  "cod-34MCC8315_1": "z2",
+  "cod-34MCB4385_1": "z2",
+  "cod-34MCC4106_1": "z2",
+  "cod-34MCC4713_1": "z2",
+  "cod-34MDC2914_1": "z2"
+ }
+}

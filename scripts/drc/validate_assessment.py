@@ -41,7 +41,7 @@ def validate(path):
         if not re.fullmatch(r'[a-z0-9-]+', e.get('id', '')):
             errs.append(f'new entity id must be a lowercase slug: {e.get("id")!r}')
         if e.get('id') in entities:
-            errs.append(f'new entity {e["id"]} already exists in entities.json')
+            continue  # already promoted into the catalogue
         if e.get('type') not in TYPES:
             errs.append(f'new entity {e.get("id")}: bad type {e.get("type")!r}')
         if not e.get('name'):

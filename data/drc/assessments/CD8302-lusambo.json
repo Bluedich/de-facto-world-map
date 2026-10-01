@@ -1,0 +1,107 @@
+{
+ "unit_id": "CD8302-lusambo",
+ "as_of": "2026-10-01",
+ "summary": "Lusambo territory (Sankuru) covers Lusambo town, the provincial capital, and the Lusambo, Ototo and Pania Mutombo secteurs along the Sankuru river. No armed group is known to hold territory there as of 2026. Lusambo town hosts provincial authorities, the PNC provincial command, ANR and FARDC elements. Rural areas rely on thin PNC posts and customary chiefs, and insecurity comes mostly from banditry, political tension and customary disputes. Live web research was unavailable in this run (search budget exhausted, key sites blocked), so the assessment rests on background knowledge and the default-state-presence rule, with limited confidence.",
+ "sources": [],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Lusambo town (provincial capital of Sankuru) and adjacent riverside localities",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    },
+    {
+     "entity_id": "cod-anr",
+     "role": "present"
+    }
+   ],
+   "evidence": "Lusambo is the seat of Sankuru provincial institutions with a provincial PNC command, ANR and an FARDC presence; no armed group is known to hold the town. Insecurity is mainly political tension and criminality rather than armed-group control. Not verified with fresh sources in this run (web search budget exhausted; Radio Okapi, ReliefWeb and Wikipedia blocked by egress proxy).",
+   "source_ids": []
+  },
+  {
+   "zone_id": "z2",
+   "description": "Rural Lusambo and Ototo secteurs (Lusambo, Muetshi and Bena Tshadi health-zone villages)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "customary",
+     "role": "present"
+    }
+   ],
+   "evidence": "No armed group is reported to control villages around Lusambo; order rests on thin PNC posts and customary chiefs. The 2016-2017 Kamuina Nsapu insurgency touched the Kasai border area only marginally and has since ended. Not verified with fresh sources in this run (web search budget exhausted; Radio Okapi, ReliefWeb and Wikipedia blocked by egress proxy).",
+   "source_ids": []
+  },
+  {
+   "zone_id": "z3",
+   "description": "Pania Mutombo secteur (Pania Mutombo, Minga, Lubunga and Ludimbi Lukula health-zone villages)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "customary",
+     "role": "present"
+    }
+   ],
+   "evidence": "Pania Mutombo, in the south-east of the territory near Kasai-Oriental and Lomami, has no reported armed-group territorial control as of 2026. Order relies on PNC posts and customary authorities, and occasional communal or chieftaincy disputes do not amount to armed control. Not verified with fresh sources in this run (web search budget exhausted; Radio Okapi, ReliefWeb and Wikipedia blocked by egress proxy).",
+   "source_ids": []
+  }
+ ],
+ "locations": {
+  "cod-34MGV7050_1": "z1",
+  "cod-34MGV6151_1": "z2",
+  "cod-34MGV4788_1": "z2",
+  "cod-34MGV5657_1": "z2",
+  "cod-34MGV7476_1": "z2",
+  "cod-34MHV1625_1": "z3",
+  "cod-34MHV1765_1": "z3",
+  "cod-34MHV1159_1": "z3",
+  "cod-35MJQ7101_1": "z3",
+  "cod-34MHU1880_1": "z3",
+  "cod-34MHU0669_1": "z3",
+  "cod-34MHU0374_1": "z3",
+  "cod-34MHV1825_1": "z3",
+  "cod-35MJP7871_1": "z3",
+  "cod-34MHV1041_1": "z3",
+  "cod-34MHV2306_1": "z3",
+  "cod-34MHU1663_1": "z3",
+  "cod-35MJQ7502_1": "z3",
+  "cod-34MHU2184_1": "z3",
+  "cod-34MHU0389_1": "z3",
+  "cod-34MHU1668_1": "z3",
+  "cod-34MHU1779_1": "z3",
+  "cod-34MHU0482_1": "z3",
+  "cod-34MGV4615_1": "z2",
+  "cod-34MGV6745_1": "z2",
+  "cod-34MGV5221_1": "z2",
+  "cod-34MGV5457_1": "z2",
+  "cod-34MGV6130_1": "z2",
+  "cod-34MGV6749_1": "z1",
+  "cod-34MGV6947_1": "z1",
+  "cod-34MGV1450_1": "z2",
+  "cod-34MGV5121_1": "z2",
+  "cod-34MGV7439_1": "z2",
+  "cod-34MGV7847_1": "z2",
+  "cod-34MGV3249_1": "z2",
+  "cod-34MGV7435_1": "z2",
+  "cod-34MGV5829_2": "z2",
+  "cod-34MGV6150_1": "z2",
+  "cod-34MGV5750_1": "z2",
+  "cod-34MGV6337_1": "z2",
+  "cod-34MGV1357_1": "z2"
+ }
+}

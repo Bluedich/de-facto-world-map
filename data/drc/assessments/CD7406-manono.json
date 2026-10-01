@@ -1,0 +1,341 @@
+{
+ "unit_id": "CD7406-manono",
+ "as_of": "2026-10-01",
+ "summary": "Manono territory (Tanganyika) is assessed as state-held. Manono town, the lithium-mining territorial seat, and Ankoro are under territorial administration with PNC policing and FARDC posts. The southern Kiyambi secteur (Shamwana/Kabobo/Kishale toward Mitwaba and Pweto), the historic Bakata Katanga 'triangle', is assessed FARDC-held but contested by raiding Mai-Mai amid the 2025-2026 Katanga Mai-Mai resurgence. The rest of Kiyambi (Kiambi, Mukebo, Mambwe) and the western rural secteurs are default state presence with possible Twa-militia or Mai-Mai raids. Web research was blocked for this unit (search budget exhausted, news sites unreachable); sources are reused from neighbouring-unit assessments and confidence is low outside the towns.",
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://actualite.cd/2025/04/18/rdc-regain-dactivisme-des-mai-mai-dans-le-katanga-tshisekedi-exige-une-riposte-ferme",
+   "title": "RDC : regain d'activisme des Maï-Maï dans le Katanga, Tshisekedi exige une riposte ferme",
+   "publisher": "Actualite.cd (cited via CD7107-kasenga assessment; not re-read)",
+   "date": "2025-04-18"
+  },
+  {
+   "id": "s2",
+   "url": "https://coi.euaa.europa.eu/administration/france/PLib/2409_COD__Bakata_Katanga_163382_web.pdf",
+   "title": "RDC : Les maï-maï Bakata Katanga (ou les Kata Katanga) depuis 2022",
+   "publisher": "OFPRA (cited via CD7107-kasenga assessment; not re-read)",
+   "date": "2024-09-30"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.radiookapi.net/2026/09/30/actualite/securite/moba-larmee-deployee-kamena-apres-une-incursion-des-miliciens-bakata",
+   "title": "Moba : l'armée déployée à Kamena après une incursion des miliciens Bakata Katanga",
+   "publisher": "Radio Okapi (title only, via CD7109-pweto assessment)",
+   "date": "2026-09-30"
+  },
+  {
+   "id": "s4",
+   "url": "https://actualite.cd/2026/09/12/grand-katanga-le-spectre-mai-mai-ressurgit-mitwaba-et-malemba-nkulu-alerte-le",
+   "title": "Grand Katanga : le spectre Maï-Maï ressurgit à Mitwaba et Malemba-Nkulu, alerte le gouvernement",
+   "publisher": "Actualite.cd (via CD7108-mitwaba assessment)",
+   "date": "2026-09-12"
+  },
+  {
+   "id": "s5",
+   "url": "https://www.congoquotidien.com/2025/04/19/actualite-rdc-mai-mai-bakata-katanga-securite-haut-katanga/",
+   "title": "Katanga sous tension : les Maï-Maï Bakata Katanga resurgissent, le gouvernement congolais en alerte",
+   "publisher": "Congo Quotidien (via CD7107-kasenga assessment)",
+   "date": "2025-04-19"
+  }
+ ],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Manono town (territory seat, lithium mining hub): Kauluminono, HGR, Cité, St Joseph neighbourhoods, Barzin/Mazyondo and peri-urban Jerusalema/Bondo/Kameshi",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "inference",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    },
+    {
+     "entity_id": "cod-anr",
+     "role": "present"
+    }
+   ],
+   "evidence": "Territory headquarters with territorial administration, PNC commissariat and an FARDC presence guarding the Manono lithium/tin concessions; no source reports an armed group holding or administering the town. The 2024-2026 Bakata Katanga resurgence cited Manono among affected territories, but incidents are rural. Live web research was unavailable for this unit.",
+   "source_ids": [
+    "s1",
+    "s2"
+   ]
+  },
+  {
+   "zone_id": "z2",
+   "description": "Ankoro town (Nsange/Kisiko, Luvua-Lualaba confluence, Ankoro health-zone seat)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Secteur/health-zone seat with state administration and police; no reports of armed-group control. Ankoro saw Mai-Mai and Twa-Luba violence in the 2000s-2010s but no recent reports of militia control were found. Default state presence.",
+   "source_ids": []
+  },
+  {
+   "zone_id": "z3",
+   "description": "Kiambi town and its immediate surroundings (Kiambi, Secteur, Mpweto, Mafinge, Kamakumbi) - Kiyambi secteur seat on the Luvua",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "inference",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    },
+    {
+     "entity_id": "twa-militias",
+     "role": "raiding"
+    },
+    {
+     "entity_id": "bakata-katanga",
+     "role": "raiding"
+    }
+   ],
+   "evidence": "Kiambi is the secteur and health-zone seat with police and army posts and was a focus of the Twa-Luba conflict and Mai-Mai activity in 2016-2020; no source found of armed-group control of the town in 2025-2026. Low confidence given lack of accessible recent reporting.",
+   "source_ids": [
+    "s2"
+   ]
+  },
+  {
+   "zone_id": "z4",
+   "description": "Southern Kiyambi secteur (Shamwana, Kabobo, Monga, Lenge, Kishale, Nkonkole, Kahongo, Kalamata, Mpiana, Kabunda health areas) - northern edge of the Manono-Mitwaba-Pweto 'triangle'",
+   "controller_id": "cod-fardc",
+   "status": "contested",
+   "confidence": "low",
+   "basis": "area_report",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "bakata-katanga",
+     "role": "contesting"
+    },
+    {
+     "entity_id": "cod-pnc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Historic Mai-Mai (Gédéon/Bakata Katanga) heartland bordering Mitwaba and Pweto, where Bakata Katanga attacks resumed in 2025-2026 (Kyubo, Nkonga, Lusinga in Mitwaba; Mwenge axis in Pweto; Manono cited by the government in April 2025). No source shows a militia governing these villages; the FARDC is assumed the main force with militia raids and movement in the bush.",
+   "source_ids": [
+    "s1",
+    "s2",
+    "s4",
+    "s5"
+   ]
+  },
+  {
+   "zone_id": "z5",
+   "description": "Rest of Kiyambi secteur and Kiambi health zone: northern (Mukebo, Kabeke, Lwaba, Kabonzo, Soswa, Kabombo, Kitentu, Mbayo) and eastern (Mambwe/Katonge carrière, Kayumba, Kazingu, Nsange) areas toward Nyunzu and Moba, plus Manono-secteur villages in Kiambi HZ",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "inference",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "twa-militias",
+     "role": "raiding"
+    },
+    {
+     "entity_id": "bakata-katanga",
+     "role": "raiding"
+    },
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Rural area with thin state presence (PNC posts, customary chiefs); historically affected by Twa militias and Luba 'Elements' (2016-2019) and bordering western Moba where Bakata Katanga made an incursion at Kamena in late Sept 2026. No source found showing an armed group durably ruling these villages; default state presence with raiding risk.",
+   "source_ids": [
+    "s3"
+   ]
+  },
+  {
+   "zone_id": "z6",
+   "description": "Rural Manono and Ankoro secteurs (Manono, Ankoro, Kitenge, Kabalo and Lwamba health-zone villages along the Lualaba/Luvua and the Manono-Ankoro-Kitenge roads)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "No reports of armed-group control in the western rural secteurs in 2025-2026; Bakata Katanga activity is reported further south-east (Mitwaba, Malemba-Nkulu, Kiambi south). Villages are under customary chiefs with thin PNC/state presence.",
+   "source_ids": []
+  }
+ ],
+ "locations": {
+  "cod-35MNM4393_1": "z1",
+  "cod-35MNM5093_1": "z1",
+  "cod-35MMM8763_1": "z6",
+  "cod-35MNM0185_1": "z6",
+  "cod-35MNN0402_1": "z6",
+  "cod-35MMM8658_1": "z6",
+  "cod-35MNN1246_1": "z6",
+  "cod-35MNM0497_1": "z6",
+  "cod-35MMM9579_1": "z6",
+  "cod-35MNM0288_2": "z6",
+  "cod-35MNM5097_1": "z1",
+  "cod-35MMM9074_2": "z6",
+  "cod-35MNN0646_2": "z6",
+  "cod-35MNN0814_1": "z6",
+  "cod-35MNN9101_1": "z5",
+  "cod-35MNN4005_2": "z6",
+  "cod-35MNN8014_3": "z6",
+  "cod-35MNN0710_2": "z6",
+  "cod-35MNN3041_1": "z6",
+  "cod-35MNN5727_1": "z6",
+  "cod-35MNN0238_1": "z6",
+  "cod-35MNN0152_1": "z6",
+  "cod-35MNN7813_1": "z6",
+  "cod-35MNN0507_1": "z6",
+  "cod-35MNM4690_2": "z1",
+  "cod-35MMM8668_1": "z6",
+  "cod-35MNN2045_1": "z6",
+  "cod-35MMM9370_2": "z6",
+  "cod-35MMM7959_2": "z6",
+  "cod-35MNM1161_1": "z6",
+  "cod-35MNM0390_2": "z6",
+  "cod-35MNN5431_2": "z6",
+  "cod-35MNN0404_1": "z6",
+  "cod-35MNN9419_3": "z5",
+  "cod-35MNN3540_1": "z6",
+  "cod-35MNM9296_1": "z5",
+  "cod-35MNM1056_1": "z6",
+  "cod-35MNN4605_2": "z6",
+  "cod-35MNN1943_1": "z6",
+  "cod-35MNN3504_1": "z6",
+  "cod-35MMN9664_1": "z6",
+  "cod-35MNN0333_1": "z6",
+  "cod-35MNN5003_1": "z1",
+  "cod-35MNN4336_1": "z6",
+  "cod-35MNM4393_1-OSwfrRV86af": "z1",
+  "cod-35MNM4393_1-U9Sn2MkwNnx": "z1",
+  "cod-35MNM4393_1-QILLTFDZf6c": "z1",
+  "cod-35MNM4393_1-dTrcbY9ZIe3": "z1",
+  "cod-35MMN9352_1": "z2",
+  "cod-35MMM8676_1": "z6",
+  "cod-35MNN0414_1": "z6",
+  "cod-35MMM8271_1": "z6",
+  "cod-35MMM9697_1": "z6",
+  "cod-35MMN3971_1": "z6",
+  "cod-35MMN8809_1": "z6",
+  "cod-35MMM9386_2": "z6",
+  "cod-35MMM9176_1": "z6",
+  "cod-35MMN9906_1": "z6",
+  "cod-35MMN3928_1": "z6",
+  "cod-35MMN4046_2": "z6",
+  "cod-35MMN8729_1": "z6",
+  "cod-35MNN0209_2": "z6",
+  "cod-35MNN0325_3": "z6",
+  "cod-35MNN0211_1": "z6",
+  "cod-35MLN9555_1": "z6",
+  "cod-35MMN1964_1": "z6",
+  "cod-35MMN0555_1": "z6",
+  "cod-35MMM8264_1": "z6",
+  "cod-35MMN9687_2": "z6",
+  "cod-35MMM9591_2": "z6",
+  "cod-35MMN8385_1": "z6",
+  "cod-35MMN5260_1": "z6",
+  "cod-35MMN4453_1": "z6",
+  "cod-35MMM9489_1": "z6",
+  "cod-35MMN7183_1": "z6",
+  "cod-35MMN6879_1": "z6",
+  "cod-35MMM7774_1": "z6",
+  "cod-35MMN9777_2": "z6",
+  "cod-35MMM7696_1": "z6",
+  "cod-35MNN0421_1": "z6",
+  "cod-35MMN7700_1": "z6",
+  "cod-35MMM5692_2": "z6",
+  "cod-35MMN9775_1": "z6",
+  "cod-35MMN7005_1": "z6",
+  "cod-35MMN6607_1": "z6",
+  "cod-35MMN7485_1": "z6",
+  "cod-35MMN9701_2": "z6",
+  "cod-35MLN9639_1": "z6",
+  "cod-35MMN1760_1": "z6",
+  "cod-35MMM5488_1": "z6",
+  "cod-35MMN6610_1": "z6",
+  "cod-35MMN0056_1": "z6",
+  "cod-35MMM8395_1": "z6",
+  "cod-35MMN7709_1": "z6",
+  "cod-35MMN0435_1": "z6",
+  "cod-35MMM6571_2": "z6",
+  "cod-35MMN9800_1": "z6",
+  "cod-35MMN9783_1": "z6",
+  "cod-35MMN8585_1": "z6",
+  "cod-35MMN4558_1": "z6",
+  "cod-35MMN8509_1": "z6",
+  "cod-35MMN3756_1": "z6",
+  "cod-35MMN3271_1": "z6",
+  "cod-35MMN5859_1": "z6",
+  "cod-35MNN0037_1": "z6",
+  "cod-35MMN4725_1": "z6",
+  "cod-35MMN3029_1": "z6",
+  "cod-35MMM5590_1": "z6",
+  "cod-35MMN4957_1": "z6",
+  "cod-35MMN2342_1": "z6",
+  "cod-35MMM7482_1": "z6",
+  "cod-35MMN2529_1": "z6",
+  "cod-35MNN0128_1": "z6",
+  "cod-35MMN5863_3": "z6",
+  "cod-35MMN8185_1": "z6",
+  "cod-35MMN4958_1": "z6",
+  "cod-35MPM1190_1": "z3",
+  "cod-35LPL0898_1": "z4",
+  "cod-35MPN1546_1": "z5",
+  "cod-35MPM2053_1": "z4",
+  "cod-35MPM6481_1": "z5",
+  "cod-35MPN5257_1": "z5",
+  "cod-35MPM4438_1": "z4",
+  "cod-35MPN4922_1": "z5",
+  "cod-35MNN9560_1": "z5",
+  "cod-35MPN1666_1": "z5",
+  "cod-35LNM9707_1": "z4",
+  "cod-35MPN2111_1": "z5",
+  "cod-35MPM4078_1": "z5",
+  "cod-35MPN0533_1": "z5",
+  "cod-35MPM0618_1": "z4",
+  "cod-35LPL0893_1": "z4",
+  "cod-35LPM0414_1": "z4",
+  "cod-35LPM0900_2": "z4",
+  "cod-35MPM2076_1": "z3",
+  "cod-35MNM8444_1": "z4",
+  "cod-35MPM1485_2": "z3",
+  "cod-35MNM7753_1": "z4",
+  "cod-35MPM0926_1": "z4",
+  "cod-35LPM3507_1": "z4",
+  "cod-35LPL2086_1": "z4",
+  "cod-35MNM8051_1": "z4",
+  "cod-35MPM4120_2": "z4",
+  "cod-35MPN0738_1": "z5",
+  "cod-35MPM6487_1": "z5",
+  "cod-35MPM2078_1": "z3",
+  "cod-35MPM4046_1": "z4",
+  "cod-35LPM3710_1": "z4",
+  "cod-35MPN0706_1": "z5",
+  "cod-35MNN9631_1": "z5",
+  "cod-35MPM1783_1": "z3",
+  "cod-35MPM4125_1": "z4",
+  "cod-35MPM1835_1": "z4",
+  "cod-35MPM3938_1": "z4",
+  "cod-35MPM2748_1": "z4",
+  "cod-35MPM2452_1": "z4"
+ }
+}

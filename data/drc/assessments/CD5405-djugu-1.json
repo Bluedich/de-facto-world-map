@@ -1,7 +1,7 @@
 {
  "unit_id": "CD5405-djugu-1",
  "as_of": "2026-10-01",
- "summary": "Northern/western Djugu (Mongbwalu, Nizi, Bambu, Fataki, Linga, Rethy secteurs) is the core of the Hema–Lendu conflict. The state (FARDC with PNC and MONUSCO support) holds the main towns and the RN27 road corridor: Mongbwalu, Nizi/Iga Barrière/Lopa, Fataki/Bule, Bambu centre, Rethy and Kpandroma. CODECO factions dominate the Lendu hills of Walendu Pitsi (Pimbo, Djugu, Ndjala), Walendu Djatsi (Kobu, Lalo, Dala) and much of Walendu Tatsi (Linga), and contest the gold-mining periphery of Mongbwalu with CRP/Zaïre, the Hema self-defence militia present around Fataki, Nizi and the mines. Alur/Ndo Okebo villages towards Mahagi are assumed state-held by default. NOTE: web research could not be performed for this unit (search budget exhausted and all news/aggregator sites blocked), so all assessments are low/medium-confidence inferences from background knowledge up to mid-2026 and should be re-checked.",
+ "summary": "Northern/western Djugu (Mongbwalu, Nizi, Bambu, Fataki, Linga, Rethy secteurs) is the core of the Hema–Lendu conflict. The state (FARDC with PNC and MONUSCO support) holds the main towns and the RN27 road corridor: Mongbwalu, Nizi/Iga Barrière/Lopa, Fataki/Bule, Bambu centre, Rethy and Kpandroma. CODECO factions dominate the Lendu hills of Walendu Pitsi (Pimbo, Djugu, Ndjala), Walendu Djatsi (Kobu, Lalo, Dala) and much of Walendu Tatsi (Linga), and contest the gold-mining periphery of Mongbwalu with CRP/Zaïre, the Hema self-defence militia present around Fataki, Nizi and the mines. Alur/Ndo Okebo villages towards Mahagi are assumed state-held by default. NOTE: web research could not be performed for this unit (search budget exhausted and all news/aggregator sites blocked), so all assessments are low/medium-confidence inferences from background knowledge up to mid-2026 and should be re-checked. Reviewer note (2026-10-01): an independent review also could not run web searches (budget exhausted; search engines and news/aggregator sites blocked), so no claim could be verified against dated reports; changes were limited to internal-consistency fixes (Ngbavi, a rural cluster ~28 km west of Rethy, moved from the town zone to rural Rethy; CRP/Zaïre role in Mongbwalu set to present; chefferie labels for Linga corrected; CODECO role near Rethy/Kpandroma set to raiding).",
  "sources": [
   {
    "id": "s1",
@@ -42,14 +42,14 @@
     },
     {
      "entity_id": "zaire",
-     "role": "raiding"
+     "role": "present"
     },
     {
      "entity_id": "codeco",
      "role": "raiding"
     }
    ],
-   "evidence": "Mongbwalu, the main gold town of Djugu, has a permanent FARDC and PNC presence and state administration; CODECO factions and CRP/Zaïre militiamen operate around the surrounding mining sites and have carried out incursions and clashes near the town (2024–2025), but do not hold the centre. Web research was unavailable for this run (search budget exhausted, news/aggregator sites blocked by egress proxy); the assessment relies on background knowledge of the situation up to mid-2026 and should be re-checked.",
+   "evidence": "Mongbwalu, the main gold town of Djugu, has a permanent FARDC and PNC presence and state administration; CRP/Zaïre militiamen (CRP launched by Thomas Lubanga in 2025) have a visible presence in and around the town and its mines, CODECO factions operate around the surrounding mining sites and have carried out incursions and clashes near the town (2024–2025), but neither holds the centre. Web research was unavailable for this run (search budget exhausted, news/aggregator sites blocked by egress proxy); the assessment relies on background knowledge of the situation up to mid-2026 and should be re-checked.",
    "source_ids": [
     "s1",
     "s2",
@@ -228,7 +228,7 @@
   },
   {
    "zone_id": "z9",
-   "description": "Walendu Tatsi south – Linga health zone (Linga, Lokema, Dhebu, Buba, Uma, Godjoka, Noga, Sanduku, Tchulu, Dheyoluts, Dissa, Lodjo, Dhekpaba health areas)",
+   "description": "Linga health zone (Lendu hills of north-central Djugu) (Linga, Lokema, Dhebu, Buba, Uma, Godjoka, Noga, Sanduku, Tchulu, Dheyoluts, Dissa, Lodjo, Dhekpaba health areas)",
    "controller_id": "codeco",
    "status": "dominant",
    "confidence": "low",
@@ -240,7 +240,7 @@
      "role": "present"
     }
    ],
-   "evidence": "Linga and surrounding Lendu villages of Walendu Tatsi are CODECO influence areas with few state forces outside the Linga centre; reports of CODECO presence, taxation and clashes recur in this health zone. Web research was unavailable for this run (search budget exhausted, news/aggregator sites blocked by egress proxy); the assessment relies on background knowledge of the situation up to mid-2026 and should be re-checked.",
+   "evidence": "Linga and surrounding Lendu villages of the Linga health zone are CODECO influence areas with few state forces outside the Linga centre; reports of CODECO presence, taxation and clashes recur in this health zone. Web research was unavailable for this run (search budget exhausted, news/aggregator sites blocked by egress proxy); the assessment relies on background knowledge of the situation up to mid-2026 and should be re-checked.",
    "source_ids": [
     "s1",
     "s2"
@@ -248,7 +248,7 @@
   },
   {
    "zone_id": "z10",
-   "description": "Rethy and Kpandroma towns (Zasu/Rethy, Baidjo Bii/Kpandroma, Ngbavi)",
+   "description": "Rethy and Kpandroma towns (Zasu/Rethy, Baidjo Bii/Kpandroma)",
    "controller_id": "cod-fardc",
    "status": "dominant",
    "confidence": "low",
@@ -261,7 +261,7 @@
     },
     {
      "entity_id": "codeco",
-     "role": "present"
+     "role": "raiding"
     }
    ],
    "evidence": "Rethy and Kpandroma are commercial centres of Walendu Tatsi with FARDC and PNC posts and functioning administration; CODECO members circulate in the area but the towns are assessed state-held. Web research was unavailable for this run (search budget exhausted, news/aggregator sites blocked by egress proxy); the assessment relies on background knowledge of the situation up to mid-2026 and should be re-checked.",
@@ -272,7 +272,7 @@
   },
   {
    "zone_id": "z11",
-   "description": "Rural Rethy health zone (Walendu Tatsi north: Lokpa, Uketha, Zali, Djubate, Mola, Lailo, Bale, Budza, Buke, Libi, Gudjo, Juru Kidogo, Ngri Mandefu, Lalo, Terali, Rassia, Aboro)",
+   "description": "Rural Rethy health zone (Lendu villages incl. Ngbavi/Mbr'bu, Lokpa, Uketha, Zali, Djubate, Mola, Lailo, Bale, Budza, Buke, Libi, Gudjo, Juru Kidogo, Ngri Mandefu, Lalo, Terali, Rassia, Aboro)",
    "controller_id": "codeco",
    "status": "contested",
    "confidence": "low",
@@ -315,7 +315,7 @@
   "cod-36NTH5537_1": "z12",
   "cod-36NTH6527_2": "z10",
   "cod-36NTH6732_1": "z10",
-  "cod-36NTH4229_1": "z10",
+  "cod-36NTH4229_1": "z11",
   "cod-36NTH5433_1": "z11",
   "cod-36NTH5726_2": "z11",
   "cod-36NTH6724_1": "z11",

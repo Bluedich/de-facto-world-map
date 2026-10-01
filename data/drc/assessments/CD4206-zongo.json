@@ -1,0 +1,75 @@
+{
+ "unit_id": "CD4206-zongo",
+ "as_of": "2026-10-01",
+ "summary": "Zongo territory (Sud-Ubangi) is dominated by the city of Zongo on the Ubangi river opposite Bangui (Central African Republic) and a ring of riverside and agricultural villages (Mole, Worobe, Burungangu, Wenze, Bobongo). No Congolese or foreign armed group is known to hold territory here; the city is run by its mayor and municipal authorities with PNC commissariats, an FARDC border garrison, ANR and border services, and the villages fall under PNC posts, territorial administration and customary chiefs. Insecurity consists of ordinary crime, smuggling and occasional cross-border spillover from CAR (refugee inflows, armed individuals crossing), which does not amount to territorial control by another actor. Web search was unavailable in this run (search budget exhausted, Wikipedia blocked), so the assessment rests on default state presence and general knowledge.",
+ "sources": [],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Zongo city and its neighbourhoods (Pilote, Saint Joseph, Nzulu, Kussa Ceum, Gbakode Cecu)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    },
+    {
+     "entity_id": "cod-anr",
+     "role": "present"
+    }
+   ],
+   "evidence": "Zongo is an administered border city facing Bangui with PNC commissariats, an FARDC border garrison/military camp, ANR and border services; no armed group or parallel authority is reported. Not verified with recent sources in this run.",
+   "source_ids": []
+  },
+  {
+   "zone_id": "z2",
+   "description": "Villages and smaller towns of Zongo territory (Mole, Worobe, Burungangu, Yakiri, Wenze, Wuy, Bobongo, Sagila, Gbandi, Mbayi, etc.)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "customary",
+     "role": "present"
+    },
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Rural/riverine area along the CAR border with no reported armed-group control; PNC posts, territorial administration and customary chiefs are the default authority, with FARDC border posts on the Ubangi. No recent sources could be retrieved in this run.",
+   "source_ids": []
+  }
+ ],
+ "locations": {
+  "cod-34NBK3380_1": "z1",
+  "cod-34NBK5458_1": "z2",
+  "cod-34NBK4883_1": "z2",
+  "cod-34NBK4081_1": "z2",
+  "cod-34NBK4764_1": "z2",
+  "cod-34NBK3968_1": "z2",
+  "cod-34NBK3769_1": "z2",
+  "cod-34NBK4582_1": "z2",
+  "cod-34NBK3952_1": "z2",
+  "cod-34NBK3170_1": "z2",
+  "cod-34NBK3680_1": "z2",
+  "cod-34NBK3672_1": "z2",
+  "cod-34NBK4266_1": "z2",
+  "cod-34NBK3764_1": "z2",
+  "cod-34NBK3567_1": "z2",
+  "cod-34NBK3759_1": "z2",
+  "cod-34NBK3570_1": "z2",
+  "cod-34NBK3380_1-YVcKszCnk92": "z1",
+  "cod-34NBK3380_1-rb2q5xtKp9p": "z1",
+  "cod-34NBK3380_1-HOGNszSyYUV": "z1",
+  "cod-34NBK3380_1-h72OWGyHxJc": "z1",
+  "cod-34NBK3380_1-XNV5FqUP4qi": "z1"
+ }
+}

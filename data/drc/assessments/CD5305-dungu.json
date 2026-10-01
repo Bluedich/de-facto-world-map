@@ -203,7 +203,7 @@
    "description": "Doruma town and surrounding villages (Doruma and Gangala health areas) near the South Sudan border",
    "controller_id": "cod-pnc",
    "status": "dominant",
-   "confidence": "medium",
+   "confidence": "low",
    "basis": "default_state_presence",
    "since": null,
    "presence": [
@@ -212,7 +212,7 @@
      "role": "present"
     }
    ],
-   "evidence": "Secteur/health-zone seat with state administration and police and a border FARDC presence. No 2025-2026 reports of armed-group control or major incursions found.",
+   "evidence": "Secteur/health-zone seat with state administration and police and a border FARDC presence. No 2025-2026 reports of armed-group control or major incursions found. Only an older (c.2019-2020) humanitarian brief covers the area, so confidence is low; cross-border incursions from South Sudan cannot be excluded.",
    "source_ids": [
     "s8"
    ]

@@ -1,7 +1,7 @@
 {
  "unit_id": "CD6101-goma",
  "as_of": "2026-10-01",
- "summary": "Goma (communes of Goma and Karisimbi) has been held by AFC/M23 since its capture on 26-27 January 2025, after FARDC, Wazalendo and the PNC withdrew or surrendered. AFC/M23 runs the city through its own provincial and urban administration and a police force built partly from ex-PNC personnel, backed by its ARC fighters and Rwandan RDF support; no source through September 2026 reports the city changing hands, and the Washington/Doha peace processes have not restored state authority. The main security problems are crime, night-time killings by armed men and occasional Wazalendo/FDLR infiltration on the western (Mugunga, Rusayo, Buhimba) and northern (Kanyaruchinya, Munigi) outskirts, which the M23 answers with cordon-and-search operations. Note: live web research was unavailable for this unit (search budget exhausted, sites blocked), so the assessment relies on the 2025 capture record and CTP 2026 reviews cited for neighbouring Rutshuru.",
+ "summary": "Goma (communes of Goma and Karisimbi) has been held by AFC/M23 since its capture on 26-27 January 2025, after FARDC, Wazalendo and the PNC withdrew or surrendered. AFC/M23 runs the city through its own provincial and urban administration and a police force built partly from ex-PNC personnel, backed by its ARC fighters and Rwandan RDF support; no source through September 2026 reports the city changing hands, and the Washington/Doha peace processes have not restored state authority. The main security problems are crime, night-time killings by armed men and occasional Wazalendo/FDLR infiltration on the western (Mugunga, Rusayo, Buhimba) and northern (Kanyaruchinya, Munigi) outskirts, which the M23 answers with cordon-and-search operations. Note: live web research was unavailable for this unit and for its review (search budget exhausted, sites blocked), so the assessment relies on the 2025 capture record and CTP 2026 reviews cited for neighbouring Rutshuru. The outskirts zone (army wing vs police) is low confidence.",
  "sources": [
   {
    "id": "s1",
@@ -30,6 +30,13 @@
    "title": "Congo War Security Review, January 14, 2026",
    "publisher": "Critical Threats Project (AEI/ISW)",
    "date": "2026-01-14"
+  },
+  {
+   "id": "s5",
+   "url": "https://www.reuters.com/world/africa/m23-rebels-say-they-have-captured-congos-goma-2025-01-27/",
+   "title": "M23 rebels say they have captured Congo's Goma",
+   "publisher": "Reuters",
+   "date": "2025-01-27"
   }
  ],
  "new_entities": [],
@@ -58,6 +65,7 @@
    ],
    "evidence": "AFC/M23 captured Goma on 26-27 January 2025 and has since governed it with its own appointed governor, mayor and police (including retrained ex-PNC officers), with no 2026 reports of state forces returning. Insecurity consists of armed robberies, night killings and sporadic infiltration attacks attributed to Wazalendo, which do not challenge M23 policing of the city.",
    "source_ids": [
+    "s5",
     "s1",
     "s3",
     "s4"
@@ -68,7 +76,7 @@
    "description": "Peri-urban outskirts: Mugunga, Mugunga 3, Rusayo, Buhimba (west, towards Sake/Masisi) and Kanyaruchinya, Munigi (north, towards Nyiragongo)",
    "controller_id": "afc-m23-arc",
    "status": "dominant",
-   "confidence": "medium",
+   "confidence": "low",
    "basis": "inference",
    "since": "2025-01",
    "presence": [
@@ -85,8 +93,9 @@
      "role": "raiding"
     }
    ],
-   "evidence": "The edge neighbourhoods and former IDP-camp areas lie on the approaches from Masisi and Nyiragongo where AFC/M23 keeps military positions; Wazalendo night incursions and M23 search operations were reported there in 2025. M23 remains in firm overall control, but the army wing rather than police is the main security presence.",
+   "evidence": "The edge neighbourhoods and former IDP-camp areas lie on the approaches from Masisi and Nyiragongo where AFC/M23 keeps military positions; Wazalendo night incursions and M23 search operations were reported there in 2025. M23 remains in firm overall control, but the army wing rather than police is the main security presence. The army-wing (rather than police) attribution for these densely populated edge neighbourhoods is an inference from their position on the approach axes, not from a specific report.",
    "source_ids": [
+    "s5",
     "s1",
     "s2",
     "s3"

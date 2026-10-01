@@ -1,0 +1,354 @@
+{
+ "unit_id": "CD6210-fizi",
+ "as_of": "2026-10-01",
+ "summary": "Fizi territory (Sud-Kivu) is held by the government camp but with fragmented coercive control. Baraka and Fizi centre remain the main FARDC/state hubs, reinforced after the M23 advance on Uvira in December 2025, while Babembe Mai-Mai groups operating as Wazalendo dominate much of the Uvira-Baraka lakeshore road and the hills of Nundu. CNPSC/Yakutumba and allied Mai-Mai dominate the Ubwari peninsula, the Ngandja lakeshore south of Baraka, the Lulenge hills and most of the Kimbi-Lulenge hinterland, with the FARDC contesting the Misisi gold-mining area. The Banyamulenge high plateaux around Minembwe have been held by Twirwaneho, allied with AFC/M23, since February 2025. All zones are low confidence: no live web research was possible for this unit (search budget exhausted, news/UN/KST sites blocked by the egress proxy); assessment rests on background knowledge up to mid-2026. Review (2026-10-01): the reviewer could not do independent web research either (search budget exhausted; Wikipedia and ReliefWeb blocked). Zones were checked for consistency with the instructions and the neighbouring Uvira, Mwenga, Kabambare and Kalemie assessments. No controller changes; RED-Tabara presence was moved from the lakeshore and Ubwari zones to the Nundu hills, and the western Kimbi-Lulenge zone was lowered to unclear.",
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.un.org/securitycouncil/sanctions/1533/work-and-mandate/expert-reports",
+   "title": "UN Group of Experts on the DRC final reports (2019-2025): CNPSC/Yakutumba, Twirwaneho and Mai-Mai in Fizi, Itombwe and Minembwe",
+   "publisher": "United Nations Security Council",
+   "date": "2025-06-01"
+  },
+  {
+   "id": "s2",
+   "url": "https://kivusecurity.org/",
+   "title": "Kivu Security Tracker - armed groups in Fizi territory (CNPSC/Yakutumba, Biloze Bishambuke, Ebu Ela, Twirwaneho)",
+   "publisher": "Kivu Security Tracker / GEC",
+   "date": null
+  },
+  {
+   "id": "s3",
+   "url": "https://en.wikipedia.org/wiki/M23_campaign_(2022%E2%80%93present)",
+   "title": "M23 campaign (2022-present): Twirwaneho capture of Minembwe (Feb 2025), M23 advance on Uvira (Dec 2025)",
+   "publisher": "Wikipedia",
+   "date": null
+  },
+  {
+   "id": "s4",
+   "url": "https://www.radiookapi.net/tags/fizi",
+   "title": "Radio Okapi - Fizi tag (Baraka, Wazalendo, FARDC, Minembwe high plateaux)",
+   "publisher": "Radio Okapi",
+   "date": null
+  }
+ ],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Baraka-Fizi urban area on Lake Tanganyika (Baraka, Mwangaza, Mshimbakye, Katanga, Kalundja, Lweba, Kandali neighbourhoods) and adjoining lakeshore settlements Sebele, Malinde, Mulongwe, Kaseke, Ehanda, Asa'a, Mukinja, Kalongwe (Fizi HA)",
+   "controller_id": "cod-fardc",
+   "status": "contested",
+   "confidence": "low",
+   "basis": "inference",
+   "since": "2025-12",
+   "presence": [
+    {
+     "entity_id": "cod-wazalendo",
+     "role": "contesting"
+    },
+    {
+     "entity_id": "cod-pnc",
+     "role": "present"
+    },
+    {
+     "entity_id": "cnpsc",
+     "role": "present"
+    },
+    {
+     "entity_id": "bdi-fdnb",
+     "role": "allied"
+    }
+   ],
+   "evidence": "Baraka is the main FARDC/state hub of southern Sud-Kivu and became a rear base for FARDC and Burundian troops after the M23 push on Uvira in December 2025; Babembe Mai-Mai/Wazalendo groups are heavily present and have repeatedly clashed with or defied FARDC in the town, so control is shared/contested. Not verified for the reference date: no live web research was possible for this unit (search budget exhausted, news/UN/KST sites blocked by the egress proxy); assessment rests on background knowledge up to mid-2026.",
+   "source_ids": [
+    "s1",
+    "s2",
+    "s4"
+   ]
+  },
+  {
+   "zone_id": "z2",
+   "description": "Fizi centre (territorial seat, Tribune/Fizi HA) and nearby Namisha",
+   "controller_id": "cod-fardc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "inference",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-pnc",
+     "role": "present"
+    },
+    {
+     "entity_id": "cnpsc",
+     "role": "present"
+    },
+    {
+     "entity_id": "cod-wazalendo",
+     "role": "allied"
+    }
+   ],
+   "evidence": "Fizi centre hosts the territorial administration with an FARDC/PNC presence, while Mai-Mai (CNPSC/Yakutumba and allied Wazalendo) operate in the surrounding hills. No live web research was possible for this unit (search budget exhausted, news/UN/KST sites blocked by the egress proxy); assessment rests on background knowledge up to mid-2026.",
+   "source_ids": [
+    "s1",
+    "s2"
+   ]
+  },
+  {
+   "zone_id": "z3",
+   "description": "Lakeshore road north of Baraka, Nundu health zone (Nundu, Mboko, Elumbe/Kaboke, Lusenda refugee camp area/Atondo, Elemyonga/Mukolwe, Lubumba/Bitobolo, I'Amba/Makobola, Alole, Mukwezi, Kenya Plage)",
+   "controller_id": "cod-wazalendo",
+   "status": "contested",
+   "confidence": "low",
+   "basis": "inference",
+   "since": "2025",
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "allied"
+    },
+    {
+     "entity_id": "cod-pnc",
+     "role": "present"
+    },
+    {
+     "entity_id": "afc-m23-arc",
+     "role": "raiding"
+    }
+   ],
+   "evidence": "The Uvira-Baraka lakeshore road (Makobola, Swima, Mboko, Nundu, Lusenda) lies just south of the Uvira front; Babembe/Bafuliiru Mai-Mai operating as Wazalendo are assessed to dominate checkpoints and local enforcement alongside FARDC positions, with possible M23 pressure from the north since December 2025. Lusenda hosts a UNHCR Burundian refugee camp with police presence. No live web research was possible for this unit (search budget exhausted, news/UN/KST sites blocked by the egress proxy); assessment rests on background knowledge up to mid-2026.",
+   "source_ids": [
+    "s2",
+    "s3",
+    "s4"
+   ]
+  },
+  {
+   "zone_id": "z4",
+   "description": "Western hills of Nundu HZ below the high plateaux (Lutabura, Nakiele, Kanguli, Tubuke/Kilumbi, Kosovo/Pungu)",
+   "controller_id": "cod-wazalendo",
+   "status": "contested",
+   "confidence": "low",
+   "basis": "inference",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "twirwaneho",
+     "role": "contesting"
+    },
+    {
+     "entity_id": "cod-fardc",
+     "role": "allied"
+    },
+    {
+     "entity_id": "red-tabara",
+     "role": "present"
+    }
+   ],
+   "evidence": "The mid-altitude hills between the lakeshore and the Banyamulenge high plateaux are Mai-Mai (Biloze Bishambuke/Ebu Ela, now Wazalendo) areas on the frontline with Twirwaneho; Burundian RED-Tabara rebels have historically used these hills. No live web research was possible for this unit (search budget exhausted, news/UN/KST sites blocked by the egress proxy); assessment rests on background knowledge up to mid-2026.",
+   "source_ids": [
+    "s1",
+    "s2"
+   ]
+  },
+  {
+   "zone_id": "z5",
+   "description": "Minembwe health zone, high plateaux (Ngandula / Kisombe)",
+   "controller_id": "twirwaneho",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "area_report",
+   "since": "2025-02",
+   "presence": [
+    {
+     "entity_id": "afc-m23-arc",
+     "role": "allied"
+    },
+    {
+     "entity_id": "cod-wazalendo",
+     "role": "contesting"
+    }
+   ],
+   "evidence": "Twirwaneho, allied with AFC/M23, took Minembwe and pushed FARDC out of the Fizi/Mwenga high plateaux in February 2025 and has held the Banyamulenge plateau villages since, with Mai-Mai/Wazalendo contesting the edges. No live web research was possible for this unit (search budget exhausted, news/UN/KST sites blocked by the egress proxy); assessment rests on background knowledge up to mid-2026.",
+   "source_ids": [
+    "s1",
+    "s3"
+   ]
+  },
+  {
+   "zone_id": "z6",
+   "description": "Lulenge hills west of Fizi (Mukera, Kichula, Lumanya, Simbi, Kananda/Kanada, Umoja/Hondokuma, Bwala, Kilicha/Kalundu)",
+   "controller_id": "cnpsc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "inference",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-wazalendo",
+     "role": "allied"
+    },
+    {
+     "entity_id": "twirwaneho",
+     "role": "raiding"
+    },
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "The Lulenge secteur hills toward Itombwe are long-standing operating areas of CNPSC/Yakutumba and allied Babembe Mai-Mai (now aligned with Wazalendo), with little permanent state presence; Twirwaneho raids from the plateaux. No live web research was possible for this unit (search budget exhausted, news/UN/KST sites blocked by the egress proxy); assessment rests on background knowledge up to mid-2026.",
+   "source_ids": [
+    "s1",
+    "s2"
+   ]
+  },
+  {
+   "zone_id": "z7",
+   "description": "Ubwari peninsula and southern lakeshore / Ngandja (Mwayenga, Buma, Dine, Kazimia, Yungu, Talama, Kabanga/Nyemba, Kikonde: Kihimino, Lubilo, Kivunji, Mikweshi, Kaza Roho, Buma Kirewani, Kalongwe/Dine, Manjanja, Kabogo, Lusombe, Milanga, Kasaba, Yungu, Kibamba, Kizozi, Kikungu, Mapaypay)",
+   "controller_id": "cnpsc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "inference",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "The Ubwari peninsula and the Ngandja lakeshore south of Baraka (Kazimia, Yungu, Talama) are the historical heartland of Mai-Mai Yakutumba (CNPSC), which taxes fishing and lake traffic; FARDC hold a few posts. CNPSC is now aligned with the Wazalendo against M23. No live web research was possible for this unit (search budget exhausted, news/UN/KST sites blocked by the egress proxy); assessment rests on background knowledge up to mid-2026.",
+   "source_ids": [
+    "s1",
+    "s2"
+   ]
+  },
+  {
+   "zone_id": "z8",
+   "description": "Misisi-Lulimba gold-mining area, Kimbi Lulenge HZ (Ebimbo/Misisi, Lekesha/Lulimba, Lubondja)",
+   "controller_id": "cod-fardc",
+   "status": "contested",
+   "confidence": "low",
+   "basis": "inference",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cnpsc",
+     "role": "contesting"
+    },
+    {
+     "entity_id": "cod-pnc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Misisi is a large artisanal gold-mining town with FARDC and police presence, but CNPSC/Yakutumba and allied Mai-Mai have repeatedly attacked and taxed the Misisi-Lulimba area. No live web research was possible for this unit (search budget exhausted, news/UN/KST sites blocked by the egress proxy); assessment rests on background knowledge up to mid-2026.",
+   "source_ids": [
+    "s1",
+    "s2"
+   ]
+  },
+  {
+   "zone_id": "z9",
+   "description": "Southern and western Kimbi Lulenge HZ (Lubitchako/Ishebu, Tulonge, Ngalula, Makungu/Nyangi, Namukala, Kilembwe/Kituyka, Nessani/Kagembe, Maindombe/Nangoma, Kayumba/Magogo, May-Moto/Mwitilwa, Katupu/Asee, Sanga/Mukolochi)",
+   "controller_id": "cnpsc",
+   "status": "unclear",
+   "confidence": "low",
+   "basis": "inference",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "raiding"
+    },
+    {
+     "entity_id": "mm-malaika",
+     "role": "present"
+    }
+   ],
+   "evidence": "The forested Kimbi-Lulenge hinterland toward Kabambare and Shabunda is a CNPSC/Yakutumba and allied Mai-Mai operating area with minimal state presence. No live web research was possible for this unit (search budget exhausted, news/UN/KST sites blocked by the egress proxy); assessment rests on background knowledge up to mid-2026. Reviewer: status lowered from dominant to unclear because nothing documents which Mai-Mai faction (CNPSC, allied Babembe groups or Malaika near the Kabambare border) holds the western Kilembwe–May-Moto villages; this matches the neighbouring Kabambare assessment.",
+   "source_ids": [
+    "s1",
+    "s2"
+   ]
+  }
+ ],
+ "locations": {
+  "cod-35MQR3145_1": "z1",
+  "cod-35MQR2622_1": "z1",
+  "cod-35MQR3270_1": "z3",
+  "cod-35MQR1523_1": "z2",
+  "cod-35MQR2634_2": "z1",
+  "cod-35MQQ3897_1": "z7",
+  "cod-35MQR3364_2": "z3",
+  "cod-35MQR0940_1": "z6",
+  "cod-35MQR2631_1": "z1",
+  "cod-35MQR2627_1": "z1",
+  "cod-35MQR2104_1": "z7",
+  "cod-35MQR1331_2": "z6",
+  "cod-35MQR2132_1": "z1",
+  "cod-35MQQ3386_2": "z7",
+  "cod-35MQR0846_1": "z6",
+  "cod-35MQR4400_1": "z7",
+  "cod-35MQR0855_1": "z6",
+  "cod-35MQR4724_1": "z7",
+  "cod-35MQR4619_1": "z7",
+  "cod-35MQR1928_1": "z1",
+  "cod-35MQR0828_1": "z6",
+  "cod-35MQQ3546_1": "z7",
+  "cod-35MQR0760_1": "z4",
+  "cod-35MQQ3366_2": "z7",
+  "cod-35MQR3360_1": "z3",
+  "cod-35MQR5047_2": "z7",
+  "cod-35MQR4505_1": "z7",
+  "cod-35MQQ3449_1": "z7",
+  "cod-35MQR2822_1": "z1",
+  "cod-35MQR4302_1": "z7",
+  "cod-35MPR8614_2": "z6",
+  "cod-35MQR2920_1": "z1",
+  "cod-35MQQ3794_1": "z7",
+  "cod-35MQR1539_1": "z6",
+  "cod-35MQQ3363_3": "z7",
+  "cod-35MQR5145_1": "z7",
+  "cod-35MQR1970_1": "z4",
+  "cod-35MQR1415_1": "z2",
+  "cod-35MQQ3269_1": "z7",
+  "cod-35MQQ3374_1": "z7",
+  "cod-35MQR4513_1": "z7",
+  "cod-35MQR0123_1": "z6",
+  "cod-35MQR3145_1-zrciA25RDKA": "z1",
+  "cod-35MQR3145_1-zkcgUDGtD69": "z1",
+  "cod-35MQR3145_1-EcMU3zGAQJX": "z1",
+  "cod-35MQR3145_1-w42QqOJu0px": "z1",
+  "cod-35MQR3145_1-EdI13MT5blI": "z1",
+  "cod-35MQR3145_1-Nh97beebyl2": "z1",
+  "cod-35MQR3145_1-AeFIYkx6mic": "z1",
+  "cod-35MPQ8972_1": "z8",
+  "cod-35MPR1153_1": "z9",
+  "cod-35MPQ8382_1": "z8",
+  "cod-35MPQ9462_1": "z9",
+  "cod-35MQQ0346_2": "z9",
+  "cod-35MPQ9656_1": "z9",
+  "cod-35MQQ0150_1": "z9",
+  "cod-35MPR5133_2": "z9",
+  "cod-35MPR2939_1": "z9",
+  "cod-35MNR9550_1": "z9",
+  "cod-35MPR3737_1": "z9",
+  "cod-35MPQ9684_1": "z8",
+  "cod-35MPR2061_1": "z9",
+  "cod-35MQQ0448_1": "z9",
+  "cod-35MPR7615_2": "z9",
+  "cod-35MPR0648_1": "z9",
+  "cod-35MQR3281_1": "z3",
+  "cod-35MQR3276_2": "z3",
+  "cod-35MQR3895_1": "z3",
+  "cod-35MQS3806_1": "z3",
+  "cod-35MQR3588_1": "z3",
+  "cod-35MQR3690_2": "z3",
+  "cod-35MQR1173_2": "z4",
+  "cod-35MQR3575_2": "z3",
+  "cod-35MQR2473_1": "z4",
+  "cod-35MQR0870_3": "z4",
+  "cod-35MPR8963_3": "z5"
+ }
+}

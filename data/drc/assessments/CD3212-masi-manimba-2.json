@@ -1,7 +1,7 @@
 {
  "unit_id": "CD3212-masi-manimba-2",
  "as_of": "2026-10-01",
- "summary": "This unit covers the Moanza and Mosango secteurs of Masi-Manimba territory (Kwilu), a rural area including the Moanza, Pay Kongila, Mosango and parts of the Kingandu and Yasa Bonga health zones, with Pay, Leta and Basuku (Mosango) as main centres. No armed group is known to exercise territorial control here; the Mobondo militia that spread from Kwamouth since 2022 affects mainly western Bagata, Kwamouth and the Kwango river area, and its holdouts were still raiding there in mid-2026. All localities are assessed as under ordinary state authority with the PNC as main permanent force. Web research was unavailable for this run, so confidence is low for rural villages.",
+ "summary": "This unit covers the Moanza and Mosango secteurs of Masi-Manimba territory (Kwilu), a rural area including the Moanza, Pay Kongila, Mosango and parts of the Kingandu and Yasa Bonga health zones, with Pay, Leta and Basuku (Mosango) as main centres. No armed group is known to exercise territorial control here; the Mobondo militia that spread from Kwamouth since 2022 affects mainly western Bagata, Kwamouth and the Kwango river area, and its holdouts were still raiding there in mid-2026. All localities are assessed as under ordinary state authority with the PNC as main permanent force. Web research was unavailable for this run, so confidence is low for rural villages. A skeptical review (2026-10-01) could not run independent web searches (search budget exhausted, news and search sites blocked by the proxy); zone assignments were checked against adm3/health-zone data and coordinates (western Moanza villages at ~17.5E lie east of the Kwango river, away from the Mobondo theatre) and the default-state-presence assessment is retained unverified, consistent with neighbouring Masi-Manimba-1, Bulungu, Gungu and Kenge units.",
  "sources": [
   {
    "id": "s1",
@@ -36,7 +36,7 @@
    "basis": "default_state_presence",
    "since": null,
    "presence": [],
-   "evidence": "No armed group is known to hold territory in the Moanza or Mosango secteurs of Masi-Manimba; the Mobondo militia active since 2022 operates further west (Kwamouth, western Bagata, Kwango river) and has not been reported ruling localities here. The secteur and health-zone centres have PNC posts and territorial administration, so the PNC is the main permanent force. Web research was unavailable for this run (web search budget exhausted, news sites blocked by the proxy), so this rests on prior knowledge and regional reports cited by neighbouring assessments.",
+   "evidence": "No armed group is known to hold territory in the Moanza or Mosango secteurs of Masi-Manimba; the Mobondo militia active since 2022 operates further west (Kwamouth, western Bagata, Kwango river) and has not been reported ruling localities here. Pay (Pay Kongila health-zone seat) and Basuku (Mosango secteur/health-zone seat) are administrative centres with PNC posts; Leta is a large village in Moanza health zone where a PNC post is assumed rather than documented and territorial administration, so the PNC is the main permanent force. Web research was unavailable for this run (web search budget exhausted, news sites blocked by the proxy), so this rests on prior knowledge and regional reports cited by neighbouring assessments. Review 2026-10-01: not independently verified.",
    "source_ids": [
     "s1",
     "s2",

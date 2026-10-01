@@ -1,0 +1,115 @@
+{
+ "unit_id": "CD6206-idjwi",
+ "as_of": "2026-10-01",
+ "summary": "Idjwi territory (Idjwi island in Lake Kivu, between the Kalehe/Kabare shore and Rwanda) is assessed as under AFC/M23 authority since the February 2025 capture of Kavumu (14 Feb) and Bukavu (16 Feb), after which the state's security forces lost any supply line to the island, which is reachable only from M23-held shores or Rwanda; AFC/M23 has since appointed its own administration for the South Kivu territories it holds. The island has seen little armed-group activity and is assessed as run by the AFC/M23 administration and police, with ARC fighters present at the lake landings. A few small islands/lakeshore localities attached to the unit but falling in Katana and Kalehe health zones (Ibindja, Iko, Ishovu, Tchofi health areas) lie in the M23-held Kalehe-Katana lakeshore corridor (consistent with the Kabare and Kalehe assessments) and are assessed as held by ARC forces. Note: live web research was unavailable for both the original assessment and the review (search budget exhausted, news sites blocked by the egress proxy); the manner of the 2025 handover on the island (withdrawal vs. surrender) and the exact date are not sourced, and island-specific control is inferred, so confidence is medium at best.",
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.reuters.com/world/africa/m23-rebels-take-control-airport-near-congos-bukavu-2025-02-14/",
+   "title": "M23 rebels take control of airport near Congo's Bukavu",
+   "publisher": "Reuters",
+   "date": "2025-02-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.reuters.com/world/africa/m23-rebels-enter-congos-second-largest-eastern-city-bukavu-2025-02-16/",
+   "title": "M23 rebels enter Congo's second-largest eastern city, Bukavu",
+   "publisher": "Reuters",
+   "date": "2025-02-16"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.criticalthreats.org/briefs/congo-war-security-review",
+   "title": "Congo War Security Review (recurring brief series; specific issue not verified)",
+   "publisher": "Critical Threats Project (AEI/ISW)",
+   "date": null
+  },
+  {
+   "id": "s4",
+   "url": "https://www.kivusecurity.org/",
+   "title": "Kivu Security Tracker (incident map; not consulted for this unit, general reference)",
+   "publisher": "Kivu Security Tracker",
+   "date": null
+  }
+ ],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Idjwi island (Idjwi health zone; chefferies of Rubenga/Idjwi-Nord and Ntambuka/Idjwi-Sud): Bugarula, Kishenyi, Bushonga, Mugote, Kintama, Bwando, Kilala and all island settlements and health-area neighbourhoods",
+   "controller_id": "afc-m23-police",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "inference",
+   "since": "2025-02",
+   "presence": [
+    {
+     "entity_id": "afc-m23-arc",
+     "role": "present"
+    }
+   ],
+   "evidence": "After M23 took Kavumu and Bukavu in mid-February 2025, the surrounding Lake Kivu basin (Kalehe and Kabare shores) came under AFC/M23, leaving Idjwi cut off from government-held territory; the island is assessed as administered by the AFC/M23 South Kivu authorities and their police, with no reported recapture or significant Wazalendo activity through the reference date. No island-specific source could be retrieved, so control (and its exact start date) is inferred from the surrounding M23-held lake basin.",
+   "source_ids": [
+    "s1",
+    "s2",
+    "s3"
+   ]
+  },
+  {
+   "zone_id": "z2",
+   "description": "Small islands/lakeshore localities attached to the unit but in Katana and Kalehe health zones: Katabazi and Civumo (Ibindja), Candjo (Iko), Muganzo (Ishovu), Ihoka (Tchofi)",
+   "controller_id": "afc-m23-arc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "inference",
+   "since": "2025-02",
+   "presence": [
+    {
+     "entity_id": "afc-m23-police",
+     "role": "present"
+    }
+   ],
+   "evidence": "These localities lie on small islands (Ibindja, Iko) and the western Lake Kivu shore along the Kalehe-Katana corridor that M23 overran in February 2025 and has held as its Goma-Bukavu axis (assessed ARC-held in the Kabare and Kalehe units); with no locality-specific reporting, control by M23 ARC forces is inferred.",
+   "source_ids": [
+    "s1",
+    "s2",
+    "s3"
+   ]
+  }
+ ],
+ "locations": {
+  "cod-35MQT2756_1": "z1",
+  "cod-35MQT3075_3": "z1",
+  "cod-35MQT3160_1": "z1",
+  "cod-35MQT1439_1": "z2",
+  "cod-35MQT3362_2": "z1",
+  "cod-35MQT2978_1": "z1",
+  "cod-35MQT2548_1": "z1",
+  "cod-35MQT1364_1": "z2",
+  "cod-35MQT1052_1": "z2",
+  "cod-35MQT2551_1": "z1",
+  "cod-35MQT3389_1": "z1",
+  "cod-35MQT1064_1": "z2",
+  "cod-35MQT1638_1": "z2",
+  "cod-35MQT2756_1-TS6Ts4HttDs": "z1",
+  "cod-35MQT3075_3-X1wfgxBSibg": "z1",
+  "cod-35MQT2756_1-aH1xJgoOSn0": "z1",
+  "cod-35MQT2756_1-Q9HKRhOvEJN": "z1",
+  "cod-35MQT3075_3-qi71cq51VjU": "z1",
+  "cod-35MQT2756_1-gpj1qH6n83f": "z1",
+  "cod-35MQT2756_1-vO1vvEula6y": "z1",
+  "cod-35MQT3075_3-c2rnvq9oUTK": "z1",
+  "cod-35MQT3075_3-oHf4fyeGXfe": "z1",
+  "cod-35MQT3075_3-KnMarqf2liF": "z1",
+  "cod-35MQT3075_3-oLWT8CztjKO": "z1",
+  "cod-35MQT2756_1-UvUoGdzzxho": "z1",
+  "cod-35MQT2756_1-Rg5e2T3z1QG": "z1",
+  "cod-35MQT2756_1-BjARporCLWT": "z1",
+  "cod-35MQT3075_3-Egkuat7ScdF": "z1",
+  "cod-35MQT3075_3-VYDSNhjtcXK": "z1",
+  "cod-35MQT2756_1-uaztOfx99xR": "z1",
+  "cod-35MQT2756_1-ocmIFcI2r2l": "z1",
+  "cod-35MQT3075_3-lV4ZyKRJCYR": "z1",
+  "cod-35MQT2756_1-vfVDgTaXR80": "z1"
+ }
+}

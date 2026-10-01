@@ -67,6 +67,11 @@ Sources: GRID3 COD settlement extents v4, settlement names v9 and population v4.
 OCHA COD-AB admin boundaries, GeoNames for well-known town names.
 Settlement population is the sum of 100 m population cells falling in each GRID3 settlement extent.
 
+First run (as of 2026-10-01): 177 units, one research agent each plus a reviewer for the conflict provinces
+(Nord-/Sud-Kivu, Ituri, Tanganyika, Maï-Ndombe, Kwango, Kwilu, Haut-Uele). Most rural assessments rest on
+default state presence or territory-level reports, so confidence is mostly low/medium outside the east;
+agent-added entities are flagged `needs_review`.
+
 Database tables (`scripts/drc/schema.sql`): `entity` (controllers, with `parent_id` for sub-forces and a colour),
 `admin_unit`, `location`, `control_assessment` (controller, sovereign = top-level parent, status, confidence,
 date, evidence), `assessment_presence` (other actors present), `source`, `assessment_source`, `run`;

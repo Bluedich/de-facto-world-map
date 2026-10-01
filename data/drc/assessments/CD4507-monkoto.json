@@ -1,0 +1,110 @@
+{
+ "unit_id": "CD4507-monkoto",
+ "as_of": "2026-10-01",
+ "summary": "Monkoto territory (Tshuapa) lies in the central Congo basin around Salonga National Park, far from the eastern conflict zones, and no armed group is known to hold territory there. Monkoto town, the territory seat, is administered by the state with the PNC as the main day-to-day force; the ICCN park station and its armed eco-guards are also based there. Rural villages have very thin state presence and rely on customary authorities, with eco-guard patrols around the park; poaching occurs but no non-state actor exercises control. Web research was unavailable for this run, so confidence is medium for Monkoto town and low elsewhere.",
+ "sources": [],
+ "new_entities": [
+  {
+   "id": "cod-iccn",
+   "name": "Institut Congolais pour la Conservation de la Nature (ICCN) eco-guards",
+   "type": "state_force",
+   "parent_id": "cod",
+   "description": "Armed park rangers of the state conservation agency; controller only at park headquarters/stations and inside protected areas."
+  }
+ ],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Monkoto town (territory seat, GRID3 locality 'Iccn' at the Salonga National Park station)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-iccn",
+     "role": "present"
+    }
+   ],
+   "evidence": "Territory administrative seat with PNC territorial command and courts; the ICCN/Salonga National Park station (armed eco-guards) is located here but its rangers operate mainly inside the park. No armed group is known to operate in Monkoto territory. No web sources could be retrieved in this run (search budget exhausted; park and news sites blocked), so the assessment rests on the absence of known armed-group activity in Monkoto territory and Tshuapa province.",
+   "source_ids": []
+  },
+  {
+   "zone_id": "z2",
+   "description": "Rural villages of Monkoto health zone (Luilaka/Salonga river axes between the northern and southern blocks of Salonga NP: Bompofia, Wafanya, Bomate Rive, Nkole Lokoro, Bombwanza Indole, Iyete, Iyongo, Loele, Bongili, Imomampako, Emengeye, Bomatenkumu areas)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "customary",
+     "role": "present"
+    },
+    {
+     "entity_id": "cod-iccn",
+     "role": "present"
+    }
+   ],
+   "evidence": "Remote forest/river villages bordering Salonga National Park; state presence is thin (scattered PNC posts) and customary chiefs handle most disputes, while ICCN eco-guards patrol the park periphery against poaching. No non-state armed actor is known to hold territory. No web sources could be retrieved in this run (search budget exhausted; park and news sites blocked), so the assessment rests on the absence of known armed-group activity in Monkoto territory and Tshuapa province.",
+   "source_ids": []
+  },
+  {
+   "zone_id": "z3",
+   "description": "Villages of Monkoto territory in neighbouring health zones (Wema HZ: Batito, Lofuta, Bolafa 1, Ikomo; Lotumbe HZ: Ifuto Bonsombo; Boende HZ: Bolindo)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "customary",
+     "role": "present"
+    }
+   ],
+   "evidence": "Peripheral villages on the edges of the territory with no reported armed-group activity; nominal state control through scattered police posts and customary authorities. No web sources could be retrieved in this run (search budget exhausted; park and news sites blocked), so the assessment rests on the absence of known armed-group activity in Monkoto territory and Tshuapa province.",
+   "source_ids": []
+  }
+ ],
+ "locations": {
+  "cod-34MDD6507_1": "z1",
+  "cod-34MDD9433_1": "z2",
+  "cod-34MCD9329_1": "z2",
+  "cod-34MDD3732_1": "z2",
+  "cod-34MCD6164_1": "z2",
+  "cod-34MED8162_2": "z3",
+  "cod-34MCD7719_1": "z2",
+  "cod-34MDD7103_1": "z2",
+  "cod-34MED8167_2": "z3",
+  "cod-34MCD9229_1": "z2",
+  "cod-34MCD9829_1": "z2",
+  "cod-34MDD3274_1": "z2",
+  "cod-34MDD5467_2": "z2",
+  "cod-34MCD9525_2": "z2",
+  "cod-34MDC9780_1": "z2",
+  "cod-34MED8259_1": "z3",
+  "cod-34MCD9170_1": "z3",
+  "cod-34MEC1767_1": "z2",
+  "cod-34MCD8628_1": "z2",
+  "cod-34MCD3633_1": "z2",
+  "cod-34MDC7997_1": "z2",
+  "cod-34MCD9628_1": "z2",
+  "cod-34MED8071_1": "z3",
+  "cod-34MDD7400_1": "z2",
+  "cod-34MDD2963_1": "z2",
+  "cod-34MCD8324_1": "z2",
+  "cod-34MDD5665_1": "z2",
+  "cod-34MDD2328_2": "z2",
+  "cod-34MDD3334_1": "z2",
+  "cod-34MDE5105_3": "z3",
+  "cod-34MEC0078_2": "z2",
+  "cod-34MDD8426_1": "z2",
+  "cod-34MDD2881_1": "z2",
+  "cod-34MDD3964_1": "z2",
+  "cod-34MCD7417_1": "z2",
+  "cod-34MCD5222_1": "z2"
+ }
+}

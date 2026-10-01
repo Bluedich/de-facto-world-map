@@ -1,7 +1,7 @@
 {
  "unit_id": "CD3202-bagata",
  "as_of": "2026-10-01",
- "summary": "Bagata territory (Kwilu) comprises the Bagata, Kikongo and Sia secteurs between the Kwango/Kasai rivers and the Kwilu. The Mobondo militia that emerged in neighbouring Kwamouth in 2022 spilled into the territory's western areas (Kikongo secteur and villages toward Bandundu and the Kwango river) in 2023-2025 and holdouts reportedly still raid in 2026, but no locality is known to be under lasting Mobondo rule. Bagata town and the rest of the territory are assessed as under ordinary state authority with the PNC as main permanent force and FARDC deployed in the western fringe. Web research was unavailable for this run, so confidence is low outside the territorial seat.",
+ "summary": "Bagata territory (Kwilu) comprises the Bagata, Kikongo and Sia secteurs between the Kwango/Kasai rivers and the Kwilu. The Mobondo militia that emerged in neighbouring Kwamouth in 2022 spilled into the territory's western areas (Kikongo secteur and villages toward Bandundu and the Kwango river) in 2023-2025 and holdouts reportedly still raid in 2026, but no locality is known to be under lasting Mobondo rule. Bagata town and the rest of the territory are assessed as under ordinary state authority with the PNC as main permanent force and FARDC deployed in the western fringe. Web research was unavailable for this run, so confidence is low outside the territorial seat. Review (2026-10-01) could not re-verify with web research either (search budget exhausted, AllAfrica/news sites blocked); zones kept as default state presence/inference, consistent with the neighbouring Kwamouth, Kenge and Bandundu assessments.",
  "sources": [
   {
    "id": "s1",
@@ -64,7 +64,7 @@
      "role": "present"
     }
    ],
-   "evidence": "The Mobondo militia, which emerged in Kwamouth in 2022, spread into Bagata territory and the Kwango-river area in 2023-2025, with attacks on villages; reports through mid-2026 say holdouts still raid despite official claims of pacification and an August 2026 peace process. No locality in Bagata is known to be under lasting Mobondo rule, so ordinary state authority (PNC posts, customary chiefs, FARDC deployments) is assumed, low confidence. Web research was unavailable for this run (web search budget exhausted, search engines and news sites blocked by the proxy), so this rests on prior knowledge and regional reports cited by neighbouring assessments.",
+   "evidence": "The Mobondo militia, which emerged in Kwamouth in 2022, spread into Bagata territory and the Kwango-river area in 2023-2025, with attacks on villages; reports through mid-2026 say holdouts still raid despite official claims of pacification and an August 2026 peace process. No locality in Bagata is known to be under lasting Mobondo rule, so ordinary state authority (PNC posts, customary chiefs, FARDC deployments) is assumed, low confidence. Web research was unavailable for this run (web search budget exhausted, search engines and news sites blocked by the proxy), so this rests on prior knowledge and regional reports cited by neighbouring assessments. Status kept as PNC-dominant with Mobondo raiding; if Mobondo were confirmed to tax/rule Kikongo-secteur villages toward the Kwamouth border this zone should become contested or Mobondo-held.",
    "source_ids": [
     "s1",
     "s2",
@@ -95,7 +95,9 @@
    "since": null,
    "presence": [],
    "evidence": "Eastern secteur toward Bulungu/Djuma, far from the Mobondo-affected western fringe; no armed-group activity known. State authority via PNC posts, territorial administration and customary chiefs assumed. Web research was unavailable for this run (web search budget exhausted, search engines and news sites blocked by the proxy), so this rests on prior knowledge and regional reports cited by neighbouring assessments.",
-   "source_ids": []
+   "source_ids": [
+    "s1"
+   ]
   }
  ],
  "locations": {

@@ -1,0 +1,106 @@
+{
+ "unit_id": "CD4506-bokungu",
+ "as_of": "2026-10-01",
+ "summary": "Bokungu territory (Tshuapa province) lies in the forested central Congo basin, far from the eastern conflict zones, and no armed group is known to hold or contest territory there. Bokungu town, the territory seat, is administered by the state with the PNC as the main day-to-day security force and a small FARDC presence. Villages of the Bokungu, Yalifafo and Bosanga secteurs have thin state presence (scattered police posts) and rely heavily on customary chiefs, but no non-state armed actor exercises control. Web research was unavailable for this run, so confidence is medium for Bokungu town and low for rural villages.",
+ "sources": [],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Bokungu town (territory seat; Lontshinge quarter and adjoining Shekem Kitawala/Lofoma, Ekombe)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Territory headquarters with territorial administration, PNC commissariat and courts; no armed group is known to operate in Bokungu territory or Tshuapa province, so day-to-day order is kept by the police. No web sources could be retrieved in this run (session web search budget exhausted), so the assessment rests on the absence of known armed-group activity in Bokungu territory and Tshuapa province.",
+   "source_ids": []
+  },
+  {
+   "zone_id": "z2",
+   "description": "Rural villages of Bokungu secteur (Bokungu health zone: Pala, Lolafa, Liangola, Elongo, Yemo, Liunga, Yosasa, Lotakamela areas)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "customary",
+     "role": "present"
+    }
+   ],
+   "evidence": "Remote forest villages along the Tshuapa/Lomela axes with no reported armed-group presence; order rests on scattered PNC posts and customary chiefs under state administration. No web sources could be retrieved in this run (session web search budget exhausted), so the assessment rests on the absence of known armed-group activity in Bokungu territory and Tshuapa province.",
+   "source_ids": []
+  },
+  {
+   "zone_id": "z3",
+   "description": "Villages of Yalifafo and Bosanga secteurs (Yalifafu, Busanga and Wema health zones)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "customary",
+     "role": "present"
+    }
+   ],
+   "evidence": "Remote southern secteurs of Bokungu territory with no reported armed-group activity; thin state presence (PNC posts at secteur seats such as Yalifafu/Yotsili and Busanga), customary authorities handle most local disputes. No web sources could be retrieved in this run (session web search budget exhausted), so the assessment rests on the absence of known armed-group activity in Bokungu territory and Tshuapa province.",
+   "source_ids": []
+  }
+ ],
+ "locations": {
+  "cod-34MFE4633_1": "z1",
+  "cod-34MEE7283_1": "z2",
+  "cod-34MFE0150_1": "z2",
+  "cod-34MEE5666_1": "z2",
+  "cod-34MEE8877_1": "z2",
+  "cod-34MFE3759_1": "z2",
+  "cod-34MEE6268_1": "z2",
+  "cod-34MEE7582_1": "z2",
+  "cod-34MEE7682_1": "z2",
+  "cod-34MFE4796_1": "z2",
+  "cod-34MFE0675_1": "z2",
+  "cod-34MFE4936_1": "z1",
+  "cod-34MEE8381_1": "z2",
+  "cod-34MFE1172_1": "z2",
+  "cod-34MEE5766_2": "z2",
+  "cod-34MFE4433_1": "z1",
+  "cod-34MEE6677_1": "z2",
+  "cod-34MFE3864_1": "z2",
+  "cod-34MFE2640_2": "z2",
+  "cod-34MFE1953_1": "z2",
+  "cod-34MFE4889_1": "z2",
+  "cod-34MFD7658_1": "z3",
+  "cod-34MFD5479_1": "z3",
+  "cod-34MFD5153_1": "z3",
+  "cod-34MFD4798_2": "z3",
+  "cod-34MFD6471_1": "z3",
+  "cod-34MFD7959_1": "z3",
+  "cod-34MFD5631_3": "z3",
+  "cod-34MFD7011_2": "z3",
+  "cod-34MFE4521_1": "z3",
+  "cod-34MFD7154_1": "z3",
+  "cod-34MFD8860_1": "z3",
+  "cod-34MFD7555_1": "z3",
+  "cod-34MGD2044_1": "z3",
+  "cod-34MFE3803_1": "z3",
+  "cod-34MFD4991_1": "z3",
+  "cod-34MFE4815_1": "z3",
+  "cod-34MFD6643_1": "z3",
+  "cod-34MFE2400_1": "z3",
+  "cod-34MEE8206_1": "z3",
+  "cod-34MFE4125_1": "z3",
+  "cod-34MFD3278_1": "z3",
+  "cod-34MEE9306_1": "z3",
+  "cod-34MFD3099_1": "z3"
+ }
+}

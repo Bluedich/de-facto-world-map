@@ -30,6 +30,13 @@
    "title": "Insecurity without borders (policy brief)",
    "publisher": "PAX",
    "date": "2019-11-21"
+  },
+  {
+   "id": "s5",
+   "url": "https://www.congoquotidien.com/2025/05/13/fardc-ultimatum-mbororo-haut-uele-securite/",
+   "title": "FARDC lance un ultimatum aux éleveurs Mbororo : cantonnement ou traque militaire dans l'Uele",
+   "publisher": "Congo Quotidien",
+   "date": "2025-05-13"
   }
  ],
  "new_entities": [],
@@ -50,8 +57,9 @@
    ],
    "evidence": "Territorial headquarters with functioning state administration and police; FARDC units of the Uele operational sector are present in the territory. No reports of armed-group control of the town in 2025-2026.",
    "source_ids": [
+    "s2",
     "s1",
-    "s2"
+    "s5"
    ]
   },
   {
@@ -60,17 +68,18 @@
    "controller_id": "cod-fardc",
    "status": "dominant",
    "confidence": "low",
-   "basis": "area_report",
-   "since": "2025-06",
+   "basis": "inference",
+   "since": null,
    "presence": [
     {
      "entity_id": "cod-pnc",
      "role": "present"
     }
    ],
-   "evidence": "In May 2025 the FARDC Uele operational sector ordered Mbororo herders across Haut-Uele to move to Nambia in Niangara territory for cantonment and identification, implying an army-supervised zone; armed Mbororo herders (not a catalogued entity) are present. Implementation status as of 2026 is unconfirmed.",
+   "evidence": "In May 2025 the FARDC Uele operational sector gave Mbororo herders across Haut-Uele an ultimatum to regroup at Nambia (Niangara territory) for cantonment and identification, or face military operations. Assigning the Nambia area to the army is an inference from that order: no report confirms that the cantonment was implemented or that the FARDC holds a permanent post there as of 2026. Armed Mbororo herders (not a catalogued entity) may be present.",
    "source_ids": [
     "s1",
+    "s5",
     "s4"
    ]
   },

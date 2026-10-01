@@ -37,9 +37,10 @@ function geojsonLayer(o, renderer) {
         interactive: false,
         pointToLayer: (f, latlng) => L.circleMarker(latlng, {
           renderer, radius: Math.max(2, Math.log10(f.properties.population || 1000) * 2 - 4),
-          color: '#222', weight: 0.4, fillColor: f.properties.color, fillOpacity: f.properties.confidence === 'low' ? 0.55 : 0.9,
         }),
-        style: (f) => (o.id === 'rivers'
+        style: (f) => (o.id === 'drc-control'
+          ? { color: '#222', weight: 0.4, fillColor: f.properties.color, fillOpacity: f.properties.confidence === 'low' ? 0.55 : 0.9 }
+          : o.id === 'rivers'
           ? (f.geometry.type.includes('Polygon')
             ? { stroke: false, fillColor: '#5b9bd5', fillOpacity: 0.7 }
             : { color: '#2b6cb0', weight: Math.max(0.6, 2 - 0.15 * (f.properties.scalerank ?? 12)) })

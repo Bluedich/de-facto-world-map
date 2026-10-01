@@ -61,13 +61,8 @@
    "confidence": "low",
    "basis": "default_state_presence",
    "since": null,
-   "presence": [
-    {
-     "entity_id": "mobondo",
-     "role": "raiding"
-    }
-   ],
-   "evidence": "This southern belt borders Mushie territory, the area nearest to the Mobondo (Teke-Yaka conflict) zone that remained active in mid-2026; no source found reporting Mobondo holding localities inside Kutu territory, so ordinary state presence is assumed. Mobondo raiding listed as a possible risk only; web research was unavailable for this run.",
+   "presence": [],
+   "evidence": "This southern belt borders Mushie territory, the area nearest to the Mobondo (Teke-Yaka conflict) zone that remained active in mid-2026; no source found reporting Mobondo holding or raiding localities inside Kutu territory, so ordinary state presence is assumed. Spill-over risk from Mushie/Kwamouth exists but is unconfirmed; web research was unavailable for this run and the review.",
    "source_ids": [
     "s1",
     "s2"

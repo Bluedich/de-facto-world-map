@@ -1,7 +1,7 @@
 {
  "unit_id": "CD6103-masisi",
  "as_of": "2026-10-01",
- "summary": "AFC/M23 controls most of Masisi territory as of October 2026: Kitshanga and Mweso (since 2023-24), Rubaya and its coltan mines (since 2024), and Sake, Kirotshe/Ngungu, Bweremana and Masisi centre (since the January 2025 offensive), with its own administration and police in the main towns. The western hills toward Walikale (Nyabiondo, Lukweti, Loashi, Osso-Banyungu), the Ufamandu highlands and the Mpati-Kivuye-Bibwe fringe remain contested by Wazalendo groups (APCLS, Nyatura/CMC) with FDLR present, and see recurrent clashes. Note: live web research was unavailable for this unit (search budget exhausted, sites blocked by the egress proxy), so zones rest on the 2023-2025 capture record and 2026 regional reviews cited by neighbouring units; western zones are low confidence.",
+ "summary": "AFC/M23 controls most of Masisi territory as of October 2026: Kitshanga and Mweso (since 2023-24), Rubaya and its coltan mines (since 2024), and Sake, Kirotshe/Ngungu, Bweremana and Masisi centre (since the January 2025 offensive), with its own administration and police in the main towns. The western hills toward Walikale (Nyabiondo, Lukweti, Loashi, Osso-Banyungu), the Ufamandu highlands and the Mpati-Kivuye-Bibwe fringe remain contested by Wazalendo groups (APCLS, Nyatura/CMC) with FDLR present, and see recurrent clashes. Western Katoyi (Katoyi, Katovu, Kikoma, Luke) is treated as a separate Nyatura/FDLR-contested zone. Note: live web research (also for the review pass) was unavailable for this unit (search budget exhausted, sites blocked by the egress proxy), so zones rest on the 2023-2025 capture record and 2026 regional reviews cited by neighbouring units; western zones are low confidence.",
  "sources": [
   {
    "id": "s1",
@@ -66,7 +66,7 @@
      "role": "raiding"
     }
    ],
-   "evidence": "M23 took Kitshanga (2023), Rubaya (April-May 2024), and Sake and Masisi centre during the January 2025 offensive that took Goma, and installed its own administrators and police. Through 2025-2026 Wazalendo raids and night attacks hit the outskirts of Masisi centre and Sake, but no source available to this assessment reports the towns changing hands.",
+   "evidence": "M23 took Kitshanga in January-February 2023, Rubaya in April-May 2024, and Masisi centre (early January 2025) and Sake (late January 2025) during the offensive that took Goma, and installed its own administrators and police in these towns ('since' refers to the latest captures). Through 2025-2026 Wazalendo raids and night attacks hit the outskirts of Masisi centre and Sake, but no source available to this assessment reports the towns changing hands.",
    "source_ids": [
     "s1",
     "s4",
@@ -131,7 +131,7 @@
   },
   {
    "zone_id": "z4",
-   "description": "Western Masisi (Osso-Banyungu / Bashali Kaembe fringe): Nyabiondo, Lukweti, Loashi, Mbitsi, Buabo/Lushebere, Bukombo (Lulima), Kazinga, Mahanga; western Katoyi HZ: Luke, Katoyi HA (Nyalipe, Kakoka, Muhairwe), Katovu, Kikoma",
+   "description": "Western Masisi (Osso-Banyungu / Bashali Kaembe fringe, APCLS heartland): Nyabiondo, Lukweti, Loashi, Mbitsi, Buabo/Lushebere, Bukombo (Lulima), Kazinga, Mahanga",
    "controller_id": "apcls",
    "status": "contested",
    "confidence": "low",
@@ -151,10 +151,38 @@
      "role": "allied"
     }
    ],
-   "evidence": "The hills west of Masisi centre toward Walikale have long been APCLS strongholds (Lukweti, Nyabiondo, Loashi) with Nyatura factions, and became the main Wazalendo-M23 front after M23 took Masisi centre; FARDC-M23 fighting was reported around Lushebere in May 2025. Current holders of individual villages could not be verified (live research unavailable); APCLS/Wazalendo are assumed to dominate the far west and M23 to push in from Masisi centre.",
+   "evidence": "The hills west of Masisi centre toward Walikale have long been APCLS strongholds (Lukweti, Nyabiondo, Loashi) with Nyatura factions, and became the main Wazalendo-M23 front after M23 took Masisi centre; FARDC-M23 fighting was reported around Lushebere in May 2025. Current holders of individual villages could not be verified (live research unavailable); APCLS/Wazalendo are assumed to dominate the far west and M23 to push in from Masisi centre. Reviewer: the western Katoyi health zone (Katoyi, Katovu, Kikoma, Luke), historically a Nyatura (CMC) and FDLR area rather than APCLS, was split into z7.",
    "source_ids": [
     "s1",
     "s6"
+   ]
+  },
+  {
+   "zone_id": "z7",
+   "description": "Western Katoyi health zone (Osso/Matanda west, toward Ufamandu and Walikale): Luke, Katovu (Chamarambo), Katoyi HA (Nyalipe, Kakoka, Muhairwe), Kikoma",
+   "controller_id": "nyatura",
+   "status": "contested",
+   "confidence": "low",
+   "basis": "inference",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "afc-m23-arc",
+     "role": "contesting"
+    },
+    {
+     "entity_id": "fdlr",
+     "role": "present"
+    },
+    {
+     "entity_id": "apcls",
+     "role": "present"
+    }
+   ],
+   "evidence": "The Katoyi-Luke-Kikoma hills west of Kibabi have long been held by Nyatura (CMC and allied factions) together with FDLR units, now operating as Wazalendo against M23, which holds Kibabi/Rubaya to the east and pushes in from there. Individual village control could not be verified; live research was unavailable for the review.",
+   "source_ids": [
+    "s1",
+    "s5"
    ]
   },
   {
@@ -335,18 +363,18 @@
   "cod-35MQU0452_2": "z3",
   "cod-35MPU9841_1": "z4",
   "cod-35MQU1053_1": "z3",
-  "cod-35MPU9530_2": "z4",
-  "cod-35MPU8924_3": "z4",
-  "cod-35MPU9233_2": "z3",
+  "cod-35MPU9530_2": "z7",
+  "cod-35MPU8924_3": "z7",
+  "cod-35MPU9233_2": "z7",
   "cod-35MQU1351_1": "z3",
   "cod-35MPU9948_1": "z4",
   "cod-35MQU0142_1": "z3",
   "cod-35MPU9949_3": "z4",
   "cod-35MPU9446_2": "z4",
   "cod-35MPU9249_2": "z4",
-  "cod-35MPU9433_3": "z3",
+  "cod-35MPU9433_3": "z7",
   "cod-35MQU0845_2": "z3",
-  "cod-35MPU7928_4": "z4",
+  "cod-35MPU7928_4": "z7",
   "cod-35MPU9524_2": "z3",
   "cod-35MQU1253_2": "z3",
   "cod-35MQU0449_1": "z3",
@@ -356,13 +384,13 @@
   "cod-35MPU9425_1": "z3",
   "cod-35MPU8549_1": "z4",
   "cod-35MPU9641_2": "z4",
-  "cod-35MPU9227_1": "z4",
+  "cod-35MPU9227_1": "z7",
   "cod-35MQU0556_2": "z3",
   "cod-35MQU1148_1": "z3",
   "cod-35MPU9749_2": "z4",
-  "cod-35MPU8828_3": "z4",
+  "cod-35MPU8828_3": "z7",
   "cod-35MQU0158_2": "z3",
-  "cod-35MPU9432_2": "z3",
+  "cod-35MPU9432_2": "z7",
   "cod-35MPU9449_2": "z4",
   "cod-35MPU9648_2": "z4",
   "cod-35MPU9843_2": "z3",

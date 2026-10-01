@@ -1,0 +1,233 @@
+{
+ "unit_id": "CD7402-kalemie",
+ "as_of": "2026-10-01",
+ "summary": "Kalemie territory (Tanganyika) comprises the provincial capital Kalemie and the Nyemba area along Lake Tanganyika and inland toward Nyunzu. Kalemie city is assessed as police-run with a heavy FARDC, naval and ANR presence. Lakeshore and corridor villages are under thin state (PNC) presence. The western hinterland toward Nyunzu, historic theatre of the Twa-Luba conflict, and the northern Bendera area bordering Fizi (Mai-Mai/Yakutumba raids) are assessed as FARDC-held with militia raiding. No source-verified update for 2026 could be obtained: web research was blocked, so confidence is low outside the city. Review (2026-10-01): the reviewer could not run independent web research either (search budget exhausted; news, ReliefWeb and Google blocked); changes are consistency fixes with the neighbouring Fizi, Nyunzu and Moba assessments: the Bendera/Ndolo border zone is now FARDC-contested by CNPSC, and the northern lakeshore (Wimbi-Rugumba) is a separate PNC zone with CNPSC raid exposure.",
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.hrw.org/news/2017/03/16/dr-congo-escalating-violence-tanganyika",
+   "title": "DR Congo: Escalating violence in Tanganyika (background on Twa-Luba conflict)",
+   "publisher": "Human Rights Watch",
+   "date": "2017-03-16"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.un.org/securitycouncil/sanctions/1533/work-and-mandate/expert-reports",
+   "title": "UN Group of Experts on the DRC final reports (2019-2025): CNPSC/Yakutumba and Mai-Mai in Fizi, Ngandja and Kimbi-Lulenge (as cited in the neighbouring CD6210-fizi assessment)",
+   "publisher": "United Nations Security Council",
+   "date": "2025-06-01"
+  }
+ ],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Kalemie city (provincial capital of Tanganyika): all neighbourhoods/health areas (Lubuye, Kituku, Undugu, HGR, Clinique, Bwanakucha, Kifungo, Muchungaji Mwema, Martin Ville, Kataki, Hewa Bora, Mutakuya, Tundwa, Tabac urban fringe)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "inference",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    },
+    {
+     "entity_id": "cod-anr",
+     "role": "present"
+    }
+   ],
+   "evidence": "Provincial capital with governorate, provincial PNC command, FARDC military-region/naval units on Lake Tanganyika and ANR; no armed group is known to hold or administer any neighbourhood, insecurity being urban banditry. FARDC reinforcements were reportedly deployed after the AFC/M23 push toward Uvira in 2025, but day-to-day order is police-run. Live web research was not possible for this unit (search budget exhausted, news and humanitarian sites egress-blocked), so this rests on background knowledge up to 2025 and the default-state-presence rule.",
+   "source_ids": []
+  },
+  {
+   "zone_id": "z2",
+   "description": "Lakeshore and peri-urban villages around Kalemie and along the Kalemie-Mulange/Lukuga corridor and the lake road north (Kabimba, Kisongo/Lubanday, Tabac, Kasanga Mtoa, Bilila, Kitoke) and south (Mutupeke, Katibili, Mpemba, Kimena, Tembwe), plus interior villages of Tundwa, Muleka, Kiluba, Fatuma and Kambu health areas",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Villages within reach of Kalemie and on the main lake and rail/road corridors with PNC posts and FARDC positions; no armed group is known to control them. Interior southern and western villages (Fatuma, Kambu, Muleka, Kiluba) are more exposed to militia and bandit raids, hence low confidence. Live web research was not possible for this unit (search budget exhausted, news and humanitarian sites egress-blocked), so this rests on background knowledge up to 2025 and the default-state-presence rule.",
+   "source_ids": []
+  },
+  {
+   "zone_id": "z3",
+   "description": "Western interior of Kalemie territory toward Nyunzu (Nyemba secteur west): Kyoko, Nyemba (Slmaro), Mayi Baridi, Kasanga Nyemba, Muswaki, Lukombe, Mulolwa, Lambo Kilela, Kampulu (Baluba) health areas",
+   "controller_id": "cod-fardc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "inference",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "twa-militias",
+     "role": "raiding"
+    },
+    {
+     "entity_id": "cod-pnc",
+     "role": "present"
+    }
+   ],
+   "evidence": "This Kalemie-Nyunzu hinterland was the epicentre of the Twa-Luba conflict (2016-2020) with Twa militia ('Elements') and Luba self-defence attacks and large displacement camps; FARDC operations and a peace/DDR process reduced violence and no group is known to durably hold villages as of 2025, but residual Twa militia attacks persist, so the army is assessed as the main security force. Live web research was not possible for this unit (search budget exhausted, news and humanitarian sites egress-blocked), so this rests on background knowledge up to 2025 and the default-state-presence rule. Consistent with the neighbouring Nyunzu assessment (FARDC-held hinterland with residual Twa militia activity).",
+   "source_ids": [
+    "s1"
+   ]
+  },
+  {
+   "zone_id": "z4",
+   "description": "Northern Kalemie territory on the Sud-Kivu (Fizi) border: Bendera hydro-electric site, Mahila, Lambo Katenga, and Ndolo (Kimbi Lulenge health zone, Lulenge Makungu HA)",
+   "controller_id": "cod-fardc",
+   "status": "contested",
+   "confidence": "low",
+   "basis": "inference",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cnpsc",
+     "role": "contesting"
+    },
+    {
+     "entity_id": "cod-pnc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Bendera's hydro-electric plant and the northern border area are guarded by FARDC, but they adjoin the Kimbi-Lulenge hinterland that the neighbouring Fizi assessment assigns to CNPSC/Yakutumba and allied Mai-Mai (now aligned with the Wazalendo), and Mai-Mai have historically attacked and taxed around Bendera/Kimbi. Ndolo lies in Kimbi Lulenge health zone itself. Reviewer: status lowered from dominant to contested and CNPSC role raised from raiding to contesting for consistency with the Fizi assessment; no live source verified for 2026 (search budget exhausted, news sites blocked).",
+   "source_ids": [
+    "s2"
+   ]
+  },
+  {
+   "zone_id": "z5",
+   "description": "Northern lakeshore of Kalemie territory toward Fizi's Ngandja coast: Wimbi, Kazumba and Rugumba health areas (Wimbi Port, Wimbi 6/9, Kalilwa, Kazumba, Kizamba, Rugumba, Kilindila, Uzi)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    },
+    {
+     "entity_id": "cnpsc",
+     "role": "raiding"
+    }
+   ],
+   "evidence": "Lake Tanganyika fishing villages north of Kalemie with thin police and naval/FARDC presence; they lie south of the Ngandja lakeshore (Kazimia, Yungu, Talama) that the neighbouring Fizi assessment assigns to CNPSC/Yakutumba, which taxes lake traffic, so Mai-Mai incursions are plausible but no source reports armed-group control. Reviewer split this from z2 to record raid exposure; not verified for 2026 (no web research possible).",
+   "source_ids": [
+    "s2"
+   ]
+  }
+ ],
+ "locations": {
+  "cod-35MQP4347_1": "z1",
+  "cod-35MQP5122_2": "z2",
+  "cod-35MQP3238_3": "z2",
+  "cod-35MQP3036_2": "z2",
+  "cod-35MPP5841_1": "z3",
+  "cod-35MQP4328_1": "z2",
+  "cod-35MQP4236_1": "z2",
+  "cod-35MQP4230_1": "z2",
+  "cod-35MQP3539_1": "z2",
+  "cod-35MQP2238_1": "z2",
+  "cod-35MPP6050_1": "z3",
+  "cod-35MQN2486_1": "z2",
+  "cod-35MQP4332_1": "z2",
+  "cod-35MQP5809_1": "z2",
+  "cod-35MPP6858_2": "z3",
+  "cod-35MQP4136_1": "z2",
+  "cod-35MQN6880_1": "z2",
+  "cod-35MQP3534_3": "z2",
+  "cod-35MQN2668_1": "z2",
+  "cod-35MPP3846_2": "z3",
+  "cod-35MPP3443_1": "z3",
+  "cod-35MQN6689_2": "z2",
+  "cod-35MPN5498_1": "z3",
+  "cod-35MQP5714_1": "z2",
+  "cod-35MQP3547_1": "z2",
+  "cod-35MPP8047_1": "z3",
+  "cod-35MQP5812_1": "z2",
+  "cod-35MQN6395_1": "z2",
+  "cod-35MPP3235_2": "z3",
+  "cod-35MQN6299_1": "z2",
+  "cod-35MQP0149_2": "z2",
+  "cod-35MPP5511_4": "z3",
+  "cod-35MQP3641_2": "z2",
+  "cod-35MQN6687_1": "z2",
+  "cod-35MPP6958_2": "z3",
+  "cod-35MPP7258_1": "z3",
+  "cod-35MQP2944_1": "z2",
+  "cod-35MQP4347_1-pb0Wd18g4Hh": "z1",
+  "cod-35MQP4347_1-uC7PEXKt1lj": "z1",
+  "cod-35MQP4347_1-haGegSZOZGa": "z1",
+  "cod-35MQP4347_1-ysxEXkq512G": "z1",
+  "cod-35MQP4347_1-UmP8i0UYjRF": "z1",
+  "cod-35MQP4347_1-Cm0CtLoYQgO": "z1",
+  "cod-35MQP4347_1-bs1yiAg2GA6": "z1",
+  "cod-35MQP4347_1-BubYVJBT9Z2": "z1",
+  "cod-35MQP4347_1-SuC4OF44Bm5": "z1",
+  "cod-35MQP5984_1": "z2",
+  "cod-35MQP5257_2": "z2",
+  "cod-35MQP3754_3": "z2",
+  "cod-35MQP5655_1": "z2",
+  "cod-35MQQ0936_1": "z4",
+  "cod-35MQP5864_2": "z2",
+  "cod-35MQQ1239_1": "z4",
+  "cod-35MQP4455_2": "z2",
+  "cod-35MQQ4704_1": "z5",
+  "cod-35MQQ3824_2": "z5",
+  "cod-35MPQ6724_1": "z3",
+  "cod-35MQP5199_1": "z2",
+  "cod-35MPQ9842_2": "z4",
+  "cod-35MQP6166_1": "z2",
+  "cod-35MQQ3821_2": "z5",
+  "cod-35MQP3961_1": "z2",
+  "cod-35MQP5691_1": "z2",
+  "cod-35MQQ4510_1": "z5",
+  "cod-35MQP5961_2": "z2",
+  "cod-35MQP5661_1": "z2",
+  "cod-35MQQ4507_1": "z5",
+  "cod-35MQP6675_3": "z2",
+  "cod-35MQP5197_1": "z2",
+  "cod-35MQQ3632_2": "z5",
+  "cod-35MQQ3728_1": "z5",
+  "cod-35MQP5151_2": "z2",
+  "cod-35MQP3460_1": "z2",
+  "cod-35MQP3347_3": "z2",
+  "cod-35MQP6773_2": "z2",
+  "cod-35MPP8275_2": "z3",
+  "cod-35MQP2973_1": "z2",
+  "cod-35MQQ1042_2": "z4",
+  "cod-35MPQ7628_1": "z3",
+  "cod-35MQP1989_1": "z2",
+  "cod-35MQQ4116_1": "z5",
+  "cod-35MPP8774_1": "z3",
+  "cod-35MQP6069_1": "z2",
+  "cod-35MPP9570_3": "z3",
+  "cod-35MQP5068_1": "z2",
+  "cod-35MQP3170_1": "z2",
+  "cod-35MQP6675_2": "z2",
+  "cod-35MPP7357_1": "z3",
+  "cod-35MQQ4214_2": "z5",
+  "cod-35MQP6576_1": "z2",
+  "cod-35MPQ8608_1": "z3",
+  "cod-35MQP2091_1": "z2",
+  "cod-35MQP6281_1": "z2",
+  "cod-35MPP8994_1": "z3",
+  "cod-35MQP3860_1": "z2",
+  "cod-35MQP4347_1-qGbrij6J6e0": "z1",
+  "cod-35MQP4347_1-b47nISRpaig": "z1",
+  "cod-35MQP4347_1-eBIdniNPtbC": "z1",
+  "cod-35MQP4347_1-rva3s38nPwS": "z1",
+  "cod-35MQP4347_1-L9oCqK4s7B5": "z1"
+ }
+}

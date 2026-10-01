@@ -1,7 +1,7 @@
 {
  "unit_id": "CD3204-bulungu-2",
  "as_of": "2026-10-01",
- "summary": "This unit covers the Djuma, Lusanga and Pay Kongila secteurs of Bulungu territory (Kwilu), a rural area between the Kwilu river and Kikwit including the Kwenge, Lusanga, Djuma and Vanga health zones. No armed group is known to exercise territorial control here; the Mobondo militia that spread from Kwamouth into Kwilu since 2022 has affected mainly western Bagata territory. All localities are assessed as under ordinary state authority with the PNC as main permanent force, supported by territorial administration and customary chiefs. Web research was unavailable for this run (search budget exhausted, sources blocked), so confidence is low for rural villages.",
+ "summary": "This unit covers the Djuma, Lusanga and Pay Kongila secteurs of Bulungu territory (Kwilu), a rural area between the Kwilu river and Kikwit covering the Lusanga, Djuma and Vanga health zones (plus fringes of Bulungu, Mosango and Kikwit health zones). No armed group is known to exercise territorial control here; the Mobondo militia that spread from Kwamouth into Kwilu since 2022 has affected mainly western Bagata territory. All localities are assessed as under ordinary state authority with the PNC as main permanent force, supported by territorial administration and customary chiefs. Web research was unavailable for this run (search budget exhausted, sources blocked), so confidence is low for rural villages. A skeptical review (2026-10-01) could not run independent web searches either (search budget exhausted, AllAfrica and search engines blocked), so the assessment remains unverified; neighbouring Bagata territory across the Kwilu still saw Mobondo holdout raids in 2026 per sibling-unit sources, so incursions into western Djuma secteur cannot be excluded.",
  "sources": [],
  "new_entities": [],
  "zones": [
@@ -26,7 +26,7 @@
    "basis": "default_state_presence",
    "since": null,
    "presence": [],
-   "evidence": "No reports of armed-group activity located for Djuma secteur villages; ordinary state authority via PNC posts, secteur administration and customary chiefs is assumed. Bagata territory to the west is the nearest Mobondo-affected area, but no incursions into Djuma secteur are known. Web research was unavailable for this run (web search budget exhausted, news sites blocked by the proxy), so this rests on default state presence and prior knowledge of the region.",
+   "evidence": "No reports of armed-group activity located for Djuma secteur villages; ordinary state authority via PNC posts, secteur administration and customary chiefs is assumed. Bagata territory to the west is the nearest Mobondo-affected area, but no incursions into Djuma secteur are known. Web research was unavailable for this run (web search budget exhausted, news sites blocked by the proxy), so this rests on default state presence and prior knowledge of the region. Djuma secteur is the part of the unit closest to Bagata territory, where Mobondo holdouts were still reported raiding in 2026, so sporadic incursions cannot be excluded.",
    "source_ids": []
   },
   {

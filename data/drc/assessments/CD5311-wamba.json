@@ -1,7 +1,7 @@
 {
  "unit_id": "CD5311-wamba",
  "as_of": "2026-10-01",
- "summary": "Wamba territory (Haut-Uele) is held by the state as of October 2026, but its eastern part is exposed to the ADF expansion into southern Haut-Uele. Since May-July 2026 ADF attacks around Mungbere (Watsa) were followed by reported ADF movement toward Betongwe and an incursion contained by the FARDC at the periphery of Wamba town, displacing over 10,000 people; the ADF base area lies in the forest between Mambasa, Wamba and Watsa. Wamba town remains under PNC/state control with FARDC reinforcement, while the eastern villages toward Mungbere are an FARDC operations zone contested by the ADF. The Pawa and Boma-Mangbetu chefferies and the western/central Wamba secteur have no reported armed-group control and are assigned to the PNC by default presence. An Ebola outbreak in Wamba and Pawa health zones compounds insecurity.",
+ "summary": "Wamba territory (Haut-Uele) is held by the state as of October 2026, but its eastern part is exposed to the ADF expansion into southern Haut-Uele. Since May-July 2026 ADF attacks around Mungbere (Watsa) were followed by reported ADF movement toward Betongwe and an incursion contained by the FARDC at the periphery of Wamba town, displacing over 10,000 people; the ADF base area lies in the forest between Mambasa, Wamba and Watsa. Wamba town remains under PNC/state control with FARDC reinforcement, while the eastern villages toward Mungbere are an FARDC operations zone contested by the ADF. The Pawa and Boma-Mangbetu chefferies and the western/central Wamba secteur have no reported armed-group control and are assigned to the PNC by default presence. An Ebola outbreak in Wamba and Pawa health zones compounds insecurity. NOTE: a review pass could not re-check these claims against fresh reporting (web search unavailable); assessment is consistent with neighbouring Watsa and Mambasa assessments.",
  "sources": [
   {
    "id": "s1",
@@ -37,6 +37,13 @@
    "title": "ADF strikes Mungwere village",
    "publisher": "International Christian Concern",
    "date": "2026-05-21"
+  },
+  {
+   "id": "s6",
+   "url": "https://www.radiookapi.net/2026/08/31/actualite/securite/environ-10-000-deplaces-en-detresse-watsa-et-wamba",
+   "title": "Environ 10 000 déplacés en détresse à Watsa et Wamba",
+   "publisher": "Radio Okapi",
+   "date": "2026-08-31"
   }
  ],
  "new_entities": [],
@@ -62,7 +69,8 @@
    "evidence": "Territorial seat with state administration and police; FARDC reinforced in the area during the 2026 anti-ADF operations. In July 2026 an ADF incursion was contained by the army at Wamba's periphery and the town received displaced people fleeing the ADF, i.e. it remained state-held.",
    "source_ids": [
     "s1",
-    "s2"
+    "s2",
+    "s6"
    ]
   },
   {
@@ -83,7 +91,8 @@
    "source_ids": [
     "s1",
     "s3",
-    "s5"
+    "s5",
+    "s6"
    ]
   },
   {

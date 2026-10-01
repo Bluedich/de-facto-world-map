@@ -1,0 +1,150 @@
+{
+ "unit_id": "CD7407-kabalo",
+ "as_of": "2026-10-01",
+ "summary": "Kabalo territory (Tanganyika) lies on the Lualaba river and the Kalemie-Kindu/Lubumbashi railway junction, west of Nyunzu. It was affected by the 2016-2019 Twa-Luba conflict, mostly in its eastern parts bordering Nyunzu, but no source available to this assessment reports durable armed-group control of any locality in 2025-2026. Kabalo town is a territorial centre with PNC, FARDC and ANR presence and is assessed as police-run. Rural villages along the river, railway and in the western savanna are assessed as default state presence (PNC). The eastern health areas (Kihanga, Kashale, Lwala) toward Nyunzu are assessed as thinly state-held with possible Twa militia raiding. Live web research was unavailable (search budget exhausted, news sites blocked), so confidence is low.",
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.hrw.org/news/2017/03/16/dr-congo-escalating-violence-tanganyika",
+   "title": "DR Congo: Escalating violence in Tanganyika",
+   "publisher": "Human Rights Watch",
+   "date": "2017-03-16"
+  }
+ ],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Kabalo town (territorial centre, river port and rail junction; Mpongo health area)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "inference",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    },
+    {
+     "entity_id": "cod-anr",
+     "role": "present"
+    }
+   ],
+   "evidence": "Kabalo is the seat of the territorial administration with a PNC commissariat and FARDC garrison guarding the rail/river junction; no report of armed-group control of the town after the Twa-Luba conflict subsided (~2019-2020). Not verified with 2026 sources.",
+   "source_ids": [
+    "s1"
+   ]
+  },
+  {
+   "zone_id": "z2",
+   "description": "Central and western Kabalo territory: villages along the Lualaba and the railway (Kadima, Kyalo, Ngwena Gare/SNCC, Kasinge, Katutu, Kamubangwa, Mulimi, Kabanda, Lukundula) and the western savanna (Kakuyu, Pofu, Mbwele, Kilambi, Kaongo, Kalenge, Ngwena Mayi, Mulonga, Kaye, Kitule, Kibula)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "No source available to this assessment reports armed-group control in these areas; insecurity is mostly banditry and residual inter-community tension. Assigned to the thin state police presence by default.",
+   "source_ids": [
+    "s1"
+   ]
+  },
+  {
+   "zone_id": "z3",
+   "description": "Eastern Kabalo territory toward Nyunzu: Kihanga, Kashale and Lwala health areas (Mwenge, Kashale 1, Yaudi, Katambwe, Kabanza, Munanu, Longa, Lwala, Mwanwa, Kisala)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "inference",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    },
+    {
+     "entity_id": "twa-militias",
+     "role": "raiding"
+    }
+   ],
+   "evidence": "The Kabalo-Nyunzu borderlands were part of the Twa-Luba conflict zone (2016-2019) with Twa militia attacks; later reports describe sporadic incidents rather than territorial control. Assessed as thin state presence with possible militia raids; unverified for 2026.",
+   "source_ids": [
+    "s1"
+   ]
+  }
+ ],
+ "locations": {
+  "cod-35MMP9129_1": "z1",
+  "cod-35MMP9300_2": "z2",
+  "cod-35MMN6893_1": "z2",
+  "cod-35MMP9103_1": "z2",
+  "cod-35MNP3633_1": "z3",
+  "cod-35MMP8715_2": "z2",
+  "cod-35MMN9889_1": "z2",
+  "cod-35MMP2712_2": "z2",
+  "cod-35MNP1835_1": "z3",
+  "cod-35MMP1952_1": "z2",
+  "cod-35MMP9800_1": "z2",
+  "cod-35MMP9365_2": "z2",
+  "cod-35MMN9389_2": "z2",
+  "cod-35MMN2783_1": "z2",
+  "cod-35MMN7988_1": "z2",
+  "cod-35MMN9592_1": "z2",
+  "cod-35MMP2814_1": "z2",
+  "cod-35MMP9220_1": "z2",
+  "cod-35MMP8332_1": "z2",
+  "cod-35MMN6782_1": "z2",
+  "cod-35MMN0492_1": "z2",
+  "cod-35MMP1350_1": "z2",
+  "cod-35MLN9462_1": "z2",
+  "cod-35MMP9206_1": "z2",
+  "cod-35MNP2229_1": "z3",
+  "cod-35MMN8988_1": "z2",
+  "cod-35MMP5436_1": "z2",
+  "cod-35MNP6018_1": "z3",
+  "cod-35MMP8334_1": "z2",
+  "cod-35MNP1339_1": "z3",
+  "cod-35MNN5294_1": "z3",
+  "cod-35MLN8970_1": "z2",
+  "cod-35MMN5972_2": "z2",
+  "cod-35MMN2596_1": "z2",
+  "cod-35MMP9026_1": "z2",
+  "cod-35MNP2932_2": "z3",
+  "cod-35MMN1599_1": "z2",
+  "cod-35MMN3972_3": "z2",
+  "cod-35MMP3355_1": "z2",
+  "cod-35MMP3751_1": "z2",
+  "cod-35MNP4531_1": "z3",
+  "cod-35MMP9065_2": "z2",
+  "cod-35MMN0695_1": "z2",
+  "cod-35MLN9365_1": "z2",
+  "cod-35MMN8587_1": "z2",
+  "cod-35MMN6177_1": "z2",
+  "cod-35MMN1198_1": "z2",
+  "cod-35MMP7915_1": "z2",
+  "cod-35MNN0184_1": "z2",
+  "cod-35MMN4770_1": "z2",
+  "cod-35MNP1447_1": "z3",
+  "cod-35MNN6294_1": "z3",
+  "cod-35MMP8807_2": "z2",
+  "cod-35MNN5184_2": "z3",
+  "cod-35MMP8631_2": "z2",
+  "cod-35MMP7851_1": "z2",
+  "cod-35MNP0353_1": "z2",
+  "cod-35MMP7423_1": "z2",
+  "cod-35MMP7249_1": "z2",
+  "cod-35MLN9070_2": "z2",
+  "cod-35MMP4736_2": "z2",
+  "cod-35MMP8644_1": "z2",
+  "cod-35MMP8808_1": "z2",
+  "cod-35MNN5072_1": "z3",
+  "cod-35MMN9591_1": "z2",
+  "cod-35MLN9171_2": "z2"
+ }
+}

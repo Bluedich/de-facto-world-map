@@ -1,7 +1,7 @@
 {
  "unit_id": "CD6107-oicha",
  "as_of": "2026-10-01",
- "summary": "Beni territory (OCHA 'Oïcha' unit) is government-held but is the core operating area of the ADF/ISCAP. The towns (Oicha, Beni city outskirts, Mangina, Kasindi, Mutwanga, Kamango, Butembo outskirts) and the RN4/RN2 road positions are held by FARDC, police and, in the north and east, Ugandan UPDF troops of Operation Shujaa, while the ADF contests the forest belts of Beni-Mbau (Mayangose/Pasala, Mapou-Kainama, Samboko), the Mwalika valley/Beni-Kasindi road, western Mabalako toward Lubero, and the western Kalunguta hills. The southern Bashu chefferie (Kyondo, Vuhovi, Masereka area) around Butembo is state-administered with PNC, with Wazalendo/Mai-Mai groups present but not known to rule; the AFC/M23 front stayed south in Lubero/Rutshuru. NOTE: no live web research was possible for this unit (search budget exhausted, all news/tracker sites blocked), so all zones are inferences from background knowledge to mid-2026 and confidence is low to medium.",
+ "summary": "Beni territory (OCHA 'Oïcha' unit) is government-held but is the core operating area of the ADF/ISCAP. The towns (Oicha, Beni city outskirts, Mangina, Kasindi, Mutwanga, Kamango, Butembo outskirts) and the RN4/RN2 road positions are held by FARDC, police and, in the north and east, Ugandan UPDF troops of Operation Shujaa, while the ADF contests the forest belts of Beni-Mbau (Mayangose/Pasala, Mapou-Kainama, Samboko), the Mwalika valley/Beni-Kasindi road, western Mabalako toward Lubero, and the western Kalunguta hills. The southern Bashu chefferie (Kyondo, Vuhovi, Masereka area) around Butembo is state-administered with PNC, with Wazalendo/Mai-Mai groups present but not known to rule; the AFC/M23 front stayed south in Lubero/Rutshuru. NOTE: no live web research was possible for this unit (search budget exhausted, all news/tracker sites blocked), so all zones are inferences from background knowledge to mid-2026 and confidence is low to medium. Reviewer note (2026-10-01): an independent review could not re-check these claims either (web search budget exhausted; news, aggregator and monitoring sites blocked by the egress proxy); 'since' dates that only marked the 2021 state of siege / Operation Shujaa start were removed (state control of those towns predates them), and UPDF was dropped from Mangina. Zones remain consistent with the neighbouring Beni city, Butembo, Lubero, Irumu and Mambasa assessments.",
  "sources": [
   {
    "id": "s1",
@@ -41,7 +41,7 @@
    "status": "dominant",
    "confidence": "medium",
    "basis": "inference",
-   "since": "2021-05",
+   "since": null,
    "presence": [
     {
      "entity_id": "cod-pnc",
@@ -56,7 +56,7 @@
      "role": "raiding"
     }
    ],
-   "evidence": "Seat of Beni territory under the état de siège (military territorial administrator) and a hub of FARDC and UPDF Operation Shujaa forces; PNC operate in town. The ADF has repeatedly attacked the outskirts of Oicha (e.g. Mbimbi, Masosi, Mamove road) but has not held the town. Web research was unavailable for this unit (search budget exhausted, news sites blocked by the egress proxy); assessment relies on background knowledge of the situation up to mid-2026.",
+   "evidence": "Seat of Beni territory under the état de siège (military territorial administrator) and a hub of FARDC and UPDF Operation Shujaa forces; PNC operate in town. The ADF has repeatedly attacked the outskirts of Oicha (e.g. the Mamove road and forest edge to the west) but has not held the town. Web research was unavailable for this unit (search budget exhausted, news sites blocked by the egress proxy); assessment relies on background knowledge of the situation up to mid-2026.",
    "source_ids": [
     "s1",
     "s2",
@@ -71,7 +71,7 @@
    "status": "dominant",
    "confidence": "medium",
    "basis": "inference",
-   "since": "2021-12",
+   "since": null,
    "presence": [
     {
      "entity_id": "uga-updf",
@@ -192,13 +192,9 @@
     {
      "entity_id": "cod-pnc",
      "role": "present"
-    },
-    {
-     "entity_id": "uga-updf",
-     "role": "present"
     }
    ],
-   "evidence": "Mangina is the main town of the Beni–Mangina–Biakato road (RN4 towards Ituri), with FARDC and police; since 2022-23 the ADF has moved west and north through this axis, attacking villages around Mangina, Bingo and Mabalako, but the town and road positions remain army-held. Web research was unavailable for this unit (search budget exhausted, news sites blocked by the egress proxy); assessment relies on background knowledge of the situation up to mid-2026.",
+   "evidence": "Mangina is the main town of the Beni–Mangina–Biakato road (RN4 towards Ituri), with FARDC and police; since 2022-23 the ADF has moved west and north through this axis, attacking villages around Mangina, Bingo and Mabalako, but the town and road positions remain army-held. Web research was unavailable for this unit (search budget exhausted, news sites blocked by the egress proxy); assessment relies on background knowledge of the situation up to mid-2026. Reviewer: removed UPDF from presence – Operation Shujaa sectors are Watalinga/Kamango, Mbau–Kamango, Eringeti and Ituri; no known UPDF base at Mangina.",
    "source_ids": [
     "s1",
     "s2",
@@ -459,7 +455,7 @@
    "status": "dominant",
    "confidence": "medium",
    "basis": "inference",
-   "since": "2021-12",
+   "since": null,
    "presence": [
     {
      "entity_id": "uga-updf",

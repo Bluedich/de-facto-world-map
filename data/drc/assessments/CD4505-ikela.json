@@ -1,0 +1,93 @@
+{
+ "unit_id": "CD4505-ikela",
+ "as_of": "2026-10-01",
+ "summary": "Ikela territory (Tshuapa province) lies in the remote central Congo basin, far from the eastern conflict zones, and no armed group is known to hold or operate in it. Ikela town, the territory headquarters, is state-administered with the PNC as the main day-to-day security force and a FARDC presence. Rural villages of the Ikela and Mondombe secteurs have thin state presence and rely on customary authorities, but no non-state armed actor is reported to exercise control. Web research was unavailable for this run, so confidence is medium for Ikela town and low for rural villages.",
+ "sources": [],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Ikela town area (Tshuapa 2 / Quartier Bolondo, Boboto health area on the Tshuapa river)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Territory headquarters with territorial administration, PNC commissariat and a historical FARDC garrison/airstrip; no armed group known to operate in Ikela territory. No web sources could be retrieved in this run (web search budget exhausted, news sites blocked), so the assessment rests on the absence of known armed-group activity in Ikela territory and Tshuapa province.",
+   "source_ids": []
+  },
+  {
+   "zone_id": "z2",
+   "description": "Rural villages of Mondombe secteur (Mondombe health zone and Mbelo Nord area)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "customary",
+     "role": "present"
+    }
+   ],
+   "evidence": "Remote forest villages around Mondombe near the Salonga national park margins, with thin state presence (police posts, park rangers) and customary chiefs; occasional poaching-related insecurity is not known to amount to armed-group control. No web sources could be retrieved in this run (web search budget exhausted, news sites blocked), so the assessment rests on the absence of known armed-group activity in Ikela territory and Tshuapa province.",
+   "source_ids": []
+  },
+  {
+   "zone_id": "z3",
+   "description": "Rural villages of Ikela secteur (Ikela and Yalifafu health zones: Yalosambo, Yalio, Yolombo, Yaloya, Boyombo, Samanda, Yolonga, Yaloketo)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "customary",
+     "role": "present"
+    }
+   ],
+   "evidence": "Rural central-basin villages with no reported armed-group activity; order rests on scattered PNC posts and customary chiefs under state administration. No web sources could be retrieved in this run (web search budget exhausted, news sites blocked), so the assessment rests on the absence of known armed-group activity in Ikela territory and Tshuapa province.",
+   "source_ids": []
+  }
+ ],
+ "locations": {
+  "cod-34MGD1993_1": "z2",
+  "cod-34MGE1742_1": "z2",
+  "cod-34MFE9414_1": "z2",
+  "cod-34MGE1437_3": "z2",
+  "cod-34MGE2513_1": "z2",
+  "cod-34MFE8816_2": "z2",
+  "cod-34MFE7562_1": "z2",
+  "cod-34MGE0113_1": "z2",
+  "cod-34MFE7484_1": "z2",
+  "cod-34MFD8794_1": "z2",
+  "cod-34MFE7629_3": "z2",
+  "cod-34MFD9586_1": "z2",
+  "cod-34MFE8147_1": "z2",
+  "cod-34MGE2610_1": "z2",
+  "cod-34MGE1021_1": "z2",
+  "cod-34MFE7432_1": "z2",
+  "cod-34MGE7245_1": "z2",
+  "cod-34MGE3612_3": "z2",
+  "cod-34MGE0625_1": "z2",
+  "cod-34MGE3018_1": "z2",
+  "cod-34MGD6384_4": "z1",
+  "cod-34MGD1363_1": "z3",
+  "cod-34MGD1353_1": "z3",
+  "cod-34MGD6719_1": "z3",
+  "cod-34MGD6503_1": "z3",
+  "cod-34MGD8963_2": "z3",
+  "cod-34MGD6605_1": "z3",
+  "cod-35MJU7853_1": "z3",
+  "cod-34MGD2574_2": "z3",
+  "cod-34MGD6185_1": "z1",
+  "cod-34MGC6790_1": "z3"
+ }
+}

@@ -36,7 +36,7 @@
    "basis": "default_state_presence",
    "since": null,
    "presence": [],
-   "evidence": "Secteur headquarters with secteur administration and a PNC post; customary chiefs operate under state authority. No source reports armed-group control or regular raids in Mungindu secteur as of the reference date; the Mobondo militia theatre (Kwamouth, Bagata, Kenge, Kwango, western Bulungu) lies well to the west. Live web research was unavailable for this run (search budget exhausted), so the assessment rests on default state presence.",
+   "evidence": "Secteur headquarters with secteur administration and a PNC post; customary chiefs operate under state authority. No source reports armed-group control or regular raids in Mungindu secteur as of the reference date; the Mobondo militia theatre (Kwamouth, Bagata, Kenge, Kwango, western Bulungu) lies well to the west. Live web research was unavailable for this run (search budget exhausted), so the assessment rests on default state presence. Reviewer could not independently verify (no search access); assessment retained.",
    "source_ids": [
     "s1",
     "s2",
@@ -45,14 +45,14 @@
   },
   {
    "zone_id": "z2",
-   "description": "Rural villages of Mungindu secteur (Mungindu and Gungu health zones), between the Kwilu and Kwenge rivers",
+   "description": "Rural villages of Mungindu secteur (Mungindu health zone and northern Gungu health zone areas: Totshi, Mundundu etc.)",
    "controller_id": "cod-pnc",
    "status": "dominant",
    "confidence": "low",
    "basis": "default_state_presence",
    "since": null,
    "presence": [],
-   "evidence": "Rural villages under customary chiefs within state authority, with PNC sub-posts at groupement level and secteur administration. No source reports armed-group control or regular raids in Mungindu secteur as of the reference date; the Mobondo militia theatre (Kwamouth, Bagata, Kenge, Kwango, western Bulungu) lies well to the west. Live web research was unavailable for this run (search budget exhausted), so the assessment rests on default state presence.",
+   "evidence": "Rural villages under customary chiefs within state authority, administered by the secteur; any permanent force presence is likely limited to small PNC posts in larger villages (not verified). No source reports armed-group control or regular raids in Mungindu secteur as of the reference date; the Mobondo militia theatre (Kwamouth, Bagata, Kenge, Kwango, western Bulungu) lies well to the west. Live web research was unavailable for this run (search budget exhausted), so the assessment rests on default state presence. Reviewer (2026-10-01) could not run independent searches either; no change in controller, confidence kept low.",
    "source_ids": [
     "s1",
     "s2",

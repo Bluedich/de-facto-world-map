@@ -1,7 +1,7 @@
 {
  "unit_id": "CD6104-walikale",
  "as_of": "2026-10-01",
- "summary": "Walikale territory is split by the AFC/M23–Wazalendo front that formed after M23's March 2025 offensive, when it briefly took Walikale centre before withdrawing in early April 2025. Walikale centre and the western road/Bisie mining zone are assessed as FARDC-dominated with Wazalendo auxiliaries and police; southern Walikale (Itebero/Hombo) is dominated by Wazalendo (Kifuafua/Raia Mutomboki). The east (Kibua–Kibati, Masisi border) and the Kalembe fringe are assessed as M23-held but contested by Wazalendo, APCLS, NDC-R and FDLR; Pinga is assessed as NDC-R (pro-government wing) territory under pressure from M23. Web research was blocked for this unit, so everything rests on background knowledge up to mid-2026 and confidence is low throughout.",
+ "summary": "Walikale territory is split by the AFC/M23–Wazalendo front that formed after M23's March 2025 offensive, when it briefly took Walikale centre before withdrawing in early April 2025. Walikale centre and the western road/Bisie mining zone are assessed as FARDC-dominated with Wazalendo auxiliaries and police; southern Walikale (Itebero/Hombo) is dominated by Wazalendo (Kifuafua/Raia Mutomboki). The east (Kibua–Kibati, Masisi border) and the Kalembe fringe are assessed as M23-held but contested by Wazalendo, APCLS, NDC-R and FDLR; the south-eastern highlands (Mangere, Biriko) adjoining Ziralo are assessed as Wazalendo/Raia Mutomboki areas raided by M23; Pinga is assessed as NDC-R (pro-government wing) territory under pressure from M23. Web research was blocked for this unit, so everything rests on background knowledge up to mid-2026 and confidence is low throughout.",
  "sources": [
   {
    "id": "s1",
@@ -23,6 +23,13 @@
    "title": "M23 rebels seize Kalembe town in east DR Congo",
    "publisher": "The EastAfrican",
    "date": "2024-10"
+  },
+  {
+   "id": "s4",
+   "url": "https://www.criticalthreats.org/briefs/congo-war-security-review/january-14-2026",
+   "title": "Congo War Security Review, January 14, 2026",
+   "publisher": "Critical Threats Project (AEI/ISW)",
+   "date": "2026-01-14"
   }
  ],
  "new_entities": [],
@@ -104,7 +111,7 @@
   },
   {
    "zone_id": "z4",
-   "description": "Eastern Walikale (Kibua and Kibati area, Wanianga secteur) and Masisi/Ufamandu border: Kibua, Mera, Lubonga, Nsindo, Luvungi, Kalenga/Kishanga, Mutakato/Misau, Karambi, Birongo/Kibati, Bulewa/Machumbi, Ntoto, Lwibo, Mangere, Biriko",
+   "description": "Eastern Walikale (Kibua and Kibati area, Wanianga secteur) toward the Masisi border: Kibua, Mera, Lubonga, Nsindo, Luvungi, Kalenga/Kishanga, Mutakato/Misau, Karambi, Birongo/Kibati, Bulewa/Machumbi, Ntoto, Lwibo",
    "controller_id": "afc-m23-arc",
    "status": "contested",
    "confidence": "low",
@@ -211,9 +218,10 @@
      "role": "present"
     }
    ],
-   "evidence": "M23 captured Kalembe in October 2024 and still held it in 2026 (repelling Wazalendo there in January 2026); the adjacent Kalembe-health-area villages and Buleusa/Kateku axis lie in its area of operations, but NDC-R/Wazalendo, Nyatura and FDLR fighters remain active and control alternates. Not verified against 2026 reporting: web research was blocked for this run (search budget exhausted, news sites egress-blocked).",
+   "evidence": "M23 captured Kalembe in October 2024 and still held it in 2026 (repelling Wazalendo there in January 2026); the adjacent Kalembe-health-area villages and Buleusa/Kateku axis lie in its area of operations, but NDC-R/Wazalendo, Nyatura and FDLR fighters remain active and control alternates. The January 2026 Kalembe clash is taken from the source used for the adjacent Rutshuru assessment (not re-fetched in review). Buleusa itself is assessed Wazalendo-held in the Lubero assessment, so Katrisa's assignment is particularly uncertain. Otherwise not verified against 2026 reporting: web research was blocked for this run (search budget exhausted, news sites egress-blocked).",
    "source_ids": [
-    "s3"
+    "s3",
+    "s4"
    ]
   },
   {
@@ -231,6 +239,37 @@
     }
    ],
    "evidence": "Remote forest locality north of Pinga with negligible state presence, where NDC-R factions and other Mai-Mai have historically held sway. No specific report. Not verified against 2026 reporting: web research was blocked for this run (search budget exhausted, news sites egress-blocked).",
+   "source_ids": [
+    "s1"
+   ]
+  },
+  {
+   "zone_id": "z9",
+   "description": "South-eastern Walikale highlands toward Ziralo (Kalehe) and Ufamandu: Mangere and Biriko",
+   "controller_id": "cod-wazalendo",
+   "status": "contested",
+   "confidence": "low",
+   "basis": "inference",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "raia-mutomboki",
+     "role": "present"
+    },
+    {
+     "entity_id": "nyatura",
+     "role": "present"
+    },
+    {
+     "entity_id": "fdlr",
+     "role": "present"
+    },
+    {
+     "entity_id": "afc-m23-arc",
+     "role": "raiding"
+    }
+   ],
+   "evidence": "Mangere and Biriko lie 35-45 km south of the Kibati/Kibua axis, adjoining the Ziralo highlands of Kalehe and Ufamandu, a long-standing Raia Mutomboki/Nyatura/FDLR area now operating as Wazalendo, with M23 conducting incursions from the Ufamandu/Numbi side. Reassigned in review from the M23 Kibua zone because no source places M23 garrisons this far south in Walikale; not verified against 2026 reporting (web research blocked).",
    "source_ids": [
     "s1"
    ]
@@ -269,7 +308,7 @@
   "cod-35MPU5266_1": "z4",
   "cod-35MPU8476_1": "z6",
   "cod-35MPU5663_1": "z4",
-  "cod-35MPU7216_1": "z4",
+  "cod-35MPU7216_1": "z9",
   "cod-35MPU2236_1": "z5",
   "cod-35MPU9461_1": "z4",
   "cod-35MPU3084_1": "z3",
@@ -289,7 +328,7 @@
   "cod-35MPU5306_1": "z5",
   "cod-35MPU5112_1": "z5",
   "cod-35MPU6603_1": "z5",
-  "cod-35MPU8208_3": "z4",
+  "cod-35MPU8208_3": "z9",
   "cod-35MPU5801_1": "z5"
  }
 }

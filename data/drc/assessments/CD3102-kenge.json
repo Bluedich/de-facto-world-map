@@ -1,7 +1,7 @@
 {
  "unit_id": "CD3102-kenge",
  "as_of": "2026-10-01",
- "summary": "Kenge territory (Kwango province) contains the provincial capital Kenge and the rural Kenge, Bukanga-Lonzo (Boko) and Kimbau secteurs. Kenge town and most of the territory are under ordinary state authority with the PNC as main permanent force. The western Bukanga-Lonzo area along the RN1 and Kwango river (Pont Kwango, Lonzo, Bukanga Lonzo), adjoining Maluku and Kwamouth, is part of the Mobondo militia theatre since 2023; FARDC is assessed as the main force there with Mobondo raiding, but no town is known to be under Mobondo rule. Web research was unavailable for this run (search budget exhausted and news sites blocked), so all zones carry low-to-medium confidence and rest on default state presence or inference from regional reports.",
+ "summary": "Kenge territory (Kwango province) contains the provincial capital Kenge and the rural Kenge, Bukanga-Lonzo (Boko) and Kimbau secteurs. Kenge town and most of the territory are under ordinary state authority with the PNC as main permanent force. The western Bukanga-Lonzo area along the RN1 and Kwango river (Pont Kwango, Lonzo, Bukanga Lonzo), adjoining Maluku and Kwamouth, is part of the Mobondo militia theatre since 2023; FARDC is assessed as the main force there with Mobondo raiding, but no town is known to be under Mobondo rule. Web research was unavailable for this run (search budget exhausted and news sites blocked), and could not be redone at review, so all zones carry low-to-medium confidence and rest on default state presence or inference from regional reports.",
  "sources": [
   {
    "id": "s1",
@@ -79,13 +79,8 @@
    "confidence": "low",
    "basis": "default_state_presence",
    "since": null,
-   "presence": [
-    {
-     "entity_id": "mobondo",
-     "role": "raiding"
-    }
-   ],
-   "evidence": "No reports of armed-group control located for these villages; state authority via PNC posts, territorial administration and customary chiefs is assumed. Proximity to the Mobondo-affected Kwango-river area to the north-west lowers confidence. Web research was unavailable for this run (search budget exhausted, news/search sites blocked by the proxy), so this rests on prior knowledge and regional reports cited by neighbouring assessments.",
+   "presence": [],
+   "evidence": "No reports of armed-group control or raids located for these villages; state authority via PNC posts, territorial administration and customary chiefs is assumed. The northernmost villages (Mutombo and Mbindanseke health areas, around Lybie, Cercle, Kilutu) lie close to the Lonzo/Bukanga-Lonzo area where Mobondo incursions are inferred, so occasional incursions there cannot be excluded, but no Mobondo activity is documented for the southern Boko villages (Boko, Kasinsi, Mbanza, Ilanga). Web research was unavailable for this run and for its review (search budget exhausted, news/search sites blocked by the proxy), so this rests on prior knowledge and regional reports cited by neighbouring assessments.",
    "source_ids": [
     "s1"
    ]

@@ -1,7 +1,7 @@
 {
  "unit_id": "CD5402-irumu",
  "as_of": "2026-10-01",
- "summary": "Irumu territory surrounds Bunia, Ituri's capital, which is firmly state-held (PNC, FARDC, MONUSCO). The east (Walendu Bindi chefferie, Gety) remains the FRPI zone: FARDC hold Gety/Aveba and road positions while FRPI keeps its rural hill strongholds. The south and west (Komanda, Boga, Tchabi) are exposed to the ADF, which raids and massacres around Komanda and along the RN4 towards Luna but does not hold towns; FARDC with UPDF hold the centres. Bahema lakeshore (Kasenyi/Tchomia), Bogoro, Rwampara and Nyankunde are state-held with occasional militia raids. NOTE: web research could not be performed for this unit (search budget exhausted and news sites blocked), so all assessments are low/medium-confidence inferences from background knowledge up to mid-2026 and should be re-checked.",
+ "summary": "Irumu territory surrounds Bunia, Ituri's capital, which is firmly state-held (PNC, FARDC, MONUSCO). The east (Walendu Bindi chefferie, Gety) remains the FRPI zone: FARDC hold Gety/Aveba and road positions while FRPI keeps its rural hill strongholds. The south and west (Komanda, Boga, Tchabi) are exposed to the ADF, which raids and massacres around Komanda and along the RN4 towards Luna but does not hold towns; FARDC with UPDF hold the centres. Bahema lakeshore (Kasenyi/Tchomia), Bogoro, Rwampara and Nyankunde are state-held with occasional militia raids. NOTE: web research could not be performed for this unit (search budget exhausted and news sites blocked), so all assessments are low/medium-confidence inferences from background knowledge up to mid-2026 and should be re-checked. Reviewer note (2026-10-01): an independent review also could not run web searches (budget exhausted, search/aggregator sites blocked); basis for the ADF-zone assessments was downgraded to inference because no dated report was cited.",
  "sources": [
   {
    "id": "s1",
@@ -141,14 +141,14 @@
    "status": "dominant",
    "confidence": "low",
    "basis": "inference",
-   "since": "2020",
+   "since": null,
    "presence": [
     {
      "entity_id": "cod-fardc",
      "role": "raiding"
     }
    ],
-   "evidence": "FRPI's historical strongholds south and east of Gety (Bukiringi cantonment area, Kagaba, Mukasamba, Kagoro hills towards the lake); the militia retained armed presence and local taxation after the failed 2020–21 DDR process, with FARDC conducting periodic operations rather than holding the villages. Web research was unavailable for this run (search budget exhausted, news sites blocked); assessment relies on background knowledge of the situation up to mid-2026.",
+   "evidence": "FRPI's historical strongholds south and east of Gety (Bukiringi cantonment area, Kagaba, Mukasamba, Kagoro hills towards the lake); FRPI has been rooted here since the early 2000s and retained armed presence and local taxation after the failed 2020–21 DDR process, with FARDC conducting periodic operations rather than holding the villages. Web research was unavailable for this run (search budget exhausted, news sites blocked); assessment relies on background knowledge of the situation up to mid-2026.",
    "source_ids": [
     "s1",
     "s2"
@@ -209,7 +209,7 @@
    "controller_id": "cod-fardc",
    "status": "dominant",
    "confidence": "medium",
-   "basis": "area_report",
+   "basis": "inference",
    "since": null,
    "presence": [
     {
@@ -237,7 +237,7 @@
    "controller_id": "cod-fardc",
    "status": "contested",
    "confidence": "low",
-   "basis": "area_report",
+   "basis": "inference",
    "since": null,
    "presence": [
     {
@@ -261,7 +261,7 @@
    "controller_id": "cod-fardc",
    "status": "contested",
    "confidence": "low",
-   "basis": "area_report",
+   "basis": "inference",
    "since": null,
    "presence": [
     {

@@ -1,7 +1,7 @@
 {
  "unit_id": "CD5403-mambasa",
  "as_of": "2026-10-01",
- "summary": "Mambasa territory (Ituri) is largely state-held along the RN4, but its eastern and southern parts (Mandima secteur around Biakato, and the Lolwa section toward Komanda) have been a core ADF operating area since 2023, with recurrent massacres; there the FARDC is the main permanent force in contested zones while the ADF holds forest camps. In 2026 the ADF expanded north from the Mambasa forests into southern Haut-Uele (Suka na Mboka base between Mambasa, Wamba and Watsa), affecting the Nduye area. Mambasa town is held by police and administration with an FARDC hub. The Okapi reserve corridor (Epulu, Bandisende) and Nia-Nia secteur are state-held, with Mai-Mai Simba poacher/miner groups raiding in the forest. NOTE: this assessment could not be checked against fresh 2026 reporting for Mambasa itself (web search unavailable), so confidence is low.",
+ "summary": "Mambasa territory (Ituri) is largely state-held along the RN4, but its eastern and southern parts (Mandima secteur around Biakato, and the Lolwa section toward Komanda) have been a core ADF operating area since 2023, with recurrent massacres; there the FARDC is the main permanent force in contested zones while the ADF holds forest camps. In 2026 the ADF expanded north from the Mambasa forests into southern Haut-Uele (Suka na Mboka base between Mambasa, Wamba and Watsa), affecting the Nduye area. Mambasa town is held by police and administration with an FARDC hub. The Okapi reserve corridor (Epulu, Bandisende) and Nia-Nia secteur are state-held, with Mai-Mai Simba poacher/miner groups raiding in the forest. NOTE: this assessment could not be checked against fresh 2026 reporting for Mambasa itself (web search unavailable), so confidence is low. A review pass (2026-10-01) could not re-check these claims either (search budget exhausted, news sites egress-blocked); it found them consistent with the neighbouring Watsa, Wamba, Irumu and Bafwasende assessments.",
  "sources": [
   {
    "id": "s1",
@@ -148,7 +148,7 @@
    "status": "contested",
    "confidence": "low",
    "basis": "inference",
-   "since": "2025",
+   "since": "2026",
    "presence": [
     {
      "entity_id": "adf",
@@ -159,7 +159,7 @@
      "role": "raiding"
     }
    ],
-   "evidence": "In 2026 the ADF established a base area (Suka na Mboka) in the forest between Mambasa, Wamba and Watsa and pushed into southern Haut-Uele, implying movement through northern Mambasa around Nduye; Mai-Mai Simba poacher/miner groups also operate in this part of the Okapi reserve. FARDC assumed to hold the village with ADF contesting the surroundings.",
+   "evidence": "In 2026 the ADF established a base area (Suka na Mboka) in the forest between Mambasa, Wamba and Watsa and pushed into southern Haut-Uele, implying movement through northern Mambasa around Nduye; Mai-Mai Simba poacher/miner groups also operate in this part of the Okapi reserve. FARDC assumed to hold the village with ADF contesting the surroundings. ADF presence at Nduye itself is inferred from the 2026 northward expansion (no Nduye-specific report found); start date set to 2026, when the expansion into southern Haut-Uele was reported.",
    "source_ids": [
     "s1",
     "s2",

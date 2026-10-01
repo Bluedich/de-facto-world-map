@@ -1,8 +1,23 @@
 {
  "unit_id": "CD3201-bandundu",
  "as_of": "2026-10-01",
- "summary": "Bandundu city, former provincial capital on the Kwilu/Kasai confluence in Kwilu province, is a state-held town with no armed group exercising territorial control. Daily order, arrests and policing across its communes (Basoko, Disasi, Mayoyo) and health-area neighbourhoods are handled by the PNC, with FARDC elements garrisoned in the town. The Mobondo (Teke-Yaka conflict) militia has been active since 2022 in neighbouring Kwamouth (Mai-Ndombe) and in parts of Bagata and other Kwilu territories, prompting FARDC deployments in the region, but it is not reported to hold or regularly operate inside Bandundu city or its periurban villages (Kanga, Station). Web research was unavailable for this run (search budget exhausted, sources blocked), so the assessment rests on default state presence.",
- "sources": [],
+ "summary": "Bandundu city, former provincial capital on the Kwilu/Kasai confluence in Kwilu province, is a state-held town with no armed group exercising territorial control. Daily order, arrests and policing across its communes (Basoko, Disasi, Mayoyo) and health-area neighbourhoods are handled by the PNC, with FARDC elements garrisoned in the town. The Mobondo (Teke-Yaka conflict) militia has been active since 2022 in neighbouring Kwamouth (Mai-Ndombe) and in parts of Bagata and other Kwilu territories, prompting FARDC deployments in the region, but it is not reported to hold or regularly operate inside Bandundu city or its periurban villages (Kanga, Station). Web research was largely unavailable (search budget exhausted, sources blocked); regional Mobondo reporting from mid-2026 is cited, but the city assessment rests on default state presence.",
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://fr.allafrica.com/stories/202606090742.html",
+   "title": "«Les Mobondo ne sont jamais partis» - Dans l'ouest, ce groupe qui sévit toujours malgré le discours officiel",
+   "publisher": "AllAfrica / RFI",
+   "date": "2026-06-09"
+  },
+  {
+   "id": "s2",
+   "url": "https://fr.allafrica.com/stories/202608180670.html",
+   "title": "Le Gouvernement confirme des signaux de paix face au phénomène Mobondo !",
+   "publisher": "AllAfrica",
+   "date": "2026-08-18"
+  }
+ ],
  "new_entities": [],
  "zones": [
   {
@@ -19,8 +34,11 @@
      "role": "present"
     }
    ],
-   "evidence": "Urban town in western DRC with no reported armed-group territorial control; the PNC runs commissariats and handles order, with FARDC present as garrison and as a regional base for operations against Mobondo in neighbouring Kwamouth/Bagata. No sources could be retrieved in this run.",
-   "source_ids": []
+   "evidence": "Urban provincial-scale town in western DRC with no reported armed-group territorial control; the PNC runs commissariats and handles order, with FARDC garrison elements present. Regional reporting (RFI, June 2026; AllAfrica, Aug 2026) says Mobondo holdouts still raid rural areas of the Kwamouth/Kwilu theatre despite an emerging peace process, but nothing indicates Mobondo presence in Bandundu city or its periurban villages. Sources only seen at title level (web search exhausted, allafrica blocked); the city-level assessment rests on default state presence.",
+   "source_ids": [
+    "s1",
+    "s2"
+   ]
   }
  ],
  "locations": {

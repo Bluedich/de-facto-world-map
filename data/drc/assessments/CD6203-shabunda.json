@@ -1,0 +1,257 @@
+{
+ "unit_id": "CD6203-shabunda",
+ "as_of": "2026-10-01",
+ "summary": "Shabunda territory (Sud-Kivu) is a long-standing heartland of Raia Mutomboki factions, which dominate most rural secteurs and gold-mining areas (Kalole, Lulingu, rural Shabunda and Mulungu) through roadblocks, taxation and local justice. The state (FARDC garrison, PNC, territorial administration) keeps Shabunda town and posts in larger centres such as Lulingu (assessed as contested); since 2025 the Raia Mutomboki operate as Wazalendo nominally allied to the FARDC against AFC/M23. The eastern Kigulube–Nzovu–Mulungu corridor bordering M23-held Walungu/Mwenga is assessed as contested. Web research could not be performed for this unit (search budget exhausted, sites egress-blocked), so all zones are low confidence.",
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://en.wikipedia.org/wiki/Shabunda_Territory",
+   "title": "Shabunda Territory",
+   "publisher": "Wikipedia",
+   "date": null
+  },
+  {
+   "id": "s2",
+   "url": "https://en.wikipedia.org/wiki/Raia_Mutomboki",
+   "title": "Raia Mutomboki",
+   "publisher": "Wikipedia",
+   "date": null
+  },
+  {
+   "id": "s3",
+   "url": "https://kivusecurity.org/",
+   "title": "Kivu Security Tracker – mapping of armed groups in eastern DRC (Shabunda factions of Raia Mutomboki)",
+   "publisher": "Kivu Security Tracker (GEC/HRW)",
+   "date": null
+  },
+  {
+   "id": "s4",
+   "url": "https://en.wikipedia.org/wiki/M23_campaign_(2022%E2%80%93present)",
+   "title": "M23 campaign (2022–present)",
+   "publisher": "Wikipedia",
+   "date": null
+  }
+ ],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Shabunda centre (cité: Centre Com, Maendeleo/Tukumbi, Mugala) – territorial seat",
+   "controller_id": "cod-fardc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "inference",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-pnc",
+     "role": "present"
+    },
+    {
+     "entity_id": "raia-mutomboki",
+     "role": "allied"
+    }
+   ],
+   "evidence": "Shabunda town is the territorial seat with state administration, an FARDC garrison, PNC and the airstrip; it remained under government authority after the February 2025 fall of Bukavu, with heavy presence of Raia Mutomboki/Wazalendo fighters nominally allied to the FARDC. Live web research was unavailable for this unit (search budget exhausted, news sites egress-blocked), so this rests on background knowledge of the pre-2026 situation.",
+   "source_ids": [
+    "s1",
+    "s3",
+    "s4"
+   ]
+  },
+  {
+   "zone_id": "z2",
+   "description": "Rural Shabunda secteur/health zone outside the cité (Matili, Kikamba, Mungembe/Ngengele, Tusisi, Kalole Nord, Mapela, Miswaki)",
+   "controller_id": "raia-mutomboki",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "area_report",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Rural Shabunda has for over a decade been the heartland of Raia Mutomboki factions, which run roadblocks, tax mining sites and settle disputes in villages, while FARDC/PNC hold only a few posts along the axes around Shabunda centre. Live web research was unavailable for this unit (search budget exhausted, news sites egress-blocked), so this rests on background knowledge of the pre-2026 situation.",
+   "source_ids": [
+    "s2",
+    "s3"
+   ]
+  },
+  {
+   "zone_id": "z3",
+   "description": "Kalole health zone / Kalole area (Penekusu, Lusenge, Kalole, Lwatamba/Kitindi, Itula, Matala, Mulongo, Wakenge, Katembele, Lukumba)",
+   "controller_id": "raia-mutomboki",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "area_report",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "raiding"
+    }
+   ],
+   "evidence": "The Kalole/Penekusu area south of Shabunda is a long-standing zone of Raia Mutomboki factions controlling gold sites and villages, with only intermittent FARDC operations. Live web research was unavailable for this unit (search budget exhausted, news sites egress-blocked), so this rests on background knowledge of the pre-2026 situation.",
+   "source_ids": [
+    "s2",
+    "s3"
+   ]
+  },
+  {
+   "zone_id": "z4",
+   "description": "Lulingu/Bakisi area in the north (villages around Lulingu, Tchonka, Katchungu, Lugungu, Nyambembe, Luza, Milenda, Bubala, Tchampundu, Kyolo/Kibwe)",
+   "controller_id": "raia-mutomboki",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "area_report",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    },
+    {
+     "entity_id": "cod-pnc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Lulingu and surrounding gold-mining areas are a major Raia Mutomboki stronghold; FARDC and PNC keep posts in Lulingu centre (separate zone z7) but armed-group factions dominate the surrounding villages and mining sites. Live web research was unavailable for this unit (search budget exhausted, news sites egress-blocked), so this rests on background knowledge of the pre-2026 situation.",
+   "source_ids": [
+    "s2",
+    "s3"
+   ]
+  },
+  {
+   "zone_id": "z5",
+   "description": "Western Mulungu/Lumba-Byangama area (Ikozi, Ipulu, Lukutamba)",
+   "controller_id": "raia-mutomboki",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "area_report",
+   "since": null,
+   "presence": [],
+   "evidence": "Remote villages between Lulingu and Kigulube, in the Raia Mutomboki operating area; no state force is known to be permanently present. Live web research was unavailable for this unit (search budget exhausted, news sites egress-blocked), so this rests on background knowledge of the pre-2026 situation.",
+   "source_ids": [
+    "s2",
+    "s3"
+   ]
+  },
+  {
+   "zone_id": "z6",
+   "description": "Eastern Mulungu/Kigulube area toward Walungu–Mwenga (Mulungu, Nzovu/Tchaminyavu, Kigulube/Mizungubila, Lubila, Bulumbu, Kolula, Luyuyu/Magungu)",
+   "controller_id": "raia-mutomboki",
+   "status": "contested",
+   "confidence": "low",
+   "basis": "inference",
+   "since": "2025",
+   "presence": [
+    {
+     "entity_id": "afc-m23-arc",
+     "role": "contesting"
+    },
+    {
+     "entity_id": "cod-fardc",
+     "role": "allied"
+    }
+   ],
+   "evidence": "The Kigulube–Nzovu–Mulungu corridor links Shabunda to Walungu and Mwenga, where AFC/M23 expanded after taking Bukavu in 2025; Raia Mutomboki/Wazalendo groups hold the villages but the area is exposed to M23 pushes and clashes, so control is assessed as contested. Live web research was unavailable for this unit (search budget exhausted, news sites egress-blocked), so this rests on background knowledge of the pre-2026 situation.",
+   "source_ids": [
+    "s3",
+    "s4"
+   ]
+  },
+  {
+   "zone_id": "z7",
+   "description": "Lulingu centre (Kasase 1, Lulingu health area) – secteur seat with FARDC/PNC posts and airstrip",
+   "controller_id": "cod-fardc",
+   "status": "contested",
+   "confidence": "low",
+   "basis": "inference",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "raia-mutomboki",
+     "role": "present"
+    },
+    {
+     "entity_id": "cod-pnc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Lulingu centre is the seat of Tanganyika secteur with a permanent FARDC/PNC presence, while Raia Mutomboki (now nominally Wazalendo) factions dominate surrounding villages and mining sites and have repeatedly entered or occupied the centre in the past; control of the centre itself is therefore assessed as state-held but contested. No live research could be performed by the reviewer (search budget exhausted, sites egress-blocked).",
+   "source_ids": [
+    "s2",
+    "s3"
+   ]
+  }
+ ],
+ "locations": {
+  "cod-35MNS7608_1": "z3",
+  "cod-35MNS2117_1": "z3",
+  "cod-35MNS1401_2": "z3",
+  "cod-35MNR4396_1": "z3",
+  "cod-35MNS9811_1": "z3",
+  "cod-35MNR4192_1": "z3",
+  "cod-35MNR3283_2": "z3",
+  "cod-35MPS0317_1": "z3",
+  "cod-35MNR3274_4": "z3",
+  "cod-35MNS2321_2": "z3",
+  "cod-35MNS3805_1": "z3",
+  "cod-35MNR3077_1": "z3",
+  "cod-35MNR3687_1": "z3",
+  "cod-35MNS6707_1": "z3",
+  "cod-35MNR2698_1": "z3",
+  "cod-35MNR5662_1": "z3",
+  "cod-35MNS4301_2": "z3",
+  "cod-35MNS9410_1": "z3",
+  "cod-35MNR4771_3": "z3",
+  "cod-35MNR3172_1": "z3",
+  "cod-35MNR4570_3": "z3",
+  "cod-35MNR3970_1": "z3",
+  "cod-35MNR3176_1": "z3",
+  "cod-35MNR9086_1": "z3",
+  "cod-35MNR6095_1": "z3",
+  "cod-35MNS2332_1": "z3",
+  "cod-35MNR2386_1": "z3",
+  "cod-35MPR0468_3": "z3",
+  "cod-35MNS2323_1": "z3",
+  "cod-35MNT6641_1": "z7",
+  "cod-35MNT6043_1": "z4",
+  "cod-35MNT1449_1": "z4",
+  "cod-35MNT4330_1": "z4",
+  "cod-35MNT2916_1": "z4",
+  "cod-35MNT8253_1": "z4",
+  "cod-35MNT1926_1": "z4",
+  "cod-35MNT1836_1": "z4",
+  "cod-35MNT1921_1": "z4",
+  "cod-35MNT5244_2": "z4",
+  "cod-35MNT1546_1": "z4",
+  "cod-35MNT4750_1": "z4",
+  "cod-35MNT4338_1": "z4",
+  "cod-35MNT4843_4": "z4",
+  "cod-35MNT5825_1": "z4",
+  "cod-35MNT3802_1": "z1",
+  "cod-35MNS2083_1": "z2",
+  "cod-35MNS2042_1": "z2",
+  "cod-35MMS9690_1": "z2",
+  "cod-35MNT3500_1": "z1",
+  "cod-35MMS9392_2": "z2",
+  "cod-35MNT3201_1": "z1",
+  "cod-35MNS2260_1": "z2",
+  "cod-35MNS1083_1": "z2",
+  "cod-35MNS2489_1": "z2",
+  "cod-35MNS2278_2": "z2",
+  "cod-35MPS0377_2": "z6",
+  "cod-35MNT6917_2": "z5",
+  "cod-35MPT1017_1": "z6",
+  "cod-35MNT6821_2": "z5",
+  "cod-35MPT1005_1": "z6",
+  "cod-35MPS1291_1": "z6",
+  "cod-35MPT0840_1": "z6",
+  "cod-35MNS9670_2": "z6",
+  "cod-35MNT6623_1": "z5",
+  "cod-35MPS0196_1": "z6"
+ }
+}

@@ -1,7 +1,7 @@
 {
  "unit_id": "CD5405-djugu-2",
  "as_of": "2026-10-01",
- "summary": "Eastern/northern Djugu (Walendu Pitsi/Jiba, Walendu Tatsi/Lita, Walendu Djatsi/Mangala, Damas, Banyali-Kilo, Bahema-Nord and the Tchomia lakeshore) remains the core of the Ituri Hema–Lendu conflict. CODECO factions dominate the Lendu-majority rural hills, especially Walendu Pitsi (Jiba/Linga), and contest Lita, Mangala and Damas, while FARDC (with MONUSCO around IDP sites) hold the main centres such as Katoto, Mabanga, Kpandroma, Blukwa and Kilo. CRP/Zaïre Hema militia is active in Bahema areas and mining zones. The Tchomia lakeshore and the Bunia-edge Ezekere neighbourhood are state-held. NOTE: no web research could be done for this unit (search budget exhausted, news sites blocked); all zones are low/medium-confidence inferences and should be re-checked.",
+ "summary": "Eastern/northern Djugu (Walendu Pitsi/Jiba, Walendu Tatsi/Lita, Walendu Djatsi/Mangala, Damas, Banyali-Kilo, Bahema-Nord and the Tchomia lakeshore) remains the core of the Ituri Hema–Lendu conflict. CODECO factions dominate the Lendu-majority rural hills, especially Walendu Pitsi (Jiba/Linga), and contest Lita, Mangala and Damas, while FARDC (with MONUSCO around IDP sites) hold the main centres such as Katoto, Mabanga, Kpandroma, Blukwa and Kilo. CRP/Zaïre Hema militia is active in Bahema areas and mining zones. The Tchomia lakeshore and the Bunia-edge Ezekere neighbourhood are state-held. NOTE: no web research could be done for this unit (search budget exhausted, news sites blocked); all zones are low/medium-confidence inferences and should be re-checked. Reviewer note (2026-10-01): independent review also could not run web searches or fetch news sites (budget exhausted, egress blocked); the three Bunia-outskirt villages were moved from the CODECO zone to an FARDC-held periphery zone and the Walendu Pitsi zone basis was downgraded to inference since no report is cited.",
  "sources": [],
  "new_entities": [],
  "zones": [
@@ -82,7 +82,7 @@
    "controller_id": "codeco",
    "status": "dominant",
    "confidence": "medium",
-   "basis": "area_report",
+   "basis": "inference",
    "since": "2018",
    "presence": [
     {
@@ -90,7 +90,7 @@
      "role": "contesting"
     }
    ],
-   "evidence": "Walendu Pitsi (Jiba/Linga) is the historic heartland of CODECO factions (URDPC/CODECO), which maintain bases, roadblocks and parallel authority; FARDC hold a few positions and conduct periodic operations without durable control. Web research was not possible for this unit (search budget exhausted, news sites blocked); assessment is inference from background knowledge to mid-2026.",
+   "evidence": "Walendu Pitsi (Jiba/Linga) is the historic heartland of CODECO factions (URDPC/CODECO), which maintain bases, roadblocks and parallel authority; FARDC hold a few positions and conduct periodic operations without durable control. Web research was not possible for this unit (search budget exhausted, news sites blocked); assessment is inference from background knowledge to mid-2026. Reviewer: basis changed from area_report to inference because no report is cited.",
    "source_ids": []
   },
   {
@@ -141,7 +141,7 @@
   },
   {
    "zone_id": "z7",
-   "description": "Walendu Tatsi / Lita health zone villages (Katoto, Mutumbi, Loga, Penyi, Kparnganza, D'idjo, Lita, Ndungbe, Zumbe, Ezekere, Vilo health areas)",
+   "description": "Walendu Tatsi / Lita health zone villages away from Bunia (Mutumbi, Loga, Penyi, Kparnganza, D'idjo, Lita, Ndungbe health areas)",
    "controller_id": "codeco",
    "status": "contested",
    "confidence": "low",
@@ -285,23 +285,48 @@
    ],
    "evidence": "Kilo mining area near Mongbwalu has FARDC/police presence at the centres; both CODECO and CRP/Zaïre militias have fought over and taxed mining sites in Banyali-Kilo. Web research was not possible for this unit (search budget exhausted, news sites blocked); assessment is inference from background knowledge to mid-2026.",
    "source_ids": []
+  },
+  {
+   "zone_id": "z14",
+   "description": "Bunia-periphery villages of Lita HZ within ~3-6 km of the city (Buy Sabuni/Vilo, Zumbe Kalongo/Zumbe, Kabaya 1/Ezekere health areas)",
+   "controller_id": "cod-fardc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "inference",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-pnc",
+     "role": "present"
+    },
+    {
+     "entity_id": "codeco",
+     "role": "raiding"
+    },
+    {
+     "entity_id": "zaire",
+     "role": "raiding"
+    }
+   ],
+   "evidence": "Reviewer split these villages from the CODECO-contested Walendu Tatsi zone: they lie on the immediate outskirts of Bunia (state-held provincial capital with FARDC, PNC and MONUSCO), where durable CODECO control is implausible though militia incursions on the city's periphery occur. No web research possible during review; inference only.",
+   "source_ids": []
   }
  ],
  "locations": {
   "cod-36NTG0278_1": "z8",
   "cod-36NTG0482_1": "z8",
-  "cod-36NSG9959_1": "z7",
+  "cod-36NSG9959_1": "z14",
   "cod-36NTG1289_1": "z7",
   "cod-36NTG1185_1": "z7",
   "cod-36NTG1484_1": "z7",
   "cod-36NTG1083_1": "z7",
   "cod-36NTG1076_1": "z7",
-  "cod-36NTG0162_1": "z7",
+  "cod-36NTG0162_1": "z14",
   "cod-36NTG0377_1": "z7",
   "cod-36NTG0176_1": "z7",
   "cod-36NTG1188_1": "z7",
   "cod-36NTG0683_1": "z7",
-  "cod-36NTG0268_1": "z7",
+  "cod-36NTG0268_1": "z14",
   "cod-36NTG0276_1": "z7",
   "cod-36NTG1579_2": "z7",
   "cod-36NSG9372_1-v5jYvhvv1Kz": "z1",

@@ -1,0 +1,290 @@
+{
+ "unit_id": "CD6212-mwenga",
+ "as_of": "2026-10-01",
+ "summary": "Mwenga territory sits on the south-western edge of the AFC/M23 zone in Sud-Kivu. The eastern part (Luhwindja chefferie / Mwana health zone with Twangiza) is assessed as held by M23 since its February 2025 advance from Bukavu and Walungu, and the RN2 corridor toward Mwenga centre (Kilungutwe–Kasika) as a contested frontline. Mwenga centre, Kamituga and the Kitutu gold area remain in the government camp but are dominated by Wazalendo/Mai-Mai and Raia Mutomboki groups alongside weakened FARDC and PNC. The Itombwe high plateaux (Minembwe, Mikenge, Bijojo) are held by M23-allied Twirwaneho since February 2025. Live web research was unavailable for this unit (search budget exhausted, news/UN sites blocked by the egress proxy), so all zones are low-confidence inferences from background knowledge up to mid-2026. Review (2026-10-01): the reviewer could not run independent web research either (search budget exhausted; Bing, Google, DuckDuckGo and ReliefWeb blocked by the egress proxy), so zones were checked only for internal and geographic consistency with the neighbouring Walungu, Shabunda, Uvira and Fizi assessments; no controller changes were made, the Luhwindja zone basis was lowered to inference and the RN2 frontline attribution flagged as unverified.",
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://en.wikipedia.org/wiki/M23_campaign_(2022%E2%80%93present)",
+   "title": "M23 campaign (2022–present)",
+   "publisher": "Wikipedia",
+   "date": null
+  },
+  {
+   "id": "s2",
+   "url": "https://kivusecurity.org/",
+   "title": "Kivu Security Tracker (Mwenga territory: Mai-Mai/Raia Mutomboki, Twirwaneho, FARDC)",
+   "publisher": "Kivu Security Tracker / GEC",
+   "date": null
+  },
+  {
+   "id": "s3",
+   "url": "https://www.radiookapi.net/",
+   "title": "Radio Okapi coverage of Mwenga, Kamituga, Luhwindja and Minembwe (2025-2026)",
+   "publisher": "Radio Okapi",
+   "date": null
+  },
+  {
+   "id": "s4",
+   "url": "https://www.un.org/securitycouncil/sanctions/1533/work-and-mandate/expert-reports",
+   "title": "UN Group of Experts on the DRC reports (2025)",
+   "publisher": "United Nations",
+   "date": "2025-07-01"
+  }
+ ],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Luhwindja chefferie / Mwana health zone (Mwana–Twangiza area and its neighbourhoods, Buhamba, Cinjira, Buhuka) and Kimalanjala area east of Kilungutwe",
+   "controller_id": "afc-m23-arc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "inference",
+   "since": "2025-02",
+   "presence": [
+    {
+     "entity_id": "cod-wazalendo",
+     "role": "raiding"
+    }
+   ],
+   "evidence": "Luhwindja and the Twangiza mining area adjoin M23-held Walungu/Kaziba and were reported occupied by AFC/M23 after the February 2025 fall of Bukavu; Wazalendo raids from Burhinyi and western hills continued. No known recapture through the reference date. Reviewer: basis changed from area_report to inference because no dated report on Luhwindja/Twangiza could be consulted; the cited sources are generic index pages.",
+   "source_ids": [
+    "s1",
+    "s3",
+    "s4"
+   ]
+  },
+  {
+   "zone_id": "z2",
+   "description": "RN2 corridor between Kaziba/Luhwindja and Mwenga centre: Kilungutwe, Kangola, Kalama, Kasika, Kadita, Muhuzi",
+   "controller_id": "afc-m23-arc",
+   "status": "contested",
+   "confidence": "low",
+   "basis": "inference",
+   "since": "2025",
+   "presence": [
+    {
+     "entity_id": "cod-wazalendo",
+     "role": "contesting"
+    },
+    {
+     "entity_id": "cod-fardc",
+     "role": "contesting"
+    }
+   ],
+   "evidence": "The Bukavu–Mwenga–Kamituga road (RN2) east of Mwenga centre has been a frontline between M23 pushing south-west from Walungu/Kaziba and Wazalendo/FARDC defending Mwenga since 2025; control of individual villages has shifted repeatedly. Reviewer: attribution of these RN2 villages to M23 rather than Wazalendo/FARDC is unverified; treat as a placeholder for the frontline.",
+   "source_ids": [
+    "s1",
+    "s3"
+   ]
+  },
+  {
+   "zone_id": "z3",
+   "description": "Mwenga centre (Kitamba) and the Mwenga health zone west of Kasika: Kalambi, Kigezi, Kitumba, Iganda, Butezi, Muzombo, Kibanda, Kananda",
+   "controller_id": "cod-wazalendo",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "inference",
+   "since": "2025-02",
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "allied"
+    },
+    {
+     "entity_id": "cod-pnc",
+     "role": "present"
+    },
+    {
+     "entity_id": "afc-m23-arc",
+     "role": "raiding"
+    }
+   ],
+   "evidence": "The territorial seat remained in the government camp after February 2025; FARDC units retreating from Bukavu/Walungu regrouped toward Mwenga and Kamituga, where Mai-Mai/Wazalendo groups became the main armed force with their own roadblocks and taxation. Specific group not determined.",
+   "source_ids": [
+    "s2",
+    "s3"
+   ]
+  },
+  {
+   "zone_id": "z4",
+   "description": "Kamituga mining city (all neighbourhoods) and Kamituga health zone (Ngambo, Mangele, Lubigi Tongo, Biza, Kabeba, Kabumba, Musumba, Bungalama, Kankanga)",
+   "controller_id": "cod-wazalendo",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "inference",
+   "since": "2025-02",
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "allied"
+    },
+    {
+     "entity_id": "cod-pnc",
+     "role": "present"
+    },
+    {
+     "entity_id": "raia-mutomboki",
+     "role": "present"
+    }
+   ],
+   "evidence": "Kamituga stayed outside M23 control; after the 2025 collapse of the eastern front FARDC remnants and Wazalendo/Mai-Mai groups (incl. Raia Mutomboki elements) dominate the town and mining sites, with reported indiscipline, extortion and clashes; PNC and administration remain present.",
+   "source_ids": [
+    "s2",
+    "s3"
+   ]
+  },
+  {
+   "zone_id": "z5",
+   "description": "Kitutu secteur / Kitutu health zone (Kabisa, Mission, Kabilongo, Katimbo, Kakemenge, Lubimbi, Kitutu–Mapale/Makalanga mining area, Matebo, Kasola, Mitembu)",
+   "controller_id": "raia-mutomboki",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "area_report",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    },
+    {
+     "entity_id": "cod-pnc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Kitutu borders Shabunda and has long hosted Raia Mutomboki/Mai-Mai factions taxing gold sites, now nominally Wazalendo; state presence limited to small posts in larger centres.",
+   "source_ids": [
+    "s2"
+   ]
+  },
+  {
+   "zone_id": "z6",
+   "description": "Itombwe secteur high plateaux / Minembwe health zone and Bijojo: Minembwe Centre, Mikenge, Kilulwe, Magandi",
+   "controller_id": "twirwaneho",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "area_report",
+   "since": "2025-02",
+   "presence": [
+    {
+     "entity_id": "afc-m23-arc",
+     "role": "allied"
+    },
+    {
+     "entity_id": "cod-wazalendo",
+     "role": "contesting"
+    }
+   ],
+   "evidence": "Twirwaneho, allied to AFC/M23, took Minembwe after FARDC withdrew in February 2025 and dominates the Banyamulenge high plateaux including Mikenge and Bijojo, while Mai-Mai/Wazalendo groups contest the surrounding forest and lowlands.",
+   "source_ids": [
+    "s1",
+    "s2"
+   ]
+  },
+  {
+   "zone_id": "z7",
+   "description": "Katonga (Mulombozi area, Itombwe lowlands toward Kitutu)",
+   "controller_id": "cod-wazalendo",
+   "status": "unclear",
+   "confidence": "low",
+   "basis": "inference",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "twirwaneho",
+     "role": "raiding"
+    }
+   ],
+   "evidence": "Remote area of Itombwe secteur west of the plateaux in the Mwenga health zone; Mai-Mai/Wazalendo groups are the reported armed actors; no specific information.",
+   "source_ids": [
+    "s2"
+   ]
+  }
+ ],
+ "locations": {
+  "cod-35MPS3261_1": "z4",
+  "cod-35MPS2845_2": "z5",
+  "cod-35MPS2440_2": "z5",
+  "cod-35MPS3249_1": "z4",
+  "cod-35MPS3254_1": "z4",
+  "cod-35MPS3860_1": "z4",
+  "cod-35MPS3147_1": "z4",
+  "cod-35MPS2530_1": "z5",
+  "cod-35MPS3963_1": "z4",
+  "cod-35MPS4283_3": "z4",
+  "cod-35MPS3951_1": "z4",
+  "cod-35MPS3557_1": "z4",
+  "cod-35MPS3233_1": "z5",
+  "cod-35MPS3654_1": "z4",
+  "cod-35MPS3261_1-zvJYCnS40SG": "z4",
+  "cod-35MPS3261_1-an3zkK8YdMb": "z4",
+  "cod-35MPS3261_1-e049KgaCEwS": "z4",
+  "cod-35MPS3261_1-SXDDvfAtU0B": "z4",
+  "cod-35MPS3261_1-LcIMtbva4KI": "z4",
+  "cod-35MPS3261_1-fUMofVGPgPg": "z4",
+  "cod-35MPS3261_1-yFYXF08qDiF": "z4",
+  "cod-35MPS3261_1-ZZ5YplY9Dp1": "z4",
+  "cod-35MPS3261_1-AaxFL5AVKQJ": "z4",
+  "cod-35MPS3261_1-FPLGijCpl61": "z4",
+  "cod-35MPS3261_1-sRUxRtue777": "z4",
+  "cod-35MPS3261_1-Ih2yx6aWG9Y": "z4",
+  "cod-35MPS9486_1": "z1",
+  "cod-35MPS9581_1": "z1",
+  "cod-35MPS7480_1": "z2",
+  "cod-35MPS9682_1": "z1",
+  "cod-35MPS9382_1": "z1",
+  "cod-35MPS7880_1": "z1",
+  "cod-35MPS9486_1-ijmkaDrI9X3": "z1",
+  "cod-35MPS9486_1-L0XIbTwxap6": "z1",
+  "cod-35MPS9486_1-sGfbtAfKNgm": "z1",
+  "cod-35MPS9486_1-jMHlZcPMqsl": "z1",
+  "cod-35MPS9486_1-NKhYE8ScAbA": "z1",
+  "cod-35MPS9486_1-c18LmZIxBIt": "z1",
+  "cod-35MPS9486_1-m1uNOuIeHBT": "z1",
+  "cod-35MPS9486_1-V3qj2Pc1cHh": "z1",
+  "cod-35MPS9486_1-o7hR7LL2mMn": "z1",
+  "cod-35MPS9486_1-PjFLC5nvYmO": "z1",
+  "cod-35MPS9486_1-h41plLV50q1": "z1",
+  "cod-35MPS9486_1-TFqBgNUsPIR": "z1",
+  "cod-35MPS2337_1": "z5",
+  "cod-35MPS2029_1": "z5",
+  "cod-35MNS9625_1": "z5",
+  "cod-35MNS9628_1": "z5",
+  "cod-35MPS0931_1": "z5",
+  "cod-35MNS9128_2": "z5",
+  "cod-35MPS1329_1": "z5",
+  "cod-35MPS1323_1": "z5",
+  "cod-35MNS9827_1": "z5",
+  "cod-35MNS9325_2": "z5",
+  "cod-35MNS9524_2": "z5",
+  "cod-35MNS9327_1": "z5",
+  "cod-35MNS9831_1": "z5",
+  "cod-35MPS2134_1": "z5",
+  "cod-35MNS9524_1": "z5",
+  "cod-35MPS1833_2": "z5",
+  "cod-35MPS0135_1": "z5",
+  "cod-35MNS9829_1": "z5",
+  "cod-35MPS1526_1": "z5",
+  "cod-35MPS1020_1": "z5",
+  "cod-35MPS5863_1": "z3",
+  "cod-35MPS6975_2": "z2",
+  "cod-35MPS4564_2": "z3",
+  "cod-35MPS5164_1": "z3",
+  "cod-35MPS6572_1": "z3",
+  "cod-35MPS6168_1": "z3",
+  "cod-35MPS7178_1": "z2",
+  "cod-35MPS7569_1": "z2",
+  "cod-35MPS6171_1": "z3",
+  "cod-35MPS4866_3": "z3",
+  "cod-35MPS7379_1": "z2",
+  "cod-35MPS5276_1": "z3",
+  "cod-35MPS6470_1": "z3",
+  "cod-35MPS9463_1": "z6",
+  "cod-35MPS7866_1": "z2",
+  "cod-35MPR9285_3": "z6",
+  "cod-35MPR9164_1": "z6",
+  "cod-35MPR9284_1": "z6",
+  "cod-35MPS4835_2": "z7"
+ }
+}

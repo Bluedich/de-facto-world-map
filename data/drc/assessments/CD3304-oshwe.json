@@ -1,7 +1,7 @@
 {
  "unit_id": "CD3304-oshwe",
  "as_of": "2026-10-01",
- "summary": "Oshwe territory (Maï-Ndombe) is a sparsely populated forest territory along the Lukenie river, comprising Oshwe, Bosobe and Mimia secteurs and bordering the southern block of Salonga National Park. No armed group is reported to control any locality as of late 2026: Oshwe town, the territorial seat, is held by the PNC with a small FARDC presence, and villages fall under ordinary state presence (PNC posts) alongside customary chiefs. The Mobondo (Teke-Yaka) militia active in Maï-Ndombe remains confined to Kwamouth and neighbouring areas far to the south-west. Insecurity in the territory is limited to poaching and banditry around the Salonga margins. Web research was unavailable for this run (search budget exhausted), so assessments rest on default state presence with medium/low confidence.",
+ "summary": "Oshwe territory (Maï-Ndombe) is a sparsely populated forest territory along the Lukenie river, comprising Oshwe, Bosobe and Mimia secteurs and bordering the southern block of Salonga National Park. No armed group is reported to control any locality as of late 2026: Oshwe town, the territorial seat, is held by the PNC with a small FARDC presence, and villages fall under ordinary state presence (PNC posts) alongside customary chiefs. The Mobondo (Teke-Yaka) militia active in Maï-Ndombe remains confined to Kwamouth and neighbouring areas far to the south-west. Insecurity in the territory is limited to poaching and banditry around the Salonga margins. Web research was unavailable for this run (search budget exhausted), so assessments rest on default state presence with medium/low confidence. A review pass could not run new searches either; Basongo confidence was lowered to low as it rests on no source.",
  "sources": [
   {
    "id": "s1",
@@ -56,11 +56,11 @@
    "description": "Basongo, river port on the Kasai river (Mikope health zone, border with Kasai province)",
    "controller_id": "cod-pnc",
    "status": "dominant",
-   "confidence": "medium",
+   "confidence": "low",
    "basis": "default_state_presence",
    "since": null,
    "presence": [],
-   "evidence": "Basongo is a Kasai river port town with PNC and state services; no armed group is reported there. The Kamuina Nsapu crisis of 2016-2018 in Kasai did not lead to lasting armed-group control of the town.",
+   "evidence": "Basongo is a Kasai river port town with PNC and state services; no armed group is reported there. The Kamuina Nsapu crisis of 2016-2018 in Kasai did not lead to lasting armed-group control of the town. No source specific to Basongo was found; assessment is default state presence (reviewer could not verify, search unavailable).",
    "source_ids": []
   }
  ],

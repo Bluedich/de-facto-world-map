@@ -1,7 +1,7 @@
 {
  "unit_id": "CD3212-masi-manimba-1",
  "as_of": "2026-10-01",
- "summary": "Masi-Manimba territory part 1 (Kwilu) covers the Masi-Manimba and Yasa-Bonga secteurs, including Masi-Manimba town on the RN1 and the large settlement of Kimbinga. No armed group is reported to control any locality; the Mobondo militia theatre (Kwamouth, western Bagata, Kenge) lies to the west and holdouts were still raiding parts of the region in 2026, so the western fringe is flagged as exposed to raids. All locations are assessed as under ordinary state authority with the PNC as main permanent force. Live web research was unavailable for this run, so confidence is medium for the territorial seat and low elsewhere.",
+ "summary": "Masi-Manimba territory part 1 (Kwilu) covers the Masi-Manimba and Yasa-Bonga secteurs, including Masi-Manimba town on the RN1 and the large settlement of Kimbinga. No armed group is reported to control any locality; the Mobondo militia theatre (Kwamouth, western Bagata, Kenge) lies to the west and holdouts were still raiding parts of the region in 2026, so the western fringe is flagged as exposed to raids. All locations are assessed as under ordinary state authority with the PNC as main permanent force. Live web research was unavailable for this run, so confidence is medium for the territorial seat and low elsewhere. Review (2026-10-01) could not re-verify with web research (search budget exhausted, AllAfrica/news sites blocked); zones kept, and the Mobondo 'raiding' flag on the western fringe is a proximity-based precaution rather than a documented incursion into this unit.",
  "sources": [
   {
    "id": "s1",
@@ -61,7 +61,7 @@
      "role": "raiding"
     }
    ],
-   "evidence": "The Mobondo militia spread from Kwamouth into Bagata, Kenge and other areas along the Kwango in 2023-2025 and holdouts were still raiding in mid-2026 despite an August 2026 peace process; this western fringe is the part of the unit nearest that theatre, so occasional incursions cannot be excluded. No locality here is known to be under lasting Mobondo rule, so ordinary state authority (PNC posts, customary chiefs) is assumed. Live web research was unavailable for this run (web search budget exhausted, news sites blocked by the proxy), so this rests on prior knowledge and regional reports cited by neighbouring assessments.",
+   "evidence": "The Mobondo militia spread from Kwamouth into Bagata, Kenge and other areas along the Kwango in 2023-2025 and holdouts were still raiding in mid-2026 despite an August 2026 peace process; this western fringe is the part of the unit nearest that theatre, so occasional incursions cannot be excluded. No locality here is known to be under lasting Mobondo rule, so ordinary state authority (PNC posts, customary chiefs) is assumed. Live web research was unavailable for this run (web search budget exhausted, news sites blocked by the proxy), so this rests on prior knowledge and regional reports cited by neighbouring assessments. No source located specifically documents Mobondo raids inside Masi-Manimba territory; the raiding flag reflects proximity to the Kenge/Bagata theatre only.",
    "source_ids": [
     "s1",
     "s2",

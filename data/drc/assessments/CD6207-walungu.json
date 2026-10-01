@@ -1,0 +1,315 @@
+{
+ "unit_id": "CD6207-walungu",
+ "as_of": "2026-10-01",
+ "summary": "Walungu territory (Ngweshe chefferie with Walungu centre, Nyangezi, Mubumbano and Kaziba chefferie, plus Kamanyola on the Rusizi border) has been in the AFC/M23 zone since the February 2025 offensive that took Bukavu, Nyangezi, Kamanyola and Walungu centre. M23 runs the territory through its own administrator, with ARC forces holding the RN2 (Bukavu–Walungu–Mwenga) and RN5 (Bukavu–Nyangezi–Kamanyola) axes and Kamanyola as a heavily garrisoned staging point. The western belt (Burhale, Kaniola, Mulamba) and the south-west toward Burhinyi/Mukungwe are assessed as contested by Wazalendo/Raia Mutomboki fighters, and the far west on the Shabunda road (Nzibira, Luntukulu, Maziba) as Wazalendo-dominated but contested. Note: live web research was unavailable for this unit (search budget exhausted, sites blocked by the egress proxy), so most zones are low confidence inferences. Review (2026-10-01): the reviewer could not run independent web research either (search budget exhausted, news/OCHA sites blocked), so zone controllers were checked only for internal and geographic consistency; an unsourced FDLR presence claim in the Kaniola/Burhale belt was dropped.",
+ "sources": [
+  {
+   "id": "s2",
+   "url": "https://www.reuters.com/world/africa/m23-rebels-enter-congos-second-largest-eastern-city-bukavu-2025-02-16/",
+   "title": "M23 rebels enter Congo's second-largest eastern city, Bukavu",
+   "publisher": "Reuters",
+   "date": "2025-02-16"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.criticalthreats.org/briefs/congo-war-security-review",
+   "title": "Congo War Security Review (series)",
+   "publisher": "Critical Threats Project (AEI/ISW)",
+   "date": null
+  },
+  {
+   "id": "s4",
+   "url": "https://www.kivusecurity.org/",
+   "title": "Kivu Security Tracker (incident map, Walungu territory)",
+   "publisher": "Kivu Security Tracker",
+   "date": null
+  }
+ ],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Kamanyola (Busama settlement record, Kamanyola health area) on the Rusizi border with Rwanda and Burundi",
+   "controller_id": "afc-m23-arc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "area_report",
+   "since": "2025-02",
+   "presence": [
+    {
+     "entity_id": "rwa-rdf",
+     "role": "allied"
+    },
+    {
+     "entity_id": "afc-m23-police",
+     "role": "present"
+    }
+   ],
+   "evidence": "Kamanyola was abandoned by FARDC and Burundian troops in the days after the fall of Bukavu (mid-February 2025) and became AFC/M23's southern staging point toward the Rusizi plain and Uvira; it hosts a strong ARC deployment with reported RDF support and an M23-appointed local administration. No live source could be consulted for this unit (search budget exhausted, sites blocked by the egress proxy); the assessment rests on the February 2025 capture record and background knowledge.",
+   "source_ids": [
+    "s2",
+    "s3"
+   ]
+  },
+  {
+   "zone_id": "z2",
+   "description": "Nyangezi groupement and Nyangezi health zone along the RN5 Bukavu–Kamanyola road: Munya, Cihanda, Ngoma, Namunjira, Kabiganda, Karhundu, Karendezi, Lushebeyi, Bugengere",
+   "controller_id": "afc-m23-arc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "area_report",
+   "since": "2025-02",
+   "presence": [
+    {
+     "entity_id": "afc-m23-police",
+     "role": "present"
+    }
+   ],
+   "evidence": "Nyangezi lies on the RN5 between Bukavu and Kamanyola, the axis M23 used to advance south in February 2025; it has since been part of the M23 rear area with ARC positions along the road and M23-appointed local administrators. Sporadic Wazalendo infiltration and banditry reported in the hills rather than a change of control. No live source could be consulted for this unit (search budget exhausted, sites blocked by the egress proxy); the assessment rests on the February 2025 capture record and background knowledge.",
+   "source_ids": [
+    "s2",
+    "s3"
+   ]
+  },
+  {
+   "zone_id": "z3",
+   "description": "Walungu centre and its surrounding health areas (Ikoma, Ibinza, Rushindye, Rukwende, Bideka, Mugogo, Cigukiro, Lurhala, Camasiga, Kamisimbi, Bushigi, Cazi, Ciherano, Kamikonzi, Mwendo) – territorial seat on the RN2",
+   "controller_id": "afc-m23-arc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "area_report",
+   "since": "2025-02",
+   "presence": [
+    {
+     "entity_id": "afc-m23-police",
+     "role": "present"
+    },
+    {
+     "entity_id": "cod-wazalendo",
+     "role": "raiding"
+    }
+   ],
+   "evidence": "Walungu centre was taken by AFC/M23 shortly after Bukavu in February 2025 and M23 installed its own territorial administrator; the RN2 Bukavu–Walungu–Mwenga axis is held by ARC forces with an M23 police presence in the centre. Wazalendo night raids and targeted killings were reported in the territory through 2025 without displacing M23. No live source could be consulted for this unit (search budget exhausted, sites blocked by the egress proxy); the assessment rests on the February 2025 capture record and background knowledge.",
+   "source_ids": [
+    "s2",
+    "s3",
+    "s4"
+   ]
+  },
+  {
+   "zone_id": "z4",
+   "description": "Rest of Walungu health zone and east-central Walungu chefferie: Ciriri (Kalole), Lwege (Nyandja), Mwendo, Karhundu, Lukumbo (Burhuza), Madaka and Mwembo (Ciherano/Kamikonzi)",
+   "controller_id": "afc-m23-arc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "inference",
+   "since": "2025-02",
+   "presence": [
+    {
+     "entity_id": "cod-wazalendo",
+     "role": "raiding"
+    }
+   ],
+   "evidence": "Villages within a few kilometres of the M23-held Walungu centre and RN2; assumed under the same ARC control, with occasional Wazalendo incursions. No live source could be consulted for this unit (search budget exhausted, sites blocked by the egress proxy); the assessment rests on the February 2025 capture record and background knowledge.",
+   "source_ids": [
+    "s3",
+    "s4"
+   ]
+  },
+  {
+   "zone_id": "z5",
+   "description": "Western Walungu toward the Kahuzi-Biega/Shabunda edge: Burhale (Cibinda), Nyakakoba (Buha), Mulamba (Kalirine) and the eastern Kaniola health zone (Kaniola, Nkumba/Cagala, Lwengero/Budoodo, Murhali, Nyalubuze, Tchosho, Kalengera/Izege)",
+   "controller_id": "afc-m23-arc",
+   "status": "contested",
+   "confidence": "low",
+   "basis": "inference",
+   "since": "2025-02",
+   "presence": [
+    {
+     "entity_id": "cod-wazalendo",
+     "role": "contesting"
+    },
+    {
+     "entity_id": "raia-mutomboki",
+     "role": "contesting"
+    }
+   ],
+   "evidence": "The Burhale–Kaniola–Mulamba belt between the RN2 and the forested western highlands saw repeated clashes between M23 and Wazalendo (Raia Mutomboki and ex-Mai-Mai groups) after M23 took Walungu; M23 holds the main centres while Wazalendo fighters operate from the hills. Kaniola was historically an FDLR area (2000s), but no current FDLR presence is sourced. No live source could be consulted for this unit (search budget exhausted, sites blocked by the egress proxy); the assessment rests on the February 2025 capture record and background knowledge.",
+   "source_ids": [
+    "s3",
+    "s4"
+   ]
+  },
+  {
+   "zone_id": "z6",
+   "description": "Far-western Kaniola health zone bordering Shabunda and Mwenga: Nzibira (Miduha), Luntukulu (Ndiba), Maziba",
+   "controller_id": "cod-wazalendo",
+   "status": "contested",
+   "confidence": "low",
+   "basis": "inference",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "afc-m23-arc",
+     "role": "contesting"
+    },
+    {
+     "entity_id": "raia-mutomboki",
+     "role": "allied"
+    },
+    {
+     "entity_id": "fdlr",
+     "role": "present"
+    }
+   ],
+   "evidence": "Nzibira and Luntukulu lie on the route to Shabunda, adjacent to Raia Mutomboki-dominated eastern Shabunda (Mulungu/Kigulube); after the fall of Bukavu Wazalendo groups retreated there and the area has been fought over by M23 operations and Wazalendo. Specific group not determined. No live source could be consulted for this unit (search budget exhausted, sites blocked by the egress proxy); the assessment rests on the February 2025 capture record and background knowledge.",
+   "source_ids": [
+    "s3",
+    "s4"
+   ]
+  },
+  {
+   "zone_id": "z7",
+   "description": "Mubumbano health zone (Ngweshe south/Mubumbano area): Ntundu, Nkanga, Cebeya, Ciburhi, Cidorho, Mushugula, Migera, Kahiriginji, Luduha, Cizi",
+   "controller_id": "afc-m23-arc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "inference",
+   "since": "2025-02",
+   "presence": [
+    {
+     "entity_id": "cod-wazalendo",
+     "role": "raiding"
+    }
+   ],
+   "evidence": "Southern Walungu between the RN2 and Kaziba fell within the M23 zone after the February 2025 offensive; no reliable report of Wazalendo holding these localities was available. No live source could be consulted for this unit (search budget exhausted, sites blocked by the egress proxy); the assessment rests on the February 2025 capture record and background knowledge.",
+   "source_ids": [
+    "s3",
+    "s4"
+   ]
+  },
+  {
+   "zone_id": "z8",
+   "description": "South-western Mubumbano toward Burhinyi/Mwenga: Cishozi, Bwahungu, Kalangwe, Kaliba, Tubimbi (Mashululwe, Mufa 1), Mukungwe gold area (Lukwera, Lwisengesi, Lulabo)",
+   "controller_id": "afc-m23-arc",
+   "status": "contested",
+   "confidence": "low",
+   "basis": "inference",
+   "since": "2025-02",
+   "presence": [
+    {
+     "entity_id": "cod-wazalendo",
+     "role": "contesting"
+    }
+   ],
+   "evidence": "Hilly area adjoining Burhinyi (Mwenga), where Wazalendo/ex-Mai-Mai groups (e.g. Mudundu 40 lineage) operate; the Mukungwe gold mines have a long history of armed disputes. Assessed as nominally in the M23 zone but contested. No live source could be consulted for this unit (search budget exhausted, sites blocked by the egress proxy); the assessment rests on the February 2025 capture record and background knowledge.",
+   "source_ids": [
+    "s3",
+    "s4"
+   ]
+  },
+  {
+   "zone_id": "z9",
+   "description": "Kaziba chefferie and northern Kaziba health zone: Kaziba centre and its health areas (Kasheke, Cirimiro, Namushwaga, Mulama, Ngando, Cibanda, Cihumba, Mulambi), Budaha, Ihuku, Kaherhe, Kafusi, Bushwege, Munanira, Chonga, Byazi",
+   "controller_id": "afc-m23-arc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "inference",
+   "since": "2025-02",
+   "presence": [
+    {
+     "entity_id": "cod-wazalendo",
+     "role": "raiding"
+    }
+   ],
+   "evidence": "Kaziba lies between Nyangezi/Kamanyola and Walungu, both M23-held since February 2025; M23 extended its administration to the chefferie. Wazalendo raids from the Itombwe/Mwenga side are possible but no report of them holding the chefferie was available. No live source could be consulted for this unit (search budget exhausted, sites blocked by the egress proxy); the assessment rests on the February 2025 capture record and background knowledge.",
+   "source_ids": [
+    "s3",
+    "s4"
+   ]
+  }
+ ],
+ "locations": {
+  "cod-35MPT8512_1": "z5",
+  "cod-35MQT0705_1": "z2",
+  "cod-35MPS8399_3": "z5",
+  "cod-35MPS8899_1": "z4",
+  "cod-35MPT7813_2": "z5",
+  "cod-35MPT7607_1": "z5",
+  "cod-35MPT8908_1": "z4",
+  "cod-35MPT7803_1": "z5",
+  "cod-35MPT9401_1": "z4",
+  "cod-35MQT0209_3": "z2",
+  "cod-35MPT8308_1": "z5",
+  "cod-35MPT8813_1": "z4",
+  "cod-35MPT8404_1": "z4",
+  "cod-35MQT0408_1": "z2",
+  "cod-35MPT9907_1": "z2",
+  "cod-35MPT7305_2": "z5",
+  "cod-35MPT8305_1": "z4",
+  "cod-35MPT8516_2": "z5",
+  "cod-35MPT8011_1": "z5",
+  "cod-35MPT9100_1": "z4",
+  "cod-35MPT9921_1-NpXTX9KfBlf": "z3",
+  "cod-35MPT9921_1-VLvFfFLweXd": "z3",
+  "cod-35MPT9921_1-r4j9SYQcISt": "z3",
+  "cod-35MPT9921_1-iyZa5nAJY0X": "z3",
+  "cod-35MPT9921_1-Zcb3an2g2cy": "z3",
+  "cod-35MPT9921_1-GleI3NeyhLV": "z3",
+  "cod-35MPT9921_1-NAH2SU5RQG7": "z3",
+  "cod-35MPT9921_1-C5ezdJU7UAv": "z3",
+  "cod-35MPT9921_1-ZxntffKxb1o": "z3",
+  "cod-35MPT9921_1-MNCbCnTrw4n": "z3",
+  "cod-35MPT9921_1-tVwPa3CRda6": "z3",
+  "cod-35MPT9921_1-UA9iXQnUaci": "z3",
+  "cod-35MPT9921_1-GNjhmXT5GDk": "z3",
+  "cod-35MPT9921_1-rQGkDQIWIvv": "z3",
+  "cod-35MPT9921_1-MgVIDSGfn7w": "z3",
+  "cod-35MPS9496_1": "z7",
+  "cod-35MPT6803_2": "z6",
+  "cod-35MPS8496_1": "z7",
+  "cod-35MPT9803_1": "z7",
+  "cod-35MPT7301_1": "z5",
+  "cod-35MPS8392_1": "z7",
+  "cod-35MPS7797_1": "z8",
+  "cod-35MPT9700_1": "z7",
+  "cod-35MPS8997_1": "z7",
+  "cod-35MPS7795_2": "z8",
+  "cod-35MPS7690_2": "z8",
+  "cod-35MPS7395_1": "z8",
+  "cod-35MPS8893_1": "z7",
+  "cod-35MPS6396_1": "z6",
+  "cod-35MPS8989_1": "z9",
+  "cod-35MPS8389_1": "z8",
+  "cod-35MPS7887_5": "z8",
+  "cod-35MPT6600_1": "z6",
+  "cod-35MPS8491_1": "z7",
+  "cod-35MPS8288_1": "z8",
+  "cod-35MPS9190_1": "z9",
+  "cod-35MPS9294_1": "z7",
+  "cod-35MPS7595_2": "z8",
+  "cod-35MPS8090_2": "z8",
+  "cod-35MPS9797_2": "z7",
+  "cod-35MQS2297_1": "z1",
+  "cod-35MQT0802_1": "z2",
+  "cod-35MQS0495_1": "z9",
+  "cod-35MQS0093_1": "z9",
+  "cod-35MQS1798_1": "z2",
+  "cod-35MQS0194_2": "z9",
+  "cod-35MQT0501_1": "z2",
+  "cod-35MQS0896_2": "z9",
+  "cod-35MQT1501_2": "z2",
+  "cod-35MQT1402_1": "z2",
+  "cod-35MQS0686_1": "z9",
+  "cod-35MQS0788_1": "z9",
+  "cod-35MPS9486_1-auOJemNZsFO": "z9",
+  "cod-35MPS9486_1-IGf4xfu1IKJ": "z9",
+  "cod-35MPS9486_1-DFefeL1qqWP": "z9",
+  "cod-35MPS9486_1-k9ieQCFlMDU": "z9",
+  "cod-35MPS9486_1-ZDFQHjq6OjH": "z9",
+  "cod-35MPS9486_1-mN3UHkRxq6l": "z9",
+  "cod-35MPS9486_1-MoaVTL6xt7d": "z9",
+  "cod-35MPS9486_1-gQ4SlvxP14q": "z9",
+  "cod-35MPS9486_1-vTjz73sXzOT": "z9"
+ }
+}

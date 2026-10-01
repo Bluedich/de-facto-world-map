@@ -132,7 +132,7 @@
    "status": "dominant",
    "confidence": "medium",
    "basis": "area_report",
-   "since": "2026-04",
+   "since": null,
    "presence": [
     {
      "entity_id": "cod-pnc",
@@ -143,7 +143,7 @@
      "role": "raiding"
     }
    ],
-   "evidence": "Mungbere, capital of Andobi chefferie, is a reception point for displaced and the base for FARDC sweep operations against the ADF launched in 2026 with movement restrictions; ADF alerts and raids nearby (Apodo, March 2026) but the town remains government-held.",
+   "evidence": "Mungbere, capital of Andobi chefferie, is a reception point for displaced and the base for FARDC sweep operations against the ADF launched in 2026 with movement restrictions; ADF alerts and raids nearby (Apodo, March 2026) but the town remains government-held. FARDC presence in Mungbere predates 2026; the 2026 date marks the start of anti-ADF operations, not a change of controller.",
    "source_ids": [
     "s4",
     "s2",

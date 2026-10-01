@@ -1,0 +1,151 @@
+{
+ "unit_id": "CD4205-libenge",
+ "as_of": "2026-10-01",
+ "summary": "Libenge territory (Sud-Ubangi) lies along the Ubangi river facing the Central African Republic, far from the eastern conflict zones. No Congolese or foreign armed group is known to hold territory here; Libenge town, the territorial seat, hosts the territorial administration, PNC commissariat, ANR, DGM border services and an FARDC presence watching the CAR border. The Boyabu camp area hosts Central African refugees under UNHCR/CNR management with a PNC security detachment. Rural villages in the Libenge and Mawuya health zones fall under PNC posts, territorial administration and customary chiefs; insecurity is limited to ordinary crime, occasional cross-border spillover and customary disputes. No recent sources could be retrieved in this run (web search budget exhausted, ReliefWeb blocked). The assessment therefore rests on default state presence.",
+ "sources": [],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Libenge town, territorial seat on the Ubangi river",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    },
+    {
+     "entity_id": "cod-anr",
+     "role": "present"
+    }
+   ],
+   "evidence": "Territorial capital and border town facing CAR with PNC commissariat, territorial administration, ANR and FARDC border units; no reported armed-group presence or parallel authority. No recent sources could be retrieved in this run (web search budget exhausted, ReliefWeb blocked).",
+   "source_ids": []
+  },
+  {
+   "zone_id": "z2",
+   "description": "Boyabu refugee camp area (Refugies settlement, Boyabu health area) east of Libenge",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "customary",
+     "role": "present"
+    }
+   ],
+   "evidence": "Refugee camp for Central Africans run by UNHCR and the Congolese CNR, secured by PNC personnel; no reported armed-group control. No recent sources could be retrieved in this run (web search budget exhausted, ReliefWeb blocked).",
+   "source_ids": []
+  },
+  {
+   "zone_id": "z3",
+   "description": "Rural villages of Libenge health zone (Libenge secteur outside the town, north to Bazene/Bogbala)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "customary",
+     "role": "present"
+    },
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Rural area along the Ubangi/CAR border with no reported armed-group activity; PNC posts, territorial administration and customary chiefs are the default authority, with occasional FARDC border posts. No recent sources could be retrieved in this run (web search budget exhausted, ReliefWeb blocked).",
+   "source_ids": []
+  },
+  {
+   "zone_id": "z4",
+   "description": "Mawuya secteur / Mawuya health zone in southern Libenge territory (Kongo, Zambie, Izato, Mbandaka, Sani etc.)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "customary",
+     "role": "present"
+    }
+   ],
+   "evidence": "Rural secteur with no reported armed-group activity; PNC posts, secteur administration and customary chiefs are the default authority. No recent sources could be retrieved in this run (web search budget exhausted, ReliefWeb blocked).",
+   "source_ids": []
+  }
+ ],
+ "locations": {
+  "cod-34NBK3703_1": "z1",
+  "cod-34NBK5212_1": "z2",
+  "cod-34NBK6717_1": "z3",
+  "cod-34NBK3936_2": "z3",
+  "cod-34NBK8711_1": "z3",
+  "cod-34NBK8016_1": "z3",
+  "cod-34NBK8905_1": "z3",
+  "cod-34NBK7826_1": "z3",
+  "cod-34NBK9745_1": "z3",
+  "cod-34NBJ9799_3": "z3",
+  "cod-34NBL7609_1": "z3",
+  "cod-34NBK8614_1": "z3",
+  "cod-34NBK7730_1": "z3",
+  "cod-34NCJ0595_1": "z3",
+  "cod-34NBL9315_1": "z3",
+  "cod-34NBK7623_1": "z3",
+  "cod-34NBK8315_1": "z3",
+  "cod-34NBK4330_1": "z3",
+  "cod-34NBK7319_1": "z3",
+  "cod-34NBK9196_1": "z3",
+  "cod-34NBJ4398_1": "z4",
+  "cod-34NCK0352_1": "z3",
+  "cod-34NCK1369_2": "z3",
+  "cod-34NBK6116_1": "z3",
+  "cod-34NBK4434_1": "z3",
+  "cod-34NBK4322_1": "z3",
+  "cod-34NBK7738_1": "z3",
+  "cod-34NBJ4886_1": "z4",
+  "cod-34NBL7014_1": "z3",
+  "cod-34NBJ4694_2": "z4",
+  "cod-34NCK0353_3": "z3",
+  "cod-34NBK3310_1": "z3",
+  "cod-34NBK4944_1": "z3",
+  "cod-34NBL9308_1": "z3",
+  "cod-34NBL7723_1": "z3",
+  "cod-34NBK4516_1": "z3",
+  "cod-34NBK5798_1": "z3",
+  "cod-34NBJ4157_1": "z4",
+  "cod-34NBJ7952_1": "z4",
+  "cod-34NBJ3749_1": "z4",
+  "cod-34NBJ3864_1": "z4",
+  "cod-34NBJ6971_1": "z4",
+  "cod-34NBJ8161_1": "z4",
+  "cod-34NBJ4278_1": "z4",
+  "cod-34NBJ6776_1": "z4",
+  "cod-34NBJ4364_1": "z4",
+  "cod-34NBJ4781_2": "z4",
+  "cod-34NBJ4360_1": "z4",
+  "cod-34NBJ5980_1": "z4",
+  "cod-34NBJ7665_1": "z4",
+  "cod-34NBJ4955_1": "z4",
+  "cod-34NBJ4342_1": "z4",
+  "cod-34NBJ8055_2": "z4",
+  "cod-34NBJ2637_1": "z4",
+  "cod-34NBJ7270_1": "z4",
+  "cod-34NBJ5449_1": "z4",
+  "cod-34NBJ5848_2": "z4",
+  "cod-34NBJ3745_1": "z4",
+  "cod-34NBJ4270_1": "z4",
+  "cod-34NBJ5184_1": "z4",
+  "cod-34NBJ5683_1": "z4",
+  "cod-34NBJ4346_1": "z4",
+  "cod-34NBJ4332_1": "z4",
+  "cod-34NBJ4579_2": "z4"
+ }
+}

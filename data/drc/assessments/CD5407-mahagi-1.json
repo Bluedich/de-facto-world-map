@@ -1,7 +1,7 @@
 {
  "unit_id": "CD5407-mahagi-1",
  "as_of": "2026-10-01",
- "summary": "Mahagi territory part 1 (Mahagi, Logo, Nyarambe and Angumu health zones) is mostly Alur-majority and lies north/east of the Djugu Hema–Lendu conflict core. Mahagi town, the Uganda border/lake port and Logo/Nyarambe are assessed as state-held (PNC with FARDC). The southern Angumu area and the western Rimba/Aungba fringe border CODECO zones and suffer incursions; FARDC is assessed as the main force there. NOTE: no web research could be done for this unit (search budget exhausted, sites blocked); all zones are default-presence or low-confidence inferences and should be re-checked.",
+ "summary": "Mahagi territory part 1 (Mahagi, Logo, Nyarambe and Angumu health zones) is mostly Alur-majority and lies north/east of the Djugu Hema–Lendu conflict core. Mahagi town, the Uganda border/lake port and Logo/Nyarambe are assessed as state-held (PNC with FARDC). The southern Angumu area and the western Rimba/Aungba fringe border CODECO zones and suffer incursions; FARDC is assessed as the main force there. NOTE: no web research could be done for this unit (search budget exhausted, sites blocked); all zones are default-presence or low-confidence inferences and should be re-checked. Reviewer note (2026-10-01): independent review also could not run web searches or fetch news sites (search budget exhausted, egress blocked); zones were checked only for internal consistency and against the neighbouring Djugu and Mahagi-2 assessments. The cited sources (s1-s3) are generic portals, not specific reports.",
  "sources": [
   {
    "id": "s1",
@@ -48,7 +48,7 @@
   },
   {
    "zone_id": "z2",
-   "description": "Alur heartland: Logo, Nyarambe towns and rural villages of Mahagi, Logo and Nyarambe health zones (Wanande/Alur chefferies north of the Djugu border)",
+   "description": "Alur heartland: Logo, Nyarambe towns and rural villages of Mahagi, Logo and Nyarambe health zones (Alur chefferies north of the Djugu border)",
    "controller_id": "cod-pnc",
    "status": "dominant",
    "confidence": "medium",

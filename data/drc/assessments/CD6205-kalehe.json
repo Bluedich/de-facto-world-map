@@ -1,0 +1,296 @@
+{
+ "unit_id": "CD6205-kalehe",
+ "as_of": "2026-10-01",
+ "summary": "Kalehe territory is split between AFC/M23 in the east and Wazalendo/Raia Mutomboki in the western highlands. M23 took Minova on 21 January 2025 and advanced along the RN2 lakeshore through Nyabibwe and Kalehe centre in early February 2025; the lakeshore corridor (Minova and Kalehe health zones) has since been its supply axis with its own administration and police. The Numbi–Shanje–Lumbishi mining hills are assessed as M23-held but contested. Bunyakiri, the Ziralo highlands and Kalonge are assessed as Raia Mutomboki/Wazalendo areas with FARDC allies and FDLR/Nyatura presence, subject to M23 incursions. Note: live web research was unavailable for this unit (search budget exhausted, news sites blocked by the egress proxy), so the assessment rests on the 2025 capture record and background knowledge; highland zones are low confidence. Review (2026-10-01) also could not reach live sources (search budget exhausted, sites egress-blocked); changes were limited to consistency fixes (zone descriptions, source metadata, caveats), and assignments were checked against health zones/coordinates and the neighbouring Masisi, Walikale, Kabare and Idjwi assessments, with which they are consistent.",
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.reuters.com/world/africa/m23-rebels-seize-town-minova-eastern-congo-2025-01-21/",
+   "title": "M23 rebels seize Minova in eastern Congo",
+   "publisher": "Reuters",
+   "date": "2025-01-21"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.reuters.com/world/africa/m23-rebels-take-control-airport-near-congos-bukavu-2025-02-14/",
+   "title": "M23 rebels take control of airport near Congo's Bukavu",
+   "publisher": "Reuters",
+   "date": "2025-02-14"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.criticalthreats.org/briefs/congo-war-security-review",
+   "title": "Congo War Security Review (recurring brief series; specific issue not verified)",
+   "publisher": "Critical Threats Project (AEI/ISW)",
+   "date": null
+  },
+  {
+   "id": "s4",
+   "url": "https://www.kivusecurity.org/",
+   "title": "Kivu Security Tracker (incident map, Kalehe territory)",
+   "publisher": "Kivu Security Tracker",
+   "date": null
+  }
+ ],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Minova town (Minova health area, Lac settlement record) – main lakeshore trading town and port",
+   "controller_id": "afc-m23-police",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "area_report",
+   "since": "2025-01-21",
+   "presence": [
+    {
+     "entity_id": "afc-m23-arc",
+     "role": "present"
+    },
+    {
+     "entity_id": "cod-wazalendo",
+     "role": "raiding"
+    }
+   ],
+   "evidence": "Minova fell to AFC/M23 on 21 January 2025, opening the road to Goma and later Bukavu; M23 installed its own local administration and police in the town. No source available up to the reference date reports the town changing hands; Wazalendo infiltration and killings occur sporadically.",
+   "source_ids": [
+    "s1",
+    "s3"
+   ]
+  },
+  {
+   "zone_id": "z2",
+   "description": "Rest of Minova health zone on the lakeshore and lower hills (Buzi groupement): Ciriba/Nyamasasa, Rwamiko/Kalungu, Kigoma/Bulenga, Katyazo/Buhumba, Kikera, Langira, Bihyongole, Nyakalende, Mahuge, Butale, Mpumbi, Nyangoma, Tchondo, Bishange",
+   "controller_id": "afc-m23-arc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "area_report",
+   "since": "2025-01",
+   "presence": [
+    {
+     "entity_id": "cod-wazalendo",
+     "role": "raiding"
+    }
+   ],
+   "evidence": "The Minova lakeshore plain and adjacent hills were overrun with Minova in January 2025 and form M23's rear area linking Sake/Goma to Kalehe and Bukavu; Wazalendo raids are reported from the hills but M23 holds the localities.",
+   "source_ids": [
+    "s1",
+    "s3"
+   ]
+  },
+  {
+   "zone_id": "z3",
+   "description": "RN2 lakeshore corridor Nyabibwe – Kalehe centre (Mbinga Nord/Sud, Kalehe HZ): Nyabibwe (Salama record), Kiniezire, Kanenge, Bundandi/Lushebere, Bujuki, Kanyunyi/Bushushu, Cishenyi, Cigera (Kabale, Cidashi), Muhongoza, Bulungu, Mushenyi, Kalehe centre/Ihusi (Nyambuga record)",
+   "controller_id": "afc-m23-arc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "area_report",
+   "since": "2025-02",
+   "presence": [
+    {
+     "entity_id": "afc-m23-police",
+     "role": "present"
+    },
+    {
+     "entity_id": "raia-mutomboki",
+     "role": "raiding"
+    },
+    {
+     "entity_id": "cod-wazalendo",
+     "role": "raiding"
+    }
+   ],
+   "evidence": "AFC/M23 advanced south along the RN2 in early February 2025, taking Nyabibwe, Ihusi and Kalehe centre before Kavumu and Bukavu; the corridor has since been M23's main supply axis between Goma and Bukavu with M23 administration in the centres. Wazalendo/Raia Mutomboki raids from the western hills hit the corridor intermittently.",
+   "source_ids": [
+    "s2",
+    "s3",
+    "s4"
+   ]
+  },
+  {
+   "zone_id": "z4",
+   "description": "Middle highlands west of the RN2 lakeshore: Buzi/Ziralo mining hills (Numbi/Kajojo, Shanje, Lumbishi, Kisongati, Kaloba, Kihonga, Luwizi/Luzirantaka) and the Bushaku hills (Bushaku 1 and 2) west of Kalehe centre in Mbinga Nord",
+   "controller_id": "afc-m23-arc",
+   "status": "contested",
+   "confidence": "low",
+   "basis": "inference",
+   "since": "2025-02",
+   "presence": [
+    {
+     "entity_id": "raia-mutomboki",
+     "role": "contesting"
+    },
+    {
+     "entity_id": "nyatura",
+     "role": "contesting"
+    },
+    {
+     "entity_id": "cod-wazalendo",
+     "role": "contesting"
+    },
+    {
+     "entity_id": "fdlr",
+     "role": "present"
+    }
+   ],
+   "evidence": "The Numbi–Shanje–Lumbishi mining hills were taken by M23 in early 2025 but lie on the front with Wazalendo (Raia Mutomboki, Nyatura) groups based in the Ziralo and Ufamandu highlands; recurrent clashes have been reported. Live research was unavailable, so current holder is inferred. Bushaku 1/2 (Kalehe HZ, ~10 km west of Kalehe centre on the inland edge of the corridor) are grouped here as frontline hill villages rather than with the lakeshore corridor.",
+   "source_ids": [
+    "s3",
+    "s4"
+   ]
+  },
+  {
+   "zone_id": "z5",
+   "description": "Ziralo / northern Bunyakiri highlands toward Walikale and Masisi: Chambombo, Fwangere, Katasomwa, Kusisa, Lubiri/Matutira, Tushunguti, Mianda",
+   "controller_id": "raia-mutomboki",
+   "status": "contested",
+   "confidence": "low",
+   "basis": "inference",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "nyatura",
+     "role": "present"
+    },
+    {
+     "entity_id": "fdlr",
+     "role": "present"
+    },
+    {
+     "entity_id": "afc-m23-arc",
+     "role": "raiding"
+    }
+   ],
+   "evidence": "The remote Ziralo highlands have long been dominated by Raia Mutomboki factions alongside Nyatura groups and FDLR, with little state presence; since 2025 these groups operate as Wazalendo against M23, which conducts incursions from the Numbi/Ufamandu side. No current source was reachable to confirm control. Katasomwa (Mushunguti health area, on the Kalehe–Bunyakiri inland axis) and Fwangere/Chambombo (Shanje side) are placed here as front-edge villages; reviewer could not verify any of these with live sources.",
+   "source_ids": [
+    "s3",
+    "s4"
+   ]
+  },
+  {
+   "zone_id": "z6",
+   "description": "Bunyakiri health zone (Kalima/Mubugu groupements) on the Bukavu–Walikale road (RN3): Bunyakiri town (Cariere record), Bitale (Bukumbi), Maibano, Karasi, Tshigoma, Kachiri, Fumya, Ciriba, Bagana, Ramba (Makutano), Miowe, Mushunguti (Musisa), Mingazi (Maengo), Lwana",
+   "controller_id": "raia-mutomboki",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "inference",
+   "since": "2025-02",
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "allied"
+    },
+    {
+     "entity_id": "cod-wazalendo",
+     "role": "allied"
+    },
+    {
+     "entity_id": "afc-m23-arc",
+     "role": "raiding"
+    }
+   ],
+   "evidence": "After M23 took Kalehe centre and Bukavu, FARDC and Wazalendo fell back into the Bunyakiri area, which became the main Wazalendo/Raia Mutomboki stronghold blocking the road toward Hombo and Walikale; armed groups run roadblocks and levy taxes with limited FARDC presence. M23 attacks toward Bunyakiri were reported but the area is assessed as still Wazalendo-held. Reviewer note (2026-10-01): not verified against 2026 reporting; Raia Mutomboki vs. generic Wazalendo vs. FARDC primacy in Bunyakiri town itself is uncertain.",
+   "source_ids": [
+    "s3",
+    "s4"
+   ]
+  },
+  {
+   "zone_id": "z7",
+   "description": "Kalonge health zone (Kalonge groupement, south-west Kalehe toward Kabare/Kahuzi-Biega): Cemitudu/Rwamikundu, Cirhadu/Mule, Ihango, Mudaka/Kashesha, Chineke, Karhola, Nyamulirwa, Bishuva",
+   "controller_id": "raia-mutomboki",
+   "status": "contested",
+   "confidence": "low",
+   "basis": "inference",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-wazalendo",
+     "role": "allied"
+    },
+    {
+     "entity_id": "afc-m23-arc",
+     "role": "contesting"
+    },
+    {
+     "entity_id": "fdlr",
+     "role": "present"
+    }
+   ],
+   "evidence": "Kalonge, west of Kahuzi-Biega park, is a historical Raia Mutomboki area with little state presence; after the fall of Bukavu Wazalendo fighters operated from the Kalonge–Nindja highlands and M23 conducted operations into the area in 2025. Current holder is inferred without live confirmation. Reviewer note (2026-10-01): M23 operations in Kalonge were reported in 2025 per background knowledge; whether M23 holds Kalonge centre as of the reference date could not be checked.",
+   "source_ids": [
+    "s3",
+    "s4"
+   ]
+  }
+ ],
+ "locations": {
+  "cod-35MQU2411_1": "z1",
+  "cod-35MQT2499_1": "z2",
+  "cod-35MQU1905_2": "z2",
+  "cod-35MQT1587_1": "z3",
+  "cod-35MQU2814_1": "z2",
+  "cod-35MQT0798_1": "z4",
+  "cod-35MQU1002_1": "z4",
+  "cod-35MQT2193_1": "z3",
+  "cod-35MQU0807_1": "z4",
+  "cod-35MQU2407_1": "z2",
+  "cod-35MQT1383_1": "z3",
+  "cod-35MQU2811_1": "z2",
+  "cod-35MQU2808_2": "z2",
+  "cod-35MQU0203_1": "z4",
+  "cod-35MQU1702_1": "z4",
+  "cod-35MQT1699_1": "z4",
+  "cod-35MQU3017_1": "z2",
+  "cod-35MQT1583_1": "z3",
+  "cod-35MQU2911_2": "z2",
+  "cod-35MQU2109_2": "z2",
+  "cod-35MQU2505_1": "z2",
+  "cod-35MQU3217_1": "z2",
+  "cod-35MQU1507_2": "z4",
+  "cod-35MQU2102_1": "z2",
+  "cod-35MQU2607_3": "z2",
+  "cod-35MQU2303_1": "z2",
+  "cod-35MQT1785_1": "z3",
+  "cod-35MQU3316_1": "z2",
+  "cod-35MPT7940_1": "z7",
+  "cod-35MPT7434_2": "z7",
+  "cod-35MPT7139_1": "z7",
+  "cod-35MPT7442_1": "z7",
+  "cod-35MPT6638_1": "z7",
+  "cod-35MPT7430_1": "z7",
+  "cod-35MPT7439_1": "z7",
+  "cod-35MPT6742_4": "z7",
+  "cod-35MQT1167_1": "z3",
+  "cod-35MQT1278_1": "z3",
+  "cod-35MPT8156_3": "z6",
+  "cod-35MPT7968_1": "z6",
+  "cod-35MPT8272_1": "z6",
+  "cod-35MQT1170_2": "z3",
+  "cod-35MPT8773_1": "z6",
+  "cod-35MPT8276_1": "z6",
+  "cod-35MPT7960_3": "z6",
+  "cod-35MPT7773_2": "z6",
+  "cod-35MQT1676_1": "z3",
+  "cod-35MQT0171_2": "z4",
+  "cod-35MQT1475_1": "z3",
+  "cod-35MPT9569_1": "z5",
+  "cod-35MPT8369_1": "z6",
+  "cod-35MQT1472_1": "z3",
+  "cod-35MPT9080_1": "z6",
+  "cod-35MPT7763_1": "z6",
+  "cod-35MQT0370_2": "z4",
+  "cod-35MQT0490_3": "z5",
+  "cod-35MPT8770_2": "z6",
+  "cod-35MQT1873_1": "z3",
+  "cod-35MQT1174_1": "z3",
+  "cod-35MPT9995_3": "z5",
+  "cod-35MPT7568_1": "z6",
+  "cod-35MPT6775_2": "z6",
+  "cod-35MPU8901_2": "z5",
+  "cod-35MPT9296_1": "z5",
+  "cod-35MPU9101_1": "z5",
+  "cod-35MPT6480_1": "z6",
+  "cod-35MPU8703_1": "z5"
+ }
+}

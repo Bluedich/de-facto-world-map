@@ -1,0 +1,207 @@
+{
+ "unit_id": "CD5102-ubundu",
+ "as_of": "2026-10-01",
+ "summary": "Ubundu territory (Tshopo), south of Kisangani, is far west of the eastern Kivu frontlines and no armed group is known to hold or administer any part of it as of the reference date. Ubundu town and Lowa centre are assessed as PNC-policed with territorial administration and some FARDC presence. The Kisangani-Ubundu axis in Ubundu secteur saw the Mbole-Lengola intercommunal conflict from 2022, answered with FARDC/PNC deployments; no lasting militia control is known, so it is kept under state presence with low confidence. Wanierukula secteur villages along the Kisangani-Lubutu road and remote Lowa villages are under default state presence; the south-eastern fringe toward Lubutu carries lower confidence because it lies behind the FARDC/Wazalendo line west of Walikale. Web research could not be performed for this unit (search budget exhausted, sites egress-blocked), so the assessment rests on background knowledge.",
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://en.wikipedia.org/wiki/Ubundu_Territory",
+   "title": "Ubundu Territory",
+   "publisher": "Wikipedia",
+   "date": null
+  },
+  {
+   "id": "s2",
+   "url": "https://www.radiookapi.net/tags/ubundu",
+   "title": "Ubundu (tag page: Mbole-Lengola conflict coverage 2022-2024)",
+   "publisher": "Radio Okapi",
+   "date": null
+  }
+ ],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Ubundu town (cité, listed as Lubamba), territorial seat on the Lualaba and terminus of the Kisangani-Ubundu railway/road",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Ubundu is the administrative seat of the territory with territorial administration, PNC commissariat, ANR and FARDC elements; no report known to this run of any armed group holding or administering the town. Assessed from background knowledge; web research was unavailable.",
+   "source_ids": [
+    "s1"
+   ]
+  },
+  {
+   "zone_id": "z2",
+   "description": "Lowa centre and contiguous quarters/villages on the Lualaba near the Lowa confluence (Makengele, Bilebo, Masiri, Kisale, Mashindano, Kitambala, Pene Mwanga)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Lowa is the chief place of Lowa secteur with state administration and police; no report available to this run of armed-group control. It lies west of Lubutu/Walikale, so Mai-Mai/Wazalendo circulation from the east cannot be ruled out, hence low confidence.",
+   "source_ids": [
+    "s1"
+   ]
+  },
+  {
+   "zone_id": "z3",
+   "description": "Ubundu secteur villages along the Kisangani-Ubundu road and railway (PK villages, Obilo, Biaro, Babusoko, Bandu, St Casimir, Ngene Ngene/Lokata in Lubunga HZ) and southern villages (Munyonge, Bamini, Bananguma, Basua, Ndjale, Bamanga)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "area_report",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "This axis was the theatre of the Mbole-Lengola intercommunal conflict (from 2022, with killings, displacement and community militias along the Kisangani-Ubundu road), to which the state responded with FARDC/PNC deployments and a peace process; no report available to this run shows a militia holding territory by the reference date. Assessed under state presence with low confidence.",
+   "source_ids": [
+    "s1",
+    "s2"
+   ]
+  },
+  {
+   "zone_id": "z4",
+   "description": "Wanierukula secteur and northern Ubundu villages on the Kisangani-Lubutu road (RN3) and Wanie Rukula/Sometra, Madula, Mobi, Makana, Kipokoso, Babingi, Azambao, Bafwaboli/Uma axes",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Villages close to Kisangani and along the RN3 toward Lubutu with no reported armed-group activity known to this run; FARDC convoys use the RN3 toward the Walikale front. Assessed under default state presence.",
+   "source_ids": [
+    "s1"
+   ]
+  },
+  {
+   "zone_id": "z5",
+   "description": "South-eastern Wanierukula fringe toward Lubutu territory (Parizi, Umbundje, Obolemba health areas: Pas Nom Alternatif, Batiogoyo, Batieti, Umbunje, Makoka, Utiazule)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "inference",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    },
+    {
+     "entity_id": "cod-wazalendo",
+     "role": "present"
+    }
+   ],
+   "evidence": "Remote villages adjoining Lubutu territory, the rear of the FARDC/Wazalendo line west of Walikale; armed men may circulate but no report known to this run of armed-group administration. Low confidence.",
+   "source_ids": [
+    "s1"
+   ]
+  },
+  {
+   "zone_id": "z6",
+   "description": "Rural Lowa secteur (Moboko and Bamanga in Ferekeni HZ, Gaston/Muchaliko, Ongoka, Banapene, Bambay, Kapuluta)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [],
+   "evidence": "Remote forest villages of Lowa secteur bordering Punia and Lubutu (Maniema) with thin state presence and no reported armed-group control known to this run.",
+   "source_ids": [
+    "s1"
+   ]
+  }
+ ],
+ "locations": {
+  "cod-35MLV2560_1": "z1",
+  "cod-35NLA3621_1": "z4",
+  "cod-35MLV1793_1": "z3",
+  "cod-35NLA0535_1": "z3",
+  "cod-35NLA0042_2": "z3",
+  "cod-35NLA2832_1": "z4",
+  "cod-35NLA1326_1": "z3",
+  "cod-35MKV9652_1": "z3",
+  "cod-35NLA0339_1": "z3",
+  "cod-35NLA1017_1": "z3",
+  "cod-35MLV1882_1": "z3",
+  "cod-35MKV9964_1": "z3",
+  "cod-35MLV4099_1": "z4",
+  "cod-35NLA2535_1": "z4",
+  "cod-35NLA1030_1": "z3",
+  "cod-35NLA3326_1": "z4",
+  "cod-35MLV2658_3": "z3",
+  "cod-35MLV0966_1": "z3",
+  "cod-35MLV2184_1": "z3",
+  "cod-35NLA3423_1": "z4",
+  "cod-35NLA3803_2": "z4",
+  "cod-35MLV1253_1": "z3",
+  "cod-35MLV3369_1": "z3",
+  "cod-35MLV2056_1": "z3",
+  "cod-35NLA1400_2": "z3",
+  "cod-35NKA9634_2": "z3",
+  "cod-35NKA9743_1": "z3",
+  "cod-35NLA1850_1": "z4",
+  "cod-35NLA2051_2": "z4",
+  "cod-35NLA2141_1": "z4",
+  "cod-35MLV4293_1": "z4",
+  "cod-35NLA2351_2": "z4",
+  "cod-35NLA4952_1": "z4",
+  "cod-35NLA9369_1": "z4",
+  "cod-35MLV4784_1": "z4",
+  "cod-35NMA0169_1": "z4",
+  "cod-35NLA5954_1": "z4",
+  "cod-35NLA8061_1": "z4",
+  "cod-35NLA3651_2": "z4",
+  "cod-35NLA3452_2": "z4",
+  "cod-35NLA7859_1": "z4",
+  "cod-35MLV4588_1": "z4",
+  "cod-35MLV8160_1": "z5",
+  "cod-35NLA2951_1": "z4",
+  "cod-35NLA3152_2": "z4",
+  "cod-35MLV9356_1": "z5",
+  "cod-35MLV4256_1": "z4",
+  "cod-35NLA4415_1": "z4",
+  "cod-35MLV9752_1": "z5",
+  "cod-35MLV8657_1": "z5",
+  "cod-35MLV5681_1": "z4",
+  "cod-35MLV8559_1": "z5",
+  "cod-35MLV9653_2": "z5",
+  "cod-35MLU6544_1": "z2",
+  "cod-35MLU6817_1": "z6",
+  "cod-35MLU6845_1": "z2",
+  "cod-35MLU6143_1": "z2",
+  "cod-35MLU4682_1": "z6",
+  "cod-35MLU8942_1": "z6",
+  "cod-35MLU1660_1": "z6",
+  "cod-35MLU6826_1": "z6",
+  "cod-35MLU2578_1": "z6",
+  "cod-35MLU5549_1": "z2",
+  "cod-35MLU6556_3": "z2",
+  "cod-35MLU6943_1": "z2",
+  "cod-35MLV3208_1": "z6",
+  "cod-35MLU7444_1": "z2"
+ }
+}

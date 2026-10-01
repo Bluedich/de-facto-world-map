@@ -1,0 +1,142 @@
+{
+ "unit_id": "CD6201-bukavu",
+ "as_of": "2026-10-01",
+ "summary": "Bukavu (communes of Ibanda, Kadutu and Bagira) has been held by AFC/M23 since 14-16 February 2025, when FARDC, Burundian troops and most PNC units withdrew and M23 entered the city after taking Kavumu airport. AFC/M23 governs the city through its own appointed provincial and urban authorities and a police force partly built from re-enrolled ex-PNC officers, backed by ARC fighters and Rwandan RDF support; no source available up to the reference date reports the city changing hands, and the Washington and Doha peace processes did not restore state authority. Insecurity in the city consists mainly of armed robbery, night-time killings, grenade incidents and alleged Wazalendo/infiltrator activity, met by M23 cordon-and-search operations, particularly on the hillside peripheral quarters of Bagira and southern Ibanda. Note: live web research (including on review) was unavailable for this unit (search budget exhausted and news sites blocked by the egress proxy), so the assessment relies on the well-documented February 2025 capture and the absence of any known recapture through mid-2026.",
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://en.wikipedia.org/wiki/M23_campaign_(2022%E2%80%93present)",
+   "title": "M23 campaign (2022–present)",
+   "publisher": "Wikipedia",
+   "date": null
+  },
+  {
+   "id": "s2",
+   "url": "https://en.wikipedia.org/wiki/Bukavu",
+   "title": "Bukavu",
+   "publisher": "Wikipedia",
+   "date": null
+  },
+  {
+   "id": "s3",
+   "url": "https://www.reuters.com/world/africa/m23-rebels-enter-congos-second-largest-eastern-city-bukavu-2025-02-16/",
+   "title": "M23 rebels enter Congo's second-largest eastern city, Bukavu",
+   "publisher": "Reuters",
+   "date": "2025-02-16"
+  },
+  {
+   "id": "s4",
+   "url": "https://www.reuters.com/world/africa/m23-rebels-take-control-airport-near-congos-bukavu-2025-02-14/",
+   "title": "M23 rebels take control of airport near Congo's Bukavu",
+   "publisher": "Reuters",
+   "date": "2025-02-14"
+  }
+ ],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Bukavu urban core: Ibanda and Kadutu communes and central Bagira (all central neighbourhoods, plus the city settlement record)",
+   "controller_id": "afc-m23-police",
+   "status": "exclusive",
+   "confidence": "high",
+   "basis": "area_report",
+   "since": "2025-02",
+   "presence": [
+    {
+     "entity_id": "afc-m23-arc",
+     "role": "allied"
+    },
+    {
+     "entity_id": "rwa-rdf",
+     "role": "present"
+    },
+    {
+     "entity_id": "cod-wazalendo",
+     "role": "raiding"
+    }
+   ],
+   "evidence": "AFC/M23 entered Bukavu on 14-16 February 2025 after FARDC withdrawal and has since run it with its own governor, mayor and police (including retrained ex-PNC officers). No report up to the reference date indicates the return of state forces; insecurity is criminal violence and sporadic infiltration incidents that do not challenge M23 policing.",
+   "source_ids": [
+    "s1",
+    "s2",
+    "s3",
+    "s4"
+   ]
+  },
+  {
+   "zone_id": "z2",
+   "description": "Peripheral hillside quarters: Mulege, Cigurhi, Kahero, Burhiba, Mushekere (Bagira, towards Kabare) and Buhozi (southern Ibanda, towards Nyangezi/Ruzizi road)",
+   "controller_id": "afc-m23-arc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "inference",
+   "since": "2025-02",
+   "presence": [
+    {
+     "entity_id": "afc-m23-police",
+     "role": "allied"
+    },
+    {
+     "entity_id": "rwa-rdf",
+     "role": "present"
+    },
+    {
+     "entity_id": "cod-wazalendo",
+     "role": "raiding"
+    }
+   ],
+   "evidence": "These edge quarters border Kabare and Walungu territories where Wazalendo remain active; M23 keeps military positions and conducts search operations there, so the armed wing rather than police is likely the main permanent force. Overall M23 control is not in question. Reviewer note: the split between M23 police (core) and ARC (periphery) is an unsourced inference; both are AFC/M23 sub-forces, so only the sub-force attribution is uncertain, not the controlling actor.",
+   "source_ids": [
+    "s1",
+    "s3"
+   ]
+  }
+ ],
+ "locations": {
+  "cod-35MPT9921_1": "z1",
+  "cod-35MPT9921_1-qYxSR5sXyiS": "z2",
+  "cod-35MPT9921_1-TOzALhkQHC6": "z2",
+  "cod-35MPT9921_1-WQl48KEKCt1": "z2",
+  "cod-35MPT9921_1-DcJ00546Ack": "z1",
+  "cod-35MPT9921_1-ic11P67Y8kr": "z1",
+  "cod-35MPT9921_1-Fxt0EKL6ow2": "z1",
+  "cod-35MPT9921_1-GImtRvXs3KK": "z2",
+  "cod-35MPT9921_1-HHPn65iNS3e": "z1",
+  "cod-35MPT9921_1-Ffo6qXRIuTW": "z2",
+  "cod-35MPT9921_1-ykE6fg8xPzM": "z1",
+  "cod-35MPT9921_1-nqoSqQ5sCcA": "z2",
+  "cod-35MPT9921_1-bxBRPXkSuwA": "z1",
+  "cod-35MPT9921_1-idDNJSvvRIP": "z1",
+  "cod-35MPT9921_1-HsdgF5TWjAm": "z1",
+  "cod-35MPT9921_1-TxwvMSDoh9T": "z1",
+  "cod-35MPT9921_1-BWqbCO3W2Vf": "z1",
+  "cod-35MPT9921_1-cqHyjybmrio": "z1",
+  "cod-35MPT9921_1-D2x9BO0Ejmi": "z1",
+  "cod-35MPT9921_1-pT3PxwCvhAq": "z1",
+  "cod-35MPT9921_1-ZNLiXrKdyVA": "z1",
+  "cod-35MPT9921_1-oEpeNO90coC": "z1",
+  "cod-35MPT9921_1-OTBGW8zgJ4M": "z1",
+  "cod-35MPT9921_1-mH4UiBjYmWb": "z1",
+  "cod-35MPT9921_1-lJbvFtR3Iji": "z1",
+  "cod-35MPT9921_1-R8befvUgY6p": "z1",
+  "cod-35MPT9921_1-KvUJGpUpBB8": "z1",
+  "cod-35MPT9921_1-IqTV5u0hhDr": "z1",
+  "cod-35MPT9921_1-ZljZRCVsB3M": "z1",
+  "cod-35MPT9921_1-I1Lgbx4IvG0": "z1",
+  "cod-35MPT9921_1-DtOHrsboRTg": "z1",
+  "cod-35MPT9921_1-TQvDGRJnQzE": "z1",
+  "cod-35MPT9921_1-ehUaQzhme1X": "z1",
+  "cod-35MPT9921_1-Gl16Aiai7KN": "z1",
+  "cod-35MPT9921_1-bIXxFOFymYZ": "z1",
+  "cod-35MPT9921_1-TwRwNCtQs6M": "z1",
+  "cod-35MPT9921_1-AstsMzuHGIo": "z1",
+  "cod-35MPT9921_1-Ief6YJQNozJ": "z1",
+  "cod-35MPT9921_1-VEZNw17uJzs": "z1",
+  "cod-35MPT9921_1-Y8RKzMp5tFr": "z1",
+  "cod-35MPT9921_1-D7VlticOyQq": "z1",
+  "cod-35MPT9921_1-jSo8rjvatNq": "z1",
+  "cod-35MPT9921_1-xgBe9Lr6BhL": "z1",
+  "cod-35MPT9921_1-M5flB2arF9x": "z1"
+ }
+}

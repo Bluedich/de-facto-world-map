@@ -1,7 +1,7 @@
 {
  "unit_id": "CD6105-lubero",
  "as_of": "2026-10-01",
- "summary": "Lubero territory is split by the AFC/M23 front. AFC/M23 has held southern Lubero (Kayna health zone: Kirumba, Kayna, Kamandi, Luofu, Miriki) since its July 2024 advance from Kanyabayonga, with its own administration in Kirumba-Kayna, and pushed into the southern Alimbongo health zone in 2025, where the front with FARDC/Wazalendo runs around Alimbongo. North of the front, Lubero centre, Kipese and Kitsombiro are held by FARDC with Wazalendo auxiliaries, while the Butembo hinterland (Masereka, Musienene) is under ordinary state police control. The north-west (Bapere: Biena, Manguredjipa) is FARDC-held around the towns but heavily raided by the ADF, and the western highlands are Mai-Mai/Wazalendo country. Live web research was unavailable for this unit (search budget exhausted, sites blocked by the egress proxy), so zones rest on the 2024-2025 record and background knowledge; most zones are low confidence.",
+ "summary": "AFC/M23 holds the southern half of Lubero territory as of October 2026: Kayna health zone (Kirumba-Kayna, which it administers as a 'commune', Kamandi, Luofu, Miriki) since July 2024, and Alimbongo health zone up to Kitsombiro and Kipese since February 2025, plus Lunyasenge on Lake Edward (May 2025) and the Bingi/Bunyatenge area in the south-west; it reinforced these positions in March and July 2026. North of the front FARDC with Wazalendo hold Lubero-centre (seat of the military administrator), the Katondi line and Masereka; Kasugho and the western highlands are Wazalendo-held. Around Musienene and south-east of Butembo the state administration and PNC remain, but Wazalendo militias tax, detain and kill civilians and dominate parts of the rural belt (Kimbulu, Bikindwe, Mutiri). In the north-west (Bapere/Baswagha: Biena, Manguredjipa) FARDC hold the towns while the ADF keep attacking villages (renewed attacks July-August 2026). Reviewed against Actualite.cd reporting from 2025-2026; WebSearch was unavailable, so the eastern Graben line and remote forest zones remain low confidence.",
  "sources": [
   {
    "id": "s1",
@@ -9,6 +9,153 @@
    "title": "Shifting frontlines: visualizing the evolution of the M23's territorial influence in early 2024",
    "publisher": "IPIS",
    "date": "2024"
+  },
+  {
+   "id": "s2",
+   "url": "https://actualite.cd/2025/02/24/m23-au-nord-kivu-statu-quo-sur-la-ligne-de-front-de-lubero-larmee-bouche-les-voies-de",
+   "title": "M23 au Nord-Kivu: statu quo sur la ligne de front de Lubero, l'armée a bouché les voies de débordement des rebelles",
+   "publisher": "Actualite.cd",
+   "date": "2025-02-24"
+  },
+  {
+   "id": "s3",
+   "url": "https://actualite.cd/2025/02/19/rdc-situee-au-moins-30-km-de-lubero-centre-la-localite-de-kitsombiro-passe-sous-controle",
+   "title": "Située à au moins 30 km de Lubero centre, la localité de Kitsombiro passe sous contrôle de l'AFC/M23",
+   "publisher": "Actualite.cd",
+   "date": "2025-02-19"
+  },
+  {
+   "id": "s4",
+   "url": "https://actualite.cd/2025/08/27/lubero-kipese-les-rebelles-de-lafcm23-imposent-une-taxe-aux-habitants-pour-financer",
+   "title": "Lubero : à Kipese, les rebelles de l'AFC/M23 imposent une taxe aux habitants pour financer l'installation d'une station radio",
+   "publisher": "Actualite.cd",
+   "date": "2025-08-27"
+  },
+  {
+   "id": "s5",
+   "url": "https://actualite.cd/2026/03/17/lubero-les-rebelles-de-lafcm23-renforcent-leurs-positions-dans-les-villages-de-mbingi-et",
+   "title": "Lubero : les rebelles de l'AFC/M23 renforcent leurs positions dans les villages de Mbingi et Bunyatenge",
+   "publisher": "Actualite.cd",
+   "date": "2026-03-17"
+  },
+  {
+   "id": "s6",
+   "url": "https://actualite.cd/2026/07/08/nord-kivu-des-renforts-de-lafcm23-ravivent-la-peur-dune-nouvelle-escalade-des-combats",
+   "title": "Nord-Kivu : des renforts de l'AFC/M23 ravivent la peur d'une nouvelle escalade des combats dans le sud de Lubero",
+   "publisher": "Actualite.cd",
+   "date": "2026-07-08"
+  },
+  {
+   "id": "s7",
+   "url": "https://actualite.cd/2026/08/06/lubero-detention-par-lafcm23-des-cinq-personnes-dont-un-infirmier-de-kirumba-accusees-de",
+   "title": "Lubero : détention par l'AFC/M23 de cinq personnes dont un infirmier de Kirumba",
+   "publisher": "Actualite.cd",
+   "date": "2026-08-06"
+  },
+  {
+   "id": "s8",
+   "url": "https://actualite.cd/2026/09/04/lubero-kayna-sous-occupation-de-lafcm23-enregistre-son-premier-cas-debola",
+   "title": "Lubero : Kayna, sous occupation de l'AFC/M23, enregistre son premier cas d'Ebola",
+   "publisher": "Actualite.cd",
+   "date": "2026-09-04"
+  },
+  {
+   "id": "s9",
+   "url": "https://actualite.cd/2026/04/01/lubero-arrestation-de-deux-responsables-de-la-fec-miriki-par-les-rebelles-de-lafcm23-les",
+   "title": "Lubero : arrestation de deux responsables de la FEC à Miriki par les rebelles de l'AFC/M23",
+   "publisher": "Actualite.cd",
+   "date": "2026-04-01"
+  },
+  {
+   "id": "s10",
+   "url": "https://actualite.cd/2025/05/04/rdc-lafcm23-avance-vers-le-nord-du-lac-edouard-et-prend-le-controle-de-lunyasenge",
+   "title": "RDC : L'AFC/M23 avance vers le Nord du lac Édouard et prend le contrôle de Lunyasenge",
+   "publisher": "Actualite.cd",
+   "date": "2025-05-04"
+  },
+  {
+   "id": "s11",
+   "url": "https://actualite.cd/2026/01/23/walikale-frappes-de-drone-de-larmee-sur-les-rebelles-de-lafcm23-buleusa",
+   "title": "Walikale : frappes de drone de l'armée sur les rebelles de l'AFC/M23 à Buleusa",
+   "publisher": "Actualite.cd",
+   "date": "2026-01-23"
+  },
+  {
+   "id": "s12",
+   "url": "https://actualite.cd/2026/08/04/walikale-des-habitants-de-buleusa-denoncent-un-pillage-nocturne-attribue-aux-wazalendo",
+   "title": "Walikale : des habitants de Buleusa dénoncent un pillage nocturne attribué aux wazalendo",
+   "publisher": "Actualite.cd",
+   "date": "2026-08-04"
+  },
+  {
+   "id": "s13",
+   "url": "https://actualite.cd/2025/03/07/nord-kivu-sans-combat-le-m23-se-retire-de-kasugho-et-prend-la-direction-de-bunyatenge",
+   "title": "Nord-Kivu: sans combat, le M23 se retire de Kasugho et prend la direction de Bunyatenge",
+   "publisher": "Actualite.cd",
+   "date": "2025-03-07"
+  },
+  {
+   "id": "s14",
+   "url": "https://actualite.cd/2026/02/19/lubero-des-taxes-illegales-imposees-par-les-miliciens-wazalendo-aux-populations",
+   "title": "Lubero : des taxes illégales imposées par les miliciens wazalendo aux populations déplacées à Musienene",
+   "publisher": "Actualite.cd",
+   "date": "2026-02-19"
+  },
+  {
+   "id": "s15",
+   "url": "https://actualite.cd/2026/02/10/lubero-un-homme-meurt-en-detention-dans-un-cachot-apres-des-tortures-infligees-par-des",
+   "title": "Lubero : un homme meurt en détention dans un cachot après des tortures infligées par des miliciens wazalendo à Musimba",
+   "publisher": "Actualite.cd",
+   "date": "2026-02-10"
+  },
+  {
+   "id": "s16",
+   "url": "https://actualite.cd/2026/05/05/lubero-colere-apres-le-meurtre-de-deux-civils-tues-par-des-miliciens-wazalendo-kimbulu",
+   "title": "Lubero : colère après le meurtre de deux civils tués par des miliciens wazalendo à Kimbulu",
+   "publisher": "Actualite.cd",
+   "date": "2026-05-05"
+  },
+  {
+   "id": "s17",
+   "url": "https://actualite.cd/2026/01/20/lubero-une-position-des-fardc-incendiee-par-les-miliciens-wazalendo-misevere",
+   "title": "Lubero : une position des FARDC incendiée par les miliciens wazalendo à Misevere",
+   "publisher": "Actualite.cd",
+   "date": "2026-01-20"
+  },
+  {
+   "id": "s18",
+   "url": "https://actualite.cd/2026/07/23/lubero-alerte-sur-un-retour-des-adf-dans-le-secteur-des-bapere",
+   "title": "Lubero : alerte sur un retour des ADF dans le secteur des Bapere",
+   "publisher": "Actualite.cd",
+   "date": "2026-07-23"
+  },
+  {
+   "id": "s19",
+   "url": "https://actualite.cd/2026/08/05/lubero-des-deplacements-des-populations-signales-sur-laxe-kambau-njiapanda-apres-des",
+   "title": "Lubero : des déplacements des populations signalés sur l'axe Kambau-Njiapanda après des alertes sur des mouvements présumés des ADF",
+   "publisher": "Actualite.cd",
+   "date": "2026-08-05"
+  },
+  {
+   "id": "s20",
+   "url": "https://actualite.cd/2026/05/25/lubero-trois-policiers-de-la-pcr-tues-par-des-hommes-armes-kirima",
+   "title": "Lubero : trois policiers de la PCR tués par des hommes armés à Kirima",
+   "publisher": "Actualite.cd",
+   "date": "2026-05-25"
+  },
+  {
+   "id": "s21",
+   "url": "https://actualite.cd/2026/08/20/lubero-leffondrement-du-pont-105-paralyse-le-trafic-entre-manguredjipa-et-bandulu",
+   "title": "Lubero : l'effondrement du pont 105 paralyse le trafic entre Manguredjipa et Bandulu",
+   "publisher": "Actualite.cd",
+   "date": "2026-08-20"
+  },
+  {
+   "id": "s22",
+   "url": "https://actualite.cd/2026/09/18/beni-kyavinyonge-nouvelle-entite-touchee-par-ebola-apres-un-deces-confirme",
+   "title": "Beni : Kyavinyonge, nouvelle entité touchée par Ebola après un décès confirmé",
+   "publisher": "Actualite.cd",
+   "date": "2026-09-18"
   }
  ],
  "new_entities": [],
@@ -18,8 +165,8 @@
    "description": "Kirumba-Kayna urban agglomeration (Kayna records, Kirumba, Kasando, Bulinda, Itsu, Katero neighbourhoods)",
    "controller_id": "afc-m23-police",
    "status": "dominant",
-   "confidence": "medium",
-   "basis": "area_report",
+   "confidence": "high",
+   "basis": "specific_report",
    "since": "2024-07",
    "presence": [
     {
@@ -31,9 +178,12 @@
      "role": "raiding"
     }
    ],
-   "evidence": "After taking Kanyabayonga (late June 2024) AFC/M23 advanced into southern Lubero and took Kirumba, Kayna and the surrounding Kayna health zone in July 2024, installing its own administration; it extended its hold further after the 2025 offensives. Wazalendo carry out sporadic attacks on the periphery. Not verified against 2026 reporting: web research was unavailable for this run (search budget exhausted, news/monitoring sites egress-blocked).",
+   "evidence": "AFC/M23 took Kirumba and Kayna in July 2024 and still administers them in 2026: it set up a 'commune de Kirumba', detained Kirumba notables in July-August 2026 and holds detainees brought from Miriki there; Actualite.cd describes Kayna HZ as 'sous occupation de l'AFC/M23' in September 2026. Policing/arrests are by M23 structures, backed by ARC troops.",
    "source_ids": [
-    "s1"
+    "s1",
+    "s7",
+    "s8",
+    "s9"
    ]
   },
   {
@@ -50,18 +200,20 @@
      "role": "raiding"
     }
    ],
-   "evidence": "Villages around Kirumba/Kayna, the Kamandi lakeshore and Luofu fell to AFC/M23 during the June-July 2024 push into southern Lubero and have been M23 rear areas since, with Wazalendo incursions. Not verified against 2026 reporting: web research was unavailable for this run (search budget exhausted, news/monitoring sites egress-blocked).",
+   "evidence": "Kayna health zone (incl. Kamandi lakeshore and Luofu) has been M23-held since the July 2024 push into southern Lubero and was still described as under AFC/M23 occupation in September 2026; M23 used the Kamandi Gite fishing camp to attack Lunyasenge in May 2025. Wazalendo carry out incursions.",
    "source_ids": [
-    "s1"
+    "s1",
+    "s8",
+    "s10"
    ]
   },
   {
    "zone_id": "z3",
    "description": "Western Kayna HZ toward Walikale/Bwito: Miriki (Kasungwa, Kaghumo), Mulinde (Kimaka, Katsinga), Busekera (Luvika), Kanyatsi",
    "controller_id": "afc-m23-arc",
-   "status": "contested",
-   "confidence": "low",
-   "basis": "inference",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "specific_report",
    "since": "2024-07",
    "presence": [
     {
@@ -73,40 +225,49 @@
      "role": "present"
     }
    ],
-   "evidence": "Miriki and Luofu were taken by M23 in July 2024, but the hills west of the Kanyabayonga-Kirumba road are a Wazalendo stronghold area (Mai-Mai/UPLC and NDC-R remnants) with recurrent clashes; control is assessed as M23 along the axes and contested in the hinterland. Not verified against 2026 reporting: web research was unavailable for this run (search budget exhausted, news/monitoring sites egress-blocked).",
+   "evidence": "AFC/M23 controls Miriki: on 31 March 2026 it arrested the local FEC president and vice-president there and transferred them to Kirumba. The hills west of the Kanyabayonga-Kirumba road toward Walikale/Bwito see Wazalendo activity and clashes, so the hinterland is less secure than the axis.",
    "source_ids": [
-    "s1"
+    "s1",
+    "s9"
    ]
   },
   {
    "zone_id": "z4",
    "description": "Buleusa (Pinga HZ, Walikale border)",
-   "controller_id": "cod-wazalendo",
+   "controller_id": "afc-m23-arc",
    "status": "contested",
-   "confidence": "low",
-   "basis": "inference",
-   "since": null,
+   "confidence": "medium",
+   "basis": "specific_report",
+   "since": "2025-09",
    "presence": [
     {
-     "entity_id": "afc-m23-arc",
+     "entity_id": "cod-wazalendo",
      "role": "contesting"
+    },
+    {
+     "entity_id": "cod-fardc",
+     "role": "raiding"
     },
     {
      "entity_id": "ndc-r",
      "role": "present"
     }
    ],
-   "evidence": "Buleusa sits on the Lubero-Walikale border in an area historically held by NDC-R/Mai-Mai factions now operating as Wazalendo, and lies close to the M23-held Bwito/Kayna fringe; no specific 2026 report. Not verified against 2026 reporting: web research was unavailable for this run (search budget exhausted, news/monitoring sites egress-blocked).",
-   "source_ids": []
+   "evidence": "AFC/M23 has a camp at Buleusa (reinforced September 2025, hit by a FARDC drone strike in January 2026, again reinforced in July 2026 per Lubero civil society); Wazalendo raid the locality at night (August 2026 pillage). Consistent with the adjacent Walikale assessment, which gives the Buleusa/Kateku axis to M23.",
+   "source_ids": [
+    "s6",
+    "s11",
+    "s12"
+   ]
   },
   {
    "zone_id": "z5",
    "description": "Southern Alimbongo HZ (frontline belt north of Kayna): Kikyo/Bukyembimbe, Taliha, Ngekeni, Lunyasenge, Matembe, Kivako, Luseke HA (Kyaramba, Kivasighamwagha), Kasingiri, Bingi (Vulandira), Kiribata/Kalemba, Vutsorovia",
    "controller_id": "afc-m23-arc",
-   "status": "contested",
-   "confidence": "low",
-   "basis": "inference",
-   "since": "2025-01",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "area_report",
+   "since": "2025-02",
    "presence": [
     {
      "entity_id": "cod-wazalendo",
@@ -117,17 +278,22 @@
      "role": "contesting"
     }
    ],
-   "evidence": "From late 2024 the M23-FARDC/Wazalendo front ran through southern Alimbongo HZ (Kikyo, Matembe, Bingi, Alimbongo), with M23 pushing north in early 2025; this belt is assessed as mostly M23-held but disputed by Wazalendo. Not verified against 2026 reporting: web research was unavailable for this run (search budget exhausted, news/monitoring sites egress-blocked).",
-   "source_ids": []
+   "evidence": "The belt between Kayna and Alimbongo has been behind the M23 front since its February 2025 advance to Kitsombiro/Kipese; M23 took Lunyasenge on the Lake Edward shore on 2 May 2025 and in March/July 2026 reinforced Mbingi (Bingi, chief town of the Batangi chefferie, 17 km west of Alimbongo). Wazalendo/Mai-Mai still attack in the area.",
+   "source_ids": [
+    "s3",
+    "s5",
+    "s6",
+    "s10"
+   ]
   },
   {
    "zone_id": "z6",
    "description": "Alimbongo town area (Mutetso, Mambasa, Kivambiro/Kalimba)",
    "controller_id": "afc-m23-arc",
-   "status": "unclear",
-   "confidence": "low",
-   "basis": "inference",
-   "since": null,
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "specific_report",
+   "since": "2025-02",
    "presence": [
     {
      "entity_id": "cod-wazalendo",
@@ -138,16 +304,19 @@
      "role": "contesting"
     }
    ],
-   "evidence": "Alimbongo has been the pivot of the Lubero front since late 2024 and changed hands/was fought over repeatedly; current holder could not be verified. Not verified against 2026 reporting: web research was unavailable for this run (search budget exhausted, news/monitoring sites egress-blocked).",
-   "source_ids": []
+   "evidence": "Alimbongo lies south of Kitsombiro/Kipese, which M23 has held since February 2025, and Lubero civil society listed Alimbongo among the M23 front positions reinforced in early July 2026. Some displaced people were reported to shelter in Alimbongo, so civilian life continues under M23 control.",
+   "source_ids": [
+    "s3",
+    "s6"
+   ]
   },
   {
    "zone_id": "z7",
-   "description": "Lubero centre and northern Alimbongo/Lubero HZ: Lubero cité (Kasalala, Kyahali, Ivingu), Kipese/Vungeya, Kasanga, Kisesa, Viringa, Kasima, Baraka, Kaviseghe, Kirikiri, Kitsombiro (Kamahula), Kilonge, Ndoluma, Kiviriri (Antrade), Vukendo, Mubana, Kisaka, Kaghuli, Katolo, Vunyakondomi, Kakonze",
+   "description": "Lubero centre and the area north of the Kipese-Kitsombiro front: Lubero cité (Kasalala, Kyahali, Ivingu), Kakonze, Vunyakondomi/Kasanga, Baraka (Luseke), Kasima (Viringa/Katondi, Kisesa), Katolo",
    "controller_id": "cod-fardc",
    "status": "dominant",
-   "confidence": "low",
-   "basis": "inference",
+   "confidence": "medium",
+   "basis": "area_report",
    "since": null,
    "presence": [
     {
@@ -163,50 +332,62 @@
      "role": "raiding"
     }
    ],
-   "evidence": "The Lubero-Kipese-Kitsombiro area is the FARDC's rear defence line protecting Butembo, with Wazalendo auxiliaries and police in Lubero cité; M23 shelling/raids and Wazalendo indiscipline are reported near the front. Not verified against 2026 reporting: web research was unavailable for this run (search budget exhausted, news/monitoring sites egress-blocked).",
-   "source_ids": []
+   "evidence": "Since February 2025 FARDC (with Wazalendo) hold the routes from the M23-held Kipese/Kitsombiro toward Lubero-centre and Masereka (the FARDC 'wall' at Katondi, 5 km north of Kitsombiro). Lubero-centre is the seat of the military territorial administrator and hosts displaced people; Wazalendo indiscipline (e.g. killings at Kimbulu, May 2026) causes tension.",
+   "source_ids": [
+    "s2",
+    "s3",
+    "s16"
+   ]
   },
   {
    "zone_id": "z8",
-   "description": "Western Lubero highlands: Bunyatenge, Muhanga, Ngumba (Fatua), Vulambo, Kavatende/Kagheri, Katoyo/Kasugho",
+   "description": "Western Lubero highlands north of the M23 zone: Kavatende/Kagheri, Vulambo, Katoyo/Kasugho, Ngumba (Fatua)",
    "controller_id": "cod-wazalendo",
    "status": "dominant",
    "confidence": "low",
-   "basis": "inference",
+   "basis": "area_report",
    "since": null,
    "presence": [
-    {
-     "entity_id": "mm-mazembe",
-     "role": "present"
-    },
     {
      "entity_id": "cod-fardc",
      "role": "allied"
-    }
-   ],
-   "evidence": "The remote western groupements of Bapakombe/Batangi toward Walikale have little state presence and are areas of Mai-Mai (Mazembe/UPLC and other) groups now aligned as Wazalendo. Not verified against 2026 reporting: web research was unavailable for this run (search budget exhausted, news/monitoring sites egress-blocked).",
-   "source_ids": []
-  },
-  {
-   "zone_id": "z9",
-   "description": "Masereka (incl. neighbourhoods), Musienene HZ and Butembo hinterland: Kibwa/Kimbulu, Mutiri, Kanyatsi (Rwese), Mukonga, Musienene villages, Kitakakisa",
-   "controller_id": "cod-pnc",
-   "status": "dominant",
-   "confidence": "medium",
-   "basis": "default_state_presence",
-   "since": null,
-   "presence": [
-    {
-     "entity_id": "cod-fardc",
-     "role": "present"
     },
     {
-     "entity_id": "mm-mazembe",
+     "entity_id": "afc-m23-arc",
      "role": "raiding"
     }
    ],
-   "evidence": "Densely populated Nande highlands around Butembo/Musienene/Masereka remain under state administration with police posts and FARDC nearby; Mai-Mai/Wazalendo elements commit occasional attacks but do not hold the towns. Not verified against 2026 reporting: web research was unavailable for this run (search budget exhausted, news/monitoring sites egress-blocked).",
-   "source_ids": []
+   "evidence": "Wazalendo retook Kasugho after a brief M23 occupation in March 2025 and the local state delegate said Wazalendo control it; in July 2026 displaced people fled toward Kasugho as a safer place. State presence is thin (a P-DDRCS demobilisation point operates in Kasugho). Ngumba (far west, Fatua) is unverified.",
+   "source_ids": [
+    "s6",
+    "s13"
+   ]
+  },
+  {
+   "zone_id": "z9",
+   "description": "Musienene HZ villages and Butembo hinterland west/south of Butembo (Musienene chefferie centre, Ngoma, Mabambi, Mukongo, Vusamba, Vughalihya, Masumo, Bufundi Kivwa/Ivatama)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "area_report",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-wazalendo",
+     "role": "contesting"
+    },
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Baswagha chefferie (Musienene) keeps its state administration and police, but Wazalendo militias are entrenched: they tax displaced people, run a clandestine cell at Musimba (a detainee died there in February 2026), burned abandoned FARDC positions (January 2026), and killed PCR police at Kirima (May 2026, suspected). The PNC is kept as controller of the denser localities with low confidence.",
+   "source_ids": [
+    "s14",
+    "s15",
+    "s17",
+    "s20"
+   ]
   },
   {
    "zone_id": "z10",
@@ -214,7 +395,7 @@
    "controller_id": "cod-fardc",
    "status": "dominant",
    "confidence": "low",
-   "basis": "inference",
+   "basis": "area_report",
    "since": null,
    "presence": [
     {
@@ -226,8 +407,11 @@
      "role": "present"
     }
    ],
-   "evidence": "Kyavinyonge and the northern Lake Edward shore lie inside Virunga NP with FARDC/navy and ICCN posts; Mai-Mai groups have long been active along the shore, and M23 holds the southern shore (Vitshumbi). Not verified against 2026 reporting: web research was unavailable for this run (search budget exhausted, news/monitoring sites egress-blocked).",
-   "source_ids": []
+   "evidence": "Kyavinyonge (Makoma) on the north shore of Lake Edward is a government-held fishing town: FARDC officers reorganised troops there after M23 took Lunyasenge in May 2025, and health services/Ebola response operate normally in 2026. Mai-Mai have long been active along the shore.",
+   "source_ids": [
+    "s10",
+    "s22"
+   ]
   },
   {
    "zone_id": "z11",
@@ -251,8 +435,10 @@
      "role": "present"
     }
    ],
-   "evidence": "North-western Lubero is the southern edge of the ADF operating area; ADF massacres have hit Bapere/Biena villages repeatedly since 2024, while FARDC (with UPDF in joint Shujaa operations) hold the main localities. Not verified against 2026 reporting: web research was unavailable for this run (search budget exhausted, news/monitoring sites egress-blocked).",
-   "source_ids": []
+   "evidence": "North-western Lubero is the southern edge of the ADF operating area; ADF attacks hit Baswagha/Bapere villages repeatedly (Biambwe hospital attack Nov 2025; Mwenye returns in 2026 but schools still closed in September 2026), while FARDC hold the main localities. Wazalendo also present.",
+   "source_ids": [
+    "s18"
+   ]
   },
   {
    "zone_id": "z12",
@@ -272,17 +458,44 @@
      "role": "present"
     }
    ],
-   "evidence": "Manguredjipa (Bapere secteur) hosts FARDC positions but the area has seen repeated ADF attacks and killings in 2024-2025 as the group shifted into western Lubero. Not verified against 2026 reporting: web research was unavailable for this run (search budget exhausted, news/monitoring sites egress-blocked).",
-   "source_ids": []
+   "evidence": "Manguredjipa (Bapere secteur) hosts FARDC positions and a functioning trading centre, but the ADF repeatedly attack the area (September 2025 massacre near Manguredjipa; July-August 2026 attacks in Bapakombe groupement at Makumo, displacement from Kambau and Pawanza).",
+   "source_ids": [
+    "s18",
+    "s19"
+   ]
   },
   {
    "zone_id": "z13",
    "description": "Remote western forest of Manguredjipa HZ: Ombole, Midede, Kivuko, Bandulu, Isange, Mabuo",
-   "controller_id": "adf",
-   "status": "contested",
+   "controller_id": "cod-fardc",
+   "status": "unclear",
    "confidence": "low",
    "basis": "inference",
    "since": null,
+   "presence": [
+    {
+     "entity_id": "adf",
+     "role": "raiding"
+    },
+    {
+     "entity_id": "cod-wazalendo",
+     "role": "present"
+    }
+   ],
+   "evidence": "Forest villages west of Manguredjipa toward Walikale/Bafwasende have negligible state presence and lie in ADF movement corridors; the ADF raids and moves through but is not reported to hold or administer villages, and civilian traffic Manguredjipa-Bandulu continued until a bridge collapse in August 2026. Controller is a weak default.",
+   "source_ids": [
+    "s19",
+    "s21"
+   ]
+  },
+  {
+   "zone_id": "z14",
+   "description": "Kipese-Kitsombiro front belt and eastern Graben villages behind the M23 line: Kipese (Vungeya, Katambi), Kitsombiro (Kamahula), Kilonge, Ndoluma (Kasoko), Kaviseghe, Kirikiri (Kangwangi, Kasisi), Katetsa, Vukendo (Kavingu), Kiviriri (Antrade)",
+   "controller_id": "afc-m23-arc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "specific_report",
+   "since": "2025-02",
    "presence": [
     {
      "entity_id": "cod-fardc",
@@ -290,11 +503,113 @@
     },
     {
      "entity_id": "cod-wazalendo",
+     "role": "contesting"
+    }
+   ],
+   "evidence": "AFC/M23 took Kitsombiro on 19 Feb 2025 and Kipese on 21 Feb 2025 and has held them since: it taxes Kipese households, launched a radio there (Sept 2025), held a meeting there in March 2026, and reinforced Kitsombiro in July 2026. FARDC/Wazalendo hold the line just north (Katondi) and toward Masereka; villages south of Kipese (Kilonge, Ndoluma, Kirikiri) and the southern Graben escarpment are behind the M23 line (M23 reported occupying many villages on the southern east-Graben side, March 2026). Katetsa and Kaviseghe sit on the line itself.",
+   "source_ids": [
+    "s2",
+    "s3",
+    "s4",
+    "s5",
+    "s6"
+   ]
+  },
+  {
+   "zone_id": "z15",
+   "description": "Eastern Lubero HZ toward the Graben, between the front and Masereka: Mubana (Kinyatsi), Kisaka (Kivingu, Du Lac), Kaghuli (Kalingate, Kilangala)",
+   "controller_id": "cod-fardc",
+   "status": "contested",
+   "confidence": "low",
+   "basis": "inference",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-wazalendo",
+     "role": "allied"
+    },
+    {
+     "entity_id": "afc-m23-arc",
+     "role": "contesting"
+    }
+   ],
+   "evidence": "These eastern health areas lie level with or just north of Kipese on the escarpment above the Graben; M23's 2025 attempt to break out from Kipese toward Masereka (Kasinjwe) was blocked by FARDC/Wazalendo, but M23 holds villages further south on the east-Graben side. Exact line not verified.",
+   "source_ids": [
+    "s2",
+    "s5"
+   ]
+  },
+  {
+   "zone_id": "z16",
+   "description": "Masereka agglomeration and surrounding health areas (Masereka, Kaniyi, Ikuvula, Vusitoro, Nyabili, Kitsimba, Miringate/Mukonga)",
+   "controller_id": "cod-fardc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "area_report",
+   "since": "2025-02",
+   "presence": [
+    {
+     "entity_id": "cod-pnc",
+     "role": "present"
+    },
+    {
+     "entity_id": "cod-wazalendo",
+     "role": "allied"
+    },
+    {
+     "entity_id": "afc-m23-arc",
+     "role": "raiding"
+    }
+   ],
+   "evidence": "Masereka is the rear position covering the road to Butembo: FARDC and allied Wazalendo deployed there blocked M23's February 2025 offensive from Kipese via Kasinjwe. Police and administration function, but the army is the main security force this close to the front.",
+   "source_ids": [
+    "s2"
+   ]
+  },
+  {
+   "zone_id": "z17",
+   "description": "Wazalendo-dominated rural belt south-east of Butembo: Kimbulu (Kibwa), Bikindwe (Mumole), Rwese (Kanyatsi/Kirirya), Ikuvula-Mutiri, Bweteta (Kibwa), Munoli/Vusa villages",
+   "controller_id": "cod-wazalendo",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "specific_report",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "allied"
+    },
+    {
+     "entity_id": "cod-pnc",
      "role": "present"
     }
    ],
-   "evidence": "Forest villages west of Manguredjipa toward Walikale/Bafwasende have negligible state presence and lie in the corridor ADF has used since moving west; control is unclear. Not verified against 2026 reporting: web research was unavailable for this run (search budget exhausted, news/monitoring sites egress-blocked).",
-   "source_ids": []
+   "evidence": "Wazalendo militias tax displaced people and charcoal/wood producers in Vikindwe, Vulimira, Kirirya and Mutiri (Feb 2026), keep a camp at Kimbulu where they killed two civilians in May 2026, and run barriers; FARDC positions in eastern Baswagha were vacated in January 2026. The specific Wazalendo group is not identified.",
+   "source_ids": [
+    "s14",
+    "s16",
+    "s17"
+   ]
+  },
+  {
+   "zone_id": "z18",
+   "description": "Bunyatenge and Muhanga (Bunyatenge HA, south-west Lubero gold area)",
+   "controller_id": "afc-m23-arc",
+   "status": "contested",
+   "confidence": "medium",
+   "basis": "specific_report",
+   "since": "2025-03",
+   "presence": [
+    {
+     "entity_id": "cod-wazalendo",
+     "role": "contesting"
+    }
+   ],
+   "evidence": "M23 moved to Bunyatenge after leaving Kasugho in March 2025 (a gold-mining area and stronghold of the FPP/AP Mai-Mai of Kabido) and in March 2026 was reported reinforcing its positions there, in the south-west of Lubero where it has occupied villages for months. Mai-Mai/Wazalendo remain active in the surrounding forest.",
+   "source_ids": [
+    "s5",
+    "s13"
+   ]
   }
  ],
  "locations": {
@@ -312,11 +627,11 @@
   "cod-35MQV4953_2": "z5",
   "cod-35MQV5030_2": "z2",
   "cod-35MQV2740_2": "z3",
-  "cod-35MQV1151_1": "z8",
+  "cod-35MQV1151_1": "z18",
   "cod-35MQV5635_1": "z2",
   "cod-35MQV4156_1": "z5",
   "cod-35MQV5738_1": "z2",
-  "cod-35MQV1253_1": "z8",
+  "cod-35MQV1253_1": "z18",
   "cod-35MQV5842_1": "z5",
   "cod-35MQV3035_3": "z2",
   "cod-35MQV4850_1": "z5",
@@ -336,63 +651,63 @@
   "cod-35MQV4338_1-lOW1mVepUbe": "z1",
   "cod-35MQV4338_1-a2ESdYhlPLP": "z1",
   "cod-35MQV4338_1-teldpfXqm5o": "z1",
-  "cod-35MQV6183_2": "z9",
+  "cod-35MQV6183_2": "z16",
   "cod-35MQV8483_1": "z10",
-  "cod-35MQV4893_2": "z9",
+  "cod-35MQV4893_2": "z17",
   "cod-35MRV0090_1": "z10",
-  "cod-35MQV7279_1": "z9",
-  "cod-35NQA5301_1": "z9",
-  "cod-35MQV5495_3": "z9",
-  "cod-35MQV5699_2": "z9",
-  "cod-35MQV6183_2-TafsjjL0dr5": "z9",
-  "cod-35MQV6183_2-gxf9exfn3no": "z9",
-  "cod-35MQV6183_2-scuYEgOg7F9": "z9",
-  "cod-35MQV4470_1": "z7",
-  "cod-35MQV5473_1": "z7",
+  "cod-35MQV7279_1": "z16",
+  "cod-35NQA5301_1": "z17",
+  "cod-35MQV5495_3": "z17",
+  "cod-35MQV5699_2": "z17",
+  "cod-35MQV6183_2-TafsjjL0dr5": "z16",
+  "cod-35MQV6183_2-gxf9exfn3no": "z16",
+  "cod-35MQV6183_2-scuYEgOg7F9": "z16",
+  "cod-35MQV4470_1": "z14",
+  "cod-35MQV5473_1": "z14",
   "cod-35MQV2271_1": "z8",
-  "cod-35MQV4766_4": "z7",
+  "cod-35MQV4766_4": "z14",
   "cod-35MQV5677_2": "z7",
   "cod-35MQV4973_2": "z7",
   "cod-35MQV3273_1": "z8",
   "cod-35MQV3959_1": "z6",
   "cod-35MQV5758_1": "z6",
-  "cod-35MQV4168_2": "z7",
+  "cod-35MQV4168_2": "z14",
   "cod-35MQV5755_3": "z5",
   "cod-35MQV2470_1": "z8",
-  "cod-35MQV5568_3": "z7",
-  "cod-35MQV5367_5": "z7",
+  "cod-35MQV5568_3": "z14",
+  "cod-35MQV5367_5": "z14",
   "cod-35MQV3679_1": "z7",
   "cod-35MQV5275_2": "z7",
   "cod-35MQV4062_1": "z6",
-  "cod-35MQV5962_1": "z7",
+  "cod-35MQV5962_1": "z14",
   "cod-35MQV4356_1": "z5",
-  "cod-35MQV5171_2": "z7",
+  "cod-35MQV5171_2": "z14",
   "cod-35MQV5953_1": "z5",
   "cod-35MQV5084_2": "z7",
-  "cod-35MQV6158_1": "z7",
-  "cod-35MQV6867_2": "z7",
+  "cod-35MQV6158_1": "z14",
+  "cod-35MQV6867_2": "z15",
   "cod-35MQV6350_1": "z5",
   "cod-35MQV4674_1": "z7",
   "cod-35MQV4785_3": "z7",
-  "cod-35MQV7268_1": "z7",
-  "cod-35MQV6662_1": "z7",
+  "cod-35MQV7268_1": "z15",
+  "cod-35MQV6662_1": "z14",
   "cod-35MQV7277_1": "z7",
-  "cod-35MQV7072_1": "z7",
+  "cod-35MQV7072_1": "z15",
   "cod-35MQV5480_4": "z7",
-  "cod-35MQV5871_3": "z7",
+  "cod-35MQV5871_3": "z14",
   "cod-35MQV4078_3": "z7",
-  "cod-35MQV7169_2": "z7",
-  "cod-35MQV6872_1": "z7",
+  "cod-35MQV7169_2": "z15",
+  "cod-35MQV6872_1": "z15",
   "cod-35MQV5078_2": "z7",
-  "cod-35MQV6183_2-rbyDgUAUMIh": "z9",
-  "cod-35MQV6183_2-VdHLrPouBLs": "z9",
-  "cod-35MQV6183_2-NCIGqRXJJEv": "z9",
+  "cod-35MQV6183_2-rbyDgUAUMIh": "z16",
+  "cod-35MQV6183_2-VdHLrPouBLs": "z16",
+  "cod-35MQV6183_2-NCIGqRXJJEv": "z16",
   "cod-35NQA5002_1": "z9",
   "cod-35NQA2706_2": "z9",
   "cod-35NQA3302_1": "z9",
   "cod-35NQA4001_1": "z9",
   "cod-35NQA4607_2": "z9",
-  "cod-35NQA5007_1": "z9",
+  "cod-35NQA5007_1": "z17",
   "cod-35NQA3608_2": "z9",
   "cod-35NQA3909_1": "z9",
   "cod-35NQA4311_1": "z9",
@@ -403,7 +718,7 @@
   "cod-35MQV3896_1": "z9",
   "cod-35MQV3595_1": "z9",
   "cod-35NQA3700_1": "z9",
-  "cod-35NQA4105_1": "z9",
+  "cod-35NQA4105_1": "z17",
   "cod-35NQA3108_3": "z9",
   "cod-35NQA4610_4": "z9",
   "cod-35NQA4315_4": "z11",

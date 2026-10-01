@@ -1,0 +1,263 @@
+{
+ "unit_id": "CD6208-uvira",
+ "as_of": "2026-10-01",
+ "summary": "Uvira territory is the southern front between AFC/M23 and the government camp in Sud-Kivu. After taking Bukavu and Kamanyola in February 2025, M23 held the northern Ruzizi plain while Wazalendo (Bafuliiru/Babembe Mai-Mai), FARDC and Burundian FDNB troops held Uvira city, where Wazalendo frequently overrode FARDC command. In a December 2025 offensive M23 swept down the plain (Luvungi, Sange, Kiliba) and entered Uvira around 10 December 2025, then announced and carried out a withdrawal from the city under US pressure in December 2025–January 2026, after which Wazalendo and returning state forces re-occupied it. As of the reference date the city and southern plain are assessed as Wazalendo-dominated but contested and fragile, the northern plain toward Kamanyola as M23-held, the Bafuliiru mid-plateaux (Lemera, Langala, Ndolera) as Wazalendo/Mai-Mai areas and the Banyamulenge high plateaux (Mulenge, Rubuga/Kitoga) as Twirwaneho areas allied to M23. Confidence is low throughout. Live web research was impossible for this unit (search budget exhausted, news/UN sites blocked by the egress proxy); assessment rests on background knowledge up to mid-2026 and should be re-checked. Review (2026-10-01): the reviewer could not run independent web research either (search budget exhausted; Wikipedia, ReliefWeb, Actualite.cd and Bing blocked by the egress proxy), so zones were checked only for internal and geographic consistency against neighbouring Walungu and Fizi assessments; no controller changes were made and all zones remain low confidence.",
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://en.wikipedia.org/wiki/M23_campaign_(2022%E2%80%93present)",
+   "title": "M23 campaign (2022–present)",
+   "publisher": "Wikipedia",
+   "date": null
+  },
+  {
+   "id": "s2",
+   "url": "https://en.wikipedia.org/wiki/Uvira",
+   "title": "Uvira",
+   "publisher": "Wikipedia",
+   "date": null
+  },
+  {
+   "id": "s3",
+   "url": "https://www.reuters.com/world/africa/",
+   "title": "Reuters Africa coverage of the M23 capture of Uvira (Dec 2025) and announced withdrawal",
+   "publisher": "Reuters",
+   "date": "2025-12-17"
+  },
+  {
+   "id": "s4",
+   "url": "https://kivusecurity.org/",
+   "title": "Kivu Security Tracker (Uvira territory armed groups: Mai-Mai/Wazalendo, Twirwaneho, RED-Tabara)",
+   "publisher": "Kivu Security Tracker / GEC",
+   "date": null
+  }
+ ],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Uvira city (all neighbourhoods/health areas of Uvira HZ) and contiguous lakeshore settlements Kagando, Kahorohoro, Kabimba, Katoso",
+   "controller_id": "cod-wazalendo",
+   "status": "contested",
+   "confidence": "low",
+   "basis": "inference",
+   "since": "2026-01",
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "allied"
+    },
+    {
+     "entity_id": "cod-pnc",
+     "role": "present"
+    },
+    {
+     "entity_id": "afc-m23-arc",
+     "role": "contesting"
+    },
+    {
+     "entity_id": "bdi-fdnb",
+     "role": "allied"
+    }
+   ],
+   "evidence": "In 2025 Wazalendo groups were the dominant armed presence in Uvira, imposing city shutdowns and blocking FARDC appointments; M23 entered the city around 10 December 2025 and then withdrew under US pressure in December 2025–January 2026, after which Wazalendo re-entered and state forces partially redeployed. Control after the withdrawal, and whether M23 has returned, could not be verified for the reference date.",
+   "source_ids": [
+    "s1",
+    "s2",
+    "s3"
+   ]
+  },
+  {
+   "zone_id": "z2",
+   "description": "Southern Ruzizi plain just north of Uvira: Kiliba (Musenga, Kitona/Kagando HA), Hongero/Kahwizi, Runingu/Kagurube, Biriba, Kasambura",
+   "controller_id": "cod-wazalendo",
+   "status": "contested",
+   "confidence": "low",
+   "basis": "inference",
+   "since": "2026-01",
+   "presence": [
+    {
+     "entity_id": "afc-m23-arc",
+     "role": "contesting"
+    },
+    {
+     "entity_id": "cod-fardc",
+     "role": "allied"
+    },
+    {
+     "entity_id": "red-tabara",
+     "role": "present"
+    }
+   ],
+   "evidence": "The Kiliba–Runingu stretch lay on M23's December 2025 advance route to Uvira and became a buffer/front area after the announced M23 pull-back; Wazalendo and FARDC are assessed to hold it with M23 positions to the north. Exact frontline position as of the reference date is not verified.",
+   "source_ids": [
+    "s1",
+    "s3"
+   ]
+  },
+  {
+   "zone_id": "z3",
+   "description": "Northern Ruzizi plain toward Kamanyola: Sange (Maendeleo), Luvungi/Mirungu (Mayengo), Katogota (Cepac), Lubarika (Rutora), Luberizi (Mission), Bwegera, Mutarule, Nyakabere, Ndunda, Rusabagi, Kimuka, Kigurwe",
+   "controller_id": "afc-m23-arc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "inference",
+   "since": "2025-12",
+   "presence": [
+    {
+     "entity_id": "cod-wazalendo",
+     "role": "raiding"
+    },
+    {
+     "entity_id": "rwa-rdf",
+     "role": "allied"
+    }
+   ],
+   "evidence": "M23 held Kamanyola and the Katogota–Luvungi edge of the plain from February 2025 and overran Luvungi, Luberizi and Sange in early December 2025; its withdrawal pledge concerned Uvira city, and it is assessed to have kept the northern plain with Wazalendo incursions.",
+   "source_ids": [
+    "s1",
+    "s3"
+   ]
+  },
+  {
+   "zone_id": "z4",
+   "description": "Bafuliiru mid-plateaux (Lemera, Langala/Rubenga, Ndolera, Kibungu, Buheba, Busulira, Nyamutiri, Kiringye, Mubere/Kiziba) and western hills above the plain (Mugaja/Kala, Mangwa/Kalimba, Luhito/Ruvumera)",
+   "controller_id": "cod-wazalendo",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "area_report",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "afc-m23-arc",
+     "role": "raiding"
+    },
+    {
+     "entity_id": "cod-fardc",
+     "role": "allied"
+    },
+    {
+     "entity_id": "red-tabara",
+     "role": "present"
+    },
+    {
+     "entity_id": "twirwaneho",
+     "role": "raiding"
+    }
+   ],
+   "evidence": "The Moyens Plateaux of Uvira are long-standing bases of Bafuliiru Mai-Mai factions now operating as Wazalendo, with Burundian rebels (RED-Tabara) present in the hills; the state has little permanent presence. Possible M23 advances toward Lemera since late 2025 are not verified.",
+   "source_ids": [
+    "s4",
+    "s1"
+   ]
+  },
+  {
+   "zone_id": "z5",
+   "description": "North-west hills in Kaziba health zone bordering Walungu (Kashunju/Ntagereka, Kalemba, Burhurhu)",
+   "controller_id": "afc-m23-arc",
+   "status": "contested",
+   "confidence": "low",
+   "basis": "inference",
+   "since": "2025-02",
+   "presence": [
+    {
+     "entity_id": "cod-wazalendo",
+     "role": "contesting"
+    }
+   ],
+   "evidence": "These localities belong to the Kaziba health zone of Walungu territory, held by M23 since its February 2025 southern advance, with Wazalendo active in the hills toward Lemera.",
+   "source_ids": [
+    "s1"
+   ]
+  },
+  {
+   "zone_id": "z6",
+   "description": "Banyamulenge high plateaux of Uvira: Mulenge, Rubuga (Wimbongo), Kitoga (Ruhuha)",
+   "controller_id": "twirwaneho",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "area_report",
+   "since": "2025",
+   "presence": [
+    {
+     "entity_id": "afc-m23-arc",
+     "role": "allied"
+    },
+    {
+     "entity_id": "cod-wazalendo",
+     "role": "contesting"
+    }
+   ],
+   "evidence": "The Banyamulenge high plateaux are the stronghold of Twirwaneho self-defence groups, which allied with AFC/M23 and pushed FARDC out of Minembwe and surrounding plateaux in 2025; Mai-Mai/Wazalendo contest the lower edges.",
+   "source_ids": [
+    "s4",
+    "s1"
+   ]
+  }
+ ],
+ "locations": {
+  "cod-35MQS3825_2": "z1",
+  "cod-35MQS3714_1": "z1",
+  "cod-35MQS4032_2": "z1",
+  "cod-35MQS3616_1": "z1",
+  "cod-35MQS4531_1": "z1",
+  "cod-35MQS3825_2-hEzJhKkHcHJ": "z1",
+  "cod-35MQS3825_2-Bb3l06ei7dS": "z1",
+  "cod-35MQS3825_2-ZcoF6KI43An": "z1",
+  "cod-35MQS3825_2-XHzntGYSSeT": "z1",
+  "cod-35MQS3825_2-L3Jefh6OVaO": "z1",
+  "cod-35MQS3825_2-mti1pR25G0Q": "z1",
+  "cod-35MQS3825_2-Tr1xtlk7YnH": "z1",
+  "cod-35MQS3825_2-PsEPDOS80oO": "z1",
+  "cod-35MQS3825_2-jeLVX9sFWq4": "z1",
+  "cod-35MQS3825_2-jQbvujBnWwv": "z1",
+  "cod-35MQS3825_2-ZMXa6zuB5Zx": "z1",
+  "cod-35MQS3825_2-snsmw0i6F2R": "z1",
+  "cod-35MQS3825_2-QmJ46AcexwU": "z1",
+  "cod-35MQS3825_2-lqGLv6qfBWR": "z1",
+  "cod-35MQS3825_2-G7cmyeGuHyC": "z1",
+  "cod-35MQS3825_2-VPwd1VedzP5": "z1",
+  "cod-35MQS3825_2-i6ibntm3PUz": "z1",
+  "cod-35MQS3825_2-de2EKnQp4Ac": "z1",
+  "cod-35MQS3560_1": "z3",
+  "cod-35MQS4042_1": "z2",
+  "cod-35MQS4439_1": "z2",
+  "cod-35MQS3848_1": "z2",
+  "cod-35MQS4760_1": "z3",
+  "cod-35MQS4662_1": "z3",
+  "cod-35MQS3269_1": "z3",
+  "cod-35MQS4655_1": "z3",
+  "cod-35MQS4263_1": "z3",
+  "cod-35MQS4036_1": "z2",
+  "cod-35MQS3853_3": "z2",
+  "cod-35MQS3465_1": "z3",
+  "cod-35MQS4661_2": "z3",
+  "cod-35MQS3665_1": "z3",
+  "cod-35MQS3852_1": "z2",
+  "cod-35MQS4365_1": "z3",
+  "cod-35MQS2483_1": "z3",
+  "cod-35MQS1688_1": "z3",
+  "cod-35MQS3172_1": "z3",
+  "cod-35MQS2291_1": "z3",
+  "cod-35MQS2878_1": "z3",
+  "cod-35MQS2276_1": "z4",
+  "cod-35MQS1188_1": "z5",
+  "cod-35MQS2748_1": "z4",
+  "cod-35MQS2179_2": "z4",
+  "cod-35MQS2942_1": "z4",
+  "cod-35MQS1290_3": "z4",
+  "cod-35MQS2944_1": "z4",
+  "cod-35MQS2458_1": "z4",
+  "cod-35MQS2063_1": "z4",
+  "cod-35MQS1769_1": "z4",
+  "cod-35MQS1679_1": "z4",
+  "cod-35MQS1973_1": "z4",
+  "cod-35MQS2152_1": "z6",
+  "cod-35MQS0441_1": "z6",
+  "cod-35MQS1381_1": "z4",
+  "cod-35MQS0348_4": "z6",
+  "cod-35MQS1083_2": "z4",
+  "cod-35MQS0781_1": "z5",
+  "cod-35MQS0986_1": "z5"
+ }
+}

@@ -1,7 +1,7 @@
 {
  "unit_id": "CD3210-gungu",
  "as_of": "2026-10-01",
- "summary": "Gungu territory (Kwilu) covers Gungu town and the Gungu, Mukedi and Kingandu secteurs between the Kwilu and Kasai-border areas south of Kikwit. No armed group is reported to control or regularly raid any locality here; the Mobondo militia theatre (Kwamouth, Bagata, Kenge, Kwango) lies to the west. All locations are assessed as under ordinary state authority with the PNC as the main permanent force and customary chiefs under it. Live web research was unavailable for this run, so confidence is medium for Gungu town and low elsewhere.",
+ "summary": "Gungu territory (Kwilu) covers Gungu town and the Gungu, Mukedi and Kingandu secteurs between the Kwilu and Kasai-border areas south of Kikwit. No armed group is reported to control or regularly raid any locality here; the Mobondo militia theatre (Kwamouth, Bagata, Kenge, Kwango) lies to the west. All locations are assessed as under ordinary state authority with the PNC as the main permanent force and customary chiefs under it. Live web research was unavailable for this run, so confidence is medium for Gungu town and low elsewhere. A skeptical review (2026-10-01) could not run independent web searches either (search budget exhausted, search engines blocked by proxy); zone assignments were checked against adm3/health-zone data and the default-state-presence assessment is retained unverified, consistent with neighbouring Idiofa units.",
  "sources": [
   {
    "id": "s1",
@@ -50,7 +50,7 @@
   },
   {
    "zone_id": "z2",
-   "description": "Villages and small towns of Gungu secteur (Gungu, Mukedi-south and Kingandu-east health zones: Lukunga, Kandale, Kiefu, Musanga Lubwe, Kobo, Mulopo, Kangu, etc.)",
+   "description": "Villages and small towns of Gungu secteur (Gungu, Mukedi-south and Kingandu-east and one Mungindu health-zone area: Lukunga, Kandale, Kiefu, Musanga Lubwe, Kobo, Mulopo, Kangu, etc.)",
    "controller_id": "cod-pnc",
    "status": "dominant",
    "confidence": "low",

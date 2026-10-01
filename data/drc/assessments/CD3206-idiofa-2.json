@@ -1,13 +1,13 @@
 {
  "unit_id": "CD3206-idiofa-2",
  "as_of": "2026-10-01",
- "summary": "This unit covers the Kimputu, Koshibanda and Mokala secteurs of Idiofa territory (Kwilu), a rural area east of the Kwilu river including the Koshibanda, Kimputu, Mokala, Ipamu, Mukedi and Djuma health zones. No armed group is known to exercise territorial control here; the Mobondo militia active in Kwilu since 2022 has affected mainly western Bagata/Bulungu areas far to the west, and Idiofa has seen only sporadic community/land conflicts and banditry. All localities are assessed as under ordinary state authority with the PNC as main permanent force alongside territorial administration and customary chiefs. Web research was unavailable for this run (search budget exhausted), so confidence is low for rural villages.",
+ "summary": "This unit covers the Kimputu, Koshibanda and Mokala secteurs of Idiofa territory (Kwilu), a rural area east of the Kwilu river including the Koshibanda, Kimputu, Mokala, Ipamu, Mukedi and Djuma health zones. No armed group is known to exercise territorial control here; the Mobondo militia active in Kwilu since 2022 has affected mainly western Bagata/Bulungu areas far to the west, and Idiofa has seen only sporadic community/land conflicts and banditry. All localities are assessed as under ordinary state authority with the PNC as main permanent force alongside territorial administration and customary chiefs. Web research was unavailable for this run (search budget exhausted), so confidence is low for rural villages. A skeptical review (2026-10-01) also could not run web searches (budget exhausted, news sites blocked by proxy); the default-state-presence assessment is retained unverified, consistent with the neighbouring Idiofa and Gungu units.",
  "sources": [],
  "new_entities": [],
  "zones": [
   {
    "zone_id": "z1",
-   "description": "Main centres of the unit (pop. >=8,000), e.g. Munkama, Kipuku Mwala, Sedzo, Tomisa",
+   "description": "Main centres of the unit (pop. >=8,000): Munkama, Victoire, Bambinga, Mokala, Sedzo, Tomisa (Mokala secteur); Kipuku Mwala, Jimba, Impasi (Koshibanda secteur); Buluem, Bulwem, B A Nsiengwon (Kimputu secteur)",
    "controller_id": "cod-pnc",
    "status": "dominant",
    "confidence": "medium",

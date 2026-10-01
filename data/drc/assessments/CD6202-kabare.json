@@ -1,0 +1,230 @@
+{
+ "unit_id": "CD6202-kabare",
+ "as_of": "2026-10-01",
+ "summary": "Kabare territory, surrounding Bukavu to the north, west and south, has been held by AFC/M23 since its February 2025 offensive, which took Kavumu airport on 14 February and Bukavu on 16 February 2025. The near-city Bukavu periphery neighbourhoods are run by the M23 administration and police; Kavumu, the Katana lakeshore corridor (RN2 toward Kalehe), the Kabare hills west/south-west of Bukavu and the rural east are held by M23 ARC forces with only sporadic Wazalendo raids. The western highlands beyond Kahuzi-Biega park (Nindja groupement, Kaniola health zone) are assessed as Raia Mutomboki/Wazalendo-dominated but contested by M23 operations, with FDLR present. Note: live web research was unavailable for this unit (search budget exhausted, sites blocked by the egress proxy), so the assessment rests on the 2025 capture record and general knowledge; the western zone is low confidence. Review (2026-10-01) also could not reach live sources; changes were limited to consistency fixes.",
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.reuters.com/world/africa/m23-rebels-take-control-airport-near-congos-bukavu-2025-02-14/",
+   "title": "M23 rebels take control of airport near Congo's Bukavu",
+   "publisher": "Reuters",
+   "date": "2025-02-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.reuters.com/world/africa/m23-rebels-enter-congos-second-largest-eastern-city-bukavu-2025-02-16/",
+   "title": "M23 rebels enter Congo's second-largest eastern city, Bukavu",
+   "publisher": "Reuters",
+   "date": "2025-02-16"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.criticalthreats.org/briefs/congo-war-security-review",
+   "title": "Congo War Security Review (series)",
+   "publisher": "Critical Threats Project (AEI/ISW)",
+   "date": null
+  },
+  {
+   "id": "s4",
+   "url": "https://www.kivusecurity.org/",
+   "title": "Kivu Security Tracker (incident map)",
+   "publisher": "Kivu Security Tracker",
+   "date": null
+  }
+ ],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Bukavu periphery neighbourhoods in Kabare territory adjoining the city (Bagira-side health areas): Murhesa, Cifuma, Saint Pie X, Kalwa, Nshanga, Citungano, Bwirembe, Kajeje, Mbobero, Mbiza, Mulengeza, and on the south side Nyantende, Muku, Mudusa, Kalagane, Ishungu",
+   "controller_id": "afc-m23-police",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "area_report",
+   "since": "2025-02",
+   "presence": [
+    {
+     "entity_id": "afc-m23-arc",
+     "role": "present"
+    },
+    {
+     "entity_id": "cod-wazalendo",
+     "role": "raiding"
+    }
+   ],
+   "evidence": "AFC/M23 took Kavumu airport on 14 February 2025 and Bukavu on 16 February 2025 after FARDC and PNC withdrew, and has since run Bukavu and its periphery through its own provincial administration and police. Night-time killings, crime and occasional Wazalendo infiltration affect the outskirts, but no available source reports these neighbourhoods leaving M23 control through 2026. Reviewer note: police (rather than ARC) as main force in these near-city quarters is an inference; the controlling actor (AFC/M23) is not in doubt.",
+   "source_ids": [
+    "s1",
+    "s2",
+    "s3"
+   ]
+  },
+  {
+   "zone_id": "z2",
+   "description": "Kavumu airport town and surrounding Miti-Murhesa/Katana health areas (Miti Murhesa settlement record and its neighbourhoods: Kavumu, Mbayo, Buhandahanda, Combo, Kashusha, Birava, Muganzo, Bushumba)",
+   "controller_id": "afc-m23-arc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "area_report",
+   "since": "2025-02",
+   "presence": [
+    {
+     "entity_id": "afc-m23-police",
+     "role": "present"
+    },
+    {
+     "entity_id": "rwa-rdf",
+     "role": "allied"
+    },
+    {
+     "entity_id": "cod-wazalendo",
+     "role": "raiding"
+    }
+   ],
+   "evidence": "Kavumu and its airport fell to AFC/M23 on 14 February 2025 and became a key M23 military position on the Bukavu-Kalehe road (RN2); M23 also set up local administration and police. Wazalendo attacks on the Kavumu/Katana area were reported in 2025, without reversing control.",
+   "source_ids": [
+    "s1",
+    "s3"
+   ]
+  },
+  {
+   "zone_id": "z3",
+   "description": "Katana chefferie and Katana health zone along Lake Kivu and the RN2 toward Kalehe: Ihimbi/Katana, Chahoboka, Kabuguli (Luhihi), Mulamba (Ishungu), Nyabulongwe, Burhale (Irambira), Nzinzi, Mugererebo",
+   "controller_id": "afc-m23-arc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "area_report",
+   "since": "2025-02",
+   "presence": [
+    {
+     "entity_id": "afc-m23-police",
+     "role": "present"
+    },
+    {
+     "entity_id": "cod-wazalendo",
+     "role": "raiding"
+    }
+   ],
+   "evidence": "The RN2 lakeshore corridor from Kavumu through Katana to Kalehe was overrun during the February 2025 M23 advance on Bukavu and has served as M23's supply axis between Goma/Kalehe and Bukavu. Villages near the Kahuzi-Biega park edge (e.g. Chahoboka/Bugorhe side) face Wazalendo/Raia Mutomboki raids, but M23 holds the corridor and towns.",
+   "source_ids": [
+    "s1",
+    "s3",
+    "s4"
+   ]
+  },
+  {
+   "zone_id": "z4",
+   "description": "Rest of eastern Kabare (rural settlements of Miti-Murhesa, Kabare centre/Kabare health zone hills west and south-west of Bukavu, and Nyantende/Mumosho villages): Cironge 2, Katwamirhole, Karhendezi, Burhwali, Bugushu 2, Kassiru, Citudu, Mbirikira, Kakongola, Mushadu, Chibundubundu, Kanyange, plus the outlying health-area localities Cirunga, Mushweshwe, Bugobe, Cibingu, Mukongola, Kalulu, Kinjuba, Kampuse, Ludaha, Cifuma Kabare",
+   "controller_id": "afc-m23-arc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "area_report",
+   "since": "2025-02",
+   "presence": [
+    {
+     "entity_id": "afc-m23-police",
+     "role": "present"
+    },
+    {
+     "entity_id": "cod-wazalendo",
+     "role": "raiding"
+    }
+   ],
+   "evidence": "These villages lie within a few tens of kilometres of Bukavu and Kavumu in the zone taken by AFC/M23 in February 2025 and then administered by its South Kivu authorities. Wazalendo activity is concentrated further west in the Kabare highlands and Walungu; here it is limited to sporadic raids. Reviewer note: the Kabare health-zone hillside localities 8-15 km from Bukavu (Bugobe, Kalulu, Kampuse, Cirunga, Mushweshwe etc.) were moved here from the peri-urban police zone, since they are rural and closer to the park-edge Wazalendo areas, where M23 military positions rather than urban police are the likely main force.",
+   "source_ids": [
+    "s2",
+    "s3"
+   ]
+  },
+  {
+   "zone_id": "z5",
+   "description": "Kabare highlands west of Kahuzi-Biega (Kaniola HZ / Nindja groupement): Buhira (Nindja), Irega (Luhago), Tchulwe and Lubimbe (Culwe), Lwizi (Mudaka)",
+   "controller_id": "raia-mutomboki",
+   "status": "contested",
+   "confidence": "low",
+   "basis": "inference",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "afc-m23-arc",
+     "role": "contesting"
+    },
+    {
+     "entity_id": "fdlr",
+     "role": "present"
+    },
+    {
+     "entity_id": "cod-wazalendo",
+     "role": "allied"
+    }
+   ],
+   "evidence": "The remote Nindja highlands west of Kahuzi-Biega park have long been a Raia Mutomboki and FDLR area with little state presence; after the fall of Bukavu, Wazalendo/Raia Mutomboki fighters retreated into the Kabare-Walungu-Kalehe highlands and M23 conducted repeated operations there. No current source was reachable to confirm who held these villages in 2026. Reviewer: could not verify with live sources either; kept as low-confidence inference.",
+   "source_ids": [
+    "s3",
+    "s4"
+   ]
+  }
+ ],
+ "locations": {
+  "cod-35MQT0342_1": "z2",
+  "cod-35MPT9736_2": "z4",
+  "cod-35MQT1644_1": "z3",
+  "cod-35MQT1048_1": "z3",
+  "cod-35MQT0944_1": "z3",
+  "cod-35MQT1443_1": "z3",
+  "cod-35MQT0543_1": "z4",
+  "cod-35MQT0649_1": "z3",
+  "cod-35MQT0545_3": "z4",
+  "cod-35MQT0143_1": "z4",
+  "cod-35MQT1451_3": "z3",
+  "cod-35MQT0346_1": "z4",
+  "cod-35MQT0342_1-uv5tFgO4oMT": "z2",
+  "cod-35MPT9921_1-YGDjEjeiJkI": "z1",
+  "cod-35MPT9921_1-E8ce4nJ27m3": "z1",
+  "cod-35MQT0342_1-nuFnoaFLqrP": "z2",
+  "cod-35MPT9921_1-YprpOzAlH11": "z1",
+  "cod-35MQT0342_1-VSL7oKeoORV": "z2",
+  "cod-35MPT9921_1-XqVSqE6Bz1c": "z1",
+  "cod-35MPT9921_1-L1n7OrY2kRf": "z1",
+  "cod-35MQT0342_1-KpIiKy06X8I": "z2",
+  "cod-35MQT0254_1": "z3",
+  "cod-35MQT0457_3": "z3",
+  "cod-35MQT0342_1-cR6l3eAAsbx": "z2",
+  "cod-35MQT0342_1-kq68BWaaUMn": "z2",
+  "cod-35MQT0342_1-ZtCWWaeZD6r": "z2",
+  "cod-35MQT0342_1-E1Y5Y5u1b7M": "z2",
+  "cod-35MPT9818_1": "z4",
+  "cod-35MPT9522_1": "z4",
+  "cod-35MPT9617_1": "z4",
+  "cod-35MPT9827_1": "z4",
+  "cod-35MPT9921_1-XJamlIdxWLu": "z4",
+  "cod-35MPT9921_1-RWwi5bHR3Un": "z1",
+  "cod-35MPT9921_1-B4LRv3XmHjC": "z1",
+  "cod-35MPT9921_1-SoVono5pz5g": "z4",
+  "cod-35MPT9921_1-vNaEqBWeOTs": "z1",
+  "cod-35MPT9921_1-QWilfiU5c4v": "z4",
+  "cod-35MPT9921_1-g3ZgqNTJUkW": "z1",
+  "cod-35MPT9921_1-Gp0i4zb3fQR": "z1",
+  "cod-35MPT9921_1-T55Gyy1KjOk": "z1",
+  "cod-35MPT9921_1-YPv7dQ2ZY1v": "z4",
+  "cod-35MPT9921_1-FNUF7OZpwNT": "z4",
+  "cod-35MPT9921_1-MrztpSapX5S": "z4",
+  "cod-35MPT9921_1-M2aV2mVjZea": "z4",
+  "cod-35MPT9921_1-lYV4EHT30zH": "z4",
+  "cod-35MPT9921_1-ojqUNshd6qN": "z4",
+  "cod-35MPT9921_1-IFRhzW0urIS": "z4",
+  "cod-35MQT0908_1": "z4",
+  "cod-35MQT0914_1": "z4",
+  "cod-35MQT0912_1": "z4",
+  "cod-35MPT9921_1-NUL8zhK9VrZ": "z1",
+  "cod-35MPT9921_1-yWm5BntdkXT": "z1",
+  "cod-35MPT9921_1-xPejBOQAZ7o": "z1",
+  "cod-35MPT9921_1-fHsRPc1h8hl": "z1",
+  "cod-35MPT9921_1-MmzqyzPeK0m": "z1",
+  "cod-35MPT7223_1": "z5",
+  "cod-35MPT6708_1": "z5",
+  "cod-35MPT5605_2": "z5",
+  "cod-35MPT5306_1": "z5",
+  "cod-35MPT6623_2": "z5"
+ }
+}

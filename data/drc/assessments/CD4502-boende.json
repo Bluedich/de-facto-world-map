@@ -1,0 +1,123 @@
+{
+ "unit_id": "CD4502-boende",
+ "as_of": "2026-10-01",
+ "summary": "Boende territory (Tshuapa province) lies in the central Congo basin far from the eastern conflict zones, and no armed group is known to hold territory there. Boende city, the provincial capital, is administered by the state, with the PNC as the main day-to-day security force and an FARDC garrison present. Rural villages of the Boende and Wema secteurs have thin state presence (scattered police posts) and rely heavily on customary authorities, but no non-state armed actor is reported to exercise control. Web research was unavailable for this run, so confidence is medium for Boende city and low for rural villages.",
+ "sources": [],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Boende city (Tshuapa provincial capital) and its neighbourhoods/health areas, plus contiguous peri-urban villages (Ilombe, Baongo, Baliko, Boende 1-2, Boonda)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Provincial capital with governorate, provincial PNC command, courts and an FARDC camp (Camp Militaire in Marie Louise area); no armed group is known to operate in Tshuapa, and day-to-day order is kept by the police. No web sources could be retrieved in this run (search budget exhausted; search engines, ReliefWeb and Wikipedia blocked), so the assessment rests on the absence of known armed-group activity in Boende territory and Tshuapa province.",
+   "source_ids": []
+  },
+  {
+   "zone_id": "z2",
+   "description": "Rural villages of Boende secteur (Boende health zone: Tshuapa river axis, Bongoy, Ndjafa, Eandja, Bekili, Iyali, Lofondo, Ilongokindo, Bokongo, Lokolia, Ikonge areas)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "customary",
+     "role": "present"
+    }
+   ],
+   "evidence": "Remote Mongo forest/river villages with no known armed-group presence; order rests on scattered PNC posts and customary chiefs under state administration. No web sources could be retrieved in this run (search budget exhausted; search engines, ReliefWeb and Wikipedia blocked), so the assessment rests on the absence of known armed-group activity in Boende territory and Tshuapa province.",
+   "source_ids": []
+  },
+  {
+   "zone_id": "z3",
+   "description": "Wema secteur villages (Wema health zone incl. Ekole/Wema, Bokondji, Bekomi, Nkoto, Bofoka, Lolungu, and Wema-secteur villages in Boende HZ: Lisafu, Efoku, Lokali, Ekombe)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "customary",
+     "role": "present"
+    }
+   ],
+   "evidence": "Remote secteur south-east of Boende with no known armed-group activity; state presence thin (PNC posts at Wema/Ekole), customary authorities handle most local disputes. No web sources could be retrieved in this run (search budget exhausted; search engines, ReliefWeb and Wikipedia blocked), so the assessment rests on the absence of known armed-group activity in Boende territory and Tshuapa province.",
+   "source_ids": []
+  }
+ ],
+ "locations": {
+  "cod-34MDE8668_1": "z1",
+  "cod-34MDE9167_1": "z1",
+  "cod-34MDE9254_1": "z2",
+  "cod-34MDE8267_1": "z1",
+  "cod-34MEE2274_1": "z2",
+  "cod-34MEE2674_1": "z2",
+  "cod-34MDE9392_2": "z2",
+  "cod-34MEE1775_1": "z2",
+  "cod-34MEE4369_1": "z2",
+  "cod-34MDE8563_1": "z1",
+  "cod-34MEE3696_2": "z2",
+  "cod-34NEF2212_1": "z2",
+  "cod-34MDE3973_1": "z2",
+  "cod-34MEE4569_1": "z2",
+  "cod-34MDE8955_1": "z2",
+  "cod-34MDE8064_1": "z1",
+  "cod-34NEF2203_1": "z2",
+  "cod-34MDE9955_1": "z2",
+  "cod-34MEE0977_1": "z2",
+  "cod-34MEE4393_1": "z2",
+  "cod-34MEE3299_1": "z2",
+  "cod-34NEF0612_1": "z2",
+  "cod-34MDE0448_2": "z2",
+  "cod-34MEE1477_1": "z2",
+  "cod-34MEE0763_1": "z2",
+  "cod-34MEE1884_1": "z2",
+  "cod-34MEE2781_1": "z2",
+  "cod-34MEE2779_1": "z2",
+  "cod-34MEE2873_1": "z2",
+  "cod-34MEE4068_1": "z2",
+  "cod-34MEE0156_1": "z2",
+  "cod-34MDE5627_1": "z2",
+  "cod-34NEF2005_1": "z2",
+  "cod-34MDE9867_1": "z2",
+  "cod-34MEE2678_1": "z2",
+  "cod-34MDE8968_2": "z1",
+  "cod-34MDE8668_1-SnKa61qlmnw": "z1",
+  "cod-34MDE8668_1-ZgImZMdWwah": "z1",
+  "cod-34MDE8668_1-WotFgZK6T3h": "z1",
+  "cod-34MDE8668_1-TqlYNHtl1H1": "z1",
+  "cod-34MDE8668_1-LxoRyfV9IrM": "z1",
+  "cod-34MEE6945_1": "z3",
+  "cod-34MEE2813_1": "z3",
+  "cod-34MEE3455_1": "z3",
+  "cod-34MEE7742_1": "z3",
+  "cod-34MEE4252_1": "z3",
+  "cod-34MEE2816_2": "z3",
+  "cod-34MEE8040_1": "z3",
+  "cod-34MEE2109_1": "z3",
+  "cod-34MEE7112_1": "z3",
+  "cod-34MEE3055_1": "z3",
+  "cod-34MEE2400_1": "z3",
+  "cod-34MED6798_1": "z3",
+  "cod-34MEE4347_1": "z3",
+  "cod-34MEE7145_1": "z3",
+  "cod-34MEE2030_1": "z3",
+  "cod-34MEE6833_1": "z3",
+  "cod-34MEE1935_1": "z3",
+  "cod-34MEE3228_1": "z3",
+  "cod-34MEE1135_1": "z3",
+  "cod-34MEE2411_1": "z3"
+ }
+}

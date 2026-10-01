@@ -1,51 +1,417 @@
 [
-  {"id": "cod", "name": "Democratic Republic of the Congo (state)", "short_name": "DRC", "type": "state", "country": "COD", "color": "#2166ac",
-   "description": "Congolese state. Use a sub-entity whenever the force actually holding the place is known."},
-  {"id": "cod-fardc", "name": "Forces Armées de la République Démocratique du Congo", "short_name": "FARDC", "type": "state_force", "parent_id": "cod", "force_kind": "army", "color": "#3a7fc4",
-   "description": "Army. Controller where the army is the main permanent force (garrison towns, operation zones, mining sites it runs)."},
-  {"id": "cod-pnc", "name": "Police Nationale Congolaise", "short_name": "PNC", "type": "state_force", "parent_id": "cod", "force_kind": "police", "color": "#6aa6dc",
-   "description": "National police. Default controller of state-held towns and neighbourhoods where order is kept by police posts/commissariats."},
-  {"id": "cod-gr", "name": "Garde Républicaine", "short_name": "GR", "type": "state_force", "parent_id": "cod", "force_kind": "guard", "color": "#174a7c",
-   "description": "Presidential guard; controller only where it is the main permanent force (e.g. presidential areas of Kinshasa)."},
-  {"id": "cod-anr", "name": "Agence Nationale de Renseignements", "short_name": "ANR", "type": "state_force", "parent_id": "cod", "force_kind": "intelligence", "color": "#0d2f52"},
-  {"id": "cod-wazalendo", "name": "Wazalendo / Volontaires pour la Défense de la Patrie (VDP)", "short_name": "Wazalendo", "type": "militia_coalition", "parent_id": "cod", "force_kind": "auxiliary", "color": "#8fc1e8",
-   "description": "Umbrella of pro-government armed groups (mostly ex Mai-Mai/Nyatura) legalised as reservists in 2023. Use it only when the specific group is unknown; individual groups that act autonomously are separate top-level entities."},
-
-  {"id": "afc-m23", "name": "Alliance Fleuve Congo / Mouvement du 23 Mars", "short_name": "AFC/M23", "type": "quasi_state", "country": "COD", "color": "#b2182b",
-   "description": "Rebel movement administering parts of Nord-Kivu and Sud-Kivu (Goma, Bukavu since early 2025) with its own administration, police and army."},
-  {"id": "afc-m23-arc", "name": "AFC/M23 armed wing (Armée Révolutionnaire Congolaise)", "short_name": "M23 ARC", "type": "quasi_state_force", "parent_id": "afc-m23", "force_kind": "army", "color": "#d6604d"},
-  {"id": "afc-m23-police", "name": "AFC/M23 police", "short_name": "M23 police", "type": "quasi_state_force", "parent_id": "afc-m23", "force_kind": "police", "color": "#f4a582"},
-
-  {"id": "rwa", "name": "Rwanda (state)", "short_name": "Rwanda", "type": "state", "country": "RWA", "color": "#1b7837"},
-  {"id": "rwa-rdf", "name": "Rwanda Defence Force", "short_name": "RDF", "type": "foreign_state_force", "parent_id": "rwa", "force_kind": "army", "color": "#5aae61"},
-  {"id": "uga", "name": "Uganda (state)", "short_name": "Uganda", "type": "state", "country": "UGA", "color": "#e08214"},
-  {"id": "uga-updf", "name": "Uganda People's Defence Force", "short_name": "UPDF", "type": "foreign_state_force", "parent_id": "uga", "force_kind": "army", "color": "#fdb863"},
-  {"id": "bdi", "name": "Burundi (state)", "short_name": "Burundi", "type": "state", "country": "BDI", "color": "#8073ac"},
-  {"id": "bdi-fdnb", "name": "Force de Défense Nationale du Burundi", "short_name": "FDNB", "type": "foreign_state_force", "parent_id": "bdi", "force_kind": "army", "color": "#b2abd2"},
-  {"id": "un-monusco", "name": "MONUSCO", "short_name": "MONUSCO", "type": "international_force", "color": "#80cdc1"},
-
-  {"id": "adf", "name": "Allied Democratic Forces / ISCAP", "short_name": "ADF", "type": "terrorist_group", "country": "COD", "color": "#000000",
-   "description": "Islamic State Central Africa Province affiliate active in Beni, Lubero (Nord-Kivu) and Irumu, Mambasa (Ituri)."},
-  {"id": "codeco", "name": "Coopérative pour le Développement du Congo (CODECO) factions", "short_name": "CODECO", "type": "militia", "country": "COD", "color": "#7f3b08", "description": "Lendu-based militias, Djugu and Mahagi (Ituri)."},
-  {"id": "zaire", "name": "Convention pour la Révolution Populaire / Zaïre", "short_name": "CRP/Zaïre", "type": "militia", "country": "COD", "color": "#b35806", "description": "Hema-based self-defence militia in Djugu (Ituri); CRP led by Thomas Lubanga (allied to AFC/M23)."},
-  {"id": "fpic", "name": "Front Patriotique et Intégrationniste du Congo", "short_name": "FPIC", "type": "militia", "country": "COD", "color": "#c51b7d"},
-  {"id": "frpi", "name": "Force de Résistance Patriotique de l'Ituri", "short_name": "FRPI", "type": "militia", "country": "COD", "color": "#de77ae"},
-  {"id": "fdlr", "name": "Forces Démocratiques de Libération du Rwanda", "short_name": "FDLR", "type": "armed_group", "country": "RWA", "color": "#543005"},
-  {"id": "apcls", "name": "Alliance des Patriotes pour un Congo Libre et Souverain", "short_name": "APCLS", "type": "militia", "country": "COD", "color": "#35978f"},
-  {"id": "nyatura", "name": "Nyatura factions (CMC/FDP and others)", "short_name": "Nyatura", "type": "militia", "country": "COD", "color": "#01665e"},
-  {"id": "ndc-r", "name": "Nduma Defence of Congo-Rénové factions", "short_name": "NDC-R", "type": "militia", "country": "COD", "color": "#003c30"},
-  {"id": "mm-kifuafua", "name": "Mai-Mai Kifuafua", "short_name": "Kifuafua", "type": "militia", "country": "COD", "color": "#4d9221"},
-  {"id": "mm-mazembe", "name": "Mai-Mai Mazembe / UPLC and related Lubero militias", "short_name": "Mazembe", "type": "militia", "country": "COD", "color": "#7fbc41"},
-  {"id": "raia-mutomboki", "name": "Raia Mutomboki factions", "short_name": "Raia Mutomboki", "type": "militia", "country": "COD", "color": "#276419"},
-  {"id": "cnpsc", "name": "Coalition Nationale du Peuple pour la Souveraineté du Congo (Mai-Mai Yakutumba)", "short_name": "CNPSC/Yakutumba", "type": "militia", "country": "COD", "color": "#a6dba0"},
-  {"id": "twirwaneho", "name": "Twirwaneho", "short_name": "Twirwaneho", "type": "militia", "country": "COD", "color": "#e7298a", "description": "Banyamulenge self-defence group, Hauts Plateaux of Sud-Kivu; allied with AFC/M23 since 2025."},
-  {"id": "red-tabara", "name": "RED-Tabara", "short_name": "RED-Tabara", "type": "rebel_group", "country": "BDI", "color": "#762a83"},
-  {"id": "mobondo", "name": "Mobondo militia", "short_name": "Mobondo", "type": "militia", "country": "COD", "color": "#fee08b", "description": "Yaka/Suku-based militia active in Kwamouth (Maï-Ndombe), Kwango, Kwilu and Kinshasa outskirts since 2022."},
-  {"id": "twa-militias", "name": "Twa militias (Tanganyika/Haut-Katanga)", "short_name": "Twa militias", "type": "militia", "country": "COD", "color": "#d9ef8b"},
-  {"id": "bakata-katanga", "name": "Bakata Katanga / Mai-Mai Kata Katanga", "short_name": "Bakata Katanga", "type": "militia", "country": "COD", "color": "#fdae61"},
-  {"id": "mm-malaika", "name": "Mai-Mai Malaika", "short_name": "Malaika", "type": "militia", "country": "COD", "color": "#f46d43"},
-  {"id": "kamuina-nsapu", "name": "Kamuina Nsapu militias", "short_name": "Kamuina Nsapu", "type": "militia", "country": "COD", "color": "#ffffbf"},
-  {"id": "kuluna", "name": "Kuluna gangs", "short_name": "Kuluna", "type": "gang", "country": "COD", "color": "#878787", "description": "Urban gangs (Kinshasa and other cities)."},
-  {"id": "customary", "name": "Customary authority (chief's guards) without state force", "short_name": "Customary", "type": "customary_authority", "country": "COD", "color": "#bababa"},
-  {"id": "unknown", "name": "Unknown / no identifiable controller", "short_name": "Unknown", "type": "other", "color": "#e0e0e0"}
+ {
+  "id": "cod",
+  "name": "Democratic Republic of the Congo (state)",
+  "short_name": "DRC",
+  "type": "state",
+  "country": "COD",
+  "color": "#2166ac",
+  "description": "Congolese state. Use a sub-entity whenever the force actually holding the place is known."
+ },
+ {
+  "id": "cod-fardc",
+  "name": "Forces Armées de la République Démocratique du Congo",
+  "short_name": "FARDC",
+  "type": "state_force",
+  "parent_id": "cod",
+  "force_kind": "army",
+  "color": "#3a7fc4",
+  "description": "Army. Controller where the army is the main permanent force (garrison towns, operation zones, mining sites it runs)."
+ },
+ {
+  "id": "cod-pnc",
+  "name": "Police Nationale Congolaise",
+  "short_name": "PNC",
+  "type": "state_force",
+  "parent_id": "cod",
+  "force_kind": "police",
+  "color": "#6aa6dc",
+  "description": "National police. Default controller of state-held towns and neighbourhoods where order is kept by police posts/commissariats."
+ },
+ {
+  "id": "cod-gr",
+  "name": "Garde Républicaine",
+  "short_name": "GR",
+  "type": "state_force",
+  "parent_id": "cod",
+  "force_kind": "guard",
+  "color": "#174a7c",
+  "description": "Presidential guard; controller only where it is the main permanent force (e.g. presidential areas of Kinshasa)."
+ },
+ {
+  "id": "cod-anr",
+  "name": "Agence Nationale de Renseignements",
+  "short_name": "ANR",
+  "type": "state_force",
+  "parent_id": "cod",
+  "force_kind": "intelligence",
+  "color": "#0d2f52"
+ },
+ {
+  "id": "cod-wazalendo",
+  "name": "Wazalendo / Volontaires pour la Défense de la Patrie (VDP)",
+  "short_name": "Wazalendo",
+  "type": "militia_coalition",
+  "parent_id": "cod",
+  "force_kind": "auxiliary",
+  "color": "#8fc1e8",
+  "description": "Umbrella of pro-government armed groups (mostly ex Mai-Mai/Nyatura) legalised as reservists in 2023. Use it only when the specific group is unknown; individual groups that act autonomously are separate top-level entities."
+ },
+ {
+  "id": "afc-m23",
+  "name": "Alliance Fleuve Congo / Mouvement du 23 Mars",
+  "short_name": "AFC/M23",
+  "type": "quasi_state",
+  "country": "COD",
+  "color": "#b2182b",
+  "description": "Rebel movement administering parts of Nord-Kivu and Sud-Kivu (Goma, Bukavu since early 2025) with its own administration, police and army."
+ },
+ {
+  "id": "afc-m23-arc",
+  "name": "AFC/M23 armed wing (Armée Révolutionnaire Congolaise)",
+  "short_name": "M23 ARC",
+  "type": "quasi_state_force",
+  "parent_id": "afc-m23",
+  "force_kind": "army",
+  "color": "#d6604d"
+ },
+ {
+  "id": "afc-m23-police",
+  "name": "AFC/M23 police",
+  "short_name": "M23 police",
+  "type": "quasi_state_force",
+  "parent_id": "afc-m23",
+  "force_kind": "police",
+  "color": "#f4a582"
+ },
+ {
+  "id": "rwa",
+  "name": "Rwanda (state)",
+  "short_name": "Rwanda",
+  "type": "state",
+  "country": "RWA",
+  "color": "#1b7837"
+ },
+ {
+  "id": "rwa-rdf",
+  "name": "Rwanda Defence Force",
+  "short_name": "RDF",
+  "type": "foreign_state_force",
+  "parent_id": "rwa",
+  "force_kind": "army",
+  "color": "#5aae61"
+ },
+ {
+  "id": "uga",
+  "name": "Uganda (state)",
+  "short_name": "Uganda",
+  "type": "state",
+  "country": "UGA",
+  "color": "#e08214"
+ },
+ {
+  "id": "uga-updf",
+  "name": "Uganda People's Defence Force",
+  "short_name": "UPDF",
+  "type": "foreign_state_force",
+  "parent_id": "uga",
+  "force_kind": "army",
+  "color": "#fdb863"
+ },
+ {
+  "id": "bdi",
+  "name": "Burundi (state)",
+  "short_name": "Burundi",
+  "type": "state",
+  "country": "BDI",
+  "color": "#8073ac"
+ },
+ {
+  "id": "bdi-fdnb",
+  "name": "Force de Défense Nationale du Burundi",
+  "short_name": "FDNB",
+  "type": "foreign_state_force",
+  "parent_id": "bdi",
+  "force_kind": "army",
+  "color": "#b2abd2"
+ },
+ {
+  "id": "un-monusco",
+  "name": "MONUSCO",
+  "short_name": "MONUSCO",
+  "type": "international_force",
+  "color": "#80cdc1"
+ },
+ {
+  "id": "adf",
+  "name": "Allied Democratic Forces / ISCAP",
+  "short_name": "ADF",
+  "type": "terrorist_group",
+  "country": "COD",
+  "color": "#000000",
+  "description": "Islamic State Central Africa Province affiliate active in Beni, Lubero (Nord-Kivu) and Irumu, Mambasa (Ituri)."
+ },
+ {
+  "id": "codeco",
+  "name": "Coopérative pour le Développement du Congo (CODECO) factions",
+  "short_name": "CODECO",
+  "type": "militia",
+  "country": "COD",
+  "color": "#7f3b08",
+  "description": "Lendu-based militias, Djugu and Mahagi (Ituri)."
+ },
+ {
+  "id": "zaire",
+  "name": "Convention pour la Révolution Populaire / Zaïre",
+  "short_name": "CRP/Zaïre",
+  "type": "militia",
+  "country": "COD",
+  "color": "#b35806",
+  "description": "Hema-based self-defence militia in Djugu (Ituri); CRP led by Thomas Lubanga (allied to AFC/M23)."
+ },
+ {
+  "id": "fpic",
+  "name": "Front Patriotique et Intégrationniste du Congo",
+  "short_name": "FPIC",
+  "type": "militia",
+  "country": "COD",
+  "color": "#c51b7d"
+ },
+ {
+  "id": "frpi",
+  "name": "Force de Résistance Patriotique de l'Ituri",
+  "short_name": "FRPI",
+  "type": "militia",
+  "country": "COD",
+  "color": "#de77ae"
+ },
+ {
+  "id": "fdlr",
+  "name": "Forces Démocratiques de Libération du Rwanda",
+  "short_name": "FDLR",
+  "type": "armed_group",
+  "country": "RWA",
+  "color": "#543005"
+ },
+ {
+  "id": "apcls",
+  "name": "Alliance des Patriotes pour un Congo Libre et Souverain",
+  "short_name": "APCLS",
+  "type": "militia",
+  "country": "COD",
+  "color": "#35978f"
+ },
+ {
+  "id": "nyatura",
+  "name": "Nyatura factions (CMC/FDP and others)",
+  "short_name": "Nyatura",
+  "type": "militia",
+  "country": "COD",
+  "color": "#01665e"
+ },
+ {
+  "id": "ndc-r",
+  "name": "Nduma Defence of Congo-Rénové factions",
+  "short_name": "NDC-R",
+  "type": "militia",
+  "country": "COD",
+  "color": "#003c30"
+ },
+ {
+  "id": "mm-kifuafua",
+  "name": "Mai-Mai Kifuafua",
+  "short_name": "Kifuafua",
+  "type": "militia",
+  "country": "COD",
+  "color": "#4d9221"
+ },
+ {
+  "id": "mm-mazembe",
+  "name": "Mai-Mai Mazembe / UPLC and related Lubero militias",
+  "short_name": "Mazembe",
+  "type": "militia",
+  "country": "COD",
+  "color": "#7fbc41"
+ },
+ {
+  "id": "raia-mutomboki",
+  "name": "Raia Mutomboki factions",
+  "short_name": "Raia Mutomboki",
+  "type": "militia",
+  "country": "COD",
+  "color": "#276419"
+ },
+ {
+  "id": "cnpsc",
+  "name": "Coalition Nationale du Peuple pour la Souveraineté du Congo (Mai-Mai Yakutumba)",
+  "short_name": "CNPSC/Yakutumba",
+  "type": "militia",
+  "country": "COD",
+  "color": "#a6dba0"
+ },
+ {
+  "id": "twirwaneho",
+  "name": "Twirwaneho",
+  "short_name": "Twirwaneho",
+  "type": "militia",
+  "country": "COD",
+  "color": "#e7298a",
+  "description": "Banyamulenge self-defence group, Hauts Plateaux of Sud-Kivu; allied with AFC/M23 since 2025."
+ },
+ {
+  "id": "red-tabara",
+  "name": "RED-Tabara",
+  "short_name": "RED-Tabara",
+  "type": "rebel_group",
+  "country": "BDI",
+  "color": "#762a83"
+ },
+ {
+  "id": "mobondo",
+  "name": "Mobondo militia",
+  "short_name": "Mobondo",
+  "type": "militia",
+  "country": "COD",
+  "color": "#fee08b",
+  "description": "Yaka/Suku-based militia active in Kwamouth (Maï-Ndombe), Kwango, Kwilu and Kinshasa outskirts since 2022."
+ },
+ {
+  "id": "twa-militias",
+  "name": "Twa militias (Tanganyika/Haut-Katanga)",
+  "short_name": "Twa militias",
+  "type": "militia",
+  "country": "COD",
+  "color": "#d9ef8b"
+ },
+ {
+  "id": "bakata-katanga",
+  "name": "Bakata Katanga / Mai-Mai Kata Katanga",
+  "short_name": "Bakata Katanga",
+  "type": "militia",
+  "country": "COD",
+  "color": "#fdae61"
+ },
+ {
+  "id": "mm-malaika",
+  "name": "Mai-Mai Malaika",
+  "short_name": "Malaika",
+  "type": "militia",
+  "country": "COD",
+  "color": "#f46d43"
+ },
+ {
+  "id": "kamuina-nsapu",
+  "name": "Kamuina Nsapu militias",
+  "short_name": "Kamuina Nsapu",
+  "type": "militia",
+  "country": "COD",
+  "color": "#ffffbf"
+ },
+ {
+  "id": "kuluna",
+  "name": "Kuluna gangs",
+  "short_name": "Kuluna",
+  "type": "gang",
+  "country": "COD",
+  "color": "#878787",
+  "description": "Urban gangs (Kinshasa and other cities)."
+ },
+ {
+  "id": "customary",
+  "name": "Customary authority (chief's guards) without state force",
+  "short_name": "Customary",
+  "type": "customary_authority",
+  "country": "COD",
+  "color": "#bababa"
+ },
+ {
+  "id": "unknown",
+  "name": "Unknown / no identifiable controller",
+  "short_name": "Unknown",
+  "type": "other",
+  "color": "#e0e0e0"
+ },
+ {
+  "id": "cod-iccn",
+  "name": "Institut Congolais pour la Conservation de la Nature (ICCN) eco-guards",
+  "type": "state_force",
+  "parent_id": "cod",
+  "description": "Armed park rangers of the state conservation agency; controller only at park headquarters/stations and inside protected areas.",
+  "color": "#9ecae1",
+  "needs_review": 1
+ },
+ {
+  "id": "mm-simba",
+  "name": "Mai-Mai Simba (Mambasa/Bafwasende)",
+  "type": "armed_group",
+  "description": "Fragmented Mai-Mai Simba groups (successors of Paul Sadala 'Morgan' and 'Manu'/Lumumba factions) engaged in poaching, illegal gold mining and raids in and around the Okapi Wildlife Reserve and Maiko park (Mambasa, Bafwasende).",
+  "color": "#66bd63",
+  "needs_review": 1
+ },
+ {
+  "id": "lra",
+  "type": "rebel_group",
+  "description": "Lord's Resistance Army - Ugandan-origin rebel group whose remnants raid and abduct in Bas-Uele/Haut-Uele from bases in CAR.",
+  "name": "Lord's Resistance Army (LRA)",
+  "color": "#3f007d",
+  "needs_review": 1
+ },
+ {
+  "id": "car-seleka",
+  "type": "armed_group",
+  "description": "Ex-Seleka Central African armed factions (e.g. UPC elements) making cross-border incursions into Bas-Uele.",
+  "name": "Ex-Seleka CAR armed factions",
+  "color": "#ae017e",
+  "needs_review": 1
+ },
+ {
+  "id": "mbororo-armed",
+  "name": "Armed Mbororo herders",
+  "type": "armed_group",
+  "description": "Armed transhumant Mbororo (Fulani) cattle herders in the Uele provinces, accused of killings, kidnappings and crop destruction; no fixed territorial control.",
+  "color": "#cc4c02",
+  "needs_review": 1
+ },
+ {
+  "id": "ssd-spla-io",
+  "name": "SPLA-IO (Sudan People's Liberation Army in Opposition)",
+  "type": "rebel_group",
+  "description": "South Sudanese armed opposition (Riek Machar's SPLM-IO); elements from Central Equatoria cross into Aru/Faradje (DRC) for looting and abductions; called 'AIO' locally.",
+  "color": "#88419d",
+  "needs_review": 1
+ },
+ {
+  "id": "ssd",
+  "name": "South Sudan (state)",
+  "short_name": "South Sudan",
+  "type": "state",
+  "country": "SSD",
+  "color": "#238b45"
+ },
+ {
+  "id": "ssd-sspdf",
+  "name": "South Sudan People's Defence Forces",
+  "type": "foreign_state_force",
+  "parent_id": "ssd",
+  "description": "National army of South Sudan; soldiers reported making cross-border incursions into Aru territory (Ituri) in 2025-2026.",
+  "color": "#41ae76",
+  "needs_review": 1
+ },
+ {
+  "id": "mdkc",
+  "name": "Mouvement Débout Katanga pour la Libération du Congo (MDKC)",
+  "type": "militia",
+  "description": "Katangese separatist armed movement that surfaced in March 2026 claiming the capture of Lusinga (Upemba NP, Mitwaba); overlaps with Bakata Katanga Mai-Mai networks; no confirmed durable territorial control.",
+  "color": "#fd8d3c",
+  "needs_review": 1
+ },
+ {
+  "id": "cod-service-national",
+  "name": "Service National (RDC)",
+  "type": "state_force",
+  "parent_id": "cod",
+  "description": "Paramilitary national service under the presidency that runs civic/re-education training centres and agricultural domains (notably Kaniama-Kasese); controller only at its own sites.",
+  "color": "#4292c6",
+  "needs_review": 1
+ }
 ]

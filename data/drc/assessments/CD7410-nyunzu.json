@@ -1,0 +1,155 @@
+{
+ "unit_id": "CD7410-nyunzu",
+ "as_of": "2026-10-01",
+ "summary": "Nyunzu territory (Tanganyika) was the epicentre of the 2016-2020 Twa-Luba conflict, with Twa militias ('Elements') and Luba self-defence groups attacking villages along the Nyunzu-Kalemie and Nyunzu-Kabalo axes and around the Kisengo coltan mine. FARDC operations, MONUSCO-backed reconciliation and DDR reduced violence, and no source available to this assessment reports durable armed-group control of any locality in 2025-2026. Nyunzu town is assessed as police-run with FARDC and ANR presence, and Kisengo as a state-held mining town. Villages near the main axes are assessed as thin state presence with possible Twa militia raids. The north-western hinterland toward Bigobo/Mbulula and Kahinda, where Twa militias were most persistent, is assessed as FARDC-held but contested. Live web research was unavailable (search budget exhausted, news and NGO sites blocked), so confidence is low.",
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.hrw.org/news/2017/03/16/dr-congo-escalating-violence-tanganyika",
+   "title": "DR Congo: Escalating violence in Tanganyika",
+   "publisher": "Human Rights Watch",
+   "date": "2017-03-16"
+  }
+ ],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Nyunzu town (territory seat; Mangala and Tchangatchanga health areas/neighbourhoods)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "inference",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    },
+    {
+     "entity_id": "cod-anr",
+     "role": "present"
+    },
+    {
+     "entity_id": "twa-militias",
+     "role": "raiding"
+    }
+   ],
+   "evidence": "Nyunzu town hosts the territorial administration, PNC commissariat, an FARDC presence and IDP sites from the Twa-Luba conflict. It remained in state hands throughout the 2016-2020 crisis; no report available indicates armed-group control since.",
+   "source_ids": [
+    "s1"
+   ]
+  },
+  {
+   "zone_id": "z2",
+   "description": "Kisengo coltan mining town (Kisengo health area, GRID3 'Hopital')",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "inference",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    },
+    {
+     "entity_id": "twa-militias",
+     "role": "raiding"
+    }
+   ],
+   "evidence": "Kisengo is a large artisanal coltan mining centre with police (incl. mines police) and army posts; its surroundings saw Twa militia attacks during the Twa-Luba conflict. No 2025-2026 report of armed-group control was available.",
+   "source_ids": [
+    "s1"
+   ]
+  },
+  {
+   "zone_id": "z3",
+   "description": "Villages along the main axes and in central/eastern/northern Nyunzu (Kabeya Mayi, Masamba, Mulongo, Muhuya, Kalima, Kilunga, Kankwaka, Zongwe, Mukundi, Ngoy, Mangala rural)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    },
+    {
+     "entity_id": "twa-militias",
+     "role": "raiding"
+    }
+   ],
+   "evidence": "These areas were affected by Twa-Luba violence in 2016-2020 but later reports describe sporadic incidents rather than territorial control; thin PNC/ANR presence with FARDC positions on the Nyunzu-Kalemie and Nyunzu-Kabalo axes is assumed.",
+   "source_ids": [
+    "s1"
+   ]
+  },
+  {
+   "zone_id": "z4",
+   "description": "North-western and western hinterland (Lengwe, Butondo/Mulunguy, Sulumba, Kahinda, Kitengetenge, Mbeya, Kanunu, Lwizi, Bigobo/Mbulula HZ and Kashale HA villages)",
+   "controller_id": "cod-fardc",
+   "status": "contested",
+   "confidence": "low",
+   "basis": "inference",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "twa-militias",
+     "role": "contesting"
+    }
+   ],
+   "evidence": "The forested hinterland west and north-west of Nyunzu toward Bigobo/Mbulula and Kabalo was where Twa militias held out longest and attacks continued after 2020; the army is assessed as the main permanent force with residual Twa militia activity. No 2025-2026 source could be verified.",
+   "source_ids": [
+    "s1"
+   ]
+  }
+ ],
+ "locations": {
+  "cod-35MPP1241_1": "z1",
+  "cod-35MNP7491_1": "z4",
+  "cod-35MPP4880_1": "z2",
+  "cod-35MPQ0128_1": "z3",
+  "cod-35MPP0771_1": "z3",
+  "cod-35MPQ2731_1": "z3",
+  "cod-35MNP8485_1": "z4",
+  "cod-35MNP5231_1": "z4",
+  "cod-35MNQ8306_1": "z4",
+  "cod-35MNP5333_2": "z4",
+  "cod-35MPP0672_2": "z3",
+  "cod-35MNP6693_2": "z4",
+  "cod-35MPQ2006_1": "z3",
+  "cod-35MNP6086_1": "z4",
+  "cod-35MNP6388_1": "z4",
+  "cod-35MNP5381_1": "z4",
+  "cod-35MNP3770_1": "z4",
+  "cod-35MPP1730_1": "z3",
+  "cod-35MNP9939_1": "z3",
+  "cod-35MNP8780_1": "z4",
+  "cod-35MPP3288_2": "z3",
+  "cod-35MNP7936_1": "z3",
+  "cod-35MNP8938_1": "z3",
+  "cod-35MNP8294_2": "z4",
+  "cod-35MNQ8006_1": "z4",
+  "cod-35MNP3638_1": "z4",
+  "cod-35MPP1887_1": "z3",
+  "cod-35MPP1047_1": "z3",
+  "cod-35MNP6273_1": "z4",
+  "cod-35MNP8783_1": "z4",
+  "cod-35MPQ3707_1": "z3",
+  "cod-35MPQ5542_1": "z3",
+  "cod-35MPP0852_1": "z3",
+  "cod-35MPP1755_2": "z3",
+  "cod-35MPP0853_1": "z3",
+  "cod-35MNP7598_1": "z4",
+  "cod-35MPP1637_1": "z3",
+  "cod-35MNP9606_1": "z3",
+  "cod-35MNP6181_1": "z4",
+  "cod-35MNP4831_1": "z4",
+  "cod-35MPQ0333_1": "z3",
+  "cod-35MNP8072_1": "z4",
+  "cod-35MPP1241_1-nqU5JaLk1Jn": "z1",
+  "cod-35MPP1241_1-a7miqRyjks0": "z1"
+ }
+}

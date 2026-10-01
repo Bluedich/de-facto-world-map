@@ -1,7 +1,7 @@
 {
  "unit_id": "CD5407-mahagi-2",
  "as_of": "2026-10-01",
- "summary": "This unit covers northern Mahagi territory (Aungba, Kambala and Rimba health zones, mostly Alur chefferies around Nioka and towards Aru). Unlike southern Mahagi and neighbouring Djugu, the area is not known to be held by CODECO or other armed groups; the state (PNC with FARDC detachments, under customary chiefs locally) is treated as the controller. The western fringe bordering Djugu, including the Djalasiga gold-mining centre, is exposed to CODECO incursions and is rated lower confidence. NOTE: web research could not be performed for this unit (search budget exhausted, news/aggregator sites blocked), so all zones are inferences from background knowledge and should be re-checked.",
+ "summary": "This unit covers northern Mahagi territory (Aungba, Kambala and Rimba health zones, mostly Alur chefferies around Nioka and towards Aru). Unlike southern Mahagi and neighbouring Djugu, the area is not known to be held by CODECO or other armed groups; the state (PNC with FARDC detachments, under customary chiefs locally) is treated as the controller. The western fringe bordering Djugu, including the Djalasiga gold-mining centre, is exposed to CODECO incursions and is rated lower confidence. NOTE: web research could not be performed for this unit (search budget exhausted, news/aggregator sites blocked), so all zones are inferences from background knowledge and should be re-checked. Reviewer note (2026-10-01): independent review also could not run web searches (budget exhausted) or fetch search engines/ReliefWeb (egress blocked); no claim could be verified against dated reports. Only change: the Rimba/Kambala towns zone (z3) was lowered from 'exclusive' to 'dominant' as overstated; western Aungba (Walendu Watsi, Lendu-populated) is flagged as the area most likely to need correction toward CODECO influence.",
  "sources": [
   {
    "id": "s1",
@@ -52,7 +52,7 @@
      "role": "raiding"
     }
    ],
-   "evidence": "Djalasiga is a large artisanal gold-mining agglomeration in north-western Mahagi, administered by the state with police and a military detachment guarding the mining area; CODECO elements from neighbouring Djugu (Walendu Tatsi/Watsi) have historically made incursions into western Mahagi mining sites but are not known to hold the town. Web research could not be performed for this unit (search budget exhausted, news sites blocked); assessment is inference from background knowledge to mid-2026.",
+   "evidence": "Djalasiga is a large artisanal gold-mining agglomeration in north-western Mahagi, administered by the state with police and a military detachment guarding the mining area; CODECO elements from neighbouring Djugu (Walendu Tatsi/Watsi) have historically made incursions into western Mahagi mining sites but are not known to hold the town. Web research could not be performed for this unit (search budget exhausted, news sites blocked); assessment is inference from background knowledge to mid-2026. Reviewer: the western Aungba health-zone areas (Djalasiga, Zani, Kepira, Aupa, Ngbiki, Wadaka) are believed to fall largely in the Lendu-populated Walendu Watsi secteur, where CODECO influence may be greater than assumed here; could not be verified.",
    "source_ids": [
     "s1",
     "s2",
@@ -77,7 +77,7 @@
      "role": "raiding"
     }
    ],
-   "evidence": "Alur villages on the western edge of Mahagi territory adjoining Djugu's Lendu areas; state administration and police remain, with FARDC positions on the border, while CODECO raids from Djugu are a recurrent risk rather than an established presence. Web research could not be performed for this unit (search budget exhausted, news sites blocked); assessment is inference from background knowledge to mid-2026.",
+   "evidence": "Alur villages on the western edge of Mahagi territory adjoining Djugu's Lendu areas; state administration and police remain, with FARDC positions on the border, while CODECO raids from Djugu are a recurrent risk rather than an established presence. Web research could not be performed for this unit (search budget exhausted, news sites blocked); assessment is inference from background knowledge to mid-2026. Reviewer: the western Aungba health-zone areas (Djalasiga, Zani, Kepira, Aupa, Ngbiki, Wadaka) are believed to fall largely in the Lendu-populated Walendu Watsi secteur, where CODECO influence may be greater than assumed here; could not be verified.",
    "source_ids": [
     "s1",
     "s2",
@@ -88,7 +88,7 @@
    "zone_id": "z3",
    "description": "Main towns of Rimba, Kambala and Aungba areas (Nioka/Pandoro, Cité Lopka, Jupadhi, Jupacen, Jupalang'u, Jupamalawi, Rona centre, Reru, Juru, Kambi)",
    "controller_id": "cod-pnc",
-   "status": "exclusive",
+   "status": "dominant",
    "confidence": "medium",
    "basis": "default_state_presence",
    "since": null,
@@ -98,7 +98,7 @@
      "role": "present"
     }
    ],
-   "evidence": "Northern/central Mahagi (Alur chefferies) has seen no established armed-group control; Nioka and the RN27 towns host state administration, PNC posts and FARDC detachments. Web research could not be performed for this unit (search budget exhausted, news sites blocked); assessment is inference from background knowledge to mid-2026.",
+   "evidence": "Northern/central Mahagi (Alur chefferies) has seen no established armed-group control; Nioka and the RN27 towns host state administration, PNC posts and FARDC detachments. Web research could not be performed for this unit (search budget exhausted, news sites blocked); assessment is inference from background knowledge to mid-2026. Reviewer: status lowered from exclusive to dominant since no source confirms absence of armed actors.",
    "source_ids": [
     "s1",
     "s4"

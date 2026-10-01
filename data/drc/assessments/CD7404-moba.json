@@ -1,0 +1,244 @@
+{
+ "unit_id": "CD7404-moba",
+ "as_of": "2026-10-01",
+ "summary": "Moba territory (Tanganyika) on Lake Tanganyika is assessed as state-held. Moba town and the lakeside/eastern villages are under territorial administration with PNC policing and FARDC/naval posts. The remote western Kansimba sector (Kamena area, bordering Manono/Nyunzu) is exposed to Bakata Katanga incursions - the army was deployed to Kamena after a militia incursion in late September 2026 - and Twa militia activity; it is assessed FARDC-held but contested. Southern villages bordering Pweto's Mwenge axis are assessed army-held with militia raids possible. Web research was blocked for this unit (search budget exhausted, news sites unreachable), so most zones are default-state-presence with low confidence. Reviewer note (2026-10-01): independent verification was not possible (web search budget exhausted, Radio Okapi and search engines blocked); assignments were checked against health zones/coordinates and neighbouring Manono, Kalemie and Pweto assessments, which are consistent.",
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.radiookapi.net/2026/09/30/actualite/securite/moba-larmee-deployee-kamena-apres-une-incursion-des-miliciens-bakata",
+   "title": "Moba : l'armée déployée à Kamena après une incursion des miliciens Bakata Katanga",
+   "publisher": "Radio Okapi (title only, cited in CD7109-pweto assessment; page not reachable)",
+   "date": "2026-09-30"
+  },
+  {
+   "id": "s2",
+   "url": "https://ehtools.org/uploads/brochures/1763.pdf",
+   "title": "Mission d'évaluation protection, territoire de Pweto (13-22 avril 2026), axe Pweto-Mwenge",
+   "publisher": "OCHA / ehtools (via CD7109-pweto assessment)",
+   "date": "2026-04"
+  },
+  {
+   "id": "s3",
+   "url": "https://en.wikipedia.org/wiki/Mai-Mai_Kata_Katanga",
+   "title": "Mai-Mai Kata Katanga",
+   "publisher": "Wikipedia",
+   "date": null
+  }
+ ],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Moba town (Baudhuinville/Kirungu, Moba-Port/Kisi), territorial seat on Lake Tanganyika",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Territorial seat with territorial administration, PNC commissariat, FARDC and naval units on the lake; no source reports an armed group holding or administering the town. Live web research was unavailable for this unit, so this is a default state-presence assessment.",
+   "source_ids": []
+  },
+  {
+   "zone_id": "z2",
+   "description": "Rural Moba health zone: lakeside and interior villages north/south of Moba (Kapakwe, Mulunguzi, Kansenge, Kasenga, Mulonde, Lumono, Lyapenda, Pepa, Kipiri, Selembe, Fube, Mwange, Musosa) and the eastern areas toward Kapampa, Kizike, Liombe, Kiku, Kapote, Livua, Moliro",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [],
+   "evidence": "No reports of armed-group control of these villages were found; they are under the territorial administration and customary chiefs with thin PNC posts. Bakata Katanga activity in 2026 is reported in western Kansimba (Kamena) rather than here. Low confidence: web sources could not be consulted for this unit.",
+   "source_ids": [
+    "s1"
+   ]
+  },
+  {
+   "zone_id": "z3",
+   "description": "Eastern Kansimba health zone villages near Moba (Malibu/Kitambala, Nkumbula, Mazonde/Ndalama, Nkuba, Mwindi, Lungulungu, Kayabala, Kasokota, Kibiziwa)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Hinterland of Moba on the Moba-Kansimba road; no source found showing an armed group governing these villages as of 2026. Assessed as ordinary (thin) state presence; occasional militia raids from the west cannot be ruled out.",
+   "source_ids": []
+  },
+  {
+   "zone_id": "z4",
+   "description": "Western Kansimba sector interior (Kamena, Lusenga, Lumizinga, Kasenga Nganye, Lubambo, Mupanga, Lambo/Kalimba, Kabwela/Kibende, Mwanza/Kazembeka) bordering Manono and Nyunzu",
+   "controller_id": "cod-fardc",
+   "status": "contested",
+   "confidence": "low",
+   "basis": "area_report",
+   "since": "2026-09",
+   "presence": [
+    {
+     "entity_id": "bakata-katanga",
+     "role": "contesting"
+    },
+    {
+     "entity_id": "twa-militias",
+     "role": "present"
+    }
+   ],
+   "evidence": "Radio Okapi (30 Sep 2026) reports the army was deployed to Kamena after an incursion by Bakata Katanga militiamen, i.e. militia raiding with the FARDC responding and holding the locality. The remote western plateau has a history of Mai-Mai Kata Katanga and Twa militia activity; control is assessed FARDC-led but contested. Only Kamena is named in the (title-only) report; extension to the rest of western Kansimba is an area-level inference.",
+   "source_ids": [
+    "s1",
+    "s3"
+   ]
+  },
+  {
+   "zone_id": "z5",
+   "description": "Southern Moba territory villages in Pweto health zone (Kapondo, Kinkalangu: Fede, Katumbako, Kipweta, Makola, Mukato, Kapala, Lofwashi) bordering Pweto's Mwenge chefferie",
+   "controller_id": "cod-fardc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "inference",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "bakata-katanga",
+     "role": "raiding"
+    }
+   ],
+   "evidence": "Adjacent to the Pweto-Mwenge axis, where an April 2026 OCHA protection mission reports persistent Mai-Mai Kata Katanga instability and FARDC deployment; these villages are assumed state-held with the army as main force and militia raids possible.",
+   "source_ids": [
+    "s2",
+    "s3"
+   ]
+  },
+  {
+   "zone_id": "z6",
+   "description": "Northern Kansimba sector lakeside toward Kalemie (Tembwe/Madjengo Mampia, Katondo/Mbavu, Mpala/Bulela, Lubasha, Ngalula)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Lake Tanganyika shore between Kalemie and Moba with territorial administration and police/army posts; no recent source found of armed-group control. Default state presence.",
+   "source_ids": []
+  }
+ ],
+ "locations": {
+  "cod-35MRN0116_1": "z1",
+  "cod-35MRN0520_2": "z1",
+  "cod-35MRM0395_1": "z2",
+  "cod-35MQN9104_1": "z3",
+  "cod-36LSS7210_1": "z2",
+  "cod-35MRN0406_1": "z2",
+  "cod-35MRN1316_1": "z2",
+  "cod-35MRM1245_1": "z2",
+  "cod-35LQM8601_1": "z5",
+  "cod-35LRL2897_1": "z2",
+  "cod-35LQL8799_1": "z5",
+  "cod-35MRN0814_1": "z2",
+  "cod-35MRN2713_1": "z2",
+  "cod-36LTR3285_1": "z2",
+  "cod-35LQM9606_1": "z2",
+  "cod-35MQM7888_1": "z3",
+  "cod-35LQL8787_1": "z2",
+  "cod-35MQN9616_1": "z3",
+  "cod-35MRM1297_1": "z2",
+  "cod-35MRN0227_1": "z2",
+  "cod-36MSS9264_1": "z2",
+  "cod-35MRN2414_1": "z2",
+  "cod-35MQM9888_2": "z2",
+  "cod-35MQN9706_1": "z3",
+  "cod-35MQN8423_1": "z3",
+  "cod-36MTS1715_1": "z2",
+  "cod-35LQL8596_1": "z5",
+  "cod-35MRM1860_1": "z2",
+  "cod-35LRM0011_1": "z2",
+  "cod-35LQL7795_1": "z5",
+  "cod-36MSS8982_2": "z2",
+  "cod-36MSS9839_1": "z2",
+  "cod-35LRM1111_1": "z2",
+  "cod-35MRM0891_2": "z2",
+  "cod-35MRM1226_1": "z2",
+  "cod-35MQN9241_1": "z3",
+  "cod-35MQM8081_1": "z3",
+  "cod-36MSS9348_1": "z2",
+  "cod-35MRM0973_1": "z2",
+  "cod-35MRM0862_1": "z2",
+  "cod-35MRM0265_1": "z2",
+  "cod-35MRM1118_1": "z2",
+  "cod-35MQN8945_1": "z3",
+  "cod-35LQL9478_1": "z2",
+  "cod-35LQM9908_1": "z2",
+  "cod-35MQM7844_1": "z3",
+  "cod-35MRM1483_1": "z2",
+  "cod-36MSS9055_1": "z2",
+  "cod-35MRN0323_3": "z2",
+  "cod-35MQN9436_2": "z3",
+  "cod-36MSS8395_1": "z2",
+  "cod-35MQM8193_1": "z3",
+  "cod-36MSS9160_1": "z2",
+  "cod-35MRM1385_2": "z2",
+  "cod-35MQN9417_1": "z3",
+  "cod-35LQL8974_1": "z2",
+  "cod-35MRN1716_3": "z2",
+  "cod-35MRM0145_1": "z2",
+  "cod-35MRM0759_1": "z2",
+  "cod-35MQN9319_1": "z3",
+  "cod-36MSS8492_1": "z2",
+  "cod-35LQL9984_1": "z2",
+  "cod-35MQM7675_1": "z3",
+  "cod-35MRN0128_2": "z2",
+  "cod-36MSS9544_2": "z2",
+  "cod-36MSS9175_1": "z2",
+  "cod-35LRL0489_1": "z2",
+  "cod-35LQM9103_2": "z5",
+  "cod-35LQL8291_1": "z5",
+  "cod-35MQM8295_1": "z3",
+  "cod-35MRN0226_2": "z2",
+  "cod-35MRM0546_1": "z2",
+  "cod-35MQN8005_3": "z3",
+  "cod-35MRM0647_3": "z2",
+  "cod-36MST7802_1": "z2",
+  "cod-36LTS2607_1": "z2",
+  "cod-36LTS2111_1": "z2",
+  "cod-36MTS0825_1": "z2",
+  "cod-35MQN7008_1": "z3",
+  "cod-36MTS1717_1": "z2",
+  "cod-35LQM9505_1": "z2",
+  "cod-35LQM9304_2": "z5",
+  "cod-36MSS9161_2": "z2",
+  "cod-35MRM1417_1": "z2",
+  "cod-35MRM1143_1": "z2",
+  "cod-36MSS6916_1": "z2",
+  "cod-36LTR3289_1": "z2",
+  "cod-35MQN7278_1": "z6",
+  "cod-35MQN4407_3": "z4",
+  "cod-35MQN8053_1": "z6",
+  "cod-35MQN7571_1": "z6",
+  "cod-35MQN7657_1": "z6",
+  "cod-35MPM9579_3": "z4",
+  "cod-35MQN3025_1": "z4",
+  "cod-35MQM0151_1": "z4",
+  "cod-35MQM1499_1": "z4",
+  "cod-35MQN7468_1": "z6",
+  "cod-35MQM5285_1": "z4",
+  "cod-35MPM8928_1": "z4",
+  "cod-35MPM9643_1": "z4",
+  "cod-35MQN4600_1": "z4",
+  "cod-35MPN9802_1": "z4"
+ }
+}

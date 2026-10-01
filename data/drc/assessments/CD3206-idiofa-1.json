@@ -1,7 +1,7 @@
 {
  "unit_id": "CD3206-idiofa-1",
  "as_of": "2026-10-01",
- "summary": "Idiofa territory part 1 (Kwilu) covers Idiofa town and the Idiofa and Ipamu secteurs, including the Kasai river towns of Mangai and Dibaya-Lubwe. No armed group is reported to control or regularly raid any locality here; the Mobondo militia theatre lies far to the west (Kwamouth, Bagata, Kwango) and the former Kamuina Nsapu areas of the Kasai provinces are across the Kasai/Loange to the east. All locations are assessed as under ordinary state authority with the PNC as the main permanent force and customary chiefs under it. Live web research was unavailable for this run, so confidence is medium for the main towns and low elsewhere.",
+ "summary": "Idiofa territory part 1 (Kwilu) covers Idiofa town and the Idiofa and Ipamu secteurs, including the Kasai river towns of Mangai and Dibaya-Lubwe. No armed group is reported to control or regularly raid any locality here: Radio Okapi coverage of Idiofa, Mangai and Dibaya-Lubwe in 2025-2026 concerns unpaid teachers, electricity, weather and ordinary crime, not militia activity, and the Mobondo militia remains confined to the Maï-Ndombe border areas of Kwilu (Bagata, Bulungu) far to the west, where the government reported it in retreat in March 2026. All locations are assessed as under ordinary state authority, with the PNC and the parquet/courts of Idiofa as the main coercive and justice institutions and customary chiefs under them. Confidence is medium for the main towns and low for villages, as evidence is the absence of reported armed-group activity rather than positive reporting on police posts.",
  "sources": [
   {
    "id": "s1",
@@ -23,6 +23,41 @@
    "title": "Le Gouvernement confirme des signaux de paix face au phénomène Mobondo !",
    "publisher": "AllAfrica",
    "date": "2026-08-18"
+  },
+  {
+   "id": "s4",
+   "url": "https://fr.allafrica.com/stories/202603300279.html",
+   "title": "Le Gouvernement annonce « un net recul » de la milice Mobondo au Kwilu",
+   "publisher": "AllAfrica / Radio Okapi",
+   "date": "2026-03-30"
+  },
+  {
+   "id": "s5",
+   "url": "https://fr.allafrica.com/stories/202606040651.html",
+   "title": "Le directeur d'une école primaire retrouvé mort dans la forêt à Mangai, au Kwilu",
+   "publisher": "AllAfrica / Radio Okapi",
+   "date": "2026-06-04"
+  },
+  {
+   "id": "s6",
+   "url": "https://fr.allafrica.com/stories/202607020580.html",
+   "title": "Pénurie d'électricité à Idiofa trois mois après l'inauguration du barrage Kakobola",
+   "publisher": "AllAfrica / Radio Okapi",
+   "date": "2026-07-02"
+  },
+  {
+   "id": "s7",
+   "url": "https://fr.allafrica.com/stories/202402280463.html",
+   "title": "Kwilu - Au moins 3 personnes tuées depuis le début de l'année 2024 à Idiofa",
+   "publisher": "AllAfrica / Radio Okapi",
+   "date": "2024-02-28"
+  },
+  {
+   "id": "s8",
+   "url": "https://fr.allafrica.com/stories/202403160196.html",
+   "title": "Kwilu - Evasion de 33 détenus du cachot du parquet près le tribunal de paix d'Idiofa",
+   "publisher": "AllAfrica / Radio Okapi",
+   "date": "2024-03-16"
   }
  ],
  "new_entities": [],
@@ -36,11 +71,13 @@
    "basis": "default_state_presence",
    "since": null,
    "presence": [],
-   "evidence": "Territorial seat with territorial administration, PNC commissariat, courts and prison; no armed group reported controlling or regularly raiding the town. No source reports armed-group activity in this area as of the reference date; the Mobondo militia theatre (Kwamouth, Bagata, Kenge, Kwango) lies far to the west. Live web research was unavailable for this run (search budget exhausted, news sites blocked), so the assessment rests on default state presence.",
+   "evidence": "Territorial seat with territorial administration, PNC commissariat, courts and prison; no armed group reported controlling or regularly raiding the town. No source reports armed-group activity in this area as of the reference date; the Mobondo militia theatre (Kwamouth, Bagata, Kenge, Kwango) lies far to the west. Review (2026-10-01): Radio Okapi/AllAfrica coverage of Idiofa territory in 2025-2026 (teacher salary strikes, Kakobola power supply, a death in Mangai forest, ordinary criminality) reports no armed group; Mobondo activity in Kwilu is limited to the Maï-Ndombe border zones and was described as in retreat in March 2026.",
    "source_ids": [
     "s1",
-    "s2",
-    "s3"
+    "s4",
+    "s6",
+    "s7",
+    "s8"
    ]
   },
   {
@@ -52,11 +89,11 @@
    "basis": "default_state_presence",
    "since": null,
    "presence": [],
-   "evidence": "River-port and mission towns on the Kasai with PNC posts and state services (port/ customs agents); no armed group reported. No source reports armed-group activity in this area as of the reference date; the Mobondo militia theatre (Kwamouth, Bagata, Kenge, Kwango) lies far to the west. Live web research was unavailable for this run (search budget exhausted, news sites blocked), so the assessment rests on default state presence.",
+   "evidence": "River-port and mission towns on the Kasai with PNC posts and state services (port/ customs agents); no armed group reported. No source reports armed-group activity in this area as of the reference date; the Mobondo militia theatre (Kwamouth, Bagata, Kenge, Kwango) lies far to the west. Review (2026-10-01): Radio Okapi/AllAfrica coverage of Idiofa territory in 2025-2026 (teacher salary strikes, Kakobola power supply, a death in Mangai forest, ordinary criminality) reports no armed group; Mobondo activity in Kwilu is limited to the Maï-Ndombe border zones and was described as in retreat in March 2026.",
    "source_ids": [
     "s1",
-    "s2",
-    "s3"
+    "s4",
+    "s5"
    ]
   },
   {
@@ -73,11 +110,11 @@
      "role": "present"
     }
    ],
-   "evidence": "Rural villages under customary chiefs operating within state authority, with PNC posts at secteur/groupement level. No source reports armed-group activity in this area as of the reference date; the Mobondo militia theatre (Kwamouth, Bagata, Kenge, Kwango) lies far to the west. Live web research was unavailable for this run (search budget exhausted, news sites blocked), so the assessment rests on default state presence.",
+   "evidence": "Rural villages under customary chiefs operating within state authority, with PNC posts at secteur/groupement level. No source reports armed-group activity in this area as of the reference date; the Mobondo militia theatre (Kwamouth, Bagata, Kenge, Kwango) lies far to the west. Review (2026-10-01): Radio Okapi/AllAfrica coverage of Idiofa territory in 2025-2026 (teacher salary strikes, Kakobola power supply, a death in Mangai forest, ordinary criminality) reports no armed group; Mobondo activity in Kwilu is limited to the Maï-Ndombe border zones and was described as in retreat in March 2026.",
    "source_ids": [
     "s1",
-    "s2",
-    "s3"
+    "s4",
+    "s7"
    ]
   },
   {
@@ -94,11 +131,10 @@
      "role": "present"
     }
    ],
-   "evidence": "Rural villages under customary chiefs operating within state authority, with PNC posts at secteur/groupement level. No source reports armed-group activity in this area as of the reference date; the Mobondo militia theatre (Kwamouth, Bagata, Kenge, Kwango) lies far to the west. Live web research was unavailable for this run (search budget exhausted, news sites blocked), so the assessment rests on default state presence.",
+   "evidence": "Rural villages under customary chiefs operating within state authority, with PNC posts at secteur/groupement level. No source reports armed-group activity in this area as of the reference date; the Mobondo militia theatre (Kwamouth, Bagata, Kenge, Kwango) lies far to the west. Review (2026-10-01): Radio Okapi/AllAfrica coverage of Idiofa territory in 2025-2026 (teacher salary strikes, Kakobola power supply, a death in Mangai forest, ordinary criminality) reports no armed group; Mobondo activity in Kwilu is limited to the Maï-Ndombe border zones and was described as in retreat in March 2026.",
    "source_ids": [
     "s1",
-    "s2",
-    "s3"
+    "s4"
    ]
   }
  ],

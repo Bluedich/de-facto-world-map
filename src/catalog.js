@@ -14,7 +14,7 @@ const GIBS_WMS = 'https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi';
 
 // WorldPop population density (people/km², 100 m grid, 2000–2020) served as an ArcGIS ImageServer.
 // The service returns raw float values, so classes and colours are applied server-side with a
-// Remap + Colormap rendering rule. Values below 1 person/km² become NoData (transparent).
+// Remap + Colormap rendering rule. Values below the cutoff (default 1 person/km²) become NoData (transparent).
 const POP_CLASSES = [
   // [from, to, colour]  people per km²
   [1, 10, '#2c105c'],
@@ -26,17 +26,19 @@ const POP_CLASSES = [
   [5000, 15000, '#fcfdbf'],
   [15000, 1e9, '#ffffff'],
 ];
-function worldpopUrl(service, year) {
+export const POP_CUTOFFS = [1, 10, 50, 150, 500, 1500, 5000];
+function worldpopUrl(service, year, min = 1) {
   const hex = (c) => [1, 3, 5].map((i) => parseInt(c.slice(i, i + 2), 16));
+  const classes = POP_CLASSES.filter(([, to]) => to > min).map(([from, to, c]) => [Math.max(from, min), to, c]);
   const rule = {
     rasterFunction: 'Colormap',
     rasterFunctionArguments: {
-      Colormap: POP_CLASSES.map(([, , c], i) => [i + 1, ...hex(c)]),
+      Colormap: classes.map(([, , c], i) => [i + 1, ...hex(c)]),
       Raster: {
         rasterFunction: 'Remap',
         rasterFunctionArguments: {
-          InputRanges: POP_CLASSES.flatMap(([a, b]) => [a, b]),
-          OutputValues: POP_CLASSES.map((_, i) => i + 1),
+          InputRanges: classes.flatMap(([a, b]) => [a, b]),
+          OutputValues: classes.map((_, i) => i + 1),
           AllowUnmatched: false,
         },
       },
@@ -50,6 +52,13 @@ function worldpopUrl(service, year) {
   return `https://worldpop.arcgis.com/arcgis/rest/services/${service}/ImageServer/exportImage?bbox={bbox}&${p}`;
 }
 export const POPULATION_LEGEND = POP_CLASSES;
+
+// Applies the user's opacity and minimum-density cutoff to the WorldPop 100 m overlay.
+export function configureWorldpop({ opacity, min }) {
+  const o = OVERLAYS.find((x) => x.id === 'worldpop');
+  o.opacity = opacity;
+  o.url = worldpopUrl('WorldPop_Population_Density_100m', 2020, min);
+}
 
 export const DEM = {
   // Mapzen/Tilezen Terrarium tiles on AWS Open Data. Global, ~30 m on land, includes bathymetry.

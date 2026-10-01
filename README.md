@@ -19,7 +19,7 @@ The URL hash stores library, base map, overlays and view, so a configuration can
 
 - **Library**: MapLibre GL JS, CesiumJS, OpenLayers, Leaflet (`src/adapters/`)
 - **Base map**: OpenFreeMap vector styles, OSM, CARTO, Esri imagery/topo/relief, Sentinel-2, NASA Blue Marble, OpenTopoMap
-- **Overlays**: hillshade, hypsometric tint, population density (GPW), night lights, rivers & lakes,
+- **Overlays**: hillshade, hypsometric tint, population density (WorldPop 100 m, GPW 1 km), night lights, rivers & lakes,
   sample control polygons (Natural Earth countries), place labels
 - **3D**: globe projection, 3D terrain with exaggeration (MapLibre, Cesium). Cesium can use a Cesium ion token
   (entered in the panel, stored in localStorage) for Cesium World Terrain.

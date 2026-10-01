@@ -49,13 +49,20 @@ Not included but worth knowing:
 
 ## Population density
 
-- **GPW v4 2020 (CIESIN) via NASA GIBS WMS** – ~1 km, global, free. Coarse but consistent. Included.
+- **WorldPop 100 m density (2000–2020) via Esri Living Atlas ImageServer** – public, no key. Included (2020).
+  The service returns raw floats; the app sends a Remap + Colormap rendering rule so Esri returns
+  classed, coloured PNG tiles (8 classes, 1 to 15 000+ people/km², magma-like ramp).
+  `https://worldpop.arcgis.com/arcgis/rest/services/WorldPop_Population_Density_100m/ImageServer`
+  (also `_1km` and `WorldPop_Total_Population_100m`). Year selectable via the `time` parameter.
+- **GPW v4 2020 (CIESIN) via NASA GIBS WMS** – ~1 km, coarse but very reliable. Included.
 - **VIIRS Black Marble night lights (NASA GIBS)** – proxy for settlement. Included.
-- Higher resolution, would need self-hosted tiles (e.g. PMTiles/COG):
-  - **GHSL GHS-POP** (JRC) – 100 m / 1 km, 1975–2030 epochs, CC-BY.
-  - **WorldPop** – 100 m, yearly, CC-BY.
-  - **Kontur Population** – H3 hexagons (400 m), CC-BY; renders well as vector polygons.
-  - **Meta High Resolution Settlement Layer** – 30 m, CC-BY.
+- **GHSL GHS-POP** (JRC, used by luminocity3d.org) – 100 m / 1 km, 1975–2030 epochs, CC BY 4.0. No public tile
+  service: data is GeoTIFF (Mollweide or EPSG:4326) from JRC, AWS Open Data (`s3://jrc-ghsl/ghs-pop`) or
+  source.coop (COG). To use it: download the 2025 epoch, `gdalwarp` to EPSG:3857, colour with
+  `gdaldem color-relief`, cut to a PMTiles raster archive (z0–10 is a few GB) and host it on object storage
+  (Cloudflare R2, S3). MapLibre reads PMTiles directly via the `pmtiles` protocol.
+- **Kontur Population** – H3 hexagons (400 m), CC BY; renders well as vector polygons, also needs self-hosting.
+- **Meta High Resolution Settlement Layer** – 30 m, CC BY.
 
 ## Rivers
 

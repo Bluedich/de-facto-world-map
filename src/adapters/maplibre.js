@@ -19,7 +19,7 @@ async function fetchStyle(url) {
 function rasterSource(l) {
   return {
     type: 'raster',
-    tiles: [l.kind === 'wms' ? wmsTemplate(l) : l.url],
+    tiles: [l.kind === 'wms' ? wmsTemplate(l) : l.url.replace('{bbox}', '{bbox-epsg-3857}')],
     tileSize: 256,
     maxzoom: l.maxzoom ?? 19,
     attribution: l.attribution,
@@ -53,6 +53,7 @@ function overlayParts(o, state) {
       break;
     case 'xyz':
     case 'wms':
+    case 'bbox':
       sources[src] = rasterSource(o);
       layers.push({ id: src, type: 'raster', source: src, paint: { 'raster-opacity': o.opacity ?? 1 } });
       break;

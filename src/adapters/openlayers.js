@@ -12,7 +12,15 @@ import { fromLonLat, toLonLat } from 'ol/proj.js';
 import { defaults as defaultControls, ScaleLine } from 'ol/control.js';
 import { BASEMAPS, OVERLAYS, byId, CONTROL_COLORS, loadGeoJSON } from '../catalog.js';
 
+function bboxSource(l) {
+  const source = new XYZ({ maxZoom: l.maxzoom, crossOrigin: 'anonymous', attributions: l.attribution });
+  const grid = source.getTileGrid();
+  source.setTileUrlFunction((coord) => l.url.replace('{bbox}', grid.getTileCoordExtent(coord).join(',')));
+  return source;
+}
+
 function rasterLayer(l) {
+  if (l.kind === 'bbox') return new TileLayer({ source: bboxSource(l), opacity: l.opacity ?? 1 });
   const source = l.kind === 'wms'
     ? new TileWMS({
       url: l.url, crossOrigin: 'anonymous', attributions: l.attribution,

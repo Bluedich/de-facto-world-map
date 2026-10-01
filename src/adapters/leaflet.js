@@ -2,7 +2,22 @@ import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
 import { BASEMAPS, OVERLAYS, byId, CONTROL_COLORS, loadGeoJSON } from '../catalog.js';
 
+// Tile layer whose URL takes the tile's EPSG:3857 bounding box.
+const BboxTileLayer = L.TileLayer.extend({
+  getTileUrl(coords) {
+    const size = this.getTileSize();
+    const nw = this._map.unproject(coords.scaleBy(size), coords.z);
+    const se = this._map.unproject(coords.add([1, 1]).scaleBy(size), coords.z);
+    const a = L.CRS.EPSG3857.project(nw);
+    const b = L.CRS.EPSG3857.project(se);
+    return this._url.replace('{bbox}', [a.x, b.y, b.x, a.y].join(','));
+  },
+});
+
 function rasterLayer(l) {
+  if (l.kind === 'bbox') {
+    return new BboxTileLayer(l.url, { maxNativeZoom: l.maxzoom, maxZoom: 20, opacity: l.opacity ?? 1, attribution: l.attribution });
+  }
   if (l.kind === 'wms') {
     return L.tileLayer.wms(l.url, {
       layers: l.layers, format: l.format || 'image/png', transparent: true, version: '1.1.1',

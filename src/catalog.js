@@ -4,11 +4,52 @@
 //   xyz      raster tiles, url template with {z}/{x}/{y}
 //   wms      WMS GetMap in EPSG:3857 (url + layers)
 //   style    MapLibre vector style JSON (MapLibre only)
+//   bbox     image per tile from a URL with a {bbox} placeholder (EPSG:3857 minx,miny,maxx,maxy),
+//            e.g. ArcGIS ImageServer exportImage
 //   geojson  local GeoJSON rendered as vector features
 //   hillshade  shaded relief: computed from DEM in MapLibre, Esri raster elsewhere
 
 const ESRI = 'https://server.arcgisonline.com/ArcGIS/rest/services';
 const GIBS_WMS = 'https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi';
+
+// WorldPop population density (people/km², 100 m grid, 2000–2020) served as an ArcGIS ImageServer.
+// The service returns raw float values, so classes and colours are applied server-side with a
+// Remap + Colormap rendering rule. Values below 1 person/km² become NoData (transparent).
+const POP_CLASSES = [
+  // [from, to, colour]  people per km²
+  [1, 10, '#2c105c'],
+  [10, 50, '#711f81'],
+  [50, 150, '#b63679'],
+  [150, 500, '#ee605e'],
+  [500, 1500, '#fb9b5f'],
+  [1500, 5000, '#fdcf73'],
+  [5000, 15000, '#fcfdbf'],
+  [15000, 1e9, '#ffffff'],
+];
+function worldpopUrl(service, year) {
+  const hex = (c) => [1, 3, 5].map((i) => parseInt(c.slice(i, i + 2), 16));
+  const rule = {
+    rasterFunction: 'Colormap',
+    rasterFunctionArguments: {
+      Colormap: POP_CLASSES.map(([, , c], i) => [i + 1, ...hex(c)]),
+      Raster: {
+        rasterFunction: 'Remap',
+        rasterFunctionArguments: {
+          InputRanges: POP_CLASSES.flatMap(([a, b]) => [a, b]),
+          OutputValues: POP_CLASSES.map((_, i) => i + 1),
+          AllowUnmatched: false,
+        },
+      },
+    },
+  };
+  const p = new URLSearchParams({
+    bboxSR: '3857', imageSR: '3857', size: '256,256', format: 'png32', transparent: 'true',
+    time: String(Date.UTC(year, 0, 1)), interpolation: 'RSP_NearestNeighbor', f: 'image',
+    renderingRule: JSON.stringify(rule),
+  });
+  return `https://worldpop.arcgis.com/arcgis/rest/services/${service}/ImageServer/exportImage?bbox={bbox}&${p}`;
+}
+export const POPULATION_LEGEND = POP_CLASSES;
 
 export const DEM = {
   // Mapzen/Tilezen Terrarium tiles on AWS Open Data. Global, ~30 m on land, includes bathymetry.
@@ -100,6 +141,12 @@ export const OVERLAYS = [
   {
     id: 'elevation', name: 'Elevation tint (hypsometric)', kind: 'colorrelief', opacity: 0.55, libs: ['maplibre'],
     note: 'Colour by height computed client-side from the DEM (MapLibre color-relief layer).',
+  },
+  {
+    id: 'worldpop', name: 'Population density (WorldPop 100 m, 2020)', kind: 'bbox', opacity: 0.85, maxzoom: 14,
+    url: worldpopUrl('WorldPop_Population_Density_100m', 2020),
+    attribution: 'Population: <a href="https://www.worldpop.org">WorldPop</a> (CC BY 4.0) via Esri Living Atlas',
+    note: '100 m grid, rendered on the fly by Esri. Best on a dark base.',
   },
   {
     id: 'population', name: 'Population density (GPW v4, 2020)', kind: 'wms', opacity: 0.65,

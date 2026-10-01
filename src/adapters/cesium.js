@@ -15,6 +15,12 @@ function imageryProvider(l) {
       maximumLevel: l.maxzoom,
     });
   }
+  if (l.kind === 'bbox') {
+    return new Cesium.UrlTemplateImageryProvider({
+      url: l.url.replace('{bbox}', '{westProjected},{southProjected},{eastProjected},{northProjected}'),
+      tilingScheme: new Cesium.WebMercatorTilingScheme(), maximumLevel: l.maxzoom, credit,
+    });
+  }
   return new Cesium.UrlTemplateImageryProvider({ url: l.url, maximumLevel: l.maxzoom ?? 19, credit });
 }
 

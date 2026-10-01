@@ -1,0 +1,61 @@
+{
+ "unit_id": "CD8105-kamiji",
+ "as_of": "2026-10-01",
+ "summary": "Kamiji territory (Lomami province), a rural territory between Mwene-Ditu and the Kasai-Central/Kasai-Oriental borders, has no known armed-group territorial control. The Kamuina Nsapu insurgency affected the wider Kasai and Lomami region in 2016-2017 but was suppressed by 2018 without leaving lasting militia control in Kamiji. The territorial centre (Kamiji, around Tshisangu) hosts the territorial administration and a PNC commissariat; villages are run by customary chiefs with PNC posts. Live web research was unavailable in this run (search budget exhausted), so the assessment relies on background knowledge and the default-state-presence rule, with limited confidence.",
+ "sources": [],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Kamiji territorial centre (Tshisangu localities)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [],
+   "evidence": "Seat of Kamiji territory with territorial administrator and PNC territorial commissariat; no reports of armed-group presence after the Kamuina Nsapu crisis faded in 2017-2018.",
+   "source_ids": []
+  },
+  {
+   "zone_id": "z2",
+   "description": "Rural villages of Kamiji territory (Kamiji, Lubondaie and Cilundu health zones)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [],
+   "evidence": "Villages with no reported armed-group activity; order maintained by customary chiefs and PNC posts. Residual insecurity limited to banditry and local disputes.",
+   "source_ids": []
+  }
+ ],
+ "locations": {
+  "cod-34MGT5163_1": "z1",
+  "cod-34MGT4748_2": "z2",
+  "cod-34MGT4768_1": "z2",
+  "cod-34MGT2841_1": "z2",
+  "cod-34MGT6574_1": "z2",
+  "cod-34MGT6360_1": "z2",
+  "cod-34MGT4332_1": "z2",
+  "cod-34MGT3454_1": "z2",
+  "cod-34MGT4558_1": "z2",
+  "cod-34MGT3782_1": "z2",
+  "cod-34MGT4134_3": "z2",
+  "cod-34MGT4148_1": "z2",
+  "cod-34MGT3567_1": "z2",
+  "cod-34MGT5143_1": "z2",
+  "cod-34MGT4652_1": "z2",
+  "cod-34MGT6468_1": "z2",
+  "cod-34MGT5066_1": "z2",
+  "cod-34MGT4247_2": "z2",
+  "cod-34MGT4461_1": "z2",
+  "cod-34MGT5859_1": "z2",
+  "cod-34MGT3473_1": "z2",
+  "cod-34MGT4562_1": "z2",
+  "cod-34MGT4633_2": "z2",
+  "cod-34MGT6462_1": "z2",
+  "cod-34MGT3949_1": "z2",
+  "cod-34MGT4234_1": "z2"
+ }
+}

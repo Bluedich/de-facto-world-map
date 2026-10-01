@@ -1,0 +1,98 @@
+{
+ "unit_id": "CD4105-makanza",
+ "as_of": "2026-10-01",
+ "summary": "Makanza (Mankanza) territory in Equateur lies along the main Congo River channel, far from the eastern conflict zones; no armed group is reported to hold any territory there. The territory seat Makanza town is administered by the state, with the Congolese National Police handling day-to-day order and FARDC/naval elements present on the river. Historical banditry and river piracy have been reported but there is no evidence of a non-state actor exercising control. Rural villages (Makanza and Mampoko health zones) are assessed as default state (PNC) presence with low-medium confidence given scarce reporting.",
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://en.wikipedia.org/wiki/Makanza_Territory",
+   "title": "Makanza Territory",
+   "publisher": "Wikipedia",
+   "date": null
+  }
+ ],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Makanza (Mankanza) town, territory seat, all quarters",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Territory seat with state administration on the Congo River; no reports of armed-group presence in 2025-2026 searches. Policing assumed by PNC with FARDC/naval elements present; past banditry has not translated into non-state control.",
+   "source_ids": [
+    "s1"
+   ]
+  },
+  {
+   "zone_id": "z2",
+   "description": "Rural villages of Makanza health zone along the Congo River and islands (Bonkoti/Lusengo, Ngomba/Mobeka, Konongo, Ebodjela/Paris, Lobengo, Bolombo, Malunza, etc.)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [],
+   "evidence": "No reports of armed-group activity in rural Makanza territory as of 2026; state presence through police posts and secteur administration, with customary chiefs handling local disputes. River banditry/piracy is occasional and not territorial.",
+   "source_ids": [
+    "s1"
+   ]
+  },
+  {
+   "zone_id": "z3",
+   "description": "Southern villages in Mampoko health zone (Nganda Mpaka, Limbila)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [],
+   "evidence": "Remote riverine villages with no reported armed-group activity; assessed as default state presence.",
+   "source_ids": [
+    "s1"
+   ]
+  }
+ ],
+ "locations": {
+  "cod-34NBG8878_1": "z1",
+  "cod-34NCG2297_1": "z2",
+  "cod-34NCH6209_1": "z2",
+  "cod-34NBG4228_1": "z2",
+  "cod-34NBG3223_1": "z2",
+  "cod-34NBG1616_2": "z2",
+  "cod-34NCH3206_1": "z2",
+  "cod-34NBG3837_1": "z2",
+  "cod-34NBG6750_1": "z2",
+  "cod-34NBG1908_2": "z2",
+  "cod-34NCH5609_1": "z2",
+  "cod-34NBG8675_1": "z2",
+  "cod-34NBG4936_1": "z2",
+  "cod-34NBG8272_1": "z2",
+  "cod-34NBG7455_1": "z2",
+  "cod-34NBF1089_1": "z3",
+  "cod-34NBG5450_1": "z2",
+  "cod-34NBG7859_1": "z2",
+  "cod-34NBG2921_1": "z2",
+  "cod-34NBG4329_1": "z2",
+  "cod-34NBG6660_2": "z2",
+  "cod-34NBG2726_1": "z2",
+  "cod-34NCH6709_1": "z2",
+  "cod-34NBF0580_1": "z3",
+  "cod-34NBG9674_1": "z2",
+  "cod-34NCH3514_1": "z2",
+  "cod-34NBG5440_1": "z2",
+  "cod-34NBG3429_1": "z2",
+  "cod-34NBG5538_1": "z2",
+  "cod-34NBG1207_1": "z2",
+  "cod-34NBG3524_1": "z2",
+  "cod-34NCH4004_1": "z2"
+ }
+}

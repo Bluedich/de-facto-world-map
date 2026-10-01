@@ -1,0 +1,98 @@
+{
+ "unit_id": "CD6302-kailo",
+ "as_of": "2026-10-01",
+ "summary": "Kailo territory (Maniema) lies west of the eastern Kivu frontlines, between Kindu, Kalima and Pangi, and no armed group is known to hold or administer any part of it. The territorial centre (Kailo/Kicha) and the villages along the Kindu-Kalima road and the Kindu-Kalemie railway (Nyoka, Kampala, Kasenga/km villages, Elila, Lubao) are assessed as under PNC policing with territorial administration, FARDC units in the province occasionally present. Remote villages in the north (Kipakata, Pont Ulindi, Pembeliba, Lokando, Kapinda) and the far west (Ulangate) are assumed under the same thin state presence, with lower confidence because Mai-Mai/Wazalendo-type groups have historically circulated in neighbouring Pangi and Punia. Web research for this unit could not be performed (search budget exhausted and news sites egress-blocked), so the assessment rests on default state presence and background knowledge.",
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://fr.wikipedia.org/wiki/Territoire_de_Kailo",
+   "title": "Territoire de Kailo",
+   "publisher": "Wikipedia",
+   "date": null
+  }
+ ],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Kailo centre (Kicha/Kailo 1) and villages on the Kindu-Kalima road and Kindu-Kalemie railway: Nyoka, Kimanga, Kampala, Kasenga/Kibaraka/km villages, Lubelenge (Distingue, 22 Km, 26 Km), Libenga, Elila, Lubao, Katako, Muyengo, Kiswa Kyamba, Mumbuza, Lonioma",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    },
+    {
+     "entity_id": "cod-anr",
+     "role": "present"
+    }
+   ],
+   "evidence": "Territorial seat and road/rail corridor next to the provincial capital Kindu with territorial administration and police posts; no armed group is reported to hold, tax or administer these places. Research could not be performed (tools blocked), so this rests on default state presence.",
+   "source_ids": [
+    "s1"
+   ]
+  },
+  {
+   "zone_id": "z2",
+   "description": "Remote northern and western villages: Kipakata, Pont Ulindi, Pembeliba, Lokando, Dingi Pongolo, Kimbulu, Malembo, Bisobe (Kapinda), Lembe Lembe (Lumembe), Fumbeka (Ulangate)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Isolated villages far from Kailo centre toward Pangi, Punia and Lubutu, where state presence is thin; no armed-group control is known, but Mai-Mai/Wazalendo groups have historically moved in neighbouring territories and could not be checked. Assumed under thin state police/administrative presence.",
+   "source_ids": [
+    "s1"
+   ]
+  }
+ ],
+ "locations": {
+  "cod-35MLS9780_1": "z1",
+  "cod-35MLT9908_1": "z1",
+  "cod-35MLS7258_1": "z1",
+  "cod-35MLS9077_1": "z1",
+  "cod-35MLS8561_1": "z1",
+  "cod-35MLS9479_2": "z1",
+  "cod-35MLT6020_1": "z2",
+  "cod-35MLS6568_1": "z1",
+  "cod-35MLS7461_1": "z1",
+  "cod-35MMS0185_1": "z1",
+  "cod-35MLS7398_2": "z1",
+  "cod-35MLS6984_1": "z1",
+  "cod-35MMT0311_1": "z1",
+  "cod-35MLS7151_1": "z1",
+  "cod-35MLS8957_1": "z1",
+  "cod-35MLS7155_1": "z1",
+  "cod-35MLS9051_1": "z1",
+  "cod-35MMS0892_1": "z1",
+  "cod-35MLS9054_1": "z1",
+  "cod-35MLS9055_2": "z1",
+  "cod-35MMS1394_1": "z1",
+  "cod-35MLT6220_1": "z2",
+  "cod-35MLT5667_1": "z2",
+  "cod-35MLS9148_1": "z1",
+  "cod-35MLT5619_1": "z2",
+  "cod-35MMT0327_1": "z2",
+  "cod-35MMT1553_2": "z2",
+  "cod-35MLS7892_1": "z1",
+  "cod-35MLS8265_1": "z1",
+  "cod-35MLS7495_1": "z1",
+  "cod-35MLS3665_1": "z2",
+  "cod-35MMT2568_1": "z2",
+  "cod-35MMT0542_1": "z2",
+  "cod-35MLS8758_1": "z1",
+  "cod-35MMT4649_1": "z2",
+  "cod-35MLS8464_1": "z1",
+  "cod-35MLS7861_1": "z1"
+ }
+}

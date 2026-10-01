@@ -1,0 +1,71 @@
+{
+ "unit_id": "CD3303-kiri",
+ "as_of": "2026-10-01",
+ "summary": "Kiri territory in northern Mai-Ndombe (Kiri and Pendjwa secteurs, along the Lukenie/Lotoi forest region bordering Equateur) has no reported armed-group presence as of late 2026. The Mobondo (Teke-Yaka) militia that troubles Mai-Ndombe is active in the far south of the province (Kwamouth) and neighbouring Kwilu/Kwango, not in Kiri. The state exercises control through the territorial administration and the PNC, with Kiri town as seat and Pendjwa as secondary centre. All locations are assessed as default PNC control; web research was unavailable for this run (search budget exhausted, sites blocked), so confidence is medium for Kiri secteur and low for remote Pendjwa.",
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://fr.allafrica.com/stories/202606090742.html",
+   "title": "«Les Mobondo ne sont jamais partis» - Dans l'ouest, ce groupe qui sévit toujours malgré le discours officiel",
+   "publisher": "AllAfrica / RFI",
+   "date": "2026-06-09"
+  }
+ ],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Kiri town (territorial seat) and villages of Kiri secteur (Kiri, Ilungu, Ibamba Bolongo, Ilangasongo, Beronge, Ngelebeke, Lokololi, Bosawu health areas)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [],
+   "evidence": "No armed group is reported operating in Kiri territory; the Mobondo militia active in Mai-Ndombe is confined to the southern territories (Kwamouth, Bolobo area) several hundred km away. Kiri town is the territorial seat with state administration and PNC; outlying villages are assessed by default. Web research was largely unavailable for this run.",
+   "source_ids": [
+    "s1"
+   ]
+  },
+  {
+   "zone_id": "z2",
+   "description": "Pendjwa secteur: Pendjwa centre/mission and villages (Pendjwa, Iboko/Lopanzo health zones)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [],
+   "evidence": "Remote northern secteur bordering Equateur with no reported armed-group activity; assessed as ordinary state authority with PNC posts at Pendjwa and customary authorities in villages. Web research was largely unavailable for this run.",
+   "source_ids": [
+    "s1"
+   ]
+  }
+ ],
+ "locations": {
+  "cod-34MBD6934_2": "z1",
+  "cod-34MCC3467_1": "z1",
+  "cod-34MCD6916_1": "z1",
+  "cod-34MBD3827_1": "z1",
+  "cod-34MCD1318_1": "z1",
+  "cod-34MCC4072_1": "z1",
+  "cod-34MBD2210_1": "z1",
+  "cod-34MBD6336_1": "z1",
+  "cod-34MCD1214_1": "z1",
+  "cod-34MCC3887_1": "z1",
+  "cod-34MCC3059_1": "z1",
+  "cod-34MCC3160_1": "z1",
+  "cod-34MCD2906_1": "z1",
+  "cod-34MBD8212_1": "z1",
+  "cod-34MBD4129_1": "z1",
+  "cod-34MBD9077_1": "z2",
+  "cod-34MBD6473_1": "z2",
+  "cod-34MBD5885_1": "z2",
+  "cod-34MBD8592_1": "z2",
+  "cod-34MCD0481_1": "z2",
+  "cod-34MBD8757_1": "z2",
+  "cod-34MBD7785_1": "z2",
+  "cod-34MBE9304_1": "z2",
+  "cod-34MBD9949_1": "z2"
+ }
+}

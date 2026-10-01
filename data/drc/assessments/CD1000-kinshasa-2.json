@@ -1,0 +1,350 @@
+{
+ "unit_id": "CD1000-kinshasa-2",
+ "as_of": "2026-10-01",
+ "summary": "This unit covers most of Kinshasa's urban health-area neighbourhoods plus six villages of rural Maluku commune on the Plateau des Batéké. The city is firmly state-held: the PNC keeps order through commissariats and recurrent anti-Kuluna sweeps (Operation Ndobo), while Kuluna street gangs remain a serious but non-territorial criminal threat. Military camps (Camp Kokolo and adjacent garrison quarters, the naval base quarter) are run by the FARDC. In Maluku the FARDC (Operation Ngemba) is the main force against the Mobondo militia; after a DDR process launched in Dec 2025 the government claims pacification by mid-2026, but holdout Mobondo bands still attacked farms in May 2026, so these villages are FARDC-dominant with Mobondo raiding.",
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://fr.allafrica.com/stories/202601030069.html",
+   "title": "A Kinshasa, nouvelle et vaste opération de sécurité contre les «Kulunas»",
+   "publisher": "AllAfrica / RFI",
+   "date": "2026-01-03"
+  },
+  {
+   "id": "s2",
+   "url": "https://fr.allafrica.com/stories/202510030124.html",
+   "title": "A Kinshasa, les actions éphémères contre les Kulunas",
+   "publisher": "AllAfrica / RFI",
+   "date": "2025-10-03"
+  },
+  {
+   "id": "s3",
+   "url": "https://fr.allafrica.com/stories/202608240739.html",
+   "title": "Deux familles agressées par des « Kuluna » à Bandalungwa - Plusieurs blessés",
+   "publisher": "AllAfrica / Radio Okapi",
+   "date": "2026-08-24"
+  },
+  {
+   "id": "s4",
+   "url": "https://fr.allafrica.com/stories/202609070572.html",
+   "title": "Inauguration d'un nouveau complexe scolaire public au camp militaire Kokolo",
+   "publisher": "AllAfrica",
+   "date": "2026-09-07"
+  },
+  {
+   "id": "s5",
+   "url": "https://fr.allafrica.com/stories/202605150161.html",
+   "title": "Kinshasa - Deux morts et un blessé lors d'une attaque des Mobondo dans la commune de Maluku",
+   "publisher": "AllAfrica / Radio Okapi",
+   "date": "2026-05-15"
+  },
+  {
+   "id": "s6",
+   "url": "https://fr.allafrica.com/stories/202606090742.html",
+   "title": "«Les Mobondo ne sont jamais partis» - Dans l'ouest, ce groupe qui sévit toujours malgré le discours officiel",
+   "publisher": "AllAfrica / RFI",
+   "date": "2026-06-09"
+  },
+  {
+   "id": "s7",
+   "url": "https://fr.allafrica.com/stories/202607310376.html",
+   "title": "Maluku - La population salue les efforts du Ministre délégué Eliezer Ntambwe pour la paix",
+   "publisher": "AllAfrica",
+   "date": "2026-07-31"
+  },
+  {
+   "id": "s8",
+   "url": "https://fr.allafrica.com/stories/202608180670.html",
+   "title": "Le Gouvernement confirme des signaux de paix face au phénomène Mobondo !",
+   "publisher": "AllAfrica",
+   "date": "2026-08-18"
+  },
+  {
+   "id": "s9",
+   "url": "https://fr.allafrica.com/stories/202512040485.html",
+   "title": "Lutte contre la milice 'Mobondo', Maluku - Un pas géant pour un retour espéré de la paix !",
+   "publisher": "AllAfrica",
+   "date": "2025-12-04"
+  },
+  {
+   "id": "s10",
+   "url": "https://fr.allafrica.com/stories/202508110272.html",
+   "title": "Kinshasa - Affrontements entre les FARDC et les miliciens Mobondo à Maluku",
+   "publisher": "AllAfrica / Radio Okapi",
+   "date": "2025-08-11"
+  },
+  {
+   "id": "s11",
+   "url": "https://fr.allafrica.com/stories/202502070592.html",
+   "title": "Trois personnes égorgées par des miliciens Mobondo à Mongata",
+   "publisher": "AllAfrica / Radio Okapi",
+   "date": "2025-02-07"
+  },
+  {
+   "id": "s12",
+   "url": "https://fr.allafrica.com/stories/202505070267.html",
+   "title": "Les Mobondo renforcent leur emprise à une centaine de kilomètres de Kinshasa",
+   "publisher": "AllAfrica / RFI",
+   "date": "2025-05-07"
+  }
+ ],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Kinshasa urban neighbourhoods (health areas) of Gombe, Barumbu, Kinshasa, Lingwala, Kasa-Vubu, Kalamu I/II, Ngiri-Ngiri, Bandalungwa, Kintambo, Bumbu, Makala, Ngaba, Limete/Kingabwa, Ndjili, Kimbanseke, Masina, Kikimi",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "high",
+   "basis": "area_report",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "kuluna",
+     "role": "present"
+    },
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    },
+    {
+     "entity_id": "cod-gr",
+     "role": "present"
+    }
+   ],
+   "evidence": "Capital city with no territorial armed-group presence. Order is kept by the PNC (Kinshasa provincial police commissariats), which runs recurrent anti-gang sweeps (Operation Ndobo, latest large wave Dec 2025 with most arrests in Masina). Kuluna gangs still assault and rob residents at night (e.g. Bandalungwa, Aug 2026) and insecurity returns between operations, but gangs do not hold or govern neighbourhoods.",
+   "source_ids": [
+    "s1",
+    "s2",
+    "s3"
+   ]
+  },
+  {
+   "zone_id": "z2",
+   "description": "Military camps and garrison quarters: Camp Kokolo (Kokolo 1, Kokolo 2, Base Logistique, Bataillon PM, Haut Commandement area) and the naval base quarter (Force Navale, Kingabwa)",
+   "controller_id": "cod-fardc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "inference",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-pnc",
+     "role": "present"
+    }
+   ],
+   "evidence": "These health areas correspond to FARDC camps (Camp Kokolo, the army's largest Kinshasa garrison with its own hospital and school, and the naval forces quarter) populated mainly by soldiers' families, where order is kept by military authorities and military police rather than the PNC.",
+   "source_ids": [
+    "s4"
+   ]
+  },
+  {
+   "zone_id": "z3",
+   "description": "Maluku rural commune, Plateau des Batéké along RN1: Mbankana area (Kinta), Mongata, Kinzono (Mampu), Dumi",
+   "controller_id": "cod-fardc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "area_report",
+   "since": "2023-06",
+   "presence": [
+    {
+     "entity_id": "mobondo",
+     "role": "raiding"
+    },
+    {
+     "entity_id": "cod-pnc",
+     "role": "present"
+    }
+   ],
+   "evidence": "The Batéké plateau of Maluku is an operation zone of FARDC Operation Ngemba (14th Military Region) against the Mobondo militia; FARDC clashed with Mobondo at Mbankana (Aug 2025) and Mobondo killed people near Mongata (Feb 2025) and at a Maluku farm (May 2026). A DDR pilot was launched in Mbankana in Dec 2025 and by Jul-Aug 2026 the government reported pacification of Mbankana-Mongata, though residents say holdout Mobondo still occupy outlying farms; towns themselves are state-held.",
+   "source_ids": [
+    "s5",
+    "s6",
+    "s7",
+    "s8",
+    "s9",
+    "s10",
+    "s11"
+   ]
+  },
+  {
+   "zone_id": "z4",
+   "description": "Remote villages of eastern/southern Maluku on the Batéké plateau: Kingawa, Batsiongo (Boko health zone)",
+   "controller_id": "cod-fardc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "inference",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "mobondo",
+     "role": "raiding"
+    }
+   ],
+   "evidence": "No village-specific reports found; these villages lie in the wider Plateau des Batéké area of Maluku covered by FARDC Ngemba operations, where Mobondo bands raided farms and villages in 2025-2026 (e.g. Ibi area). Assumed state/FARDC-held with Mobondo raiding risk.",
+   "source_ids": [
+    "s6",
+    "s8",
+    "s12"
+   ]
+  }
+ ],
+ "locations": {
+  "cod-33MWR3813_1-blFLybT74RH": "z1",
+  "cod-33MWR3813_1-SBsZBKPE0b3": "z1",
+  "cod-33MWR3813_1-L2iyLH99EzK": "z1",
+  "cod-33MWR3813_1-AgOp7HThxM3": "z2",
+  "cod-33MWR3813_1-BRx61B2syYr": "z1",
+  "cod-33MWR3813_1-nHh3PDM4VFP": "z1",
+  "cod-33MWR3813_1-vqA3CGAX0fg": "z1",
+  "cod-33MWR3813_1-BpN6H11anQN": "z1",
+  "cod-33MWR3813_1-zz9X7WqJxZ8": "z1",
+  "cod-33MWR3813_1-Es21DCx1td8": "z1",
+  "cod-33MWR3813_1-WBqtxbG0vHD": "z1",
+  "cod-33MWR3813_1-HCwHH8irThX": "z1",
+  "cod-33MWR3813_1-NpWNsbHoCJY": "z1",
+  "cod-33MWR3813_1-qFScOWeAsRr": "z1",
+  "cod-33MWR3813_1-FlJZ2MIIrAJ": "z1",
+  "cod-33MWR3813_1-mrePffrLgLZ": "z1",
+  "cod-33MWR3813_1-RW2PtS8tewo": "z1",
+  "cod-33MWR3813_1-ozDGvg0t93W": "z1",
+  "cod-33MWR3813_1-IzoUNtPKs5w": "z1",
+  "cod-33MWR3813_1-ewW3btMaZGj": "z1",
+  "cod-33MWR3813_1-rWO1tqnIqHU": "z1",
+  "cod-33MWR3813_1-IwMVZsBSbdA": "z1",
+  "cod-33MWR3813_1-YI4EArTDJtT": "z1",
+  "cod-33MWR3813_1-upq06XV7rI7": "z1",
+  "cod-33MWR3813_1-tNFYzcYrKb7": "z1",
+  "cod-33MWR3813_1-KOBXOyUTSBF": "z1",
+  "cod-33MWR3813_1-U1kCkHKAWwx": "z1",
+  "cod-33MWR3813_1-Q0MZuGwsWl9": "z1",
+  "cod-33MWR3813_1-jvlla297JGM": "z1",
+  "cod-33MWR3813_1-oXE4YdnDqdB": "z1",
+  "cod-33MWR3813_1-LFjpcejq4Be": "z1",
+  "cod-33MWR3813_1-hgQdvsZ2Opt": "z1",
+  "cod-33MWR3813_1-cXEWiXSjcc3": "z1",
+  "cod-33MWR3813_1-g7ooGOuuAf3": "z1",
+  "cod-33MWR3813_1-jDRKX7N6og6": "z1",
+  "cod-33MWR3813_1-t6uyjIsOCK0": "z1",
+  "cod-33MWR3813_1-tayp0ztXi15": "z1",
+  "cod-33MWR3813_1-B2e586QgOAl": "z1",
+  "cod-33MWR3813_1-w6oEsRu1A1t": "z1",
+  "cod-33MWR3813_1-HtIkCF2zNCe": "z1",
+  "cod-33MWR3813_1-PtrizWKlvDC": "z1",
+  "cod-33MWR3813_1-wXapIaUNNgD": "z1",
+  "cod-33MWR3813_1-EWoOeDIDUxP": "z1",
+  "cod-33MWR3813_1-wtwAneS8suy": "z1",
+  "cod-33MWR3813_1-OHfb9iMrFAx": "z1",
+  "cod-33MWR3813_1-MCjmFyPLuEF": "z1",
+  "cod-33MWR3813_1-yv0ScPHOnOb": "z1",
+  "cod-33MWR3813_1-N2ZloP12LkO": "z1",
+  "cod-33MWR3813_1-LfRYUW5xNZM": "z1",
+  "cod-33MWR3813_1-WHroaRQLMc1": "z1",
+  "cod-33MWR3813_1-OpF9zeJhleB": "z1",
+  "cod-33MWR3813_1-hXTNFUnRjrl": "z1",
+  "cod-33MWR3813_1-fMRR3Hfbi87": "z1",
+  "cod-33MWR3813_1-qTewWajJuW3": "z1",
+  "cod-33MWR3813_1-uOFMUmDCawW": "z1",
+  "cod-33MWR3813_1-xBhpZAyFwW8": "z1",
+  "cod-33MWR3813_1-asTJnlXJqbV": "z1",
+  "cod-33MWR3813_1-TFvF1UQzTt1": "z1",
+  "cod-33MWR3813_1-iJd7w4m8wGX": "z1",
+  "cod-33MWR3813_1-SiYpj5zeS0E": "z1",
+  "cod-33MWR3813_1-X43YhxHK4wA": "z1",
+  "cod-33MWR3813_1-YsUAhwW2QPr": "z1",
+  "cod-33MWR3813_1-hPAgZGT9pOw": "z1",
+  "cod-33MWR3813_1-EXN638Jc7L4": "z1",
+  "cod-33MWR3813_1-YdOHVZcUMpQ": "z1",
+  "cod-33MWR3813_1-dWlr8H5RmT0": "z1",
+  "cod-33MWR3813_1-RhGgDZHVH5c": "z1",
+  "cod-33MWR3813_1-uqmgxVNygG0": "z1",
+  "cod-33MWR3813_1-dd6gAKRvoBp": "z2",
+  "cod-33MWR3813_1-jrhhQOHRA4M": "z1",
+  "cod-33MWR3813_1-n2kx9vduO95": "z1",
+  "cod-33MWR3813_1-caKY72GMYp1": "z1",
+  "cod-33MWR3813_1-VFojIO6nzYM": "z2",
+  "cod-33MWR3813_1-xeVIJOd0UJw": "z1",
+  "cod-33MWR3813_1-eRW8d796umB": "z1",
+  "cod-33MWR3813_1-lAs0aglLFGo": "z1",
+  "cod-33MWR3813_1-QfurOWnCs2n": "z1",
+  "cod-33MWR3813_1-xiYTSmm4lHI": "z1",
+  "cod-33MWR3813_1-hchcmRqsgrl": "z1",
+  "cod-33MWR3813_1-scUFe4DFiHa": "z1",
+  "cod-33MWR3813_1-SuP6PjWmNTj": "z1",
+  "cod-33MWR3813_1-J6aAyny5oj3": "z1",
+  "cod-33MWR3813_1-WOiMOMPlDhF": "z1",
+  "cod-33MWR3813_1-Luyi 2": "z1",
+  "cod-33MWR3813_1-McR5BYy53Pl": "z1",
+  "cod-33MWR3813_1-Mukulua 2": "z1",
+  "cod-33MWR3813_1-CaEeOHgrIrh": "z1",
+  "cod-33MWR3813_1-z9s1TVcDke2": "z1",
+  "cod-33MWR3813_1-UUoOgNl23MB": "z1",
+  "cod-33MWR3813_1-K5DrxZ8H7C4": "z1",
+  "cod-33MWR3813_1-pyOpkpWkHuR": "z1",
+  "cod-33MWR3813_1-OaYBn3itD1S": "z1",
+  "cod-33MWR3813_1-GcAwV084Q18": "z1",
+  "cod-33MWR3813_1-Vev2pG2ieZ6": "z1",
+  "cod-33MWR3813_1-VikfWhZy2uT": "z1",
+  "cod-33MWR3813_1-YpWPuYzfO0U": "z1",
+  "cod-33MWR3813_1-lnrez7YyEMv": "z1",
+  "cod-33MWR3813_1-Su3bNcBh1wE": "z1",
+  "cod-33MWR3813_1-NIV10iAeNxQ": "z1",
+  "cod-33MWR3813_1-b8m4ajYx9ph": "z1",
+  "cod-33MWR3813_1-trgsOr4jrKF": "z1",
+  "cod-33MWR3813_1-LRFL97dLhew": "z1",
+  "cod-33MWR3813_1-vV7kPITznNQ": "z1",
+  "cod-33MWR3813_1-REs9ZWQcyl2": "z1",
+  "cod-33MWR3813_1-UyWpvK5geKg": "z1",
+  "cod-33MWR3813_1-ArVyMOkSN65": "z1",
+  "cod-33MWR3813_1-rHl3ykD6sJ6": "z1",
+  "cod-33MWR3813_1-XOKm4RLUJRR": "z1",
+  "cod-33MWR3813_1-LrcljVm8qRC": "z1",
+  "cod-33MWR3813_1-rCgEqODvy6M": "z1",
+  "cod-33MWR3813_1-QDs4Hqz9Sdq": "z1",
+  "cod-33MWR3813_1-htPLU9mxCRA": "z1",
+  "cod-33MWR3813_1-yFUXujHnQi8": "z1",
+  "cod-33MWR3813_1-BnkN0Ma2s9h": "z1",
+  "cod-33MWR3813_1-iDiMeWFB9zJ": "z1",
+  "cod-33MWR3813_1-pbuCszIqln1": "z1",
+  "cod-33MWR3813_1-otXNN9ttuqk": "z1",
+  "cod-33MWR3813_1-OZHm0bXi9ZF": "z1",
+  "cod-33MWR3813_1-dF3yUgzAqet": "z1",
+  "cod-33MWR3813_1-qnBG7LymUj0": "z1",
+  "cod-33MWR3813_1-CVCxXgNPn5y": "z1",
+  "cod-33MWR3813_1-H5uQGWeb6qx": "z1",
+  "cod-33MWR3813_1-THjluI969mT": "z1",
+  "cod-33MWR3813_1-bOJN4r8060M": "z1",
+  "cod-33MWR3813_1-CuCtFuF9Irv": "z1",
+  "cod-33MWR3813_1-IN8WNZW8xdG": "z1",
+  "cod-33MWR3813_1-dg7TRrP3i6U": "z1",
+  "cod-33MWR3813_1-hMWpVaOPCcv": "z1",
+  "cod-33MWR3813_1-DfIJFaaO9r9": "z1",
+  "cod-33MWR3813_1-dOMxzNeXa9E": "z1",
+  "cod-33MWR3813_1-YiKhNl9k0Gi": "z1",
+  "cod-33MWR3813_1-XYcJ0Ve8CBA": "z1",
+  "cod-33MWR3813_1-V347vxReXbg": "z2",
+  "cod-33MWR3813_1-JeJVnv27KqR": "z1",
+  "cod-33MWR3813_1-qoVanEM18Mu": "z1",
+  "cod-33MWR3813_1-gLHecRScrKt": "z2",
+  "cod-33MWR3813_1-kRINVAG0xOC": "z2",
+  "cod-33MWR3813_1-nBnISorwBZ6": "z1",
+  "cod-33MWR3813_1-vNa3z2JUWcu": "z1",
+  "cod-33MWR3813_1-w0eJrPqXl0b": "z1",
+  "cod-33MWR3813_1-jRyiu8LyILp": "z1",
+  "cod-33MWR3813_1-f19W4MU7j6b": "z1",
+  "cod-33MWR3813_1-RYobdnQi2g0": "z1",
+  "cod-33MWR3813_1-df9r4RhS0OP": "z1",
+  "cod-33MWR3813_1-I03SQYYQI8Q": "z1",
+  "cod-33MWR3813_1-JEq7JAcTq7B": "z1",
+  "cod-33MWR3813_1-hsUCzatPZ3D": "z1",
+  "cod-33MWR3813_1-jqJqjBBimqZ": "z1",
+  "cod-33MWR3813_1-U5HAvXlqSou": "z1",
+  "cod-33MWR3813_1-MsH3KC0SjO6": "z1",
+  "cod-33MXR3108_1": "z3",
+  "cod-33MXR5520_1": "z4",
+  "cod-33MXQ4697_1": "z3",
+  "cod-33MXR0926_2": "z3",
+  "cod-33MXQ5092_1": "z4",
+  "cod-33MXR3917_2": "z3"
+ }
+}

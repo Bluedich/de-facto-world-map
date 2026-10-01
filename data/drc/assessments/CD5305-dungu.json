@@ -1,0 +1,280 @@
+{
+ "unit_id": "CD5305-dungu",
+ "as_of": "2026-10-01",
+ "summary": "Dungu territory (Haut-Uele) has no armed group holding territory as of October 2026. Dungu town and Doruma, the main centres, are held by the state (PNC with FARDC of the Uele operational sector). The LRA, which ravaged Dungu until about 2016, is no longer reported; the main threats are armed Mbororo herders (killings and kidnappings in rural Dungu in early 2026), poachers around Garamba National Park, and Zande-Logo intercommunal clashes at Sambia (Dec 2024-Jan 2025). Garamba park headquarters at Nagero is run by ICCN/African Parks rangers. The 2026 ADF push into Haut-Uele is in Watsa and Wamba, far south-east of Dungu.",
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.radiookapi.net/2026/04/06/actualite/securite/alerte-de-la-fondation-kinalego-sur-des-exactions-repetees-des-mbororo",
+   "title": "Alerte de la Fondation Kinalego sur des exactions répétées des Mbororo à Dungu",
+   "publisher": "Radio Okapi",
+   "date": "2026-04-06"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.congoquotidien.com/2025/05/13/fardc-ultimatum-mbororo-haut-uele-securite/",
+   "title": "FARDC lance un ultimatum aux éleveurs Mbororo : cantonnement ou traque militaire dans l'Uele",
+   "publisher": "Congo Quotidien",
+   "date": "2025-05-13"
+  },
+  {
+   "id": "s3",
+   "url": "https://actualite.cd/2025/01/06/haut-uele-trois-personnes-decapitees-puis-brulees-et-plusieurs-autres-blessees-par-balle",
+   "title": "Haut-Uele : trois personnes décapitées puis brûlées et plusieurs autres blessées par balle (Sambia)",
+   "publisher": "Actualite.cd",
+   "date": "2025-01-06"
+  },
+  {
+   "id": "s4",
+   "url": "https://fr.allafrica.com/stories/202501160518.html",
+   "title": "Haut-Uele : retour d'environ 20 000 déplacés à Sambia",
+   "publisher": "AllAfrica / Radio Okapi",
+   "date": "2025-01-16"
+  },
+  {
+   "id": "s5",
+   "url": "https://fr.allafrica.com/stories/202607140342.html",
+   "title": "Haut-Uele - La progression des ADF provoque le déplacement de plus de 10 000 civils vers Watsa et Wamba",
+   "publisher": "AllAfrica / Radio Okapi",
+   "date": "2026-07-14"
+  },
+  {
+   "id": "s6",
+   "url": "https://en.wikipedia.org/wiki/Garamba_National_Park",
+   "title": "Garamba National Park",
+   "publisher": "Wikipedia",
+   "date": null
+  },
+  {
+   "id": "s7",
+   "url": "https://www.africanparks.org/garamba-story-resilience-and-hope",
+   "title": "Garamba: a story of resilience and hope",
+   "publisher": "African Parks",
+   "date": null
+  },
+  {
+   "id": "s8",
+   "url": "https://dev.ehtools.org/uploads/brochures/177.pdf",
+   "title": "Humanitarian brief on Dungu-Ngilima-Bangadi axis (LRA, Mbororo, HUDA incursions)",
+   "publisher": "OCHA (via ehtools)",
+   "date": null
+  }
+ ],
+ "new_entities": [
+  {
+   "id": "cod-iccn",
+   "name": "Institut Congolais pour la Conservation de la Nature (ICCN) eco-guards",
+   "type": "state_force",
+   "parent_id": "cod",
+   "description": "Armed park rangers of the state conservation agency (in Garamba co-managed with African Parks); controller only at park headquarters/stations and inside protected areas."
+  },
+  {
+   "id": "mbororo-armed",
+   "name": "Armed Mbororo herders",
+   "type": "armed_group",
+   "parent_id": null,
+   "description": "Armed transhumant Mbororo (Fulani) cattle herders in the Uele provinces, accused of killings, kidnappings and crop destruction; no fixed territorial control."
+  }
+ ],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Dungu town (Dungu Uye, Bakote, Dungu May health areas) – territorial seat",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "area_report",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    },
+    {
+     "entity_id": "cod-anr",
+     "role": "present"
+    }
+   ],
+   "evidence": "Territorial headquarters with state administration and police; the FARDC Uele operational sector that issued the 2025 Mbororo ultimatum operates from the Uele area. No reports of armed-group control of the town in 2025-2026; insecurity is in the rural periphery.",
+   "source_ids": [
+    "s2",
+    "s1"
+   ]
+  },
+  {
+   "zone_id": "z2",
+   "description": "Nagero Station and Nasala – Garamba National Park headquarters area (Kosa health area)",
+   "controller_id": "cod-iccn",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "inference",
+   "since": "2005",
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    },
+    {
+     "entity_id": "cod-pnc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Nagero is the Garamba National Park headquarters managed by ICCN with African Parks since 2005; its several hundred armed rangers patrol the park and surroundings and act as first responders, making them the main permanent armed force around the HQ.",
+   "source_ids": [
+    "s6",
+    "s7"
+   ]
+  },
+  {
+   "zone_id": "z3",
+   "description": "Sambia and Wazina (Wando chiefdom, Dungu-Faradje boundary)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "specific_report",
+   "since": "2025-01",
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Zande (Sambia, Wando chiefdom) and Logo (Akuwa, Faradje) communities clashed over the territorial boundary in Dec 2024-Jan 2025 (3 killed, houses burned); about 20,000 displaced returned to Sambia on 16 Jan 2025 after state intervention. No armed group holds the area; intercommunal tensions remain.",
+   "source_ids": [
+    "s3",
+    "s4"
+   ]
+  },
+  {
+   "zone_id": "z4",
+   "description": "Rural Dungu secteurs south and east of Dungu town (Ndedu, Wandote, Mangese, Biodi, Gangala na Bodio)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "mbororo-armed",
+     "role": "raiding"
+    },
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "No armed group is reported to hold villages here in 2025-2026. Armed Mbororo herders commit killings and kidnappings in rural Dungu territory (e.g. Mediapay and Ngili, February 2026; kidnappings 29 March 2026) without holding territory; the FARDC ordered their cantonment in 2025. Default state presence assumed.",
+   "source_ids": [
+    "s1",
+    "s2"
+   ]
+  },
+  {
+   "zone_id": "z5",
+   "description": "Northern Dungu toward Garamba park and the South Sudan border (Kiliwa, Li May, Duru, Bitima, Makpilatilu)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "mbororo-armed",
+     "role": "raiding"
+    },
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    },
+    {
+     "entity_id": "cod-iccn",
+     "role": "present"
+    }
+   ],
+   "evidence": "Historically the core LRA raiding zone (Dungu-Duru-Bitima axes, to c.2016); LRA is no longer reported here. Remaining threats are armed Mbororo herders and poachers, with FARDC and Garamba rangers operating in the area. No source reports armed-group territorial control; low confidence due to sparse reporting.",
+   "source_ids": [
+    "s8",
+    "s1",
+    "s6"
+   ]
+  },
+  {
+   "zone_id": "z6",
+   "description": "Doruma town and surrounding villages (Doruma and Gangala health areas) near the South Sudan border",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Secteur/health-zone seat with state administration and police and a border FARDC presence. No 2025-2026 reports of armed-group control or major incursions found.",
+   "source_ids": [
+    "s8"
+   ]
+  },
+  {
+   "zone_id": "z7",
+   "description": "Rural Doruma secteur: Bangadi, Ngilima, Napopo, Diagbe, Diebio, Naparka, Masombo",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "mbororo-armed",
+     "role": "raiding"
+    }
+   ],
+   "evidence": "The Dungu-Ngilima-Bangadi axis saw LRA, Mbororo and HUDA incursions and displacement in 2019-2020, but no current reports of armed-group territorial control were found for 2025-2026. Mbororo herders remain a sporadic threat. Default state presence assumed.",
+   "source_ids": [
+    "s8",
+    "s2"
+   ]
+  }
+ ],
+ "locations": {
+  "cod-35NPD7397_1": "z1",
+  "cod-35NPE7400_1": "z1",
+  "cod-35NQD6483_1": "z3",
+  "cod-35NPD8167_1": "z4",
+  "cod-35NQD2182_1": "z4",
+  "cod-35NQD3275_1": "z4",
+  "cod-35NQE8112_1": "z2",
+  "cod-35NQE3901_1": "z4",
+  "cod-35NPE9469_1": "z5",
+  "cod-35NQD2578_1": "z4",
+  "cod-35NPE8122_1": "z5",
+  "cod-35NQD6078_1": "z3",
+  "cod-35NPE8081_1": "z5",
+  "cod-35NPE7705_1": "z1",
+  "cod-35NPD7664_1": "z4",
+  "cod-35NPE7403_1": "z1",
+  "cod-35NQD2185_2": "z4",
+  "cod-35NQE7914_1": "z2",
+  "cod-35NPE7235_1": "z5",
+  "cod-35NQD2084_1": "z4",
+  "cod-35NPE9332_1": "z5",
+  "cod-35NNF7521_1": "z6",
+  "cod-35NPE0156_1": "z7",
+  "cod-35NNF6123_1": "z6",
+  "cod-35NPE5231_1": "z7",
+  "cod-35NNF7424_1": "z6",
+  "cod-35NNF7321_1": "z6",
+  "cod-35NNE3393_2": "z7",
+  "cod-35NPE0059_1": "z7",
+  "cod-35NNF4653_1": "z7",
+  "cod-35NPE1464_1": "z7",
+  "cod-35NNF6727_1": "z6",
+  "cod-35NNE8580_1": "z7",
+  "cod-35NNF3944_1": "z7",
+  "cod-35NNE3897_1": "z7",
+  "cod-35NNF3106_1": "z7",
+  "cod-35NNF8500_1": "z7"
+ }
+}

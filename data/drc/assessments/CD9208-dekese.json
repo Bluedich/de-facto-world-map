@@ -1,0 +1,72 @@
+{
+ "unit_id": "CD9208-dekese",
+ "as_of": "2026-10-01",
+ "summary": "Dekese is a remote, forested territory in northern Kasaï along the Lukenie river, bordering Sankuru and Mai-Ndombe. It was not a significant theatre of the 2016-2017 Kamuina Nsapu insurgency and no armed group is known to hold territory there as of 2026. Dekese town is administered by the state with a PNC commissariat; villages rely on PNC posts and customary chiefs. Live web research was unavailable in this run, so assessments rest on background knowledge and default state presence.",
+ "sources": [],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Dekese town (territorial chef-lieu, Bembanga/Dekese Etat) and adjacent Bolonga",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    },
+    {
+     "entity_id": "cod-anr",
+     "role": "present"
+    }
+   ],
+   "evidence": "Seat of the territorial administration on the Lukenie river with a PNC commissariat and state services; Dekese is a remote forested territory of northern Kasaï with no armed group known to operate there, including during the 2016-2017 Kamuina Nsapu crisis which affected southern Kasaï. Not verified with fresh sources in this run (web search budget exhausted).",
+   "source_ids": []
+  },
+  {
+   "zone_id": "z2",
+   "description": "Rural villages and river ports of Dekese territory (Dekese, Kole and Mushenge health zones)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [],
+   "evidence": "Sparsely populated forest villages under customary chiefs and PNC posts; no armed-group activity reported in Dekese territory in recent years (insecurity limited to banditry and occasional local land/chieftaincy disputes). Not verified with fresh sources in this run (web search budget exhausted).",
+   "source_ids": []
+  }
+ ],
+ "locations": {
+  "cod-34MEB4115_1": "z1",
+  "cod-34MDA8844_1": "z2",
+  "cod-34MEA6165_1": "z2",
+  "cod-34MEB6352_1": "z2",
+  "cod-34MEB4413_1": "z1",
+  "cod-34MEA3884_1": "z2",
+  "cod-34MEA4156_1": "z2",
+  "cod-34MEA1461_1": "z2",
+  "cod-34MEA1173_1": "z2",
+  "cod-34MFB0583_1": "z2",
+  "cod-34MFA0864_1": "z2",
+  "cod-34MFA0863_1": "z2",
+  "cod-34MEA6496_1": "z2",
+  "cod-34MFA1575_1": "z2",
+  "cod-34MEB9889_1": "z2",
+  "cod-34MFB1371_1": "z2",
+  "cod-34MDA8760_1": "z2",
+  "cod-34MEB9495_1": "z2",
+  "cod-34MEA6081_1": "z2",
+  "cod-34MEA9464_1": "z2",
+  "cod-34MEA5197_1": "z2",
+  "cod-34MFB0881_1": "z2",
+  "cod-34MEA4469_1": "z2",
+  "cod-34MEB6900_1": "z2",
+  "cod-34MEA0970_1": "z2",
+  "cod-34MEB8776_1": "z2",
+  "cod-34MEA9778_1": "z2",
+  "cod-34MEB4936_1": "z2"
+ }
+}

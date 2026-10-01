@@ -1,0 +1,82 @@
+{
+ "unit_id": "CD8207-kabeya-kamwanga",
+ "as_of": "2026-10-01",
+ "summary": "Kabeya-Kamwanga territory (Kasaï-Oriental, between Mbuji-Mayi and the Kasaï-Central border, including Lac Munkamba) has no known armed-group territorial control. Kamuina Nsapu-related violence that spilled into parts of Kasaï-Oriental in 2017 had ended by 2018; residual insecurity is banditry, customary/land disputes and police abuses. The state's permanent coercive presence is the PNC (territorial commissariat at Kabeya-Kamwanga centre and posts in larger villages), with no FARDC operations. Live web research was unavailable in this run (search budget exhausted), so the assessment relies on background knowledge and the default-state-presence rule.",
+ "sources": [],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Kabeya-Kamwanga, territorial chef-lieu",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-anr",
+     "role": "present"
+    }
+   ],
+   "evidence": "Territorial administrative centre with territorial administrator, PNC commissariat and ANR office; no reports of armed-group control in Kabeya-Kamwanga territory since the end of the Kamuina Nsapu crisis (2016-2017).",
+   "source_ids": []
+  },
+  {
+   "zone_id": "z2",
+   "description": "Rural villages of Kabeya-Kamwanga territory (Kabeya Kamwanga health zone, incl. Lac Munkamba, Bena Nkumbi, Bena Mbuyi)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [],
+   "evidence": "No known armed-group presence; rural order maintained by customary chiefs with PNC posts at secteur/groupement level. Banditry and customary conflicts do not amount to non-state control.",
+   "source_ids": []
+  }
+ ],
+ "locations": {
+  "cod-34MGU4936_1": "z1",
+  "cod-34MGU6552_1": "z2",
+  "cod-34MGU2961_1": "z2",
+  "cod-34MGU3307_1": "z2",
+  "cod-34MGU4153_1": "z2",
+  "cod-34MGU6140_1": "z2",
+  "cod-34MGU4030_1": "z2",
+  "cod-34MGU4023_1": "z2",
+  "cod-34MGU6438_1": "z2",
+  "cod-34MGU3001_1": "z2",
+  "cod-34MGU5046_2": "z2",
+  "cod-34MGU2946_1": "z2",
+  "cod-34MGU5358_1": "z2",
+  "cod-34MGU6158_2": "z2",
+  "cod-34MGU2032_1": "z2",
+  "cod-34MGU5759_1": "z2",
+  "cod-34MGU2150_1": "z2",
+  "cod-34MGU4162_1": "z2",
+  "cod-34MGU3657_1": "z2",
+  "cod-34MGU3533_1": "z2",
+  "cod-34MGU1836_1": "z2",
+  "cod-34MGU2351_1": "z2",
+  "cod-34MGU2045_1": "z2",
+  "cod-34MGU3936_1": "z2",
+  "cod-34MGU6542_1": "z2",
+  "cod-34MGU4118_1": "z2",
+  "cod-34MGU4550_1": "z2",
+  "cod-34MGU5152_1": "z2",
+  "cod-34MGU4429_1": "z2",
+  "cod-34MGU2148_1": "z2",
+  "cod-34MGU4226_1": "z2",
+  "cod-34MGU5643_1": "z2",
+  "cod-34MGU6364_1": "z2",
+  "cod-34MGU3210_1": "z2",
+  "cod-34MGU4247_1": "z2",
+  "cod-34MGU5836_1": "z2",
+  "cod-34MGU5938_1": "z2",
+  "cod-34MGU5842_1": "z2",
+  "cod-34MGU3512_1": "z2",
+  "cod-34MGU3641_1": "z2",
+  "cod-34MGU6444_1": "z2",
+  "cod-34MGU3125_1": "z2"
+ }
+}

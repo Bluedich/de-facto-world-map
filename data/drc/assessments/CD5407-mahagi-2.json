@@ -1,0 +1,264 @@
+{
+ "unit_id": "CD5407-mahagi-2",
+ "as_of": "2026-10-01",
+ "summary": "This unit covers northern Mahagi territory (Aungba, Kambala and Rimba health zones, mostly Alur chefferies around Nioka and towards Aru). Unlike southern Mahagi and neighbouring Djugu, the area is not known to be held by CODECO or other armed groups; the state (PNC with FARDC detachments, under customary chiefs locally) is treated as the controller. The western fringe bordering Djugu, including the Djalasiga gold-mining centre, is exposed to CODECO incursions and is rated lower confidence. NOTE: web research could not be performed for this unit (search budget exhausted, news/aggregator sites blocked), so all zones are inferences from background knowledge and should be re-checked.",
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://kivusecurity.org/",
+   "title": "Kivu Security Tracker (Ituri incident data, Mahagi/Djugu)",
+   "publisher": "Congo Research Group / Human Rights Watch",
+   "date": null
+  },
+  {
+   "id": "s2",
+   "url": "https://acleddata.com/",
+   "title": "ACLED conflict data – DRC/Ituri",
+   "publisher": "ACLED",
+   "date": null
+  },
+  {
+   "id": "s3",
+   "url": "https://monusco.unmissions.org/",
+   "title": "MONUSCO – Ituri updates",
+   "publisher": "MONUSCO",
+   "date": null
+  },
+  {
+   "id": "s4",
+   "url": "https://www.unocha.org/democratic-republic-congo",
+   "title": "OCHA DRC – Ituri humanitarian situation reports",
+   "publisher": "UN OCHA",
+   "date": null
+  }
+ ],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Djalasiga gold-mining centre (Akwerali settlement and Djalasiga health area, Aungba health zone)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "inference",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    },
+    {
+     "entity_id": "codeco",
+     "role": "raiding"
+    }
+   ],
+   "evidence": "Djalasiga is a large artisanal gold-mining agglomeration in north-western Mahagi, administered by the state with police and a military detachment guarding the mining area; CODECO elements from neighbouring Djugu (Walendu Tatsi/Watsi) have historically made incursions into western Mahagi mining sites but are not known to hold the town. Web research could not be performed for this unit (search budget exhausted, news sites blocked); assessment is inference from background knowledge to mid-2026.",
+   "source_ids": [
+    "s1",
+    "s2",
+    "s4"
+   ]
+  },
+  {
+   "zone_id": "z2",
+   "description": "Western Aungba and Kambala border villages towards Djugu (Kepira, Zani, Aupa, Ngbiki, Wadaka, Udju, Berunda health areas)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "inference",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    },
+    {
+     "entity_id": "codeco",
+     "role": "raiding"
+    }
+   ],
+   "evidence": "Alur villages on the western edge of Mahagi territory adjoining Djugu's Lendu areas; state administration and police remain, with FARDC positions on the border, while CODECO raids from Djugu are a recurrent risk rather than an established presence. Web research could not be performed for this unit (search budget exhausted, news sites blocked); assessment is inference from background knowledge to mid-2026.",
+   "source_ids": [
+    "s1",
+    "s2",
+    "s3"
+   ]
+  },
+  {
+   "zone_id": "z3",
+   "description": "Main towns of Rimba, Kambala and Aungba areas (Nioka/Pandoro, Cité Lopka, Jupadhi, Jupacen, Jupalang'u, Jupamalawi, Rona centre, Reru, Juru, Kambi)",
+   "controller_id": "cod-pnc",
+   "status": "exclusive",
+   "confidence": "medium",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Northern/central Mahagi (Alur chefferies) has seen no established armed-group control; Nioka and the RN27 towns host state administration, PNC posts and FARDC detachments. Web research could not be performed for this unit (search budget exhausted, news sites blocked); assessment is inference from background knowledge to mid-2026.",
+   "source_ids": [
+    "s1",
+    "s4"
+   ]
+  },
+  {
+   "zone_id": "z4",
+   "description": "Rural villages of Aungba, Kambala and Rimba health zones away from the Djugu border",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "customary",
+     "role": "present"
+    }
+   ],
+   "evidence": "Calm Alur rural areas with customary chiefs and police/administration from Mahagi, Nioka and Aru; no reported armed-group control. Web research could not be performed for this unit (search budget exhausted, news sites blocked); assessment is inference from background knowledge to mid-2026.",
+   "source_ids": [
+    "s1",
+    "s4"
+   ]
+  }
+ ],
+ "locations": {
+  "cod-36NTH2683_2": "z1",
+  "cod-36NTH5064_1": "z3",
+  "cod-36NTH3184_3": "z4",
+  "cod-36NTJ4900_1": "z4",
+  "cod-36NTH3993_2": "z4",
+  "cod-36NTH4486_1": "z4",
+  "cod-36NTH4986_4": "z4",
+  "cod-36NTJ4500_1": "z4",
+  "cod-36NTH4592_3": "z4",
+  "cod-36NTH2095_3": "z2",
+  "cod-36NTH4797_4": "z4",
+  "cod-36NTH3694_1": "z4",
+  "cod-36NTH3879_1": "z4",
+  "cod-36NTH4298_1": "z4",
+  "cod-36NTH3188_1": "z4",
+  "cod-36NTH1481_3": "z2",
+  "cod-36NTH4568_1": "z4",
+  "cod-36NTH4796_1": "z4",
+  "cod-36NTH4998_1": "z4",
+  "cod-36NTH2087_1": "z2",
+  "cod-36NTH4990_1": "z4",
+  "cod-36NTH4075_2": "z4",
+  "cod-36NTH2299_3": "z2",
+  "cod-36NTH3382_1": "z4",
+  "cod-36NTH5297_1": "z4",
+  "cod-36NTH3580_4": "z4",
+  "cod-36NTH4495_1": "z4",
+  "cod-36NTH1785_2": "z2",
+  "cod-36NTH4685_4": "z4",
+  "cod-36NTH4597_1": "z4",
+  "cod-36NTH4669_1": "z4",
+  "cod-36NTH5094_2": "z4",
+  "cod-36NTH4387_1": "z4",
+  "cod-36NTH5199_2": "z4",
+  "cod-36NTJ1700_1": "z2",
+  "cod-36NTH5193_1": "z4",
+  "cod-36NTH2485_2": "z4",
+  "cod-36NTH4771_2": "z4",
+  "cod-36NTH3774_4": "z4",
+  "cod-36NTH2090_1": "z2",
+  "cod-36NTH4875_3": "z4",
+  "cod-36NTH2689_2": "z1",
+  "cod-36NTH4774_1": "z4",
+  "cod-36NTH3898_1": "z4",
+  "cod-36NTH2479_3": "z4",
+  "cod-36NTH5188_1": "z4",
+  "cod-36NTH4282_3": "z4",
+  "cod-36NTH5596_1": "z4",
+  "cod-36NTH4369_2": "z4",
+  "cod-36NTH2187_1": "z2",
+  "cod-36NTH3896_1": "z4",
+  "cod-36NTJ1705_3": "z2",
+  "cod-36NTH3291_3": "z4",
+  "cod-36NTH3377_1": "z4",
+  "cod-36NTH3384_3": "z4",
+  "cod-36NTH4278_1": "z4",
+  "cod-36NTH4992_1": "z4",
+  "cod-36NTH3473_3": "z4",
+  "cod-36NTH4389_2": "z4",
+  "cod-36NTH5495_1": "z4",
+  "cod-36NTH2188_3": "z2",
+  "cod-36NTH3788_3": "z4",
+  "cod-36NTH3684_1": "z4",
+  "cod-36NTJ1506_1": "z2",
+  "cod-36NTH3995_1": "z4",
+  "cod-36NTH5393_1": "z4",
+  "cod-36NTH4399_1": "z4",
+  "cod-36NTH5067_1": "z4",
+  "cod-36NTH4498_2": "z4",
+  "cod-36NTH5079_3": "z4",
+  "cod-36NTH4194_1": "z4",
+  "cod-36NTH2873_3": "z4",
+  "cod-36NTH4891_2": "z4",
+  "cod-36NTH3374_2": "z4",
+  "cod-36NTH5090_2": "z4",
+  "cod-36NTH4194_2": "z4",
+  "cod-36NTH5446_1": "z3",
+  "cod-36NTH4743_3": "z3",
+  "cod-36NTH4951_1": "z3",
+  "cod-36NTH5440_1": "z3",
+  "cod-36NTH5350_1": "z3",
+  "cod-36NTH4445_2": "z3",
+  "cod-36NTH6146_1": "z3",
+  "cod-36NTH5652_2": "z4",
+  "cod-36NTH3945_1": "z4",
+  "cod-36NTH4747_2": "z4",
+  "cod-36NTH5353_1": "z4",
+  "cod-36NTH5934_1": "z4",
+  "cod-36NTH5949_1": "z4",
+  "cod-36NTH5946_1": "z4",
+  "cod-36NTH4845_1": "z4",
+  "cod-36NTH6044_1": "z4",
+  "cod-36NTH5942_2": "z4",
+  "cod-36NTH5741_1": "z4",
+  "cod-36NTH4552_1": "z4",
+  "cod-36NTH4441_1": "z4",
+  "cod-36NTH5550_1": "z4",
+  "cod-36NTH4948_2": "z4",
+  "cod-36NTH4536_1": "z4",
+  "cod-36NTH5948_1": "z4",
+  "cod-36NTH5648_1": "z4",
+  "cod-36NTH5943_2": "z4",
+  "cod-36NTH5739_1": "z4",
+  "cod-36NTH4548_2": "z4",
+  "cod-36NTH4449_1": "z4",
+  "cod-36NTH4039_1": "z4",
+  "cod-36NTH5046_2": "z4",
+  "cod-36NTH3842_4": "z4",
+  "cod-36NTH4444_2": "z4",
+  "cod-36NTH4037_2": "z4",
+  "cod-36NTH3839_2": "z3",
+  "cod-36NTH4457_1": "z3",
+  "cod-36NTH4855_3": "z3",
+  "cod-36NTH3169_1": "z4",
+  "cod-36NTH4053_2": "z4",
+  "cod-36NTH2957_1": "z4",
+  "cod-36NTH2954_1": "z4",
+  "cod-36NSH9858_1": "z2",
+  "cod-36NTH4356_2": "z4",
+  "cod-36NTH3346_2": "z4",
+  "cod-36NTH4758_2": "z4",
+  "cod-36NTH4360_2": "z4",
+  "cod-36NTH4358_1": "z4",
+  "cod-36NTH4255_3": "z4",
+  "cod-36NTH2067_3": "z2",
+  "cod-36NTH3340_1": "z4",
+  "cod-36NTH3449_1": "z4",
+  "cod-36NTH3343_1": "z4",
+  "cod-36NTH3159_1": "z4",
+  "cod-36NTH4660_2": "z4",
+  "cod-36NTH3352_1": "z4",
+  "cod-36NTH2764_2": "z4",
+  "cod-36NTH2766_1": "z4",
+  "cod-36NTH4459_3": "z4"
+ }
+}

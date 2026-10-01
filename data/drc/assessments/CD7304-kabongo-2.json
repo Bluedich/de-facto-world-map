@@ -1,0 +1,125 @@
+{
+ "unit_id": "CD7304-kabongo-2",
+ "as_of": "2026-10-01",
+ "summary": "Part 2 of Kabongo territory covers the Kitenge health zone (eastern Kabongo territory, Haut-Lomami, west of the Lualaba). No armed-group control or attacks were reported in Kitenge in 2025-2026; the 2026 Mai-Mai/Bakata Katanga resurgence was reported in Bukama, Malemba-Nkulu (e.g. Kyamona) and Mitwaba, east and south of this zone. ACP described Haut-Lomami as calm in September 2026. All locations are assessed as default state presence under the PNC, with low-to-medium confidence given proximity to Malemba-Nkulu and the lack of local reporting.",
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://acp.cd/province/haut-lomami-situation-calme-sur-toute-letendue-de-la-province/",
+   "title": "Haut-Lomami : situation calme sur toute l'étendue de la province",
+   "publisher": "ACP",
+   "date": "2026-09-01"
+  },
+  {
+   "id": "s2",
+   "url": "https://actualite.cd/2026/09/12/grand-katanga-le-spectre-mai-mai-ressurgit-mitwaba-et-malemba-nkulu-alerte-le",
+   "title": "Grand Katanga : le spectre Maï-Maï ressurgit, Mitwaba et Malemba-Nkulu, alerte",
+   "publisher": "Actualite.cd",
+   "date": "2026-09-12"
+  },
+  {
+   "id": "s3",
+   "url": "https://fr.allafrica.com/stories/202601160325.html",
+   "title": "Congo-Kinshasa: Six morts sur 290 cas de choléra en deux semaines au Haut-Lomami",
+   "publisher": "Radio Okapi / AllAfrica",
+   "date": "2026-01-16"
+  },
+  {
+   "id": "s4",
+   "url": "https://7sur7.cd/index.php/2026/08/01/haut-lomami-larmee-repousse-des-mai-mai-bakata-katanga-bukama",
+   "title": "Haut-Lomami : l'armée repousse des Maï-Maï Bakata Katanga à Bukama",
+   "publisher": "7sur7.cd",
+   "date": "2026-08-01"
+  }
+ ],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Western and central Kitenge health zone (lon <= 25.85): Kenane/Budi, Kantonye, Kyabene/Kasenga, Mwine Ngoy, Fwila, Mpele, Kansele and surrounding villages",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [],
+   "evidence": "No reports of armed-group presence or attacks in the Kitenge health zone in 2025-2026; local reporting concerns health (cholera, Jan 2026), not insecurity. Mai-Mai activity in 2026 was in Bukama and Malemba-Nkulu. State police/administration assumed.",
+   "source_ids": [
+    "s1",
+    "s2",
+    "s3",
+    "s4"
+   ]
+  },
+  {
+   "zone_id": "z2",
+   "description": "Eastern Kitenge health zone villages nearer Malemba-Nkulu (lon > 25.85: Lubonge, Kiloba, Kayambi, Kima, Kibamba, Kamaungu, Makena, Besaba, Muloe, Mashasha, Kasongo, Kabukomo)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [],
+   "evidence": "No reported armed-group activity, but these villages lie closest to Malemba-Nkulu territory where Mai-Mai/Bakata Katanga attacks resurged in 2026; state presence is thin and assumed.",
+   "source_ids": [
+    "s1",
+    "s2"
+   ]
+  }
+ ],
+ "locations": {
+  "cod-35MLN5279_1": "z1",
+  "cod-35MLN3588_1": "z1",
+  "cod-35MLN5997_1": "z1",
+  "cod-35MLN3356_1": "z1",
+  "cod-35MLN1784_2": "z1",
+  "cod-35MLN4247_3": "z1",
+  "cod-35MLN2386_1": "z1",
+  "cod-35MLN4081_2": "z1",
+  "cod-35MLN3560_1": "z1",
+  "cod-35MLN3967_1": "z1",
+  "cod-35MLN1881_1": "z1",
+  "cod-35MLN4047_1": "z1",
+  "cod-35MLP2101_1": "z1",
+  "cod-35MLN7393_2": "z2",
+  "cod-35MLN4344_1": "z1",
+  "cod-35MLN5667_1": "z1",
+  "cod-35MLN4690_1": "z1",
+  "cod-35MLP5801_1": "z1",
+  "cod-35MLN9055_1": "z2",
+  "cod-35MLN3897_1": "z1",
+  "cod-35MLN7856_2": "z2",
+  "cod-35MLN2178_1": "z1",
+  "cod-35MLN6280_1": "z1",
+  "cod-35MLN2191_1": "z1",
+  "cod-35MLN8249_1": "z2",
+  "cod-35MLP6506_1": "z1",
+  "cod-35MLN2389_1": "z1",
+  "cod-35MLN8866_1": "z2",
+  "cod-35MLN8552_3": "z2",
+  "cod-35MLN3268_1": "z1",
+  "cod-35MLN6870_3": "z1",
+  "cod-35MLN3856_1": "z1",
+  "cod-35MLN5160_2": "z1",
+  "cod-35MLN9150_1": "z2",
+  "cod-35MLN2688_2": "z1",
+  "cod-35MLN7868_1": "z2",
+  "cod-35MLN5364_1": "z1",
+  "cod-35MLN6746_2": "z1",
+  "cod-35MLP5403_1": "z1",
+  "cod-35MLN9494_3": "z2",
+  "cod-35MLN5753_1": "z1",
+  "cod-35MLN6955_2": "z1",
+  "cod-35MLN4558_1": "z1",
+  "cod-35MLN8758_1": "z2",
+  "cod-35MLN5763_1": "z1",
+  "cod-35MLN3899_1": "z1",
+  "cod-35MLN3197_1": "z1",
+  "cod-35MLN6674_2": "z1",
+  "cod-35MLN2775_2": "z1",
+  "cod-35MLN7750_1": "z2",
+  "cod-35MLN8182_1": "z2",
+  "cod-35MLN6346_1": "z1",
+  "cod-35MLP5601_1": "z1"
+ }
+}

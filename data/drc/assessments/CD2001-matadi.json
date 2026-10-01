@@ -1,0 +1,65 @@
+{
+ "unit_id": "CD2001-matadi",
+ "as_of": "2026-10-01",
+ "summary": "Matadi, capital of Kongo-Central province and the DRC's main seaport, lies far from the eastern conflict zones and no armed group holds territory in the city. Day-to-day order across its communes (Matadi, Mvuzi, Nzanza) and health-area neighbourhoods is kept by the Congolese National Police (PNC), with FARDC, naval and port-security elements also present. Security problems are urban crime (kuluna-type banditry) and periodic political unrest linked historically to the Bundu dia Kongo movement (notably 2017-2020), neither of which amounts to territorial control. The small 'Militaire' health area (Camp Redjaf military camp) is assessed as FARDC-run. Web research was unavailable for this run (search budget exhausted, news sites blocked), so the assessment rests on default state presence.",
+ "sources": [],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Matadi city: all civilian health-area neighbourhoods (Soyo Luadi, Makindu, Hygiène, Salongo, Ngadi, Mvuzi, Banana, Ville Basse, Nzanza, Trabeka, Nzinga Lutete, Kitomesa, Baobab, Lieutenant Mpaka, Mbuzi Mongo) and the city as a whole",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Provincial capital and port in a province with no active armed-group territorial control; the PNC runs commissariats and handles arrests and order, with FARDC garrisoned in the city. Crime (kuluna) and past Bundu dia Kongo unrest (2017-2020) did not displace state control. No sources could be retrieved in this run.",
+   "source_ids": []
+  },
+  {
+   "zone_id": "z2",
+   "description": "'Militaire' health area (Camp Redjaf military camp)",
+   "controller_id": "cod-fardc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "inference",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-pnc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Health area named 'Militaire' with alt name Redjaf corresponds to the FARDC Camp Redjaf; order inside a military camp is kept by the army (military police). No sources could be retrieved in this run.",
+   "source_ids": []
+  }
+ ],
+ "locations": {
+  "cod-33MUP3054_1": "z1",
+  "cod-33MUP3054_1-xBBv2HMEBIY": "z1",
+  "cod-33MUP3054_1-k7rvtUQrqRI": "z1",
+  "cod-33MUP3054_1-PtHxw1jdIPn": "z1",
+  "cod-33MUP3054_1-OjZ37BBAFbP": "z1",
+  "cod-33MUP3054_1-T9hmJQMHLPQ": "z1",
+  "cod-33MUP3054_1-jNMB7paSQ5n": "z1",
+  "cod-33MUP3054_1-VMA4y8KcMeO": "z1",
+  "cod-33MUP3054_1-XFRoih6GKUm": "z1",
+  "cod-33MUP3054_1-KnEqvxvTMVc": "z1",
+  "cod-33MUP3054_1-KI8DDPeMtkP": "z1",
+  "cod-33MUP3054_1-gJ8pNWfI8Qk": "z1",
+  "cod-33MUP3054_1-hvWr6P4p6wD": "z1",
+  "cod-33MUP3054_1-koYgM6TVtbz": "z1",
+  "cod-33MUP3054_1-VmqR3Uy9IEx": "z1",
+  "cod-33MUP3054_1-fgjpGfhkrEo": "z1",
+  "cod-33MUP3054_1-rJlzWFefG6I": "z1",
+  "cod-33MUP3054_1-hfdFtq779Ru": "z1",
+  "cod-33MUP3054_1-BJK9hVz7MzX": "z1",
+  "cod-33MUP3054_1-XinqkWHyoOP": "z2"
+ }
+}

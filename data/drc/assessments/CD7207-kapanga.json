@@ -1,0 +1,156 @@
+{
+ "unit_id": "CD7207-kapanga",
+ "as_of": "2026-10-01",
+ "summary": "Kapanga territory in north-western Lualaba is the heartland of the Lunda kingdom, with Musumba (GRID3 'Chala', ~78,000 people) as seat of the Mwant Yav and territorial centre, and the Kapanga and Kalamba health zones as its rural hinterland. No armed group is known to hold territory in the unit as of 2026: the state controls it, with the PNC keeping order in Musumba/Kapanga and in larger villages alongside customary Lunda authorities. In 2017 the Kamuina Nsapu insurgency spilled over from the Kasai provinces into Kapanga territory (attacks on state symbols, displacement), but it was suppressed and no residual militia control is reported. Insecurity is now mainly criminal and linked to customary/succession disputes. Web research was unavailable for this unit (search budget exhausted, fetches blocked), so confidence is medium for Musumba and low for rural areas.",
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://en.wikipedia.org/wiki/Kapanga_Territory",
+   "title": "Kapanga Territory",
+   "publisher": "Wikipedia",
+   "date": null
+  },
+  {
+   "id": "s2",
+   "url": "https://en.wikipedia.org/wiki/Kamwina_Nsapu_rebellion",
+   "title": "Kamwina Nsapu rebellion",
+   "publisher": "Wikipedia",
+   "date": null
+  },
+  {
+   "id": "s3",
+   "url": "https://actualite.cd/2026/09/12/grand-katanga-le-spectre-mai-mai-ressurgit-mitwaba-et-malemba-nkulu-alerte-le",
+   "title": "Grand Katanga : le spectre Mai-Mai ressurgit à Mitwaba et Malemba-Nkulu, alerte le gouvernement",
+   "publisher": "Actualite.cd",
+   "date": "2026-09-12"
+  },
+  {
+   "id": "s4",
+   "url": "https://coi.euaa.europa.eu/administration/france/PLib/2409_COD__Bakata_Katanga_163382_web.pdf",
+   "title": "RDC : Bakata Katanga",
+   "publisher": "OFPRA / EUAA COI",
+   "date": "2024-09"
+  }
+ ],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Musumba / Kapanga centre (GRID3 'Chala', Musumba health area), seat of the Mwant Yav and territorial administration",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "inference",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Territorial chief town and Lunda royal capital with territorial administration, PNC commissariat and a small FARDC presence; no armed-group control reported since Kamuina Nsapu incursions in 2017 were repelled. Unit-specific recent reporting could not be retrieved (web access blocked).",
+   "source_ids": [
+    "s1",
+    "s2"
+   ]
+  },
+  {
+   "zone_id": "z2",
+   "description": "Rural Kapanga health zone villages (Ntita, Panda Mwila, Chibaba, Musevu, Kambundu, Kasa Mayi, Masaka, Samabanda, Rubwiz, Mulambu, Dininga, Ruyemb, Murub, etc.)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [],
+   "evidence": "No reported armed-group activity in rural Kapanga in 2024-2026; the 2017 Kamuina Nsapu spill-over from Kasai has ended and Mai-Mai/Bakata Katanga activity is concentrated far to the east (Mitwaba, Malemba-Nkulu). Assessed as default state (PNC/customary) presence.",
+   "source_ids": [
+    "s2",
+    "s3",
+    "s4"
+   ]
+  },
+  {
+   "zone_id": "z3",
+   "description": "Kalamba secteur / Kalamba and Wikong health zones (Kalamba/Nkand Marundu, Chitazu, Mutomb A Chimbang, Nchakal, Kamwanga, Ruung, Karung, etc.) in the east of the territory toward the Lulua/Kasai-Central border",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [],
+   "evidence": "Eastern Kapanga borders the former Kamuina Nsapu areas of Kasai-Central/Lomami, but no militia activity is reported there in 2024-2026. Assessed as default state presence; low confidence for lack of unit-specific reporting.",
+   "source_ids": [
+    "s2",
+    "s3"
+   ]
+  }
+ ],
+ "locations": {
+  "cod-34LFR8075_1": "z1",
+  "cod-34LFR7673_1": "z2",
+  "cod-34LFR7272_2": "z2",
+  "cod-34LFR5991_1": "z2",
+  "cod-34MFS5424_1": "z2",
+  "cod-34MFS4620_2": "z2",
+  "cod-34LFR6889_1": "z2",
+  "cod-34MFS0438_1": "z2",
+  "cod-34LFS6105_1": "z2",
+  "cod-34MFS6016_1": "z2",
+  "cod-34MES9020_1": "z2",
+  "cod-34LFR4973_1": "z2",
+  "cod-34LFR5057_1": "z2",
+  "cod-34MFS5430_1": "z2",
+  "cod-34LFR8347_1": "z2",
+  "cod-34LFS1404_1": "z2",
+  "cod-34LFS6306_1": "z2",
+  "cod-34LFR8393_1": "z2",
+  "cod-34LFR8124_1": "z2",
+  "cod-34LFR2091_1": "z2",
+  "cod-34LFR5664_1": "z2",
+  "cod-34LFR4595_1": "z2",
+  "cod-34MES8743_1": "z2",
+  "cod-34MFS0619_1": "z2",
+  "cod-34LFR8244_1": "z2",
+  "cod-34LFS9211_1": "z2",
+  "cod-34LFR6573_1": "z2",
+  "cod-34LFR5327_1": "z2",
+  "cod-34LFR3493_1": "z2",
+  "cod-34MFS0333_1": "z2",
+  "cod-34LFR3894_1": "z2",
+  "cod-34LFR5585_1": "z2",
+  "cod-34LFR5231_1": "z2",
+  "cod-34LFR8577_1": "z2",
+  "cod-34LFR1949_1": "z2",
+  "cod-34MFS0546_2": "z2",
+  "cod-34MFS0448_1": "z2",
+  "cod-34LFS3414_1": "z2",
+  "cod-34LGS6614_1": "z3",
+  "cod-34LGR6886_1": "z3",
+  "cod-34MGS3732_1": "z3",
+  "cod-34LGS7810_1": "z3",
+  "cod-34LGR5452_1": "z3",
+  "cod-34MGS6115_1": "z3",
+  "cod-34MGS4616_1": "z3",
+  "cod-34LGR5778_1": "z3",
+  "cod-34LGR5866_1": "z3",
+  "cod-34MGS2916_1": "z3",
+  "cod-34LGS5606_1": "z3",
+  "cod-34MGS3127_1": "z3",
+  "cod-34LGS1212_1": "z3",
+  "cod-34LGS7310_1": "z3",
+  "cod-34LGS4104_1": "z3",
+  "cod-34MGS2821_1": "z3",
+  "cod-34MGS5015_2": "z3",
+  "cod-34LGS2009_1": "z3",
+  "cod-34LGR3699_1": "z3",
+  "cod-34LGR2448_1": "z3",
+  "cod-34LGR6599_1": "z3",
+  "cod-34LGR2499_1": "z3",
+  "cod-34LGR6493_1": "z3",
+  "cod-34LGS6604_1": "z3",
+  "cod-34LGS0314_1": "z3",
+  "cod-34LGR7893_1": "z3",
+  "cod-34LGR4228_1": "z3"
+ }
+}

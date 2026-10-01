@@ -1,0 +1,188 @@
+{
+ "unit_id": "CD7203-lubudi",
+ "as_of": "2026-10-01",
+ "summary": "Lubudi territory (Lualaba) covers the Fungurume copper-cobalt mining hub and the rural Lubudi, Kanzenze and Bunkeya areas between Likasi and Kolwezi. No armed group is reported holding territory; the state controls the unit, with the PNC (including mines police) keeping order in Fungurume, Tenke and Kakanda and FARDC present in support. Insecurity is mainly criminal and linked to artisanal mining. The Bakata Katanga / Mai-Mai threat, which historically touched Lubudi and Bunkeya, was concentrated in 2024-2026 in Mitwaba, Malemba-Nkulu and Bukama to the north-east. Web research was unavailable for this unit (search budget exhausted, fetches blocked), so confidence is medium for Fungurume and low for rural Lubudi/Kanzenze/Bunkeya.",
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://coi.euaa.europa.eu/administration/france/PLib/2409_COD__Bakata_Katanga_163382_web.pdf",
+   "title": "RDC : Bakata Katanga",
+   "publisher": "OFPRA / EUAA COI",
+   "date": "2024-09"
+  },
+  {
+   "id": "s2",
+   "url": "https://globalprotectioncluster.org/sites/default/files/2026-04/rdc_clusterprotection_points_saillants_mars_2026_0.pdf",
+   "title": "RDC Cluster Protection – points saillants mars 2026",
+   "publisher": "Global Protection Cluster",
+   "date": "2026-04"
+  },
+  {
+   "id": "s3",
+   "url": "https://actualite.cd/2026/09/12/grand-katanga-le-spectre-mai-mai-ressurgit-mitwaba-et-malemba-nkulu-alerte-le",
+   "title": "Grand Katanga : le spectre Mai-Mai ressurgit à Mitwaba et Malemba-Nkulu, alerte le gouvernement",
+   "publisher": "Actualite.cd",
+   "date": "2026-09-12"
+  },
+  {
+   "id": "s4",
+   "url": "https://www.mediacongo.net/article-actualite-163457_double_attaque_meurtriere_a_luisha_l_igm_alerte_sur_la_montee_de_l_insecurite_dans_les_zones_minieres.html",
+   "title": "Double attaque meurtrière à Luisha : l'IGM alerte sur la montée de l'insécurité dans les zones minières",
+   "publisher": "Mediacongo",
+   "date": "2026-05"
+  },
+  {
+   "id": "s5",
+   "url": "https://en.wikipedia.org/wiki/Fungurume",
+   "title": "Fungurume",
+   "publisher": "Wikipedia",
+   "date": null
+  }
+ ],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Fungurume city (all health-area neighbourhoods: Mpala, Dipeta 1/2, Kasolondo, Mutende, Cité de Vallée, Kilo Ville, etc.) plus the adjoining mining towns of Tenke/Kabila 2 and Kakanda/Zouth",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "inference",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Copper-cobalt mining town (Tenke Fungurume Mining concession) on the Likasi-Kolwezi road, far from the eastern conflict zones; no territorial armed-group presence is reported. Insecurity is criminal and mining-related (artisanal-miner tensions, banditry in mining zones), handled by the PNC (incl. mines police) with FARDC in support. Live research could not be performed for this unit (web access blocked), so this rests on regional reporting.",
+   "source_ids": [
+    "s1",
+    "s2",
+    "s4",
+    "s5"
+   ]
+  },
+  {
+   "zone_id": "z2",
+   "description": "Rural villages of Fungurume secteur / health zone (Kafwaya, Kampompi, Dilambwe, Kiniama, Salabwe, Nguba, Kikaka, Lumbwe, Dipeta, Mwenda Mukose, Kalulu, etc.)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [],
+   "evidence": "No reported armed-group activity in the rural Fungurume area; Bakata Katanga / Mai-Mai activity in 2024-2026 is reported further north-east (Mitwaba, Malemba-Nkulu, Bukama/Upemba). Assessed as default state (PNC) presence.",
+   "source_ids": [
+    "s1",
+    "s2",
+    "s3"
+   ]
+  },
+  {
+   "zone_id": "z3",
+   "description": "Lubudi secteur (Lubudi town incl. Ambassade/Madidi, Kansenia, Kisanfu, Mutobo, Kalule Nord), Kanzenze (Busanga, Kabale) and Bunkeya (Pumbu, Kambeya, Ntondo)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "bakata-katanga",
+     "role": "raiding"
+    }
+   ],
+   "evidence": "Lubudi territory lay on the western fringe of past Bakata Katanga / Mai-Mai Kata Katanga activity (incursions around Lubudi and Bunkeya in the 2010s), but no armed group is reported holding ground here in 2024-2026, while Mai-Mai activity resurged in Mitwaba, Malemba-Nkulu and Bukama (Sept 2026). Towns and villages assessed as default PNC presence; low confidence because no unit-specific recent reporting could be retrieved.",
+   "source_ids": [
+    "s1",
+    "s3"
+   ]
+  }
+ ],
+ "locations": {
+  "cod-35LMJ2825_1": "z1",
+  "cod-35LMJ0326_1": "z1",
+  "cod-35LMJ3611_2": "z1",
+  "cod-35LMJ1823_4": "z2",
+  "cod-35LMJ2227_1": "z2",
+  "cod-35LMJ4714_1": "z2",
+  "cod-35LMJ2335_1": "z2",
+  "cod-35LMJ0834_2": "z2",
+  "cod-35LMJ3722_2": "z2",
+  "cod-35LMJ3115_2": "z2",
+  "cod-35LMJ1231_1": "z2",
+  "cod-35LMJ3538_1": "z2",
+  "cod-35LMJ1033_2": "z2",
+  "cod-35LMJ3932_1": "z2",
+  "cod-35LMJ0822_2": "z2",
+  "cod-35LMJ3753_1": "z2",
+  "cod-35LMJ2534_1": "z2",
+  "cod-35LMJ1021_1": "z2",
+  "cod-35LMJ1937_1": "z2",
+  "cod-35LMJ3838_3": "z2",
+  "cod-35LMJ2036_2": "z2",
+  "cod-35LMJ1532_2": "z2",
+  "cod-35LMJ3259_1": "z2",
+  "cod-35LMJ1322_1": "z2",
+  "cod-35LMJ1427_1": "z2",
+  "cod-35LMJ1830_3": "z2",
+  "cod-35LMJ2026_2": "z2",
+  "cod-35LMJ3921_2": "z2",
+  "cod-35LMJ1034_1": "z2",
+  "cod-35LMJ0522_3": "z2",
+  "cod-35LMJ2538_2": "z2",
+  "cod-35LLJ9625_1": "z2",
+  "cod-35LMJ1522_1": "z2",
+  "cod-35LMJ2631_2": "z1",
+  "cod-35LMH5298_1": "z2",
+  "cod-35LMJ0414_2": "z2",
+  "cod-35LMJ0310_3": "z2",
+  "cod-35LMJ2410_3": "z2",
+  "cod-35LMJ2027_4": "z2",
+  "cod-35LMJ2431_3": "z1",
+  "cod-35LMJ2123_2": "z2",
+  "cod-35LMJ3842_1": "z2",
+  "cod-35LMJ0117_1": "z2",
+  "cod-35LMJ2515_3": "z2",
+  "cod-35LMJ3844_1": "z2",
+  "cod-35LMJ2825_1-C0vQGRcoMSU": "z1",
+  "cod-35LMJ2825_1-trXA0JuXl4A": "z1",
+  "cod-35LMJ2825_1-AGaGAi1fS7N": "z1",
+  "cod-35LMJ2825_1-egTQ9FwgGcD": "z1",
+  "cod-35LMJ2825_1-hwaaFMoTTSr": "z1",
+  "cod-35LMJ2825_1-iHZmIPtIKGt": "z1",
+  "cod-35LMJ2825_1-yIXZOFLOZPa": "z1",
+  "cod-35LLJ8699_1": "z3",
+  "cod-35LLJ8318_1": "z3",
+  "cod-35LMJ1998_1": "z3",
+  "cod-35LLJ8223_1": "z3",
+  "cod-35LLJ9559_1": "z3",
+  "cod-35LMJ2490_1": "z3",
+  "cod-35LMJ1261_1": "z3",
+  "cod-35LMJ4288_1": "z3",
+  "cod-35LMJ3998_1": "z3",
+  "cod-35LLJ9122_1": "z2",
+  "cod-35LLJ9236_1": "z2",
+  "cod-35LMJ0158_1": "z3",
+  "cod-35LMJ1859_2": "z3",
+  "cod-35LMJ3686_1": "z3",
+  "cod-35LLK8318_1": "z3",
+  "cod-35LMJ4995_2": "z3",
+  "cod-35LMJ2797_1": "z3",
+  "cod-35LLJ7692_1": "z3",
+  "cod-35LLK7628_1": "z3",
+  "cod-35LMJ2657_1": "z3",
+  "cod-35LLK8403_1": "z3",
+  "cod-35LMJ3682_1": "z3",
+  "cod-35LMJ3284_2": "z3",
+  "cod-35LMJ9651_1": "z3",
+  "cod-35LMJ4365_1": "z3",
+  "cod-35LNJ0657_1": "z3",
+  "cod-35LLJ2384_1": "z3",
+  "cod-35LLJ2460_1": "z3",
+  "cod-35LLJ2480_2": "z3",
+  "cod-35LLJ2382_1": "z3",
+  "cod-35LLJ2473_4": "z3"
+ }
+}

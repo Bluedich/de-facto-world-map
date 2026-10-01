@@ -1,0 +1,149 @@
+{
+ "unit_id": "CD3302-inongo",
+ "as_of": "2026-10-01",
+ "summary": "Inongo territory (Maï-Ndombe) covers Inongo town, the provincial capital, and the Inongo, Banzow Moke and Ntandembelo secteurs around Lake Maï-Ndombe. No armed group is reported to control any locality: the town is held by the PNC with FARDC elements, and rural villages fall under ordinary state presence (PNC posts) with customary chiefs. The Mobondo (Teke-Yaka) militia remains active in mid-2026 in Kwamouth and neighbouring areas to the south-west, the nearest risk for Ntandembelo, but is not reported inside Inongo territory. Web research was unavailable for this run, so rural assessments rest on default state presence with low confidence.",
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://fr.allafrica.com/stories/202606090742.html",
+   "title": "«Les Mobondo ne sont jamais partis» - Dans l'ouest, ce groupe qui sévit toujours malgré le discours officiel",
+   "publisher": "AllAfrica / RFI",
+   "date": "2026-06-09"
+  },
+  {
+   "id": "s2",
+   "url": "https://fr.allafrica.com/stories/202608180670.html",
+   "title": "Le Gouvernement confirme des signaux de paix face au phénomène Mobondo !",
+   "publisher": "AllAfrica",
+   "date": "2026-08-18"
+  }
+ ],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Inongo town, provincial capital of Maï-Ndombe",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Inongo is the seat of Maï-Ndombe provincial institutions on Lake Maï-Ndombe, with PNC provincial command and FARDC elements; no armed group is reported to hold or regularly operate in the town. The Mobondo militia active since 2022 is centred on Kwamouth territory far to the south-west.",
+   "source_ids": [
+    "s1"
+   ]
+  },
+  {
+   "zone_id": "z2",
+   "description": "Rural Inongo secteur and Banzow Moke secteur around Lake Maï-Ndombe (Inongo, Banzow Moke and Kiri health-zone villages)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "customary",
+     "role": "present"
+    }
+   ],
+   "evidence": "No reports of armed-group control in the lake-side secteurs of Inongo territory; order rests on PNC posts and customary chiefs. Research was limited for this run (search budget exhausted, sources blocked).",
+   "source_ids": []
+  },
+  {
+   "zone_id": "z3",
+   "description": "Ntandembelo secteur (south-west, toward Mushie/Kwamouth and the Kasai/Congo rivers)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "customary",
+     "role": "present"
+    }
+   ],
+   "evidence": "Ntandembelo lies closest to the Mobondo-affected Kwamouth/Mushie area, but Mobondo is not reported to hold localities in Inongo territory; Mobondo holdouts were still reported in mid-2026 mainly in Kwamouth and adjacent Kwilu/Kinshasa fringes. Assessed as ordinary state presence with low confidence.",
+   "source_ids": [
+    "s1",
+    "s2"
+   ]
+  }
+ ],
+ "locations": {
+  "cod-34MAC9886_1": "z1",
+  "cod-34MAD8120_1": "z2",
+  "cod-34MBC0216_1": "z2",
+  "cod-34MAC8683_1": "z2",
+  "cod-34MBC3890_1": "z2",
+  "cod-34MBD0350_1": "z2",
+  "cod-34MAD8556_1": "z2",
+  "cod-34MAD8726_1": "z2",
+  "cod-34MAD7105_1": "z2",
+  "cod-34MAC9469_1": "z2",
+  "cod-34MBD0935_1": "z2",
+  "cod-34MAD9632_1": "z2",
+  "cod-34MBD1554_1": "z2",
+  "cod-34MBD0723_1": "z2",
+  "cod-34MBD4737_1": "z2",
+  "cod-34MBC1166_1": "z2",
+  "cod-34MBD2635_1": "z2",
+  "cod-34MBC2059_1": "z2",
+  "cod-34MBD1130_1": "z2",
+  "cod-33MZU3043_1": "z2",
+  "cod-34MBC1137_1": "z2",
+  "cod-34MBD0925_1": "z2",
+  "cod-34MBD5047_1": "z2",
+  "cod-34MAD8962_1": "z2",
+  "cod-34MBD0125_1": "z2",
+  "cod-34MBD0909_1": "z2",
+  "cod-33MYU8311_1": "z2",
+  "cod-33MYU8100_1": "z2",
+  "cod-33MZT2891_1": "z2",
+  "cod-33MYU8731_1": "z2",
+  "cod-34MAC8182_1": "z2",
+  "cod-33MZU0316_1": "z2",
+  "cod-33MZU0301_1": "z2",
+  "cod-33MZU0003_1": "z2",
+  "cod-33MYU9729_1": "z2",
+  "cod-33MZU1105_1": "z2",
+  "cod-33MYT7678_1": "z2",
+  "cod-34MAC8375_1": "z2",
+  "cod-34MAC7086_1": "z2",
+  "cod-33MYU9408_2": "z2",
+  "cod-33MZU0514_3": "z2",
+  "cod-34MAC7384_2": "z2",
+  "cod-33MZU0206_1": "z2",
+  "cod-33MYU7306_1": "z2",
+  "cod-33MYU9836_1": "z2",
+  "cod-33MZU0331_3": "z2",
+  "cod-33MZU1802_1": "z2",
+  "cod-33MYU9000_1": "z2",
+  "cod-33MZU0014_1": "z2",
+  "cod-33MYU7620_2": "z2",
+  "cod-33MYT7072_1": "z3",
+  "cod-33MYT3570_1": "z3",
+  "cod-33MYT1098_1": "z3",
+  "cod-33MYT2066_1": "z3",
+  "cod-33MYT1499_1": "z3",
+  "cod-33MYT1094_1": "z3",
+  "cod-33MYT0667_1": "z3",
+  "cod-33MYT0366_1": "z3",
+  "cod-33MYT2469_1": "z3",
+  "cod-33MYT7368_2": "z3",
+  "cod-33MYT0897_1": "z3",
+  "cod-33MYT2367_1": "z3",
+  "cod-33MYT1766_1": "z3",
+  "cod-33MXT9758_1": "z3",
+  "cod-33MYT4081_1": "z3",
+  "cod-33MXT9767_1": "z3",
+  "cod-33MYT2957_1": "z3"
+ }
+}

@@ -1,0 +1,112 @@
+{
+ "unit_id": "CD8209-katanda",
+ "as_of": "2026-10-01",
+ "summary": "Katanda territory (Kasai-Oriental), east of Mbuji-Mayi, is state-administered with no known armed group holding territory. The Tshilenge/Citenge urban area and the neighbourhoods bordering Mbuji-Mayi are policed by the PNC with ANR and some FARDC presence; rural Tshitenge and Bibanga secteurs rely on PNC posts and customary chiefs. Violence is mostly banditry, land/chieftaincy and artisanal diamond-mining disputes. Live web research was unavailable in this run, so the assessment rests on background knowledge and default state presence, with limited confidence.",
+ "sources": [],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Tshilenge/Citenge town and peri-urban neighbourhoods (Citenge and Lubilanji health zone areas east of Mbuji-Mayi: Marché, Miya, Panama, Kabue, Buloba, Kapindu, Kapala, Kasengulu, Cimvuluila, Nyemvua, Ndekeluka, Kambaja, Lupandu Luetu)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    },
+    {
+     "entity_id": "cod-anr",
+     "role": "present"
+    }
+   ],
+   "evidence": "Densely populated peri-urban belt adjoining Mbuji-Mayi, administered by the state with PNC commissariats/sub-commissariats; no armed group is reported to hold territory. Insecurity consists of urban banditry (kuluna), diamond-digging disputes and occasional political unrest handled by PNC and other state services. Not verified with fresh sources in this run (web search budget exhausted, search sites blocked by egress proxy).",
+   "source_ids": []
+  },
+  {
+   "zone_id": "z2",
+   "description": "Rural Katanda territory: Tshitenge and Bibanga secteurs (Citenge, Bibanga health zones and fringes of Kabinda/Mukumbi zones), incl. Gaston/Bibanga, Cibindi, Bakua Nseka, Kabala, Mines Katende",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "customary",
+     "role": "present"
+    }
+   ],
+   "evidence": "Rural Luba area east of Mbuji-Mayi with no known armed-group territorial control; the 2016-2017 Kamuina Nsapu crisis only sporadically touched Kasai-Oriental and no militia presence is reported here now. Order rests on PNC posts at secteur/groupement level and customary chiefs, with land/chieftaincy and artisanal-mining disputes as the main sources of violence. Not verified with fresh sources in this run (web search budget exhausted, search sites blocked by egress proxy).",
+   "source_ids": []
+  }
+ ],
+ "locations": {
+  "cod-34MHU0410_1": "z1",
+  "cod-34MHU0123_1": "z2",
+  "cod-34MHU0526_2": "z2",
+  "cod-34MHU0813_1": "z2",
+  "cod-34MHU0413_1": "z2",
+  "cod-34MHU0616_1": "z2",
+  "cod-34MGU9927_4": "z2",
+  "cod-34MGU9521_1": "z2",
+  "cod-34MHU0519_1": "z2",
+  "cod-34MHU0410_1-Ml1c0LsmDvc": "z1",
+  "cod-34MGU8722_1-ebch6PAHf51": "z1",
+  "cod-34MHU0410_1-x08VX1ASqUG": "z1",
+  "cod-34MGU8722_1-FwMpVmhHmMt": "z1",
+  "cod-34MHU0410_1-wJAStVnNRD2": "z1",
+  "cod-34MHU0410_1-vqSv9jNclYv": "z1",
+  "cod-34MHU0410_1-Abq7plfsXlT": "z1",
+  "cod-34MGU8722_1-TlkIcLtpxBm": "z1",
+  "cod-34MGU8722_1-jxA2PKqkuE3": "z1",
+  "cod-34MHU0410_1-aHWcMt6Qb0h": "z1",
+  "cod-34MHU0410_1-R6hBT7gG3GB": "z1",
+  "cod-34MGU8722_1-zdJk5eheisM": "z1",
+  "cod-34MGU8722_1-MP7Rn6ua6L9": "z1",
+  "cod-34MHT2199_1": "z2",
+  "cod-34MHU1405_1": "z2",
+  "cod-34MHU0928_1": "z2",
+  "cod-34MHT3195_1": "z2",
+  "cod-34MHU3006_1": "z2",
+  "cod-34MHU1602_1": "z2",
+  "cod-34MHU2407_1": "z2",
+  "cod-34MHU1216_1": "z2",
+  "cod-34MHT1695_1": "z2",
+  "cod-34MHT2492_2": "z2",
+  "cod-34MHU1636_1": "z2",
+  "cod-34MHT2593_1": "z2",
+  "cod-34MHU1610_1": "z2",
+  "cod-34MHU1209_1": "z2",
+  "cod-34MHU1600_1": "z2",
+  "cod-34MHU2613_1": "z2",
+  "cod-34MHU2940_1": "z2",
+  "cod-34MHU2701_1": "z2",
+  "cod-34MHT2892_2": "z2",
+  "cod-34MHU1639_1": "z2",
+  "cod-34MHU1928_2": "z2",
+  "cod-34MHU2709_1": "z2",
+  "cod-34MHT2094_1": "z2",
+  "cod-35MJP7914_1": "z2",
+  "cod-34MHU1427_1": "z2",
+  "cod-34MHU0832_1": "z2",
+  "cod-34MHU0636_2": "z2",
+  "cod-34MHU0541_1": "z2",
+  "cod-34MHU2419_2": "z2",
+  "cod-35MJN7193_1": "z2",
+  "cod-34MHU2922_1": "z2",
+  "cod-34MHU2637_1": "z2",
+  "cod-34MHU1919_1": "z2",
+  "cod-34MHU2114_1": "z2",
+  "cod-34MHT2694_1": "z2",
+  "cod-34MHU1223_1": "z2",
+  "cod-34MHU0638_2": "z2",
+  "cod-34MHU1114_1": "z2",
+  "cod-34MHU0757_2": "z2",
+  "cod-34MHU0646_1": "z2",
+  "cod-35MJN7594_1": "z2"
+ }
+}

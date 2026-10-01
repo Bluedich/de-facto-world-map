@@ -1,0 +1,111 @@
+{
+ "unit_id": "CD4103-lukolela",
+ "as_of": "2026-10-01",
+ "summary": "Lukolela territory (Equateur) lies on the Congo River opposite the Republic of Congo, far from the eastern conflict zones, with no armed group holding territory. Lukolela town (territory seat) and its quarters are policed by the Congolese National Police, with Republican Guard and FARDC elements present; the only notable 2026 security incident was a May 2026 shooting of two civilians by undisciplined Republican Guard soldiers, after which security forces arrested a suspect. Rural villages of the Lukolela and Irebu secteurs have no reported armed-group activity and are assessed as default state (PNC) presence. Irebu, on the Congo/Ubangi confluence, hosts a historical FARDC/naval installation but daily policing is assessed as PNC with low-medium confidence.",
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.mediacongo.net/article-actualite-163320_equateur_des_elements_de_la_garde_republicaine_blessent_deux_civils_a_lukolela.html",
+   "title": "Equateur : des éléments de la Garde républicaine blessent deux civils à Lukolela",
+   "publisher": "Mediacongo",
+   "date": "2026-05-04"
+  }
+ ],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Lukolela town (territory seat, all quarters) and adjoining localities (Quartier 3 A/Bongonda, Synke, Bobanga)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "area_report",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-gr",
+     "role": "present"
+    },
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Territory seat with state administration and police; no armed-group presence reported. A May 2026 incident in which uncontrolled Republican Guard elements wounded two civilians led to an arrest by security forces, indicating state forces hold the town and state justice functions.",
+   "source_ids": [
+    "s1"
+   ]
+  },
+  {
+   "zone_id": "z2",
+   "description": "Rural villages of Lukolela secteur along the Congo River and inland (Makaso, Nkolo, Bondanga, Mpoka, Mbondo, Mibenga, Ndongo Bokoko, Nsopi, Manga, etc.)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "customary",
+     "role": "present"
+    }
+   ],
+   "evidence": "No reports of armed-group activity in rural Lukolela territory; state presence via police posts and secteur administration, with customary chiefs settling local disputes.",
+   "source_ids": [
+    "s1"
+   ]
+  },
+  {
+   "zone_id": "z3",
+   "description": "Irebu secteur: Irebu, Ngombe, Botunu, Tambola, Lusakani",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "No reported armed-group activity in Irebu secteur; Irebu has historically hosted a FARDC (naval/military) installation, but civilian policing is assumed to be done by PNC. No recent specific reporting found.",
+   "source_ids": [
+    "s1"
+   ]
+  }
+ ],
+ "locations": {
+  "cod-33MYU4282_1": "z1",
+  "cod-33MYU3576_1": "z1",
+  "cod-33MYT0891_1": "z2",
+  "cod-33MYU0335_2": "z2",
+  "cod-33MYU2622_1": "z2",
+  "cod-33MYU2744_1": "z2",
+  "cod-33MYU7145_1": "z2",
+  "cod-33MYU3470_1": "z1",
+  "cod-33MYU4864_1": "z2",
+  "cod-33MYU6655_1": "z2",
+  "cod-33MYU2313_1": "z2",
+  "cod-33MYU5943_2": "z2",
+  "cod-33MYT0294_1": "z2",
+  "cod-33MYU3763_1": "z2",
+  "cod-33MYU7967_1": "z2",
+  "cod-33MYU6843_1": "z2",
+  "cod-33MYU4067_1": "z2",
+  "cod-33MYU6757_1": "z2",
+  "cod-33MYU3882_1": "z1",
+  "cod-33MXU9115_1": "z2",
+  "cod-33MYU2207_1": "z2",
+  "cod-33MYU2719_1": "z2",
+  "cod-33MXU9221_2": "z2",
+  "cod-33MYU4948_1": "z2",
+  "cod-33MYU8280_1": "z2",
+  "cod-33MYV8722_1": "z3",
+  "cod-33MZV0932_1": "z3",
+  "cod-33MZV0128_1": "z3",
+  "cod-33MYU7197_1": "z2",
+  "cod-33MYV8713_1": "z3",
+  "cod-33MYV9217_1": "z3"
+ }
+}

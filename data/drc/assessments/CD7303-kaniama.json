@@ -1,0 +1,173 @@
+{
+ "unit_id": "CD7303-kaniama",
+ "as_of": "2026-10-01",
+ "summary": "Kaniama territory (Haut-Lomami) has no reported armed-group control; Mai-Mai/Bakata Katanga activity in 2025-2026 was concentrated in Bukama, Malemba-Nkulu, Mitwaba and Pweto, and the province was reported calm in September 2026. Kaniama town is a state-run territorial centre with permanent PNC and FARDC presence and received a presidential visit in late July 2026. The Kaniama-Kasese site west of town hosts the Service National training and re-education centre (former kuluna and youth) and its agro-industrial domain, run by the paramilitary Service National. Rural villages are assessed as default state presence (PNC).",
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://fr.allafrica.com/stories/202607300103.html",
+   "title": "Itinérance dans le Haut-Lomami - Après Kamina, le Chef de l'État est arrivé à Kaniama-Kasese",
+   "publisher": "AllAfrica / ACP",
+   "date": "2026-07-30"
+  },
+  {
+   "id": "s2",
+   "url": "https://acp.cd/province/haut-lomami-situation-calme-sur-toute-letendue-de-la-province/",
+   "title": "Haut-Lomami : situation calme sur toute l'étendue de la province",
+   "publisher": "ACP",
+   "date": "2026-09-01"
+  },
+  {
+   "id": "s3",
+   "url": "https://actualite.cd/2026/07/28/haut-lomami-les-fardc-repoussent-une-attaque-des-mai-mai-bukama",
+   "title": "Haut-Lomami : les FARDC repoussent une attaque des Maï-Maï à Bukama",
+   "publisher": "Actualite.cd",
+   "date": "2026-07-28"
+  },
+  {
+   "id": "s4",
+   "url": "https://fr.allafrica.com/stories/202604030193.html",
+   "title": "Six blessés dans une altercation à Kaniama Kasese, le Service National déplore l'incident",
+   "publisher": "AllAfrica",
+   "date": "2026-04-03"
+  },
+  {
+   "id": "s5",
+   "url": "https://www.aip.ci/cote-divoire-aip-inter-rdc-plus-de-8-300-jeunes-formes-au-centre-de-kaniama-kasese-dans-le-cadre-du-service-national/",
+   "title": "RDC : plus de 8 300 jeunes formés au centre de Kaniama Kasese dans le cadre du Service national",
+   "publisher": "AIP"
+  },
+  {
+   "id": "s6",
+   "url": "https://actualite.cd/2024/04/15/rdc-retour-kinshasa-de-1600-anciens-kuluna-apres-une-reeducation-kaniama-kasese",
+   "title": "RDC : retour à Kinshasa de 1600 anciens kuluna après une rééducation à Kaniama Kasese",
+   "publisher": "Actualite.cd",
+   "date": "2024-04-15"
+  }
+ ],
+ "new_entities": [
+  {
+   "id": "cod-service-national",
+   "name": "Service National (RDC)",
+   "type": "state_force",
+   "parent_id": "cod",
+   "description": "Paramilitary national service under the presidency that runs civic/re-education training centres and agricultural domains (notably Kaniama-Kasese); controller only at its own sites."
+  }
+ ],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Kaniama town (territorial centre)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "high",
+   "basis": "area_report",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    },
+    {
+     "entity_id": "cod-anr",
+     "role": "present"
+    }
+   ],
+   "evidence": "Kaniama is a calm, state-administered territorial centre; it hosted a presidential visit in July 2026 and the province was reported calm in September 2026, with armed-group activity limited to Bukama/Malemba-Nkulu/Mitwaba. Policing by PNC with FARDC and intelligence services present.",
+   "source_ids": [
+    "s1",
+    "s2",
+    "s3"
+   ]
+  },
+  {
+   "zone_id": "z2",
+   "description": "Kaniama-Kasese area (Kasese health area: Kasese Poste, Agri) – Service National training centre and agro-industrial domain",
+   "controller_id": "cod-service-national",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "inference",
+   "since": "2020",
+   "presence": [
+    {
+     "entity_id": "cod-pnc",
+     "role": "present"
+    },
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "The Kaniama-Kasese centre, relaunched in 2020, is run by the paramilitary Service National, which trains and re-educates thousands of youths (including former kuluna) and handles discipline on site; a soldier-worker altercation there in April 2026 was handled by military justice. Control over the surrounding villages (vs. PNC) is inferred.",
+   "source_ids": [
+    "s4",
+    "s5",
+    "s6",
+    "s1"
+   ]
+  },
+  {
+   "zone_id": "z3",
+   "description": "Rural Kaniama territory (all other villages, incl. Tshilayi, Kafuyage, Kipanga, Musaka, Muleba, Hamba border area)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [],
+   "evidence": "No reports of armed-group presence or control in Kaniama territory in 2025-2026; Mai-Mai incursions in Haut-Lomami are reported in Bukama, Malemba-Nkulu, Mitwaba and Pweto. Default state presence (PNC posts, customary chiefs).",
+   "source_ids": [
+    "s2",
+    "s3"
+   ]
+  }
+ ],
+ "locations": {
+  "cod-35MJM8768_1": "z1",
+  "cod-35MJM8076_1": "z3",
+  "cod-35MKM0044_1": "z3",
+  "cod-35MKM1024_1": "z3",
+  "cod-35MJM9456_1": "z3",
+  "cod-35MKM0785_1": "z3",
+  "cod-34LHR1949_1": "z3",
+  "cod-35MJM8747_1": "z3",
+  "cod-35MJM7376_2": "z3",
+  "cod-35MJM7450_1": "z2",
+  "cod-35MJM7186_3": "z3",
+  "cod-35MJM8677_1": "z3",
+  "cod-35LKL0892_3": "z3",
+  "cod-35MJN8515_1": "z3",
+  "cod-35MKM2075_2": "z3",
+  "cod-34LHS0001_1": "z3",
+  "cod-35MKM2897_1": "z3",
+  "cod-35MJM7133_1": "z3",
+  "cod-35MJM7596_1": "z3",
+  "cod-34LGR9950_1": "z3",
+  "cod-35MJM8755_1": "z3",
+  "cod-35MKM2985_1": "z3",
+  "cod-35LJL8292_1": "z3",
+  "cod-35MKN2016_1": "z3",
+  "cod-35MJM8068_1": "z3",
+  "cod-35MJM8673_3": "z3",
+  "cod-34MHS1418_1": "z3",
+  "cod-35MJN8723_1": "z3",
+  "cod-35MJM9482_2": "z3",
+  "cod-35MJN8729_1": "z3",
+  "cod-34LHR0165_2": "z3",
+  "cod-35MJN7304_2": "z3",
+  "cod-35MJN7611_1": "z3",
+  "cod-34LHR2173_1": "z3",
+  "cod-35LKL0262_1": "z3",
+  "cod-35MKM1680_1": "z3",
+  "cod-34MHS2028_1": "z3",
+  "cod-34LHS1513_1": "z3",
+  "cod-34MHS1223_2": "z3",
+  "cod-35MJM7854_1": "z2",
+  "cod-35MJM7962_1": "z3",
+  "cod-35MJM7782_1": "z3",
+  "cod-35LJL7183_1": "z3",
+  "cod-35MJM7970_1": "z3",
+  "cod-35MKN2625_1": "z3",
+  "cod-34LHS3013_1": "z3"
+ }
+}

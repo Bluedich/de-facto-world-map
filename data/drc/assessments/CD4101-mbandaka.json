@@ -1,0 +1,112 @@
+{
+ "unit_id": "CD4101-mbandaka",
+ "as_of": "2026-10-01",
+ "summary": "Mbandaka, capital of Equateur province, is far from the eastern conflict zones and has no armed group holding territory. Day-to-day order in the city's communes (Mbandaka, Wangata) and neighbourhoods is kept by the Congolese National Police (PNC, including GMI/LENI units), with FARDC (Bokala military camp) and Republican Guard elements garrisoned in the city. Reported incidents in 2025-2026 are police abuses (extortion of moto-taxi drivers, a killing at the central market in Nov 2025) and a May 2026 firefight between Republican Guard and police elements, not challenges to state control. Rural villages of the Bolenge and Mbandaka/Wangata secteurs along the Congo and Ruki rivers have no reported armed-group activity and are assessed as default state (PNC) presence.",
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.mediacongo.net/article-actualite-163519_mbandaka_un_civil_blesse_lors_d_echanges_de_tirs_entre_la_garde_republicaine_et_la_police.html",
+   "title": "Mbandaka : un civil blessé lors d'échanges de tirs entre la Garde républicaine et la police",
+   "publisher": "Mediacongo",
+   "date": "2026-05-09"
+  },
+  {
+   "id": "s2",
+   "url": "https://fr.allafrica.com/stories/202511270307.html",
+   "title": "Congo-Kinshasa: Procès en flagrance contre un policier accusé de meurtre à Mbandaka",
+   "publisher": "AllAfrica",
+   "date": "2025-11-27"
+  }
+ ],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Mbandaka city (communes of Mbandaka and Wangata, all health-area neighbourhoods) and adjoining peri-urban localities (Libaya, Kinshasa, Inganda, Bolenge Pêcheur)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "high",
+   "basis": "area_report",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    },
+    {
+     "entity_id": "cod-gr",
+     "role": "present"
+    }
+   ],
+   "evidence": "Provincial capital with no armed-group presence; PNC (incl. GMI) polices the city and handles arrests, with a 2025 military trial of a police officer for a market killing showing state justice functioning. FARDC (Bokala camp) and Republican Guard are garrisoned; a May 2026 GR-police shootout was an intra-state incident.",
+   "source_ids": [
+    "s1",
+    "s2"
+   ]
+  },
+  {
+   "zone_id": "z2",
+   "description": "Rural villages of Bolenge secteur (Wendji, Bongonde, Ikengo, Libinza, etc.) and Mbandaka secteur (Bamanya, Ilelenge, Lolifa, Boyeka, Monzambi Ibonga)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "customary",
+     "role": "present"
+    }
+   ],
+   "evidence": "No reports of armed-group activity in Mbandaka territory's rural secteurs; state presence via police posts and secteur administration, with customary chiefs settling local disputes.",
+   "source_ids": [
+    "s1"
+   ]
+  }
+ ],
+ "locations": {
+  "cod-34NAF9503_1": "z1",
+  "cod-34NAF9007_2": "z1",
+  "cod-34NAF9503_1-V7fDrEXCVe4": "z1",
+  "cod-34NAF9503_1-N8jueXjggGu": "z1",
+  "cod-34NAF9503_1-rlIdRUwNpmt": "z1",
+  "cod-34NAF9503_1-bzC9hRDo1q4": "z1",
+  "cod-34NAF9503_1-oLKkWq6uz6R": "z1",
+  "cod-34NAF9503_1-Wa3PByjkC9a": "z1",
+  "cod-34NAF9503_1-Zu9dP2dZo5X": "z1",
+  "cod-34NAF9503_1-OXVU0YA3pcO": "z1",
+  "cod-34NAF9503_1-bjeR88xIQ9v": "z1",
+  "cod-34NAF9503_1-LOtSI4Zfdjo": "z1",
+  "cod-34NAF9503_1-jBPTQQzhIEA": "z1",
+  "cod-34MAE9694_1": "z2",
+  "cod-34NBF0101_1": "z2",
+  "cod-34NAF9508_1": "z1",
+  "cod-34NBF0401_2": "z2",
+  "cod-34NBF0605_2": "z2",
+  "cod-34MAE9893_1": "z2",
+  "cod-34NBF2533_1": "z2",
+  "cod-34NBF0206_1": "z2",
+  "cod-34NAF9503_1-svC1NJvt23P": "z1",
+  "cod-34NAF9503_1-HPsmluZAHnm": "z1",
+  "cod-34NAF9503_1-ufAblAImtiP": "z1",
+  "cod-34NAF9503_1-DQkUyfEJjnC": "z1",
+  "cod-34NAF9503_1-Gn1jbbWONWN": "z1",
+  "cod-34NAF9503_1-do2sMRB4bjv": "z1",
+  "cod-34NAF9503_1-bXIiOoCStpF": "z1",
+  "cod-34NAF9503_1-WpJzJLs9ONq": "z1",
+  "cod-34NAF9503_1-SGkPp97KMBj": "z1",
+  "cod-34NAF9503_1-nfjiVQvugR3": "z1",
+  "cod-34MAE8592_1": "z2",
+  "cod-34MAE9083_1": "z2",
+  "cod-33MZV2364_1": "z2",
+  "cod-34MAE8897_1": "z1",
+  "cod-34MAE8085_2": "z2",
+  "cod-34MBE0388_1": "z2",
+  "cod-34MAE8985_1": "z2",
+  "cod-34MAE8895_1": "z2",
+  "cod-33MZV2369_1": "z2",
+  "cod-33MZV3374_2": "z2",
+  "cod-34MAE9785_1": "z2",
+  "cod-34MAE8999_1": "z1"
+ }
+}

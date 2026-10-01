@@ -1,0 +1,76 @@
+{
+ "unit_id": "CD3108-popokabaka",
+ "as_of": "2026-10-01",
+ "summary": "Popokabaka territory in southern-central Kwango province lies on the Kwango river south of Kenge, away from the Mobondo militia theatre (Kwamouth, Maluku plateau, Bagata and northern Kenge/Kwango-river areas). No armed group is known to hold any locality in the territory. Popokabaka town (territorial seat) and the rural villages are assessed as under ordinary state authority with the PNC as the main permanent force, alongside territorial administration and customary chiefs. Confidence is medium for the town and low-to-medium for villages because web research was unavailable for this run.",
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://fr.allafrica.com/stories/202606090742.html",
+   "title": "«Les Mobondo ne sont jamais partis» - Dans l'ouest, ce groupe qui sévit toujours malgré le discours officiel",
+   "publisher": "AllAfrica / RFI",
+   "date": "2026-06-09"
+  },
+  {
+   "id": "s2",
+   "url": "https://fr.allafrica.com/stories/202505070267.html",
+   "title": "Les Mobondo renforcent leur emprise à une centaine de kilomètres de Kinshasa",
+   "publisher": "AllAfrica / RFI",
+   "date": "2025-05-07"
+  }
+ ],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Popokabaka town (cité, territorial seat on the Kwango river)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [],
+   "evidence": "Popokabaka is the territorial seat with territorial administration, PNC commissariat and courts; no armed-group activity is reported in the town. Mobondo violence in western DRC is concentrated far to the north (Kwamouth, Maluku, Bagata, northern Kenge). Web research was unavailable for this run (web search budget exhausted), so this rests on prior knowledge and regional reports cited by neighbouring assessments.",
+   "source_ids": [
+    "s1",
+    "s2"
+   ]
+  },
+  {
+   "zone_id": "z2",
+   "description": "Rural villages of Popokabaka territory (Ipongi, Mutombo Yamfu, Kabama, Ingasi, Intenga, Iwana, Imbela, Kahumba, Kiamfu Kinzadi, Dengo health areas)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [],
+   "evidence": "No reports of armed-group activity or control located for rural Popokabaka; state authority via PNC posts, territorial administration and customary chiefs is assumed. The territory lies south of the Mobondo-affected zone of northern Kwango/Mai-Ndombe. Web research was unavailable for this run (web search budget exhausted), so this rests on prior knowledge and regional reports cited by neighbouring assessments.",
+   "source_ids": [
+    "s1",
+    "s2"
+   ]
+  }
+ ],
+ "locations": {
+  "cod-33MXP7469_1": "z1",
+  "cod-33MYP3429_1": "z2",
+  "cod-33MXP8064_2": "z2",
+  "cod-33MYP0357_1": "z2",
+  "cod-33MXP8246_2": "z2",
+  "cod-33MYP3154_1": "z2",
+  "cod-33MXP8328_1": "z2",
+  "cod-33MXP4671_1": "z2",
+  "cod-33MXQ6408_1": "z2",
+  "cod-33MYP3433_1": "z2",
+  "cod-33MXP8448_2": "z2",
+  "cod-33MXP8824_1": "z2",
+  "cod-33MXP8170_1": "z2",
+  "cod-33MXQ5900_1": "z2",
+  "cod-33MXP8727_1": "z2",
+  "cod-33MXQ5317_1": "z2",
+  "cod-33MXP8571_1": "z2",
+  "cod-33MXP9428_1": "z2",
+  "cod-33MXP4373_1": "z2",
+  "cod-33MYP3427_2": "z2"
+ }
+}

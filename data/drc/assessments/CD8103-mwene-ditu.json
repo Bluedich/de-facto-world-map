@@ -1,0 +1,93 @@
+{
+ "unit_id": "CD8103-mwene-ditu",
+ "as_of": "2026-10-01",
+ "summary": "Mwene-Ditu, the largest city of Lomami province and a railway/commercial hub on the SNCC line and RN1, is state-held with no armed group controlling territory. Its neighbourhoods (communes of Mwene-Ditu and Makota) are policed by the PNC, with FARDC, ANR and railway/mine police also present. Kamuina Nsapu-linked violence reached the Mwene-Ditu area in 2017 but did not establish lasting control and had subsided by 2018; residual insecurity is armed banditry, urban delinquency and occasional unrest or police abuses. Peri-urban villages (Katabaie, Lukole, Diku, Mushiya) fall under PNC posts and customary chiefs. Live web research was unavailable in this run (search budget exhausted), so the assessment relies on background knowledge and the default-state-presence rule, with limited confidence.",
+ "sources": [],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Mwene-Ditu city, all neighbourhoods (communes Mwene-Ditu and Makota, Mweneditu health zone)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    },
+    {
+     "entity_id": "cod-anr",
+     "role": "present"
+    }
+   ],
+   "evidence": "Provincial-level city with mayor, PNC city commissariat and communal sub-commissariats, ANR and an FARDC presence; no reports of armed-group control since Kamuina Nsapu incidents of 2017 faded. Insecurity limited to armed banditry and urban delinquency.",
+   "source_ids": []
+  },
+  {
+   "zone_id": "z2",
+   "description": "Peri-urban villages of Mwene-Ditu (Katabaie, Lukole, Diku, Mushiya health areas)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "customary",
+     "role": "present"
+    }
+   ],
+   "evidence": "Villages adjacent to the city with no known armed-group presence; order is kept by customary chiefs and PNC posts, with city police reachable nearby.",
+   "source_ids": []
+  }
+ ],
+ "locations": {
+  "cod-34MGT7125_1": "z1",
+  "cod-34MGT6141_1": "z2",
+  "cod-34MGT5830_1": "z2",
+  "cod-34MGT5731_1": "z2",
+  "cod-34MGT6438_1": "z2",
+  "cod-34MGT5742_1": "z2",
+  "cod-34MGT7125_1-TIo7nrdlG1w": "z1",
+  "cod-34MGT7125_1-DDxGa5jZzJx": "z1",
+  "cod-34MGT7125_1-HZaQ1ZNHvpE": "z1",
+  "cod-34MGT7125_1-ILYQ6QJqbDD": "z1",
+  "cod-34MGT7125_1-AvIaeBdIQHC": "z1",
+  "cod-34MGT7125_1-AL0a3s8YHI4": "z1",
+  "cod-34MGT7125_1-t9lzlTZT1X5": "z1",
+  "cod-34MGT7125_1-zYGgbj1298W": "z1",
+  "cod-34MGT7125_1-QJAh3Swblvt": "z1",
+  "cod-34MGT7125_1-weLR8Szhj4i": "z1",
+  "cod-34MGT7125_1-dFO20ganGVC": "z1",
+  "cod-34MGT7125_1-xES51rj9ulX": "z1",
+  "cod-34MGT7125_1-YGaVdX2M3xo": "z1",
+  "cod-34MGT7125_1-IOvofIDxpMp": "z1",
+  "cod-34MGT7125_1-Bt8LcSAUP7y": "z1",
+  "cod-34MGT7125_1-ODH1rBZqvaN": "z1",
+  "cod-34MGT7125_1-QMS5W3hkS16": "z1",
+  "cod-34MGT7125_1-lPmDwUzUsV1": "z1",
+  "cod-34MGT7125_1-TBuzcTwt7E8": "z1",
+  "cod-34MGT7125_1-kR7KXWsYwRM": "z1",
+  "cod-34MGT7125_1-Si4ZKfxi2dV": "z1",
+  "cod-34MGT7125_1-IxfHRzOmFBT": "z1",
+  "cod-34MGT7125_1-BVVz5bpgIKA": "z1",
+  "cod-34MGT7125_1-tSt7MWNl1JF": "z1",
+  "cod-34MGT7125_1-L2brIMnGAR3": "z1",
+  "cod-34MGT7125_1-Oiyootl4UIl": "z1",
+  "cod-34MGT7125_1-sRCkVkFECXB": "z1",
+  "cod-34MGT7125_1-qGGRL3kwdL4": "z1",
+  "cod-34MGT7125_1-grkNNElIzZe": "z1",
+  "cod-34MGT7125_1-nkqooLs9QP2": "z1",
+  "cod-34MGT7125_1-kiLagu1XTqC": "z1",
+  "cod-34MGT7125_1-qTkq3Bo6bGQ": "z1",
+  "cod-34MGT7125_1-tQkxMK41kZG": "z1",
+  "cod-34MGT7125_1-sEeRf6bTZEn": "z1",
+  "cod-34MGT7125_1-vUuZsKd6iEg": "z1",
+  "cod-34MGT7125_1-JVAKp1RdbUE": "z1",
+  "cod-34MGT7125_1-aNpkrcNkce7": "z1",
+  "cod-34MGT7125_1-k4CtEs8kLaR": "z1"
+ }
+}

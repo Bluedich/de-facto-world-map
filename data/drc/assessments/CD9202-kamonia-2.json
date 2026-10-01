@@ -1,0 +1,236 @@
+{
+ "unit_id": "CD9202-kamonia-2",
+ "as_of": "2026-10-01",
+ "summary": "Eastern part of Kamonia territory plus Tshikapa city (Kasaï). Since the Kamuina Nsapu insurgency was suppressed in 2017-2018 there is no known armed-group control in Tshikapa, Mutena, Nyanga or Kitangwa; the state holds the area, with the PNC as the everyday security force and FARDC garrisons in Tshikapa and at diamond-mining sites. Main insecurity is urban banditry in Tshikapa, security-force extortion in the Mutena diamond fields and occasional intercommunal tensions. Assessment relies on background knowledge because live web research was unavailable (search quota exhausted, news sites blocked), so confidence is medium for the city and low for rural areas.",
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.ohchr.org/en/documents/country-reports/ahrc3831-report-team-international-experts-situation-kasai",
+   "title": "Report of the Team of International Experts on the situation in the Kasai regions (A/HRC/38/31)",
+   "publisher": "UN Human Rights Council",
+   "date": "2018-06-25"
+  },
+  {
+   "id": "s2",
+   "url": "https://en.wikipedia.org/wiki/Kamwina_Nsapu_rebellion",
+   "title": "Kamwina Nsapu rebellion",
+   "publisher": "Wikipedia",
+   "date": null
+  },
+  {
+   "id": "s3",
+   "url": "https://en.wikipedia.org/wiki/Tshikapa",
+   "title": "Tshikapa",
+   "publisher": "Wikipedia",
+   "date": null
+  },
+  {
+   "id": "s4",
+   "url": "https://www.kivusecurity.org/",
+   "title": "Kivu Security Tracker (coverage limited to eastern DRC; no Kasai armed-group presence mapped)",
+   "publisher": "Congo Research Group / Human Rights Watch",
+   "date": null
+  }
+ ],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Tshikapa city neighbourhoods (health areas Katshongo, Kabuatu, Kibulungu, La Paix, Tshisele, Bel'Air, Tite, Bakuba, Tshitangu, Kasanji, Kizito, Kalupombi, Masangu, Kabikabi) – provincial capital of Kasaï",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    },
+    {
+     "entity_id": "cod-anr",
+     "role": "present"
+    }
+   ],
+   "evidence": "Tshikapa is the seat of Kasaï provincial institutions with a permanent PNC provincial commissariat, FARDC garrison and ANR. No armed group has held the city since the 2017 Kamuina Nsapu crisis (which hit Kamonia/Tshikapa outskirts but was suppressed in 2017-2018); insecurity is limited to urban banditry and occasional community tensions handled by police.",
+   "source_ids": [
+    "s1",
+    "s3"
+   ]
+  },
+  {
+   "zone_id": "z2",
+   "description": "Peri-urban and rural localities of Tshikapa health zone around the city (Kamikula/Ngombe, Muyeji, Kashimba, Matshibola, Kabudila, Kapakasa, Mbambi Kakondo, etc.)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    },
+    {
+     "entity_id": "customary",
+     "role": "present"
+    }
+   ],
+   "evidence": "Villages and diamond-digging settlements adjoining Tshikapa city along the Kasai/Tshikapa rivers; no reported armed-group activity in recent years. State security (PNC posts, FARDC nearby in Tshikapa) with customary chiefs handling local disputes.",
+   "source_ids": [
+    "s1",
+    "s3"
+   ]
+  },
+  {
+   "zone_id": "z3",
+   "description": "Mutena secteur / Mutena health zone (artisanal diamond fields east of Tshikapa: Mutena mission, Tshiabindu, Mutshima, Kamabanji, Lubanga, Tshisenge, etc.)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    },
+    {
+     "entity_id": "customary",
+     "role": "present"
+    }
+   ],
+   "evidence": "Large artisanal diamond-mining settlements with police (incl. mines police) posts and some FARDC presence at mining sites, where security forces are frequently reported to tax/extort diggers. The area was affected by Kamuina Nsapu violence in 2017 but no active armed-group control is known since 2018.",
+   "source_ids": [
+    "s1",
+    "s2"
+   ]
+  },
+  {
+   "zone_id": "z4",
+   "description": "Nyanga and Kitangwa secteurs / health zones (rural west and north-west of Tshikapa towards the Kwilu/Loange and the Angolan border: Mbangu, Mukundsu, Nyanga, Mundu, Kungu, Kabunda, etc.)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "customary",
+     "role": "present"
+    },
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Rural Pende/Tshokwe areas with no reported armed-group activity in recent years; state presence via PNC posts at secteur/groupement centres, FARDC/DGM along the Angolan border, and customary chiefs handling day-to-day disputes.",
+   "source_ids": [
+    "s1",
+    "s4"
+   ]
+  }
+ ],
+ "locations": {
+  "cod-34MDT6670_1": "z2",
+  "cod-34MDT6556_1": "z2",
+  "cod-34MDT5693_1": "z2",
+  "cod-34MDT4165_1": "z4",
+  "cod-34MDT6765_1": "z2",
+  "cod-34MDT4086_1": "z4",
+  "cod-34MDT5596_1": "z2",
+  "cod-34MDT6650_1": "z2",
+  "cod-34MDT7179_2": "z2",
+  "cod-34MDT4573_1": "z4",
+  "cod-34MDT6673_1": "z2",
+  "cod-34MDT6777_2": "z2",
+  "cod-34MDT6042_1": "z2",
+  "cod-34MDT6346_1": "z2",
+  "cod-34MDT3760_1": "z4",
+  "cod-34MDT6774_1": "z2",
+  "cod-34MDT6664_1": "z2",
+  "cod-34MDT7590_1-bMHrjsBRiCp": "z1",
+  "cod-34MDT7590_1-MqBp7kZYVKf": "z1",
+  "cod-34MDT7590_1-EJ7W7xmlyzO": "z1",
+  "cod-34MDT7590_1-oJwa2uBhAJt": "z1",
+  "cod-34MDT7590_1-Gpd7fK0JB0e": "z1",
+  "cod-34MDT7590_1-tW15oZEOeJl": "z1",
+  "cod-34MDT7590_1-I2OngB0CVrZ": "z1",
+  "cod-34MDT7590_1-TxgIecImmJ9": "z1",
+  "cod-34MDT7590_1-iLuzdhj7NEn": "z1",
+  "cod-34MDT7590_1-EyCoLyn4IMy": "z1",
+  "cod-34MDT7590_1-aaJ2XlJvH3V": "z1",
+  "cod-34MDT7590_1-rat8nJWjZN2": "z1",
+  "cod-34MDT7590_1-ZD1fXp31qqh": "z1",
+  "cod-34MDT7590_1-trIqrHXJ77U": "z1",
+  "cod-34MET2728_1": "z3",
+  "cod-34MET3338_1": "z3",
+  "cod-34MET3016_1": "z3",
+  "cod-34MET1752_1": "z3",
+  "cod-34MET5920_2": "z3",
+  "cod-34MET2846_1": "z3",
+  "cod-34MET3546_1": "z3",
+  "cod-34MET6702_1": "z3",
+  "cod-34MET1061_1": "z3",
+  "cod-34MET2455_1": "z3",
+  "cod-34MES3499_2": "z3",
+  "cod-34MET4031_1": "z3",
+  "cod-34MET6812_1": "z3",
+  "cod-34MET6616_1": "z3",
+  "cod-34MET1559_1": "z3",
+  "cod-34MET2343_1": "z3",
+  "cod-34MET2519_1": "z3",
+  "cod-34MET2832_1": "z3",
+  "cod-34MET3247_1": "z3",
+  "cod-34MET3532_1": "z3",
+  "cod-34MET7201_1": "z3",
+  "cod-34MET3134_1": "z3",
+  "cod-34MET6807_1": "z3",
+  "cod-34MES5699_1": "z3",
+  "cod-34MET6809_2": "z3",
+  "cod-34MET4721_1": "z3",
+  "cod-34MET3207_1": "z3",
+  "cod-34MET3342_1": "z3",
+  "cod-34MET6207_1": "z3",
+  "cod-34MET3418_1": "z3",
+  "cod-34MET5519_1": "z3",
+  "cod-34MDU5046_1": "z4",
+  "cod-34MDU3422_1": "z4",
+  "cod-34MDU0053_1": "z4",
+  "cod-34MDU3640_1": "z4",
+  "cod-34MDU0350_1": "z4",
+  "cod-34MDU4020_1": "z4",
+  "cod-34MDU5013_1": "z4",
+  "cod-34MDU5109_1": "z4",
+  "cod-34MDU5300_1": "z2",
+  "cod-34MDU4418_1": "z4",
+  "cod-34MDU6107_1": "z2",
+  "cod-34MDU1243_1": "z4",
+  "cod-34MDU4147_1": "z4",
+  "cod-34MDU5234_1": "z4",
+  "cod-34MDU1441_1": "z4",
+  "cod-34MDU0848_1": "z4",
+  "cod-34MDT7197_1": "z2",
+  "cod-34MDU3027_1": "z4",
+  "cod-34MDT6599_1": "z2",
+  "cod-34MDU5428_1": "z4",
+  "cod-34MDU5304_1": "z4",
+  "cod-34MDU5037_1": "z4",
+  "cod-34MDU5241_1": "z4",
+  "cod-34MDU2631_1": "z4",
+  "cod-34MDU4138_1": "z4",
+  "cod-34MDU3814_1": "z4",
+  "cod-34MDU5206_1": "z4",
+  "cod-34MDU2904_1": "z4",
+  "cod-34MDT3483_1": "z4",
+  "cod-34MDU3108_1": "z4",
+  "cod-34MCU7830_2": "z4",
+  "cod-34MCU8427_1": "z4",
+  "cod-34MCT7974_1": "z4",
+  "cod-34MCU6923_1": "z4",
+  "cod-34MDU4702_1": "z4",
+  "cod-34MDT3381_1": "z4",
+  "cod-34MDT1366_1": "z4",
+  "cod-34MCT8971_1": "z4"
+ }
+}

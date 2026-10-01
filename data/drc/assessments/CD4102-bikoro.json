@@ -1,0 +1,162 @@
+{
+ "unit_id": "CD4102-bikoro",
+ "as_of": "2026-10-01",
+ "summary": "Bikoro territory (Equateur), on Lake Tumba south of Mbandaka, has no reported armed-group presence as of late 2026. The state exercises control through the territorial administration and the Congolese National Police (PNC), with Bikoro town as the territorial seat. Historic violence consists of localised land and intercommunal disputes rather than organised armed groups. All locations in the Bikoro, Iboko and Ntondo secteurs are assessed as default PNC control, with lower confidence for remote Iboko and Ntondo.",
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://en.wikipedia.org/wiki/Bikoro_Territory",
+   "title": "Bikoro Territory",
+   "publisher": "Wikipedia",
+   "date": null
+  },
+  {
+   "id": "s2",
+   "url": "https://strauss.tacc.utexas.edu/ccaps/armedConflictLocation/show/5542741",
+   "title": "CCAPS armed conflict location record (Bikoro land clash, Jan 2012)",
+   "publisher": "Strauss Center CCAPS",
+   "date": null
+  },
+  {
+   "id": "s3",
+   "url": "https://www.rrssjrdc.org/wp-content/uploads/2026/04/Briefing-mensuel-du-RRSSJ-Janvier-2026.pdf",
+   "title": "Briefing mensuel du RRSSJ Janvier 2026",
+   "publisher": "RRSSJ",
+   "date": "2026-01"
+  }
+ ],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Bikoro town (territorial headquarters on Lake Tumba, incl. Cite A/B/C, Plateau, Bankome etc.)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Bikoro is the seat of the territorial administration with a PNC territorial commissariat; Searches (FR/EN, 2025-2026) found no reports of armed groups, militias or rebel activity in Bikoro town; the only conflict events on record for Bikoro are localised land/intercommunal clashes (e.g. Jan 2012) handled by state forces. Western Equateur lies far from eastern conflict zones and the Mobondo militia area (Kwamouth/Kwango/Kwilu); state authority via territorial administration and PNC is assumed.",
+   "source_ids": [
+    "s1",
+    "s2",
+    "s3"
+   ]
+  },
+  {
+   "zone_id": "z2",
+   "description": "Rural villages of Bikoro secteur / Bikoro health zone along Lake Tumba and the Bikoro-Mbandaka axis",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [],
+   "evidence": "Searches (FR/EN, 2025-2026) found no reports of armed groups, militias or rebel activity in Bikoro secteur; the only conflict events on record for Bikoro are localised land/intercommunal clashes (e.g. Jan 2012) handled by state forces. Western Equateur lies far from eastern conflict zones and the Mobondo militia area (Kwamouth/Kwango/Kwilu); state authority via territorial administration and PNC is assumed.",
+   "source_ids": [
+    "s1",
+    "s2"
+   ]
+  },
+  {
+   "zone_id": "z3",
+   "description": "Iboko secteur / Iboko health zone (Iboko Centre, Itipo, Bosolo, Bondongo, Wenga)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [],
+   "evidence": "Searches (FR/EN, 2025-2026) found no reports of armed groups, militias or rebel activity in Iboko secteur; the only conflict events on record for Bikoro are localised land/intercommunal clashes (e.g. Jan 2012) handled by state forces. Western Equateur lies far from eastern conflict zones and the Mobondo militia area (Kwamouth/Kwango/Kwilu); state authority via territorial administration and PNC is assumed. Remote forest area with thin police presence; local chiefs handle most disputes under state authority.",
+   "source_ids": [
+    "s1"
+   ]
+  },
+  {
+   "zone_id": "z4",
+   "description": "Ntondo secteur / Ntondo health zone south of Lake Tumba toward Mai-Ndombe border (Beteleme, Mpaha, Botwali, Itota)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [],
+   "evidence": "Searches (FR/EN, 2025-2026) found no reports of armed groups, militias or rebel activity in Ntondo secteur; the only conflict events on record for Bikoro are localised land/intercommunal clashes (e.g. Jan 2012) handled by state forces. Western Equateur lies far from eastern conflict zones and the Mobondo militia area (Kwamouth/Kwango/Kwilu); state authority via territorial administration and PNC is assumed. No Mobondo or other militia spillover from Mai-Ndombe reported this far north.",
+   "source_ids": [
+    "s1"
+   ]
+  }
+ ],
+ "locations": {
+  "cod-34MAE8018_1": "z1",
+  "cod-34MAE9552_1": "z2",
+  "cod-34MAE9515_1": "z2",
+  "cod-34MAE8822_1": "z2",
+  "cod-33MZV1820_1": "z2",
+  "cod-34MBE1317_1": "z2",
+  "cod-34MAE7530_1": "z2",
+  "cod-34MAE9030_1": "z2",
+  "cod-34MAE9534_2": "z2",
+  "cod-34MAE8138_1": "z2",
+  "cod-34MBE0032_1": "z2",
+  "cod-34MAE9168_1": "z2",
+  "cod-34MAE9548_1": "z2",
+  "cod-34MAE9116_1": "z2",
+  "cod-34MBE0138_1": "z2",
+  "cod-34MBE1330_1": "z2",
+  "cod-33MZV2328_1": "z2",
+  "cod-34MAE9675_2": "z2",
+  "cod-34MAE9622_1": "z2",
+  "cod-33MZV1933_1": "z2",
+  "cod-34MAE9423_1": "z2",
+  "cod-34MAE9175_1": "z2",
+  "cod-33MZV1733_2": "z2",
+  "cod-34MAE9278_1": "z2",
+  "cod-34MAE9362_1": "z2",
+  "cod-34MAE9639_1": "z2",
+  "cod-34MBE1119_1": "z2",
+  "cod-34MAE8440_1": "z2",
+  "cod-34MAE9461_1": "z2",
+  "cod-34MAE9550_1": "z2",
+  "cod-34MBE1594_1": "z2",
+  "cod-34MAE8530_1": "z2",
+  "cod-34MBD3787_1": "z3",
+  "cod-34MBD2388_1": "z3",
+  "cod-34MBE3610_1": "z3",
+  "cod-34MBD2576_1": "z3",
+  "cod-34MBE2811_1": "z3",
+  "cod-34MBD3481_1": "z3",
+  "cod-34MBD4077_1": "z3",
+  "cod-34MBE3212_1": "z3",
+  "cod-34MBE4611_1": "z3",
+  "cod-34MBD0894_2": "z3",
+  "cod-34MBD3777_1": "z3",
+  "cod-34MBD2771_1": "z3",
+  "cod-34MBD2969_1": "z3",
+  "cod-34MBD1690_1": "z3",
+  "cod-34MBD4476_1": "z3",
+  "cod-34MBE3902_1": "z3",
+  "cod-34MBD4675_1": "z3",
+  "cod-34MBD3086_1": "z3",
+  "cod-34MBD4592_1": "z3",
+  "cod-34MBD2695_1": "z3",
+  "cod-34MBE3311_1": "z3",
+  "cod-34MAE8008_2": "z4",
+  "cod-33MZU2679_1": "z4",
+  "cod-34MAE8608_1": "z4",
+  "cod-34MAE8706_2": "z4",
+  "cod-34MAE6703_1": "z4",
+  "cod-33MYU9254_1": "z4",
+  "cod-33MZU2259_1": "z4",
+  "cod-34MAD8490_1": "z4",
+  "cod-33MZV2112_1": "z4",
+  "cod-33MZU2161_1": "z4",
+  "cod-34MAE6902_1": "z4",
+  "cod-33MZU1864_1": "z4"
+ }
+}

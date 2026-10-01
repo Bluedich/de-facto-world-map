@@ -1,0 +1,256 @@
+{
+ "unit_id": "CD5309-watsa",
+ "as_of": "2026-10-01",
+ "summary": "Watsa territory (Haut-Uele) is mostly state-held: Watsa-Durba, the Kibali gold mine area, Gombari, Giro and Moku are run by police and administration with FARDC present, and northern/central areas see only banditry on mining sites. Since early 2026 the ADF/ISCAP has expanded north from Mambasa into the forests of the south, setting up a stronghold at Suka na Mboka in Kebo chefferie; FARDC clashed with them in April 2026 and run sweep operations. More than 10,000 people fled the Kebo-Apodo, Andobi and Mahaa chefferies toward Mungbere, Gombari, Watsa and Moku. The southern Apodo/Nepoko fringe is assessed as contested between FARDC and ADF; Mungbere is an FARDC operations hub.",
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.radiookapi.net/2026/07/14/actualite/securite/haut-uele-la-progression-des-adf-provoque-le-deplacement-de-plus-de-10",
+   "title": "Haut-Uele : la progression des ADF provoque le déplacement de plus de 10 000 civils vers Watsa et Wamba",
+   "publisher": "Radio Okapi",
+   "date": "2026-07-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.congoquotidien.com/2026/06/06/fardc-operations-adf-haut-uele/",
+   "title": "Haut-Uele : les FARDC ratissent Watsa contre les ADF et restreignent la circulation",
+   "publisher": "Congo Quotidien",
+   "date": "2026-06-06"
+  },
+  {
+   "id": "s3",
+   "url": "https://actu7.cd/2026/05/01/haut-uele-des-affrontements-entre-fardc-et-adf-signales-a-watsa/",
+   "title": "Haut-Uele : des affrontements entre FARDC et ADF signalés à Watsa",
+   "publisher": "Actu7.cd",
+   "date": "2026-05-01"
+  },
+  {
+   "id": "s4",
+   "url": "https://www.mediacongo.net/publireportage-reportage-161998_haut_uele_calme_precaire_a_mungbere_apres_une_fausse_alerte_d_incursion_des_adf_a_apodo.html",
+   "title": "Haut-Uele : calme précaire à Mungbere après une fausse alerte d'incursion des ADF à Apodo",
+   "publisher": "Mediacongo",
+   "date": "2026-03"
+  },
+  {
+   "id": "s5",
+   "url": "https://congorassure.com/securite/2026/03/31/haut-uele-pris-en-otages-par-les-adf-plus-de-100-civils-sauves-par-les-fardc",
+   "title": "Haut-Uélé : pris en otages par les ADF, plus de 100 civils sauvés par les FARDC",
+   "publisher": "Congo Rassure",
+   "date": "2026-03-31"
+  },
+  {
+   "id": "s6",
+   "url": "https://fr.allafrica.com/stories/202601160624.html",
+   "title": "La société civile fustige l'inertie des autorités face à la montée de l'insécurité à Watsa",
+   "publisher": "allAfrica / Radio Okapi",
+   "date": "2026-01-16"
+  },
+  {
+   "id": "s7",
+   "url": "https://www.radiookapi.net/2026/08/31/actualite/securite/environ-10-000-deplaces-en-detresse-watsa-et-wamba",
+   "title": "Environ 10 000 déplacés en détresse à Watsa et Wamba",
+   "publisher": "Radio Okapi",
+   "date": "2026-08-31"
+  },
+  {
+   "id": "s8",
+   "url": "https://www.radiookapi.net/2026/09/28/actualite/societe/kibali-gold-distribue-62-000-plantules-de-cafeier-pour-relancer",
+   "title": "Kibali Gold distribue 62 000 plantules de caféier pour relancer l'agriculture à Faradje et Watsa (Haut-Uele)",
+   "publisher": "Radio Okapi",
+   "date": "2026-09-28"
+  },
+  {
+   "id": "s9",
+   "url": "https://www.congo-press.com/provinces/haut-uele-eve-bazaiba-promet-un-retour-dans-la-dignite-aux-deplaces-de-suka-na-mboka/",
+   "title": "Haut-Uele : Eve Bazaiba promet un retour « dans la dignité » aux déplacés de Suka na Mboka",
+   "publisher": "MediaCongo Press",
+   "date": "2026-06-15"
+  }
+ ],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Watsa-Durba urban area (Watsa centre, Durba/Kibali mine town and neighbourhoods Toyota, Bethanie, Doko, Durba, Gatanga)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "area_report",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Territorial seat and Kibali gold mine hub, functioning normally (Kibali community programmes Sept 2026) and receiving people displaced by the ADF in mid-2026, i.e. state-held. Civil society complained in Jan 2026 of armed bandit attacks on nearby mining sites, which are criminal raids rather than territorial control.",
+   "source_ids": [
+    "s8",
+    "s1",
+    "s6"
+   ]
+  },
+  {
+   "zone_id": "z2",
+   "description": "Rural Watsa health zone (Kokoro, Dubele, Ngangazo, Monya, Gatanga, Moku, Maitulu, Arumbi, Dilolo etc.) and Akua/Nzopi villages",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [],
+   "evidence": "No armed-group territorial control reported in northern and central Watsa; insecurity consists of armed robberies on artisanal mining sites. Moku received ADF displaced in 2026. Assigned to state police by default.",
+   "source_ids": [
+    "s6",
+    "s1"
+   ]
+  },
+  {
+   "zone_id": "z3",
+   "description": "Gombari secteur north and centre (Gombari, Wanga, Goria/Giro, Tora, Madja, Ngazizi, Tibodri, Toli)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Gombari and Giro are cited as 'more secure agglomerations' receiving displaced from the ADF-affected south in 2026; no armed-group control reported. FARDC reinforcements transit on the RN26.",
+   "source_ids": [
+    "s1",
+    "s7"
+   ]
+  },
+  {
+   "zone_id": "z4",
+   "description": "Andobi chefferie: Mungbere (GRID3 'Salongo', Tangi) and Bakiri/Baitebi area",
+   "controller_id": "cod-fardc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "area_report",
+   "since": "2026-04",
+   "presence": [
+    {
+     "entity_id": "cod-pnc",
+     "role": "present"
+    },
+    {
+     "entity_id": "adf",
+     "role": "raiding"
+    }
+   ],
+   "evidence": "Mungbere, capital of Andobi chefferie, is a reception point for displaced and the base for FARDC sweep operations against the ADF launched in 2026 with movement restrictions; ADF alerts and raids nearby (Apodo, March 2026) but the town remains government-held.",
+   "source_ids": [
+    "s4",
+    "s2",
+    "s1"
+   ]
+  },
+  {
+   "zone_id": "z5",
+   "description": "Southern forest fringe: Apodo, Nepoko and Abakudu health areas (Kebo-Apodo chefferie, toward Suka na Mboka) and Kaungato (Nduye side)",
+   "controller_id": "cod-fardc",
+   "status": "contested",
+   "confidence": "low",
+   "basis": "area_report",
+   "since": "2026-04",
+   "presence": [
+    {
+     "entity_id": "adf",
+     "role": "contesting"
+    }
+   ],
+   "evidence": "The ADF established a stronghold at Suka na Mboka in Kebo chefferie (forest between Mambasa, Wamba and Watsa); FARDC clashed with them there on 30 April 2026 and conduct sweep operations. Over 10,000 people fled Kebo-Apodo, Andobi and Mahaa; villages are largely emptied and army-held positions face ADF incursions.",
+   "source_ids": [
+    "s3",
+    "s1",
+    "s2",
+    "s9",
+    "s5",
+    "s7"
+   ]
+  }
+ ],
+ "locations": {
+  "cod-35NQD8346_1": "z1",
+  "cod-35NQD8236_1": "z1",
+  "cod-35NQD6225_1": "z2",
+  "cod-35NQD8221_1": "z2",
+  "cod-35NQD8019_2": "z2",
+  "cod-35NQD6821_2": "z2",
+  "cod-35NQD8627_2": "z2",
+  "cod-35NQD8850_5": "z2",
+  "cod-35NQD8759_2": "z2",
+  "cod-35NQD8523_1": "z2",
+  "cod-35NQD8632_1": "z2",
+  "cod-35NQD9245_1": "z2",
+  "cod-35NRC2198_1": "z2",
+  "cod-35NQD8363_2": "z2",
+  "cod-35NQD8926_1": "z2",
+  "cod-35NQD5371_1": "z2",
+  "cod-35NQD9349_2": "z2",
+  "cod-35NQD5872_2": "z2",
+  "cod-35NQD8844_2": "z2",
+  "cod-35NRC3381_2": "z2",
+  "cod-35NQD8358_3": "z2",
+  "cod-35NQD8232_1": "z2",
+  "cod-35NQD7939_4": "z2",
+  "cod-35NQD9143_1": "z2",
+  "cod-35NQD6030_1": "z2",
+  "cod-35NQD9745_2": "z2",
+  "cod-35NQD6032_1": "z2",
+  "cod-35NQD8460_2": "z2",
+  "cod-36NSH7273_1": "z2",
+  "cod-35NQD5937_2": "z2",
+  "cod-35NQD7620_4": "z2",
+  "cod-35NQD6815_1": "z2",
+  "cod-35NRC3087_2": "z2",
+  "cod-35NRC2892_2": "z2",
+  "cod-35NQD8354_1": "z2",
+  "cod-35NQD8761_3": "z2",
+  "cod-35NQD6913_2": "z2",
+  "cod-35NRC2693_2": "z2",
+  "cod-35NQD5570_4": "z2",
+  "cod-35NQD8346_1-ErxzeTQch4p": "z1",
+  "cod-35NQD8346_1-QS1VgIq2Ttq": "z1",
+  "cod-35NQD8346_1-DLb7shqewwR": "z1",
+  "cod-35NQD8346_1-XUd4spW9TXy": "z1",
+  "cod-35NQD8346_1-eBYHwKVBHA1": "z1",
+  "cod-35NQD4626_1": "z3",
+  "cod-35NPC6790_1": "z4",
+  "cod-35NQD4169_3": "z3",
+  "cod-35NQD4944_1": "z3",
+  "cod-35NQD5128_3": "z3",
+  "cod-35NPC8387_1": "z5",
+  "cod-35NPC5992_1": "z4",
+  "cod-35NQD4327_1": "z3",
+  "cod-35NQD2801_1": "z3",
+  "cod-35NQD5727_2": "z3",
+  "cod-35NQD5065_3": "z3",
+  "cod-35NQD0725_1": "z3",
+  "cod-35NQD4164_1": "z3",
+  "cod-35NQD4837_1": "z3",
+  "cod-35NQC0289_1": "z4",
+  "cod-35NQD5645_1": "z3",
+  "cod-35NPC8683_1": "z5",
+  "cod-35NQD4542_1": "z3",
+  "cod-35NPC8874_1": "z5",
+  "cod-35NPC7690_1": "z5",
+  "cod-35NQD6661_3": "z3",
+  "cod-35NQD3014_1": "z3",
+  "cod-35NPC6099_1": "z4",
+  "cod-35NQD5327_1": "z3",
+  "cod-35NPC8979_2": "z5",
+  "cod-35NQD4016_2": "z3",
+  "cod-35NQD7641_3": "z2",
+  "cod-35NQD4060_1": "z3",
+  "cod-35NPC6065_1": "z5",
+  "cod-35NQD5962_2": "z3",
+  "cod-35NQC4488_1": "z5",
+  "cod-35NQD4748_1": "z3"
+ }
+}

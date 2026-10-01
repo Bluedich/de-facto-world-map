@@ -1,0 +1,426 @@
+{
+ "unit_id": "CD5405-djugu-2",
+ "as_of": "2026-10-01",
+ "summary": "Eastern/northern Djugu (Walendu Pitsi/Jiba, Walendu Tatsi/Lita, Walendu Djatsi/Mangala, Damas, Banyali-Kilo, Bahema-Nord and the Tchomia lakeshore) remains the core of the Ituri Hema–Lendu conflict. CODECO factions dominate the Lendu-majority rural hills, especially Walendu Pitsi (Jiba/Linga), and contest Lita, Mangala and Damas, while FARDC (with MONUSCO around IDP sites) hold the main centres such as Katoto, Mabanga, Kpandroma, Blukwa and Kilo. CRP/Zaïre Hema militia is active in Bahema areas and mining zones. The Tchomia lakeshore and the Bunia-edge Ezekere neighbourhood are state-held. NOTE: no web research could be done for this unit (search budget exhausted, news sites blocked); all zones are low/medium-confidence inferences and should be re-checked.",
+ "sources": [],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Ezekere neighbourhood (northern Bunia city edge, Bunia health zone)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    },
+    {
+     "entity_id": "un-monusco",
+     "role": "present"
+    }
+   ],
+   "evidence": "Part of the Bunia urban area, the state-held provincial capital with permanent PNC, FARDC and MONUSCO presence. Web research was not possible for this unit (search budget exhausted, news sites blocked); assessment is inference from background knowledge to mid-2026.",
+   "source_ids": []
+  },
+  {
+   "zone_id": "z2",
+   "description": "Tchomia lakeshore town (Tchusa/Tchomia) and Bahema-Sud lakeshore villages (Nyamamba, Kakwa health areas)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "inference",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    },
+    {
+     "entity_id": "zaire",
+     "role": "present"
+    },
+    {
+     "entity_id": "codeco",
+     "role": "raiding"
+    }
+   ],
+   "evidence": "Tchomia port town and Hema-majority lakeshore villages are state-administered with police and FARDC posts; CODECO raids have occurred in the hinterland and Hema self-defence (Zaïre/CRP) elements are present. Web research was not possible for this unit (search budget exhausted, news sites blocked); assessment is inference from background knowledge to mid-2026.",
+   "source_ids": []
+  },
+  {
+   "zone_id": "z3",
+   "description": "Bahema-Nord / Tchomia hills between Joo and Rhoo (Joo, Torges, Gbii, Nyaudii, Retso health areas), incl. Rhoo displacement area",
+   "controller_id": "cod-fardc",
+   "status": "contested",
+   "confidence": "low",
+   "basis": "inference",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "un-monusco",
+     "role": "present"
+    },
+    {
+     "entity_id": "zaire",
+     "role": "contesting"
+    },
+    {
+     "entity_id": "codeco",
+     "role": "raiding"
+    }
+   ],
+   "evidence": "Hema/Lendu contact zone around Rhoo IDP site and Joo hosting FARDC and MONUSCO positions; CODECO repeatedly attacked IDP sites and villages here while CRP/Zaïre militia operates among Hema communities. Web research was not possible for this unit (search budget exhausted, news sites blocked); assessment is inference from background knowledge to mid-2026.",
+   "source_ids": []
+  },
+  {
+   "zone_id": "z4",
+   "description": "Walendu Pitsi / Jiba health zone and Linga health zone villages (Jiba, Bbu, Laudjo, Petro, Krido, Djokaba, Ngadjoka, Dhendo, Okareba, Dadaru, Malo, Bassani, Ladyi, Gobunji, Gokpa 2, Ndalo, Keli, Dissa) and the Laudjo villages of Drodro adm3",
+   "controller_id": "codeco",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "area_report",
+   "since": "2018",
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "contesting"
+    }
+   ],
+   "evidence": "Walendu Pitsi (Jiba/Linga) is the historic heartland of CODECO factions (URDPC/CODECO), which maintain bases, roadblocks and parallel authority; FARDC hold a few positions and conduct periodic operations without durable control. Web research was not possible for this unit (search budget exhausted, news sites blocked); assessment is inference from background knowledge to mid-2026.",
+   "source_ids": []
+  },
+  {
+   "zone_id": "z5",
+   "description": "Lendu villages of Drodro health zone west and north of Drodro (Jissa, Maze, Gokpa, Saliboko, Kpalo, Masumbuko, Logotakpa, Mulinga health areas)",
+   "controller_id": "codeco",
+   "status": "contested",
+   "confidence": "low",
+   "basis": "inference",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "contesting"
+    },
+    {
+     "entity_id": "zaire",
+     "role": "raiding"
+    }
+   ],
+   "evidence": "Lendu-majority hills between Lita, Jiba and Drodro are CODECO operating areas, with FARDC operations from Drodro/Largu; Hema militia reprisals also reported in the zone. Web research was not possible for this unit (search budget exhausted, news sites blocked); assessment is inference from background knowledge to mid-2026.",
+   "source_ids": []
+  },
+  {
+   "zone_id": "z6",
+   "description": "Blukwa (Blukwa Etat, Blukwa Mbi health areas)",
+   "controller_id": "cod-fardc",
+   "status": "contested",
+   "confidence": "low",
+   "basis": "inference",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "codeco",
+     "role": "contesting"
+    },
+    {
+     "entity_id": "zaire",
+     "role": "present"
+    },
+    {
+     "entity_id": "un-monusco",
+     "role": "present"
+    }
+   ],
+   "evidence": "Blukwa is a mixed Hema/Lendu centre on the Bunia–Fataki axis with army positions; CODECO attacks and Zaïre activity keep it contested. Web research was not possible for this unit (search budget exhausted, news sites blocked); assessment is inference from background knowledge to mid-2026.",
+   "source_ids": []
+  },
+  {
+   "zone_id": "z7",
+   "description": "Walendu Tatsi / Lita health zone villages (Katoto, Mutumbi, Loga, Penyi, Kparnganza, D'idjo, Lita, Ndungbe, Zumbe, Ezekere, Vilo health areas)",
+   "controller_id": "codeco",
+   "status": "contested",
+   "confidence": "low",
+   "basis": "inference",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "contesting"
+    },
+    {
+     "entity_id": "cod-pnc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Lendu-majority Walendu Tatsi north of Bunia has had CODECO presence and repeated clashes with FARDC around Katoto, Lopa and Loga; the larger centres closer to Bunia host state posts. Web research was not possible for this unit (search budget exhausted, news sites blocked); assessment is inference from background knowledge to mid-2026.",
+   "source_ids": []
+  },
+  {
+   "zone_id": "z8",
+   "description": "Katoto centre and Kagba (large settlements of Lita HZ near the Bunia–Katoto road)",
+   "controller_id": "cod-fardc",
+   "status": "contested",
+   "confidence": "low",
+   "basis": "inference",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "codeco",
+     "role": "contesting"
+    },
+    {
+     "entity_id": "cod-pnc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Katoto is a trading centre with FARDC and police posts, but CODECO elements operate in surrounding villages and clashes with the army have been recurrent. Web research was not possible for this unit (search budget exhausted, news sites blocked); assessment is inference from background knowledge to mid-2026.",
+   "source_ids": []
+  },
+  {
+   "zone_id": "z9",
+   "description": "Mabanga (Bunia–Mongbwalu–Kilo road centre)",
+   "controller_id": "cod-fardc",
+   "status": "contested",
+   "confidence": "low",
+   "basis": "inference",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "codeco",
+     "role": "contesting"
+    },
+    {
+     "entity_id": "cod-pnc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Mabanga is a large roadside centre with FARDC positions on the Bunia–Mongbwalu axis; CODECO attacks along the axis keep it contested. Web research was not possible for this unit (search budget exhausted, news sites blocked); assessment is inference from background knowledge to mid-2026.",
+   "source_ids": []
+  },
+  {
+   "zone_id": "z10",
+   "description": "Mangala health zone rural villages (Walendu Djatsi: Mangala, Budhu, Kpau, Likopi, Masikini, Paty, Tchele, Bbaya, DzNa health areas)",
+   "controller_id": "codeco",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "inference",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "raiding"
+    }
+   ],
+   "evidence": "Lendu-majority Walendu Djatsi hills are a CODECO operating area (incl. factions near the Wago forest), with FARDC presence limited to centres and operations. Web research was not possible for this unit (search budget exhausted, news sites blocked); assessment is inference from background knowledge to mid-2026.",
+   "source_ids": []
+  },
+  {
+   "zone_id": "z11",
+   "description": "Kpandroma centre (Damas health zone)",
+   "controller_id": "cod-fardc",
+   "status": "contested",
+   "confidence": "low",
+   "basis": "inference",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "codeco",
+     "role": "contesting"
+    },
+    {
+     "entity_id": "cod-pnc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Kpandroma is a commercial centre with army and police posts, repeatedly attacked by CODECO. Web research was not possible for this unit (search budget exhausted, news sites blocked); assessment is inference from background knowledge to mid-2026.",
+   "source_ids": []
+  },
+  {
+   "zone_id": "z12",
+   "description": "Damas health zone rural villages and mining areas (Dhego, Akwe, Masikini, Drugesi, Damas, Okere, Berunda health areas)",
+   "controller_id": "codeco",
+   "status": "contested",
+   "confidence": "low",
+   "basis": "inference",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "contesting"
+    },
+    {
+     "entity_id": "zaire",
+     "role": "raiding"
+    }
+   ],
+   "evidence": "Gold-mining hinterland of north-west Djugu where CODECO factions tax mining sites and roads; FARDC presence is intermittent and Zaïre/CRP elements are active nearby. Web research was not possible for this unit (search budget exhausted, news sites blocked); assessment is inference from background knowledge to mid-2026.",
+   "source_ids": []
+  },
+  {
+   "zone_id": "z13",
+   "description": "Banyali-Kilo: Kilo Etat, Kilo Mission and surrounding villages (Lisey, Itendey, Bunzenzele, Amema, Buengwe, Kabakaba health areas)",
+   "controller_id": "cod-fardc",
+   "status": "contested",
+   "confidence": "low",
+   "basis": "inference",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "codeco",
+     "role": "contesting"
+    },
+    {
+     "entity_id": "zaire",
+     "role": "contesting"
+    },
+    {
+     "entity_id": "cod-pnc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Kilo mining area near Mongbwalu has FARDC/police presence at the centres; both CODECO and CRP/Zaïre militias have fought over and taxed mining sites in Banyali-Kilo. Web research was not possible for this unit (search budget exhausted, news sites blocked); assessment is inference from background knowledge to mid-2026.",
+   "source_ids": []
+  }
+ ],
+ "locations": {
+  "cod-36NTG0278_1": "z8",
+  "cod-36NTG0482_1": "z8",
+  "cod-36NSG9959_1": "z7",
+  "cod-36NTG1289_1": "z7",
+  "cod-36NTG1185_1": "z7",
+  "cod-36NTG1484_1": "z7",
+  "cod-36NTG1083_1": "z7",
+  "cod-36NTG1076_1": "z7",
+  "cod-36NTG0162_1": "z7",
+  "cod-36NTG0377_1": "z7",
+  "cod-36NTG0176_1": "z7",
+  "cod-36NTG1188_1": "z7",
+  "cod-36NTG0683_1": "z7",
+  "cod-36NTG0268_1": "z7",
+  "cod-36NTG0276_1": "z7",
+  "cod-36NTG1579_2": "z7",
+  "cod-36NSG9372_1-v5jYvhvv1Kz": "z1",
+  "cod-36NTG2791_2": "z5",
+  "cod-36NTH2901_1": "z5",
+  "cod-36NTG3193_2": "z6",
+  "cod-36NTG1987_1": "z5",
+  "cod-36NTH2504_1": "z5",
+  "cod-36NTG2384_2": "z5",
+  "cod-36NTG3299_3": "z6",
+  "cod-36NTG2492_1": "z5",
+  "cod-36NTG3598_2": "z6",
+  "cod-36NTG3298_3": "z6",
+  "cod-36NTG2988_1": "z5",
+  "cod-36NTH2408_1": "z5",
+  "cod-36NTH3500_1": "z4",
+  "cod-36NTG2784_1": "z5",
+  "cod-36NTG2082_2": "z5",
+  "cod-36NTH3403_2": "z4",
+  "cod-36NTG4097_2": "z4",
+  "cod-36NTG3898_1": "z4",
+  "cod-36NTG2285_2": "z5",
+  "cod-36NTH2706_1": "z5",
+  "cod-36NTG1395_1": "z5",
+  "cod-36NTH2906_1": "z5",
+  "cod-36NTG3296_2": "z6",
+  "cod-36NTG1789_1": "z5",
+  "cod-36NTG2390_2": "z5",
+  "cod-36NSH9908_1": "z9",
+  "cod-36NTH0406_1": "z10",
+  "cod-36NTH0413_1": "z10",
+  "cod-36NSH9605_1": "z10",
+  "cod-36NTH1318_2": "z10",
+  "cod-36NTH0109_1": "z10",
+  "cod-36NTH0905_1": "z10",
+  "cod-36NTH1413_1": "z10",
+  "cod-36NSH9708_1": "z10",
+  "cod-36NTH1511_1": "z10",
+  "cod-36NTH0701_1": "z10",
+  "cod-36NSH9803_2": "z10",
+  "cod-36NTH0705_2": "z10",
+  "cod-36NTH2023_1": "z10",
+  "cod-36NTH1717_1": "z10",
+  "cod-36NTH1007_2": "z10",
+  "cod-36NTH1520_1": "z10",
+  "cod-36NTH2323_1": "z10",
+  "cod-36NTH0305_1": "z10",
+  "cod-36NTH1917_1": "z10",
+  "cod-36NTH4710_1": "z4",
+  "cod-36NTG4894_1": "z4",
+  "cod-36NTH4304_1": "z4",
+  "cod-36NTH4806_1": "z4",
+  "cod-36NTH4407_1": "z4",
+  "cod-36NTH4405_1": "z4",
+  "cod-36NTH4006_1": "z4",
+  "cod-36NTH3506_1": "z4",
+  "cod-36NTG5598_2": "z4",
+  "cod-36NTH3702_1": "z4",
+  "cod-36NTH4300_2": "z4",
+  "cod-36NTH5701_2": "z4",
+  "cod-36NTH3700_2": "z4",
+  "cod-36NTH4103_3": "z4",
+  "cod-36NTH3901_1": "z4",
+  "cod-36NTH4606_1": "z4",
+  "cod-36NTG4692_1": "z4",
+  "cod-36NTH4600_1": "z4",
+  "cod-36NTH3707_2": "z4",
+  "cod-36NTH4503_1": "z4",
+  "cod-36NTG5198_1": "z4",
+  "cod-36NTH4102_1": "z4",
+  "cod-36NTH6002_1": "z4",
+  "cod-36NTG4199_1": "z4",
+  "cod-36NTH3904_1": "z4",
+  "cod-36NTG5098_1": "z4",
+  "cod-36NTH3804_1": "z4",
+  "cod-36NTH4306_1": "z4",
+  "cod-36NTG4897_1": "z4",
+  "cod-36NTH5101_2": "z4",
+  "cod-36NTG4590_5": "z4",
+  "cod-36NTH4105_2": "z4",
+  "cod-36NTH3601_1": "z4",
+  "cod-36NTG5296_3": "z4",
+  "cod-36NTH4107_1": "z4",
+  "cod-36NTG1959_1": "z2",
+  "cod-36NTG2469_1": "z2",
+  "cod-36NTG3377_2": "z3",
+  "cod-36NTG4188_1": "z4",
+  "cod-36NTG3378_2": "z3",
+  "cod-36NTG2672_1": "z2",
+  "cod-36NTG2570_2": "z2",
+  "cod-36NTG4387_2": "z4",
+  "cod-36NTG3882_1": "z3",
+  "cod-36NTG3885_1": "z3",
+  "cod-36NTG3781_1": "z3",
+  "cod-36NTG2166_2": "z2",
+  "cod-36NTG3578_1": "z3",
+  "cod-36NSH9227_1": "z12",
+  "cod-36NSH7829_2": "z11",
+  "cod-36NSH7855_2": "z12",
+  "cod-36NSH8624_2": "z12",
+  "cod-36NSH8132_2": "z12",
+  "cod-36NSH8827_1": "z12",
+  "cod-36NSH8429_2": "z12",
+  "cod-36NSH9330_1": "z12",
+  "cod-36NSH9432_1": "z12",
+  "cod-36NSH9130_2": "z12",
+  "cod-36NSH6730_2": "z12",
+  "cod-36NSH9553_3": "z12",
+  "cod-36NSH7735_2": "z12",
+  "cod-36NSH8931_2": "z12",
+  "cod-36NSH7833_1": "z12",
+  "cod-36NSH8001_1": "z13",
+  "cod-36NSG7593_3": "z13",
+  "cod-36NSG7685_1": "z13",
+  "cod-36NSG7598_1": "z13",
+  "cod-36NSG7482_1": "z13",
+  "cod-36NSG7393_1": "z13",
+  "cod-36NSG7888_2": "z13",
+  "cod-36NSG8096_1": "z13",
+  "cod-36NSH8302_1": "z13"
+ }
+}

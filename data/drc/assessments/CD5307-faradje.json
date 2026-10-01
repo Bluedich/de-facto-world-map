@@ -1,0 +1,212 @@
+{
+ "unit_id": "CD5307-faradje",
+ "as_of": "2026-10-01",
+ "summary": "Faradje territory (Haut-Uele), bordering South Sudan and Uganda and home to part of Garamba park, has no reported armed-group territorial control as of October 2026. Faradje town and the border town of Aba are held by state police with FARDC (Uele operational sector) garrisons; LRA raids ended a decade ago and 2026 news from the territory concerns reintegration and development. Security concerns are armed Mbororo herders, poachers and occasional spillover of South Sudanese rebels (NASFA in 2024 at Waliwa), handled by FARDC on the border. Rural areas are assigned to the PNC by default presence, with the eastern border strip to FARDC with low confidence. The 2026 ADF advance in Haut-Uele affects Watsa and Wamba territories to the south, not Faradje.",
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://actualite.cd/2024/08/14/haut-uele-les-rebelles-sud-soudanais-de-la-nasfa-infiltrent-la-population-de-faradje",
+   "title": "Haut-Uele : les rebelles sud-soudanais de la NASFA infiltrent la population de Faradje",
+   "publisher": "Actualite.cd",
+   "date": "2024-08-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://actualite.cd/2025/05/12/haut-uele-larmee-veut-cantonner-les-eleveurs-mbororo",
+   "title": "Haut-Uele : l'armée veut cantonner les éleveurs Mbororo",
+   "publisher": "Actualite.cd",
+   "date": "2025-05-12"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.radiookapi.net/2026/09/18/actualite/societe/des-survivants-de-la-lra-formes-aux-metiers-pour-favoriser-leur",
+   "title": "Des survivants de la LRA formés aux métiers pour favoriser leur réinsertion à Faradje",
+   "publisher": "Radio Okapi",
+   "date": "2026-09-18"
+  },
+  {
+   "id": "s4",
+   "url": "https://www.radiookapi.net/2026/09/28/actualite/societe/kibali-gold-distribue-62-000-plantules-de-cafeier-pour-relancer",
+   "title": "Kibali Gold distribue 62 000 plantules de caféier pour relancer l'agriculture à Faradje et Watsa (Haut-Uele)",
+   "publisher": "Radio Okapi",
+   "date": "2026-09-28"
+  },
+  {
+   "id": "s5",
+   "url": "https://www.radiookapi.net/2026/03/05/actualite/securite/affaire-mbororo-guy-kabombo-instruit-un-redeploiement-militaire-au",
+   "title": "Affaire Mbororo : Guy Kabombo instruit un redéploiement militaire au Nord-Ubangi",
+   "publisher": "Radio Okapi",
+   "date": "2026-03-05"
+  },
+  {
+   "id": "s6",
+   "url": "https://fr.allafrica.com/stories/202607140342.html",
+   "title": "Haut-Uele - La progression des ADF provoque le déplacement de plus de 10 000 civils vers Watsa et Wamba",
+   "publisher": "Radio Okapi / AllAfrica",
+   "date": "2026-07-14"
+  }
+ ],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Faradje town (territorial seat; GRID3 'Faranga') and adjoining Kpodo",
+   "controller_id": "cod-pnc",
+   "status": "exclusive",
+   "confidence": "medium",
+   "basis": "area_report",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Territorial seat with state administration and police; 2026 reporting from Faradje concerns development and reintegration of LRA survivors, with no armed-group presence. FARDC Uele operational sector units are stationed in the territory.",
+   "source_ids": [
+    "s3",
+    "s4",
+    "s1"
+   ]
+  },
+  {
+   "zone_id": "z2",
+   "description": "Aba town (GRID3 'Mission Watsa', Aba health area) and nearby Mola",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "area_report",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Aba is a border trading town near South Sudan with PNC, customs/DGM and an FARDC garrison; no armed-group control reported. Historic LRA raids (2009-2011) have ceased.",
+   "source_ids": [
+    "s1",
+    "s3"
+   ]
+  },
+  {
+   "zone_id": "z3",
+   "description": "South Sudan border fringe of Aba chefferie (Waliwa, Ursu, Alangara)",
+   "controller_id": "cod-fardc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "inference",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-pnc",
+     "role": "present"
+    }
+   ],
+   "evidence": "In 2024 South Sudanese NASFA rebels fleeing SSPDF crossed into Waliwa before returning; FARDC Uele sector says it reinforced border positions and controls the situation. Army is assumed the main force on the border strip; no lasting foreign rebel presence reported.",
+   "source_ids": [
+    "s1"
+   ]
+  },
+  {
+   "zone_id": "z4",
+   "description": "Rural Faradje and Aba areas (Faradje and Aba health zones: Mandabha, Yamba Yamba, Sesenge, Nzopi, Doya, Tandro, Kirima, Todro, Kitambala, Dramba, Lagabe etc.)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [],
+   "evidence": "No reported armed-group territorial control in 2025-2026. Armed Mbororo herders move through parts of Faradje and were ordered by FARDC to canton at Niangara in 2025; their exactions are sporadic and do not amount to control. Assigned to state police by default.",
+   "source_ids": [
+    "s2",
+    "s5",
+    "s3"
+   ]
+  },
+  {
+   "zone_id": "z5",
+   "description": "Makoro secteur (Makoro and Biringi health zones: Galayi, Likambo, Matafa, Marabi, Kana, Ngili, Lanza, Bholi etc.)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [],
+   "evidence": "Southern Faradje next to Watsa territory (Durba/Kibali mine area); the 2026 ADF advance and FARDC operations are in southern Watsa and Wamba, far from Makoro. No armed-group control reported; default state presence.",
+   "source_ids": [
+    "s6",
+    "s4"
+   ]
+  }
+ ],
+ "locations": {
+  "cod-35NRE0111_1": "z1",
+  "cod-35NQD9983_1": "z4",
+  "cod-36NSK7222_1": "z4",
+  "cod-35NRD0385_2": "z4",
+  "cod-35NQD8863_1": "z4",
+  "cod-35NRE0819_1": "z4",
+  "cod-35NQD8775_1": "z4",
+  "cod-35NQD9576_1": "z4",
+  "cod-35NRE2721_2": "z4",
+  "cod-36NSJ8482_1": "z4",
+  "cod-36NSJ7683_4": "z4",
+  "cod-35NRE0002_1": "z1",
+  "cod-35NRD2579_1": "z4",
+  "cod-36NSJ7978_2": "z4",
+  "cod-36NSK6916_2": "z4",
+  "cod-35NRD0789_1": "z4",
+  "cod-36NSK7303_1": "z4",
+  "cod-35NRD1372_1": "z4",
+  "cod-36NSJ7490_4": "z4",
+  "cod-35NRE2021_1": "z4",
+  "cod-35NRE1218_5": "z4",
+  "cod-36NSJ7476_2": "z4",
+  "cod-35NRD0748_1": "z5",
+  "cod-35NRD2147_1": "z5",
+  "cod-35NRD2643_1": "z5",
+  "cod-35NRD0149_1": "z5",
+  "cod-36NSJ8323_1": "z5",
+  "cod-36NSJ7268_4": "z5",
+  "cod-35NRD3156_2": "z5",
+  "cod-36NSJ8064_3": "z5",
+  "cod-36NSJ9560_2": "z5",
+  "cod-36NSJ8560_1": "z5",
+  "cod-35NRD2446_1": "z5",
+  "cod-36NSJ7234_1": "z5",
+  "cod-36NSJ8946_4": "z5",
+  "cod-36NSJ7968_2": "z5",
+  "cod-36NSJ7472_3": "z5",
+  "cod-36NSJ6845_3": "z5",
+  "cod-35NRD3346_1": "z5",
+  "cod-36NSJ9751_3": "z5",
+  "cod-36NSJ7318_1": "z5",
+  "cod-36NSJ9262_3": "z5",
+  "cod-36NSJ7465_5": "z5",
+  "cod-36NTJ0256_5": "z5",
+  "cod-36NSJ9662_2": "z5",
+  "cod-35NRD2657_1": "z5",
+  "cod-35NQD9748_3": "z5",
+  "cod-36NSJ9058_1": "z5",
+  "cod-36NSJ8026_3": "z5",
+  "cod-36NSJ7117_2": "z5",
+  "cod-35NRD3265_1": "z5",
+  "cod-35NRD0557_3": "z5",
+  "cod-36NSJ9051_4": "z5",
+  "cod-36NSJ6769_3": "z5",
+  "cod-36NSK9027_1": "z2",
+  "cod-36NTK2212_3": "z3",
+  "cod-36NSJ9573_2": "z4",
+  "cod-36NSJ9171_1": "z4",
+  "cod-36NTJ0073_2": "z4",
+  "cod-36NTK0017_2": "z4",
+  "cod-36NTJ0379_1": "z4",
+  "cod-36NSK9324_1": "z2",
+  "cod-36NSJ8874_3": "z4",
+  "cod-36NTK0604_2": "z3",
+  "cod-36NTK0103_3": "z4",
+  "cod-36NTJ1794_5": "z3",
+  "cod-36NTJ0181_6": "z4"
+ }
+}

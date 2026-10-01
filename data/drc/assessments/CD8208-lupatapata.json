@@ -1,0 +1,138 @@
+{
+ "unit_id": "CD8208-lupatapata",
+ "as_of": "2026-10-01",
+ "summary": "Lupatapata is a rural territory of Kasai-Oriental bordering Mbuji-Mayi, made up of the Tshishimbi and Mukumbi sectors. No armed group is known to hold territory there; the Kamuina Nsapu insurgency of 2016-2017 was centred in Kasai-Central and Kasai and largely spared this area. State authority is exercised by the PNC (territorial and sub-commissariats) and local administration, with FARDC and ANR present in the provincial hinterland; insecurity consists of banditry, land/customary disputes and incidents at artisanal diamond sites. Peri-urban neighbourhoods attached to Mbuji-Mayi (Cibombo, Mulenda) are policed like the city. Live web research was unavailable in this run, so confidence is limited.",
+ "sources": [],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Mbuji-Mayi peri-urban neighbourhoods within Lupatapata (Cibombo, Mulenda health areas, Lubilanji HZ)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    },
+    {
+     "entity_id": "kuluna",
+     "role": "present"
+    }
+   ],
+   "evidence": "Outskirts of Mbuji-Mayi, a state-held provincial capital with PNC commissariats; urban insecurity is banditry and youth gangs handled by state forces, no armed group control reported. Not verified with fresh sources in this run (web search budget exhausted).",
+   "source_ids": []
+  },
+  {
+   "zone_id": "z2",
+   "description": "Tshishimbi sector (Tshishimbi and Miabi health zones), incl. Tshibaka and Bena Tshiamanga",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Rural sector south/west of Mbuji-Mayi with no reported armed-group activity; order maintained by PNC posts and customary/administrative authorities, with diamond-site disputes and banditry the main security issues. Not verified with fresh sources in this run (web search budget exhausted).",
+   "source_ids": []
+  },
+  {
+   "zone_id": "z3",
+   "description": "Mukumbi sector (Mukumbi, Kabeya Kamwanga, Lubunga health zones), incl. Bitunta, Bena Tshinena, Tshimeta",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Rural sector north of Mbuji-Mayi with no reported armed-group activity; state presence through PNC and territorial administration, insecurity limited to banditry and artisanal-mining incidents. Not verified with fresh sources in this run (web search budget exhausted).",
+   "source_ids": []
+  }
+ ],
+ "locations": {
+  "cod-34MGT7793_3": "z2",
+  "cod-34MGU8415_1": "z2",
+  "cod-34MGU8007_1": "z2",
+  "cod-34MGU7814_1": "z2",
+  "cod-34MGU7123_1": "z2",
+  "cod-34MGU7214_1": "z2",
+  "cod-34MGU8614_1": "z2",
+  "cod-34MGU7604_1": "z2",
+  "cod-34MGU6532_1": "z2",
+  "cod-34MGU7910_1": "z2",
+  "cod-34MGU6626_1": "z2",
+  "cod-34MGU8213_1": "z2",
+  "cod-34MGU7309_2": "z2",
+  "cod-34MGU8305_1": "z2",
+  "cod-34MGU8722_1-C8KzOuxbm1w": "z1",
+  "cod-34MGU8722_1-TGnGAggD6uC": "z1",
+  "cod-34MGU9575_1": "z3",
+  "cod-34MGU9156_1": "z3",
+  "cod-34MGU9365_1": "z3",
+  "cod-34MHU0133_2": "z3",
+  "cod-34MGU9469_1": "z3",
+  "cod-34MGU7649_1": "z3",
+  "cod-34MGU8054_1": "z3",
+  "cod-34MGU8159_1": "z3",
+  "cod-34MGU7762_1": "z3",
+  "cod-34MGU9627_1": "z3",
+  "cod-34MGU8142_1": "z3",
+  "cod-34MGU7758_1": "z3",
+  "cod-34MGU9361_1": "z3",
+  "cod-34MGU7933_1": "z3",
+  "cod-34MHU0248_1": "z3",
+  "cod-34MGU8038_1": "z3",
+  "cod-34MGU8459_3": "z3",
+  "cod-34MGU9230_1": "z3",
+  "cod-34MGU7845_1": "z3",
+  "cod-34MHU0064_1": "z3",
+  "cod-34MHU0332_2": "z3",
+  "cod-34MHU0044_1": "z3",
+  "cod-34MGU8865_1": "z3",
+  "cod-34MGU9833_2": "z3",
+  "cod-34MGU8839_1": "z3",
+  "cod-34MGU7860_1": "z3",
+  "cod-34MGU9333_1": "z3",
+  "cod-34MGU9032_1": "z3",
+  "cod-34MGU8047_1": "z3",
+  "cod-34MGU9027_1": "z3",
+  "cod-34MGU8568_1": "z3",
+  "cod-34MGU8933_2": "z3",
+  "cod-34MGU9743_2": "z3",
+  "cod-34MHU0445_1": "z3",
+  "cod-34MGU7753_1": "z3",
+  "cod-34MGU8965_1": "z3",
+  "cod-34MGU8062_1": "z3",
+  "cod-34MGU7363_1": "z3",
+  "cod-34MHU0538_1": "z3",
+  "cod-34MGU9835_2": "z3",
+  "cod-34MGU7260_1": "z3",
+  "cod-34MGU9663_2": "z3",
+  "cod-34MGU8564_1": "z3",
+  "cod-34MHU0446_1": "z3",
+  "cod-34MGU9329_1": "z3",
+  "cod-34MGU7457_2": "z3",
+  "cod-34MGU9540_1": "z3",
+  "cod-34MGU7931_1": "z3",
+  "cod-34MHU0442_2": "z3",
+  "cod-34MGU7538_1": "z3",
+  "cod-34MGU7444_1": "z3",
+  "cod-34MGU9547_1": "z3",
+  "cod-34MGU7255_1": "z3",
+  "cod-34MGU9868_2": "z3",
+  "cod-34MGU7446_1": "z3",
+  "cod-34MGU6943_1": "z3"
+ }
+}

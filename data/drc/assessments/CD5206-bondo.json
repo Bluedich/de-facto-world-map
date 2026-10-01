@@ -1,0 +1,211 @@
+{
+ "unit_id": "CD5206-bondo",
+ "as_of": "2026-10-01",
+ "summary": "Bondo territory (Bas-Uele) lies far from eastern DRC's active conflicts; UNJHRO classes Bas-Uele among provinces not affected by armed conflict in 2026. Historic threats - LRA incursions, armed Mbororo herders and CAR rebels (ex-Seleka/UPC) crossing from Zemio/Mboki, last widely reported in 2023-2024 - have not translated into territorial control by any group. Bondo town and all rural secteurs (Bondo, Bili, Monga) are assigned to state control (PNC, with thin FARDC presence along the CAR border) by default state presence, with low confidence in the remote Bili and Monga border areas.",
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://monusco.unmissions.org/sites/default/files/2026-08/BCNUDH-Analyse%20de%20la%20situation%20des%20droits%20de%20l%27homme-mois%20de%20juin%202026.pdf",
+   "title": "BCNUDH - Analyse de la situation des droits de l'homme, juin 2026",
+   "publisher": "UNJHRO / MONUSCO",
+   "date": "2026-08"
+  },
+  {
+   "id": "s2",
+   "url": "https://actualite.cd/2024/06/03/rdc-des-rebelles-centrafricains-signales-dans-les-territoires-dango-et-de-bondo",
+   "title": "RDC: des rebelles centrafricains signales dans les territoires d'Ango et de Bondo",
+   "publisher": "Actualite.cd",
+   "date": "2024-06-03"
+  },
+  {
+   "id": "s3",
+   "url": "https://actualite.cd/2023/04/21/bas-uele-frontieres-poreuses-activisme-des-rebelles-seleka-eleveurs-mbororo-et-balaka-la",
+   "title": "Bas-Uele: frontieres poreuses, activisme des rebelles Seleka, eleveurs Mbororo et Balaka",
+   "publisher": "Actualite.cd",
+   "date": "2023-04-21"
+  },
+  {
+   "id": "s4",
+   "url": "https://news.mongabay.com/2024/08/herders-caught-between-conflict-and-climate-change-in-the-northern-congo-basin/",
+   "title": "Herders caught between conflict and climate change in the northern Congo Basin",
+   "publisher": "Mongabay",
+   "date": "2024-08"
+  },
+  {
+   "id": "s5",
+   "url": "https://monusco.unmissions.org/sites/default/files/2026-07/UNJHRO_rapport_mai.pdf",
+   "title": "UNJHRO rapport mensuel, mai 2026",
+   "publisher": "UNJHRO / MONUSCO",
+   "date": "2026-07"
+  }
+ ],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Bondo town (territory seat), all neighbourhoods, and nearby villages along the Uele river around Bondo",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    },
+    {
+     "entity_id": "cod-anr",
+     "role": "present"
+    }
+   ],
+   "evidence": "Bondo is the territory administrative seat; Bas-Uele is classed by UNJHRO in 2026 among provinces not affected by armed conflict, with only a handful of monthly violations reported. No armed-group control reported; state administration, PNC and a small FARDC detachment are assumed present.",
+   "source_ids": [
+    "s1",
+    "s5"
+   ]
+  },
+  {
+   "zone_id": "z2",
+   "description": "Rural Bondo secteur / Bondo health zone villages (Dawayo, Nungba, Lakpa, Zangaye, Gineulu, Sebe/Silingbi/Kundili area)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [],
+   "evidence": "No reports of armed-group control in rural Bondo health zone in 2025-2026. Historic Mbororo herder tensions and LRA incursions (2010s) have subsided; Mbororo reportedly moved toward Nord-Ubangi by 2024. Weak but uncontested state presence assumed.",
+   "source_ids": [
+    "s1",
+    "s4"
+   ]
+  },
+  {
+   "zone_id": "z3",
+   "description": "Bili secteur / Bili health zone (Songolo, Dumobata, Bulumasi, Gitalio, Basokpio, Api, Roa, Gumbu, Mangoli) toward the Mbomou/CAR border",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Remote border area with porous frontier to CAR; armed CAR elements (ex-Seleka/UPC fleeing Zemio/Mboki) were reported entering Ango and Bondo territories in 2024 and Mbororo herders historically roamed here, but no report of any group holding settlements as of 2025-2026. State presence is thin; assigned to PNC by default.",
+   "source_ids": [
+    "s2",
+    "s3",
+    "s1"
+   ]
+  },
+  {
+   "zone_id": "z4",
+   "description": "Monga secteur along the Ubangi/Mbomou river border with CAR (Gbota/Monga, Ndu, Bella, Sombe, Sahali, Kpono, Gbagi)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Border secteur facing CAR; cross-border movement of CAR armed elements and herders reported in 2023-2024 in Bas-Uele, but no armed-group control of Monga-area settlements reported. State (PNC, border FARDC posts) assumed by default.",
+   "source_ids": [
+    "s3",
+    "s1"
+   ]
+  }
+ ],
+ "locations": {
+  "cod-34NGK9822_1": "z1",
+  "cod-34NGK9387_1": "z2",
+  "cod-34NGK9620_1": "z1",
+  "cod-35NJE8739_1": "z2",
+  "cod-34NHK0793_1": "z2",
+  "cod-34NGK9778_1": "z2",
+  "cod-34NGK8961_1": "z2",
+  "cod-34NHK3235_1": "z2",
+  "cod-34NGK8876_1": "z2",
+  "cod-35NJE6893_1": "z2",
+  "cod-34NGK9779_1": "z2",
+  "cod-34NHK0621_1": "z1",
+  "cod-34NGK9876_1": "z2",
+  "cod-34NGK9444_1": "z2",
+  "cod-34NHK1326_1": "z1",
+  "cod-34NGK9152_2": "z2",
+  "cod-34NHK0010_1": "z1",
+  "cod-34NHK0590_1": "z2",
+  "cod-34NGK9065_1": "z2",
+  "cod-34NHK1926_1": "z1",
+  "cod-34NGK7905_1": "z2",
+  "cod-34NGK8829_1": "z2",
+  "cod-34NGK9630_1": "z1",
+  "cod-34NHK0924_1": "z1",
+  "cod-34NHL2301_1": "z2",
+  "cod-34NGK8131_1": "z2",
+  "cod-34NGK9628_1": "z1",
+  "cod-35NJE6735_1": "z2",
+  "cod-34NHK2934_1": "z2",
+  "cod-34NGL6806_1": "z2",
+  "cod-34NGK9635_1": "z2",
+  "cod-34NHK0193_1": "z2",
+  "cod-34NHK2899_1": "z2",
+  "cod-34NHK0233_1": "z1",
+  "cod-34NHK0434_2": "z1",
+  "cod-34NGK9822_1-EEvm5lp9vQi": "z1",
+  "cod-34NGK9822_1-BVFzLou3fhv": "z1",
+  "cod-34NGK9822_1-imGNRBiGBAA": "z1",
+  "cod-35NKE9858_1": "z3",
+  "cod-35NKE9660_1": "z3",
+  "cod-35NKF6108_1": "z3",
+  "cod-35NJE8051_1": "z2",
+  "cod-35NKE5233_2": "z3",
+  "cod-35NKF6802_1": "z3",
+  "cod-35NLE2310_1": "z3",
+  "cod-35NLE2112_1": "z3",
+  "cod-35NKE8169_1": "z3",
+  "cod-35NKF4223_1": "z3",
+  "cod-34NHK2984_1": "z2",
+  "cod-35NKE7221_2": "z3",
+  "cod-35NJE8150_1": "z2",
+  "cod-35NKD3890_1": "z3",
+  "cod-35NJE8470_1": "z2",
+  "cod-35NKE5434_1": "z3",
+  "cod-35NKE7327_1": "z3",
+  "cod-35NKF3229_1": "z3",
+  "cod-35NJE7787_1": "z2",
+  "cod-35NKE0838_1": "z3",
+  "cod-35NKF6704_1": "z3",
+  "cod-35NKF2632_1": "z3",
+  "cod-34NGK0164_1": "z4",
+  "cod-34NGL0021_1": "z4",
+  "cod-34NFK9265_1": "z4",
+  "cod-34NGK0448_1": "z4",
+  "cod-34NGK0159_1": "z4",
+  "cod-34NGL2616_1": "z4",
+  "cod-34NFK8072_1": "z4",
+  "cod-34NFK8077_1": "z4",
+  "cod-34NGK0155_2": "z4",
+  "cod-34NGK0470_1": "z4",
+  "cod-34NGL0118_2": "z4",
+  "cod-34NGK3954_1": "z4",
+  "cod-34NGL4312_1": "z4",
+  "cod-34NFK7264_1": "z4",
+  "cod-34NFK9565_1": "z4",
+  "cod-34NGK2063_1": "z4",
+  "cod-34NFK6761_1": "z4",
+  "cod-34NGK0392_1": "z4",
+  "cod-34NFK9864_1": "z4",
+  "cod-34NFK8270_1": "z4",
+  "cod-34NFK8662_1": "z4",
+  "cod-34NFK6455_1": "z4",
+  "cod-34NGK3457_1": "z4",
+  "cod-34NGK0338_1": "z4"
+ }
+}

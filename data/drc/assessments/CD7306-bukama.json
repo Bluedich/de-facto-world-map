@@ -1,0 +1,300 @@
+{
+ "unit_id": "CD7306-bukama",
+ "as_of": "2026-10-01",
+ "summary": "Bukama territory (Haut-Lomami) is state-held but exposed to Bakata Katanga / Mai-Mai raids launched from the Upemba National Park. Bukama centre was attacked in January and July 2026; the FARDC repelled both attacks and deployed in the town, so the army is assessed as the main force there. The Luena mining town and the rural Bukama and Kabondo Dianda health zones have no reported militia control and are assessed as default PNC presence. Butumba (along Lake Upemba/the park) and Kinkondja (bordering Malemba-Nkulu, where Mai-Mai attacks resumed in Sept 2026) are assessed as state-held with low confidence and raiding risk.",
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://actualite.cd/2026/07/28/haut-lomami-les-fardc-repoussent-une-attaque-des-mai-mai-bukama",
+   "title": "Haut-Lomami : les FARDC repoussent une attaque des Mai-Mai à Bukama",
+   "publisher": "Actualite.cd",
+   "date": "2026-07-28"
+  },
+  {
+   "id": "s2",
+   "url": "https://fr.allafrica.com/stories/202607290434.html",
+   "title": "Bukama : retour au calme après une incursion présumée des Mai-Mai",
+   "publisher": "AllAfrica / Radio Okapi",
+   "date": "2026-07-29"
+  },
+  {
+   "id": "s3",
+   "url": "https://actualite.cd/2026/01/12/haut-lomami-une-attaque-des-presumes-miliciens-bakata-katanga-fait-au-moins-8-morts",
+   "title": "Haut-Lomami : une attaque des présumés miliciens Bakata Katanga fait au moins 8 morts à Bukama",
+   "publisher": "Actualite.cd",
+   "date": "2026-01-12"
+  },
+  {
+   "id": "s4",
+   "url": "https://fr.allafrica.com/stories/202601130207.html",
+   "title": "Un affrontement entre l'armée et des miliciens fait neuf morts et quatre blessés à Bukama",
+   "publisher": "AllAfrica / Radio Okapi",
+   "date": "2026-01-13"
+  },
+  {
+   "id": "s5",
+   "url": "https://actualite.cd/2026/09/12/grand-katanga-le-spectre-mai-mai-ressurgit-mitwaba-et-malemba-nkulu-alerte-le",
+   "title": "Grand Katanga : le spectre Mai-Mai ressurgit à Mitwaba et Malemba-Nkulu, alerte le gouvernement",
+   "publisher": "Actualite.cd",
+   "date": "2026-09-12"
+  },
+  {
+   "id": "s6",
+   "url": "https://acp.cd/province/haut-lomami-situation-calme-sur-toute-letendue-de-la-province/",
+   "title": "Haut-Lomami : situation calme sur toute l'étendue de la province",
+   "publisher": "ACP",
+   "date": "2026-09-01"
+  },
+  {
+   "id": "s7",
+   "url": "https://en.wikipedia.org/wiki/Lake_Upemba",
+   "title": "Lake Upemba",
+   "publisher": "Wikipedia",
+   "date": null
+  }
+ ],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Bukama centre (territory HQ on the Lualaba; Katentamine and Kilenge health areas)",
+   "controller_id": "cod-fardc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "specific_report",
+   "since": "2026-01",
+   "presence": [
+    {
+     "entity_id": "cod-pnc",
+     "role": "present"
+    },
+    {
+     "entity_id": "bakata-katanga",
+     "role": "raiding"
+    }
+   ],
+   "evidence": "Bukama centre was attacked by presumed Bakata Katanga / Mai-Mai militiamen on 11 Jan 2026 (8-9 dead) and again on 28 Jul 2026 by Mai-Mai coming out of Upemba NP; both times the FARDC repelled them and were then deployed across the town. State administration and PNC remain, but the army is the main security force.",
+   "source_ids": [
+    "s1",
+    "s2",
+    "s3",
+    "s4"
+   ]
+  },
+  {
+   "zone_id": "z2",
+   "description": "Luena (Gécamines coal-mining town, 'Urbain'/GCM health area) in southern Bukama health zone",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Mining town on the railway with ordinary state administration; no reported armed-group activity in 2025-2026 sources.",
+   "source_ids": [
+    "s6"
+   ]
+  },
+  {
+   "zone_id": "z3",
+   "description": "Rural Bukama and Kabondo Dianda health zones (Lualaba valley west of Upemba NP, Kabondo Dianda chefferie incl. Kwamakango/Kabondo Dianda centre, Mpombo, Kiladile)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    },
+    {
+     "entity_id": "bakata-katanga",
+     "role": "raiding"
+    }
+   ],
+   "evidence": "No source reports militia control of villages here; Mai-Mai incursions in 2026 targeted Bukama centre from Upemba NP and were repelled. Provincial authorities describe Haut-Lomami as calm. Eastern villages near the park may see occasional raids.",
+   "source_ids": [
+    "s1",
+    "s2",
+    "s6"
+   ]
+  },
+  {
+   "zone_id": "z4",
+   "description": "Butumba chefferie (east bank of the Lualaba, along Lake Upemba and the western edge of Upemba NP: Kaembe, Kashti Kala, Ziona, Kabanza, Dela)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "inference",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    },
+    {
+     "entity_id": "bakata-katanga",
+     "role": "raiding"
+    }
+   ],
+   "evidence": "Butumba borders Upemba NP from which Mai-Mai launched 2026 attacks on Bukama; long history of Mai-Mai activity around Lake Upemba, but no 2025-2026 report of militias holding or administering Butumba villages. Assessed as state-held with raiding risk.",
+   "source_ids": [
+    "s1",
+    "s2",
+    "s7"
+   ]
+  },
+  {
+   "zone_id": "z5",
+   "description": "Kinkondja health zone (Kikondja chefferie, Lake Kisale; Wakibende, Kipamba, Kabamba, Kitembo, Kabenga) bordering Malemba-Nkulu territory",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "inference",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    },
+    {
+     "entity_id": "bakata-katanga",
+     "role": "raiding"
+    }
+   ],
+   "evidence": "Kikondja has seen past Mai-Mai vs police clashes; in Sept 2026 the government flagged renewed Mai-Mai attacks in neighbouring Malemba-Nkulu (Kyamona). No report of militia control of Kinkondja localities; state (PNC with FARDC support) assessed in control.",
+   "source_ids": [
+    "s5"
+   ]
+  }
+ ],
+ "locations": {
+  "cod-35LLL5314_1": "z3",
+  "cod-35LLL7651_1": "z3",
+  "cod-35LML2481_1": "z5",
+  "cod-35LLL8520_1": "z3",
+  "cod-35LLL7427_1": "z3",
+  "cod-35LLL9776_1": "z5",
+  "cod-35LLL9433_2": "z3",
+  "cod-35LLL9334_1": "z3",
+  "cod-35LML1263_1": "z5",
+  "cod-35LML1487_1": "z5",
+  "cod-35LLL9263_2": "z5",
+  "cod-35LLL6921_1": "z3",
+  "cod-35LLL8545_1": "z3",
+  "cod-35LML1870_1": "z5",
+  "cod-35LML0239_1": "z3",
+  "cod-35LLL8532_2": "z3",
+  "cod-35LML1890_1": "z5",
+  "cod-35LML1156_3": "z5",
+  "cod-35LML2250_2": "z5",
+  "cod-35LLL7542_1": "z3",
+  "cod-35LLL6955_2": "z3",
+  "cod-35LLL6447_1": "z3",
+  "cod-35LML1884_1": "z5",
+  "cod-35LLL8457_1": "z3",
+  "cod-35LLL6516_1": "z3",
+  "cod-35LLM7706_1": "z5",
+  "cod-35LLL9360_1": "z3",
+  "cod-35LML2456_1": "z5",
+  "cod-35LLL6966_1": "z3",
+  "cod-35LLL8254_3": "z3",
+  "cod-35LLL5855_1": "z3",
+  "cod-35LLL7161_1": "z3",
+  "cod-35LLL5423_2": "z3",
+  "cod-35LLL9447_1": "z3",
+  "cod-35LLL6458_1": "z3",
+  "cod-35LLL9939_1": "z3",
+  "cod-35LLL5430_1": "z3",
+  "cod-35LLL5605_1": "z3",
+  "cod-35LML3069_1": "z5",
+  "cod-35LLL9352_1": "z3",
+  "cod-35LML2656_4": "z5",
+  "cod-35LLL8525_1": "z3",
+  "cod-35LML4059_1": "z4",
+  "cod-35LLL8934_1": "z3",
+  "cod-35LML2351_2": "z5",
+  "cod-35LLK6756_1": "z2",
+  "cod-35LLK7482_1": "z1",
+  "cod-35LLK8188_1": "z3",
+  "cod-35LLK9782_1": "z3",
+  "cod-35LLK9461_1": "z3",
+  "cod-35LLK6843_2": "z3",
+  "cod-35LLK6872_1": "z3",
+  "cod-35LLK9357_1": "z3",
+  "cod-35LLK7590_2": "z1",
+  "cod-35LLK9274_1": "z3",
+  "cod-35LMK0474_1": "z4",
+  "cod-35LLK5895_2": "z3",
+  "cod-35LLL7504_1": "z3",
+  "cod-35LLK6454_1": "z3",
+  "cod-35LLK8979_1": "z3",
+  "cod-35LLK9579_1": "z3",
+  "cod-35LLK9554_1": "z3",
+  "cod-35LLK8379_1": "z3",
+  "cod-35LLK8684_3": "z3",
+  "cod-35LLL8002_1": "z3",
+  "cod-35LLK9655_1": "z3",
+  "cod-35LLK8693_2": "z3",
+  "cod-35LLK5061_1": "z3",
+  "cod-35LML3314_1": "z4",
+  "cod-35LML5054_2": "z4",
+  "cod-35LML4751_1": "z4",
+  "cod-35LML4643_2": "z4",
+  "cod-35LML4438_3": "z4",
+  "cod-35LML3635_2": "z4",
+  "cod-35LML2620_1": "z4",
+  "cod-35LMK2093_1": "z4",
+  "cod-35LML2626_1": "z4",
+  "cod-35LML6157_1": "z4",
+  "cod-35LML2929_2": "z4",
+  "cod-35LML2920_1": "z4",
+  "cod-35LLL8206_2": "z3",
+  "cod-35LML0539_1": "z3",
+  "cod-35LLL9926_1": "z3",
+  "cod-35LML2216_1": "z4",
+  "cod-35LML5356_2": "z4",
+  "cod-35LML3231_1": "z4",
+  "cod-35LMK1799_1": "z4",
+  "cod-35LLL8404_1": "z3",
+  "cod-35LLL9715_1": "z3",
+  "cod-35LML3011_2": "z4",
+  "cod-35LML0832_1": "z3",
+  "cod-35LML2425_1": "z4",
+  "cod-35LML5456_1": "z4",
+  "cod-35LML7060_1": "z4",
+  "cod-35LMK2195_1": "z4",
+  "cod-35LML2821_5": "z4",
+  "cod-35LML4036_1": "z4",
+  "cod-35LML2124_1": "z4",
+  "cod-35LLL9509_1": "z3",
+  "cod-35LLL9319_1": "z3",
+  "cod-35LML5956_1": "z4",
+  "cod-35LLL9530_5": "z3",
+  "cod-35LML2001_1": "z4",
+  "cod-35LML0831_1": "z3",
+  "cod-35LML4441_1": "z4",
+  "cod-35LML3011_1": "z4",
+  "cod-35LML2625_1": "z4",
+  "cod-35LML2301_2": "z4",
+  "cod-35LML4598_1": "z5",
+  "cod-35LML3693_1": "z5",
+  "cod-35LML2987_1": "z5",
+  "cod-35LML3390_1": "z5",
+  "cod-35LMM5402_2": "z5",
+  "cod-35LMM3207_1": "z5",
+  "cod-35LML6091_1": "z5",
+  "cod-35LMM2404_1": "z5",
+  "cod-35LML6189_2": "z5",
+  "cod-35LML5686_3": "z5",
+  "cod-35LML5377_2": "z5",
+  "cod-35LML7094_1": "z5",
+  "cod-35LML6590_1": "z5"
+ }
+}

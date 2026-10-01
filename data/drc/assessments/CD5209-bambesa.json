@@ -1,0 +1,93 @@
+{
+ "unit_id": "CD5209-bambesa",
+ "as_of": "2026-10-01",
+ "summary": "Bambesa territory (Bas-Uele) lies far from the active conflict zones of eastern DRC and no armed group is reported to hold or contest territory there in 2025-2026. Recent regional security reporting concerns ADF incursions into Haut-Uele (Wamba, Watsa) and Ituri, several hundred km to the south-east, not Bambesa. Historical insecurity (LRA in the late 2000s, Mbororo herder tensions, poaching around Bili-Uele) has not translated into armed-group control. The main towns Dingila (GRID3 'Gbaka') and Bambesa centre (GRID3 'Embite') are administered and policed by the state; rural villages are assigned to the PNC by default state presence.",
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://en.wikipedia.org/wiki/Bambesa_Territory",
+   "title": "Bambesa Territory",
+   "publisher": "Wikipedia",
+   "date": null
+  },
+  {
+   "id": "s2",
+   "url": "https://fr.allafrica.com/stories/202607140342.html",
+   "title": "Haut-Uele - La progression des ADF provoque le deplacement de plus de 10 000 civils vers Watsa et Wamba",
+   "publisher": "Radio Okapi via AllAfrica",
+   "date": "2026-07-14"
+  },
+  {
+   "id": "s3",
+   "url": "https://actualite.cd/2026/03/08/agression-rwandaise-obed-mutuale-appelle-renforcer-les-fardc-dans-le-bas-uele-et-equiper",
+   "title": "Agression rwandaise: Obed Mutuale appelle a renforcer les FARDC dans le Bas-Uele",
+   "publisher": "Actualite.cd",
+   "date": "2026-03-08"
+  },
+  {
+   "id": "s4",
+   "url": "https://monusco.unmissions.org/en/node/9033",
+   "title": "MONUSCO note on Bas-Uele Mbororo herders issue",
+   "publisher": "MONUSCO",
+   "date": "2016-05"
+  }
+ ],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Main towns: Dingila (GRID3 'Gbaka', Bambili HA) and Bambesa territory centre (GRID3 'Embite', Bambesa HA)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Territorial seat and main trading town under state administration; no armed-group activity reported in Bambesa territory in 2025-2026 searches. Bas-Uele FARDC deployment described as thin, so the PNC is assumed to be the main day-to-day security force.",
+   "source_ids": [
+    "s1",
+    "s3"
+   ]
+  },
+  {
+   "zone_id": "z2",
+   "description": "Rural villages and small centres of Bambesa territory (Ganga, Titule, Kana, Zobia, Dembia, Makongo, Likandi, Lebo, Doromo areas)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [],
+   "evidence": "No reports of armed-group control in Ganga or Titule health zones; insecurity limited to banditry, poaching and periodic herder-farmer (Mbororo) tensions historically. State presence is sparse but uncontested; ADF activity in 2026 is in Haut-Uele/Ituri, far to the south-east.",
+   "source_ids": [
+    "s2",
+    "s3",
+    "s4"
+   ]
+  }
+ ],
+ "locations": {
+  "cod-35NLE9502_1": "z1",
+  "cod-35NLD5481_1": "z1",
+  "cod-35NLD8127_1": "z2",
+  "cod-35NLD9419_1": "z2",
+  "cod-35NMD2858_1": "z2",
+  "cod-35NLD7187_1": "z2",
+  "cod-35NMD1232_2": "z2",
+  "cod-35NLD7927_1": "z2",
+  "cod-35NLD8574_1": "z2",
+  "cod-35NLD7185_1": "z2",
+  "cod-35NMC0088_1": "z2",
+  "cod-35NKD9981_1": "z2",
+  "cod-35NLD7722_1": "z2",
+  "cod-35NLD3068_1": "z2",
+  "cod-35NLD6986_1": "z2",
+  "cod-35NLD6585_1": "z2",
+  "cod-35NLD9974_1": "z2"
+ }
+}

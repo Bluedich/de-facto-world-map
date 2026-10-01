@@ -1,0 +1,111 @@
+{
+ "unit_id": "CD5303-niangara",
+ "as_of": "2026-10-01",
+ "summary": "Niangara territory (Haut-Uele) is outside the active conflict zones of eastern DRC and no armed group is reported to hold territory there in 2025-2026. Niangara town, the territorial seat on the Uele river, has a permanent PNC and state administration presence with FARDC of the Uele operational sector also stationed in the territory. The main security issues are armed Mbororo herders, poachers and residual banditry; the LRA, which raided the Bangadi-Niangara triangle heavily until c.2014-2016, is no longer reported here. In May 2025 the FARDC ordered Mbororo herders from across Haut-Uele to regroup for cantonment at Nambia in Niangara territory, making the army the main force around that site. Rural villages are assessed by default as under state (PNC) control with low-to-medium confidence.",
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://actualite.cd/2025/05/12/haut-uele-larmee-veut-cantonner-les-eleveurs-mbororo",
+   "title": "Haut-Uele: l'armée veut cantonner les éleveurs Mbororo",
+   "publisher": "Actualite.cd",
+   "date": "2025-05-12"
+  },
+  {
+   "id": "s2",
+   "url": "https://actualite.cd/2025/05/05/haut-uele-le-gouvernement-provincial-appele-rehabiliter-le-centre-dafrique-de-niangara",
+   "title": "Haut-Uele : le gouvernement provincial appelé à réhabiliter le centre d'Afrique de Niangara",
+   "publisher": "Actualite.cd",
+   "date": "2025-05-05"
+  },
+  {
+   "id": "s3",
+   "url": "https://reports.lracrisistracker.com/en/q1-2014/",
+   "title": "LRA Crisis Tracker Q1 2014 report",
+   "publisher": "Invisible Children / Resolve",
+   "date": "2014-04"
+  },
+  {
+   "id": "s4",
+   "url": "https://paxforpeace.nl/wp-content/uploads/sites/2/import/import/insecurity-without-borders-pax-policy-brief-21112019.pdf",
+   "title": "Insecurity without borders (policy brief)",
+   "publisher": "PAX",
+   "date": "2019-11-21"
+  }
+ ],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Niangara town (territorial seat; GRID3 Inyama, Gbalia and Wawe localities on both banks of the Uele)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Territorial headquarters with functioning state administration and police; FARDC units of the Uele operational sector are present in the territory. No reports of armed-group control of the town in 2025-2026.",
+   "source_ids": [
+    "s1",
+    "s2"
+   ]
+  },
+  {
+   "zone_id": "z2",
+   "description": "Nambia health area north of Niangara (Faragi), designated Mbororo cantonment site",
+   "controller_id": "cod-fardc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "area_report",
+   "since": "2025-06",
+   "presence": [
+    {
+     "entity_id": "cod-pnc",
+     "role": "present"
+    }
+   ],
+   "evidence": "In May 2025 the FARDC Uele operational sector ordered Mbororo herders across Haut-Uele to move to Nambia in Niangara territory for cantonment and identification, implying an army-supervised zone; armed Mbororo herders (not a catalogued entity) are present. Implementation status as of 2026 is unconfirmed.",
+   "source_ids": [
+    "s1",
+    "s4"
+   ]
+  },
+  {
+   "zone_id": "z3",
+   "description": "Rural villages of Niangara territory (Tapili, Ndingba, Ganga, Babagu, Ekibondo, Makilingbo, Lipombo, Arikazi, Wamba Moke health areas)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [],
+   "evidence": "No recent reports of armed-group control in these rural areas; historic LRA raiding (to c.2014-2016) has ceased, while armed Mbororo herders and poachers cause sporadic insecurity without holding territory. Default state presence assumed.",
+   "source_ids": [
+    "s3",
+    "s4"
+   ]
+  }
+ ],
+ "locations": {
+  "cod-35NNE9908_2": "z1",
+  "cod-35NNE9508_1": "z1",
+  "cod-35NND7080_1": "z3",
+  "cod-35NPD0276_1": "z3",
+  "cod-35NNE9909_1": "z1",
+  "cod-35NNE9823_1": "z2",
+  "cod-35NPD0663_1": "z3",
+  "cod-35NPD4663_1": "z3",
+  "cod-35NPD5495_1": "z3",
+  "cod-35NPD0689_1": "z3",
+  "cod-35NND8192_1": "z3",
+  "cod-35NPD4967_2": "z3",
+  "cod-35NPD0457_1": "z3",
+  "cod-35NPD4892_3": "z3",
+  "cod-35NPD3561_2": "z3",
+  "cod-35NPD2661_1": "z3"
+ }
+}

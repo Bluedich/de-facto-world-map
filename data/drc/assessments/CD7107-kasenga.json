@@ -1,0 +1,198 @@
+{
+ "unit_id": "CD7107-kasenga",
+ "as_of": "2026-10-01",
+ "summary": "Kasenga territory, on the Luapula river border with Zambia in Haut-Katanga, is state-held. The territorial seat Kasenga (Kiwala locality), Kasomeno, Sapwe and the Luapula fishing villages have permanent PNC presence with FARDC and border services; no armed group holds territory. The Mai-Mai Bakata Katanga resurgence of 2024-2026 is centred on Mitwaba, Pweto and Manono, and Kasenga was named by the interior ministry in April 2025 among territories affected by incursions, but no reports show the group settling or ruling localities here. The north-western Lukafu/Kikula area bordering Mitwaba and Kambove is the most exposed to sporadic Mai-Mai incursions and is assessed with lower confidence.",
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.congoquotidien.com/2025/04/19/actualite-rdc-mai-mai-bakata-katanga-securite-haut-katanga/",
+   "title": "Katanga sous tension : les Maï-Maï Bakata Katanga resurgissent, le gouvernement congolais en alerte",
+   "publisher": "Congo Quotidien",
+   "date": "2025-04-19"
+  },
+  {
+   "id": "s2",
+   "url": "https://actualite.cd/2025/04/18/rdc-regain-dactivisme-des-mai-mai-dans-le-katanga-tshisekedi-exige-une-riposte-ferme",
+   "title": "RDC : regain d'activisme des Maï-Maï dans le Katanga, Tshisekedi exige une riposte ferme",
+   "publisher": "Actualite.cd",
+   "date": "2025-04-18"
+  },
+  {
+   "id": "s3",
+   "url": "https://fr.allafrica.com/stories/202608030867.html",
+   "title": "Huit morts dans une attaque attribuée à des miliciens Maï-Maï contre un cantonnement des FARDC à Mitwaba",
+   "publisher": "AllAfrica",
+   "date": "2026-08-03"
+  },
+  {
+   "id": "s4",
+   "url": "https://coi.euaa.europa.eu/administration/france/PLib/2409_COD__Bakata_Katanga_163382_web.pdf",
+   "title": "RDC : Les maï-maï Bakata Katanga (ou les Kata Katanga) depuis 2022",
+   "publisher": "OFPRA",
+   "date": "2024-09-30"
+  }
+ ],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Kasenga town (Kiwala) and Kasenga secteur: Luapula villages, Kasomeno, Sapwe, Kinika, Minga-area villages",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Territorial seat and border/trade hub with Zambia; administration, PNC and FARDC present. No reports of armed-group control; Mai-Mai activity in 2025-2026 is reported mainly in Mitwaba/Pweto.",
+   "source_ids": [
+    "s1",
+    "s2",
+    "s3"
+   ]
+  },
+  {
+   "zone_id": "z2",
+   "description": "Kashobwe chefferie (Kashobwe, Mukupa, Nkole, Lukeka, Mwaba axis along the Luapula/Lake Mweru road)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Populated Luapula valley chefferie on the Kasenga-Kilwa road with routine state presence; no specific reports of armed-group control found. Bakata Katanga incursions reported for Kasenga territory in 2025 without indication of territorial control.",
+   "source_ids": [
+    "s1",
+    "s2"
+   ]
+  },
+  {
+   "zone_id": "z3",
+   "description": "Western Kasenga territory: Lukafu secteur and Kikula area (Lukafu, Mukebo, Mwemena, Malambwe, Lutandula, Mwadingusha), bordering Mitwaba and Kambove",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "inference",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    },
+    {
+     "entity_id": "bakata-katanga",
+     "role": "raiding"
+    }
+   ],
+   "evidence": "Sparsely populated area closest to the Mitwaba/Upemba Bakata Katanga zone; Kasenga territory was cited among territories with Mai-Mai incursions in 2025 and the group attacked FARDC in Mitwaba in August 2026. No evidence the militia holds localities here, so state police are assessed as controller with low confidence.",
+   "source_ids": [
+    "s1",
+    "s2",
+    "s3",
+    "s4"
+   ]
+  }
+ ],
+ "locations": {
+  "cod-35LPK7730_1": "z2",
+  "cod-35LPK3634_1": "z2",
+  "cod-35LPJ4596_3": "z2",
+  "cod-35LPJ7799_1": "z2",
+  "cod-35LPK6463_1": "z2",
+  "cod-35LPJ7595_1": "z2",
+  "cod-35LPJ6967_1": "z2",
+  "cod-35LPJ2376_1": "z2",
+  "cod-35LPJ6974_1": "z2",
+  "cod-35LPJ2261_1": "z2",
+  "cod-35LPK5946_1": "z2",
+  "cod-35LPJ2197_1": "z2",
+  "cod-35LPJ5368_1": "z2",
+  "cod-35LPJ4591_1": "z2",
+  "cod-35LPK3428_1": "z2",
+  "cod-35LPK7526_1": "z2",
+  "cod-35LPK6428_1": "z2",
+  "cod-35LPK6324_1": "z2",
+  "cod-35LPK6646_1": "z2",
+  "cod-35LPK4513_1": "z2",
+  "cod-35LPK2919_1": "z2",
+  "cod-35LPJ5067_2": "z2",
+  "cod-35LPK5309_2": "z2",
+  "cod-35LPJ6986_1": "z2",
+  "cod-35LPK4506_2": "z2",
+  "cod-35LPJ4974_1": "z2",
+  "cod-35LPK6825_1": "z2",
+  "cod-35LPJ2275_1": "z2",
+  "cod-35LPK7536_1": "z2",
+  "cod-35LPK7502_1": "z2",
+  "cod-35LPJ4665_1": "z2",
+  "cod-35LNK9006_1": "z3",
+  "cod-35LNJ8676_1": "z3",
+  "cod-35LPK3304_1": "z2",
+  "cod-35LPK4610_1": "z2",
+  "cod-35LPJ4084_1": "z2",
+  "cod-35LPJ7651_1": "z1",
+  "cod-35LPJ4010_1": "z1",
+  "cod-35LPH2788_1": "z1",
+  "cod-35LPJ7736_2": "z1",
+  "cod-35LPJ2250_1": "z1",
+  "cod-35LPJ7662_1": "z1",
+  "cod-35LPH1581_1": "z1",
+  "cod-35LPJ2333_1": "z1",
+  "cod-35LPH2185_1": "z1",
+  "cod-35LPJ7557_1": "z1",
+  "cod-35LPJ5424_1": "z1",
+  "cod-35LPJ2342_1": "z1",
+  "cod-35LPJ7366_1": "z1",
+  "cod-35LPJ7739_1": "z1",
+  "cod-35LPJ8133_1": "z1",
+  "cod-35LPH1783_1": "z1",
+  "cod-35LPH2786_2": "z1",
+  "cod-35LPJ6239_1": "z1",
+  "cod-35LPH3397_1": "z1",
+  "cod-35LPJ6843_1": "z1",
+  "cod-35LPJ7615_1": "z1",
+  "cod-35LPJ8128_1": "z1",
+  "cod-35LPJ3506_1": "z1",
+  "cod-35LPJ4360_2": "z1",
+  "cod-35LPJ7655_1": "z1",
+  "cod-35LPH1177_1": "z1",
+  "cod-35LPJ3909_2": "z1",
+  "cod-35LPJ3402_1": "z1",
+  "cod-35LPJ3350_1": "z1",
+  "cod-35LNH9554_1": "z3",
+  "cod-35LPH0175_1": "z3",
+  "cod-35LNJ6038_1": "z3",
+  "cod-35LNH9597_1": "z3",
+  "cod-35LNJ5059_1": "z3",
+  "cod-35LPH0369_2": "z3",
+  "cod-35LNJ4280_1": "z3",
+  "cod-35LNJ5352_1": "z3",
+  "cod-35LPH0178_1": "z3",
+  "cod-35LNJ6031_1": "z3",
+  "cod-35LNJ5544_1": "z3",
+  "cod-35LNJ4085_1": "z3",
+  "cod-35LNJ4183_1": "z3",
+  "cod-35LNH7885_1": "z3",
+  "cod-35LNJ4973_1": "z3",
+  "cod-35LNJ4186_1": "z3",
+  "cod-35LNJ3890_1": "z3",
+  "cod-35LNJ5768_1": "z3",
+  "cod-35LPH0063_1": "z3",
+  "cod-35LNJ7020_2": "z3",
+  "cod-35LNJ5076_1": "z3",
+  "cod-35LNJ2411_1": "z3",
+  "cod-35LNJ2975_1": "z3",
+  "cod-35LNJ4015_2": "z3",
+  "cod-35LNJ3171_2": "z3",
+  "cod-35LNJ3716_1": "z3"
+ }
+}

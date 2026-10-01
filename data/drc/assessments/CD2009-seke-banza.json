@@ -1,0 +1,84 @@
+{
+ "unit_id": "CD2009-seke-banza",
+ "as_of": "2026-10-01",
+ "summary": "Seke-Banza territory (Kongo-Central, between Matadi and Boma north of the Congo river) contains Seke-Banza centre, the Kitsiengo/Mbenza Thubi agglomeration, the Inga hydroelectric site and rural villages of the Seke-Banza and Inga health zones. No armed group holds territory here; the area is far from the eastern conflict zones. Towns are policed by the PNC with territorial administration and customary chiefs handling disputes; the Inga dam complex is a strategic site with additional FARDC/state security deployment. Past Bundu dia Kongo (BDK/BDM) political unrest in Kongo-Central did not displace state control. Web search was unavailable in this run (search budget exhausted), so the assessment rests on default state presence.",
+ "sources": [],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Seke-Banza territorial centre, Kitsiengo (Mbenza Thubi) agglomeration and Kizulu Tunga/Nsanda – larger towns",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Larger towns with no reported armed-group control; PNC commissariats and territorial administration handle policing, arrests and detention. No sources could be retrieved in this run.",
+   "source_ids": []
+  },
+  {
+   "zone_id": "z2",
+   "description": "Inga hydroelectric site and workers' cités (Inga health area: Fuamalo, Kinshasa 1)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Strategic dam site and SNEL residential cités under state control; police handle ordinary order while FARDC/state security elements guard the installations. Which force dominates day-to-day is not confirmed by sources in this run.",
+   "source_ids": []
+  },
+  {
+   "zone_id": "z3",
+   "description": "Rural villages of Seke-Banza and Inga health zones",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [],
+   "evidence": "Rural Bas-Fleuve villages with no reported armed-group activity; state police posts, territorial administration and customary chiefs are the default authority. No sources could be retrieved in this run.",
+   "source_ids": []
+  }
+ ],
+ "locations": {
+  "cod-33MUP1192_1": "z1",
+  "cod-33MUQ0809_1": "z1",
+  "cod-33MUQ1551_1": "z3",
+  "cod-33MUQ1943_2": "z3",
+  "cod-33MUQ1251_1": "z3",
+  "cod-33MUQ0648_1": "z3",
+  "cod-33MUQ0348_1": "z3",
+  "cod-33MUQ0852_1": "z3",
+  "cod-33MUQ3141_1": "z3",
+  "cod-33MUP0885_2": "z3",
+  "cod-33MUP2779_1": "z1",
+  "cod-33MUP2386_1": "z3",
+  "cod-33MUP2765_2": "z3",
+  "cod-33MUP2669_2": "z3",
+  "cod-33MUP4290_1": "z2",
+  "cod-33MUP2774_1": "z3",
+  "cod-33MUP4391_1": "z2",
+  "cod-33MUP2376_2": "z3",
+  "cod-33MUQ2829_1": "z3",
+  "cod-33MUP2684_1": "z3",
+  "cod-33MUP3293_1": "z3",
+  "cod-33MUQ2501_1": "z3",
+  "cod-33MUP3481_1": "z3",
+  "cod-33MUP2886_1": "z3",
+  "cod-33MUP2494_1": "z3",
+  "cod-33MUP3181_1": "z3",
+  "cod-33MUQ3328_1": "z3"
+ }
+}

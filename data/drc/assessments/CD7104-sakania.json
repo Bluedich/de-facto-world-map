@@ -1,0 +1,99 @@
+{
+ "unit_id": "CD7104-sakania",
+ "as_of": "2026-10-01",
+ "summary": "Sakania territory (the Congo Pedicle, Haut-Katanga) has no reported armed-group presence; the Bakata Katanga and Mai-Mai activity of the province is concentrated further north. Insecurity is criminal in nature (armed robbery, people in fake uniforms) and concentrated in the border city of Kasumbalesa, where the PNC holds a permanent presence under the city mayor and has run reinforced alerts. Sakania town, Mokambo and the rural villages along the Zambian border are under ordinary state administration, with the PNC as the main force of order and FARDC/border services at the crossings.",
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://actualite.cd/2024/12/16/haut-katanga-face-la-recrudescence-de-linsecurite-urbaine-la-police-lance-lalerte",
+   "title": "Haut-Katanga : face à la recrudescence de l'insécurité urbaine, la police lance l'alerte",
+   "publisher": "Actualite.cd",
+   "date": "2024-12-16"
+  },
+  {
+   "id": "s2",
+   "url": "https://actualite.cd/2022/06/08/insecurite-kasumbalesa-le-maire-kapampa-interdit-le-port-des-tenues-similaires-celles-de",
+   "title": "Insécurité à Kasumbalesa : le maire Kapampa interdit le port des tenues similaires à celles de l'armée et de la police",
+   "publisher": "Actualite.cd",
+   "date": "2022-06-08"
+  },
+  {
+   "id": "s3",
+   "url": "https://en.wikipedia.org/wiki/Sakania_Territory",
+   "title": "Sakania Territory",
+   "publisher": "Wikipedia",
+   "date": null
+  }
+ ],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Kasumbalesa city (GRID3 'Sakania' settlement at -12.24, 27.79) and its neighbourhoods on the Zambian border",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "area_report",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Kasumbalesa is a state-administered border city with a mayor and a permanent PNC deployment; reported insecurity is armed crime, including people in fake military/police uniforms, answered by police alerts. No armed group is reported to control any neighbourhood.",
+   "source_ids": [
+    "s1",
+    "s2"
+   ]
+  },
+  {
+   "zone_id": "z2",
+   "description": "Sakania town, Mokambo, and the rural villages of Sakania territory (Mwenda, Kakyelo, Kipusha, Kitotwe areas)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "No armed-group activity reported in Sakania territory in recent sources; Mai-Mai/Bakata Katanga activity in Haut-Katanga is in the north of the province. The PNC under territorial administration is the default force of order, with FARDC and border services at crossings such as Mokambo.",
+   "source_ids": [
+    "s1",
+    "s3"
+   ]
+  }
+ ],
+ "locations": {
+  "cod-35LNG8447_1": "z1",
+  "cod-35LPF6889_1": "z2",
+  "cod-35LPG4625_1": "z2",
+  "cod-35LPG7159_1": "z2",
+  "cod-35LQG8037_2": "z2",
+  "cod-35LPG0544_1": "z2",
+  "cod-35LQF0744_1": "z2",
+  "cod-35LQG7423_1": "z2",
+  "cod-35LQG8232_1": "z2",
+  "cod-35LQF6668_1": "z2",
+  "cod-35LQF6983_1": "z2",
+  "cod-35LNG9770_1": "z2",
+  "cod-35LQG9646_1": "z2",
+  "cod-35LPG8773_2": "z2",
+  "cod-35LPG8874_1": "z2",
+  "cod-35LQG7702_1": "z2",
+  "cod-35LNG8447_1-sx1PZHJKssK": "z1",
+  "cod-35LNG8447_1-kkDkVkOQPai": "z1",
+  "cod-35LNG8447_1-qRv2woPhgos": "z1",
+  "cod-35LNG8447_1-R2BnUueX6K6": "z1",
+  "cod-35LNG8447_1-CQHSTmB4LHq": "z1",
+  "cod-35LNG8447_1-FuPSIukC9Np": "z1",
+  "cod-35LNG8447_1-UghKIFSGQiK": "z1",
+  "cod-35LNG8447_1-CA3ccrCmftN": "z1",
+  "cod-35LNG8447_1-GU1nEWZ2wC4": "z1",
+  "cod-35LNG8447_1-IrBxGkJFmKs": "z1"
+ }
+}

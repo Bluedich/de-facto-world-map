@@ -1,0 +1,93 @@
+{
+ "unit_id": "CD8205-miabi",
+ "as_of": "2026-10-01",
+ "summary": "Miabi territory (secteurs Miabi and Cilundu), immediately west of Mbuji-Mayi in Kasaï-Oriental, has no known armed-group territorial control. Kamuina Nsapu-linked violence of 2016-2017 was centred in Kasaï-Central and Kasaï and had faded by 2018; residual insecurity here consists of banditry, customary/land disputes and incidents around artisanal diamond mining. The state's permanent coercive presence is the PNC (territorial commissariat in Miabi centre and police posts in larger villages), with the FARDC not running the area. Live web research was unavailable in this run (search budget exhausted), so the assessment relies on background knowledge and the default-state-presence rule, with limited confidence.",
+ "sources": [],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Miabi, territorial chef-lieu (Miabi health zone, Central 2)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    },
+    {
+     "entity_id": "cod-anr",
+     "role": "present"
+    }
+   ],
+   "evidence": "Territorial administrative centre with territorial administrator, PNC commissariat and ANR office; no reports of armed-group control in Miabi territory since the end of the Kamuina Nsapu crisis. Insecurity limited to banditry and mining-related incidents.",
+   "source_ids": []
+  },
+  {
+   "zone_id": "z2",
+   "description": "Rural villages of secteurs Miabi and Cilundu (Miabi and Cilundu health zones)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [],
+   "evidence": "No known armed-group presence; rural order is maintained by customary chiefs with PNC posts at secteur/groupement level. Occasional land/customary conflicts and banditry do not amount to non-state control.",
+   "source_ids": []
+  }
+ ],
+ "locations": {
+  "cod-34MGT7094_1": "z2",
+  "cod-34MGT7690_2": "z2",
+  "cod-34MGT4882_1": "z2",
+  "cod-34MGU4707_1": "z2",
+  "cod-34MGT4690_1": "z2",
+  "cod-34MGT4778_1": "z2",
+  "cod-34MGT5095_1": "z2",
+  "cod-34MGT5283_1": "z2",
+  "cod-34MGT5786_1": "z2",
+  "cod-34MGT6883_1": "z2",
+  "cod-34MGU4504_1": "z2",
+  "cod-34MGT6477_1": "z2",
+  "cod-34MGT4772_1": "z2",
+  "cod-34MGT6295_1": "z2",
+  "cod-34MGT5898_1": "z2",
+  "cod-34MGU5400_2": "z2",
+  "cod-34MGT5498_1": "z2",
+  "cod-34MGT4090_1": "z2",
+  "cod-34MGT4897_1": "z2",
+  "cod-34MGT7186_1": "z2",
+  "cod-34MGT6486_1": "z2",
+  "cod-34MGT4583_1": "z2",
+  "cod-34MGT5890_1": "z2",
+  "cod-34MGU4818_2": "z2",
+  "cod-34MGT4991_1": "z2",
+  "cod-34MGT4797_1": "z2",
+  "cod-34MGU4503_1": "z2",
+  "cod-34MGU4722_1": "z2",
+  "cod-34MGT6192_1": "z2",
+  "cod-34MGT6986_1": "z2",
+  "cod-34MGT4873_1": "z2",
+  "cod-34MGT6496_3": "z2",
+  "cod-34MGT6179_1": "z2",
+  "cod-34MGT5197_1": "z2",
+  "cod-34MGT4599_1": "z2",
+  "cod-34MGT5698_1": "z2",
+  "cod-34MGT6686_1": "z2",
+  "cod-34MGT6091_1": "z2",
+  "cod-34MGU5706_2": "z2",
+  "cod-34MGU6513_1": "z1",
+  "cod-34MGU5829_1": "z2",
+  "cod-34MGU6007_1": "z2",
+  "cod-34MGU6209_1": "z2",
+  "cod-34MGU5415_1": "z2",
+  "cod-34MGU6303_2": "z2",
+  "cod-34MGU5306_1": "z2",
+  "cod-34MGU6103_3": "z2",
+  "cod-34MGU5402_1": "z2",
+  "cod-34MGU5505_2": "z2"
+ }
+}

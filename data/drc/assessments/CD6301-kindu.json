@@ -1,0 +1,90 @@
+{
+ "unit_id": "CD6301-kindu",
+ "as_of": "2026-10-01",
+ "summary": "Kindu is the capital of Maniema province, far west of the eastern Kivu frontlines, and has no reported armed-group control. The city (communes of Kindu, Kasuku and Alunguli) is policed by the PNC with a substantial FARDC garrison (regional military command, airport base) and ANR/provincial institutions present. Peri-urban villages around the city (Lwama, Lokala, Odimba, Tomenga, Matungulu 7 Km, etc.) are assumed to be under the same state police presence. Web research for this unit was blocked (search budget exhausted, news sites egress-blocked), so the assessment rests on default state presence and background knowledge; confidence is limited accordingly.",
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://en.wikipedia.org/wiki/Kindu",
+   "title": "Kindu",
+   "publisher": "Wikipedia",
+   "date": null
+  }
+ ],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Kindu city: communes of Kindu/Kasuku and Alunguli, all health-area neighbourhoods (Lwama, Tokolote, Mikelenge, Rva, Brazza, Lumbulumbu, Kasuku 1-2, Basoko, Trois Z, Katako, Alunguli, Kama 2, Sokolo, Mangobo, Kamikunga, Mizeituni, Mikonde, Kasenga)",
+   "controller_id": "cod-pnc",
+   "status": "exclusive",
+   "confidence": "medium",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    },
+    {
+     "entity_id": "cod-anr",
+     "role": "present"
+    }
+   ],
+   "evidence": "Provincial capital with full state administration, police and an FARDC garrison; no armed group is reported to hold or tax any part of the city. Day-to-day order and arrests are handled by the PNC. Research for this unit could not be performed (tools blocked), so this rests on default state presence.",
+   "source_ids": [
+    "s1"
+   ]
+  },
+  {
+   "zone_id": "z2",
+   "description": "Peri-urban villages of Kindu ville outside the urban core (Non/Kimbangu, Lokala, Faba, Odimba, Lwama villages, Tomenga, Matungulu 7 Km)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Villages within a few km of the provincial capital with no reported armed-group activity; assumed under the police/administration of Kindu ville. Not verified by recent reporting.",
+   "source_ids": [
+    "s1"
+   ]
+  }
+ ],
+ "locations": {
+  "cod-35MLS7874_1": "z1",
+  "cod-35MLS7471_1": "z2",
+  "cod-35MLS6870_3": "z2",
+  "cod-35MLS7683_1": "z2",
+  "cod-35MLS7181_1": "z2",
+  "cod-35MLS7475_1": "z2",
+  "cod-35MLS7179_2": "z2",
+  "cod-35MLS7574_1": "z2",
+  "cod-35MLS7874_1-GYdSk33lDgd": "z1",
+  "cod-35MLS7874_1-ucKPh3wvqjj": "z1",
+  "cod-35MLS7874_1-cZRud0qyGR5": "z1",
+  "cod-35MLS7874_1-QglD0CXzSuD": "z1",
+  "cod-35MLS7874_1-ZOPt0rIRNlt": "z1",
+  "cod-35MLS7874_1-HRFk9VXXuw6": "z1",
+  "cod-35MLS7874_1-pReoOKRpkm2": "z1",
+  "cod-35MLS7874_1-es3xKEsiiHu": "z1",
+  "cod-35MLS7874_1-ht4nagrEkGs": "z1",
+  "cod-35MLS7874_1-TDXJvxXGIHC": "z1",
+  "cod-35MLS7874_1-R2QJoDJDhVr": "z1",
+  "cod-35MLS8272_1": "z1",
+  "cod-35MLS8267_1": "z2",
+  "cod-35MLS8272_1-uwx3p0XR006": "z1",
+  "cod-35MLS8272_1-FPT8N3yaJa9": "z1",
+  "cod-35MLS8272_1-ZbiS26LPF2L": "z1",
+  "cod-35MLS8272_1-PimlPriCVto": "z1",
+  "cod-35MLS8272_1-aGNDCp4aMZi": "z1",
+  "cod-35MLS8272_1-IDuuBvkjkUD": "z1",
+  "cod-35MLS8272_1-dW77ToVUqqh": "z1",
+  "cod-35MLS8272_1-evIK4rX2WUq": "z1"
+ }
+}

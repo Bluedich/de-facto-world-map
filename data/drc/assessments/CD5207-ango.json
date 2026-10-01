@@ -1,0 +1,181 @@
+{
+ "unit_id": "CD5207-ango",
+ "as_of": "2026-10-01",
+ "summary": "Ango territory (Bas-Uele) borders the Central African Republic and is not occupied by any armed group as of late 2026. The Congolese state (territorial administration, PNC, thin FARDC deployments) remains the main armed authority in towns such as Banda, Digba, Dakwa and Bazunga. Insecurity takes the form of hit-and-run cross-border raids and abductions by LRA remnants and CAR Seleka factions, sometimes with armed Mbororo herders, notably the April 2026 abduction of 13-20 children in Sasa/Zapayi when FARDC were temporarily withdrawn to Ango-centre. Border villages in the north are assessed as FARDC-secured with low confidence; other rural areas default to state presence.",
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.radiookapi.net/2026/04/07/actualite/securite/treize-enfants-enleves-lors-dune-incursion-des-rebelles-de-la-lra-au",
+   "title": "Treize enfants enlevés lors d'une incursion des rebelles de la LRA au Bas-Uele",
+   "publisher": "Radio Okapi",
+   "date": "2026-04-07"
+  },
+  {
+   "id": "s2",
+   "url": "https://actualite.cd/2026/04/11/bas-uele-13-enfants-enleves-ango-la-deputee-grace-neema-se-mobilise-pour-une-reponse",
+   "title": "Bas-Uele : 13 enfants enlevés à Ango, la députée Grâce Neema se mobilise pour une réponse immédiate",
+   "publisher": "Actualite.cd",
+   "date": "2026-04-11"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.congo-press.com/provinces/bas-uele-20-enfants-enleves-a-ango-la-societe-civile-accuse-la-lra/",
+   "title": "Bas-Uele : 20 enfants enlevés à Ango, la société civile accuse la LRA",
+   "publisher": "MediaCongo Press",
+   "date": "2026-04"
+  },
+  {
+   "id": "s4",
+   "url": "https://actualite.cd/2024/10/11/bas-uele-une-nouvelle-incursion-des-rebelles-de-la-seleka-ango",
+   "title": "Bas-Uele: une nouvelle incursion des rebelles de la Seleka à Ango",
+   "publisher": "Actualite.cd",
+   "date": "2024-10-11"
+  },
+  {
+   "id": "s5",
+   "url": "https://actualite.cd/2024/06/03/rdc-des-rebelles-centrafricains-signales-dans-les-territoires-dango-et-de-bondo",
+   "title": "RDC: des rebelles centrafricains signalés dans les territoires d'Ango et de Bondo",
+   "publisher": "Actualite.cd",
+   "date": "2024-06-03"
+  },
+  {
+   "id": "s6",
+   "url": "https://www.congoresearchgroup.org/fr/2023/05/25/qui-se-cache-derriere-les-enlevements-au-bas-uele/",
+   "title": "Qui se cache derrière les enlèvements au Bas-Uélé ?",
+   "publisher": "Congo Research Group",
+   "date": "2023-05-25"
+  }
+ ],
+ "new_entities": [
+  {
+   "id": "lra",
+   "type": "rebel_group",
+   "parent_id": null,
+   "description": "Lord's Resistance Army - Ugandan-origin rebel group whose remnants raid and abduct in Bas-Uele/Haut-Uele from bases in CAR.",
+   "name": "Lord's Resistance Army (LRA)"
+  },
+  {
+   "id": "car-seleka",
+   "type": "armed_group",
+   "parent_id": null,
+   "description": "Ex-Seleka Central African armed factions (e.g. UPC elements) making cross-border incursions into Bas-Uele.",
+   "name": "Ex-Seleka CAR armed factions"
+  }
+ ],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Main towns/centres of Ango territory: Banda, Bazunga (Baepulu area), Digba, Dakwa",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "area_report",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    },
+    {
+     "entity_id": "lra",
+     "role": "raiding"
+    },
+    {
+     "entity_id": "car-seleka",
+     "role": "raiding"
+    }
+   ],
+   "evidence": "Ango territory remains under state administration; FARDC units are based at centres (in April 2026 units were recalled to Ango-centre for biometric control) and police/administration operate in the main towns. Insecurity consists of cross-border raids and kidnappings by LRA remnants and CAR Seleka elements (with alleged Mbororo complicity), not territorial occupation.",
+   "source_ids": [
+    "s1",
+    "s2",
+    "s5",
+    "s6"
+   ]
+  },
+  {
+   "zone_id": "z2",
+   "description": "Northern villages near the CAR border (Assa health area: Sukadi, Gwane; Ndamana: Hilo; Bokoyo: Nasikisa)",
+   "controller_id": "cod-fardc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "inference",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "lra",
+     "role": "raiding"
+    },
+    {
+     "entity_id": "car-seleka",
+     "role": "raiding"
+    }
+   ],
+   "evidence": "Border zone exposed to repeated incursions of LRA and Seleka/CAR armed elements coming via Zemio and Mboki; FARDC detachments deployed in border villages are the main security presence, but their temporary withdrawal (April 2026) allowed LRA abductions in Sasa/Zapayi. No armed group is reported to hold villages permanently.",
+   "source_ids": [
+    "s1",
+    "s2",
+    "s3",
+    "s5"
+   ]
+  },
+  {
+   "zone_id": "z3",
+   "description": "Other rural villages of Ango territory (Ezo/Mugalie area, Samungu, Bandueli, Bayule, Mbibili, Api, Disolo, Zamoy, Mainika, and Poko-health-zone villages Bosso, Makpangi)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    },
+    {
+     "entity_id": "lra",
+     "role": "raiding"
+    },
+    {
+     "entity_id": "car-seleka",
+     "role": "raiding"
+    }
+   ],
+   "evidence": "No reports of armed-group control; area under nominal state administration with thin police/FARDC presence. Sporadic raids occur (e.g. Seleka incursion at Dikuma and Mugalie, Ezo chefferie, Oct 2024) but attackers withdraw.",
+   "source_ids": [
+    "s4",
+    "s6"
+   ]
+  }
+ ],
+ "locations": {
+  "cod-35NNE0761_1": "z1",
+  "cod-35NLE7245_1": "z1",
+  "cod-35NLE6587_1": "z1",
+  "cod-35NME3642_1": "z1",
+  "cod-35NKF9451_2": "z2",
+  "cod-35NNE0958_1": "z3",
+  "cod-35NLE3617_1": "z3",
+  "cod-35NLF7010_1": "z2",
+  "cod-35NME5575_1": "z3",
+  "cod-35NME9216_1": "z3",
+  "cod-35NME8259_5": "z3",
+  "cod-35NME8058_1": "z3",
+  "cod-35NME1931_1": "z3",
+  "cod-35NME9878_2": "z3",
+  "cod-35NME1135_2": "z3",
+  "cod-35NMF8536_1": "z2",
+  "cod-35NME5272_2": "z3",
+  "cod-35NLE4222_1": "z3",
+  "cod-35NLF6822_1": "z2",
+  "cod-35NNE0041_1": "z3",
+  "cod-35NME5356_1": "z3",
+  "cod-35NNE1628_1": "z3",
+  "cod-35NME0612_2": "z3",
+  "cod-35NLD2092_1": "z3",
+  "cod-35NME8715_1": "z3",
+  "cod-35NLE6589_1": "z3",
+  "cod-35NME3440_1": "z3",
+  "cod-35NME3541_1": "z3"
+ }
+}

@@ -1,0 +1,132 @@
+{
+ "unit_id": "CD4108-bolomba",
+ "as_of": "2026-10-01",
+ "summary": "Bolomba territory (Equateur) lies far from the eastern and Mai-Ndombe/Kwamouth conflict zones and has no reported armed-group presence or territorial control in 2025-2026. State authority is exercised mainly through the Congolese National Police (PNC) at the territory seat Bolomba and in secteur/post centres (Mampoko, Monieka, Bokote); in July 2026 Grand Equateur MPs complained of police harassment in Bolomba, which reflects abusive but present policing rather than a challenge to state control. FARDC presence is light. Rural villages across the Bolomba, Lolanga-Mampoko and Monieka secteurs are assessed as default state (PNC) presence.",
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.congoquotidien.com/2026/07/19/echange-guillaume-ngefa-parlementaires-grand-equateur/",
+   "title": "Justice au Grand Équateur : Guillaume Ngefa saisi des blocages judiciaires et sécuritaires",
+   "publisher": "Congo Quotidien",
+   "date": "2026-07-19"
+  },
+  {
+   "id": "s2",
+   "url": "https://en.wikipedia.org/wiki/Bolomba_Territory",
+   "title": "Bolomba Territory",
+   "publisher": "Wikipedia",
+   "date": null
+  }
+ ],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Bolomba town (territory seat, health area Bolomba: Mangeli, Likubu, Elombe, Mondjo, Piquet)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "area_report",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Bolomba is the territory administrative seat with state administration and police; Grand Equateur MPs in July 2026 denounced police harassment in Bolomba, confirming a permanent PNC presence. No armed group activity reported.",
+   "source_ids": [
+    "s1",
+    "s2"
+   ]
+  },
+  {
+   "zone_id": "z2",
+   "description": "Rest of Bolomba territory: villages of Bolomba, Lolanga-Mampoko and Monieka secteurs (incl. Bompenza/Mampoko, Monieka, Bokote, Bogbonga, Loanga)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [],
+   "evidence": "No reported armed-group activity in the territory in 2025-2026 searches; order is kept by local police posts and customary authorities under the state. Assessed as default state presence.",
+   "source_ids": [
+    "s1"
+   ]
+  }
+ ],
+ "locations": {
+  "cod-34NCF0339_1": "z1",
+  "cod-34NCF0894_2": "z2",
+  "cod-34NCG0609_1": "z2",
+  "cod-34NBF6241_1": "z2",
+  "cod-34NCF1280_1": "z2",
+  "cod-34NCF0451_1": "z2",
+  "cod-34NCG0704_1": "z2",
+  "cod-34NCF0346_1": "z1",
+  "cod-34NBG9514_1": "z2",
+  "cod-34NCF0903_2": "z2",
+  "cod-34NBF6742_1": "z2",
+  "cod-34NCF0554_1": "z2",
+  "cod-34NBF8715_2": "z2",
+  "cod-34NCG0812_1": "z2",
+  "cod-34NBF7550_1": "z2",
+  "cod-34NBF8159_1": "z2",
+  "cod-34NCF0448_1": "z1",
+  "cod-34NCF0898_2": "z2",
+  "cod-34NCF0656_1": "z2",
+  "cod-34MCE3090_1": "z2",
+  "cod-34NCF1640_1": "z2",
+  "cod-34NCG0605_1": "z2",
+  "cod-34NCG1014_1": "z2",
+  "cod-34NCF0739_1": "z1",
+  "cod-34NBF7949_1": "z2",
+  "cod-34NCF2041_3": "z2",
+  "cod-34NBF8229_1": "z2",
+  "cod-34NCF1389_1": "z2",
+  "cod-34NBF5908_1": "z2",
+  "cod-34NBF8827_1": "z2",
+  "cod-34NBF4137_1": "z2",
+  "cod-34NBF6344_1": "z2",
+  "cod-34NCF1484_1": "z2",
+  "cod-34NCF0863_1": "z2",
+  "cod-34NBG9813_1": "z2",
+  "cod-34NCF1339_1": "z2",
+  "cod-34NCG0214_1": "z2",
+  "cod-34MCE0288_1": "z2",
+  "cod-34NBF3132_1": "z2",
+  "cod-34NBF6442_1": "z2",
+  "cod-34MCE1889_1": "z2",
+  "cod-34NBF8664_1": "z2",
+  "cod-34NBF9367_1": "z2",
+  "cod-34NBG9215_1": "z2",
+  "cod-34NCF0242_1": "z1",
+  "cod-34NBF8602_1": "z2",
+  "cod-34MCE2792_1": "z2",
+  "cod-34NBF0971_1": "z2",
+  "cod-34NBF4195_1": "z2",
+  "cod-34NCG0324_1": "z2",
+  "cod-34NBG8722_1": "z2",
+  "cod-34NBF0868_1": "z2",
+  "cod-34NBF6291_1": "z2",
+  "cod-34NBG6114_1": "z2",
+  "cod-34NBG9017_1": "z2",
+  "cod-34NCG0725_1": "z2",
+  "cod-34NBG5300_1": "z2",
+  "cod-34NBF6691_1": "z2",
+  "cod-34NBF1475_1": "z2",
+  "cod-34NBF7690_1": "z2",
+  "cod-34NBF5591_1": "z2",
+  "cod-34NCG0625_1": "z2",
+  "cod-34NBF0236_1": "z2",
+  "cod-34NBF2787_1": "z2",
+  "cod-34NBF6397_2": "z2",
+  "cod-34NBF4798_1": "z2",
+  "cod-34NCG2539_1": "z2",
+  "cod-34NBF5093_1": "z2",
+  "cod-34MDE1176_2": "z2",
+  "cod-34MCE9476_1": "z2",
+  "cod-34MCE8678_1": "z2",
+  "cod-34MCE5193_1": "z2"
+ }
+}

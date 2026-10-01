@@ -1,0 +1,119 @@
+{
+ "unit_id": "CD6305-lubutu",
+ "as_of": "2026-10-01",
+ "summary": "Lubutu territory (northeastern Maniema) sits on the Kisangani–Lubutu–Walikale national road (RN3), behind the FARDC/Wazalendo defensive line that formed west of Walikale after the AFC/M23 offensive of early 2025; no report available to this run shows AFC/M23 or any other armed group holding a town in the territory. Lubutu town, the territorial seat, is assessed as PNC-policed with an FARDC garrison/rear base, ANR and territorial administration. Villages along the Kisangani road and in the Obokote secteur/health zone are assessed under default state presence. The eastern villages near the Walikale border (Bitule, Mungele, Osso health areas) lie on the RN3 approach to the frontline, where FARDC and allied Wazalendo/Mai-Mai units circulate and indiscipline/extortion by armed men is likely; they are assessed as FARDC-dominated with low confidence. Web research was blocked for this unit (search budget exhausted, news sites egress-blocked), so the whole assessment rests on default state presence and background knowledge.",
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://en.wikipedia.org/wiki/Lubutu_Territory",
+   "title": "Lubutu Territory",
+   "publisher": "Wikipedia",
+   "date": null
+  }
+ ],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Lubutu town (cité, Lubutu health zone), territorial seat on the RN3",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    },
+    {
+     "entity_id": "cod-anr",
+     "role": "present"
+    },
+    {
+     "entity_id": "cod-wazalendo",
+     "role": "present"
+    }
+   ],
+   "evidence": "Territorial capital with state administration, police commissariat and FARDC presence (rear area for the Walikale front since 2025); no armed group is known to hold or tax the town. Not verified with recent reporting because web research was blocked.",
+   "source_ids": [
+    "s1"
+   ]
+  },
+  {
+   "zone_id": "z2",
+   "description": "Central/western Lubutu secteur villages along the Kisangani road and northern axes (Kabakaba, Elimu, Amankoyola, Twabinga, Mundo, Mengwe, Pene Aluta, Kawe, Mukwanyama, Okoku, Obosango) and Obokote secteur/health zone incl. Obokote centre, Omauwa, Mangandu, Utiakumanga, Tshamaka, Ntufia, Penendjali",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Villages west of Lubutu town and south toward Punia with no armed-group control known to this assessment; assumed under PNC posts and customary/administrative authority with FARDC movements on the RN3. Not verified by recent reporting (research blocked).",
+   "source_ids": []
+  },
+  {
+   "zone_id": "z3",
+   "description": "Eastern Lubutu secteur on the RN3 toward Walikale: Bitule, Mungele (Fundi), Osso (Otiamuli, Kingombe) health areas",
+   "controller_id": "cod-fardc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "inference",
+   "since": "2025-03",
+   "presence": [
+    {
+     "entity_id": "cod-wazalendo",
+     "role": "allied"
+    },
+    {
+     "entity_id": "cod-pnc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Villages on the Lubutu–Walikale road closest to the North Kivu border, behind the frontline established after AFC/M23 reached Walikale in March 2025; the military (FARDC with Wazalendo auxiliaries) is assumed to be the main armed presence on this axis. No report available to this run shows M23 or an autonomous militia holding these villages; recent reporting could not be checked.",
+   "source_ids": []
+  }
+ ],
+ "locations": {
+  "cod-35MMV5317_1": "z1",
+  "cod-35MMV1807_1": "z2",
+  "cod-35MMV7007_2": "z2",
+  "cod-35MNU3086_1": "z3",
+  "cod-35MMV6510_1": "z2",
+  "cod-35MNU0394_1": "z3",
+  "cod-35MNU1788_1": "z3",
+  "cod-35MMV8702_1": "z2",
+  "cod-35MNU1288_1": "z3",
+  "cod-35MMV4215_1": "z2",
+  "cod-35MMV3613_1": "z2",
+  "cod-35MMV1452_1": "z2",
+  "cod-35MMV6351_1": "z2",
+  "cod-35MMV2807_2": "z2",
+  "cod-35MMV4827_1": "z2",
+  "cod-35MMV9201_1": "z2",
+  "cod-35MMV5737_2": "z2",
+  "cod-35MMV5828_1": "z2",
+  "cod-35MMV3915_1": "z2",
+  "cod-35MMV4615_1": "z2",
+  "cod-35MMV4034_2": "z2",
+  "cod-35MNU2388_1": "z3",
+  "cod-35MMV5722_1": "z2",
+  "cod-35MMU1768_1": "z2",
+  "cod-35MMU5347_1": "z2",
+  "cod-35MMU1665_1": "z2",
+  "cod-35MNU0875_1": "z3",
+  "cod-35MMU5448_1": "z2",
+  "cod-35MMU2088_2": "z2",
+  "cod-35MMU1577_1": "z2",
+  "cod-35MMU2390_2": "z2",
+  "cod-35MMU8566_1": "z2",
+  "cod-35MMU1771_1": "z2",
+  "cod-35MMU1987_2": "z2",
+  "cod-35MMU1575_1": "z2"
+ }
+}

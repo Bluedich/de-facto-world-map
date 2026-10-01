@@ -1,0 +1,320 @@
+{
+ "unit_id": "CD7108-mitwaba",
+ "as_of": "2026-10-01",
+ "summary": "Mitwaba territory (Haut-Katanga) is the historic heartland of the Bakata Katanga / Mai-Mai Kata Katanga insurgency and an FARDC operations zone. In 2025-2026 Mai-Mai attacks resumed: an attack on an FARDC position at Kasungeshi (Jan 2025), the attack on the Upemba National Park station at Lusinga (3 Mar 2026, also claimed by the new MDKC movement), an incursion at Nkonga 35 km from Mitwaba-centre (19 Mar 2026), the attack on the FARDC cantonment at Kyubo-Mamba (1 Aug 2026, 10 dead) and an attack on Kisanji village reported by the government in Sept 2026. In every reported case the FARDC repelled the attackers and retained or regained the localities; no source reports durable Mai-Mai administration of a town. The state (FARDC as main force, PNC in Mitwaba-centre and Mufunga) is therefore assessed in control of the settlements, with Bakata Katanga groups raiding from the bush/Upemba park and contesting remote northern areas. The southern Mufunga-Sampwe chefferie toward Lubumbashi is calmer and assessed as default state presence, except the Kyubo/Mamba garrison area.",
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://actualite.cd/2026/08/05/haut-katanga-le-bilan-de-lattaque-des-mai-mai-kyubo-passe-10-morts",
+   "title": "Haut-Katanga : le bilan de l'attaque des Maï-Maï à Kyubo passe à 10 morts",
+   "publisher": "Actualite.cd",
+   "date": "2026-08-05"
+  },
+  {
+   "id": "s2",
+   "url": "https://fr.allafrica.com/stories/202608030867.html",
+   "title": "Huit morts dans une attaque attribuée à des miliciens Maï-Maï contre un cantonnement des FARDC à Mitwaba",
+   "publisher": "AllAfrica / Radio Okapi",
+   "date": "2026-08-03"
+  },
+  {
+   "id": "s3",
+   "url": "https://actualite.cd/2026/03/20/rdc-larmee-repousse-une-incursion-des-mai-mai-nkonga-dans-le-territoire-de-mitwaba",
+   "title": "RDC : l'armée repousse une incursion des Maï-Maï à Nkonga, dans le territoire de Mitwaba",
+   "publisher": "Actualite.cd",
+   "date": "2026-03-20"
+  },
+  {
+   "id": "s4",
+   "url": "https://alertenews.net/2026/03/21/haut-katanga-la-situation-securitaire-au-village-konga-dans-le-territoire-de-mitwaba-est-sous-controle-des-fardc-apres-une-tentative-dattaque-des-mai-mai/",
+   "title": "Haut-Katanga : la situation sécuritaire au village Konga est sous contrôle des FARDC après une tentative d'attaque des Maï-Maï",
+   "publisher": "Alerte News",
+   "date": "2026-03-21"
+  },
+  {
+   "id": "s5",
+   "url": "https://fr.allafrica.com/stories/202603050173.html",
+   "title": "Haut-Katanga - Calme précaire à la station de Lusinga après une incursion de miliciens Maï-Maï",
+   "publisher": "AllAfrica / Radio Okapi",
+   "date": "2026-03-05"
+  },
+  {
+   "id": "s6",
+   "url": "https://actualite.cd/2026/09/12/grand-katanga-le-spectre-mai-mai-ressurgit-mitwaba-et-malemba-nkulu-alerte-le",
+   "title": "Grand Katanga : le spectre Maï-Maï ressurgit à Mitwaba et Malemba-Nkulu, alerte le gouvernement",
+   "publisher": "Actualite.cd",
+   "date": "2026-09-12"
+  },
+  {
+   "id": "s7",
+   "url": "https://7sur7.cd/2025/01/07/haut-katanga-2-miliciens-tues-par-larmee-lors-dune-incursion-mitwaba",
+   "title": "Haut-Katanga : 2 miliciens tués par l'armée lors d'une incursion à Mitwaba",
+   "publisher": "7sur7.cd",
+   "date": "2025-01-07"
+  },
+  {
+   "id": "s8",
+   "url": "https://www.ujasusi.com/p/mdkc-drc-katanga-rebel-movement-lusinga-intelligence-brief",
+   "title": "MDKC: What to Know About the New Rebel Group in DRC",
+   "publisher": "Ujasusi",
+   "date": "2026-03"
+  },
+  {
+   "id": "s9",
+   "url": "https://www.congoquotidien.com/2026/04/20/securisation-nkonga-mitwaba-fardc-haut-katanga/",
+   "title": "Nkonga : les FARDC reprennent le contrôle, mais la peur reste à Mitwaba",
+   "publisher": "Congo Quotidien",
+   "date": "2026-04-20"
+  },
+  {
+   "id": "s10",
+   "url": "https://7sur7.cd/2026/04/16/haut-katanga-des-habitants-de-mitwaba-appeles-se-desolidariser-des-mouvements",
+   "title": "Haut-Katanga : des habitants de Mitwaba appelés à se désolidariser des mouvements insurrectionnels (Gouverneur)",
+   "publisher": "7sur7.cd",
+   "date": "2026-04-16"
+  },
+  {
+   "id": "s11",
+   "url": "https://www.congoquotidien.com/2026/09/12/mai-mai-mitwaba-malemba-nkulu/",
+   "title": "Maï-Maï : regain d'attaques à Mitwaba et Malemba-Nkulu",
+   "publisher": "Congo Quotidien",
+   "date": "2026-09-12"
+  }
+ ],
+ "new_entities": [
+  {
+   "id": "mdkc",
+   "name": "Mouvement Débout Katanga pour la Libération du Congo (MDKC)",
+   "type": "militia",
+   "parent_id": null,
+   "description": "Katangese separatist armed movement that surfaced in March 2026 claiming the capture of Lusinga (Upemba NP, Mitwaba); overlaps with Bakata Katanga Mai-Mai networks; no confirmed durable territorial control."
+  }
+ ],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Mitwaba-centre (territory HQ: Mission, Makanda, Kananda)",
+   "controller_id": "cod-fardc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "area_report",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-pnc",
+     "role": "present"
+    },
+    {
+     "entity_id": "bakata-katanga",
+     "role": "raiding"
+    }
+   ],
+   "evidence": "Territory administrative seat in an FARDC operations zone against Bakata Katanga; the army is the main force repelling incursions nearby (Nkonga, 35 km, Mar 2026) and the governor visited to rally residents in 2026, with PNC and territorial administration functioning in town. No report of militia control of the town.",
+   "source_ids": [
+    "s3",
+    "s6",
+    "s10"
+   ]
+  },
+  {
+   "zone_id": "z2",
+   "description": "Recently attacked localities held by FARDC: Nkonga health area (Nkonga, Lunguzi, Watupempe), Lusinga health area near Upemba NP station (Kisandi), Kasungeshi (Daniel 2)",
+   "controller_id": "cod-fardc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "specific_report",
+   "since": "2026-03",
+   "presence": [
+    {
+     "entity_id": "bakata-katanga",
+     "role": "raiding"
+    },
+    {
+     "entity_id": "mdkc",
+     "role": "raiding"
+    }
+   ],
+   "evidence": "Mai-Mai attacked the FARDC position at Kasungeshi (6 Jan 2025) and the Upemba park HQ at Lusinga (3 Mar 2026, claimed by MDKC) and Nkonga (19 Mar 2026); each time FARDC repelled them and conducted sweep operations, with Nkonga reported back under full FARDC control by April 2026.",
+   "source_ids": [
+    "s3",
+    "s4",
+    "s5",
+    "s7",
+    "s8",
+    "s9"
+   ]
+  },
+  {
+   "zone_id": "z3",
+   "description": "Remote northern and eastern Mitwaba secteur (Kintya, Tompwe, Mwema, Kisele, Kabambe, Kwiyongo, Dilenge, Kansowe, Mubidi, Kabanda health areas) toward Upemba NP, Malemba-Nkulu, Manono and Pweto",
+   "controller_id": "cod-fardc",
+   "status": "contested",
+   "confidence": "low",
+   "basis": "inference",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "bakata-katanga",
+     "role": "contesting"
+    }
+   ],
+   "evidence": "Bush areas of the historic Bakata Katanga 'triangle' where Mai-Mai groups move and attack (renewed attacks reported in Mitwaba in Sept 2026, e.g. Kisanji); state presence is thin and mainly military. No specific report of who holds these villages, so FARDC nominal control contested by Bakata Katanga is assumed.",
+   "source_ids": [
+    "s6",
+    "s11",
+    "s5"
+   ]
+  },
+  {
+   "zone_id": "z4",
+   "description": "Southern Mitwaba secteur along the Mitwaba–Mufunga road (Kilenge, Mukendi/Mufunga, Mukana, Muvule, Mumbolo, Kibula, Muombe, Nsokelwa, Kanshimba, Mwalamuna, Lwishi)",
+   "controller_id": "cod-fardc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "area_report",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-pnc",
+     "role": "present"
+    },
+    {
+     "entity_id": "bakata-katanga",
+     "role": "raiding"
+    }
+   ],
+   "evidence": "Villages on the main supply axis between Mitwaba-centre and Mufunga-Sampwe, inside the FARDC operations zone; Mai-Mai attacks in 2025-2026 occurred at Kasungeshi and Kyubo on either side but no group is reported holding these villages.",
+   "source_ids": [
+    "s1",
+    "s7",
+    "s6"
+   ]
+  },
+  {
+   "zone_id": "z5",
+   "description": "Kyubo/Mamba garrison area (Mamba, Musabila, Kyalwe) in Mufunga-Sampwe chefferie",
+   "controller_id": "cod-fardc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "specific_report",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "bakata-katanga",
+     "role": "raiding"
+    }
+   ],
+   "evidence": "Bakata Katanga Mai-Mai attacked the FARDC cantonment at Kyubo-Mamba on 1 Aug 2026 (10 dead incl. 2 soldiers); FARDC counter-attacked and arrested ~15 suspects, retaining the locality.",
+   "source_ids": [
+    "s1",
+    "s2"
+   ]
+  },
+  {
+   "zone_id": "z6",
+   "description": "Rest of Mufunga-Sampwe chefferie toward Lubumbashi/Kasenga (Sumpwa, Toyota, Kitobo, Kalera, Tomombo, Kanfwa, Mpwaki, Dikulwe, Kimungu, Kasungami, Nsangwa, Mushiza, Katala, Kapoya, Mupanda-Mukenge)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "No reported armed-group activity in the southern chefferie in 2025-2026; Mai-Mai incidents were further north (Kyubo, Kasungeshi, Nkonga, Lusinga). Order assumed kept by PNC posts and customary authorities.",
+   "source_ids": [
+    "s6"
+   ]
+  }
+ ],
+ "locations": {
+  "cod-35LNL4112_1": "z2",
+  "cod-35LNK4765_1": "z4",
+  "cod-35LNL3746_1": "z1",
+  "cod-35LNL3843_2": "z1",
+  "cod-35LPL0383_1": "z3",
+  "cod-35LNL2691_1": "z3",
+  "cod-35LNL3069_1": "z2",
+  "cod-35LNL5481_1": "z3",
+  "cod-35LNK1364_1": "z5",
+  "cod-35LNK5494_1": "z4",
+  "cod-35LNK4866_1": "z4",
+  "cod-35LNL5550_1": "z3",
+  "cod-35LNL9684_1": "z3",
+  "cod-35LNL3337_1": "z2",
+  "cod-35LNK2278_1": "z4",
+  "cod-35LNL9979_1": "z3",
+  "cod-35LNK2285_1": "z4",
+  "cod-35LNL4958_1": "z3",
+  "cod-35LNL7964_1": "z3",
+  "cod-35LNK2893_1": "z4",
+  "cod-35LNL6555_1": "z3",
+  "cod-35LNL3301_1": "z4",
+  "cod-35LNL6804_1": "z4",
+  "cod-35LNK2182_1": "z4",
+  "cod-35LNL9287_1": "z3",
+  "cod-35LNK5293_1": "z4",
+  "cod-35LNK4691_1": "z4",
+  "cod-35LNL3650_1": "z1",
+  "cod-35LNK4586_1": "z4",
+  "cod-35LNL5263_1": "z3",
+  "cod-35LNL9270_1": "z3",
+  "cod-35LNK4070_1": "z4",
+  "cod-35LPL0786_1": "z3",
+  "cod-35LNK4788_1": "z4",
+  "cod-35LNK8269_1": "z4",
+  "cod-35LNL3173_1": "z2",
+  "cod-35LNL5825_1": "z3",
+  "cod-35LNL3177_1": "z2",
+  "cod-35LNM5801_1": "z3",
+  "cod-35LNL5480_1": "z3",
+  "cod-35LNL4957_1": "z3",
+  "cod-35LNL3994_1": "z3",
+  "cod-35LNK2114_1": "z6",
+  "cod-35LNK0446_1": "z5",
+  "cod-35LNJ6599_1": "z6",
+  "cod-35LMK8931_1": "z6",
+  "cod-35LNK0015_1": "z6",
+  "cod-35LMK6420_1": "z6",
+  "cod-35LMK3733_1": "z6",
+  "cod-35LMJ9399_1": "z6",
+  "cod-35LNK2427_1": "z6",
+  "cod-35LNK0549_1": "z5",
+  "cod-35LMK4909_1": "z6",
+  "cod-35LMK4310_1": "z6",
+  "cod-35LMK9904_1": "z6",
+  "cod-35LNK4253_2": "z6",
+  "cod-35LNK5009_1": "z6",
+  "cod-35LNK4445_1": "z6",
+  "cod-35LMK7717_1": "z6",
+  "cod-35LMK4410_1": "z6",
+  "cod-35LMK5111_2": "z6",
+  "cod-35LNK4731_1": "z6",
+  "cod-35LNJ2497_1": "z6",
+  "cod-35LMK5718_1": "z6",
+  "cod-35LNJ2493_1": "z6",
+  "cod-35LMK7325_1": "z6",
+  "cod-35LMK3520_1": "z6",
+  "cod-35LNK2943_1": "z6",
+  "cod-35LNK0009_2": "z6",
+  "cod-35LNK0827_1": "z6",
+  "cod-35LMK5113_1": "z6",
+  "cod-35LNK1636_1": "z6",
+  "cod-35LNK2321_1": "z6",
+  "cod-35LNK2301_1": "z6",
+  "cod-35LNK6358_1": "z6",
+  "cod-35LMK6720_1": "z6",
+  "cod-35LNK2208_1": "z6",
+  "cod-35LNK3516_1": "z6",
+  "cod-35LNJ7389_1": "z6",
+  "cod-35LNK3308_1": "z6",
+  "cod-35LNK4725_1": "z6",
+  "cod-35LNK4012_1": "z6",
+  "cod-35LNK2235_1": "z6",
+  "cod-35LNK3603_2": "z6",
+  "cod-35LNK6832_2": "z6"
+ }
+}

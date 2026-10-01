@@ -1,0 +1,63 @@
+{
+ "unit_id": "CD2019-kimvula",
+ "as_of": "2026-10-01",
+ "summary": "Kimvula territory (Kongo-Central) lies on the Angolan border between Madimba/Mbanza-Ngungu and Kwango province, far from the eastern DRC conflict zones; no armed group is known to hold territory. Kimvula town and the rural villages are under ordinary state control, with the PNC as main force and FARDC/border elements present. Web research was unavailable for this run, so all zones rest on default state presence; rural villages near the Kwango border carry low confidence given the Mobondo militia's activity in the wider region.",
+ "sources": [],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Kimvula town (Mvula N'Longi, territory seat)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Seat of Kimvula territory in south-eastern Kongo-Central near the Angolan border, far from the eastern conflict zones; no armed group is known to hold territory here. Order is kept by the PNC commissariat under the territorial administration, with FARDC/border elements present. Web research was unavailable for this run (search budget exhausted, search engines blocked), so this rests on default state presence.",
+   "source_ids": []
+  },
+  {
+   "zone_id": "z2",
+   "description": "Rural villages and groupement centres of Kimvula territory (Kindongolosi, Lubisi, Kimbuba, Kivandaba, Kin'Lunda, Kikuanza, Kindolau, Kimathieu, Kimankengi, Kinkosi Benga, Situ, Kinzasi, Kitokimosi, Kimalundu, Kimiola)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Villages with no reported armed-group activity; state authority via PNC posts and customary chiefs under the territorial administration. Northern/eastern villages lie toward the Kwango province border where the Mobondo militia has been active further north-east, but no Mobondo presence in Kimvula is known. Web research was unavailable for this run (search budget exhausted, search engines blocked), so this rests on default state presence.",
+   "source_ids": []
+  }
+ ],
+ "locations": {
+  "cod-33MXP0667_1": "z1",
+  "cod-33MXP2361_1": "z2",
+  "cod-33MXP2691_1": "z2",
+  "cod-33MXQ2007_1": "z2",
+  "cod-33MWP9367_2": "z2",
+  "cod-33MXP2062_1": "z2",
+  "cod-33MXP2870_1": "z2",
+  "cod-33MXP1771_1": "z2",
+  "cod-33MXP0856_1": "z2",
+  "cod-33MXP2372_1": "z2",
+  "cod-33MXQ3105_1": "z2",
+  "cod-33MXP0856_2": "z2",
+  "cod-33MXP0594_3": "z2",
+  "cod-33MXQ0908_1": "z2",
+  "cod-33MXP2798_2": "z2",
+  "cod-33MWP8954_1": "z2",
+  "cod-33MXQ1204_1": "z2",
+  "cod-33MXP1158_1": "z2"
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "unit_id": "CD3201-bandundu",
+ "as_of": "2026-10-01",
+ "summary": "Bandundu city, former provincial capital on the Kwilu/Kasai confluence in Kwilu province, is a state-held town with no armed group exercising territorial control. Daily order, arrests and policing across its communes (Basoko, Disasi, Mayoyo) and health-area neighbourhoods are handled by the PNC, with FARDC elements garrisoned in the town. The Mobondo (Teke-Yaka conflict) militia has been active since 2022 in neighbouring Kwamouth (Mai-Ndombe) and in parts of Bagata and other Kwilu territories, prompting FARDC deployments in the region, but it is not reported to hold or regularly operate inside Bandundu city or its periurban villages (Kanga, Station). Web research was unavailable for this run (search budget exhausted, sources blocked), so the assessment rests on default state presence.",
+ "sources": [],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Bandundu city (all health-area neighbourhoods) and periurban villages Kanga and Station (Lumbu health area)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Urban town in western DRC with no reported armed-group territorial control; the PNC runs commissariats and handles order, with FARDC present as garrison and as a regional base for operations against Mobondo in neighbouring Kwamouth/Bagata. No sources could be retrieved in this run.",
+   "source_ids": []
+  }
+ ],
+ "locations": {
+  "cod-33MYS6532_1": "z1",
+  "cod-33MYS7537_1": "z1",
+  "cod-33MYS7737_1": "z1",
+  "cod-33MYS6532_1-zzCn5QEgw4p": "z1",
+  "cod-33MYS6532_1-rTZjeO7DUT1": "z1",
+  "cod-33MYS6532_1-F22HXuAMTuj": "z1",
+  "cod-33MYS6532_1-wxuyDY9zRa5": "z1",
+  "cod-33MYS6532_1-DDobEh93KvT": "z1",
+  "cod-33MYS6532_1-buRnCgoqUKR": "z1",
+  "cod-33MYS6532_1-DcuFYZhC4Ue": "z1",
+  "cod-33MYS6532_1-hbHDDmyMNk2": "z1",
+  "cod-33MYS6532_1-HzUFVmC2JB3": "z1",
+  "cod-33MYS6532_1-YQdeO9jLs94": "z1",
+  "cod-33MYS6532_1-WkKAKQq786L": "z1",
+  "cod-33MYS6532_1-Ubnd4N7TEBP": "z1",
+  "cod-33MYS6532_1-vkU9jMkfhKi": "z1",
+  "cod-33MYS6532_1-mr6OnhhWGCI": "z1",
+  "cod-33MYS6532_1-N8ZeQA5QDXz": "z1"
+ }
+}

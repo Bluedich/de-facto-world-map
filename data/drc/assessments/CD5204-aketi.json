@@ -1,0 +1,127 @@
+{
+ "unit_id": "CD5204-aketi",
+ "as_of": "2026-10-01",
+ "summary": "Aketi territory in western Bas-Uele has no reported armed-group presence as of 2026; the LRA/Mbororo-related insecurity of the 2010s affected mainly northern Bas-Uele (Ango, Bondo) and the current ADF expansion is in Haut-Uele. The territory is under ordinary state administration: the PNC holds Aketi town (territorial seat) and the larger villages of the Aketi and Likati secteurs, with small FARDC detachments. Assessments are default state presence, with low-to-medium confidence for rural villages given sparse reporting.",
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://acp.cd/province/bas-uele-le-gouverneur-pour-la-rehabilitation-du-port-chaltin-a-aketi/",
+   "title": "Bas-Uélé: le gouverneur pour la réhabilitation du port Chaltin à Aketi",
+   "publisher": "ACP",
+   "date": "2025-03"
+  },
+  {
+   "id": "s2",
+   "url": "https://fr.allafrica.com/stories/202607140342.html",
+   "title": "Haut-Uele - La progression des ADF provoque le déplacement de plus de 10 000 civils vers Watsa et Wamba",
+   "publisher": "Radio Okapi via AllAfrica",
+   "date": "2026-07-14"
+  },
+  {
+   "id": "s3",
+   "url": "https://actualite.cd/2024/08/06/rdc-alerte-sur-des-cas-suspects-debola-aketi-bas-uele",
+   "title": "RDC : Alerte sur des cas suspects d'Ebola à Aketi (Bas-Uele)",
+   "publisher": "Actualite.cd",
+   "date": "2024-08-06"
+  },
+  {
+   "id": "s4",
+   "url": "https://www.flowminder.org/media/o2olvtyn/estimations_population-mobilite-_bas-uele_avr-2026.pdf",
+   "title": "Estimations population et mobilité Bas-Uele avril 2026",
+   "publisher": "Flowminder",
+   "date": "2026-04"
+  }
+ ],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Aketi town (territorial headquarters)",
+   "controller_id": "cod-pnc",
+   "status": "exclusive",
+   "confidence": "medium",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Searches (FR/EN, 2025-2026) found no reports of armed-group activity in Aketi territory; recent Uele insecurity (ADF expansion) is concentrated in Haut-Uele (Watsa, Wamba), far to the east. News from Aketi concerns administration, infrastructure and health, consistent with normal state administration. Aketi is the seat of the territorial administration with PNC commissariat.",
+   "source_ids": [
+    "s1",
+    "s2",
+    "s3"
+   ]
+  },
+  {
+   "zone_id": "z2",
+   "description": "Secteur d'Aketi villages (Aketi health zone, south/west of the town)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [],
+   "evidence": "Searches (FR/EN, 2025-2026) found no reports of armed-group activity in Aketi territory; recent Uele insecurity (ADF expansion) is concentrated in Haut-Uele (Watsa, Wamba), far to the east. News from Aketi concerns administration, infrastructure and health, consistent with normal state administration. Rural villages with thin state presence; no armed group reported.",
+   "source_ids": [
+    "s2",
+    "s4"
+   ]
+  },
+  {
+   "zone_id": "z3",
+   "description": "Secteur de Likati (Likati health zone incl. Mobenge, Badolo; and Dulia/Ngombo areas on the Buta road)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [],
+   "evidence": "Searches (FR/EN, 2025-2026) found no reports of armed-group activity in Aketi territory; recent Uele insecurity (ADF expansion) is concentrated in Haut-Uele (Watsa, Wamba), far to the east. News from Aketi concerns administration, infrastructure and health, consistent with normal state administration. No reports of militia, poacher or LRA control in Likati secteur in recent years.",
+   "source_ids": [
+    "s2",
+    "s4"
+   ]
+  }
+ ],
+ "locations": {
+  "cod-34NHJ2072_1": "z3",
+  "cod-34NHJ2373_1": "z3",
+  "cod-35NJD8227_1": "z3",
+  "cod-34NGJ4679_1": "z3",
+  "cod-34NHJ0486_1": "z3",
+  "cod-34NGJ9062_1": "z3",
+  "cod-34NGJ4876_1": "z3",
+  "cod-34NGJ9676_1": "z3",
+  "cod-35NKD1418_1": "z3",
+  "cod-34NGJ8364_2": "z3",
+  "cod-34NGJ5569_1": "z3",
+  "cod-34NGJ4873_1": "z3",
+  "cod-35NKD2216_1": "z3",
+  "cod-35NJD6776_1": "z3",
+  "cod-34NGJ3296_1": "z3",
+  "cod-34NGJ5783_1": "z3",
+  "cod-35NKD0420_1": "z3",
+  "cod-34NGJ8662_1": "z3",
+  "cod-34NHJ0881_1": "z3",
+  "cod-34NHJ0294_1": "z3",
+  "cod-34NHJ2969_1": "z3",
+  "cod-35NJD9022_1": "z3",
+  "cod-35NJD7067_1": "z3",
+  "cod-34NHJ0903_1": "z1",
+  "cod-34NGH5675_1": "z2",
+  "cod-34NGH6092_1": "z2",
+  "cod-34NGH2993_1": "z2",
+  "cod-34NGH4583_1": "z2",
+  "cod-34NHJ2616_1": "z2",
+  "cod-34NGH5788_1": "z2",
+  "cod-34NGJ3621_1": "z2",
+  "cod-34NGH7776_1": "z2",
+  "cod-34NGJ8706_1": "z2",
+  "cod-34NGJ7904_2": "z2",
+  "cod-34NGJ7200_1": "z2",
+  "cod-34NGH3390_1": "z2"
+ }
+}

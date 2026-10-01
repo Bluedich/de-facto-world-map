@@ -1,0 +1,123 @@
+{
+ "unit_id": "CD2011-songololo",
+ "as_of": "2026-10-01",
+ "summary": "Songololo territory (Kongo-Central) lies between Kinshasa and Matadi along the RN1 road and railway, far from the eastern conflict zones; no armed group holds territory. Kimpese town, Songololo town, the Matadi suburbs in Nsona-Mpangu and rural villages are under ordinary state control, with the PNC as the main force keeping order and FARDC/border elements present along the corridor and the Angolan border (Lufu). Security issues are crime, cross-border trafficking and historically Bundu dia Kongo-related unrest (2017-2020), none amounting to territorial control. Web research was unavailable for this run, so all zones rest on default state presence.",
+ "sources": [],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Kimpese town (cité) and its health-area neighbourhoods (Kimbanguiste, Yanga dia Songa, Kimbala, CBCO, CECO)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Largest town of Songololo territory on the Kinshasa-Matadi road (RN1) and railway; no armed group holds territory in Kongo-Central. Order is kept by the PNC commissariat, with FARDC elements present along the corridor. Crime and past Bundu dia Kongo unrest (2017-2020) did not displace state control. Web research was unavailable for this run (search budget exhausted, search engines blocked), so this rests on default state presence.",
+   "source_ids": []
+  },
+  {
+   "zone_id": "z2",
+   "description": "Matadi suburban neighbourhoods falling in Nsona-Mpangu adm3 (Zola Nsiaku, Mpozo, Pala Bala, Epom, Nsakala Nsimba; Matadi health zone)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Peripheral neighbourhoods of the provincial capital Matadi, policed by the PNC as in the rest of the city (see CD2001-matadi); urban banditry (kuluna-type) does not amount to territorial control. Web research was unavailable for this run (search budget exhausted, search engines blocked), so this rests on default state presence.",
+   "source_ids": []
+  },
+  {
+   "zone_id": "z3",
+   "description": "Rural villages of Kimpese secteur / Kimpese health zone (Ntonzi, Kiaka, Malanga, Kilueka, Mvela, Mukimbungu, Nkuanza, Lukunga, etc.)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [],
+   "evidence": "No reported armed-group activity in rural Songololo territory; state authority exercised through PNC posts, sector/chiefdom administration and customary chiefs. Web research was unavailable for this run (search budget exhausted, search engines blocked), so this rests on default state presence.",
+   "source_ids": []
+  },
+  {
+   "zone_id": "z4",
+   "description": "Nsona-Mpangu secteur: Songololo town, Lufu border area with Angola, Kenge, Ngombe, Mbanza Nkazi, Nkamuna and other villages",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Territory headquarters (Songololo) and Lufu border crossing with Angola are state-administered, with PNC, border services and FARDC elements; no armed-group territorial control reported in the area. Web research was unavailable for this run (search budget exhausted, search engines blocked), so this rests on default state presence.",
+   "source_ids": []
+  }
+ ],
+ "locations": {
+  "cod-33MVP3784_1": "z1",
+  "cod-33MVP2499_1": "z3",
+  "cod-33MVQ0227_1": "z3",
+  "cod-33MVP2886_1": "z3",
+  "cod-33MVQ4200_1": "z3",
+  "cod-33MVP1953_1": "z3",
+  "cod-33MUQ9737_1": "z3",
+  "cod-33MVQ0519_1": "z3",
+  "cod-33MVP3154_1": "z3",
+  "cod-33MUQ9331_1": "z3",
+  "cod-33MVQ2927_1": "z3",
+  "cod-33MVQ4605_1": "z3",
+  "cod-33MVQ0922_1": "z3",
+  "cod-33MVP1568_2": "z3",
+  "cod-33MVP3784_1-SHj2kaLQl6F": "z1",
+  "cod-33MVP3784_1-soBEI8DJCkA": "z1",
+  "cod-33MVP3784_1-qxPoILvZcsm": "z1",
+  "cod-33MVP3784_1-vaT0JCknBtq": "z1",
+  "cod-33MVP3784_1-iaKTMoJGcbr": "z1",
+  "cod-33MUP9756_1": "z4",
+  "cod-33MUP8763_1": "z4",
+  "cod-33MUP9369_1": "z4",
+  "cod-33MUP9565_1": "z4",
+  "cod-33MUP5162_1": "z4",
+  "cod-33MUP8071_2": "z4",
+  "cod-33MUQ4502_1": "z4",
+  "cod-33MUP5297_2": "z4",
+  "cod-33MUP9570_1": "z4",
+  "cod-33MVP1253_1": "z4",
+  "cod-33MUP5199_4": "z4",
+  "cod-33MUP6165_1": "z4",
+  "cod-33MVP0166_3": "z4",
+  "cod-33MUQ4104_1": "z4",
+  "cod-33MVP0976_1": "z4",
+  "cod-33MUP7591_1": "z4",
+  "cod-33MUP6791_2": "z4",
+  "cod-33MVP1174_1": "z4",
+  "cod-33MUQ5801_3": "z4",
+  "cod-33MUP5565_1": "z4",
+  "cod-33MUP7762_2": "z4",
+  "cod-33MUQ5904_1": "z4",
+  "cod-33MUP8062_1": "z4",
+  "cod-33MVP1056_1": "z4",
+  "cod-33MUP8162_1": "z4",
+  "cod-33MUP3054_1-SKEqkWgdGkz": "z2",
+  "cod-33MUP3054_1-QrgvgoQwCOf": "z2",
+  "cod-33MUP3054_1-blKhNvP3yLw": "z2",
+  "cod-33MUP3054_1-rgDbGJ6s3FU": "z2",
+  "cod-33MUP3054_1-CCUExnLXdbF": "z2"
+ }
+}

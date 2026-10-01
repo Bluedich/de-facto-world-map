@@ -1,0 +1,99 @@
+{
+ "unit_id": "CD6303-punia",
+ "as_of": "2026-10-01",
+ "summary": "Punia territory (northeastern Maniema) lies west of the North/South Kivu frontlines and has no recent report, available to this run, of an armed group holding a town or secteur. Punia centre (Kangina) is the territorial administrative seat with PNC, ANR and an FARDC detachment and is assessed as police-held. The rural Punia and Ferekeni secteurs, including the Ferekeni mission centre, are assessed as under default state (PNC/administration) presence. The eastern gold-mining fringe (Kasese, Kibeleketa, Kyolo health areas) borders Lubutu, Walikale and Shabunda, where Raia Mutomboki and other Mai-Mai/Wazalendo groups operate; it has historically seen incursions and armed-group activity around mining sites, so state control there is weaker and confidence low. Web research could not be performed for this unit (search budget exhausted, news and wiki sites egress-blocked), so all zones rest on default state presence or inference from background knowledge.",
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://en.wikipedia.org/wiki/Punia_Territory",
+   "title": "Punia Territory",
+   "publisher": "Wikipedia",
+   "date": null
+  }
+ ],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Punia centre (Kangina), seat of Punia territory",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    },
+    {
+     "entity_id": "cod-anr",
+     "role": "present"
+    }
+   ],
+   "evidence": "Territorial capital with state administration, police commissariat and FARDC presence; no armed group is known to hold or tax the town. Not verified with recent reporting because web research was blocked.",
+   "source_ids": [
+    "s1"
+   ]
+  },
+  {
+   "zone_id": "z2",
+   "description": "Rural Punia secteur (west/central: Punia 1/2, Saulia, Matumba, Kabongola, Kibwana, Obea, M'Piala) and Ferekeni secteur/health zone incl. Ferekeni mission",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [],
+   "evidence": "Villages along the Punia–Kindu/Ferekeni axes with no armed-group control known to this assessment; assumed under PNC and customary/administrative authority. Not verified by recent reporting (research blocked).",
+   "source_ids": []
+  },
+  {
+   "zone_id": "z3",
+   "description": "Eastern Punia secteur near Lubutu/Walikale/Shabunda borders: Kasese (Mungamba), Kibeleketa, Milama, Kyolo (Kinditale) health areas",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "inference",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "raia-mutomboki",
+     "role": "raiding"
+    },
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Gold-mining zone around Kasese adjoining territories where Raia Mutomboki and other Mai-Mai/Wazalendo groups are active; past incursions and armed presence around mining sites are known, but no report available to this run shows a group holding these villages as of 2026. Assessed as state-held with armed-group raiding; recent reporting could not be checked.",
+   "source_ids": []
+  }
+ ],
+ "locations": {
+  "cod-35MMU3639_1": "z1",
+  "cod-35MNU1219_1": "z3",
+  "cod-35MMU1257_1": "z2",
+  "cod-35MMU6642_1": "z2",
+  "cod-35MMU4930_1": "z2",
+  "cod-35MMU8545_2": "z2",
+  "cod-35MNU2114_1": "z3",
+  "cod-35MMU3241_1": "z2",
+  "cod-35MNT1355_1": "z3",
+  "cod-35MMU1757_1": "z2",
+  "cod-35MMT3199_1": "z2",
+  "cod-35MMU3340_1": "z2",
+  "cod-35MMU3142_2": "z2",
+  "cod-35MMU8755_1": "z2",
+  "cod-35MMU1559_1": "z2",
+  "cod-35MMU3310_1": "z2",
+  "cod-35MNU2517_3": "z3",
+  "cod-35MMU3735_1": "z2",
+  "cod-35MMU8744_1": "z2",
+  "cod-35MMU0815_1": "z2",
+  "cod-35MMU0753_2": "z2",
+  "cod-35MLU8820_1": "z2",
+  "cod-35MLU8017_1": "z2",
+  "cod-35MMU0349_1": "z2"
+ }
+}

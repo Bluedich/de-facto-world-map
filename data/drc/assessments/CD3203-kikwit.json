@@ -1,0 +1,71 @@
+{
+ "unit_id": "CD3203-kikwit",
+ "as_of": "2026-10-01",
+ "summary": "Kikwit, the capital of Kwilu province, is a large state-held city with no armed group exercising territorial control in any of its communes or health-area neighbourhoods. Day-to-day order, arrests and dispute handling are carried out by the PNC (provincial police commissariat and urban district commissariats), with FARDC elements garrisoned in the city and used as a rear base for operations against the Mobondo militia, which has been active since 2022 in Kwamouth (Mai-Ndombe) and western Kwilu territories (notably Bagata) but is not reported to operate inside Kikwit. Urban crime (armed robbery, youth gangs) occurs but does not amount to gang control of neighbourhoods. Web research was unavailable for this run (search budget exhausted, news and search sites blocked by the proxy), so the assessment rests on default state presence.",
+ "sources": [],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Kikwit city (all health-area neighbourhoods in Kikwit-Nord and Kikwit-Sud) and periurban localities Ma Mer and Kipuka",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Provincial capital in western DRC with no reported armed-group territorial control; the PNC runs commissariats across the communes and handles policing and detention, while FARDC is garrisoned in the city (regional rear base for anti-Mobondo operations in Bagata/Kwamouth). No sources could be retrieved in this run.",
+   "source_ids": []
+  }
+ ],
+ "locations": {
+  "cod-34MBV5641_1": "z1",
+  "cod-34MBV6143_1": "z1",
+  "cod-34MBV5641_1-GYoX2fDYrtx": "z1",
+  "cod-34MBV5641_1-lkW8Z4Pq0Rm": "z1",
+  "cod-34MBV5641_1-X4tSH4Eq9RP": "z1",
+  "cod-34MBV5641_1-fnLBewxHgt6": "z1",
+  "cod-34MBV5641_1-Y39gl9NU2hS": "z1",
+  "cod-34MBV5641_1-kCWm8kVxLoK": "z1",
+  "cod-34MBV5641_1-B7s4Ik3rxpv": "z1",
+  "cod-34MBV5641_1-WKMTjtquarR": "z1",
+  "cod-34MBV5641_1-TKs7JGmXxEk": "z1",
+  "cod-34MBV5641_1-Qk24J3y6sZT": "z1",
+  "cod-34MBV5641_1-Lje8nhgwnCa": "z1",
+  "cod-34MBV5641_1-n2gccnPcfHr": "z1",
+  "cod-34MBV5641_1-JRJUyLqzPEH": "z1",
+  "cod-34MBV5641_1-nppdRgli8xQ": "z1",
+  "cod-34MBV5641_1-vtq3ikzri19": "z1",
+  "cod-34MBV5641_1-dhQElWaj79X": "z1",
+  "cod-34MBV5641_1-w2MtJkSu8PH": "z1",
+  "cod-34MBV5641_1-OIwaRq80Ysm": "z1",
+  "cod-34MBV5641_1-y4DKTBOTS3M": "z1",
+  "cod-34MBV5641_1-i9xUXD34KoT": "z1",
+  "cod-34MBV5641_1-aKWhQeP9bsu": "z1",
+  "cod-34MBV5641_1-XMSHrBfMquB": "z1",
+  "cod-34MBV5641_1-vzvolGKMstO": "z1",
+  "cod-34MBV5641_1-a6V0bKfoYEP": "z1",
+  "cod-34MBV5641_1-xLHReQZ2Yof": "z1",
+  "cod-34MBV5641_1-KIUVzaVnwIo": "z1",
+  "cod-34MBV5641_1-KRVfSUITd5g": "z1",
+  "cod-34MBV5735_1": "z1",
+  "cod-34MBV5641_1-ic35dKcVTRr": "z1",
+  "cod-34MBV5641_1-d2nGFJPAc5c": "z1",
+  "cod-34MBV5641_1-BIER01lnWVf": "z1",
+  "cod-34MBV5641_1-LXP08w9WGJy": "z1",
+  "cod-34MBV5641_1-cBJNWsBpAuS": "z1",
+  "cod-34MBV5641_1-S3BUTJhdO5V": "z1",
+  "cod-34MBV5641_1-kL0q6ZEp9rm": "z1",
+  "cod-34MBV5641_1-qTNAsVGWXNm": "z1",
+  "cod-34MBV5641_1-FP8G1NI3nre": "z1",
+  "cod-34MBV5641_1-hMEofBtWdJF": "z1",
+  "cod-34MBV5641_1-xXQyWbVAF5U": "z1",
+  "cod-34MBV5641_1-CeEEz4CoUys": "z1",
+  "cod-34MBV5641_1-iX5yeXmtf2Y": "z1"
+ }
+}

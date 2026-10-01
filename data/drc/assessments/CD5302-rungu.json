@@ -1,0 +1,233 @@
+{
+ "unit_id": "CD5302-rungu",
+ "as_of": "2026-10-01",
+ "summary": "Rungu territory (including the city of Isiro, capital of Haut-Uele) has no reported armed-group territorial control as of October 2026. The ADF expanded into southern Haut-Uele from March 2026, but its attacks and the resulting FARDC operations and closure of the Isiro-Mungbere RN26 road are centred on Watsa and Wamba territories, east and south of Rungu. Isiro is the provincial seat with PNC, FARDC command and state services; an unidentified armed incursion at Neisu (32 km from Isiro) in September 2026 caused panic but no takeover. Rural secteurs are assigned to the state (PNC) by default presence, with the eastern fringe along the RN26 toward Mungbere assigned to FARDC given the ongoing anti-ADF operations zone. Ebola (2026 outbreak, Isiro/Rungu/Pawa health zones affected) is a major non-security stressor.",
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://acp.cd/province/haut-uele-traque-des-adf-laxe-isiro-mungbere-interdit-a-la-population/",
+   "title": "Haut-Uélé : traque des ADF, l'axe Isiro-Mungbere interdit à la population",
+   "publisher": "ACP",
+   "date": "2026-06"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.radiookapi.net/2026/07/14/actualite/securite/haut-uele-la-progression-des-adf-provoque-le-deplacement-de-plus-de-10",
+   "title": "Haut-Uele : la progression des ADF provoque le déplacement de plus de 10 000 civils vers Watsa et Wamba",
+   "publisher": "Radio Okapi",
+   "date": "2026-07-14"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.congoquotidien.com/2026/06/06/fardc-operations-adf-haut-uele/",
+   "title": "Haut-Uele : les FARDC ratissent Watsa contre les ADF et restreignent la circulation",
+   "publisher": "Congo Quotidien",
+   "date": "2026-06-06"
+  },
+  {
+   "id": "s4",
+   "url": "https://www.congo-press.com/provinces/haut-uele-panique-a-neisu-apres-une-incursion-armee-nocturne/",
+   "title": "Haut-Uele : panique à Neisu après une incursion armée nocturne",
+   "publisher": "Congo-Press",
+   "date": "2026-09-15"
+  },
+  {
+   "id": "s5",
+   "url": "https://africansecuritynetwork.org/HSGO4/index.php/2026/05/22/actualites-du-22-mai-2/",
+   "title": "Actualités du 22 mai (vehicles handed to FARDC in Isiro)",
+   "publisher": "African Security Network",
+   "date": "2026-05-22"
+  },
+  {
+   "id": "s6",
+   "url": "https://www.mediacongo.net/article-actualite-164193_watsa_incendie_d_un_camion_transportant_de_marchandises_par_des_presumes_adf_sur_la_rn26.html",
+   "title": "Watsa : incendie d'un camion transportant des marchandises par des présumés ADF sur la RN26",
+   "publisher": "Mediacongo",
+   "date": "2026-05-30"
+  },
+  {
+   "id": "s7",
+   "url": "https://actualite.cd/2026/08/25/haut-uele-le-melange-dinsecurite-et-debola-entrave-serieusement-la-riposte-genevieve",
+   "title": "Haut-Uele : le mélange d'insécurité et d'Ebola entrave sérieusement la riposte",
+   "publisher": "Actualite.cd",
+   "date": "2026-08-25"
+  }
+ ],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Isiro city (provincial capital) and its neighbourhoods",
+   "controller_id": "cod-pnc",
+   "status": "exclusive",
+   "confidence": "high",
+   "basis": "area_report",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    },
+    {
+     "entity_id": "cod-anr",
+     "role": "present"
+    }
+   ],
+   "evidence": "Provincial seat of Haut-Uele with governorate, PNC provincial command and FARDC command; in May 2026 the governor handed vehicles to FARDC in Isiro for anti-ADF operations further east. No armed-group presence reported in the city.",
+   "source_ids": [
+    "s5",
+    "s1",
+    "s7"
+   ]
+  },
+  {
+   "zone_id": "z2",
+   "description": "Rural Isiro hinterland (Isiro health zone: Neisu, Medje, Nagwa, Egbunda, Nembombi, Arindru etc.)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "No reports of armed-group control in the rural areas around Isiro. A night incursion by unidentified armed men at Neisu (32 km from Isiro) on 14-15 September 2026 caused panic but no lasting presence was reported.",
+   "source_ids": [
+    "s4",
+    "s2"
+   ]
+  },
+  {
+   "zone_id": "z3",
+   "description": "Rungu town (territorial seat, GRID3 'Mission')",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Territorial headquarters with administration and police; 2026 ADF activity and FARDC operations are reported in Watsa and Wamba territories, not in Rungu.",
+   "source_ids": [
+    "s2",
+    "s3"
+   ]
+  },
+  {
+   "zone_id": "z4",
+   "description": "Rural Rungu territory west of 28.0E (Rungu, Pawa, Viadana health zones: Nangazizi, Nesira, Bodjo, Vube, Nala etc.)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [],
+   "evidence": "No reported armed-group activity in these rural secteurs in 2025-2026; assigned to state police by default. Sparse reporting, so confidence is low.",
+   "source_ids": [
+    "s2"
+   ]
+  },
+  {
+   "zone_id": "z5",
+   "description": "Eastern Rungu along RN26 towards Mungbere/Watsa (Nekalagba health area: Ndumbala, 3 Ponts)",
+   "controller_id": "cod-fardc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "inference",
+   "since": "2026-06",
+   "presence": [
+    {
+     "entity_id": "cod-pnc",
+     "role": "present"
+    }
+   ],
+   "evidence": "These villages lie on the Isiro-Mungbere RN26 axis that the FARDC closed to civilians in June 2026 during operations against ADF around Mungbere/Suka na Mboka (Watsa). No ADF attack inside Rungu territory has been reported, but the army is the main active force on the axis.",
+   "source_ids": [
+    "s1",
+    "s3",
+    "s6"
+   ]
+  }
+ ],
+ "locations": {
+  "cod-35NND6806_1": "z1",
+  "cod-35NNC4499_1": "z2",
+  "cod-35NNC3364_1": "z2",
+  "cod-35NNC5171_1": "z2",
+  "cod-35NNC5892_1": "z2",
+  "cod-35NND2403_1": "z2",
+  "cod-35NND5603_1": "z2",
+  "cod-35NNC3557_1": "z2",
+  "cod-35NNC4271_1": "z2",
+  "cod-35NNC1394_1": "z2",
+  "cod-35NNC5669_1": "z2",
+  "cod-35NNC5781_1": "z2",
+  "cod-35NNC2774_1": "z2",
+  "cod-35NND5401_1": "z2",
+  "cod-35NNC6390_1": "z2",
+  "cod-35NNC3969_1": "z2",
+  "cod-35NNC1597_1": "z2",
+  "cod-35NNC3460_1": "z2",
+  "cod-35NND6104_1": "z2",
+  "cod-35NND7011_2": "z2",
+  "cod-35NNC2273_1": "z2",
+  "cod-35NNC2574_1": "z2",
+  "cod-35NNC6286_1": "z2",
+  "cod-35NNC6781_1": "z2",
+  "cod-35NND7114_1": "z2",
+  "cod-35NNC3951_1": "z2",
+  "cod-35NNC5882_1": "z2",
+  "cod-35NND6510_2": "z2",
+  "cod-35NND2002_1": "z2",
+  "cod-35NNC5475_1": "z2",
+  "cod-35NNC3271_1": "z2",
+  "cod-35NNC7487_1": "z2",
+  "cod-35NNC6387_1": "z2",
+  "cod-35NNC4070_1": "z2",
+  "cod-35NNC6084_1": "z2",
+  "cod-35NNC5297_1": "z2",
+  "cod-35NNC2292_1": "z2",
+  "cod-35NNC5678_1": "z2",
+  "cod-35NNC6392_1": "z2",
+  "cod-35NNC5680_1": "z2",
+  "cod-35NNC3753_1": "z2",
+  "cod-35NNC5373_1": "z2",
+  "cod-35NND6806_1-EoxzDhFeUZX": "z1",
+  "cod-35NND6806_1-r5RbllQQkoF": "z1",
+  "cod-35NND6806_1-Ihkzyx4G6wK": "z1",
+  "cod-35NND6806_1-R43HzU2kYJE": "z1",
+  "cod-35NND6806_1-zO5guyGfjDW": "z1",
+  "cod-35NND6806_1-wfz0E2GIcKt": "z1",
+  "cod-35NND6806_1-JUvkgKQzhn3": "z1",
+  "cod-35NND9651_1": "z3",
+  "cod-35NND8536_1": "z4",
+  "cod-35NPC0376_1": "z4",
+  "cod-35NNC8291_1": "z4",
+  "cod-35NPD5406_1": "z5",
+  "cod-35NPC0187_2": "z4",
+  "cod-35NNC9687_1": "z4",
+  "cod-35NND7821_1": "z4",
+  "cod-35NNC9283_1": "z4",
+  "cod-35NND7216_1": "z4",
+  "cod-35NND7244_1": "z4",
+  "cod-35NNC9889_1": "z4",
+  "cod-35NND8909_2": "z4",
+  "cod-35NPD0410_2": "z4",
+  "cod-35NNC7396_3": "z4",
+  "cod-35NND7835_1": "z4",
+  "cod-35NPD1913_1": "z5",
+  "cod-35NND8937_1": "z4",
+  "cod-35NPC0473_1": "z4",
+  "cod-35NND7928_1": "z4",
+  "cod-35NND9331_2": "z4",
+  "cod-35NND7617_1": "z4",
+  "cod-35NND9444_1": "z4"
+ }
+}

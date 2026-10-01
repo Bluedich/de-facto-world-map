@@ -1,0 +1,143 @@
+{
+  "unit_id": "CD9101-kananga",
+  "as_of": "2026-10-01",
+  "summary": "Kananga is the provincial capital of Kasai-Central and is firmly state-held. The Kamuina Nsapu insurgency of 2016-2017 reached the city (attacks in Nganza and on the airport in 2017) but was defeated and dispersed, and no armed group has held any part of the city since. Urban neighbourhoods are policed by the PNC, with FARDC (military region HQ and camps such as Camp Kamayi) and ANR presence; insecurity is mostly banditry and street gangs. Peri-urban villages fall under PNC posts and customary chiefs. Live web research was unavailable in this run, so the assessment relies on background knowledge and confidence is limited.",
+  "sources": [],
+  "new_entities": [],
+  "zones": [
+    {
+      "zone_id": "z1",
+      "description": "Kananga city: all urban communes (Kananga, Katoka, Lukonga, Ndesha, Nganza areas) and their neighbourhoods, incl. the city settlement itself",
+      "controller_id": "cod-pnc",
+      "status": "dominant",
+      "confidence": "medium",
+      "basis": "default_state_presence",
+      "since": "2017-05",
+      "presence": [
+        {
+          "entity_id": "cod-fardc",
+          "role": "present"
+        },
+        {
+          "entity_id": "cod-anr",
+          "role": "present"
+        },
+        {
+          "entity_id": "kuluna",
+          "role": "present"
+        }
+      ],
+      "evidence": "Provincial capital of Kasai-Central with governorate, PNC provincial commissariat and district commissariats, FARDC military region HQ and ANR. Kamuina Nsapu militias attacked the city (incl. airport) in early 2017 but were repulsed and dispersed by mid-2017; since then no armed group holds any neighbourhood, with insecurity limited to banditry/street gangs handled by the PNC. Not verified with fresh sources in this run (web search budget exhausted, news sites blocked by egress proxy).",
+      "source_ids": []
+    },
+    {
+      "zone_id": "z2",
+      "description": "Military camps inside Kananga: Camp Kamayi and Camp PM (military police)",
+      "controller_id": "cod-fardc",
+      "status": "exclusive",
+      "confidence": "medium",
+      "basis": "inference",
+      "since": null,
+      "presence": [
+        {
+          "entity_id": "cod-pnc",
+          "role": "present"
+        }
+      ],
+      "evidence": "FARDC garrison camps housing soldiers and their families; order inside the camps is kept by the army and military police rather than the PNC. Not verified with fresh sources in this run (web search budget exhausted, news sites blocked by egress proxy).",
+      "source_ids": []
+    },
+    {
+      "zone_id": "z3",
+      "description": "Peri-urban villages of Kananga ville (Tshikaji commune: Kamenga, Tshiamua, Kayembembumba, Tshiyoyo; Ndumba, Kamabondo, Camps Retournes, Offr; Mikomo, Bena Katende, Kapena Luepu, Bena Mande, Tshisuaka Buana)",
+      "controller_id": "cod-pnc",
+      "status": "dominant",
+      "confidence": "low",
+      "basis": "default_state_presence",
+      "since": "2017-06",
+      "presence": [
+        {
+          "entity_id": "cod-fardc",
+          "role": "present"
+        },
+        {
+          "entity_id": "customary",
+          "role": "present"
+        }
+      ],
+      "evidence": "Outlying localities within the city limits, partly affected by Kamuina Nsapu violence in 2016-2017. No armed-group control reported since the militias were dispersed; order relies on PNC posts and customary chiefs, with FARDC nearby. Not verified with fresh sources in this run (web search budget exhausted, news sites blocked by egress proxy).",
+      "source_ids": []
+    }
+  ],
+  "locations": {
+    "cod-34MFU5647_1": "z1",
+    "cod-34MFU4654_1": "z3",
+    "cod-34MFU4650_1": "z3",
+    "cod-34MFU4155_1": "z3",
+    "cod-34MFU4153_1": "z3",
+    "cod-34MFU5647_1-EkeL3FZCEAC": "z1",
+    "cod-34MFU5647_1-pDaSz4B9MGv": "z1",
+    "cod-34MFU5647_1-shLj3Uz7fEu": "z1",
+    "cod-34MFU5647_1-nQQbovV9TsZ": "z1",
+    "cod-34MFU5647_1-FaZXAS6Uhnc": "z1",
+    "cod-34MFU5647_1-NXoldml6QUL": "z1",
+    "cod-34MFU5647_1-lDV0LQJLqCB": "z1",
+    "cod-34MFU5647_1-r1fBNxdHqtR": "z1",
+    "cod-34MFU5647_1-dIhzTMiQlU2": "z1",
+    "cod-34MFU5647_1-IEvPkCRTLwo": "z1",
+    "cod-34MFU5647_1-yd3zFCWPafT": "z1",
+    "cod-34MFU5647_1-Yo1qvxaoxbE": "z1",
+    "cod-34MFU5647_1-rHBRjbAz0xx": "z1",
+    "cod-34MFU5647_1-xu07tTJMwgG": "z1",
+    "cod-34MFU5647_1-FGodPh4MJqp": "z1",
+    "cod-34MFU5647_1-Dng6fOlySE5": "z1",
+    "cod-34MFU5647_1-XNsN2zls93X": "z1",
+    "cod-34MFU5647_1-cx13F7ZKfbL": "z1",
+    "cod-34MFU5647_1-Ze3feyxvRJO": "z1",
+    "cod-34MFU5647_1-VKkcchihlfZ": "z1",
+    "cod-34MFU5647_1-yVGeqUWpqB2": "z1",
+    "cod-34MFU6449_3": "z3",
+    "cod-34MFU6156_1": "z3",
+    "cod-34MFU6442_1": "z3",
+    "cod-34MFU5647_1-WxbMYUHq4c1": "z1",
+    "cod-34MFU5647_1-Q0cup5C2eif": "z1",
+    "cod-34MFU5647_1-vCJ7XvDMrgp": "z1",
+    "cod-34MFU5647_1-XPIPqBGxUuV": "z1",
+    "cod-34MFU5647_1-HeT8TUJP4k6": "z1",
+    "cod-34MFU5647_1-mAtz0prV5iI": "z1",
+    "cod-34MFU5647_1-joKgYyqSAZY": "z1",
+    "cod-34MFU5647_1-a7qX0xtWH3c": "z1",
+    "cod-34MFU5647_1-oDjcfLPjkwA": "z1",
+    "cod-34MFU5647_1-nI9xARBjPix": "z1",
+    "cod-34MFU5647_1-veGDDOTNiuI": "z1",
+    "cod-34MFU5647_1-qM9MsIw7D2M": "z1",
+    "cod-34MFU5647_1-A4ynIXwXoQp": "z2",
+    "cod-34MFU5647_1-TbxUIYkP4ca": "z2",
+    "cod-34MFU4755_1": "z3",
+    "cod-34MFU5647_1-dVNJq8KQOoe": "z1",
+    "cod-34MFU5647_1-F7cJjZ3P7O3": "z1",
+    "cod-34MFU5647_1-U91axnmESiE": "z1",
+    "cod-34MFU5647_1-AAYZHC4eRhz": "z1",
+    "cod-34MFU5647_1-qaHOuzbdZex": "z1",
+    "cod-34MFU5647_1-BZUhiKsnbjo": "z1",
+    "cod-34MFU5647_1-e14j5A74G5X": "z1",
+    "cod-34MFU5647_1-l8gZJvK1ShL": "z1",
+    "cod-34MFU5647_1-DEba3sPYrdr": "z1",
+    "cod-34MFU5647_1-VkDCagGymmj": "z1",
+    "cod-34MFU5647_1-ILjAmNCBVq9": "z1",
+    "cod-34MFU5647_1-AKqeV5YZomu": "z1",
+    "cod-34MFU6044_1": "z3",
+    "cod-34MFU5647_1-VkXvCDyBbfJ": "z1",
+    "cod-34MFU5647_1-mi4jW7dJlBW": "z1",
+    "cod-34MFU5647_1-AhYnDrHzlLO": "z1",
+    "cod-34MFU5647_1-qdzhs5ly0Ug": "z1",
+    "cod-34MFU5647_1-Q2d1sy2KfFS": "z1",
+    "cod-34MFU5647_1-x74Znu2hVzS": "z1",
+    "cod-34MFU5647_1-nGjkVbqubsf": "z1",
+    "cod-34MFU5647_1-OnVhhK9VEOK": "z1",
+    "cod-34MFU6239_1": "z3",
+    "cod-34MFU6738_1": "z3",
+    "cod-34MFU5837_1": "z3",
+    "cod-34MFU5538_1": "z3"
+  }
+}

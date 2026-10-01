@@ -1,0 +1,143 @@
+{
+ "unit_id": "CD4104-bomongo",
+ "as_of": "2026-10-01",
+ "summary": "Bomongo territory (Equateur), a sparsely populated swamp-forest area in the Ngiri reserve between the Ubangi and Congo rivers, has no reported armed-group presence as of late 2026. The state exercises control through the territorial administration and the Congolese National Police (PNC), with Bomongo town as the territorial seat. Conflict records for the territory date from the 1999-2002 war. All locations in Bomongo and Lilanga Bobangi secteurs are assessed as default PNC control, with low confidence for remote villages.",
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://en.wikipedia.org/wiki/Bomongo",
+   "title": "Bomongo",
+   "publisher": "Wikipedia",
+   "date": null
+  },
+  {
+   "id": "s2",
+   "url": "https://strauss.tacc.utexas.edu/ccaps/armedConflictLocation/show/5522549",
+   "title": "CCAPS armed conflict location record (Bomongo, 1999)",
+   "publisher": "Strauss Center CCAPS",
+   "date": null
+  },
+  {
+   "id": "s3",
+   "url": "https://www.flowminder.org/media/axggk42g/estimations_population-mobilite-_equateur_mars2026.pdf",
+   "title": "Estimations population et mobilite - Equateur, mars 2026",
+   "publisher": "Flowminder",
+   "date": "2026-03"
+  }
+ ],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Bomongo town (Mobaka, territorial seat on the Ngiri) and adjacent Bwala",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Bomongo is the territorial headquarters with territorial administration and PNC commissariat. Searches (FR/EN, 2025-2026) found no reports of armed groups, militias or rebel activity in Bomongo territory; the only conflict records for Bomongo date from the 1999-2002 war (MLC era). The territory is a remote swamp-forest area (Ngiri reserve) between the Ubangi and Congo rivers, far from eastern conflict zones and the Mobondo area; state authority via territorial administration and PNC is assumed.",
+   "source_ids": [
+    "s1",
+    "s2",
+    "s3"
+   ]
+  },
+  {
+   "zone_id": "z2",
+   "description": "Bomongo secteur villages (Buburu, Ngwanza, Bikondo, Boboke, Bosobele, Bokondo, Bolebo, Ngondo, Mobena areas) along the Ubangi and Ngiri",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [],
+   "evidence": "Searches (FR/EN, 2025-2026) found no reports of armed groups, militias or rebel activity in Bomongo territory; the only conflict records for Bomongo date from the 1999-2002 war (MLC era). The territory is a remote swamp-forest area (Ngiri reserve) between the Ubangi and Congo rivers, far from eastern conflict zones and the Mobondo area; state authority via territorial administration and PNC is assumed. Thin police presence in remote riverine villages; customary chiefs handle most disputes under state authority.",
+   "source_ids": [
+    "s1",
+    "s2"
+   ]
+  },
+  {
+   "zone_id": "z3",
+   "description": "Lilanga Bobangi secteur (Lilanga, Djili, Molumbu, Mpoka, Bobanga, Ipombo, Bobangi) along the Ubangi/Congo confluence",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [],
+   "evidence": "Searches (FR/EN, 2025-2026) found no reports of armed groups, militias or rebel activity in Bomongo territory; the only conflict records for Bomongo date from the 1999-2002 war (MLC era). The territory is a remote swamp-forest area (Ngiri reserve) between the Ubangi and Congo rivers, far from eastern conflict zones and the Mobondo area; state authority via territorial administration and PNC is assumed. Riverine villages facing Congo-Brazzaville; no reports of armed actors.",
+   "source_ids": [
+    "s1",
+    "s3"
+   ]
+  }
+ ],
+ "locations": {
+  "cod-34NBG0452_1": "z1",
+  "cod-34NAG7160_1": "z2",
+  "cod-34NAG8403_1": "z2",
+  "cod-33NZB2524_1": "z2",
+  "cod-34NAG7684_1": "z2",
+  "cod-34NBG0439_1": "z2",
+  "cod-34NBG1385_1": "z2",
+  "cod-34NAG9523_1": "z2",
+  "cod-34NAH9604_1": "z2",
+  "cod-34NBG0237_1": "z2",
+  "cod-34NAG7692_1": "z2",
+  "cod-34NAH7716_1": "z2",
+  "cod-33NZB2322_1": "z2",
+  "cod-34NAG7472_1": "z2",
+  "cod-33NZB2220_1": "z2",
+  "cod-34NAF7991_1": "z2",
+  "cod-34NAG7577_1": "z2",
+  "cod-34NAG7732_2": "z2",
+  "cod-34NAG9252_2": "z2",
+  "cod-34NAH9601_1": "z2",
+  "cod-34NAG9023_1": "z2",
+  "cod-34NBG1472_1": "z2",
+  "cod-34NAG7815_1": "z2",
+  "cod-34NAG9335_2": "z2",
+  "cod-33NZB1910_1": "z2",
+  "cod-34NAG7744_1": "z2",
+  "cod-34NAG7731_2": "z2",
+  "cod-34NBG0721_1": "z2",
+  "cod-34NBG1060_1": "z2",
+  "cod-34NBH1613_1": "z2",
+  "cod-34NAG9921_1": "z2",
+  "cod-34NBG0549_3": "z1",
+  "cod-34NBH2715_1": "z2",
+  "cod-34NBG0098_1": "z2",
+  "cod-34NAG8448_1": "z2",
+  "cod-34NAG8026_1": "z2",
+  "cod-34NAH9718_1": "z2",
+  "cod-34NAG7681_1": "z2",
+  "cod-34NBG0029_1": "z2",
+  "cod-33NZA1799_1": "z2",
+  "cod-34NAG9341_1": "z2",
+  "cod-34NAG8252_1": "z2",
+  "cod-34NBH1610_1": "z2",
+  "cod-33NZA2231_1": "z3",
+  "cod-33MZV0659_1": "z3",
+  "cod-33NZA0701_1": "z3",
+  "cod-33NZA2075_1": "z3",
+  "cod-34NAF9856_1": "z3",
+  "cod-33NZA1216_1": "z3",
+  "cod-34NAF6657_1": "z3",
+  "cod-33MZV0444_1": "z3",
+  "cod-34NAF9537_1": "z3",
+  "cod-33MZV0459_1": "z3",
+  "cod-33NZA2066_1": "z3",
+  "cod-33NZA3375_1": "z3",
+  "cod-33NZA2071_1": "z3",
+  "cod-33MZV0148_1": "z3",
+  "cod-33NZA2088_1": "z3",
+  "cod-33MZV0287_1": "z3"
+ }
+}

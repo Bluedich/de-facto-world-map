@@ -1,0 +1,100 @@
+{
+ "unit_id": "CD7205-dilolo",
+ "as_of": "2026-10-01",
+ "summary": "Dilolo territory in western Lualaba, on the Angolan border and the Benguela/Lobito railway, covers Dilolo town (border post with Luau, Angola), Kasaji, the Kisenge manganese mining town and Divuma, plus rural areas of the Dilolo and Kasaji secteurs. No armed group is known to hold territory in the unit: the state controls it, with the PNC (and border/migration services) keeping order in the towns and FARDC elements posted along the Angolan border. Insecurity is criminal (banditry, smuggling, border incidents) rather than territorial. Bakata Katanga / Mai-Mai activity in 2024-2026 was concentrated far to the north-east (Mitwaba, Malemba-Nkulu, Bukama). Web research was unavailable for this unit (search budget exhausted, fetches blocked), so the assessment rests on default state presence and background knowledge.",
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://coi.euaa.europa.eu/administration/france/PLib/2409_COD__Bakata_Katanga_163382_web.pdf",
+   "title": "RDC : Bakata Katanga",
+   "publisher": "OFPRA / EUAA COI",
+   "date": "2024-09"
+  },
+  {
+   "id": "s2",
+   "url": "https://actualite.cd/2026/09/12/grand-katanga-le-spectre-mai-mai-ressurgit-mitwaba-et-malemba-nkulu-alerte-le",
+   "title": "Grand Katanga : le spectre Mai-Mai ressurgit à Mitwaba et Malemba-Nkulu, alerte le gouvernement",
+   "publisher": "Actualite.cd",
+   "date": "2026-09-12"
+  }
+ ],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Towns: Dilolo (Ndumba), Kasaji, Kisenge, Divuma",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Territorial headquarters, border town and mining/railway towns with state administration; the PNC keeps order with FARDC elements deployed along the Angolan border. No armed-group presence is reported; Mai-Mai/Bakata Katanga activity in 2024-2026 is reported far to the north-east.",
+   "source_ids": [
+    "s1",
+    "s2"
+   ]
+  },
+  {
+   "zone_id": "z2",
+   "description": "Rural villages of Dilolo and Kasaji secteurs",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "customary",
+     "role": "present"
+    }
+   ],
+   "evidence": "Sparsely populated rural area with no reported armed-group activity; state presence through PNC posts and territorial administration, with customary chiefs handling everyday disputes in remote villages.",
+   "source_ids": [
+    "s1"
+   ]
+  }
+ ],
+ "locations": {
+  "cod-34LGP6851_1": "z1",
+  "cod-34LGP3818_1": "z1",
+  "cod-34LGP1827_1": "z1",
+  "cod-34LHP1043_1": "z2",
+  "cod-34LGP5051_1": "z2",
+  "cod-34LGP3747_1": "z2",
+  "cod-35LJJ7443_2": "z2",
+  "cod-34LGP9147_1": "z2",
+  "cod-35LJJ8744_1": "z2",
+  "cod-34LHP1110_1": "z2",
+  "cod-34LGP7038_1": "z2",
+  "cod-34LGP2737_1": "z2",
+  "cod-35LKJ0339_1": "z2",
+  "cod-34LGP7056_1": "z2",
+  "cod-34LGP7348_1": "z2",
+  "cod-34LGP3203_1": "z2",
+  "cod-35LJJ7544_1": "z2",
+  "cod-34LGP7258_1": "z2",
+  "cod-34LGP6151_1": "z2",
+  "cod-34LFP4718_1": "z1",
+  "cod-34LFP9021_2": "z2",
+  "cod-34LFP5840_1": "z2",
+  "cod-34LFP9621_1": "z2",
+  "cod-34LFP6156_1": "z2",
+  "cod-34LFP8222_1": "z2",
+  "cod-34LFP4381_1": "z2",
+  "cod-34LFP6419_1": "z2",
+  "cod-34LGP0574_1": "z2",
+  "cod-34LFP6053_1": "z2",
+  "cod-34LFP4715_1": "z1",
+  "cod-34LFP9544_1": "z2",
+  "cod-34LFP6535_1": "z2",
+  "cod-34LFP5218_1": "z2",
+  "cod-34LFP9312_1": "z2",
+  "cod-34LFP5137_1": "z2"
+ }
+}

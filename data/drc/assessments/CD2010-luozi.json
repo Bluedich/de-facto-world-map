@@ -1,0 +1,82 @@
+{
+ "unit_id": "CD2010-luozi",
+ "as_of": "2026-10-01",
+ "summary": "Luozi territory (Kongo-Central, north bank of the Congo river, bordering the Republic of Congo) contains Luozi town (Mbandu agglomeration), the Nkundi area and rural villages of the Kibunzi, Luozi and Mangembo secteurs. No armed group holds territory here; it is far from the eastern conflict zones. In 2008 police operations against the Bundu dia Kongo (BDK) politico-religious movement in Luozi and neighbouring areas ended BDK's parallel authority and state control has held since. Towns are policed by the PNC with territorial administration and customary chiefs handling disputes; FARDC/border elements are present along the Congo-Brazzaville border. Web search was unavailable in this run (search budget exhausted), so the assessment rests mainly on default state presence.",
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.hrw.org/report/2008/11/25/we-will-crush-you/restriction-political-space-democratic-republic-congo",
+   "title": "\"We Will Crush You\": The Restriction of Political Space in the Democratic Republic of Congo",
+   "publisher": "Human Rights Watch",
+   "date": "2008-11-25"
+  }
+ ],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Luozi territorial centre (Mbandu agglomeration) and Nkundi – larger towns",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "default_state_presence",
+   "since": "2008-03",
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Territorial seat and largest town with PNC commissariat and territorial administration; no reported armed-group control. BDK's parallel authority in Luozi was suppressed by police operations in early 2008 and has not re-emerged as territorial control.",
+   "source_ids": [
+    "s1"
+   ]
+  },
+  {
+   "zone_id": "z2",
+   "description": "Rural villages of Luozi, Kibunzi and Mangembo secteurs (Luozi, Kibunzi, Mangembo, Kimpese and Seke-Banza health zones)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [],
+   "evidence": "Rural villages with no reported armed-group activity; state police posts, territorial administration and customary chiefs are the default authority. No recent sources could be retrieved in this run.",
+   "source_ids": []
+  }
+ ],
+ "locations": {
+  "cod-33MVQ0253_1": "z1",
+  "cod-33MUQ7075_1": "z1",
+  "cod-33MUQ7072_2": "z2",
+  "cod-33MUQ9684_1": "z2",
+  "cod-33MUQ5785_2": "z2",
+  "cod-33MUQ8959_1": "z2",
+  "cod-33MVQ0852_1": "z2",
+  "cod-33MUQ8242_2": "z2",
+  "cod-33MVQ0548_1": "z2",
+  "cod-33MUQ7295_2": "z2",
+  "cod-33MUQ6586_1": "z2",
+  "cod-33MUQ8458_1": "z2",
+  "cod-33MUQ7363_1": "z2",
+  "cod-33MUQ3651_1": "z2",
+  "cod-33MUQ5152_1": "z2",
+  "cod-33MUQ2952_1": "z2",
+  "cod-33MUQ6645_1": "z2",
+  "cod-33MUQ7627_2": "z2",
+  "cod-33MUQ7532_1": "z2",
+  "cod-33MUQ5916_1": "z2",
+  "cod-33MUQ4244_1": "z2",
+  "cod-33MUQ7038_1": "z2",
+  "cod-33MUQ4535_1": "z2",
+  "cod-33MUQ6030_2": "z2",
+  "cod-33MUQ2156_1": "z2",
+  "cod-33MUQ2454_1": "z2",
+  "cod-33MUQ7018_1": "z2",
+  "cod-33MVQ1696_2": "z2",
+  "cod-33MUQ9398_2": "z2",
+  "cod-33MVR2818_1": "z2",
+  "cod-33MVR3908_1": "z2",
+  "cod-33MVQ1891_2": "z2"
+ }
+}

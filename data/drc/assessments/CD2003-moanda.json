@@ -1,0 +1,99 @@
+{
+ "unit_id": "CD2003-moanda",
+ "as_of": "2026-10-01",
+ "summary": "Moanda territory (Kongo-Central) covers the Atlantic coast town of Moanda, the port of Banana, the Kitona military base and the rural Boma-Bungu secteur. No armed group holds territory in the area, which lies far from the eastern conflict zones. Moanda town, Banana and the villages are policed by the PNC, while the large Kitona base (FARDC training centre and air base) and its associated camps are military-run, with a Force Navale presence at Banana. Security issues are crime, oil-sector related tensions and occasional Bundu dia Kongo-related political unrest, none of which displaced state control. Web research was unavailable in this run (search budget exhausted), so the assessment rests on default state presence.",
+ "sources": [],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Moanda town (all neighbourhoods), Banana, Nsiamfumu, Yema, Weka and other villages of the Moanda secteur, plus civilian localities of Kitona secteur",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Coastal oil town and surrounding villages with no reported armed-group control; PNC commissariats and posts handle policing and arrests, with FARDC (incl. naval forces at Banana and the Kitona base nearby) stationed in the area. No sources could be retrieved in this run.",
+   "source_ids": []
+  },
+  {
+   "zone_id": "z2",
+   "description": "Boma-Bungu secteur villages (Kanzi, Lovo, Mangala, Tsumba Kituti, Nzadi Kongo, Khiemi, etc.)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [],
+   "evidence": "Rural secteur near Boma with no reported armed-group activity; state police and administration are the default authority. No sources could be retrieved in this run.",
+   "source_ids": []
+  },
+  {
+   "zone_id": "z3",
+   "description": "Kitona military base and associated camps (Kitona, Camp des Permanents/Quartier 10, Troupe/PM area)",
+   "controller_id": "cod-fardc",
+   "status": "exclusive",
+   "confidence": "medium",
+   "basis": "inference",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-pnc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Kitona hosts a major FARDC base (training centre and air base); the camps and military quarters around it are run by the army, which handles order and discipline there. Assignment based on health-area names (Camp des Permanents, Troupe) and known base location; no sources retrieved in this run.",
+   "source_ids": []
+  }
+ ],
+ "locations": {
+  "cod-33MTP0944_1": "z1",
+  "cod-33MTP1135_1": "z1",
+  "cod-33MSP9950_1": "z1",
+  "cod-33MTP3334_1": "z1",
+  "cod-33MTP0938_1": "z1",
+  "cod-33MTP0545_1": "z1",
+  "cod-33MTP1448_1": "z3",
+  "cod-33MTP3269_1": "z1",
+  "cod-33MTP3767_1": "z1",
+  "cod-33MSP9661_1": "z1",
+  "cod-33MTP1445_1": "z1",
+  "cod-33MTP0848_1": "z1",
+  "cod-33MTP2346_1": "z1",
+  "cod-33MSP9963_1": "z1",
+  "cod-33MTP0944_1-HdSWIIgtnuO": "z1",
+  "cod-33MTP0944_1-kMW9rM0dfgG": "z1",
+  "cod-33MTP0944_1-QqHdUhENrF9": "z1",
+  "cod-33MTP0944_1-facAbESY4uX": "z1",
+  "cod-33MTP0944_1-sZW9SnvM6ue": "z1",
+  "cod-33MTP0944_1-oAdDQsCdYyq": "z1",
+  "cod-33MTP5157_1": "z2",
+  "cod-33MTP8570_2": "z2",
+  "cod-33MTP8575_2": "z2",
+  "cod-33MTP4753_2": "z2",
+  "cod-33MUP0176_1": "z2",
+  "cod-33MTP8572_1": "z2",
+  "cod-33MTP8468_1": "z2",
+  "cod-33MTP9974_1": "z2",
+  "cod-33MTP5787_1": "z2",
+  "cod-33MUP0277_3": "z2",
+  "cod-33MTP7149_1": "z2",
+  "cod-33MTP9371_1": "z2",
+  "cod-33MUP1871_1": "z2",
+  "cod-33MTP6357_2": "z2",
+  "cod-33MTP6587_1": "z2",
+  "cod-33MTP4552_1": "z2",
+  "cod-33MTP9874_1": "z2",
+  "cod-33MTP4868_1": "z2",
+  "cod-33MTP1648_2": "z3",
+  "cod-33MTP1243_1": "z1",
+  "cod-33MTP1241_1": "z1",
+  "cod-33MTP1740_2": "z3"
+ }
+}

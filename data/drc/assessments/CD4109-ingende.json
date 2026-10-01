@@ -1,0 +1,124 @@
+{
+ "unit_id": "CD4109-ingende",
+ "as_of": "2026-10-01",
+ "summary": "Ingende territory (Equateur), on the Ruki/Momboyo/Busira rivers south-east of Mbandaka, is far from the eastern conflict zones and has no reported armed-group presence. Searches of 2025-2026 news found no armed-group activity or significant security incidents in the territory. Ingende town (territorial seat), the PHC palm-oil plantation town of Boteka and Lotumbe are policed by the Congolese National Police under the territorial administration. Rural villages of the Ingende and Lotumbe secteurs are assessed as default state (PNC) presence, with customary chiefs handling everyday disputes.",
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://en.wikipedia.org/wiki/Ingende",
+   "title": "Ingende",
+   "publisher": "Wikipedia",
+   "date": null
+  },
+  {
+   "id": "s2",
+   "url": "https://en.wikipedia.org/wiki/Boteka",
+   "title": "Boteka",
+   "publisher": "Wikipedia",
+   "date": null
+  }
+ ],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Main towns: Ingende (territorial seat, GRID3 'Etat'), Boteka (PHC plantation town, GRID3 'Police'), Lotumbe (secteur seat)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Administrative and economic centres of a calm territory with no reported armed-group activity in 2025-2026; PNC posts and territorial administration handle order and arrests. Small FARDC elements may be present.",
+   "source_ids": [
+    "s1",
+    "s2"
+   ]
+  },
+  {
+   "zone_id": "z2",
+   "description": "Rural villages of Ingende and Lotumbe secteurs (Ingende, Lotumbe and Pendjwa health zones)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "customary",
+     "role": "present"
+    }
+   ],
+   "evidence": "No reports of armed groups or militias in rural Ingende territory; state authority exercised via secteur administration and sparse PNC posts, with customary chiefs settling everyday disputes.",
+   "source_ids": [
+    "s1"
+   ]
+  }
+ ],
+ "locations": {
+  "cod-34MCE4613_1": "z2",
+  "cod-34MCE2442_2": "z1",
+  "cod-34MCE3267_1": "z2",
+  "cod-34MCE3026_1": "z2",
+  "cod-34MDE0825_1": "z2",
+  "cod-34MCD1396_1": "z2",
+  "cod-34MCE0855_1": "z2",
+  "cod-34MCE6509_1": "z2",
+  "cod-34MCE1253_1": "z2",
+  "cod-34MCE3152_1": "z2",
+  "cod-34MCD8497_1": "z2",
+  "cod-34MCE6830_1": "z2",
+  "cod-34MCD2099_1": "z2",
+  "cod-34MCE5455_1": "z2",
+  "cod-34MCE4361_1": "z2",
+  "cod-34MCE3353_1": "z2",
+  "cod-34MCE7158_1": "z2",
+  "cod-34MCD1384_1": "z2",
+  "cod-34MCD2292_1": "z2",
+  "cod-34MCE6724_1": "z2",
+  "cod-34MCE4529_1": "z2",
+  "cod-34MCE0352_1": "z2",
+  "cod-34MCE6637_1": "z2",
+  "cod-34MCE7141_3": "z2",
+  "cod-34MCE7061_1": "z2",
+  "cod-34MCE8955_1": "z2",
+  "cod-34MCE6532_1": "z2",
+  "cod-34MCE5420_1": "z2",
+  "cod-34MCE1948_1": "z2",
+  "cod-34MCE8147_1": "z2",
+  "cod-34MCE4961_1": "z2",
+  "cod-34MCE4147_1": "z2",
+  "cod-34MBE8855_1": "z1",
+  "cod-34MBE7365_2": "z1",
+  "cod-34MBE4387_1": "z2",
+  "cod-34MBE6472_1": "z2",
+  "cod-34MBE9552_3": "z2",
+  "cod-34MBE7314_1": "z2",
+  "cod-34MBE3588_1": "z2",
+  "cod-34MBE9154_1": "z2",
+  "cod-34MBE8349_2": "z2",
+  "cod-34MBE6174_1": "z2",
+  "cod-34MBE5877_1": "z2",
+  "cod-34MBE7618_1": "z2",
+  "cod-34MBE6928_1": "z2",
+  "cod-34MBE3983_1": "z2",
+  "cod-34MBE4338_1": "z2",
+  "cod-34MBE7437_1": "z2",
+  "cod-34MBE3341_1": "z2",
+  "cod-34MBE2748_1": "z2",
+  "cod-34MBE7115_1": "z2",
+  "cod-34MBE5223_1": "z2",
+  "cod-34MBE5386_1": "z2",
+  "cod-34MBE2984_1": "z2",
+  "cod-34MBE9237_1": "z2",
+  "cod-34MBE4676_1": "z2",
+  "cod-34MBE3788_1": "z2",
+  "cod-34MBE7134_1": "z2",
+  "cod-34MBE4565_1": "z2"
+ }
+}

@@ -1,0 +1,259 @@
+{
+ "unit_id": "CD3102-kenge",
+ "as_of": "2026-10-01",
+ "summary": "Kenge territory (Kwango province) contains the provincial capital Kenge and the rural Kenge, Bukanga-Lonzo (Boko) and Kimbau secteurs. Kenge town and most of the territory are under ordinary state authority with the PNC as main permanent force. The western Bukanga-Lonzo area along the RN1 and Kwango river (Pont Kwango, Lonzo, Bukanga Lonzo), adjoining Maluku and Kwamouth, is part of the Mobondo militia theatre since 2023; FARDC is assessed as the main force there with Mobondo raiding, but no town is known to be under Mobondo rule. Web research was unavailable for this run (search budget exhausted and news sites blocked), so all zones carry low-to-medium confidence and rest on default state presence or inference from regional reports.",
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://fr.allafrica.com/stories/202606090742.html",
+   "title": "«Les Mobondo ne sont jamais partis» - Dans l'ouest, ce groupe qui sévit toujours malgré le discours officiel",
+   "publisher": "AllAfrica / RFI",
+   "date": "2026-06-09"
+  },
+  {
+   "id": "s2",
+   "url": "https://fr.allafrica.com/stories/202505070267.html",
+   "title": "Les Mobondo renforcent leur emprise à une centaine de kilomètres de Kinshasa",
+   "publisher": "AllAfrica / RFI",
+   "date": "2025-05-07"
+  },
+  {
+   "id": "s3",
+   "url": "https://fr.allafrica.com/stories/202608180670.html",
+   "title": "Le Gouvernement confirme des signaux de paix face au phénomène Mobondo !",
+   "publisher": "AllAfrica",
+   "date": "2026-08-18"
+  }
+ ],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Kenge town (Kwango provincial capital) and its neighbourhoods (CBCO, Saint Esprit, Barrière) plus adjoining peri-urban settlements (Kenge 2, Wamba/Pont Wamba, Basuku, Dipanda, Kifulu, Kipabi)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Kenge is the seat of Kwango provincial institutions with provincial PNC command, courts and an FARDC presence; no armed group is reported to hold any part of the town. Mobondo violence in the region affects rural areas west and north (Kwango river / Batéké plateau side), not the provincial capital. Web research was unavailable for this run (search budget exhausted, news/search sites blocked by the proxy), so this rests on prior knowledge and regional reports cited by neighbouring assessments.",
+   "source_ids": [
+    "s1"
+   ]
+  },
+  {
+   "zone_id": "z2",
+   "description": "Western Kenge territory along RN1 and the Kwango river toward Maluku/Kwamouth: Pont Kwango cité, Lusendi, Bukanga Lonzo (agro-industrial park area), Lonzo/Brousse Kivubu and northern Bukanga-Lonzo villages (Kalenge 2, Kambulu, Kimbe, Baringa Zumbu, Kitsakala)",
+   "controller_id": "cod-fardc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "inference",
+   "since": "2023",
+   "presence": [
+    {
+     "entity_id": "mobondo",
+     "role": "raiding"
+    },
+    {
+     "entity_id": "cod-pnc",
+     "role": "present"
+    }
+   ],
+   "evidence": "The Mobondo militia, which emerged in Kwamouth in 2022, spread to the Batéké plateau of Maluku and across into northern Kwango (Kenge territory, Bukanga-Lonzo area along the Kwango river), with attacks on villages and farms in 2023-2025; FARDC deployments (Operation Ngemba theatre) secure the RN1 corridor and the Pont Kwango crossing. Reports through mid-2026 say Mobondo holdouts still raid in the west despite DDR claims, but no town here is reported under Mobondo rule; FARDC is assumed the main force, low confidence. Web research was unavailable for this run (search budget exhausted, news/search sites blocked by the proxy), so this rests on prior knowledge and regional reports cited by neighbouring assessments.",
+   "source_ids": [
+    "s1",
+    "s2",
+    "s3"
+   ]
+  },
+  {
+   "zone_id": "z3",
+   "description": "Southern and central Bukanga-Lonzo/Boko secteur villages away from the Kwango-river Mobondo theatre (Boko mission, Kasinsi, Tsakala Mbewa/Kenia, Imwadi, Mbanza, Ilanga, Lybie/Mutombo, Kilutu, Cercle, Mbindanseke, Iniangi, Kingunzi, Ibanda Taku, Madiuka, etc.)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "mobondo",
+     "role": "raiding"
+    }
+   ],
+   "evidence": "No reports of armed-group control located for these villages; state authority via PNC posts, territorial administration and customary chiefs is assumed. Proximity to the Mobondo-affected Kwango-river area to the north-west lowers confidence. Web research was unavailable for this run (search budget exhausted, news/search sites blocked by the proxy), so this rests on prior knowledge and regional reports cited by neighbouring assessments.",
+   "source_ids": [
+    "s1"
+   ]
+  },
+  {
+   "zone_id": "z4",
+   "description": "Kenge secteur villages east and south of Kenge (Kalonda Pont, Katoy, Ngemba, Kimbele, Kalenge, Swabangu, Makiosi/Kimwambu, Kikianga, Kidima, Kitsakala, Mbuta, 12 Femmes, Masangata, etc.)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [],
+   "evidence": "Villages on and around the RN1 Kenge-Kikwit axis with no known armed-group activity; state authority via PNC posts and customary chiefs under the territorial administration. Web research was unavailable for this run (search budget exhausted, news/search sites blocked by the proxy), so this rests on prior knowledge and regional reports cited by neighbouring assessments.",
+   "source_ids": []
+  },
+  {
+   "zone_id": "z5",
+   "description": "Northern Kenge secteur villages toward the Kwilu (Bagata/Masi-Manimba) border: Musala/Kolokoso, Mulwa, Mulopo Kuka, Kilunda, Fasamba, Kisieta, Mulomba 1, Ngongo, Kinkweni",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "mobondo",
+     "role": "raiding"
+    }
+   ],
+   "evidence": "No reports of armed-group control located; assumed under ordinary state authority (PNC, customary chiefs). These villages lie toward Bagata (Kwilu), part of the wider Mobondo theatre, so occasional militia incursions cannot be excluded; low confidence. Web research was unavailable for this run (search budget exhausted, news/search sites blocked by the proxy), so this rests on prior knowledge and regional reports cited by neighbouring assessments.",
+   "source_ids": [
+    "s1"
+   ]
+  },
+  {
+   "zone_id": "z6",
+   "description": "Kimbau secteur (Kimbao health zone): Kimbau, Ponton, Mosamba, Kabwita, Itsusu, Sanza, Ihadi, Kasesi, Kitsulu, Kiloki, Mungala, Lukuni Wamba, Mambambu, Lumina, etc.",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [],
+   "evidence": "Rural southern Kenge territory far from the Mobondo theatre with no known armed-group activity; state authority via PNC posts, territorial administration and customary chiefs. Web research was unavailable for this run (search budget exhausted, news/search sites blocked by the proxy), so this rests on prior knowledge and regional reports cited by neighbouring assessments.",
+   "source_ids": []
+  }
+ ],
+ "locations": {
+  "cod-33MYQ2866_1": "z1",
+  "cod-33MYQ8169_1": "z4",
+  "cod-33MYQ6272_1": "z4",
+  "cod-33MYR6706_1": "z5",
+  "cod-33MYQ7981_1": "z4",
+  "cod-33MYQ4547_1": "z4",
+  "cod-33MYQ6759_1": "z4",
+  "cod-33MYQ5156_1": "z4",
+  "cod-33MYQ5036_1": "z4",
+  "cod-33MYQ4843_1": "z4",
+  "cod-33MYQ7341_1": "z4",
+  "cod-33MYQ4875_1": "z4",
+  "cod-33MYQ6750_2": "z4",
+  "cod-33MYQ7975_1": "z4",
+  "cod-33MYQ8183_1": "z4",
+  "cod-33MYR9913_1": "z5",
+  "cod-33MYR5508_1": "z5",
+  "cod-33MYQ3041_1": "z4",
+  "cod-33MYQ8990_1": "z4",
+  "cod-33MZR0221_1": "z5",
+  "cod-33MYQ4571_2": "z4",
+  "cod-33MYR7624_2": "z5",
+  "cod-33MYQ4745_1": "z4",
+  "cod-33MYQ4534_1": "z4",
+  "cod-33MYR8525_1": "z5",
+  "cod-33MYR8624_2": "z5",
+  "cod-33MYQ6246_1": "z4",
+  "cod-33MYQ6696_1": "z5",
+  "cod-33MYQ7035_1": "z4",
+  "cod-33MYR6413_1": "z5",
+  "cod-33MYQ8787_1": "z4",
+  "cod-33MYQ3046_1": "z4",
+  "cod-33MYQ4550_1": "z4",
+  "cod-33MYR7519_1": "z5",
+  "cod-33MYQ6237_1": "z4",
+  "cod-33MYQ5958_1": "z4",
+  "cod-33MYQ2866_1-fHuio9NFo1h": "z1",
+  "cod-33MYQ2866_1-tcLkn3jOk68": "z1",
+  "cod-33MXQ6983_1": "z2",
+  "cod-33MXQ9979_1": "z2",
+  "cod-33MYQ1763_1": "z1",
+  "cod-33MXQ9382_1": "z2",
+  "cod-33MYQ1774_1": "z1",
+  "cod-33MYQ0117_1": "z3",
+  "cod-33MXQ6885_1": "z2",
+  "cod-33MYQ0340_1": "z3",
+  "cod-33MXQ9614_1": "z3",
+  "cod-33MXQ9945_1": "z3",
+  "cod-33MYR0712_1": "z2",
+  "cod-33MYQ2953_1": "z1",
+  "cod-33MYQ0610_1": "z3",
+  "cod-33MYQ2849_1": "z1",
+  "cod-33MXQ9663_1": "z3",
+  "cod-33MXR9410_1": "z2",
+  "cod-33MYQ1172_1": "z3",
+  "cod-33MXP8788_2": "z3",
+  "cod-33MXQ9435_1": "z3",
+  "cod-33MXR9704_1": "z2",
+  "cod-33MXQ9741_1": "z3",
+  "cod-33MXQ9935_1": "z3",
+  "cod-33MYQ0770_1": "z3",
+  "cod-33MXQ8123_1": "z3",
+  "cod-33MYQ2372_1": "z1",
+  "cod-33MYQ2162_1": "z1",
+  "cod-33MXQ9807_1": "z3",
+  "cod-33MYQ0677_1": "z3",
+  "cod-33MXQ7412_1": "z3",
+  "cod-33MYQ1973_1": "z1",
+  "cod-33MYQ0433_1": "z3",
+  "cod-33MYR0100_1": "z2",
+  "cod-33MYP0288_1": "z3",
+  "cod-33MXQ9659_1": "z3",
+  "cod-33MXQ8208_2": "z3",
+  "cod-33MYQ0093_1": "z2",
+  "cod-33MXQ6734_1": "z3",
+  "cod-33MXQ7013_1": "z3",
+  "cod-33MYQ0670_2": "z3",
+  "cod-33MYP1395_1": "z3",
+  "cod-33MXP9577_1": "z3",
+  "cod-33MYQ0659_1": "z3",
+  "cod-33MXQ7147_1": "z3",
+  "cod-33MXQ9669_2": "z3",
+  "cod-33MYQ0972_1": "z3",
+  "cod-33MYQ2866_1-rqOd7wG4lPX": "z1",
+  "cod-33MYP7191_1": "z6",
+  "cod-33MYP7087_2": "z6",
+  "cod-33MYP4478_1": "z6",
+  "cod-33MYP4646_1": "z6",
+  "cod-33MYP4794_2": "z6",
+  "cod-33MYQ4124_1": "z6",
+  "cod-33MYP4564_1": "z6",
+  "cod-33MYP4292_1": "z6",
+  "cod-33MYP5973_1": "z6",
+  "cod-33MYP4164_1": "z6",
+  "cod-33MYP4878_1": "z6",
+  "cod-33MYP3965_1": "z6",
+  "cod-33MYP5899_1": "z6",
+  "cod-33MYP4059_1": "z6",
+  "cod-33MYQ3324_1": "z6",
+  "cod-33MYQ4328_1": "z6",
+  "cod-33MYQ7228_1": "z6",
+  "cod-33MYP5069_2": "z6",
+  "cod-33MYP4151_1": "z6",
+  "cod-33MYP5696_1": "z6",
+  "cod-33MYP4484_1": "z6",
+  "cod-33MYP7095_1": "z6",
+  "cod-33MYP4158_1": "z6",
+  "cod-33MYP3769_1": "z6",
+  "cod-33MYQ3620_1": "z6",
+  "cod-33MYQ4222_1": "z6",
+  "cod-33MYP7284_1": "z6",
+  "cod-33MYP5273_1": "z6",
+  "cod-33MYP5278_1": "z6",
+  "cod-33MYQ6105_1": "z6",
+  "cod-33MYP4875_1": "z6",
+  "cod-33MYP5549_1": "z6",
+  "cod-33MYP4899_1": "z6",
+  "cod-33MYP4455_1": "z6",
+  "cod-33MYP5786_1": "z6",
+  "cod-33MYP7176_1": "z6"
+ }
+}

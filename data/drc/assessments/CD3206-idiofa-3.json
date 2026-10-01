@@ -1,0 +1,120 @@
+{
+ "unit_id": "CD3206-idiofa-3",
+ "as_of": "2026-10-01",
+ "summary": "This unit covers the Mungindu secteur of Idiofa territory (Kwilu), a rural area served by the Mungindu health zone and the northern part of Gungu health zone. No armed group is reported to control or regularly raid any locality here; the Mobondo militia, active in western Kwilu, Kwango and Mai-Ndombe since 2022, operates far to the west. All locations are assessed as under ordinary state authority with the PNC as the main permanent force alongside secteur administration and customary chiefs. Live web research was unavailable for this run, so confidence is medium for the secteur seat and low elsewhere.",
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://fr.allafrica.com/stories/202606090742.html",
+   "title": "«Les Mobondo ne sont jamais partis» - Dans l'ouest, ce groupe qui sévit toujours malgré le discours officiel",
+   "publisher": "AllAfrica / RFI",
+   "date": "2026-06-09"
+  },
+  {
+   "id": "s2",
+   "url": "https://fr.allafrica.com/stories/202505070267.html",
+   "title": "Les Mobondo renforcent leur emprise à une centaine de kilomètres de Kinshasa",
+   "publisher": "AllAfrica / RFI",
+   "date": "2025-05-07"
+  },
+  {
+   "id": "s3",
+   "url": "https://fr.allafrica.com/stories/202608180670.html",
+   "title": "Le Gouvernement confirme des signaux de paix face au phénomène Mobondo !",
+   "publisher": "AllAfrica",
+   "date": "2026-08-18"
+  }
+ ],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Mungindu secteur chef-lieu and adjacent villages (Mungindu 1 and 2 health areas: Mungindu Secteur, Pukusu, Lutshima Boma, Kitombe Beach, Mbuto, Kalombo, Kisenzele)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [],
+   "evidence": "Secteur headquarters with secteur administration and a PNC post; customary chiefs operate under state authority. No source reports armed-group control or regular raids in Mungindu secteur as of the reference date; the Mobondo militia theatre (Kwamouth, Bagata, Kenge, Kwango, western Bulungu) lies well to the west. Live web research was unavailable for this run (search budget exhausted), so the assessment rests on default state presence.",
+   "source_ids": [
+    "s1",
+    "s2",
+    "s3"
+   ]
+  },
+  {
+   "zone_id": "z2",
+   "description": "Rural villages of Mungindu secteur (Mungindu and Gungu health zones), between the Kwilu and Kwenge rivers",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [],
+   "evidence": "Rural villages under customary chiefs within state authority, with PNC sub-posts at groupement level and secteur administration. No source reports armed-group control or regular raids in Mungindu secteur as of the reference date; the Mobondo militia theatre (Kwamouth, Bagata, Kenge, Kwango, western Bulungu) lies well to the west. Live web research was unavailable for this run (search budget exhausted), so the assessment rests on default state presence.",
+   "source_ids": [
+    "s1",
+    "s2",
+    "s3"
+   ]
+  }
+ ],
+ "locations": {
+  "cod-34MBU6897_1": "z2",
+  "cod-34MBU9294_1": "z2",
+  "cod-34MCU0283_1": "z2",
+  "cod-34MBU8775_1": "z2",
+  "cod-34MBU7896_2": "z1",
+  "cod-34MBU9799_1": "z2",
+  "cod-34MBV7605_1": "z2",
+  "cod-34MBV7406_1": "z2",
+  "cod-34MBU8196_1": "z1",
+  "cod-34MCU1085_2": "z2",
+  "cod-34MBV7401_1": "z1",
+  "cod-34MBU8995_1": "z2",
+  "cod-34MBV8301_1": "z2",
+  "cod-34MCV1315_1": "z2",
+  "cod-34MBU8192_1": "z1",
+  "cod-34MBU6482_1": "z2",
+  "cod-34MBU8293_1": "z1",
+  "cod-34MBU7588_1": "z2",
+  "cod-34MCU1097_1": "z2",
+  "cod-34MBU7572_1": "z2",
+  "cod-34MBU9691_1": "z2",
+  "cod-34MBU7397_1": "z2",
+  "cod-34MBU8893_1": "z2",
+  "cod-34MCU0996_2": "z2",
+  "cod-34MCU1488_1": "z2",
+  "cod-34MBU7185_1": "z2",
+  "cod-34MBU8884_1": "z2",
+  "cod-34MCU0088_1": "z2",
+  "cod-34MCU0295_1": "z2",
+  "cod-34MBV7804_1": "z2",
+  "cod-34MBV9302_1": "z2",
+  "cod-34MBU7189_1": "z2",
+  "cod-34MBU7798_1": "z1",
+  "cod-34MBU7476_1": "z2",
+  "cod-34MCU1890_1": "z2",
+  "cod-34MBV7801_3": "z2",
+  "cod-34MBU9877_1": "z2",
+  "cod-34MBU8287_1": "z2",
+  "cod-34MBU7180_1": "z2",
+  "cod-34MBV7808_1": "z2",
+  "cod-34MCV0117_1": "z2",
+  "cod-34MBV7700_1": "z1",
+  "cod-34MBV7509_1": "z2",
+  "cod-34MBU8399_1": "z2",
+  "cod-34MBU7260_1": "z2",
+  "cod-34MCU0491_1": "z2",
+  "cod-34MBU6576_1": "z2",
+  "cod-34MBV9607_1": "z2",
+  "cod-34MCV0300_1": "z2",
+  "cod-34MBV8404_1": "z2",
+  "cod-34MCU0889_1": "z2",
+  "cod-34MCU1689_1": "z2",
+  "cod-34MBU9392_1": "z2",
+  "cod-34MBV8007_1": "z2",
+  "cod-34MBV9109_1": "z2"
+ }
+}

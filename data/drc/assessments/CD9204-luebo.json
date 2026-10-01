@@ -1,0 +1,125 @@
+{
+ "unit_id": "CD9204-luebo",
+ "as_of": "2026-10-01",
+ "summary": "Luebo territory (Kasaï) comprises Luebo and Ndjoko-Mpunda secteurs. It was affected by the Kamuina Nsapu insurgency in 2016-2017 (including attacks on Luebo town), but militias were defeated or demobilised by 2018-2019 and no armed group is known to hold territory as of 2026. The towns of Luebo and Ndjoko-Mpunda are policed by the PNC with FARDC and ANR present; rural areas fall under PNC posts and customary chiefs. Assessment relies on background knowledge because live web research was unavailable in this run, so confidence is limited.",
+ "sources": [],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Main towns: Luebo (territory seat) with Kasenga, and Ndjoko-Mpunda (CMCO, Ndombi, Port Kasai) on the Kasai river",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    },
+    {
+     "entity_id": "cod-anr",
+     "role": "present"
+    }
+   ],
+   "evidence": "Administrative centres with territorial administration, PNC commissariats and FARDC/ANR presence. Luebo was attacked by Kamuina Nsapu militias in 2017 but the state regained it in 2017 and no armed group has held the towns since. Not verified with fresh sources in this run (web search budget exhausted, search engines blocked).",
+   "source_ids": []
+  },
+  {
+   "zone_id": "z2",
+   "description": "Rural Luebo secteur/health zone (Lombe, Mbuyi Lombe, Tshiendesha, Kabisuanga and villages)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Former Kamuina Nsapu theatre (2016-2017); militias dispersed/demobilised by 2018-2019 and no armed group is known to control territory since. Order relies on PNC posts with customary chiefs and occasional FARDC deployments. Not verified with fresh sources in this run (web search budget exhausted, search engines blocked).",
+   "source_ids": []
+  },
+  {
+   "zone_id": "z3",
+   "description": "Rural Ndjoko-Mpunda secteur (Mudimbi, Kimbangu/Mayimbi, Tshiapemba, Kasanji and villages, incl. parts of Banga Lubaka and Mikope health zones)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "No armed-group control reported since the end of the Kamuina Nsapu crisis; rural security handled by PNC posts and customary authorities with sporadic FARDC presence. Not verified with fresh sources in this run (web search budget exhausted, search engines blocked).",
+   "source_ids": []
+  }
+ ],
+ "locations": {
+  "cod-34MEU6950_1": "z2",
+  "cod-34MEV4512_1": "z1",
+  "cod-34MEV4608_1": "z1",
+  "cod-34MEU6344_1": "z2",
+  "cod-34MEU5893_1": "z2",
+  "cod-34MEU6379_1": "z2",
+  "cod-34MEU5429_1": "z2",
+  "cod-34MEU5742_1": "z2",
+  "cod-34MEV5005_1": "z2",
+  "cod-34MEU6089_1": "z2",
+  "cod-34MEV3403_1": "z2",
+  "cod-34MEU3786_1": "z2",
+  "cod-34MEU7761_1": "z2",
+  "cod-34MEU6976_1": "z2",
+  "cod-34MEU3353_1": "z2",
+  "cod-34MEV4003_1": "z2",
+  "cod-34MEU2373_1": "z2",
+  "cod-34MEU5738_1": "z2",
+  "cod-34MEU6577_1": "z2",
+  "cod-34MEU5739_1": "z2",
+  "cod-34MEU4149_1": "z2",
+  "cod-34MEU5734_2": "z2",
+  "cod-34MEV4518_1": "z2",
+  "cod-34MEU6676_1": "z2",
+  "cod-34MEU5531_1": "z2",
+  "cod-34MEV1241_1": "z2",
+  "cod-34MEV3101_1": "z2",
+  "cod-34MEU5426_2": "z2",
+  "cod-34MEU5795_1": "z2",
+  "cod-34MEU8487_1": "z2",
+  "cod-34MEV3900_1": "z2",
+  "cod-34MEU6283_1": "z2",
+  "cod-34MEU3951_1": "z2",
+  "cod-34MEU7464_1": "z2",
+  "cod-34MEU0094_1": "z1",
+  "cod-34MDU9697_1": "z1",
+  "cod-34MDU8767_1": "z3",
+  "cod-34MDU8280_1": "z3",
+  "cod-34MEU1953_1": "z3",
+  "cod-34MDU9896_1": "z1",
+  "cod-34MEU2048_2": "z3",
+  "cod-34MDU9199_1": "z3",
+  "cod-34MEU1756_1": "z3",
+  "cod-34MEU1763_1": "z3",
+  "cod-34MEU2341_1": "z3",
+  "cod-34MEU0398_1": "z3",
+  "cod-34MEU2270_1": "z3",
+  "cod-34MEU2630_1": "z3",
+  "cod-34MEU1760_1": "z3",
+  "cod-34MEU2354_1": "z3",
+  "cod-34MEU1795_2": "z3",
+  "cod-34MDU8969_1": "z3",
+  "cod-34MDU8380_2": "z3",
+  "cod-34MEU1868_1": "z3",
+  "cod-34MEU0697_1": "z3",
+  "cod-34MEU0272_1": "z3",
+  "cod-34MEU1596_1": "z3",
+  "cod-34MDU9090_2": "z3",
+  "cod-34MEU2068_1": "z3"
+ }
+}

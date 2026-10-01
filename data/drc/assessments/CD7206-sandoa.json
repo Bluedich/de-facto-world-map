@@ -1,0 +1,137 @@
+{
+ "unit_id": "CD7206-sandoa",
+ "as_of": "2026-10-01",
+ "summary": "Sandoa territory (Lualaba) is a remote, sparsely populated Lunda area between Kapanga/Mutshatsha and the Angolan border (Lunda Sul). No armed group is known to hold territory here: Sandoa town (Chombe/Kasulo agglomeration) is the territorial seat with state administration, PNC commissariat and a small FARDC presence, and Kafakumba is a smaller administrative/mission centre with a police post. Rural villages are governed day to day by Lunda customary chiefs under nominal state authority (PNC posts in larger villages). Insecurity is limited to banditry, artisanal-diamond and border frictions (occasional reports of Angolan soldiers harassing Congolese along the border); Bakata Katanga and other militias operate far to the east. Web search was unavailable for this run (session search budget exhausted), so the assessment rests on default state presence with medium/low confidence.",
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://coi.euaa.europa.eu/administration/france/PLib/2409_COD__Bakata_Katanga_163382_web.pdf",
+   "title": "RDC : Bakata Katanga",
+   "publisher": "OFPRA / EUAA COI",
+   "date": "2024-09"
+  }
+ ],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Sandoa town agglomeration (Chombe, Kasulo/Kawele, Luyembe/Mbako, Mas, Lumanga, Mwatshisenge)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Territorial seat of Sandoa with the territorial administration, PNC commissariat and courts; FARDC elements are stationed in the territory near the Angolan border. No reports of armed groups holding or regularly operating in the town; Katangese militia activity (Bakata Katanga) is reported in Haut-Katanga/Haut-Lomami, far to the east (s1).",
+   "source_ids": [
+    "s1"
+   ]
+  },
+  {
+   "zone_id": "z2",
+   "description": "Kafakumba centre (Poste Kafakumba, Quartier Mission/Kipuki, Diyamba, Sasula)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [],
+   "evidence": "Chief town of the Kafakumba secteur with a state post and police; no reported armed-group activity. Default state presence.",
+   "source_ids": [
+    "s1"
+   ]
+  },
+  {
+   "zone_id": "z3",
+   "description": "Rural villages of Sandoa health zone (Tshibamba, Tshimbungu, Muteba, Swanamume, Kamwila, Ndolo, Lubanda, Mufulwa, Sapindji, Kasao areas)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "customary",
+     "role": "present"
+    }
+   ],
+   "evidence": "Remote rural Lunda villages with no reported armed-group activity; PNC posts in larger villages and the territorial administration are the state presence, while customary chiefs settle most local disputes. Possible border friction with Angolan forces near the Lunda Sul border is sporadic and does not amount to control.",
+   "source_ids": []
+  },
+  {
+   "zone_id": "z4",
+   "description": "Rural villages of Kafakumba health zone (Kayembe Mukulu/Pimino/Onde, Diyamba 1-2, Lumeji quarry, Kalombo, Sapesa, Sakundundu, Ngongo, Mupwelete, Kalamboji, Sangatshila, Mbangu, Salimi)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "customary",
+     "role": "present"
+    }
+   ],
+   "evidence": "Sparsely populated rural secteur with no reported armed-group activity; nominal state presence via secteur administration and scattered PNC posts, with customary chiefs handling day-to-day order.",
+   "source_ids": []
+  }
+ ],
+ "locations": {
+  "cod-34LGQ0627_1": "z1",
+  "cod-34LGQ2823_1": "z1",
+  "cod-34LGQ0225_1": "z1",
+  "cod-34LGQ3612_1": "z3",
+  "cod-34LFQ7090_1": "z3",
+  "cod-34LGQ0473_1": "z3",
+  "cod-34LGQ1227_1": "z1",
+  "cod-34LFQ9728_1": "z1",
+  "cod-34LFQ9361_1": "z3",
+  "cod-34LGQ3515_1": "z3",
+  "cod-34LGQ1163_1": "z3",
+  "cod-34LGQ0628_1": "z1",
+  "cod-34LGQ4508_1": "z3",
+  "cod-34LGQ2207_1": "z3",
+  "cod-34LFQ6689_1": "z3",
+  "cod-34LGP1796_1": "z3",
+  "cod-34LGQ3319_1": "z3",
+  "cod-34LGQ5331_1": "z3",
+  "cod-34LGQ1555_1": "z3",
+  "cod-34LGQ2801_1": "z3",
+  "cod-34LGQ6303_1": "z3",
+  "cod-34LGQ2124_1": "z3",
+  "cod-34LGQ2500_1": "z3",
+  "cod-34LGQ2003_1": "z3",
+  "cod-34LGQ1430_1": "z3",
+  "cod-34LGQ1633_1": "z3",
+  "cod-34LGQ0116_1": "z3",
+  "cod-34LGQ1552_1": "z3",
+  "cod-34LGQ9328_1": "z2",
+  "cod-34LHQ0229_1": "z2",
+  "cod-34LGQ7328_1": "z4",
+  "cod-34LHQ1129_1": "z4",
+  "cod-34LGQ9580_2": "z4",
+  "cod-34LHQ1895_1": "z4",
+  "cod-34LHQ2498_1": "z4",
+  "cod-34LGQ9827_1": "z2",
+  "cod-34LGQ7775_1": "z4",
+  "cod-34LGQ9003_1": "z4",
+  "cod-34LGQ9427_1": "z2",
+  "cod-34LHQ1466_1": "z4",
+  "cod-35LJL7314_1": "z4",
+  "cod-34LHQ1459_1": "z4",
+  "cod-34LGQ9893_1": "z4",
+  "cod-34LGQ4132_1": "z3",
+  "cod-34LHQ1893_1": "z4",
+  "cod-35LKK0184_1": "z4",
+  "cod-35LJK7799_1": "z4",
+  "cod-35LJK7737_1": "z4",
+  "cod-34LHQ1946_1": "z4",
+  "cod-34LHQ1589_1": "z4",
+  "cod-34LHQ0990_1": "z4"
+ }
+}

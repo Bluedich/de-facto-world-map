@@ -1,0 +1,38 @@
+{
+  "unit_id": "CD8104-luilu-2",
+  "as_of": "2026-10-01",
+  "summary": "Part 2 of Luilu territory (Lomami) covers the Wikong health zone in the far south-west of the territory, a remote rural Lunda/Ruund area bordering Kapanga territory (Lualaba). No armed group is reported to hold territory there as of 2026; Kamuina Nsapu-related violence that hit parts of Luilu in 2017 subsided by 2018 and left no lasting armed control in this area. Order is kept by customary chiefs under sparse PNC posts, with the state reachable from Luilu/Kamiji and Kapanga; residual insecurity is banditry and local disputes. Live web research was unavailable in this run (search budget exhausted), so the assessment relies on background knowledge and the default-state-presence rule, with low confidence.",
+  "sources": [],
+  "new_entities": [],
+  "zones": [
+    {
+      "zone_id": "z1",
+      "description": "Wikong health zone villages (Kayind/Masol, Kapat, Kakang, Mansonj, Mbangom, Mukatshiot, Ntikit, Tshibal, Katambal, Mpund)",
+      "controller_id": "cod-pnc",
+      "status": "dominant",
+      "confidence": "low",
+      "basis": "default_state_presence",
+      "since": null,
+      "presence": [
+        {
+          "entity_id": "customary",
+          "role": "present"
+        }
+      ],
+      "evidence": "Remote rural health zone with no reported armed-group presence; the Kamuina Nsapu insurgency of 2016-2018 did not establish lasting control here. Day-to-day order rests on Lunda customary chiefs with sparse PNC posts as the state's coercive presence.",
+      "source_ids": []
+    }
+  ],
+  "locations": {
+    "cod-34MGS6137_1": "z1",
+    "cod-34MGS4531_1": "z1",
+    "cod-34MGS4938_1": "z1",
+    "cod-34MGS4841_1": "z1",
+    "cod-34MGS5828_1": "z1",
+    "cod-34MGS4820_3": "z1",
+    "cod-34MGS5429_1": "z1",
+    "cod-34MGS5642_2": "z1",
+    "cod-34MGS4544_1": "z1",
+    "cod-34MGS6031_1": "z1"
+  }
+}

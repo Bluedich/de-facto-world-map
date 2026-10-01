@@ -1,0 +1,122 @@
+{
+ "unit_id": "CD4107-basankusu",
+ "as_of": "2026-10-01",
+ "summary": "Basankusu territory (Equateur) is a remote forested territory on the Lulonga/Maringa/Lopori rivers with no reported armed-group presence as of late 2026. Armed conflict records for Basankusu and Djombo date from the 1999-2002 war, when the MLC took the area. The state controls the territory through the territorial administration and the PNC, with a small FARDC presence in Basankusu town. All locations in the Basankusu and Djombo secteurs are assessed as default PNC control, with low confidence for rural villages.",
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://en.wikipedia.org/wiki/Basankusu",
+   "title": "Basankusu",
+   "publisher": "Wikipedia",
+   "date": null
+  },
+  {
+   "id": "s2",
+   "url": "https://strauss.tacc.utexas.edu/ccaps/armedConflictLocation/show/5523064",
+   "title": "CCAPS armed conflict location record (Basankusu, 1999-2000)",
+   "publisher": "Strauss Center CCAPS",
+   "date": null
+  },
+  {
+   "id": "s3",
+   "url": "https://www.globalsecurity.org/military/library/news/2000/11/war-001103-afcod3.htm",
+   "title": "MLC atrocities near Basankusu, Djombo and Kodoro (2000)",
+   "publisher": "IRIN via GlobalSecurity",
+   "date": "2000-11-03"
+  }
+ ],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Basankusu town (territorial seat, river port at Lulonga/Maringa/Lopori confluence) and adjacent Ikau",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Basankusu is the territorial headquarters with territorial administration, PNC commissariat and a small FARDC presence. Searches (FR/EN, 2025-2026) found no reports of armed groups, militias or rebel activity in Basankusu territory; conflict records for Basankusu and Djombo date from the 1999-2002 war (MLC vs FAC). The territory is remote forest in Equateur, far from eastern conflict zones and the Mobondo area; state authority via territorial administration and PNC is assumed.",
+   "source_ids": [
+    "s1",
+    "s2"
+   ]
+  },
+  {
+   "zone_id": "z2",
+   "description": "Basankusu secteur villages (Lisafa, Ndeke, Ilodze, Bongilima, Nsongo Nkoy, Bokakata, Lilangi, Monzonzo health areas)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [],
+   "evidence": "Searches (FR/EN, 2025-2026) found no reports of armed groups, militias or rebel activity in Basankusu territory; conflict records for Basankusu and Djombo date from the 1999-2002 war (MLC vs FAC). The territory is remote forest in Equateur, far from eastern conflict zones and the Mobondo area; state authority via territorial administration and PNC is assumed. Police presence in remote villages is thin; customary chiefs handle most disputes.",
+   "source_ids": [
+    "s1",
+    "s2"
+   ]
+  },
+  {
+   "zone_id": "z3",
+   "description": "Djombo secteur villages (Djombo health zone: Djombo, Boso Ngwanza, Bobambo, Bosongo, Boso Maswa, Kodoro areas)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [],
+   "evidence": "Searches (FR/EN, 2025-2026) found no reports of armed groups, militias or rebel activity in Basankusu territory; conflict records for Basankusu and Djombo date from the 1999-2002 war (MLC vs FAC). The territory is remote forest in Equateur, far from eastern conflict zones and the Mobondo area; state authority via territorial administration and PNC is assumed. Djombo/Kodoro saw MLC abuses in 2000 but no recent armed activity is reported.",
+   "source_ids": [
+    "s2",
+    "s3"
+   ]
+  }
+ ],
+ "locations": {
+  "cod-34NCG6634_1": "z1",
+  "cod-34NCG5922_1": "z2",
+  "cod-34NCG9118_3": "z2",
+  "cod-34NCG1420_1": "z2",
+  "cod-34NCG5618_1": "z2",
+  "cod-34NCG6137_1": "z1",
+  "cod-34NCG8310_1": "z2",
+  "cod-34NCG3540_1": "z2",
+  "cod-34NCG7901_1": "z2",
+  "cod-34NCG6120_1": "z2",
+  "cod-34NCG3840_1": "z2",
+  "cod-34NCG8711_1": "z2",
+  "cod-34NCG6328_1": "z2",
+  "cod-34NDF0460_1": "z2",
+  "cod-34NCG7522_1": "z2",
+  "cod-34NCG6415_1": "z2",
+  "cod-34NCG5437_1": "z2",
+  "cod-34NCG5524_1": "z2",
+  "cod-34NDG3149_1": "z3",
+  "cod-34NDG4661_1": "z3",
+  "cod-34NDG1655_1": "z3",
+  "cod-34NDG5164_1": "z3",
+  "cod-34NDG5753_1": "z3",
+  "cod-34NDG3957_1": "z3",
+  "cod-34NDG0134_1": "z3",
+  "cod-34NDG5251_1": "z3",
+  "cod-34NDG1055_1": "z3",
+  "cod-34NDG2163_1": "z3",
+  "cod-34NCG8357_1": "z3",
+  "cod-34NDG2952_1": "z3",
+  "cod-34NDG3251_1": "z3",
+  "cod-34NDG1439_1": "z3",
+  "cod-34NDG4542_1": "z3",
+  "cod-34NDG2755_1": "z3",
+  "cod-34NDG2138_1": "z3",
+  "cod-34NDG4950_1": "z3",
+  "cod-34NDG1738_1": "z3",
+  "cod-34NDG3654_1": "z3",
+  "cod-34NDG0240_1": "z3"
+ }
+}

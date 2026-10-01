@@ -1,0 +1,42 @@
+{
+ "unit_id": "CD2002-boma",
+ "as_of": "2026-10-01",
+ "summary": "Boma, a city-territory and port on the lower Congo River in Kongo-Central, lies far from the eastern conflict zones and no armed group holds territory there. Day-to-day order in all its health-area neighbourhoods is kept by the Congolese National Police (PNC), with FARDC and naval forces (Boma hosts a Force Navale presence on the river) also stationed in the city. Security issues are urban crime (kuluna-type banditry) and past political unrest linked to the Bundu dia Kongo movement (notably 2017-2020), which did not displace state control. Web research was unavailable for this run (search budget exhausted), so the assessment rests on default state presence.",
+ "sources": [],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Boma city and all its health-area neighbourhoods (Sinai, Kimbangu A/B, Seka Mbote, Km 8A/8B, Buanionzi, Boma Ville, Kiveve, Rond Point, Kalamu, Bunzi, Ngomuila)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Port city in a province with no active armed-group territorial control; PNC commissariats handle policing, arrests and order, with FARDC/naval units garrisoned in the city. Crime (kuluna) and past Bundu dia Kongo unrest did not amount to territorial control. No sources could be retrieved in this run.",
+   "source_ids": []
+  }
+ ],
+ "locations": {
+  "cod-33MTP8455_1": "z1",
+  "cod-33MTP8455_1-MPTnEVmUvYt": "z1",
+  "cod-33MTP8455_1-kEBRC7Vb2gG": "z1",
+  "cod-33MTP8455_1-FuTqdzReM9Y": "z1",
+  "cod-33MTP8455_1-qYrMYjRWU3g": "z1",
+  "cod-33MTP8455_1-mS7TAjCcy0u": "z1",
+  "cod-33MTP8455_1-eR2x0dxSbdN": "z1",
+  "cod-33MTP8455_1-yGCZ4uoG5WL": "z1",
+  "cod-33MTP8455_1-tXKnFPz0i6h": "z1",
+  "cod-33MTP8455_1-LggcVmZsN3i": "z1",
+  "cod-33MTP8455_1-O1CyjhnGt6N": "z1",
+  "cod-33MTP8455_1-Ir3wsam4awL": "z1",
+  "cod-33MTP8455_1-vT4q8W3EuFs": "z1",
+  "cod-33MTP8455_1-hskkOS0PVco": "z1"
+ }
+}

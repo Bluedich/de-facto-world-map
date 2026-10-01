@@ -1,0 +1,94 @@
+{
+ "unit_id": "CD6313-kibombo",
+ "as_of": "2026-10-01",
+ "summary": "Kibombo territory (Maniema) lies south of Kindu, far west of the eastern Kivu frontlines and north-west of the Mai-Mai Malaika area of Kabambare/Salamabila; no armed group is known to hold, tax or administer any part of it. Kibombo town (Majengo/Kinshasa quarters), Lusaki and the villages along the Kindu-Kibombo road/railway corridor (Imbu, Alungu, Mamba, Bilundu, Lweki, Lubao, Kamimbi) are assessed as under PNC policing with territorial administration and a modest FARDC presence. The western Tunda secteur (Wenga, Dembo, Lokango, Weta, Ongeri, Abanga, Odiko) and the scattered villages of the Tunda health zone are assumed under thin state presence with lower confidence. Web research could not be performed for this unit (search budget exhausted), so the assessment rests on default state presence and background knowledge.",
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://fr.wikipedia.org/wiki/Territoire_de_Kibombo",
+   "title": "Territoire de Kibombo",
+   "publisher": "Wikipedia",
+   "date": null
+  }
+ ],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Kibombo territorial centre (Majengo, Kinshasa quarter) and Kibombo/Kailo/Kunda health-zone villages on the Kindu-Kibombo road and railway: Lusaki, Imbu, Alungu, Mamba, Nganze, Bilundu, Lweki, Okele, Lubao 1, Kamimbi Route, Kilindingulu",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    },
+    {
+     "entity_id": "cod-anr",
+     "role": "present"
+    }
+   ],
+   "evidence": "Territorial seat and road/rail corridor south of the provincial capital Kindu with territorial administration and police posts; no armed group is reported to hold, tax or administer these places. Research could not be performed (search budget exhausted), so this rests on default state presence.",
+   "source_ids": [
+    "s1"
+   ]
+  },
+  {
+   "zone_id": "z2",
+   "description": "Tunda secteur and Tunda health-zone villages in the west and south: Wenga, Lunga, Lokango, Dembo, Enyamba, Palanga, Tongo, Umbulungu Lonya, Yungi, Weta, Kembe Yule, Simbo, Oye, Ongeri, Abanga, Odiko, Nkola Luanda Utanga, Lukila, Lokoso, Losa Olamba",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Remote villages far from Kibombo centre toward Sankuru and Lubao (Kasai-Oriental/Lomami border) where state presence is thin; no armed-group control is known for this area, but it could not be checked with current sources. Assumed under thin state police/administrative presence.",
+   "source_ids": [
+    "s1"
+   ]
+  }
+ ],
+ "locations": {
+  "cod-35MLR8066_1": "z1",
+  "cod-35MLR9027_1": "z1",
+  "cod-35MLR8183_1": "z1",
+  "cod-35MLR7949_1": "z1",
+  "cod-35MLS7240_2": "z1",
+  "cod-35MLR7757_1": "z1",
+  "cod-35MLS7243_1": "z1",
+  "cod-35MLS7149_1": "z1",
+  "cod-35MLS7124_1": "z1",
+  "cod-35MLR7862_1": "z1",
+  "cod-35MLR9341_2": "z1",
+  "cod-35MLR4142_2": "z2",
+  "cod-35MLS3809_1": "z2",
+  "cod-35MLR8331_1": "z1",
+  "cod-35MLS6419_1": "z1",
+  "cod-35MLQ3880_1": "z2",
+  "cod-35MLS2910_1": "z2",
+  "cod-35MKR9830_1": "z2",
+  "cod-35MKR6977_1": "z2",
+  "cod-35MKR6984_1": "z2",
+  "cod-35MKR6096_2": "z2",
+  "cod-35MLQ0169_1": "z2",
+  "cod-35MKR8356_1": "z2",
+  "cod-35MKR6493_1": "z2",
+  "cod-35MKR7285_1": "z2",
+  "cod-35MLR0410_1": "z2",
+  "cod-35MKR8641_1": "z2",
+  "cod-35MKS5616_1": "z2",
+  "cod-35MKR7965_1": "z2",
+  "cod-35MLR2037_1": "z2",
+  "cod-35MKR9428_1": "z2",
+  "cod-35MKQ9791_3": "z2",
+  "cod-35MKQ8061_1": "z2"
+ }
+}

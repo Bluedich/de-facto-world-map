@@ -1,0 +1,112 @@
+{
+ "unit_id": "CD9104-luiza-2",
+ "as_of": "2026-10-01",
+ "summary": "This unit covers the Yangala health zone in the south of Luiza territory (Kasaï-Central), between Luiza and the Angolan border area. Luiza territory was badly hit by the Kamuina Nsapu insurgency in 2017, but the militias were defeated by FARDC operations and most remaining fighters surrendered in 2019; no armed group is known to hold territory in the area as of 2026. The main town and the larger villages fall under the PNC and customary chiefs, with FARDC and ANR present in the territory; residual insecurity is banditry and occasional local militia incidents. Live web research was unavailable in this run (search budget exhausted, fetch blocked), so the assessment relies on background knowledge and default state presence, with limited confidence.",
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://en.wikipedia.org/wiki/Kamwina_Nsapu_rebellion",
+   "title": "Kamwina Nsapu rebellion",
+   "publisher": "Wikipedia",
+   "date": null
+  }
+ ],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Main town of the Yangala health zone (Quartier Hopital settlement, health area Yangala)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "default_state_presence",
+   "since": "2019",
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    },
+    {
+     "entity_id": "cod-anr",
+     "role": "present"
+    }
+   ],
+   "evidence": "Health-zone chief town; the Kamuina Nsapu insurgency that affected Luiza territory in 2017 was suppressed and its fighters largely surrendered in 2019. No reports of armed-group control since, so the PNC is assumed to be the main permanent security force.",
+   "source_ids": [
+    "s1"
+   ]
+  },
+  {
+   "zone_id": "z2",
+   "description": "Rural villages of the Yangala health zone (all other health areas: Celham, Masala, Tshibaka, Tshiwayi, Wizel, Moero, Mudima, Kampilu, Lusona, etc.)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": "2019",
+   "presence": [
+    {
+     "entity_id": "kamuina-nsapu",
+     "role": "present"
+    }
+   ],
+   "evidence": "Former Kamuina Nsapu zone (2017) in Luiza territory; after the 2019 surrenders no armed group is known to hold villages here. Security is assumed to rest on PNC posts and customary chiefs; residual militia/bandit elements may persist locally.",
+   "source_ids": [
+    "s1"
+   ]
+  }
+ ],
+ "locations": {
+  "cod-34MGS2669_1": "z1",
+  "cod-34MGT4111_1": "z2",
+  "cod-34MFS9989_2": "z2",
+  "cod-34MGS4047_1": "z2",
+  "cod-34MFS9597_1": "z2",
+  "cod-34MGS0445_1": "z2",
+  "cod-34MGS3280_1": "z2",
+  "cod-34MGS3258_1": "z2",
+  "cod-34MGS0385_1": "z2",
+  "cod-34MGS3959_1": "z2",
+  "cod-34MGS0081_1": "z2",
+  "cod-34MGT4227_1": "z2",
+  "cod-34MGT3017_1": "z2",
+  "cod-34MGS0938_1": "z2",
+  "cod-34MGS0269_2": "z2",
+  "cod-34MGT2417_1": "z2",
+  "cod-34MGT0414_1": "z2",
+  "cod-34MGS3689_1": "z2",
+  "cod-34MGT0731_1": "z2",
+  "cod-34MGS1692_1": "z2",
+  "cod-34MGS2557_1": "z2",
+  "cod-34MGS3197_1": "z2",
+  "cod-34MGS4165_1": "z2",
+  "cod-34MGT0124_1": "z2",
+  "cod-34MGS2345_1": "z2",
+  "cod-34MGS3749_1": "z2",
+  "cod-34MFS9062_1": "z2",
+  "cod-34MGT3724_1": "z2",
+  "cod-34MGT3402_1": "z2",
+  "cod-34MGT0420_2": "z2",
+  "cod-34MFS9366_1": "z2",
+  "cod-34MGT0706_1": "z2",
+  "cod-34MGS3766_1": "z2",
+  "cod-34MFS9543_1": "z2",
+  "cod-34MGS3853_1": "z2",
+  "cod-34MGS2078_1": "z2",
+  "cod-34MGT4201_1": "z2",
+  "cod-34MGT3421_1": "z2",
+  "cod-34MGT0518_1": "z2",
+  "cod-34MGS2555_1": "z2",
+  "cod-34MGT1000_1": "z2",
+  "cod-34MGS0549_1": "z2",
+  "cod-34MGS0882_1": "z2",
+  "cod-34MGS1582_1": "z2",
+  "cod-34MGT1917_1": "z2",
+  "cod-34MGT4504_1": "z2",
+  "cod-34MGS2562_1": "z2",
+  "cod-34MGS0171_1": "z2",
+  "cod-34MGS3148_1": "z2",
+  "cod-34MGS1780_1": "z2",
+  "cod-34MGT1517_1": "z2"
+ }
+}

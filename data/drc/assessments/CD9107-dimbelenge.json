@@ -1,0 +1,201 @@
+{
+ "unit_id": "CD9107-dimbelenge",
+ "as_of": "2026-10-01",
+ "summary": "Dimbelenge territory (Kasaï-Central) comprises the Katende, Muetshi, Bena Tshiadi and Lubunga secteurs with Dimbelenge town as chief town. It was part of the 2016-2017 Kamuina Nsapu insurgency theatre, which FARDC operations crushed; most militiamen surrendered by 2019. No armed group is known to hold territory as of 2026: Dimbelenge town is policed by the PNC with FARDC and ANR present, and villages fall under PNC posts and customary chiefs. Assessment relies on background knowledge because live web research was unavailable in this run, so confidence is limited.",
+ "sources": [],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Dimbelenge, chief town of Dimbelenge territory (GRID3 'Ntommbolo', Dimbelenge health area)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "default_state_presence",
+   "since": "2017",
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    },
+    {
+     "entity_id": "cod-anr",
+     "role": "present"
+    }
+   ],
+   "evidence": "Territorial headquarters with administrator, PNC commissariat and ANR, plus FARDC elements. Dimbelenge was hit by Kamuina Nsapu violence in 2017 but has been state-held since; no armed group is known to hold the town. Not verified with fresh sources in this run (web search budget exhausted; search engines and Wikipedia blocked by egress proxy).",
+   "source_ids": []
+  },
+  {
+   "zone_id": "z2",
+   "description": "Rural Katende secteur (Katende health zone incl. Katende hydro-dam area, Munkamba, Madila, Musangana, Bakuanga, Mutanga)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": "2019",
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Part of the 2016-2017 Kamuina Nsapu theatre; militias were defeated or surrendered by 2019 and no armed group is known to control territory since. Order relies on PNC posts and customary chiefs with occasional FARDC deployments. Not verified with fresh sources in this run (web search budget exhausted; search engines and Wikipedia blocked by egress proxy).",
+   "source_ids": []
+  },
+  {
+   "zone_id": "z3",
+   "description": "Muetshi secteur (Muetshi health zone incl. Mashala, Mulonda, Tshiabela, Mpungu, Nkinda)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": "2019",
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "No armed group is known to hold territory in Muetshi since the end of the Kamuina Nsapu insurgency; PNC posts and customary authorities provide order. Sporadic residual militia or customary-succession incidents cannot be excluded. Not verified with fresh sources in this run (web search budget exhausted; search engines and Wikipedia blocked by egress proxy).",
+   "source_ids": []
+  },
+  {
+   "zone_id": "z4",
+   "description": "Bena Tshiadi secteur (Bena Tshadi health zone, northern Dimbelenge toward Sankuru/Kasaï borders)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": "2019",
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Remote northern secteur with no reported armed-group territorial control as of 2026; PNC posts and customary chiefs provide order, with limited FARDC presence. Not verified with fresh sources in this run (web search budget exhausted; search engines and Wikipedia blocked by egress proxy).",
+   "source_ids": []
+  },
+  {
+   "zone_id": "z5",
+   "description": "Lubunga secteur (Lubunga health zone, eastern Dimbelenge toward Lusambo/Sankuru)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": "2019",
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "No armed group is known to control territory in Lubunga secteur after the Kamuina Nsapu insurgency ended; state presence is thin and order is kept by PNC posts and customary chiefs. Not verified with fresh sources in this run (web search budget exhausted; search engines and Wikipedia blocked by egress proxy).",
+   "source_ids": []
+  }
+ ],
+ "locations": {
+  "cod-34MGU2463_1": "z2",
+  "cod-34MGV0105_1": "z2",
+  "cod-34MGU3485_1": "z1",
+  "cod-34MFU9959_1": "z2",
+  "cod-34MGV3601_1": "z2",
+  "cod-34MGU0293_1": "z2",
+  "cod-34MGU1458_1": "z2",
+  "cod-34MGV2302_1": "z2",
+  "cod-34MGU1060_1": "z2",
+  "cod-34MGU0660_1": "z2",
+  "cod-34MGU3895_1": "z2",
+  "cod-34MGU0684_1": "z2",
+  "cod-34MGU0360_1": "z2",
+  "cod-34MGV3202_1": "z2",
+  "cod-34MGV0410_1": "z2",
+  "cod-34MGV0324_1": "z2",
+  "cod-34MGU0491_1": "z2",
+  "cod-34MGU0298_1": "z2",
+  "cod-34MGV0427_1": "z2",
+  "cod-34MGU1667_1": "z2",
+  "cod-34MGU1076_1": "z2",
+  "cod-34MGU0789_1": "z2",
+  "cod-34MGU1760_1": "z2",
+  "cod-34MFU8955_1": "z2",
+  "cod-34MGV0715_1": "z2",
+  "cod-34MFU9658_1": "z2",
+  "cod-34MGU1597_1": "z2",
+  "cod-34MGU1472_1": "z2",
+  "cod-34MGV0520_1": "z2",
+  "cod-34MGU3491_1": "z2",
+  "cod-34MFU9357_1": "z2",
+  "cod-34MGV1104_1": "z2",
+  "cod-34MFU9156_1": "z2",
+  "cod-34MGV0537_1": "z3",
+  "cod-34MFV8181_1": "z3",
+  "cod-34MFV7756_2": "z3",
+  "cod-34MFV9344_1": "z3",
+  "cod-34MFV6657_1": "z3",
+  "cod-34MFV7773_1": "z3",
+  "cod-34MGV1465_1": "z3",
+  "cod-34MGV1260_1": "z3",
+  "cod-34MGV0240_1": "z3",
+  "cod-34MFV7058_1": "z3",
+  "cod-34MGV0042_1": "z3",
+  "cod-34MFV7371_1": "z3",
+  "cod-34MGV1147_1": "z3",
+  "cod-34MFV8782_1": "z3",
+  "cod-34MGV1259_1": "z3",
+  "cod-34MFV8579_1": "z3",
+  "cod-34MFV7956_1": "z3",
+  "cod-34MFV7559_1": "z3",
+  "cod-34MFV7853_1": "z3",
+  "cod-34MFV7975_1": "z3",
+  "cod-34MGV1069_1": "z3",
+  "cod-34MFV7977_1": "z3",
+  "cod-34MFV7268_1": "z3",
+  "cod-34MFV7461_1": "z3",
+  "cod-34MGV0733_1": "z3",
+  "cod-34MFV8280_1": "z3",
+  "cod-34MGV0773_1": "z3",
+  "cod-34MGV1355_1": "z3",
+  "cod-34MGV1361_1": "z3",
+  "cod-34MFV6654_1": "z3",
+  "cod-34MGV0282_2": "z4",
+  "cod-34MGV0592_1": "z4",
+  "cod-34MGV1179_1": "z4",
+  "cod-34MFA8507_1": "z4",
+  "cod-34MGV0598_1": "z4",
+  "cod-34MFV8395_1": "z4",
+  "cod-34MFV9184_1": "z4",
+  "cod-34MFA8203_1": "z4",
+  "cod-34MFV9983_1": "z4",
+  "cod-34MFV9483_1": "z4",
+  "cod-34MFV8389_1": "z4",
+  "cod-34MFV8285_1": "z4",
+  "cod-34MGV0777_1": "z4",
+  "cod-34MFV9684_1": "z4",
+  "cod-34MGV0977_1": "z4",
+  "cod-34MGU7678_1": "z5",
+  "cod-34MGU5078_1": "z5",
+  "cod-34MGU6880_1": "z5",
+  "cod-34MGU4279_1": "z5",
+  "cod-34MGU5977_1": "z5",
+  "cod-34MGU9578_1": "z5",
+  "cod-34MGU7180_1": "z5",
+  "cod-34MGU7876_1": "z5",
+  "cod-34MGU5274_1": "z5",
+  "cod-34MGU6177_1": "z5",
+  "cod-34MGU3893_1": "z5",
+  "cod-34MGU6368_1": "z5",
+  "cod-34MGU6680_1": "z5",
+  "cod-34MGU5470_1": "z5",
+  "cod-34MGU8573_1": "z5",
+  "cod-34MGU4679_2": "z5",
+  "cod-34MGU6066_1": "z5",
+  "cod-34MGU8375_1": "z5",
+  "cod-34MGU7684_2": "z5",
+  "cod-34MGU3682_1": "z5",
+  "cod-34MGU5566_1": "z5",
+  "cod-34MGU6167_1": "z5",
+  "cod-34MGU8277_1": "z5"
+ }
+}

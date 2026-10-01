@@ -1,0 +1,415 @@
+{
+ "unit_id": "CD5402-irumu",
+ "as_of": "2026-10-01",
+ "summary": "Irumu territory surrounds Bunia, Ituri's capital, which is firmly state-held (PNC, FARDC, MONUSCO). The east (Walendu Bindi chefferie, Gety) remains the FRPI zone: FARDC hold Gety/Aveba and road positions while FRPI keeps its rural hill strongholds. The south and west (Komanda, Boga, Tchabi) are exposed to the ADF, which raids and massacres around Komanda and along the RN4 towards Luna but does not hold towns; FARDC with UPDF hold the centres. Bahema lakeshore (Kasenyi/Tchomia), Bogoro, Rwampara and Nyankunde are state-held with occasional militia raids. NOTE: web research could not be performed for this unit (search budget exhausted and news sites blocked), so all assessments are low/medium-confidence inferences from background knowledge up to mid-2026 and should be re-checked.",
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://kivusecurity.org/",
+   "title": "Kivu Security Tracker (Ituri/Irumu incident data)",
+   "publisher": "Congo Research Group / Human Rights Watch",
+   "date": null
+  },
+  {
+   "id": "s2",
+   "url": "https://acleddata.com/",
+   "title": "ACLED conflict data – DRC/Ituri",
+   "publisher": "ACLED",
+   "date": null
+  },
+  {
+   "id": "s3",
+   "url": "https://monusco.unmissions.org/",
+   "title": "MONUSCO – Ituri updates",
+   "publisher": "MONUSCO",
+   "date": null
+  }
+ ],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Bunia city (provincial capital) and its neighbourhoods",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "high",
+   "basis": "area_report",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    },
+    {
+     "entity_id": "un-monusco",
+     "role": "present"
+    },
+    {
+     "entity_id": "uga-updf",
+     "role": "allied"
+    }
+   ],
+   "evidence": "Ituri provincial capital under the military governorship (état de siège), with PNC commissariats, FARDC operational HQ and the main MONUSCO base; armed groups only conduct sporadic incursions on the outskirts and criminality is handled by police/army. Web research was unavailable for this run (search budget exhausted, news sites blocked); assessment relies on background knowledge of the situation up to mid-2026.",
+   "source_ids": [
+    "s3"
+   ]
+  },
+  {
+   "zone_id": "z2",
+   "description": "Peri-urban villages around Bunia (Bunia adm3 outside the city; Rwampara, Nizi, Lita, Bambu health-zone fringes) and Rwampara/Bahema-d'Irumu villages west and south-west of Bunia (Rwampara HZ, Bambu Nyangaray)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "inference",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    },
+    {
+     "entity_id": "codeco",
+     "role": "raiding"
+    },
+    {
+     "entity_id": "zaire",
+     "role": "present"
+    }
+   ],
+   "evidence": "Villages within roughly 15 km of Bunia, along the Bunia–Rwampara–Komanda and Bunia–Djugu roads, with the FARDC Rwampara camp nearby; occasional CODECO incursions from Djugu to the north and Hema self-defence (Zaïre/CRP) elements on the Djugu edge, but no reported armed-group administration. Web research was unavailable for this run (search budget exhausted, news sites blocked); assessment relies on background knowledge of the situation up to mid-2026.",
+   "source_ids": [
+    "s1",
+    "s2"
+   ]
+  },
+  {
+   "zone_id": "z3",
+   "description": "Bahema-Sud lakeshore: Kasenyi/Tchomia health zone (Kasenyi displaced site, Nyamavi) and Bogoro",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "inference",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    },
+    {
+     "entity_id": "frpi",
+     "role": "raiding"
+    },
+    {
+     "entity_id": "zaire",
+     "role": "present"
+    }
+   ],
+   "evidence": "Hema-populated lakeshore area with state police, navy/FARDC posts and large displaced sites at Kasenyi; FRPI raids from neighbouring Walendu Bindi, and Hema self-defence (Zaïre) networks are present, but the state remains the main force. Web research was unavailable for this run (search budget exhausted, news sites blocked); assessment relies on background knowledge of the situation up to mid-2026.",
+   "source_ids": [
+    "s1",
+    "s2"
+   ]
+  },
+  {
+   "zone_id": "z4",
+   "description": "Walendu Bindi chefferie – Gety and Aveba centres and the main Bunia–Gety–Aveba axis villages (Gety, Aveba health areas)",
+   "controller_id": "cod-fardc",
+   "status": "contested",
+   "confidence": "low",
+   "basis": "inference",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "frpi",
+     "role": "contesting"
+    },
+    {
+     "entity_id": "cod-pnc",
+     "role": "present"
+    }
+   ],
+   "evidence": "FARDC hold positions in Gety and Aveba; the 2020 FRPI peace deal stalled and FRPI fighters remain active around these centres, attacking the army and civilians and levying exactions on the axis. Web research was unavailable for this run (search budget exhausted, news sites blocked); assessment relies on background knowledge of the situation up to mid-2026.",
+   "source_ids": [
+    "s1",
+    "s2"
+   ]
+  },
+  {
+   "zone_id": "z5",
+   "description": "Walendu Bindi rural hills: Kagaba, Bukiringi, Mukasamba, Kabona, Maga, Bilima, Kinyomubaya, Kazana, Zitono, Kagoro health areas",
+   "controller_id": "frpi",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "inference",
+   "since": "2020",
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "raiding"
+    }
+   ],
+   "evidence": "FRPI's historical strongholds south and east of Gety (Bukiringi cantonment area, Kagaba, Mukasamba, Kagoro hills towards the lake); the militia retained armed presence and local taxation after the failed 2020–21 DDR process, with FARDC conducting periodic operations rather than holding the villages. Web research was unavailable for this run (search budget exhausted, news sites blocked); assessment relies on background knowledge of the situation up to mid-2026.",
+   "source_ids": [
+    "s1",
+    "s2"
+   ]
+  },
+  {
+   "zone_id": "z6",
+   "description": "Northern Walendu Bindi and Singo area: Olongba, Songolo, Singo, Chyekele, Soke, Nombe, Avenyume health areas",
+   "controller_id": "cod-fardc",
+   "status": "contested",
+   "confidence": "low",
+   "basis": "inference",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "frpi",
+     "role": "contesting"
+    }
+   ],
+   "evidence": "Area between Gety and Bogoro/Nyankunde with FARDC positions on the roads and recurrent FRPI activity; control is mixed and poorly documented. Web research was unavailable for this run (search budget exhausted, news sites blocked); assessment relies on background knowledge of the situation up to mid-2026.",
+   "source_ids": [
+    "s1",
+    "s2"
+   ]
+  },
+  {
+   "zone_id": "z7",
+   "description": "Andisoma chefferie / Nyankunde health zone: Nyankunde (Mbandi), Irumu centre, Sota, Badiya, Kombokabo, Tumbiabo",
+   "controller_id": "cod-fardc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "inference",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-pnc",
+     "role": "present"
+    },
+    {
+     "entity_id": "adf",
+     "role": "raiding"
+    },
+    {
+     "entity_id": "frpi",
+     "role": "raiding"
+    }
+   ],
+   "evidence": "Territorial seat (Irumu) and Nyankunde mission town with FARDC and police posts along the Bunia–Komanda road; ADF raids reach the western part from the Komanda/Mambasa forests and FRPI raids from Walendu Bindi. Web research was unavailable for this run (search budget exhausted, news sites blocked); assessment relies on background knowledge of the situation up to mid-2026.",
+   "source_ids": [
+    "s1",
+    "s2",
+    "s3"
+   ]
+  },
+  {
+   "zone_id": "z8",
+   "description": "Komanda town and its northern health areas (Komanda centre/Patakula, Bandiboli, Bamande, Mangiva, Pinzili)",
+   "controller_id": "cod-fardc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "area_report",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "uga-updf",
+     "role": "allied"
+    },
+    {
+     "entity_id": "cod-pnc",
+     "role": "present"
+    },
+    {
+     "entity_id": "adf",
+     "role": "raiding"
+    }
+   ],
+   "evidence": "Komanda is a FARDC/UPDF (Operation Shujaa) hub at the RN4 junction; the ADF repeatedly raided the town and surrounding villages (including the July 2025 Komanda church massacre) but did not hold them. Web research was unavailable for this run (search budget exhausted, news sites blocked); assessment relies on background knowledge of the situation up to mid-2026.",
+   "source_ids": [
+    "s1",
+    "s2"
+   ]
+  },
+  {
+   "zone_id": "z9",
+   "description": "Southern Komanda health zone along RN4 towards Luna/Eringeti and Mambasa forest edge (Bwanasura/Mayalibo, Idou/Apende, Ofay, Ndalya, Samboko)",
+   "controller_id": "cod-fardc",
+   "status": "contested",
+   "confidence": "low",
+   "basis": "area_report",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "adf",
+     "role": "contesting"
+    },
+    {
+     "entity_id": "uga-updf",
+     "role": "allied"
+    }
+   ],
+   "evidence": "ADF heartland expansion zone of 2023–2026 with frequent massacres and kidnappings along the Komanda–Luna road; FARDC/UPDF hold road positions but the ADF roams freely in the surrounding forest and villages. Web research was unavailable for this run (search budget exhausted, news sites blocked); assessment relies on background knowledge of the situation up to mid-2026.",
+   "source_ids": [
+    "s1",
+    "s2"
+   ]
+  },
+  {
+   "zone_id": "z10",
+   "description": "Boga health zone (Bahema-Boga and Banyali-Tchabi chefferies: Boga, Tchabi, Bwakadi, Kyabwohe)",
+   "controller_id": "cod-fardc",
+   "status": "contested",
+   "confidence": "low",
+   "basis": "area_report",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "adf",
+     "role": "contesting"
+    },
+    {
+     "entity_id": "uga-updf",
+     "role": "allied"
+    }
+   ],
+   "evidence": "Remote southern area bordering Beni and Uganda, repeatedly hit by ADF attacks (Boga, Tchabi, Bwakadi) with FARDC/UPDF positions in the main centres; the ADF moves through the Semliki and forest areas. Web research was unavailable for this run (search budget exhausted, news sites blocked); assessment relies on background knowledge of the situation up to mid-2026.",
+   "source_ids": [
+    "s1",
+    "s2"
+   ]
+  }
+ ],
+ "locations": {
+  "cod-36NSG9372_1": "z1",
+  "cod-36NTG0087_1": "z2",
+  "cod-36NTG0183_1": "z2",
+  "cod-36NSG9180_2": "z2",
+  "cod-36NSG8478_1": "z2",
+  "cod-36NSG9286_4": "z2",
+  "cod-36NTG0078_3": "z2",
+  "cod-36NSG9980_2": "z2",
+  "cod-36NSG8686_1": "z2",
+  "cod-36NSG7975_2": "z2",
+  "cod-36NSG8269_3": "z2",
+  "cod-36NSG8884_1": "z2",
+  "cod-36NTG0082_1": "z2",
+  "cod-36NSG9372_1-KMoYoWj0xXh": "z1",
+  "cod-36NSG9372_1-UWqDMK2gLt0": "z1",
+  "cod-36NSG9372_1-CkJZbPuWQaO": "z1",
+  "cod-36NSG9372_1-VLkoOhwbJP7": "z1",
+  "cod-36NSG9372_1-kuZPZrmN2Kb": "z1",
+  "cod-36NSG9372_1-U5asDtCtj6E": "z1",
+  "cod-36NSG9372_1-D39YZ3hwr3e": "z1",
+  "cod-36NSG9372_1-xFjS84BKzLc": "z1",
+  "cod-36NSG9372_1-IIhtCJgyKhV": "z1",
+  "cod-36NSG9372_1-ulOgWQfXorW": "z1",
+  "cod-36NSG9372_1-mtW3yF6YmQs": "z1",
+  "cod-36NSG9372_1-T0TxAMJYzY3": "z1",
+  "cod-36NSG9372_1-tKa78aQdNGD": "z1",
+  "cod-36NSG9372_1-cd20n1Lgnzx": "z1",
+  "cod-36NSG9372_1-oxK9F1QUnNf": "z1",
+  "cod-36NSG9372_1-tasoiKvzUwx": "z1",
+  "cod-36NSG9372_1-bNSsGSsvMKh": "z1",
+  "cod-36NSG9372_1-t5HwkZcc3hZ": "z1",
+  "cod-36NSG9372_1-vkiRMf2Lsz8": "z1",
+  "cod-36NSG9372_1-ZybunM2dqpv": "z1",
+  "cod-36NSG9372_1-ll6AOpvJXOH": "z1",
+  "cod-36NSG9372_1-W6dkQiVKnF3": "z1",
+  "cod-36NSG9372_1-M2p7XCn6Aal": "z1",
+  "cod-36NSG9372_1-FqHxgAA3ehd": "z1",
+  "cod-36NSG9372_1-Jls8Hs8TflQ": "z1",
+  "cod-36NSG9372_1-roVR63jawel": "z1",
+  "cod-36NSG9372_1-r1IKi1iqwTc": "z1",
+  "cod-36NSG9372_1-ZlcY8vysEFh": "z1",
+  "cod-36NSG9372_1-vpBQnfiSeU1": "z1",
+  "cod-36NTG1554_2": "z3",
+  "cod-36NSG9242_1": "z5",
+  "cod-36NSG8533_1": "z4",
+  "cod-36NSG6625_1": "z5",
+  "cod-36NSG7533_2": "z4",
+  "cod-36NSG8135_1": "z5",
+  "cod-36NSG8846_2": "z6",
+  "cod-36NSG7947_1": "z6",
+  "cod-36NSG7436_1": "z4",
+  "cod-36NSG9446_1": "z6",
+  "cod-36NSG8739_1": "z5",
+  "cod-36NSG8056_2": "z6",
+  "cod-36NSG7629_1": "z5",
+  "cod-36NSG7939_1": "z6",
+  "cod-36NSG9137_1": "z5",
+  "cod-36NSG7737_1": "z4",
+  "cod-36NSG7232_2": "z4",
+  "cod-36NSG8033_1": "z5",
+  "cod-36NSG7855_1": "z6",
+  "cod-36NSG8355_2": "z6",
+  "cod-36NSG8130_1": "z5",
+  "cod-36NSG8554_1": "z6",
+  "cod-36NTG0846_4": "z3",
+  "cod-36NTG1048_1": "z3",
+  "cod-36NTG0639_1": "z5",
+  "cod-36NSG8149_3": "z6",
+  "cod-36NSG8638_1": "z5",
+  "cod-36NTG0140_2": "z5",
+  "cod-36NSG7228_1": "z5",
+  "cod-36NSG7030_1": "z5",
+  "cod-36NSG8340_2": "z6",
+  "cod-36NSG8937_2": "z5",
+  "cod-36NSG7136_2": "z5",
+  "cod-36NSG8044_1": "z6",
+  "cod-36NTG1639_1": "z5",
+  "cod-36NSG7544_2": "z6",
+  "cod-36NSG7848_1": "z6",
+  "cod-36NSG9550_1": "z6",
+  "cod-36NSG8346_1": "z6",
+  "cod-36NSG8548_2": "z6",
+  "cod-36NSG9652_1": "z6",
+  "cod-36NSG7651_1": "z6",
+  "cod-36NSG7547_1": "z6",
+  "cod-36NSG8435_2": "z4",
+  "cod-36NSG8751_1": "z6",
+  "cod-36NTG0140_1": "z5",
+  "cod-36NSG7647_2": "z6",
+  "cod-36NSG7246_1": "z6",
+  "cod-36NSG7749_2": "z6",
+  "cod-35NRB0750_1": "z8",
+  "cod-35NQB8819_2": "z9",
+  "cod-35NQB9626_1": "z9",
+  "cod-35NQB9952_5": "z8",
+  "cod-35NQB9930_4": "z9",
+  "cod-35NQB9005_4": "z9",
+  "cod-35NQB9350_1": "z8",
+  "cod-35NQB8550_2": "z8",
+  "cod-35NQB9937_2": "z9",
+  "cod-35NRB1456_1": "z8",
+  "cod-35NRB1204_2": "z10",
+  "cod-35NRB0040_1": "z8",
+  "cod-35NQB8949_2": "z8",
+  "cod-35NQA7894_1": "z9",
+  "cod-36NSG6659_1": "z7",
+  "cod-35NRB1960_1": "z7",
+  "cod-36NSG7551_1": "z6",
+  "cod-36NSG7162_3": "z7",
+  "cod-35NRB2765_2": "z7",
+  "cod-36NSG7552_1": "z6",
+  "cod-36NSG7452_1": "z6",
+  "cod-36NSG6869_1": "z7",
+  "cod-36NSG8063_1": "z7",
+  "cod-36NSG7555_1": "z7",
+  "cod-36NSG7462_3": "z7",
+  "cod-35NRB3372_1": "z2",
+  "cod-36NSG7079_2": "z2",
+  "cod-36NSG9756_1": "z3",
+  "cod-36NSG6973_1": "z2",
+  "cod-36NSG7779_1": "z2",
+  "cod-36NSG8666_1": "z2",
+  "cod-36NSG7376_1": "z2",
+  "cod-36NSG8465_1": "z2",
+  "cod-36NSG7970_2": "z2",
+  "cod-36NSG8682_1": "z2",
+  "cod-36NSG8286_2": "z2",
+  "cod-35NRB2614_1": "z10",
+  "cod-35NRB2008_2": "z10",
+  "cod-36NSG8101_1": "z10"
+ }
+}

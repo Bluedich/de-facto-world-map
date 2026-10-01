@@ -1,0 +1,124 @@
+{
+ "unit_id": "CD7106-likasi",
+ "as_of": "2026-10-01",
+ "summary": "Likasi, Haut-Katanga's second city and a copper/cobalt mining and rail hub, is firmly state-held and far from the eastern conflict zones. Daily order in its communes and health-area neighbourhoods is kept by the PNC, with FARDC garrisons in the city; provincial authorities imposed a night curfew on Lubumbashi and Likasi in February 2025 and police-army anti-banditry operations (e.g. Operation Ndobo) continued into 2026. Urban banditry and armed robbery are significant but no gang or militia holds territory. Bakata Katanga militia activity in 2025-2026 is reported in remote areas (e.g. Mitwaba/Upemba, Luisha sector ~67 km away), not in Likasi. Peri-urban villages (Kampemba, Buluo) have no reported armed-group activity and are assessed as default PNC presence.",
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://fr.allafrica.com/stories/202502240072.html",
+   "title": "Le gouverneur Jacques Kyabula prolonge le couvre-feu à Lubumbashi et Likasi pour 15 jours",
+   "publisher": "AllAfrica",
+   "date": "2025-02-24"
+  },
+  {
+   "id": "s2",
+   "url": "https://fr.allafrica.com/stories/202601140048.html",
+   "title": "Lubumbashi - 7 présumés bandits et deux femmes arrêtés dans le cadre de l'opération Ndobo",
+   "publisher": "AllAfrica",
+   "date": "2026-01-14"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.mediacongo.net/article-actualite-163457_double_attaque_meurtriere_a_luisha_l_igm_alerte_sur_la_montee_de_l_insecurite_dans_les_zones_minieres.html",
+   "title": "Double attaque meurtrière à Luisha : l'IGM alerte sur la montée de l'insécurité dans les zones minières",
+   "publisher": "Mediacongo",
+   "date": "2026-05"
+  },
+  {
+   "id": "s4",
+   "url": "https://actualite.cd/2024/12/16/haut-katanga-face-la-recrudescence-de-linsecurite-urbaine-la-police-lance-lalerte",
+   "title": "Haut-Katanga : face à la recrudescence de l'insécurité urbaine, la police lance l'alerte",
+   "publisher": "Actualite.cd",
+   "date": "2024-12-16"
+  }
+ ],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Likasi city: all communes and health-area neighbourhoods (Kikula health zone)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "high",
+   "basis": "area_report",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    },
+    {
+     "entity_id": "bakata-katanga",
+     "role": "raiding"
+    }
+   ],
+   "evidence": "Likasi is under normal state administration; PNC policing with FARDC support, including curfew enforcement (Feb 2025) and joint anti-banditry operations into 2026. Urban banditry is reported but no non-state group controls any neighbourhood; Bakata Katanga activity is in remote areas, not the city.",
+   "source_ids": [
+    "s1",
+    "s2",
+    "s4"
+   ]
+  },
+  {
+   "zone_id": "z2",
+   "description": "Peri-urban villages in Likasi city limits: Kampemba 1/2, Kampemba (Kakontwe HA), Buluo (Panda/Kambove health zones)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "No reported armed-group activity in these villages adjoining Likasi; nearest reported 2026 armed attack was in Luisha sector ~67 km away. Assessed as default state (PNC) presence.",
+   "source_ids": [
+    "s3"
+   ]
+  }
+ ],
+ "locations": {
+  "cod-35LMH7185_1": "z1",
+  "cod-35LMH6090_1": "z2",
+  "cod-35LMH8083_2": "z2",
+  "cod-35LMH6288_2": "z2",
+  "cod-35LMH7185_1-kMhBZN53Y9M": "z1",
+  "cod-35LMH7185_1-SHhkAX0EoYe": "z1",
+  "cod-35LMH7185_1-weFeIpznfL3": "z1",
+  "cod-35LMH7185_1-h2alOP2b2Qk": "z1",
+  "cod-35LMH7185_1-OlprbcuZjYW": "z1",
+  "cod-35LMH7185_1-srQNYMJobTU": "z1",
+  "cod-35LMH7185_1-qIr9MsrTWL7": "z1",
+  "cod-35LMH7185_1-Ha6VxuhfEe6": "z1",
+  "cod-35LMH7185_1-vLqMAKro410": "z1",
+  "cod-35LMH7185_1-SVUnf1CTli3": "z1",
+  "cod-35LMH7185_1-qbNOVcZ13fq": "z1",
+  "cod-35LMH7185_1-aYeAdAY2okU": "z1",
+  "cod-35LMH7185_1-hL0gwEfXW8o": "z1",
+  "cod-35LMH7185_1-dztWSnpvI5Y": "z1",
+  "cod-35LMH7185_1-Riizcb7v7sV": "z1",
+  "cod-35LMH7185_1-a8KFsufRrEp": "z1",
+  "cod-35LMH7185_1-cGK0RAiyCVC": "z1",
+  "cod-35LMH7185_1-msFRAiaz6Rx": "z1",
+  "cod-35LMH7185_1-zMsnfnw5jkB": "z1",
+  "cod-35LMH7185_1-Lq5lma2xhNm": "z1",
+  "cod-35LMH7185_1-Eqpf2yKAexy": "z1",
+  "cod-35LMH7185_1-OT7JoVQKmbG": "z1",
+  "cod-35LMH7185_1-afLPaK31ARB": "z1",
+  "cod-35LMH7185_1-pSTtzk8xwQ0": "z1",
+  "cod-35LMH7185_1-WuVVdazEMGh": "z1",
+  "cod-35LMH7185_1-FUIbKtBNhIs": "z1",
+  "cod-35LMH7185_1-tgYCYAzTPnY": "z1",
+  "cod-35LMH7185_1-S6cvHV3iT1a": "z1",
+  "cod-35LMH7185_1-ZupqIgAe2sM": "z1",
+  "cod-35LMH7185_1-cpl4AdbtZW7": "z1",
+  "cod-35LMH7185_1-z4KamYRxPV8": "z1",
+  "cod-35LMH7185_1-iWBPXnbvLDh": "z1",
+  "cod-35LMH7185_1-B5h2Fq4isCQ": "z1",
+  "cod-35LMH7185_1-yDHVYZdihv1": "z1",
+  "cod-35LMH7185_1-nK5cJ8uUtbT": "z1",
+  "cod-35LMH7185_1-HDz31voB8d3": "z1"
+ }
+}

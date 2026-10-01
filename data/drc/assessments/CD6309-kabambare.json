@@ -1,0 +1,250 @@
+{
+ "unit_id": "CD6309-kabambare",
+ "as_of": "2026-10-01",
+ "summary": "Kabambare territory (Maniema) is mostly state-administered in its western Lusangi secteur and around Kabambare centre and Wamaza, with police the main day-to-day authority. The Salamabila secteur in the north-east is the stronghold of Mai-Mai Malaika, which has fought the FARDC around Salamabila town and the Namoya gold mine since ~2017; the army holds the town and mine area while Malaika dominates parts of the forest hinterland. The far east toward Fizi (Lulenge/Kimbi) is a Mai-Mai/Wazalendo operating area with weak state presence. NOTE: web research was unavailable for this run (search budget exhausted, fetch domains blocked), so all zones rest on prior knowledge and are low confidence.",
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.un.org/securitycouncil/sanctions/1533/work-and-mandate/expert-reports",
+   "title": "UN Group of Experts on the DRC – final reports (2019–2025), sections on Mai-Mai Malaika in Salamabila and armed groups in Fizi/Kabambare",
+   "publisher": "United Nations Security Council",
+   "date": "2025-06-01"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.radiookapi.net/tags/kabambare",
+   "title": "Radio Okapi – Kabambare tag (Mai-Mai Malaika incursions in Salamabila, FARDC operations, Kabambare centre)",
+   "publisher": "Radio Okapi",
+   "date": "2025-12-31"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.kivusecurity.org/",
+   "title": "Kivu Security Tracker – armed groups in Fizi (CNPSC/Yakutumba, Mai-Mai coalitions) bordering Kabambare",
+   "publisher": "Kivu Security Tracker / GEC",
+   "date": "2025-12-31"
+  }
+ ],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Salamabila town (Kitoko, Lubinga, Akilibangi, Kimputu, Kopakopa, Matchapano) and the Namoya gold-mine area (Matete), Saramabila health zone",
+   "controller_id": "cod-fardc",
+   "status": "contested",
+   "confidence": "low",
+   "basis": "inference",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "mm-malaika",
+     "role": "raiding"
+    },
+    {
+     "entity_id": "cod-pnc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Salamabila centre and the Namoya mine concession have had a permanent FARDC deployment since Mai-Mai Malaika (Sheikh Hassan) began attacking the Banro-operated mine around 2017-2019; Malaika has repeatedly raided the town outskirts and mining camps. Assessment from background knowledge of UN GoE and Radio Okapi reporting; web research tools were unavailable, so no 2026 confirmation.",
+   "source_ids": [
+    "s1",
+    "s2"
+   ]
+  },
+  {
+   "zone_id": "z2",
+   "description": "Rural central/eastern Salamabila secteur (Kayembe, Kihonya, Amusini, Salumu-Basikibunda, Agenda) and Tengetenge villages of Lusangi health zone",
+   "controller_id": "mm-malaika",
+   "status": "contested",
+   "confidence": "low",
+   "basis": "inference",
+   "since": "2017",
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "contesting"
+    }
+   ],
+   "evidence": "Mai-Mai Malaika is based in the forested hinterland of Salamabila secteur, taxing artisanal gold sites and villages and periodically clashing with FARDC. Exact village-level control is not documented; assigned by proximity to Malaika's known area of operation. No source could be fetched for this run.",
+   "source_ids": [
+    "s1",
+    "s2"
+   ]
+  },
+  {
+   "zone_id": "z3",
+   "description": "Western Salamabila secteur around Wamaza (Mutakuya/Wamaza, Kiviluka, Kawaya, Mulozi, Kingombe, Mwangundu, Mayembe)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    },
+    {
+     "entity_id": "mm-malaika",
+     "role": "raiding"
+    }
+   ],
+   "evidence": "Wamaza is a large gold-mining town with state administration, police and FARDC posts; Malaika activity is reported mainly further east around Salamabila/Namoya. Default state presence with possible Malaika incursions.",
+   "source_ids": [
+    "s2"
+   ]
+  },
+  {
+   "zone_id": "z4",
+   "description": "Lusangi secteur (Lukoma/Lusangi, Muzingandu, Nyezi, Muyombo, Kasesa, Ayuza, Kavima) toward Kasongo and Kongolo",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [],
+   "evidence": "No significant armed-group control reported for Lusangi secteur; state administration and police posts assumed in the main villages.",
+   "source_ids": [
+    "s2"
+   ]
+  },
+  {
+   "zone_id": "z5",
+   "description": "Kabambare secteur, centre and west (Kabambare centre/Mbundu, Sombe, Lubambi, Mwanamwamba, Katemema, Kazabu, Shabimba, Kiyanga)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Kabambare centre is the territorial administrative seat with police and an FARDC presence; no reports of armed-group control of the town or its western hinterland were found in prior knowledge.",
+   "source_ids": [
+    "s2"
+   ]
+  },
+  {
+   "zone_id": "z6",
+   "description": "Eastern Kabambare toward the Fizi border and Kimbi-Lulenge health zone (Lwandiko, Mahembe, Kagulwe, Kabeya, Kahoho, Babinza, Matama, Bulungu, Mkungandala, Mukosamali)",
+   "controller_id": "cod-wazalendo",
+   "status": "unclear",
+   "confidence": "low",
+   "basis": "inference",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cnpsc",
+     "role": "present"
+    },
+    {
+     "entity_id": "cod-fardc",
+     "role": "contesting"
+    }
+   ],
+   "evidence": "The forested Lulenge/Kimbi area straddling the Fizi-Kabambare border is a long-standing operating area of Mai-Mai groups (CNPSC/Yakutumba and allied factions, now largely aligned with Wazalendo) with limited state presence; the specific controlling faction per village is unknown.",
+   "source_ids": [
+    "s1",
+    "s3"
+   ]
+  }
+ ],
+ "locations": {
+  "cod-35MNR5751_1": "z1",
+  "cod-35MNR1234_1": "z3",
+  "cod-35MNR6254_1": "z1",
+  "cod-35MNR3637_1": "z2",
+  "cod-35MNR1446_1": "z3",
+  "cod-35MNR1537_2": "z3",
+  "cod-35MNR1443_1": "z3",
+  "cod-35MNR4644_1": "z2",
+  "cod-35MNR0844_1": "z3",
+  "cod-35MNR7853_1": "z1",
+  "cod-35MNR2735_1": "z2",
+  "cod-35MNR0551_1": "z3",
+  "cod-35MNR5955_2": "z1",
+  "cod-35MNR5743_1": "z1",
+  "cod-35MNR5115_1": "z2",
+  "cod-35MNR3719_1": "z2",
+  "cod-35MNR1327_1": "z3",
+  "cod-35MNR5249_1": "z1",
+  "cod-35MNR0927_1": "z3",
+  "cod-35MNR3931_1": "z2",
+  "cod-35MNR2860_1": "z2",
+  "cod-35MNR5020_1": "z2",
+  "cod-35MNR3435_1": "z2",
+  "cod-35MNR5947_1": "z1",
+  "cod-35MNR2235_1": "z3",
+  "cod-35MNR4714_1": "z2",
+  "cod-35MNR0647_1": "z3",
+  "cod-35MNR6453_1": "z1",
+  "cod-35MNR0622_1": "z3",
+  "cod-35MNR1917_1": "z3",
+  "cod-35MNR4116_1": "z2",
+  "cod-35MNR1031_2": "z3",
+  "cod-35MNR1039_1": "z3",
+  "cod-35MNR1351_1": "z3",
+  "cod-35MNR4616_1": "z2",
+  "cod-35MNR3927_1": "z2",
+  "cod-35MNR2056_1": "z3",
+  "cod-35MNR0648_1": "z3",
+  "cod-35MNR1151_1": "z3",
+  "cod-35MNQ0660_1": "z4",
+  "cod-35MNQ1486_1": "z4",
+  "cod-35MNQ2157_1": "z4",
+  "cod-35MNQ1059_1": "z4",
+  "cod-35MNQ1454_1": "z4",
+  "cod-35MNQ1558_1": "z4",
+  "cod-35MNR0913_2": "z4",
+  "cod-35MNR2114_1": "z4",
+  "cod-35MNR5805_1": "z4",
+  "cod-35MNQ4093_1": "z4",
+  "cod-35MNR1604_1": "z4",
+  "cod-35MNR3001_1": "z4",
+  "cod-35MNQ0352_1": "z4",
+  "cod-35MNR3700_1": "z4",
+  "cod-35MNR1812_1": "z4",
+  "cod-35MMQ9953_1": "z4",
+  "cod-35MMQ9847_1": "z4",
+  "cod-35MNR3705_2": "z4",
+  "cod-35MNQ1285_1": "z4",
+  "cod-35MNR1407_1": "z4",
+  "cod-35MNR1602_1": "z4",
+  "cod-35MNQ1490_2": "z4",
+  "cod-35MNR2015_1": "z4",
+  "cod-35MNR1108_2": "z4",
+  "cod-35MNR1606_2": "z4",
+  "cod-35MNR3501_1": "z4",
+  "cod-35MMQ9966_1": "z4",
+  "cod-35MNR4405_1": "z4",
+  "cod-35MNQ3899_1": "z4",
+  "cod-35MNR4900_1": "z4",
+  "cod-35MNQ0655_1": "z4",
+  "cod-35MNQ2456_1": "z4",
+  "cod-35MNR2900_1": "z4",
+  "cod-35MNQ1798_1": "z4",
+  "cod-35MNQ0258_2": "z4",
+  "cod-35MNQ1693_1": "z4",
+  "cod-35MNQ7681_1": "z5",
+  "cod-35MPQ7484_1": "z6",
+  "cod-35MNQ9787_1": "z5",
+  "cod-35MPR2929_1": "z6",
+  "cod-35MPR2402_1": "z6",
+  "cod-35MNQ9487_2": "z5",
+  "cod-35MNQ7388_1": "z5",
+  "cod-35MNQ7197_1": "z5",
+  "cod-35MPQ6698_1": "z6",
+  "cod-35MPR2320_1": "z6",
+  "cod-35MPQ2773_3": "z6",
+  "cod-35MPQ9352_1": "z6",
+  "cod-35MPR5511_1": "z6",
+  "cod-35MNQ8581_1": "z5",
+  "cod-35MPR4220_1": "z6",
+  "cod-35MPR6806_1": "z6",
+  "cod-35MNQ7058_1": "z5",
+  "cod-35MPR5518_1": "z6"
+ }
+}

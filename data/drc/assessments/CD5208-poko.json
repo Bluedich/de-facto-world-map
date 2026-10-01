@@ -1,0 +1,170 @@
+{
+ "unit_id": "CD5208-poko",
+ "as_of": "2026-10-01",
+ "summary": "Poko territory (eastern Bas-Uele) has no reported armed-group territorial control as of late 2026. The 2026 threats in the region lie outside the territory: LRA raids in Ango territory (Banda, June 2026) to the north and the ADF push into Watsa/Wamba (Haut-Uele) far to the east; UNJHRO reporting for Bas-Uele in mid-2026 concerns mainly law-enforcement abuses rather than armed-group activity. Historic insecurity (LRA, armed Mbororo herders, South Sudanese poachers) has not produced lasting control. Poko town is held by the PNC with an FARDC presence, and the rural Poko and Viadana secteurs are assigned to state control by default state presence with low confidence given sparse reporting.",
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.radiookapi.net/2026/06/13/actualite/securite/bas-uele-un-mort-et-neuf-personnes-enlevees-par-la-lra-banda-la",
+   "title": "Bas-Uélé : un mort et neuf personnes enlevées par la LRA à Banda, la population plongée dans la peur",
+   "publisher": "Radio Okapi",
+   "date": "2026-06-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://actualite.cd/index.php/2026/06/06/rdc-les-adf-dans-le-haut-uele-larmee-active-les-operations-sur-laxe-isiro-mungbere",
+   "title": "RDC: les ADF dans le Haut-Uele, l'armée active les opérations sur l'axe Isiro-Mungbere",
+   "publisher": "Actualite.cd",
+   "date": "2026-06-06"
+  },
+  {
+   "id": "s3",
+   "url": "https://monusco.unmissions.org/sites/default/files/2026-08/BCNUDH-Analyse%20de%20la%20situation%20des%20droits%20de%20l%27homme-mois%20de%20juin%202026.pdf",
+   "title": "BCNUDH - Analyse de la situation des droits de l'homme, juin 2026",
+   "publisher": "UNJHRO/MONUSCO",
+   "date": "2026-08"
+  },
+  {
+   "id": "s4",
+   "url": "https://actualite.cd/2024/10/14/le-gouvernement-evoque-la-question-des-eleveurs-mbororo-dans-le-bas-uele-et-le-haut-uele",
+   "title": "Le gouvernement évoque la question des éleveurs Mbororo dans le Bas-Uele et le Haut-Uele",
+   "publisher": "Actualite.cd",
+   "date": "2024-10-14"
+  },
+  {
+   "id": "s5",
+   "url": "https://fr.allafrica.com/stories/202607140342.html",
+   "title": "Haut-Uele - La progression des ADF provoque le déplacement de plus de 10 000 civils vers Watsa et Wamba",
+   "publisher": "allAfrica / Radio Okapi",
+   "date": "2026-07-14"
+  }
+ ],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Poko town (territorial seat; GRID3 'Ngilima'/Poko Centre and adjoining Bakumba/Kana area)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    },
+    {
+     "entity_id": "cod-anr",
+     "role": "present"
+    }
+   ],
+   "evidence": "Territorial headquarters on the RN25 with state administration, police and a small FARDC detachment; no reports in 2025-2026 of armed groups operating in or around the town. Regional 2026 armed-group activity (LRA in Ango, ADF in Haut-Uele) is outside the territory.",
+   "source_ids": [
+    "s1",
+    "s2",
+    "s3"
+   ]
+  },
+  {
+   "zone_id": "z2",
+   "description": "Rural Poko secteur (Poko, Ganga and northern Ango-health-zone fringe): Niapu, Mawa Gare/Mawa Geito, Amadi/Nazima, Kembisa/Mola, Mangoro, Seki, Neza, Balengolu, Kisanga, Kakala",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "No armed-group presence reported in these villages in 2025-2026; insecurity limited to banditry, poaching and herder-farmer tension (Mbororo issue debated nationally in 2024). Northern villages near Ango territory (Kakala, Mangoro) are closest to areas of LRA raiding in 2026, hence low confidence.",
+   "source_ids": [
+    "s1",
+    "s3",
+    "s4"
+   ]
+  },
+  {
+   "zone_id": "z3",
+   "description": "Viadana secteur / Viadana health zone (Viadana, Kavio, Limba/Nangiala, Mbana/Nakuku, Nalamu, Neru, Akpudu, Manziada) toward the Haut-Uele border",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "No reported armed-group activity in Viadana secteur in 2025-2026; the ADF advance in Haut-Uele (mid-2026) was in Watsa/Wamba/Isiro-Mungbere axis, several hundred km east. Assigned to state police presence by default.",
+   "source_ids": [
+    "s2",
+    "s3",
+    "s5"
+   ]
+  }
+ ],
+ "locations": {
+  "cod-35NMD8746_1": "z1",
+  "cod-35NMD8949_1": "z1",
+  "cod-35NMC3867_1": "z2",
+  "cod-35NME7301_1": "z2",
+  "cod-35NMD3189_2": "z2",
+  "cod-35NMD6603_1": "z2",
+  "cod-35NMD9838_1": "z3",
+  "cod-35NND1937_1": "z3",
+  "cod-35NND2120_1": "z3",
+  "cod-35NMC1290_1": "z2",
+  "cod-35NME0503_1": "z2",
+  "cod-35NND0539_1": "z3",
+  "cod-35NMD7128_1": "z2",
+  "cod-35NMD1918_1": "z2",
+  "cod-35NME1101_1": "z2",
+  "cod-35NMD7112_1": "z2",
+  "cod-35NMD7379_1": "z2",
+  "cod-35NND0589_1": "z2",
+  "cod-35NMD6105_1": "z2",
+  "cod-35NMC5574_2": "z2",
+  "cod-35NMD3360_1": "z2",
+  "cod-35NMD2888_1": "z2",
+  "cod-35NMD7636_1": "z2",
+  "cod-35NMD9441_2": "z3",
+  "cod-35NMD6183_1": "z2",
+  "cod-35NMD4114_1": "z2",
+  "cod-35NND2126_1": "z3",
+  "cod-35NND1236_2": "z3",
+  "cod-35NMD3093_1": "z2",
+  "cod-35NMD3862_1": "z2",
+  "cod-35NMD7001_1": "z2",
+  "cod-35NMD7837_1": "z2",
+  "cod-35NND2035_2": "z3",
+  "cod-35NMD3115_1": "z2",
+  "cod-35NMC2974_1": "z2",
+  "cod-35NME7029_1": "z2",
+  "cod-35NND0616_1": "z3",
+  "cod-35NMC4154_1": "z2",
+  "cod-35NMD5703_1": "z2",
+  "cod-35NMD4289_1": "z2",
+  "cod-35NND6017_2": "z3",
+  "cod-35NND4823_1": "z3",
+  "cod-35NND2827_1": "z3",
+  "cod-35NND5620_2": "z3",
+  "cod-35NND4650_1": "z3",
+  "cod-35NND4124_1": "z3",
+  "cod-35NND4537_2": "z3",
+  "cod-35NND4324_1": "z3",
+  "cod-35NND4645_1": "z3",
+  "cod-35NNE2618_1": "z3",
+  "cod-35NND7121_1": "z3",
+  "cod-35NND6541_1": "z3",
+  "cod-35NND4539_1": "z3",
+  "cod-35NND3625_1": "z3",
+  "cod-35NND2333_1": "z3",
+  "cod-35NND3033_1": "z3"
+ }
+}

@@ -1,0 +1,148 @@
+{
+ "unit_id": "CD7102-kipushi",
+ "as_of": "2026-10-01",
+ "summary": "Kipushi territory (Haut-Katanga), a copper-mining area on the Zambian border just west and south of Lubumbashi, has no territorial armed-group presence. The state controls the whole unit: the PNC keeps order in Kipushi town and in the peri-urban neighbourhoods on the edge of Lubumbashi, with FARDC and border services present along the Zambian frontier. Insecurity is criminal: armed robbery and killings in Kipushi town (e.g. the murder of a court defender on 30-31 Dec 2025 that triggered protests and a provincial response). Bakata Katanga militia activity in 2024-2025 was concentrated in northern Haut-Katanga and Haut-Lomami (Pweto, Mitwaba, Bukama, Malemba-Nkulu), not in Kipushi. The rural villages of Kafubu and Kipushi secteurs are assessed as default state (PNC) presence.",
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://fr.allafrica.com/stories/202601050086.html",
+   "title": "Congo-Kinshasa: Manifestation à Kipushi contre la recrudescence de la criminalité",
+   "publisher": "AllAfrica / Radio Okapi",
+   "date": "2026-01-05"
+  },
+  {
+   "id": "s2",
+   "url": "https://fr.allafrica.com/stories/202504110513.html",
+   "title": "Opération Ndobo, Lubumbashi - Jacquemain Shabani lance une offensive contre la criminalité urbaine",
+   "publisher": "AllAfrica / Radio Okapi",
+   "date": "2025-04-11"
+  },
+  {
+   "id": "s3",
+   "url": "https://actualite.cd/2026/03/26/haut-katanga-une-cinquantaine-de-presumes-bandits-interpelles-lors-dune-operation",
+   "title": "Haut-Katanga : une cinquantaine de présumés bandits interpellés lors d'une opération conjointe police-armée à Lubumbashi",
+   "publisher": "Actualite.cd",
+   "date": "2026-03-26"
+  },
+  {
+   "id": "s4",
+   "url": "https://en.wikipedia.org/wiki/Mai-Mai_Kata_Katanga",
+   "title": "Mai-Mai Kata Katanga",
+   "publisher": "Wikipedia",
+   "date": null
+  },
+  {
+   "id": "s5",
+   "url": "https://globalprotectioncluster.org/sites/default/files/2026-03/rdc_clusterprotection_points_saillants_fevrier_2026_2.pdf",
+   "title": "RDC Cluster Protection – points saillants février 2026",
+   "publisher": "Global Protection Cluster",
+   "date": "2026-03"
+  }
+ ],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Kipushi town (cité minière, territory HQ, Zambian border)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "high",
+   "basis": "specific_report",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Territory HQ under full state administration; insecurity is criminal (armed men killed a court defender and others on 30-31 Dec 2025), prompting protests and a visit by the provincial interior minister promising police action. No armed group holds any part of the town.",
+   "source_ids": [
+    "s1",
+    "s4"
+   ]
+  },
+  {
+   "zone_id": "z2",
+   "description": "Southwestern edge neighbourhoods of Lubumbashi falling in Kipushi territory (Kampemba health zone: Kasapa 2, Iringi, Mulao, La Voix, Kasombo, Mille Collines, Maisha, etc.)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "high",
+   "basis": "area_report",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Part of the Lubumbashi urban area, policed by the PNC (Operation Ndobo since April 2025) with joint FARDC-PNC cordon-and-search operations against bandits in 2025-2026; no gang or militia holds territory.",
+   "source_ids": [
+    "s2",
+    "s3"
+   ]
+  },
+  {
+   "zone_id": "z3",
+   "description": "Rural villages and mining localities of Kipushi and Kafubu secteurs (Sokoto, Tondolo, Kasangula/Lumata, Kakana, Maksemu, Kinsevere area, Mulapwa, etc.)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [],
+   "evidence": "No reported armed-group activity in Kipushi territory; Bakata Katanga and Twa militia incidents in 2024-2026 were in northern Haut-Katanga/Haut-Lomami. Order assumed kept by PNC posts and customary chiefs, with FARDC/border services along the Zambian frontier.",
+   "source_ids": [
+    "s4",
+    "s5"
+   ]
+  }
+ ],
+ "locations": {
+  "cod-35LNH2700_1": "z1",
+  "cod-35LNH4926_1": "z3",
+  "cod-35LNH4231_1": "z3",
+  "cod-35LNH4523_1": "z3",
+  "cod-35LNG5564_1": "z3",
+  "cod-35LNH5122_1": "z3",
+  "cod-35LNH3623_1": "z3",
+  "cod-35LNG5778_1": "z3",
+  "cod-35LNH3702_1": "z3",
+  "cod-35LNG6262_1": "z3",
+  "cod-35LNH3218_3": "z3",
+  "cod-35LNG5469_1": "z3",
+  "cod-35LNG6860_1": "z3",
+  "cod-35LNH4726_3": "z3",
+  "cod-35LNG4984_2": "z3",
+  "cod-35LNH5212_1-yLrRbEDFwN3": "z2",
+  "cod-35LNH5212_1-SSdKrCGGrkZ": "z2",
+  "cod-35LNH5212_1-VL6yEzoB5xE": "z2",
+  "cod-35LNH5212_1-oUGoKXgDrTI": "z2",
+  "cod-35LNH5212_1-l9XStHuqBPw": "z2",
+  "cod-35LNH5212_1-D1DzX49GMrk": "z2",
+  "cod-35LNH5212_1-SqGIu7kWBPG": "z2",
+  "cod-35LNH5212_1-lUoWWTHyzHl": "z2",
+  "cod-35LNH5212_1-qFFKhqyt7Wc": "z2",
+  "cod-35LNH5212_1-FL0vRsornkW": "z2",
+  "cod-35LNH5212_1-aTazoz8TsOM": "z2",
+  "cod-35LNH5212_1-K3YBX8li94f": "z2",
+  "cod-35LNH5212_1-F9zm27ntYS7": "z2",
+  "cod-35LNH5212_1-jasrCmNaw1o": "z2",
+  "cod-35LNH5212_1-az1hh5j3mCy": "z2",
+  "cod-35LNH5212_1-SYucuM2vBhY": "z2",
+  "cod-35LNH5212_1-YzMpCG7QaLB": "z2",
+  "cod-35LNH8443_1": "z3",
+  "cod-35LNH9147_1": "z3",
+  "cod-35LNH6133_2": "z3",
+  "cod-35LPH5844_1": "z3",
+  "cod-35LNH5933_1": "z3",
+  "cod-35LNH6929_1": "z3",
+  "cod-35LNH6145_1": "z3",
+  "cod-35LPH4231_2": "z3",
+  "cod-35LNH7734_1": "z3",
+  "cod-35LNH7332_2": "z3",
+  "cod-35LNH7533_2": "z3",
+  "cod-35LNH9833_1": "z3",
+  "cod-35LPH0834_1": "z3",
+  "cod-35LNH5212_1-FX1jwofoOFv": "z2"
+ }
+}

@@ -1,0 +1,117 @@
+{
+ "unit_id": "CD7105-kambove",
+ "as_of": "2026-10-01",
+ "summary": "Kambove territory (Haut-Katanga), the copper-mining belt around Likasi between Lubumbashi and Kolwezi, has no reported territorial armed-group presence. The state controls the whole unit: the PNC keeps order in Kambove town and in the mining towns and villages of Kambove, Kapolowe, Manika, Kilela-Balanda and Panda, with FARDC present in the province. Insecurity is criminal and mining-related: clashes between artisanal miners and police in Kambove (Nov 2024, four dead, police HQ vandalised), armed robberies on the Likasi-Kambove road (2024) and the targeted killing of a geologist and his driver on the Likasi road (May 2026), followed by a police manhunt. Bakata Katanga activity in 2024-2026 was concentrated in northern Haut-Katanga/Haut-Lomami (Mitwaba, Pweto, Bukama, Malemba-Nkulu), not in Kambove.",
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://actualite.cd/2024/11/14/haut-katanga-quatre-morts-kambove-la-suite-des-altercations-entre-creuseurs-et-policiers",
+   "title": "Haut-Katanga : quatre morts à Kambove à la suite des altercations entre creuseurs et policiers",
+   "publisher": "Actualite.cd",
+   "date": "2024-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://actualite.cd/2026/05/04/haut-katanga-double-meurtre-sur-la-route-likasi-un-geologue-et-son-chauffeur-abattus-la",
+   "title": "Haut-Katanga : double meurtre sur la route Likasi, un géologue et son chauffeur abattus, la police lance une traque",
+   "publisher": "Actualite.cd",
+   "date": "2026-05-04"
+  },
+  {
+   "id": "s3",
+   "url": "https://crisis24.garda.com/alerts/2024/04/drc-chinese-national-killed-in-suspected-bandit-attack-near-kakontwe-haut-katanga-province-early-april-1",
+   "title": "DRC: Chinese national killed in suspected bandit attack near Kakontwe, Haut-Katanga Province",
+   "publisher": "Crisis24",
+   "date": "2024-04"
+  },
+  {
+   "id": "s4",
+   "url": "https://coi.euaa.europa.eu/administration/france/PLib/2409_COD__Bakata_Katanga_163382_web.pdf",
+   "title": "RDC : Bakata Katanga",
+   "publisher": "OFPRA / EUAA COI",
+   "date": "2024-09"
+  },
+  {
+   "id": "s5",
+   "url": "https://globalprotectioncluster.org/sites/default/files/2026-04/rdc_clusterprotection_points_saillants_mars_2026_0.pdf",
+   "title": "RDC Cluster Protection – points saillants mars 2026",
+   "publisher": "Global Protection Cluster",
+   "date": "2026-04"
+  }
+ ],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Kambove town (territory HQ, mining town)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "high",
+   "basis": "specific_report",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Territory HQ under full state administration with a police headquarters; violence is criminal or mining-related (Nov 2024 miner-police clashes that left four dead and damaged the police HQ; May 2026 killing of a geologist on the Likasi road, followed by a police manhunt). No armed group holds any part of the town.",
+   "source_ids": [
+    "s1",
+    "s2",
+    "s3"
+   ]
+  },
+  {
+   "zone_id": "z2",
+   "description": "Rest of Kambove territory: mining towns near Likasi (Kawama, Lupidi, Kibangu, Ndakata), Kapolowe/Lwisha, Manika, Kilela-Balanda and Panda villages",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [],
+   "evidence": "No reported armed-group activity in Kambove territory in 2025-2026; Bakata Katanga incidents were in northern Haut-Katanga and Haut-Lomami. Order assumed kept by PNC posts, mining police and customary chiefs, with crime (road robberies) the main threat.",
+   "source_ids": [
+    "s3",
+    "s4",
+    "s5"
+   ]
+  }
+ ],
+ "locations": {
+  "cod-35LMH5598_1": "z1",
+  "cod-35LMH9490_1": "z2",
+  "cod-35LMJ7105_1": "z2",
+  "cod-35LMJ8709_1": "z2",
+  "cod-35LMJ8224_1": "z2",
+  "cod-35LMJ5709_1": "z2",
+  "cod-35LMH9394_1": "z2",
+  "cod-35LMJ9113_1": "z2",
+  "cod-35LNH0265_1": "z2",
+  "cod-35LNH1069_1": "z2",
+  "cod-35LNH3271_2": "z2",
+  "cod-35LNH1124_2": "z2",
+  "cod-35LMH9479_1": "z2",
+  "cod-35LNH0667_1": "z2",
+  "cod-35LMH7279_1": "z2",
+  "cod-35LNH0378_1": "z2",
+  "cod-35LNH1496_1": "z2",
+  "cod-35LNH0079_1": "z2",
+  "cod-35LMH1073_1": "z2",
+  "cod-35LMH2928_2": "z2",
+  "cod-35LMH1094_1": "z2",
+  "cod-35LMH4207_1": "z2",
+  "cod-35LMH0227_1": "z2",
+  "cod-35LMG3079_1": "z2",
+  "cod-35LMH6041_1": "z2",
+  "cod-35LMH5149_1": "z2",
+  "cod-35LMH5006_1": "z2",
+  "cod-35LMH5561_2": "z2",
+  "cod-35LMH3139_1": "z2",
+  "cod-35LMH4852_1": "z2",
+  "cod-35LMH2953_1": "z2",
+  "cod-35LMH6010_1": "z2",
+  "cod-35LMH7445_1": "z2"
+ }
+}

@@ -1,0 +1,328 @@
+{
+ "unit_id": "CD7109-pweto",
+ "as_of": "2026-10-01",
+ "summary": "Pweto territory (Haut-Katanga), on Lake Mweru and the Zambian border, is state-held. Pweto and Kilwa towns and the southern/lakeside villages are under ordinary state administration with PNC policing and FARDC posts. The north of the territory (Mwenge chefferie on the Pweto-Mwenge axis, bordering Mitwaba and Moba) suffers persistent Mai-Mai Kata Katanga activity (22,000 displaced from Kasongo-Kamulumbi in 2023; April 2026 protection mission flags instability amplified by the MDKC incursion in Mitwaba); it is assessed as FARDC-held, contested in Kasongo-Kamulumbi. No source shows a militia durably governing localities in the unit as of late 2026.",
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://actualite.cd/2026/05/10/haut-katanga-la-societe-civile-exige-justice-apres-une-bavure-militaire-pweto-un",
+   "title": "Haut-Katanga : la société civile exige justice après une bavure militaire à Pweto, un enseignant tué et trois blessés",
+   "publisher": "Actualite.cd",
+   "date": "2026-05-10"
+  },
+  {
+   "id": "s2",
+   "url": "https://ehtools.org/uploads/brochures/1763.pdf",
+   "title": "Mission d'évaluation protection, territoire de Pweto (13-22 avril 2026), axe Pweto-Mwenge",
+   "publisher": "OCHA / ehtools (search summary)",
+   "date": "2026-04"
+  },
+  {
+   "id": "s3",
+   "url": "https://ehtools.org/alert-view/5052",
+   "title": "Alerte précoce N° 5052 – déplacés du groupement Kasongo-Kamulumbi (chefferie Mwenge) à Kasama",
+   "publisher": "OCHA / ehtools (search summary)",
+   "date": "2023-11"
+  },
+  {
+   "id": "s4",
+   "url": "https://en.wikipedia.org/wiki/Mai-Mai_Kata_Katanga",
+   "title": "Mai-Mai Kata Katanga (incl. 15 Aug 2024 Kilwa shooting)",
+   "publisher": "Wikipedia",
+   "date": null
+  },
+  {
+   "id": "s5",
+   "url": "https://www.congoquotidien.com/2026/09/12/mai-mai-mitwaba-malemba-nkulu/",
+   "title": "Maï-Maï : regain d'attaques à Mitwaba et Malemba-Nkulu",
+   "publisher": "Congo Quotidien",
+   "date": "2026-09-12"
+  },
+  {
+   "id": "s6",
+   "url": "https://afrikarabia.com/wordpress/rdc-qui-se-cache-derriere-le-nouveau-groupe-arme-dans-lex-katanga/",
+   "title": "RDC : qui se cache derrière le nouveau groupe armé dans l'ex-Katanga ? (MDKC)",
+   "publisher": "Afrikarabia",
+   "date": "2026-03"
+  },
+  {
+   "id": "s7",
+   "url": "https://www.radiookapi.net/2026/09/30/actualite/securite/moba-larmee-deployee-kamena-apres-une-incursion-des-miliciens-bakata",
+   "title": "Moba : l'armée déployée à Kamena après une incursion des miliciens Bakata Katanga",
+   "publisher": "Radio Okapi",
+   "date": "2026-09-30"
+  },
+  {
+   "id": "s8",
+   "url": "https://7sur7.cd/2024/10/08/haut-katanga-reddition-de-4-miliciens-mai-mai-pweto",
+   "title": "Haut-Katanga : reddition de 4 miliciens maï-maï à Pweto",
+   "publisher": "7sur7.cd",
+   "date": "2024-10-08"
+  }
+ ],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Pweto town (territory HQ, Lake Mweru / Luvua outlet, Zambian border)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "area_report",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    },
+    {
+     "entity_id": "bakata-katanga",
+     "role": "raiding"
+    }
+   ],
+   "evidence": "Territorial seat under state administration with PNC and an FARDC garrison; it receives IDPs from Mwenge and neighbouring Mitwaba/Moba, i.e. it is treated as a safe zone. Mai-Mai Kata Katanga activity in 2023-2026 is reported in the rural north (Pweto-Mwenge axis), not in the town.",
+   "source_ids": [
+    "s1",
+    "s2",
+    "s8"
+   ]
+  },
+  {
+   "zone_id": "z2",
+   "description": "Kilwa city (Lake Mweru) and its health-area neighbourhoods (Kilwa, Kapufi, Mulangale, Kamutrombe, Katenge)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "area_report",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "State-held lakeside town with PNC and FARDC; the 15 Aug 2024 incident (about ten killed) was security forces firing on a crowd they took for Kata Katanga militiamen, not a militia takeover. No reports of an armed group holding the town in 2025-2026.",
+   "source_ids": [
+    "s4"
+   ]
+  },
+  {
+   "zone_id": "z3",
+   "description": "Kasongo-Kamulumbi groupement, northwestern Mwenge chefferie (Katubilwa, Kazeba, Dilenda, Sylvain, Kasongo Kamulumbi) toward Mitwaba/Moba",
+   "controller_id": "cod-fardc",
+   "status": "contested",
+   "confidence": "low",
+   "basis": "area_report",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "bakata-katanga",
+     "role": "contesting"
+    }
+   ],
+   "evidence": "About 22,000 people fled this groupement in May-Nov 2023 due to Katangese Mai-Mai (FPK) insecurity; an April 2026 protection mission reports persistent instability on the Pweto-Mwenge axis from Mai-Mai Kata Katanga activism and the MDKC incursion in adjacent Mitwaba (March 2026). State control is assessed as FARDC-led and contested; no source shows the militia governing villages.",
+   "source_ids": [
+    "s2",
+    "s3",
+    "s6",
+    "s5"
+   ]
+  },
+  {
+   "zone_id": "z4",
+   "description": "Rest of Mwenge chefferie on the Pweto-Mwenge axis: Mwenge, Kasama groupement (IDP host area), Kisaba, Kalenge, Kabawe, Madimba, Kivungu, Mpongo",
+   "controller_id": "cod-fardc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "area_report",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-pnc",
+     "role": "present"
+    },
+    {
+     "entity_id": "bakata-katanga",
+     "role": "raiding"
+    }
+   ],
+   "evidence": "Kasama groupement hosts IDPs from Kasongo-Kamulumbi and Moba, and the Pweto-Mwenge axis is a 2026 protection concern with FARDC deployed; Mai-Mai Kata Katanga raids are reported but the state keeps a presence. The army is assumed the main force given the operational context.",
+   "source_ids": [
+    "s2",
+    "s3",
+    "s7"
+   ]
+  },
+  {
+   "zone_id": "z5",
+   "description": "Southern and eastern Pweto health zone: Kamakanga, Kisakana/Mumbalanga, Katonta, Kakonona, Kapata/Mwashi, Kapulo mine area, Kizabi, Mwela, Kinkalangu (Lake Mweru/Luvua shore)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "No reports of armed-group control in these villages near Pweto town and along the lake/Luvua in 2025-2026; FARDC units are posted along the roads (e.g. the May 2026 shooting by soldiers in the Pweto area). Assessed as ordinary state presence.",
+   "source_ids": [
+    "s1",
+    "s2"
+   ]
+  },
+  {
+   "zone_id": "z6",
+   "description": "Rural Kilwa health zone (Lukonzolwa/Sotala, Dubie/Mansanga, Lwanza/Kabulembe, Lusalala, Kasolo, Dikulushi, Kabangu, Mubanga, Kyaka, Mukupa/Kankumbwa, Mulinde) plus Kilwa-area villages in Mufunga-Sampwe and Kashobwe health zones",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "No reported armed-group presence in the Kilwa hinterland in 2025-2026; Bakata Katanga activity is concentrated in Mitwaba, Malemba-Nkulu, Manono/Moba and the far north of Pweto. FARDC soldiers were posted at Kabulembe (May 2026 shooting). Default state presence.",
+   "source_ids": [
+    "s1",
+    "s5"
+   ]
+  }
+ ],
+ "locations": {
+  "cod-35LPK4572_1": "z2",
+  "cod-35LPL9246_1": "z5",
+  "cod-35LPL7929_1": "z6",
+  "cod-35LPL6850_1": "z6",
+  "cod-35LPK3642_1": "z6",
+  "cod-35LPL8736_1": "z6",
+  "cod-35LPL3234_1": "z6",
+  "cod-35LPL6006_1": "z6",
+  "cod-35LPL5200_1": "z6",
+  "cod-35LPL6715_1": "z6",
+  "cod-35LPL3813_1": "z6",
+  "cod-35LPL8740_1": "z6",
+  "cod-35LPK4294_1": "z6",
+  "cod-35LPL6209_1": "z6",
+  "cod-35LPK4184_1": "z6",
+  "cod-35LPK4390_1": "z6",
+  "cod-35LPL6149_1": "z6",
+  "cod-35LPL9043_1": "z5",
+  "cod-35LPK3255_1": "z6",
+  "cod-35LPK5198_1": "z6",
+  "cod-35LPL1138_1": "z6",
+  "cod-35LPL5705_1": "z6",
+  "cod-35LPL6512_1": "z6",
+  "cod-35LPL7121_1": "z6",
+  "cod-35LNL9832_1": "z6",
+  "cod-35LPK4688_1": "z6",
+  "cod-35LNL9335_1": "z6",
+  "cod-35LPL3802_1": "z6",
+  "cod-35LPL5561_2": "z6",
+  "cod-35LPK4079_1": "z6",
+  "cod-35LPL8738_2": "z6",
+  "cod-35LPK3354_1": "z6",
+  "cod-35LPK4795_1": "z6",
+  "cod-35LPL4643_1": "z6",
+  "cod-35LNK8225_2": "z6",
+  "cod-35LPK3158_1": "z6",
+  "cod-35LPL3369_1": "z6",
+  "cod-35LNK8978_1": "z6",
+  "cod-35LPL5861_1": "z6",
+  "cod-35LNL7829_1": "z6",
+  "cod-35LPL1838_1": "z6",
+  "cod-35LPL4038_1": "z6",
+  "cod-35LNK8124_1": "z6",
+  "cod-35LNL9318_3": "z6",
+  "cod-35LPK4487_1": "z6",
+  "cod-35LNL8432_1": "z6",
+  "cod-35LPK5246_1": "z6",
+  "cod-35LPK3062_1": "z6",
+  "cod-35LPK4377_1": "z6",
+  "cod-35LPK4692_1": "z6",
+  "cod-35LPK4463_2": "z6",
+  "cod-35LPL8534_1": "z6",
+  "cod-35LPK4855_1": "z6",
+  "cod-35LPL6953_1": "z6",
+  "cod-35LPL2570_1": "z6",
+  "cod-35LPL7017_1": "z6",
+  "cod-35LPK4652_2": "z6",
+  "cod-35LPL1271_2": "z6",
+  "cod-35LNL6927_1": "z6",
+  "cod-35LPK3363_1": "z6",
+  "cod-35LPK4784_1": "z6",
+  "cod-35LPK5646_1": "z6",
+  "cod-35LPK2977_1": "z6",
+  "cod-35LPK4858_1": "z6",
+  "cod-35LPK4997_1": "z6",
+  "cod-35LNL8844_1": "z6",
+  "cod-35LNK9643_2": "z6",
+  "cod-35LPL9240_2": "z6",
+  "cod-35LNL8915_1": "z6",
+  "cod-35LPK3465_1": "z6",
+  "cod-35LPK1326_1": "z6",
+  "cod-35LNL9010_1": "z6",
+  "cod-35LPL6060_1": "z6",
+  "cod-35LPL6457_1": "z6",
+  "cod-35LPL9342_2": "z6",
+  "cod-35LPL4440_1": "z6",
+  "cod-35LPL3438_2": "z6",
+  "cod-35LPL3519_1": "z6",
+  "cod-35LPL5845_1": "z6",
+  "cod-35LPL8333_2": "z6",
+  "cod-35LPK4572_1-jRXSHAsCfvm": "z2",
+  "cod-35LPK4572_1-q2PcdIeBUqL": "z2",
+  "cod-35LPK4572_1-FaTm4ozxhE6": "z2",
+  "cod-35LPK4572_1-vNU07x0mW0x": "z2",
+  "cod-35LPK4572_1-J31XMHjYatF": "z2",
+  "cod-35LQL1064_1": "z1",
+  "cod-35LQL0256_1": "z5",
+  "cod-35LQM0702_1": "z4",
+  "cod-35MPM8919_1": "z4",
+  "cod-35LPL7966_2": "z5",
+  "cod-35LQM4010_1": "z5",
+  "cod-35LQL2678_1": "z5",
+  "cod-35MPM7832_2": "z3",
+  "cod-35MQM5229_1": "z5",
+  "cod-35LQL7189_1": "z5",
+  "cod-35LQL2690_1": "z5",
+  "cod-35LPL9853_1": "z5",
+  "cod-35LPL8592_1": "z4",
+  "cod-35LQL3270_1": "z5",
+  "cod-35LPL9751_2": "z5",
+  "cod-35MPM7219_1": "z4",
+  "cod-35LQL4283_1": "z5",
+  "cod-35MQM6742_1": "z5",
+  "cod-35LQM8610_1": "z5",
+  "cod-35MPM7035_1": "z3",
+  "cod-35MPM5542_1": "z3",
+  "cod-35LQL4781_1": "z5",
+  "cod-35LQM3400_1": "z5",
+  "cod-35LQL0874_1": "z5",
+  "cod-35MPM6738_1": "z3",
+  "cod-35LPL8178_1": "z5",
+  "cod-35LQL0152_1": "z5",
+  "cod-35LPM9808_1": "z4",
+  "cod-35LPM9109_1": "z4",
+  "cod-35MQM8622_1": "z5",
+  "cod-35LPL9650_1": "z5",
+  "cod-35LQL2466_1": "z5",
+  "cod-35MPM8823_1": "z4",
+  "cod-35LPM7600_1": "z4",
+  "cod-35MQM9117_1": "z5",
+  "cod-35LQL2575_4": "z5",
+  "cod-35MPM9017_1": "z4",
+  "cod-35LPM9214_1": "z4",
+  "cod-35LQM0204_1": "z4",
+  "cod-35LQL3478_3": "z5",
+  "cod-35LPL9675_1": "z5",
+  "cod-35LPM6705_1": "z4",
+  "cod-35MQM3929_1": "z5",
+  "cod-35MPM8027_1": "z3"
+ }
+}

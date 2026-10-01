@@ -1,4 +1,5 @@
 import { BASEMAPS, OVERLAYS, LIBRARIES, POP_CUTOFFS, byId, configureWorldpop } from './catalog.js';
+import { initDetails, showDetails } from './details.js';
 
 const adapters = {
   maplibre: () => import('./adapters/maplibre.js'),
@@ -68,7 +69,7 @@ async function mount() {
   try {
     const mod = await adapters[state.lib]();
     if (seq !== mountSeq) return;
-    const instance = await mod.createMap(container, state, { onMessage: message });
+    const instance = await mod.createMap(container, state, { onMessage: message, onSelect: showDetails });
     if (seq !== mountSeq) { instance.destroy(); return; }
     current = instance;
   } catch (e) {
@@ -173,5 +174,6 @@ function renderPanel() {
 
 configureWorldpop({ opacity: state.popOpacity, min: state.popMin });
 buildPanel();
+initDetails();
 renderPanel();
 mount().then(writeHash);

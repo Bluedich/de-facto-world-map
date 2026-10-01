@@ -126,7 +126,7 @@ async function geojsonSource(o) {
   return ds;
 }
 
-export async function createMap(container, state, { onMessage }) {
+export async function createMap(container, state, { onMessage, onSelect }) {
   window.CESIUM_BASE_URL ??= import.meta.env.BASE_URL + 'cesium';
   const viewer = new Cesium.Viewer(container, {
     baseLayer: false,
@@ -149,6 +149,14 @@ export async function createMap(container, state, { onMessage }) {
     destination: Cesium.Cartesian3.fromDegrees(state.view.lon, state.view.lat,
       zoomToHeight(state.view.zoom, state.view.lat, container.clientHeight || 800)),
   });
+
+  const clicks = new Cesium.ScreenSpaceEventHandler(viewer.scene.canvas);
+  clicks.setInputAction((e) => {
+    const picked = viewer.scene.pick(e.position)?.id;
+    if (picked?.entityCollection?.owner?.name === 'drc-control' && picked.properties) {
+      onSelect?.(picked.properties.getValue(Cesium.JulianDate.now()));
+    }
+  }, Cesium.ScreenSpaceEventType.LEFT_CLICK);
 
   const imageryCache = new Map(); // id -> ImageryLayer
   const dataSources = new Map(); // id -> Promise<DataSource>
@@ -206,6 +214,6 @@ export async function createMap(container, state, { onMessage }) {
         zoom: Math.max(0, Math.min(20, heightToZoom(c.height, lat, container.clientHeight || 800))),
       };
     },
-    destroy() { viewer.destroy(); },
+    destroy() { clicks.destroy(); viewer.destroy(); },
   };
 }

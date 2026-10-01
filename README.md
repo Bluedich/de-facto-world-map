@@ -61,7 +61,7 @@ Data lives in `data/drc/`; scripts in `scripts/drc/` (Python 3, `pip install sha
 | Swarm work units (one per territory/ville, large cities split) | `scripts/drc/make_units.py` | `data/drc/units/*.json` |
 | Agent assessments | agent swarm (see `scripts/drc/agent_prompt.md`) | `data/drc/assessments/*.json` |
 | Build SQLite DB | `scripts/drc/build_db.py` | `data/drc/defacto.sqlite` |
-| Map overlay | `scripts/drc/export_geojson.py` | `public/data/drc-control.geojson` |
+| Map overlay + click details | `scripts/drc/export_geojson.py` | `public/data/drc-control.geojson`, `public/data/drc-details/` |
 
 Sources: GRID3 COD settlement extents v4, settlement names v9 and population v4.4 (100 m),
 OCHA COD-AB admin boundaries, GeoNames for well-known town names.
@@ -76,3 +76,9 @@ Database tables (`scripts/drc/schema.sql`): `entity` (controllers, with `parent_
 `admin_unit`, `location`, `control_assessment` (controller, sovereign = top-level parent, status, confidence,
 date, evidence), `assessment_presence` (other actors present), `source`, `assessment_source`, `run`;
 view `v_current_control` gives the latest assessment per location.
+
+Clicking a point on the map (any library) opens a panel with everything recorded for that place: location data
+(admin units, health zone/area, population, GRID3 extent, other names), every assessment (controller, sovereign,
+status, confidence, basis, since, other actors, zone, evidence, sources, unit summary) and the entities involved.
+The panel loads the territory's file from `public/data/drc-details/<adm2 pcode>.json` (plus `index.json` for
+entities and admin names) on demand.

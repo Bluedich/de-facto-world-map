@@ -155,7 +155,7 @@ async function buildStyle(state, onFallback) {
   return style;
 }
 
-export async function createMap(container, state, { onMessage }) {
+export async function createMap(container, state, { onMessage, onSelect }) {
   const map = new maplibregl.Map({
     container,
     style: await buildStyle(state, onMessage),
@@ -167,6 +167,10 @@ export async function createMap(container, state, { onMessage }) {
   map.addControl(new maplibregl.NavigationControl({ visualizePitch: true }), 'top-right');
   map.addControl(new maplibregl.ScaleControl(), 'bottom-right');
   map.on('error', (e) => console.warn('[maplibre]', e.error?.message || e));
+  const points = 'ov-drc-control-points';
+  map.on('click', points, (e) => onSelect?.(e.features[0].properties));
+  map.on('mouseenter', points, () => { map.getCanvas().style.cursor = 'pointer'; });
+  map.on('mouseleave', points, () => { map.getCanvas().style.cursor = ''; });
 
   let seq = 0;
   let terrainOn = state.terrain;

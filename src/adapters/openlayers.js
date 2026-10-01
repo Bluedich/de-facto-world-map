@@ -56,20 +56,30 @@ function geojsonLayer(o) {
     }
     return pointStyles.get(key);
   };
-  if (o.id === 'drc-control') return new VectorLayer({ source, style: pointStyle, updateWhileInteracting: false });
+  if (o.id === 'drc-control') {
+    return new VectorLayer({ source, style: pointStyle, updateWhileInteracting: false, properties: { selectable: true } });
+  }
   const style = o.id === 'rivers'
     ? (f) => (f.getGeometry().getType().includes('Polygon') ? lakeStyle : riverStyles[f.get('scalerank') ?? 12] || riverStyles[12])
     : (f) => countryStyles[f.get('mapcolor7') ?? 0];
   return new VectorLayer({ source, style, declutter: false, updateWhileInteracting: false });
 }
 
-export async function createMap(container, state, { onMessage }) {
+export async function createMap(container, state, { onMessage, onSelect }) {
   const map = new Map({
     target: container,
     controls: defaultControls().extend([new ScaleLine()]),
     view: new View({ center: fromLonLat([state.view.lon, state.view.lat]), zoom: state.view.zoom, maxZoom: 20 }),
   });
   const cache = new globalThis.Map();
+  const selectable = { layerFilter: (l) => l.get('selectable'), hitTolerance: 3 };
+  map.on('singleclick', (e) => {
+    const f = map.forEachFeatureAtPixel(e.pixel, (x) => x, selectable);
+    if (f) onSelect?.(f.getProperties());
+  });
+  map.on('pointermove', (e) => {
+    if (!e.dragging) map.getTargetElement().style.cursor = map.hasFeatureAtPixel(e.pixel, selectable) ? 'pointer' : '';
+  });
 
   function layerFor(id) {
     if (!cache.has(id)) {

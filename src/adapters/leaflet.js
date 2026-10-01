@@ -27,14 +27,15 @@ function rasterLayer(l) {
   return L.tileLayer(l.url, { maxNativeZoom: l.maxzoom ?? 19, maxZoom: 20, opacity: l.opacity ?? 1, attribution: l.attribution });
 }
 
-function geojsonLayer(o, renderer) {
+function geojsonLayer(o, renderer, onSelect) {
   const group = L.layerGroup();
   group.getAttribution = () => o.attribution;
   Promise.all(o.files.map(loadGeoJSON)).then((files) => {
     files.forEach((gj) => {
       L.geoJSON(gj, {
         renderer,
-        interactive: false,
+        interactive: o.id === 'drc-control',
+        onEachFeature: o.id === 'drc-control' ? (f, layer) => layer.on('click', () => onSelect?.(f.properties)) : undefined,
         pointToLayer: (f, latlng) => L.circleMarker(latlng, {
           renderer, radius: Math.max(2, Math.log10(f.properties.population || 1000) * 2 - 4),
         }),
@@ -51,7 +52,7 @@ function geojsonLayer(o, renderer) {
   return group;
 }
 
-export async function createMap(container, state, { onMessage }) {
+export async function createMap(container, state, { onMessage, onSelect }) {
   const map = L.map(container, { preferCanvas: true, worldCopyJump: true })
     .setView([state.view.lat, state.view.lon], Math.round(state.view.zoom));
   L.control.scale().addTo(map);
@@ -63,7 +64,7 @@ export async function createMap(container, state, { onMessage }) {
     if (!cache.has(id)) {
       let def = byId(BASEMAPS, id) || byId(OVERLAYS, id);
       if (def.kind === 'style') def = byId(BASEMAPS, def.fallback);
-      cache.set(id, def.kind === 'geojson' ? geojsonLayer(def, renderer) : rasterLayer(def));
+      cache.set(id, def.kind === 'geojson' ? geojsonLayer(def, renderer, onSelect) : rasterLayer(def));
     }
     return cache.get(id);
   }

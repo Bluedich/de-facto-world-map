@@ -28,6 +28,32 @@ function rasterSource(l) {
 
 const abs = (path) => new URL(import.meta.env.BASE_URL + path, location.href).href;
 
+// Selected control point ({ id, controller }) or null. Points of the same controller are
+// outlined and drawn on top; all others are dimmed.
+let selection = null;
+const DRC_POINTS = 'ov-drc-control-points';
+
+function drcStyle(sel) {
+  if (!sel) {
+    return {
+      paint: {
+        'circle-opacity': ['match', ['get', 'confidence'], 'low', 0.55, 0.9],
+        'circle-stroke-color': '#222', 'circle-stroke-width': 0.4,
+      },
+      layout: { 'circle-sort-key': 0 },
+    };
+  }
+  const same = ['==', ['get', 'controller_id'], sel.controller];
+  return {
+    paint: {
+      'circle-opacity': ['case', same, 1, 0.12],
+      'circle-stroke-color': ['case', same, '#ffffff', '#222'],
+      'circle-stroke-width': ['case', ['==', ['get', 'id'], sel.id], 3, same, 1.2, 0],
+    },
+    layout: { 'circle-sort-key': ['case', ['==', ['get', 'id'], sel.id], 2, same, 1, 0] },
+  };
+}
+
 // Returns { sources, layers } for one overlay. Layer ids are prefixed "ov-".
 function overlayParts(o, state) {
   const sources = {};
@@ -73,15 +99,15 @@ function overlayParts(o, state) {
           },
         );
       } else if (o.id === 'drc-control') {
+        const { paint, layout } = drcStyle(selection);
         layers.push({
-          id: `${src}-points`, type: 'circle', source: `${src}-0`,
+          id: `${src}-points`, type: 'circle', source: `${src}-0`, layout,
           paint: {
             'circle-color': ['get', 'color'],
             'circle-radius': ['interpolate', ['linear'], ['zoom'],
               4, ['interpolate', ['linear'], ['get', 'population'], 1000, 1.5, 100000, 4, 1000000, 8],
               10, ['interpolate', ['linear'], ['get', 'population'], 1000, 4, 100000, 9, 1000000, 16]],
-            'circle-opacity': ['match', ['get', 'confidence'], 'low', 0.55, 0.9],
-            'circle-stroke-color': '#222', 'circle-stroke-width': 0.4,
+            ...paint,
           },
         });
       } else {
@@ -167,8 +193,11 @@ export async function createMap(container, state, { onMessage, onSelect }) {
   map.addControl(new maplibregl.NavigationControl({ visualizePitch: true }), 'top-right');
   map.addControl(new maplibregl.ScaleControl(), 'bottom-right');
   map.on('error', (e) => console.warn('[maplibre]', e.error?.message || e));
-  const points = 'ov-drc-control-points';
-  map.on('click', points, (e) => onSelect?.(e.features[0].properties));
+  const points = DRC_POINTS;
+  map.on('click', (e) => {
+    const hit = map.getLayer(points) && map.queryRenderedFeatures(e.point, { layers: [points] })[0];
+    onSelect?.(hit ? hit.properties : null);
+  });
   map.on('mouseenter', points, () => { map.getCanvas().style.cursor = 'pointer'; });
   map.on('mouseleave', points, () => { map.getCanvas().style.cursor = ''; });
 
@@ -182,6 +211,13 @@ export async function createMap(container, state, { onMessage, onSelect }) {
       map.setStyle(style, { diff: true });
       if (next.terrain && !terrainOn && map.getPitch() < 10) map.easeTo({ pitch: 60, duration: 1000 });
       terrainOn = next.terrain;
+    },
+    highlight(sel) {
+      selection = sel;
+      if (!map.getLayer(DRC_POINTS)) return;
+      const { paint, layout } = drcStyle(sel);
+      for (const [k, v] of Object.entries(paint)) map.setPaintProperty(DRC_POINTS, k, v);
+      for (const [k, v] of Object.entries(layout)) map.setLayoutProperty(DRC_POINTS, k, v);
     },
     getView() {
       const c = map.getCenter();

@@ -127,8 +127,20 @@ export async function showDetails(props) {
   body.scrollTop = 0;
 }
 
-export function initDetails() {
+export function hideDetails() {
+  document.getElementById('details').hidden = true;
+  seq++;
+}
+
+// One line above the details: how many points the highlighted controller holds.
+export function showHighlightSummary(html) {
+  document.querySelector('#details .highlight-info').innerHTML = html;
+}
+
+export function initDetails(onClose) {
   const el = document.getElementById('details');
-  el.querySelector('.close').addEventListener('click', () => { el.hidden = true; seq++; });
-  document.addEventListener('keydown', (e) => { if (e.key === 'Escape') el.hidden = true; });
+  el.querySelector('.close').addEventListener('click', () => { hideDetails(); onClose?.(); });
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && !el.hidden) { hideDetails(); onClose?.(); }
+  });
 }

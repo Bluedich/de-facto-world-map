@@ -92,6 +92,22 @@ function heightToZoom(h, lat, px) {
   return Math.log2((156543.034 * Math.cos(Cesium.Math.toRadians(lat))) / mpp);
 }
 
+// Style every control point for the current selection ({ id, controller } or null).
+function styleSelection(ds, sel) {
+  const now = Cesium.JulianDate.now();
+  for (const e of ds.entities.values) {
+    if (!e.point) continue;
+    const p = e.properties.getValue(now);
+    const base = Cesium.Color.fromCssColorString(p.color);
+    const same = sel && p.controller_id === sel.controller;
+    e.point.color = sel && !same ? base.withAlpha(0.12) : base;
+    e.point.outlineColor = same ? Cesium.Color.WHITE : Cesium.Color.BLACK;
+    e.point.outlineWidth = !sel ? 0.5 : same ? (p.id === sel.id ? 3 : 1.5) : 0;
+    // Draw the selected controller's points in front of the others.
+    e.point.disableDepthTestDistance = same ? Number.POSITIVE_INFINITY : undefined;
+  }
+}
+
 async function geojsonSource(o) {
   const ds = new Cesium.CustomDataSource(o.id);
   const files = await Promise.all(o.files.map(loadGeoJSON));
@@ -153,15 +169,15 @@ export async function createMap(container, state, { onMessage, onSelect }) {
   const clicks = new Cesium.ScreenSpaceEventHandler(viewer.scene.canvas);
   clicks.setInputAction((e) => {
     const picked = viewer.scene.pick(e.position)?.id;
-    if (picked?.entityCollection?.owner?.name === 'drc-control' && picked.properties) {
-      onSelect?.(picked.properties.getValue(Cesium.JulianDate.now()));
-    }
+    const isPoint = picked?.entityCollection?.owner?.name === 'drc-control' && picked.properties;
+    onSelect?.(isPoint ? picked.properties.getValue(Cesium.JulianDate.now()) : null);
   }, Cesium.ScreenSpaceEventType.LEFT_CLICK);
 
   const imageryCache = new Map(); // id -> ImageryLayer
   const dataSources = new Map(); // id -> Promise<DataSource>
   let terrainKey = null;
   let seq = 0;
+  let selection = null;
 
   async function apply(next) {
     const mine = ++seq;
@@ -188,7 +204,10 @@ export async function createMap(container, state, { onMessage, onSelect }) {
     for (const o of OVERLAYS.filter((x) => x.kind === 'geojson')) {
       const on = next.overlays.includes(o.id);
       if (on && !dataSources.has(o.id)) {
-        dataSources.set(o.id, geojsonSource(o).then((ds) => viewer.dataSources.add(ds)));
+        dataSources.set(o.id, geojsonSource(o).then((ds) => {
+          if (o.id === 'drc-control' && selection) styleSelection(ds, selection);
+          return viewer.dataSources.add(ds);
+        }));
       }
       if (dataSources.has(o.id)) dataSources.get(o.id).then((ds) => { ds.show = next.overlays.includes(o.id); });
     }
@@ -206,6 +225,10 @@ export async function createMap(container, state, { onMessage, onSelect }) {
 
   return {
     apply,
+    highlight(sel) {
+      selection = sel;
+      dataSources.get('drc-control')?.then((ds) => styleSelection(ds, sel));
+    },
     getView() {
       const c = viewer.camera.positionCartographic;
       const lat = Cesium.Math.toDegrees(c.latitude);

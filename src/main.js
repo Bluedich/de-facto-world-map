@@ -1,5 +1,5 @@
-import { BASEMAPS, OVERLAYS, LIBRARIES, POP_CUTOFFS, byId, configureWorldpop } from './catalog.js';
-import { initDetails, showDetails } from './details.js';
+import { BASEMAPS, OVERLAYS, LIBRARIES, POP_CUTOFFS, byId, configureWorldpop, loadGeoJSON } from './catalog.js';
+import { initDetails, showDetails, hideDetails, showHighlightSummary } from './details.js';
 
 const adapters = {
   maplibre: () => import('./adapters/maplibre.js'),
@@ -53,6 +53,34 @@ function message(text) {
   $('message').textContent = text || '';
 }
 
+// ---- selection: clicked control point + every point held by the same controller ----
+let selection = null; // { id, controller }
+
+const escHtml = (v) => String(v ?? '').replace(/[&<>"']/g, (c) => `&#${c.charCodeAt(0)};`);
+
+async function summarize(props) {
+  const gj = await loadGeoJSON(byId(OVERLAYS, 'drc-control').files[0]);
+  const same = gj.features.filter((f) => f.properties.controller_id === props.controller_id);
+  const people = same.reduce((n, f) => n + (f.properties.population || 0), 0);
+  return `<i style="background:${escHtml(props.color)}"></i><b>${escHtml(props.controller)}</b> holds `
+    + `${same.length.toLocaleString('en')} highlighted point${same.length === 1 ? '' : 's'} · `
+    + `${people.toLocaleString('en')} people`;
+}
+
+function select(props) {
+  selection = props?.controller_id ? { id: props.id, controller: props.controller_id } : null;
+  current?.highlight?.(selection);
+  if (!selection) {
+    hideDetails();
+    showHighlightSummary('');
+    return;
+  }
+  showHighlightSummary('');
+  const mine = selection;
+  summarize(props).then((html) => { if (selection === mine) showHighlightSummary(html); }).catch(() => {});
+  showDetails(props);
+}
+
 // ---- map lifecycle ----
 async function mount() {
   const seq = ++mountSeq;
@@ -69,9 +97,10 @@ async function mount() {
   try {
     const mod = await adapters[state.lib]();
     if (seq !== mountSeq) return;
-    const instance = await mod.createMap(container, state, { onMessage: message, onSelect: showDetails });
+    const instance = await mod.createMap(container, state, { onMessage: message, onSelect: select });
     if (seq !== mountSeq) { instance.destroy(); return; }
     current = instance;
+    current.highlight?.(selection);
   } catch (e) {
     console.error(e);
     message(`Failed to start ${state.lib}: ${e.message}`);
@@ -174,6 +203,6 @@ function renderPanel() {
 
 configureWorldpop({ opacity: state.popOpacity, min: state.popMin });
 buildPanel();
-initDetails();
+initDetails(() => select(null));
 renderPanel();
 mount().then(writeHash);

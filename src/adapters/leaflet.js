@@ -27,6 +27,22 @@ function rasterLayer(l) {
   return L.tileLayer(l.url, { maxNativeZoom: l.maxzoom ?? 19, maxZoom: 20, opacity: l.opacity ?? 1, attribution: l.attribution });
 }
 
+const drcBaseStyle = (p) => ({ color: '#222', weight: 0.4, opacity: 1, fillColor: p.color, fillOpacity: p.confidence === 'low' ? 0.55 : 0.9 });
+
+// Style every control point for the current selection ({ id, controller } or null).
+function styleSelection(group, sel) {
+  group.eachLayer((gj) => gj.eachLayer?.((m) => {
+    const p = m.feature.properties;
+    if (!sel) { m.setStyle(drcBaseStyle(p)); return; }
+    if (p.controller_id === sel.controller) {
+      m.setStyle({ color: '#fff', weight: p.id === sel.id ? 3 : 1.2, opacity: 1, fillOpacity: 1 });
+      m.bringToFront();
+    } else {
+      m.setStyle({ weight: 0, opacity: 0, fillOpacity: 0.12 });
+    }
+  }));
+}
+
 function geojsonLayer(o, renderer, onSelect) {
   const group = L.layerGroup();
   group.getAttribution = () => o.attribution;
@@ -35,12 +51,15 @@ function geojsonLayer(o, renderer, onSelect) {
       L.geoJSON(gj, {
         renderer,
         interactive: o.id === 'drc-control',
-        onEachFeature: o.id === 'drc-control' ? (f, layer) => layer.on('click', () => onSelect?.(f.properties)) : undefined,
+        onEachFeature: o.id === 'drc-control' ? (f, layer) => layer.on('click', (e) => {
+          L.DomEvent.stopPropagation(e);
+          onSelect?.(f.properties);
+        }) : undefined,
         pointToLayer: (f, latlng) => L.circleMarker(latlng, {
           renderer, radius: Math.max(2, Math.log10(f.properties.population || 1000) * 2 - 4),
         }),
         style: (f) => (o.id === 'drc-control'
-          ? { color: '#222', weight: 0.4, fillColor: f.properties.color, fillOpacity: f.properties.confidence === 'low' ? 0.55 : 0.9 }
+          ? drcBaseStyle(f.properties)
           : o.id === 'rivers'
           ? (f.geometry.type.includes('Polygon')
             ? { stroke: false, fillColor: '#5b9bd5', fillOpacity: 0.7 }
@@ -48,6 +67,7 @@ function geojsonLayer(o, renderer, onSelect) {
           : { color: '#222', weight: 0.8, fillColor: CONTROL_COLORS[f.properties.mapcolor7 ?? 0], fillOpacity: 0.35 }),
       }).addTo(group);
     });
+    if (o.id === 'drc-control' && group.selection) styleSelection(group, group.selection);
   });
   return group;
 }
@@ -56,6 +76,7 @@ export async function createMap(container, state, { onMessage, onSelect }) {
   const map = L.map(container, { preferCanvas: true, worldCopyJump: true })
     .setView([state.view.lat, state.view.lon], Math.round(state.view.zoom));
   L.control.scale().addTo(map);
+  map.on('click', () => onSelect?.(null));
   const renderer = L.canvas({ padding: 0.5 });
   const cache = new Map();
   let active = [];
@@ -80,6 +101,11 @@ export async function createMap(container, state, { onMessage, onSelect }) {
 
   return {
     apply,
+    highlight(sel) {
+      const group = layerFor('drc-control');
+      group.selection = sel;
+      styleSelection(group, sel);
+    },
     getView() {
       const c = map.getCenter();
       return { lon: L.Util.wrapNum(c.lng, [-180, 180], true), lat: c.lat, zoom: map.getZoom() };

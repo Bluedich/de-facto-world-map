@@ -40,6 +40,10 @@ const countryStyles = CONTROL_COLORS.map((c) => new Style({
   stroke: new Stroke({ color: '#222', width: 0.8 }),
 }));
 
+// Selected control point ({ id, controller }) or null; read by the point style function.
+let selection = null;
+const dimStyles = new globalThis.Map();
+
 function geojsonLayer(o) {
   const source = new VectorSource({ attributions: o.attribution });
   Promise.all(o.files.map(loadGeoJSON)).then((files) => {
@@ -47,6 +51,28 @@ function geojsonLayer(o) {
   });
   const pointStyles = new globalThis.Map();
   const pointStyle = (f) => {
+    if (selection) {
+      const same = f.get('controller_id') === selection.controller;
+      if (same) {
+        const r = Math.max(2, Math.log10(f.get('population') || 1000) * 2 - 4);
+        const isSel = f.get('id') === selection.id;
+        return new Style({
+          zIndex: isSel ? 2 : 1,
+          image: new CircleStyle({
+            radius: r, fill: new Fill({ color: f.get('color') }),
+            stroke: new Stroke({ color: '#fff', width: isSel ? 3 : 1.2 }),
+          }),
+        });
+      }
+      const k = `${f.get('color')}|${Math.round(Math.log10(f.get('population') || 1000) * 2)}`;
+      if (!dimStyles.has(k)) {
+        dimStyles.set(k, new Style({ image: new CircleStyle({
+          radius: Math.max(2, Math.log10(f.get('population') || 1000) * 2 - 4),
+          fill: new Fill({ color: f.get('color') + '1f' }),
+        }) }));
+      }
+      return dimStyles.get(k);
+    }
     const key = `${f.get('color')}|${Math.round(Math.log10(f.get('population') || 1000) * 2)}`;
     if (!pointStyles.has(key)) {
       pointStyles.set(key, new Style({ image: new CircleStyle({
@@ -75,7 +101,7 @@ export async function createMap(container, state, { onMessage, onSelect }) {
   const selectable = { layerFilter: (l) => l.get('selectable'), hitTolerance: 3 };
   map.on('singleclick', (e) => {
     const f = map.forEachFeatureAtPixel(e.pixel, (x) => x, selectable);
-    if (f) onSelect?.(f.getProperties());
+    onSelect?.(f ? f.getProperties() : null);
   });
   map.on('pointermove', (e) => {
     if (!e.dragging) map.getTargetElement().style.cursor = map.hasFeatureAtPixel(e.pixel, selectable) ? 'pointer' : '';
@@ -104,6 +130,10 @@ export async function createMap(container, state, { onMessage, onSelect }) {
 
   return {
     apply,
+    highlight(sel) {
+      selection = sel;
+      cache.get('drc-control')?.changed();
+    },
     getView() {
       const v = map.getView();
       const [lon, lat] = toLonLat(v.getCenter());

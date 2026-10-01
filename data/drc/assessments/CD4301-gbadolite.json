@@ -1,0 +1,77 @@
+{
+ "unit_id": "CD4301-gbadolite",
+ "as_of": "2026-10-01",
+ "summary": "Gbadolite is the provincial capital of Nord-Ubangi in the far north-west of the DRC, near the Ubangi river border with the Central African Republic and far from the eastern conflict zones. No armed group is reported to hold territory in the city or surrounding villages. The city is policed by the PNC (provincial police command) with FARDC units garrisoned at the city and airport and ANR present; surrounding villages (Molegbe, Fiwa, Kawadze, Nganza health areas) fall under PNC posts, territorial administration and customary chiefs. Insecurity is limited to ordinary crime and occasional spill-over concerns from CAR (refugees, cross-border armed elements) that do not amount to territorial control. Web search was unavailable in this run (search budget exhausted), so the assessment rests mainly on default state presence.",
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://en.wikipedia.org/wiki/Gbadolite",
+   "title": "Gbadolite",
+   "publisher": "Wikipedia",
+   "date": null
+  }
+ ],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Gbadolite city and its neighbourhoods (Nzekele, Gbado 1, Gbado 2, Kaya, Bondeko, Bolingo, Kratos, Nganza, Buse)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    },
+    {
+     "entity_id": "cod-anr",
+     "role": "present"
+    }
+   ],
+   "evidence": "Provincial capital of Nord-Ubangi with provincial PNC command, FARDC garrison and airport, and provincial institutions; no reported armed-group presence or parallel authority. Policing and detention are handled by state forces.",
+   "source_ids": [
+    "s1"
+   ]
+  },
+  {
+   "zone_id": "z2",
+   "description": "Villages around Gbadolite (Wakwa/Molegbe, Mogoro, Badia, Nzenge, Ngbamande/Fiwa, Ndongo, Nganza, Wele)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    }
+   ],
+   "evidence": "Peri-urban and rural villages within ~25 km of Gbadolite with no reported armed-group activity; PNC posts, territorial administration and customary chiefs are the default authority, with FARDC nearby in Gbadolite. No recent sources could be retrieved in this run.",
+   "source_ids": []
+  }
+ ],
+ "locations": {
+  "cod-34NDK9973_1": "z1",
+  "cod-34NDK8967_1": "z2",
+  "cod-34NDK7687_1": "z2",
+  "cod-34NDK8361_3": "z2",
+  "cod-34NDK8174_1": "z2",
+  "cod-34NDK7577_1": "z2",
+  "cod-34NDK8769_2": "z2",
+  "cod-34NEK0674_1": "z2",
+  "cod-34NDK8388_2": "z2",
+  "cod-34NDK9973_1-fQ8XAQVr3TI": "z1",
+  "cod-34NDK9973_1-LSE1YL4PQ3S": "z1",
+  "cod-34NDK9973_1-Jj8SjyXuK6H": "z1",
+  "cod-34NDK9973_1-zNePXpmBjTh": "z1",
+  "cod-34NDK9973_1-N3kKtolrpxG": "z1",
+  "cod-34NDK9973_1-HSLO0A6iF1s": "z1",
+  "cod-34NDK9973_1-Vz6JbhfKb8x": "z1",
+  "cod-34NDK9973_1-yIRZx6FFnbe": "z1",
+  "cod-34NDK9973_1-rej8Za4qGHe": "z1"
+ }
+}

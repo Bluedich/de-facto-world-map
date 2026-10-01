@@ -1,0 +1,131 @@
+{
+ "unit_id": "CD4306-bosobolo",
+ "as_of": "2026-10-01",
+ "summary": "Bosobolo territory (Nord-Ubangi) lies in the far north-west of the DRC on the border with the Central African Republic, far from the eastern conflict zones. No Congolese or foreign armed group is known to hold territory here. The territorial seat Bosobolo and the Bili area (which hosts Central African refugees in a UNHCR-supported site) are run by the territorial administration with PNC posts, while FARDC and border services are deployed along the Ubangi/CAR frontier. Rural villages fall under customary chiefs and PNC posts; insecurity consists of ordinary crime, transhumant herder tensions and occasional cross-border incursions by CAR armed elements that do not amount to territorial control. Web search was unavailable in this run (search budget exhausted, news/OCHA sites blocked), so the assessment rests on default state presence and general knowledge.",
+ "sources": [],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Bosobolo territorial seat and Bili centre (Sanduku, Wango), including the refugee-hosting Bili area",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    },
+    {
+     "entity_id": "cod-anr",
+     "role": "present"
+    }
+   ],
+   "evidence": "Administrative centres of a calm territory with no reported armed-group activity; policing by PNC with FARDC/border units deployed near the CAR border. Not verified by recent sources in this run.",
+   "source_ids": []
+  },
+  {
+   "zone_id": "z2",
+   "description": "Rural villages of Bosobolo secteur (Bosobolo health zone: Bombe, Bokada, Bomanza, Mongo Mono, Modiri, Goyongo, Bososama, Kwala, Ndubulu, Komenge, Dula, Capsa Bolo areas)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "customary",
+     "role": "allied"
+    }
+   ],
+   "evidence": "No armed-group control reported in this interior part of Nord-Ubangi; order is maintained by PNC posts, territorial administration and customary chiefs. Not verified by recent sources in this run.",
+   "source_ids": []
+  },
+  {
+   "zone_id": "z3",
+   "description": "Rural villages of Bili secteur near the Ubangi river / CAR border (Kelo, Buda, Wodzo, Duguru, Pandu, Baraga, Mongoro, Kongo, Gbangi, Sidi, Mbele, Kedza, Boduna areas)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    },
+    {
+     "entity_id": "customary",
+     "role": "allied"
+    }
+   ],
+   "evidence": "Border villages under PNC posts and customary chiefs with FARDC/border-service deployments along the river; possible sporadic cross-border incursions from CAR do not amount to control. Not verified by recent sources in this run.",
+   "source_ids": []
+  }
+ ],
+ "locations": {
+  "cod-34NCK2462_2": "z2",
+  "cod-34NCK7563_1": "z1",
+  "cod-34NCK2553_1": "z2",
+  "cod-34NCK1453_1": "z2",
+  "cod-34NCK4370_1": "z2",
+  "cod-34NDK1876_2": "z2",
+  "cod-34NCK1754_1": "z2",
+  "cod-34NCK4668_1": "z2",
+  "cod-34NCK5265_1": "z2",
+  "cod-34NDL2918_1": "z2",
+  "cod-34NCK5564_1": "z2",
+  "cod-34NCK2843_1": "z2",
+  "cod-34NCK6960_1": "z2",
+  "cod-34NDK2777_1": "z2",
+  "cod-34NCK8975_1": "z2",
+  "cod-34NCK3166_1": "z2",
+  "cod-34NDK0376_1": "z2",
+  "cod-34NCK4967_1": "z2",
+  "cod-34NDK1177_1": "z2",
+  "cod-34NCK2648_2": "z2",
+  "cod-34NCK3566_1": "z2",
+  "cod-34NDK0876_1": "z2",
+  "cod-34NCK6263_1": "z2",
+  "cod-34NCK2746_1": "z2",
+  "cod-34NDL2620_1": "z2",
+  "cod-34NDK2376_1": "z2",
+  "cod-34NCK7967_1": "z2",
+  "cod-34NDK2399_2": "z2",
+  "cod-34NDL1227_1": "z2",
+  "cod-34NCK8880_1": "z2",
+  "cod-34NCL8204_1": "z1",
+  "cod-34NCL8002_1": "z1",
+  "cod-34NCK8895_1": "z3",
+  "cod-34NCK8991_1": "z3",
+  "cod-34NCL9936_1": "z3",
+  "cod-34NCL9739_2": "z3",
+  "cod-34NCL8721_1": "z3",
+  "cod-34NCL8926_1": "z3",
+  "cod-34NCL7438_1": "z3",
+  "cod-34NCL0753_1": "z3",
+  "cod-34NCL9509_1": "z3",
+  "cod-34NCL7501_3": "z3",
+  "cod-34NCL9310_1": "z3",
+  "cod-34NCL7343_1": "z3",
+  "cod-34NCL7230_1": "z3",
+  "cod-34NCL9444_1": "z3",
+  "cod-34NCL7454_1": "z3",
+  "cod-34NCL8544_1": "z3",
+  "cod-34NCL9732_1": "z3",
+  "cod-34NCL2645_1": "z3",
+  "cod-34NCL8743_1": "z3",
+  "cod-34NCL8808_1": "z3",
+  "cod-34NCL0834_1": "z3",
+  "cod-34NCL9009_1": "z3",
+  "cod-34NCL7327_1": "z3",
+  "cod-34NCL1849_1": "z3",
+  "cod-34NCK8887_1": "z3",
+  "cod-34NCL9735_1": "z3",
+  "cod-34NCL7848_1": "z3",
+  "cod-34NDL0113_1": "z3",
+  "cod-34NCL6064_2": "z3"
+ }
+}

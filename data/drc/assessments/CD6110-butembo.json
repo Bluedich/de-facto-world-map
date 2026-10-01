@@ -1,0 +1,149 @@
+{
+ "unit_id": "CD6110-butembo",
+ "as_of": "2026-10-01",
+ "summary": "Butembo city (Bulengera, Kimemi, Mususa, Vulamba communes and the Katwa/Butembo health zones) is firmly state-held. The PNC handles everyday order, arrests and disputes, FARDC Grand Nord units and a MONUSCO base are present, and the city is run by an officer-mayor under the state of siege. Wazalendo/Mai-Mai groups are present in and around the city and occasionally clash with security forces or raid the outer hill neighbourhoods, but they do not rule any part of it. The AFC/M23 front stayed south in Lubero territory and the ADF operates further north and west in Beni/Lubero. Live web research was unavailable for this unit (search budget exhausted, sites blocked), so the assessment rests on the record to mid-2026 and background knowledge.",
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://kivusecurity.org/",
+   "title": "Kivu Security Tracker (Butembo/Lubero incident data, background)",
+   "publisher": "Kivu Security Tracker",
+   "date": null
+  },
+  {
+   "id": "s2",
+   "url": "https://monusco.unmissions.org/",
+   "title": "MONUSCO – Grand Nord/Butembo updates (background)",
+   "publisher": "MONUSCO",
+   "date": null
+  },
+  {
+   "id": "s3",
+   "url": "https://en.wikipedia.org/wiki/Butembo",
+   "title": "Butembo",
+   "publisher": "Wikipedia",
+   "date": null
+  }
+ ],
+ "new_entities": [],
+ "zones": [
+  {
+   "zone_id": "z1",
+   "description": "Butembo city core: commercial centre and inner neighbourhoods of Bulengera, Kimemi, Mususa and Vulamba communes (incl. the city-level settlement record)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "medium",
+   "basis": "area_report",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    },
+    {
+     "entity_id": "un-monusco",
+     "role": "present"
+    },
+    {
+     "entity_id": "cod-wazalendo",
+     "role": "present"
+    }
+   ],
+   "evidence": "Butembo is the main government-held commercial city of the Grand Nord; under the state-of-siege regime it has a military/police-officer mayor, PNC stations in each commune handle order, arrests and disputes, and FARDC units (Sokola 1 Grand Nord) and a MONUSCO base are present. Wazalendo/Mai-Mai fighters and youth groups circulate in the city and have clashed with FARDC/PNC (e.g. 2025 tensions), and the AFC/M23 front remained south in Lubero territory, but no armed group is known to rule any neighbourhood. Not verified against 2026 reporting: live web research was unavailable for this run (search budget exhausted, news/monitoring sites blocked by the egress proxy).",
+   "source_ids": [
+    "s1",
+    "s2",
+    "s3"
+   ]
+  },
+  {
+   "zone_id": "z2",
+   "description": "Peripheral hill neighbourhoods on the city edge (east: Kyaghala, Kambuli, Misebere, Vighole, Mukuna, Muchanga; west/north: Vulindi, Vuvatsi, Vulamba, Ngengere, Irangya)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "inference",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    },
+    {
+     "entity_id": "cod-wazalendo",
+     "role": "raiding"
+    }
+   ],
+   "evidence": "The outer neighbourhoods border rural groupements where Mai-Mai/Wazalendo groups operate (Kalunguta, Vuhovi, Kirindera hills) and have seen sporadic incursions, night attacks and kidnappings; state police and army posts remain the main permanent force and no group is reported to tax or administer these areas. Not verified against 2026 reporting: live web research was unavailable for this run (search budget exhausted, news/monitoring sites blocked by the egress proxy).",
+   "source_ids": [
+    "s1",
+    "s2"
+   ]
+  },
+  {
+   "zone_id": "z3",
+   "description": "Peri-urban villages outside the city: Kitovo (Vuhovi HZ, north) and Vusumba (Butembo HZ, west)",
+   "controller_id": "cod-pnc",
+   "status": "dominant",
+   "confidence": "low",
+   "basis": "default_state_presence",
+   "since": null,
+   "presence": [
+    {
+     "entity_id": "cod-fardc",
+     "role": "present"
+    },
+    {
+     "entity_id": "cod-wazalendo",
+     "role": "present"
+    }
+   ],
+   "evidence": "Large villages in the immediate Butembo hinterland, on roads to Vuhovi and to the west, administered by the state with police posts; Mai-Mai/Wazalendo elements are active in the surrounding hills but no source reports them ruling these villages. Not verified against 2026 reporting: live web research was unavailable for this run (search budget exhausted, news/monitoring sites blocked by the egress proxy).",
+   "source_ids": [
+    "s1",
+    "s2"
+   ]
+  }
+ ],
+ "locations": {
+  "cod-35NQA5613_1": "z1",
+  "cod-35NQA5823_1": "z3",
+  "cod-35NQA5613_1-T6z6xgFZ0qp": "z2",
+  "cod-35NQA5613_1-YTRf7A6SmrY": "z2",
+  "cod-35NQA5613_1-kkpWMp8NazP": "z2",
+  "cod-35NQA5613_1-lSGQ2CiB9B5": "z2",
+  "cod-35NQA5613_1-kHHoDPbSrK1": "z1",
+  "cod-35NQA5613_1-U5O0LDXWZNo": "z1",
+  "cod-35NQA5613_1-MEjUzElOjFH": "z1",
+  "cod-35NQA5613_1-eqY6K5tHNhG": "z1",
+  "cod-35NQA5613_1-jqnV9FuDR45": "z1",
+  "cod-35NQA5613_1-AuAnyiQfbRG": "z1",
+  "cod-35NQA5613_1-ABS8Oeg19Mj": "z1",
+  "cod-35NQA5613_1-HXAPLYl8C9T": "z1",
+  "cod-35NQA5613_1-OQydyqakDGu": "z1",
+  "cod-35NQA5613_1-GyXBSskHeXb": "z1",
+  "cod-35NQA5613_1-p4H9ow0baDJ": "z1",
+  "cod-35NQA5613_1-k2dFTwWFFOb": "z1",
+  "cod-35NQA5613_1-NZzADWTovv1": "z1",
+  "cod-35NQA5613_1-rLNfXtuDNHK": "z1",
+  "cod-35NQA5613_1-Z4tk92KpEPI": "z2",
+  "cod-35NQA5613_1-txrozpeHjNU": "z2",
+  "cod-35NQA5613_1-G8MOvvUhJZy": "z2",
+  "cod-35NQA4713_1": "z3",
+  "cod-35NQA5613_1-QqHuSRdy9Qd": "z1",
+  "cod-35NQA5613_1-OoDLplNNgvA": "z1",
+  "cod-35NQA5613_1-PjLlegeyqXB": "z1",
+  "cod-35NQA5613_1-iTHTvU2lW2x": "z1",
+  "cod-35NQA5613_1-yfTb6ON2Suq": "z1",
+  "cod-35NQA5613_1-SXLZJiU2ah4": "z2",
+  "cod-35NQA5613_1-sA1baKVtSvB": "z1",
+  "cod-35NQA5613_1-jnez4Vw2L3r": "z1",
+  "cod-35NQA5613_1-wn5OSK5b7UQ": "z1",
+  "cod-35NQA5613_1-OMfXuejcpQI": "z1",
+  "cod-35NQA5613_1-A0oyLWQTWhc": "z2",
+  "cod-35NQA5613_1-yN8b3QVwMdh": "z2",
+  "cod-35NQA5613_1-SBRkiojLCpf": "z2",
+  "cod-35NQA5613_1-T2CYe0dUasP": "z1",
+  "cod-35NQA5613_1-rWJ3LzOnnnJ": "z1"
+ }
+}

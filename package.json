@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "data": "node scripts/fetch-natural-earth.mjs"
+    "data": "node scripts/fetch-natural-earth.mjs",
+    "data:drc": "python3 scripts/drc/build_db.py && python3 scripts/drc/export_geojson.py"
   },
   "dependencies": {
     "cesium": "^1.145.0",

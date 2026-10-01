@@ -104,6 +104,15 @@ async function geojsonSource(o) {
       clampToGround: isRiverLines, // drape river lines over 3D terrain
     });
     for (const e of loaded.entities.values) {
+      if (o.id === 'drc-control' && e.billboard) {
+        e.billboard = undefined;
+        e.point = new Cesium.PointGraphics({
+          color: Cesium.Color.fromCssColorString(e.properties.color.getValue()),
+          pixelSize: Math.max(3, Math.log10(e.properties.population.getValue() || 1000) * 2 - 2),
+          outlineColor: Cesium.Color.BLACK, outlineWidth: 0.5,
+          heightReference: Cesium.HeightReference.CLAMP_TO_GROUND,
+        });
+      }
       if (o.id === 'countries' && e.polygon) {
         const c = CONTROL_COLORS[e.properties.mapcolor7?.getValue() ?? 0] || CONTROL_COLORS[0];
         e.polygon.material = Cesium.Color.fromCssColorString(c).withAlpha(0.35);

@@ -72,6 +72,18 @@ function overlayParts(o, state) {
             },
           },
         );
+      } else if (o.id === 'drc-control') {
+        layers.push({
+          id: `${src}-points`, type: 'circle', source: `${src}-0`,
+          paint: {
+            'circle-color': ['get', 'color'],
+            'circle-radius': ['interpolate', ['linear'], ['zoom'],
+              4, ['interpolate', ['linear'], ['get', 'population'], 1000, 1.5, 100000, 4, 1000000, 8],
+              10, ['interpolate', ['linear'], ['get', 'population'], 1000, 4, 100000, 9, 1000000, 16]],
+            'circle-opacity': ['match', ['get', 'confidence'], 'low', 0.55, 0.9],
+            'circle-stroke-color': '#222', 'circle-stroke-width': 0.4,
+          },
+        });
       } else {
         layers.push(
           {

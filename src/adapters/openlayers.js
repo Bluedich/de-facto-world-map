@@ -7,7 +7,7 @@ import XYZ from 'ol/source/XYZ.js';
 import TileWMS from 'ol/source/TileWMS.js';
 import VectorSource from 'ol/source/Vector.js';
 import GeoJSON from 'ol/format/GeoJSON.js';
-import { Style, Stroke, Fill } from 'ol/style.js';
+import { Style, Stroke, Fill, Circle as CircleStyle } from 'ol/style.js';
 import { fromLonLat, toLonLat } from 'ol/proj.js';
 import { defaults as defaultControls, ScaleLine } from 'ol/control.js';
 import { BASEMAPS, OVERLAYS, byId, CONTROL_COLORS, loadGeoJSON } from '../catalog.js';
@@ -45,6 +45,18 @@ function geojsonLayer(o) {
   Promise.all(o.files.map(loadGeoJSON)).then((files) => {
     files.forEach((gj) => source.addFeatures(fmt.readFeatures(gj)));
   });
+  const pointStyles = new globalThis.Map();
+  const pointStyle = (f) => {
+    const key = `${f.get('color')}|${Math.round(Math.log10(f.get('population') || 1000) * 2)}`;
+    if (!pointStyles.has(key)) {
+      pointStyles.set(key, new Style({ image: new CircleStyle({
+        radius: Math.max(2, Math.log10(f.get('population') || 1000) * 2 - 4),
+        fill: new Fill({ color: f.get('color') }), stroke: new Stroke({ color: '#222', width: 0.4 }),
+      }) }));
+    }
+    return pointStyles.get(key);
+  };
+  if (o.id === 'drc-control') return new VectorLayer({ source, style: pointStyle, updateWhileInteracting: false });
   const style = o.id === 'rivers'
     ? (f) => (f.getGeometry().getType().includes('Polygon') ? lakeStyle : riverStyles[f.get('scalerank') ?? 12] || riverStyles[12])
     : (f) => countryStyles[f.get('mapcolor7') ?? 0];

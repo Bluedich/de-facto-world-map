@@ -173,6 +173,12 @@ export const OVERLAYS = [
     note: 'Stand-in for control polygons: shows how filled areas look on each base.',
   },
   {
+    id: 'drc-control', name: 'De facto control – DRC settlements', kind: 'geojson',
+    files: ['data/drc-control.geojson'],
+    attribution: 'Control: de-facto-world-map; settlements: GRID3',
+    note: 'One point per settlement (>= 1000 people) or city neighbourhood, coloured by controlling force.',
+  },
+  {
     id: 'labels', name: 'Place labels & boundaries (Esri)', kind: 'xyz', opacity: 1,
     url: `${ESRI}/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}`, maxzoom: 19,
     attribution: 'Labels &copy; Esri',

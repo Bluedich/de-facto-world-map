@@ -1,0 +1,117 @@
+{
+"unit_id": "CD6102-nyiragongo",
+"province": "Nord-Kivu",
+"territory": "Nyiragongo",
+"adm2_pcode": "CD6102",
+"part": "1/1",
+"adm3_in_unit": [
+"Nyiragongo"
+],
+"population": 47373,
+"locations": [
+{
+"loc_id": "cod-35MQU6133_1",
+"kind": "settlement",
+"name": "Burambo",
+"alt_names": "Chegera; Kabagana; Kabindi; Kabuye; Kalangala; Kangarame; Kibiriga; Kiroje; Ngobera; Rulimba; Rwibiranga",
+"parent_loc_id": "",
+"lat": "-1.50506",
+"lon": "29.34403",
+"population": "26046",
+"adm3_name": "Nyiragongo",
+"health_zone": "Nyiragongo",
+"health_area": "Buhumba"
+},
+{
+"loc_id": "cod-35MQU6333_2",
+"kind": "settlement",
+"name": "Kbiriga",
+"alt_names": "Hehu; Kiroje; Rutovu",
+"parent_loc_id": "",
+"lat": "-1.49523",
+"lon": "29.36834",
+"population": "7491",
+"adm3_name": "Nyiragongo",
+"health_zone": "Nyiragongo",
+"health_area": "Kasizi"
+},
+{
+"loc_id": "cod-35MQU5123_2",
+"kind": "settlement",
+"name": "Mujoga",
+"alt_names": "Buhama; Mugerwa; Rwanguba",
+"parent_loc_id": "",
+"lat": "-1.59239",
+"lon": "29.2631",
+"population": "7199",
+"adm3_name": "Nyiragongo",
+"health_zone": "Nyiragongo",
+"health_area": "Kibati"
+},
+{
+"loc_id": "cod-35MQU5425_1",
+"kind": "settlement",
+"name": "Kanyanja",
+"alt_names": "",
+"parent_loc_id": "",
+"lat": "-1.58158",
+"lon": "29.28827",
+"population": "1448",
+"adm3_name": "Nyiragongo",
+"health_zone": "Nyiragongo",
+"health_area": "Kibati"
+},
+{
+"loc_id": "cod-35MQU4225_1",
+"kind": "settlement",
+"name": "Rukorwe",
+"alt_names": "Kalangala",
+"parent_loc_id": "",
+"lat": "-1.583",
+"lon": "29.18208",
+"population": "1400",
+"adm3_name": "Nyiragongo",
+"health_zone": "Nyiragongo",
+"health_area": "Rusayo"
+},
+{
+"loc_id": "cod-35MQU6233_1",
+"kind": "settlement",
+"name": "Kalangala",
+"alt_names": "",
+"parent_loc_id": "",
+"lat": "-1.50294",
+"lon": "29.36069",
+"population": "1359",
+"adm3_name": "Nyiragongo",
+"health_zone": "Nyiragongo",
+"health_area": "Kasizi"
+},
+{
+"loc_id": "cod-35MQU4724_1",
+"kind": "settlement",
+"name": "Mutaho",
+"alt_names": "",
+"parent_loc_id": "",
+"lat": "-1.58425",
+"lon": "29.22949",
+"population": "1300",
+"adm3_name": "Nyiragongo",
+"health_zone": "Nyiragongo",
+"health_area": "Kibati"
+},
+{
+"loc_id": "cod-35MQU6231_1",
+"kind": "settlement",
+"name": "Nakabumbi",
+"alt_names": "",
+"parent_loc_id": "",
+"lat": "-1.51886",
+"lon": "29.35582",
+"population": "1130",
+"adm3_name": "Nyiragongo",
+"health_zone": "Nyiragongo",
+"health_area": "Buhumba"
+}
+]
+}

@@ -1,0 +1,143 @@
+{
+"unit_id": "CD8104-luilu-2",
+"province": "Lomami",
+"territory": "Luilu",
+"adm2_pcode": "CD8104",
+"part": "2/2",
+"adm3_in_unit": [
+"Wikong"
+],
+"population": 81728,
+"locations": [
+{
+"loc_id": "cod-34MGS6137_1",
+"kind": "settlement",
+"name": "Masol",
+"alt_names": "Butal; Kakol; Kamengel; Kapuay; Kapushil; Katamakond; Kayind Centre; Kayind Eentre; Kayind Wul; Kombo; Malal; Mpasu; Muandj; Ngandansang; Nganz",
+"parent_loc_id": "",
+"lat": "-7.79624",
+"lon": "23.37046",
+"population": "37499",
+"adm3_name": "Wikong",
+"health_zone": "Wikong",
+"health_area": "Kayind"
+},
+{
+"loc_id": "cod-34MGS4531_1",
+"kind": "settlement",
+"name": "Kapat",
+"alt_names": "Ishiy; Kafunk; Kalamb; Kamajaj; Kambanz; Kampokol; Kamutshilendj; Kisenbend; Muinkand; Rikan; Rukan; Ruwong; Tshiavi; Ushad Kuishiy",
+"parent_loc_id": "",
+"lat": "-7.84932",
+"lon": "23.22378",
+"population": "11467",
+"adm3_name": "Wikong",
+"health_zone": "Wikong",
+"health_area": "Muinkand"
+},
+{
+"loc_id": "cod-34MGS4938_1",
+"kind": "settlement",
+"name": "Kakang",
+"alt_names": "Kazeng; Nkil; Tshiawut",
+"parent_loc_id": "",
+"lat": "-7.79331",
+"lon": "23.26183",
+"population": "8118",
+"adm3_name": "Wikong",
+"health_zone": "Wikong",
+"health_area": "Kakang"
+},
+{
+"loc_id": "cod-34MGS4841_1",
+"kind": "settlement",
+"name": "Mansonj",
+"alt_names": "Ngoy Kabund",
+"parent_loc_id": "",
+"lat": "-7.75986",
+"lon": "23.2496",
+"population": "7675",
+"adm3_name": "Wikong",
+"health_zone": "Wikong",
+"health_area": "Muamb'A Rang"
+},
+{
+"loc_id": "cod-34MGS5828_1",
+"kind": "settlement",
+"name": "Mbangom",
+"alt_names": "",
+"parent_loc_id": "",
+"lat": "-7.87474",
+"lon": "23.34743",
+"population": "4386",
+"adm3_name": "Wikong",
+"health_zone": "Wikong",
+"health_area": "Mbangom"
+},
+{
+"loc_id": "cod-34MGS4820_3",
+"kind": "settlement",
+"name": "Mukatshiot",
+"alt_names": "Kananganan",
+"parent_loc_id": "",
+"lat": "-7.95287",
+"lon": "23.25129",
+"population": "3981",
+"adm3_name": "Wikong",
+"health_zone": "Wikong",
+"health_area": "Kananganan"
+},
+{
+"loc_id": "cod-34MGS5429_1",
+"kind": "settlement",
+"name": "Ntikit",
+"alt_names": "",
+"parent_loc_id": "",
+"lat": "-7.86449",
+"lon": "23.30956",
+"population": "2995",
+"adm3_name": "Wikong",
+"health_zone": "Wikong",
+"health_area": "Ntikit"
+},
+{
+"loc_id": "cod-34MGS5642_2",
+"kind": "settlement",
+"name": "Tshibal",
+"alt_names": "Nsang; Tshibing",
+"parent_loc_id": "",
+"lat": "-7.75038",
+"lon": "23.32662",
+"population": "2148",
+"adm3_name": "Wikong",
+"health_zone": "Wikong",
+"health_area": "Nsang"
+},
+{
+"loc_id": "cod-34MGS4544_1",
+"kind": "settlement",
+"name": "Katambal",
+"alt_names": "",
+"parent_loc_id": "",
+"lat": "-7.7375",
+"lon": "23.2244",
+"population": "1803",
+"adm3_name": "Wikong",
+"health_zone": "Wikong",
+"health_area": "Muamb'A Rang"
+},
+{
+"loc_id": "cod-34MGS6031_1",
+"kind": "settlement",
+"name": "Mpund",
+"alt_names": "",
+"parent_loc_id": "",
+"lat": "-7.85426",
+"lon": "23.35935",
+"population": "1656",
+"adm3_name": "Wikong",
+"health_zone": "Wikong",
+"health_area": "Mbangom"
+}
+]
+}

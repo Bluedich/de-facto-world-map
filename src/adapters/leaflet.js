@@ -35,6 +35,10 @@ function geojsonLayer(o, renderer) {
       L.geoJSON(gj, {
         renderer,
         interactive: false,
+        pointToLayer: (f, latlng) => L.circleMarker(latlng, {
+          renderer, radius: Math.max(2, Math.log10(f.properties.population || 1000) * 2 - 4),
+          color: '#222', weight: 0.4, fillColor: f.properties.color, fillOpacity: f.properties.confidence === 'low' ? 0.55 : 0.9,
+        }),
         style: (f) => (o.id === 'rivers'
           ? (f.geometry.type.includes('Polygon')
             ? { stroke: false, fillColor: '#5b9bd5', fillOpacity: 0.7 }

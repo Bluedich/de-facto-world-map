@@ -1,7 +1,7 @@
 import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
 import { BASEMAPS, OVERLAYS, byId, CONTROL_COLORS, loadGeoJSON } from '../catalog.js';
-import { classify, RELATION_COLOR } from '../relations.js';
+import { classify, RELATION_COLOR, RING } from '../relations.js';
 
 // Tile layer whose URL takes the tile's EPSG:3857 bounding box.
 const BboxTileLayer = L.TileLayer.extend({
@@ -31,21 +31,26 @@ function rasterLayer(l) {
 const drcBaseStyle = (p) => ({ color: '#222', weight: 0.4, opacity: 1, fillColor: p.color, fillOpacity: p.confidence === 'low' ? 0.55 : 0.9 });
 
 // Style every control point for the current selection context (see relations.js) or null.
+// Related points get a dark ring plus a ring marker in the relation colour (rings live in group.rings).
 function styleSelection(group, sel) {
+  group.rings?.clearLayers();
   const front = [];
-  group.eachLayer((gj) => gj.eachLayer?.((m) => {
+  group.eachLayer((gj) => gj !== group.rings && gj.eachLayer?.((m) => {
     const p = m.feature.properties;
     if (!sel) { m.setStyle(drcBaseStyle(p)); return; }
     const rel = classify(p, sel);
     if (!rel) { m.setStyle({ fillColor: p.color, weight: 0, opacity: 0, fillOpacity: 0.12 }); return; }
-    const own = rel === 'controlled';
-    m.setStyle({
-      fillColor: p.color, fillOpacity: 1, opacity: 1,
-      color: RELATION_COLOR[rel] || '#fff', weight: p.id === sel.id ? 3 : own ? 1.2 : 2,
+    m.setStyle({ fillColor: p.color, fillOpacity: 1, opacity: 1, color: '#111', weight: RING.inner });
+    const w = p.id === sel.id ? RING.selectedWidth : RING.width;
+    const ring = L.circleMarker(m.getLatLng(), {
+      renderer: m.options.renderer, interactive: false, fill: false,
+      radius: m.getRadius() + RING.inner / 2 + RING.gap + w / 2, color: RELATION_COLOR[rel] || '#fff', weight: w,
     });
-    front.push([p.id === sel.id ? 2 : own ? 1 : 0, m]);
+    front.push([p.id === sel.id ? 2 : rel === 'controlled' ? 1 : 0, m, ring]);
   }));
-  front.sort((a, b) => a[0] - b[0]).forEach(([, m]) => m.bringToFront());
+  if (!sel) return;
+  group.rings ??= L.layerGroup().addTo(group);
+  front.sort((a, b) => a[0] - b[0]).forEach(([, m, ring]) => { m.bringToFront(); ring.addTo(group.rings); });
 }
 
 function geojsonLayer(o, renderer, onSelect) {

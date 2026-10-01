@@ -9,12 +9,14 @@
 //   sovereign   controlled by another force of the same sovereign
 //   allied      controlled by an ally (the two appear as 'allied' at each other's locations)
 //   present     the entity is otherwise present there
-// Points keep their own fill; the relation is shown by the outline colour (white for controlled).
+// Points keep their own fill and get a double ring: a thin dark ring, then a ring in the relation colour
+// (white for controlled), so the relation stays visible whatever the fill colour.
+export const RING = { inner: 1, gap: 1, width: 2, selectedWidth: 3 };
 
 export const RELATIONS = [
   { id: 'controlled', label: 'controlled' },
   { id: 'contesting', label: 'contested', color: '#e41a1c' },
-  { id: 'raiding', label: 'raided', color: '#ffd92f' },
+  { id: 'raiding', label: 'raided', color: '#ff8c00' },
   { id: 'sovereign', label: 'same sovereign', color: '#4daf4a' },
   { id: 'allied', label: 'allied', color: '#377eb8' },
   { id: 'present', label: 'present', color: '#b07cc6' },

@@ -11,7 +11,7 @@ import { Style, Stroke, Fill, Circle as CircleStyle } from 'ol/style.js';
 import { fromLonLat, toLonLat } from 'ol/proj.js';
 import { defaults as defaultControls, ScaleLine } from 'ol/control.js';
 import { BASEMAPS, OVERLAYS, byId, CONTROL_COLORS, loadGeoJSON } from '../catalog.js';
-import { classify, RELATION_COLOR } from '../relations.js';
+import { classify, RELATION_COLOR, RING } from '../relations.js';
 
 function bboxSource(l) {
   const source = new XYZ({ maxZoom: l.maxzoom, crossOrigin: 'anonymous', attributions: l.attribution });
@@ -57,14 +57,18 @@ function geojsonLayer(o) {
       if (rel) {
         const r = Math.max(2, Math.log10(f.get('population') || 1000) * 2 - 4);
         const isSel = f.get('id') === selection.id;
-        const own = rel === 'controlled';
-        return new Style({
-          zIndex: isSel ? 3 : own ? 2 : 1,
-          image: new CircleStyle({
-            radius: r, fill: new Fill({ color: f.get('color') }),
-            stroke: new Stroke({ color: RELATION_COLOR[rel] || '#fff', width: isSel ? 3 : own ? 1.2 : 2 }),
-          }),
-        });
+        const z = isSel ? 3 : rel === 'controlled' ? 2 : 1;
+        const w = isSel ? RING.selectedWidth : RING.width;
+        // Double ring: dark ring on the point, then a ring in the relation colour (strokes are centred on the radius).
+        return [
+          new Style({ zIndex: z, image: new CircleStyle({
+            radius: r, fill: new Fill({ color: f.get('color') }), stroke: new Stroke({ color: '#111', width: RING.inner }),
+          }) }),
+          new Style({ zIndex: z, image: new CircleStyle({
+            radius: r + RING.inner / 2 + RING.gap + w / 2,
+            stroke: new Stroke({ color: RELATION_COLOR[rel] || '#fff', width: w }),
+          }) }),
+        ];
       }
       const k = `${f.get('color')}|${Math.round(Math.log10(f.get('population') || 1000) * 2)}`;
       if (!dimStyles.has(k)) {

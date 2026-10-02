@@ -2,7 +2,7 @@ import * as maplibregl from 'maplibre-gl';
 import 'maplibre-gl/dist/maplibre-gl.css';
 import workerUrl from 'maplibre-gl/dist/maplibre-gl-worker.mjs?worker&url';
 import { BASEMAPS, OVERLAYS, DEM, byId, wmsTemplate, CONTROL_COLORS } from '../catalog.js';
-import { RELATION_COLOR, RING, relationExpression } from '../relations.js';
+import { RELATION_COLOR, relationExpression } from '../relations.js';
 
 maplibregl.setWorkerUrl(workerUrl);
 
@@ -29,51 +29,33 @@ function rasterSource(l) {
 
 const abs = (path) => new URL(import.meta.env.BASE_URL + path, location.href).href;
 
-// Selection context (see relations.js) or null. Points keep their own colour; related points get a double
-// ring: a dark ring on the point layer, then a ring layer in the relation colour (white for controlled).
-// All other points are dimmed.
+// Selection context (see relations.js) or null. Points keep their own colour; points the entity controls
+// get a white outline, related points an outline in the relation colour; all others are dimmed.
 let selection = null;
 const DRC_POINTS = 'ov-drc-control-points';
-const DRC_RINGS = 'ov-drc-control-rings';
-
-// Point radius by zoom and population, plus `extra` pixels.
-const drcRadius = (extra = 0) => ['interpolate', ['linear'], ['zoom'],
-  4, ['+', extra, ['interpolate', ['linear'], ['get', 'population'], 1000, 1.5, 100000, 4, 1000000, 8]],
-  10, ['+', extra, ['interpolate', ['linear'], ['get', 'population'], 1000, 4, 100000, 9, 1000000, 16]]];
 
 function drcStyle(sel) {
   if (!sel) {
     return {
-      points: {
-        paint: {
-          'circle-opacity': ['match', ['get', 'confidence'], 'low', 0.55, 0.9],
-          'circle-stroke-color': '#222', 'circle-stroke-width': 0.4,
-        },
-        layout: { 'circle-sort-key': 0 },
+      paint: {
+        'circle-color': ['get', 'color'],
+        'circle-opacity': ['match', ['get', 'confidence'], 'low', 0.55, 0.9],
+        'circle-stroke-color': '#222', 'circle-stroke-width': 0.4,
       },
-      rings: { paint: {}, layout: { visibility: 'none' } },
+      layout: { 'circle-sort-key': 0 },
     };
   }
   const rel = relationExpression(sel);
   const isSel = ['==', ['get', 'id'], sel.id ?? ''];
-  const sortKey = ['case', isSel, 3, ['match', rel, 'controlled', 2, 'none', 0, 1]];
   return {
-    points: {
-      paint: {
-        'circle-opacity': ['match', rel, 'none', 0.12, 1],
-        'circle-stroke-color': '#111111',
-        'circle-stroke-width': ['match', rel, 'none', 0, RING.inner],
-      },
-      layout: { 'circle-sort-key': sortKey },
+    paint: {
+      'circle-color': ['get', 'color'],
+      'circle-opacity': ['match', rel, 'none', 0.12, 1],
+      'circle-stroke-color': ['match', rel,
+        ...Object.entries(RELATION_COLOR).filter(([, c]) => c).flat(), '#ffffff'],
+      'circle-stroke-width': ['case', isSel, 3, ['match', rel, 'controlled', 1.2, 'none', 0, 2]],
     },
-    rings: {
-      paint: {
-        'circle-stroke-color': ['match', rel, ...Object.entries(RELATION_COLOR).filter(([, c]) => c).flat(), '#ffffff'],
-        'circle-stroke-opacity': ['match', rel, 'none', 0, 1],
-        'circle-stroke-width': ['case', isSel, RING.selectedWidth, RING.width],
-      },
-      layout: { 'circle-sort-key': sortKey, visibility: 'visible' },
-    },
+    layout: { 'circle-sort-key': ['case', isSel, 3, ['match', rel, 'controlled', 2, 'none', 0, 1]] },
   };
 }
 
@@ -122,13 +104,15 @@ function overlayParts(o, state) {
           },
         );
       } else if (o.id === 'drc-control') {
-        const { points, rings } = drcStyle(selection);
+        const { paint, layout } = drcStyle(selection);
         layers.push({
-          id: DRC_POINTS, type: 'circle', source: `${src}-0`, layout: points.layout,
-          paint: { 'circle-radius': drcRadius(), 'circle-color': ['get', 'color'], ...points.paint },
-        }, {
-          id: DRC_RINGS, type: 'circle', source: `${src}-0`, layout: rings.layout,
-          paint: { 'circle-radius': drcRadius(RING.inner + RING.gap), 'circle-opacity': 0, ...rings.paint },
+          id: `${src}-points`, type: 'circle', source: `${src}-0`, layout,
+          paint: {
+            'circle-radius': ['interpolate', ['linear'], ['zoom'],
+              4, ['interpolate', ['linear'], ['get', 'population'], 1000, 1.5, 100000, 4, 1000000, 8],
+              10, ['interpolate', ['linear'], ['get', 'population'], 1000, 4, 100000, 9, 1000000, 16]],
+            ...paint,
+          },
         });
       } else {
         layers.push(
@@ -235,11 +219,9 @@ export async function createMap(container, state, { onMessage, onSelect }) {
     highlight(sel) {
       selection = sel;
       if (!map.getLayer(DRC_POINTS)) return;
-      const style = drcStyle(sel);
-      for (const [layer, { paint, layout }] of [[DRC_POINTS, style.points], [DRC_RINGS, style.rings]]) {
-        for (const [k, v] of Object.entries(paint)) map.setPaintProperty(layer, k, v);
-        for (const [k, v] of Object.entries(layout)) map.setLayoutProperty(layer, k, v);
-      }
+      const { paint, layout } = drcStyle(sel);
+      for (const [k, v] of Object.entries(paint)) map.setPaintProperty(DRC_POINTS, k, v);
+      for (const [k, v] of Object.entries(layout)) map.setLayoutProperty(DRC_POINTS, k, v);
     },
     getView() {
       const c = map.getCenter();

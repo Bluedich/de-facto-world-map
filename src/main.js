@@ -10,9 +10,9 @@ const adapters = {
 };
 
 const DEFAULTS = {
-  lib: 'maplibre', base: 'esri-imagery', overlays: ['hillshade'],
-  globe: true, terrain: false, exaggeration: 1.5,
-  popOpacity: 0.85, popMin: 1,
+  lib: 'maplibre', base: 'esri-imagery', overlays: ['hillshade', 'labels'],
+  globe: true, terrain: true, exaggeration: 1.5,
+  popOpacity: 0.5, popMin: 50,
   view: { lon: 30, lat: 25, zoom: 2 },
 };
 

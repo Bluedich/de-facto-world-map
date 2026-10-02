@@ -1,7 +1,7 @@
 import * as Cesium from 'cesium';
 import 'cesium/Build/Cesium/Widgets/widgets.css';
 import { BASEMAPS, OVERLAYS, DEM, byId, CONTROL_COLORS, loadGeoJSON } from '../catalog.js';
-import { classify, RELATION_COLOR, RING } from '../relations.js';
+import { classify, RELATION_COLOR } from '../relations.js';
 
 const ION_TOKEN_KEY = 'cesiumIonToken';
 const FOV = Cesium.Math.toRadians(60);
@@ -94,33 +94,18 @@ function heightToZoom(h, lat, px) {
 }
 
 // Style every control point for the current selection context (see relations.js) or null.
-// Related points get a dark outline plus a ring point (transparent fill, outline in the relation colour)
-// in the `rings` data source. Point outlines are drawn outside pixelSize.
-function styleSelection(ds, sel, rings) {
+function styleSelection(ds, sel) {
   const now = Cesium.JulianDate.now();
-  rings.entities.suspendEvents();
-  rings.entities.removeAll();
   for (const e of ds.entities.values) {
     if (!e.point) continue;
     const p = e.properties.getValue(now);
     const rel = sel ? classify(p, sel) : null;
+    const own = rel === 'controlled';
     const color = Cesium.Color.fromCssColorString(p.color);
     e.point.color = sel && !rel ? color.withAlpha(0.12) : color;
-    e.point.outlineColor = Cesium.Color.fromCssColorString(rel ? '#111' : '#000');
-    e.point.outlineWidth = !sel ? 0.5 : rel ? RING.inner : 0;
-    if (!rel) continue;
-    rings.entities.add({
-      position: e.position,
-      point: {
-        pixelSize: e.point.pixelSize.getValue(now) + 2 * (RING.inner + RING.gap),
-        color: Cesium.Color.TRANSPARENT,
-        outlineColor: Cesium.Color.fromCssColorString(RELATION_COLOR[rel] || '#fff'),
-        outlineWidth: p.id === sel.id ? RING.selectedWidth : RING.width,
-        disableDepthTestDistance: Number.POSITIVE_INFINITY,
-      },
-    });
+    e.point.outlineColor = !rel ? Cesium.Color.BLACK : Cesium.Color.fromCssColorString(RELATION_COLOR[rel] || '#fff');
+    e.point.outlineWidth = !sel ? 0.5 : !rel ? 0 : p.id === sel.id ? 3 : own ? 1.5 : 2;
   }
-  rings.entities.resumeEvents();
 }
 
 async function geojsonSource(o) {
@@ -185,10 +170,9 @@ export async function createMap(container, state, { onMessage, onSelect }) {
 
   const clicks = new Cesium.ScreenSpaceEventHandler(viewer.scene.canvas);
   clicks.setInputAction((e) => {
-    // drillPick so selection rings drawn over a point do not hide it.
-    const picked = viewer.scene.drillPick(e.position, 5).map((x) => x?.id)
-      .find((x) => x?.entityCollection?.owner?.name === 'drc-control' && x.properties);
-    onSelect?.(picked ? picked.properties.getValue(Cesium.JulianDate.now()) : null);
+    const picked = viewer.scene.pick(e.position)?.id;
+    const isPoint = picked?.entityCollection?.owner?.name === 'drc-control' && picked.properties;
+    onSelect?.(isPoint ? picked.properties.getValue(Cesium.JulianDate.now()) : null);
   }, Cesium.ScreenSpaceEventType.LEFT_CLICK);
 
   const imageryCache = new Map(); // id -> ImageryLayer
@@ -196,8 +180,6 @@ export async function createMap(container, state, { onMessage, onSelect }) {
   let terrainKey = null;
   let seq = 0;
   let selection = null;
-  const rings = new Cesium.CustomDataSource('drc-rings');
-  viewer.dataSources.add(rings);
 
   async function apply(next) {
     const mine = ++seq;
@@ -225,12 +207,11 @@ export async function createMap(container, state, { onMessage, onSelect }) {
       const on = next.overlays.includes(o.id);
       if (on && !dataSources.has(o.id)) {
         dataSources.set(o.id, geojsonSource(o).then((ds) => {
-          if (o.id === 'drc-control' && selection) styleSelection(ds, selection, rings);
+          if (o.id === 'drc-control' && selection) styleSelection(ds, selection);
           return viewer.dataSources.add(ds);
         }));
       }
       if (dataSources.has(o.id)) dataSources.get(o.id).then((ds) => { ds.show = next.overlays.includes(o.id); });
-      if (o.id === 'drc-control') rings.show = on;
     }
 
     viewer.scene.verticalExaggeration = next.exaggeration;
@@ -248,7 +229,7 @@ export async function createMap(container, state, { onMessage, onSelect }) {
     apply,
     highlight(sel) {
       selection = sel;
-      dataSources.get('drc-control')?.then((ds) => styleSelection(ds, sel, rings));
+      dataSources.get('drc-control')?.then((ds) => styleSelection(ds, sel));
     },
     getView() {
       const c = viewer.camera.positionCartographic;

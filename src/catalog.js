@@ -152,7 +152,7 @@ export const OVERLAYS = [
     note: 'Colour by height computed client-side from the DEM (MapLibre color-relief layer).',
   },
   {
-    id: 'worldpop', name: 'Population density (WorldPop 100 m, 2020)', kind: 'bbox', opacity: 0.85, maxzoom: 14,
+    id: 'worldpop', name: 'Population density (WorldPop 100 m, 2020)', kind: 'bbox', opacity: 0.5, maxzoom: 14,
     url: worldpopUrl('WorldPop_Population_Density_100m', 2020),
     attribution: 'Population: <a href="https://www.worldpop.org">WorldPop</a> (CC BY 4.0) via Esri Living Atlas',
     note: '100 m grid, rendered on the fly by Esri. Best on a dark base.',

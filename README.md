@@ -15,6 +15,8 @@ npm run build    # static site in dist/
 
 The URL hash stores library, base map, overlays and view, so a configuration can be shared as a link.
 
+Google Analytics (GA4) is included only in production builds when `VITE_GA_MEASUREMENT_ID` is set, e.g. `VITE_GA_MEASUREMENT_ID=G-XXXXXXXXXX npm run build`. The GitHub Pages workflow reads it from the repository variable `GA_MEASUREMENT_ID` (Settings → Secrets and variables → Actions → Variables). Besides page views it sends `select_library` and `select_basemap` events.
+
 ## What can be switched
 
 - **Library**: MapLibre GL JS, CesiumJS, OpenLayers, Leaflet (`src/adapters/`)

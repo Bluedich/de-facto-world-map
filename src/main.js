@@ -1,6 +1,7 @@
 import { BASEMAPS, OVERLAYS, LIBRARIES, POP_CUTOFFS, byId, configureWorldpop, loadGeoJSON } from './catalog.js';
 import { initDetails, showDetails, hideDetails, showHighlightSummary, loadIndex } from './details.js';
 import { RELATIONS, buildContext, summarize } from './relations.js';
+import { track } from './analytics.js';
 
 const adapters = {
   maplibre: () => import('./adapters/maplibre.js'),
@@ -141,6 +142,7 @@ function buildPanel() {
       <div class="note">${l.note}</div></label>`).join('');
   $('libraries').addEventListener('change', (e) => {
     state.lib = e.target.value;
+    track('select_library', { library: state.lib });
     renderPanel();
     writeHash();
     mount().then(writeHash);
@@ -150,7 +152,7 @@ function buildPanel() {
   $('base').innerHTML = groups.map((g) => `<optgroup label="${g}">${
     BASEMAPS.filter((b) => b.group === g).map((b) => `<option value="${b.id}">${b.name}</option>`).join('')
   }</optgroup>`).join('');
-  $('base').addEventListener('change', (e) => { state.base = e.target.value; update(); });
+  $('base').addEventListener('change', (e) => { state.base = e.target.value; track('select_basemap', { basemap: state.base }); update(); });
 
   $('overlays').innerHTML = OVERLAYS.map((o) => `
     <label data-id="${o.id}"><input type="checkbox" value="${o.id}"> ${o.name}

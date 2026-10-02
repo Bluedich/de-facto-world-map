@@ -1,5 +1,5 @@
-// Google Analytics 4. Enabled only in production builds with VITE_GA_MEASUREMENT_ID set
-// (e.g. `VITE_GA_MEASUREMENT_ID=G-XXXXXXXXXX npm run build`).
+// Google Analytics 4. Enabled only in production builds; the ID comes from VITE_GA_MEASUREMENT_ID
+// in .env.production.
 const id = import.meta.env.VITE_GA_MEASUREMENT_ID;
 const enabled = import.meta.env.PROD && /^G-[A-Z0-9]+$/.test(id || '');
 
